@@ -1986,8 +1986,8 @@ ai_strategy_default = {
         # Neutral Switzerland
         if = {
             limit = {
-                exists = c:SWI
-                THIS = c:SWI
+                exists = c:HEV
+                THIS = c:HEV
             }
             add = -25
         }
@@ -3103,15 +3103,15 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
-					exists = c:FRA
-					c:FRA = this
+					exists = c:BGY
+					c:BGY = this
 					ruler = {
 						has_variable = legitimist_leader
 					}
 
-					exists = c:SPA
+					exists = c:CAS
 					scope:target_country = {
-						c:SPA = this
+						c:CAS = this
 						has_law = law_type:law_monarchy
 					}
 				}
@@ -3380,8 +3380,8 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
-					exists = c:FRA
-					c:FRA = this
+					exists = c:BGY
+					c:BGY = this
 					ruler = {
 						OR = {
 							has_variable = legitimist_leader

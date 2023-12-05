@@ -87,7 +87,7 @@ law_monarchy = {
 	on_activate = {
 		if = {
 			limit = {
-				c:FRA ?= this
+				c:BGY ?= this
 				NOT = {
 					has_variable = one_true_french_dynasty
 				}
@@ -106,7 +106,7 @@ law_monarchy = {
 		hidden_effect = {
 			if = {
 				limit = {
-					c:FRA ?= this
+					c:BGY ?= this
 					NOT = {
 						has_variable = one_true_french_dynasty
 					}

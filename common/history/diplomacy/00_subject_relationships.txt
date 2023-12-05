@@ -25,7 +25,7 @@
 			type = dominion
 		}
 	}
-	c:SPA = {
+	c:CAS = {
 		create_diplomatic_pact = {
 			country = c:CUB
 			type = puppet
@@ -362,7 +362,7 @@
 		}
 	}
 
-	c:FRA = {
+	c:BGY = {
 		# Tahiti
 		create_diplomatic_pact = {
 			country = c:PLY

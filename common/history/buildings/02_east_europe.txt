@@ -504,7 +504,7 @@
 		}
 	}
 	s:STATE_ESTONIA={
-		region_state:LAT={
+		region_state:UBD={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -526,7 +526,7 @@
 		}
 	}
 	s:STATE_LATVIA={
-		region_state:LAT={
+		region_state:UBD={
 			create_building={
 				building="building_rye_farm"
 				level=3
@@ -542,7 +542,7 @@
 		}
 	}
 	s:STATE_LITHUANIA={
-		region_state:LAT={
+		region_state:UBD={
 			create_building={
 				building="building_rye_farm"
 				level=4
@@ -964,7 +964,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_TRANSYLVANIA={
-		region_state:UKR={
+		region_state:ROM={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -992,7 +992,7 @@
 		}
 	}
 	s:STATE_NORTHERN_TRANSYLVANIA={
-		region_state:UKR={
+		region_state:ROM={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -1026,7 +1026,7 @@
 		}
 	}
 	s:STATE_MOLDAVIA={
-		region_state:UKR={
+		region_state:ROM={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -1054,7 +1054,7 @@
 		}
 	}
 	s:STATE_WALLACHIA={
-		region_state:UKR={
+		region_state:ROM={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1112,7 +1112,7 @@
 		}
 	}
 	s:STATE_BESSARABIA={
-		region_state:UKR={
+		region_state:ROM={
 			create_building={
 				building="building_fishing_wharf"
 				level=1

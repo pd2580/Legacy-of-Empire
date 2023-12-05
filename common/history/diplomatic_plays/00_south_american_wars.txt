@@ -33,25 +33,25 @@
 			}
 		}	
 	}
-	c:BRI = {
+	c:AQU = {
 		create_diplomatic_play = {
 			name = capital_reclaim
 		
-			target_state = s:STATE_AQUITAINE.region_state:OCC
+			target_state = s:STATE_AQUITAINE.region_state:AQR
 			
 			war = yes
 			
 			type = dp_return_state
 
 			add_war_goal = {
-				holder = c:OCC
+				holder = c:AQR
 				type = conquer_state
-				target_state = s:STATE_CATALONIA.region_state:BRI
+				target_state = s:STATE_CATALONIA.region_state:AQU
 			}
 			add_war_goal = {
-				holder = c:OCC
+				holder = c:AQR
 				type = conquer_state
-				target_state = s:STATE_LANGUEDOC.region_state:BRI
+				target_state = s:STATE_LANGUEDOC.region_state:AQU
 			}
 		}	
 	}

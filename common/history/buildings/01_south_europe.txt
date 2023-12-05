@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_LOMBARDY={
-		region_state:SAV={
+		region_state:MIL={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -46,7 +46,7 @@
 		}
 	}
 	s:STATE_PIEDMONT={
-		region_state:SAV={
+		region_state:MIL={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -140,7 +140,7 @@
 		}
 	}
 	s:STATE_SARDINIA={
-		region_state:COR={
+		region_state:SYR={
 			create_building={
 				building="building_iron_mine"
 				level=3
@@ -190,7 +190,7 @@
 		}
 	}
 	s:STATE_UMBRIA={
-		region_state:BRS={
+		region_state:UMB={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -212,7 +212,7 @@
 		}
 	}
 	s:STATE_CORSICA={
-		region_state:COR={
+		region_state:SYR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -234,7 +234,7 @@
 		}
 	}
 	s:STATE_CAMPANIA={
-		region_state:BIG={
+		region_state:NAP={
 			create_building={
 				building="building_government_administration"
 				level=6
@@ -328,7 +328,7 @@
 		}
 	}
 	s:STATE_CALABRIA={
-		region_state:BIG={
+		region_state:NAP={
 			create_building={
 				building="building_food_industry"
 				level=2
@@ -374,7 +374,7 @@
 		}
 	}
 	s:STATE_APULIA={
-		region_state:GRE={
+		region_state:HEL={
 			create_building={
 				building="building_sugar_plantation"
 				level=2
@@ -402,7 +402,7 @@
 		}
 	}
 	s:STATE_ABRUZZO={
-		region_state:BRS={
+		region_state:UMB={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=1
@@ -436,7 +436,7 @@
 		}
 	}
 	s:STATE_SAVOY={
-		region_state:SWI={
+		region_state:HEV={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -658,7 +658,7 @@
 		}
 	}
 	s:STATE_VENETIA={
-		region_state:SAV={
+		region_state:MIL={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -716,7 +716,7 @@
 		}
 	}
 	s:STATE_SICILY={
-		region_state:COR={
+		region_state:SYR={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -750,7 +750,7 @@
 		}
 	}
 	s:STATE_TOLEDO={
-		region_state:SPA={
+		region_state:CAS={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -842,7 +842,7 @@
 		}
 	}
 	s:STATE_ASTURIAS={
-		region_state:SPA={
+		region_state:CAS={
 			create_building={
 				building="building_gold_mine"
 				level=4
@@ -876,7 +876,7 @@
 		}
 	}
 	s:STATE_CASTILE={
-		region_state:SPA={
+		region_state:CAS={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -934,7 +934,7 @@
 		}
 	}
 	s:STATE_NAVARRA={
-		region_state:OCC={
+		region_state:AQR={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1046,7 +1046,7 @@
 		}
 	}
 	s:STATE_ARAGON={
-		region_state:SPA={
+		region_state:CAS={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -1086,7 +1086,7 @@
 		}
 	}
 	s:STATE_CATALONIA={
-		region_state:BRI={
+		region_state:AQU={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -1168,7 +1168,7 @@
 		}
 	}
 	s:STATE_BALEARES={
-		region_state:COR={
+		region_state:SYR={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -1190,7 +1190,7 @@
 		}
 	}
 	s:STATE_ANDALUSIA={
-		region_state:MOR={
+		region_state:ALC={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1254,7 +1254,7 @@
 		}
 	}
 	s:STATE_GRANADA={
-		region_state:MOR={
+		region_state:ALC={
 			create_building={
 				building="building_rice_farm"
 				level=4
@@ -1294,7 +1294,7 @@
 		}
 	}
 	s:STATE_BADAJOZ={
-		region_state:SPA={
+		region_state:CAS={
 			create_building={
 				building="building_livestock_ranch"
 				level=5
@@ -1310,7 +1310,7 @@
 		}
 	}
 	s:STATE_VALENCIA={
-		region_state:MOR={
+		region_state:ALC={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1540,7 +1540,7 @@
 		}
 	}
 	s:STATE_CANARY_ISLANDS={
-		region_state:SPA={
+		region_state:CAS={
 			create_building={
 				building="building_tobacco_plantation"
 				level=2
@@ -1686,7 +1686,7 @@
 		}
 	}
 	s:STATE_DOBRUDJA={
-		region_state:UKR={
+		region_state:ROM={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -1782,7 +1782,7 @@
 		}
 	}
 	s:STATE_NORTHERN_THRACE={
-		region_state:GRE={
+		region_state:HEL={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=2
@@ -2068,7 +2068,7 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS={
-		region_state:GRE={
+		region_state:HEL={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -2088,7 +2088,7 @@
 		}
 	}
 	s:STATE_THESSALIA={
-		region_state:GRE={
+		region_state:HEL={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -2122,7 +2122,7 @@
 		}
 	}
 	s:STATE_SKOPIA={
-		region_state:GRE={
+		region_state:HEL={
 			create_building={
 				building="building_iron_mine"
 				level=2
@@ -2144,7 +2144,7 @@
 		}
 	}
 	s:STATE_MACEDONIA={
-		region_state:GRE={
+		region_state:HEL={
 			create_building={
 				building="building_food_industry"
 				level=1
@@ -2172,7 +2172,7 @@
 		}
 	}
 	s:STATE_WESTERN_THRACE={
-		region_state:GRE={
+		region_state:HEL={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -2246,7 +2246,7 @@
 		}
 	}
 	s:STATE_ATTICA={
-		region_state:GRE={
+		region_state:HEL={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -2304,7 +2304,7 @@
 		}
 	}	
 	s:STATE_PELOPONNESE={
-		region_state:GRE={
+		region_state:HEL={
 			create_building={
 				building="building_wheat_farm"
 				level=1

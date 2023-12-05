@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_IVORY_COAST = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = akan
 				size = 88000
@@ -92,7 +92,7 @@
 		}
 	}
 	s:STATE_SENEGAL = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = fulbe
 				size = 95992
@@ -396,7 +396,7 @@
 		}
 	}
 	s:STATE_BENIN = {
-		region_state:BRI = {
+		region_state:AQU = {
 			create_pop = {
 				culture = edo
 				size = 493792
@@ -425,7 +425,7 @@
 		}
 	}
 	s:STATE_YORUBA_STATES = {
-		region_state:BRI = {
+		region_state:AQU = {
 			create_pop = {
 				culture = yoruba
 				size = 1548008
@@ -438,7 +438,7 @@
 		}
 	}
 	s:STATE_NIGER_DELTA = {
-		region_state:BRI = {
+		region_state:AQU = {
 			create_pop = {
 				culture = ibo
 				size = 1048000
@@ -1936,7 +1936,7 @@
 		}
 	}
 	s:STATE_SOUTH_CAMEROON = {
-		region_state:SPA = {
+		region_state:CAS = {
 			create_pop = {
 				culture = spanish
 				size = 800

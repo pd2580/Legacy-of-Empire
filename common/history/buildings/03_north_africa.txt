@@ -259,7 +259,7 @@
 		}
 	}
 	s:STATE_MARRAKECH={
-		region_state:MOR={
+		region_state:ALC={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -299,7 +299,7 @@
 		}
 	}
 	s:STATE_FEZ={
-		region_state:MOR={
+		region_state:ALC={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -345,7 +345,7 @@
 		}
 	}
 	s:STATE_AL_RIF={
-		region_state:MOR={
+		region_state:ALC={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -365,7 +365,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:SPA={
+		region_state:CAS={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -387,7 +387,7 @@
 		}
 	}
 	s:STATE_INNER_MOROCCO={
-		region_state:MOR={
+		region_state:ALC={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -453,7 +453,7 @@
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
 			}
 		}
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_port"
 				level=2
@@ -551,7 +551,7 @@
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
 			}
 		}
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_port"
 				level=1
@@ -593,7 +593,7 @@
 				activate_production_methods={ "pm_simple_organization" }
 			}	
 		}
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_port"
 				level=1

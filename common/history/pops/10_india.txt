@@ -841,7 +841,7 @@
 		}
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = french
 				size = 29992
@@ -1050,7 +1050,7 @@
 		}
 	}
 	s:STATE_MADRAS = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = tamil
 				size = 182284

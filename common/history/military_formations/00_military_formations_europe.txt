@@ -26,7 +26,7 @@
 				save_scope_as = dutch_peacekeepers
 			}
     }
-	c:BRI = {
+	c:AQU = {
 			create_military_formation = {
 				type = army
 				hq_region = sr:region_occitania
@@ -59,7 +59,7 @@
 				save_scope_as = 1st_aquinite_army
 			}
     }
-	c:OCC = {
+	c:AQR = {
 			create_military_formation = {
 				type = army
 				hq_region = sr:region_occitania

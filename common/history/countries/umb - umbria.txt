@@ -1,7 +1,5 @@
 COUNTRIES = {
-	c:OCC = {
-		set_next_election_date = 1836.9.29
-
+	c:UMB = {
 		effect_starting_technology_tier_1_tech = yes
 		effect_starting_politics_liberal = yes
 
@@ -14,7 +12,7 @@ COUNTRIES = {
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_national_militia
 		
 		set_tax_level = medium
 		
@@ -29,10 +27,6 @@ COUNTRIES = {
 
 		ig:ig_industrialists = {
 			add_ruling_interest_group = yes
-		}
-
-        add_modifier = {
-			name = rebel_fighting
 		}
 	}
 }

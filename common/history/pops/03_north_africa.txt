@@ -372,7 +372,7 @@
 		}
 	}
 	s:STATE_MARRAKECH = {
-		region_state:MOR = {
+		region_state:ALC = {
 			create_pop = {
 				culture = maghrebi
 				size = 686700
@@ -393,7 +393,7 @@
 		}
 	}
 	s:STATE_FEZ = {
-		region_state:MOR = {
+		region_state:ALC = {
 			create_pop = {
 				culture = maghrebi
 				size = 878696
@@ -414,7 +414,7 @@
 		}
 	}
 	s:STATE_AL_RIF = {
-		region_state:MOR = {
+		region_state:ALC = {
 			create_pop = {
 				culture = maghrebi
 				size = 374188
@@ -433,7 +433,7 @@
 				size = 34000
 			}
 		}
-		region_state:SPA = {
+		region_state:CAS = {
 			create_pop = {
 				culture = maghrebi
 				size = 46400
@@ -449,7 +449,7 @@
 		}
 	}
 	s:STATE_INNER_MOROCCO = {
-		region_state:MOR = {
+		region_state:ALC = {
 			create_pop = {
 				culture = berber
 				size = 322000
@@ -508,7 +508,7 @@
 				size = 24012
 			}
 		}
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = maghrebi
 				size = 84722
@@ -578,7 +578,7 @@
 				size = 9281
 			}
 		}
-		region_state:COR = {
+		region_state:SYR = {
 			create_pop = {
 				culture = maghrebi
 				size = 18830
@@ -606,7 +606,7 @@
 		}
 	}
 	s:STATE_ORAN = {
-		region_state:MOR = {
+		region_state:ALC = {
 			create_pop = {
 				culture = maghrebi
 				size = 612178
@@ -629,7 +629,7 @@
 				size = 18401
 			}
 		}
-		region_state:COR = {
+		region_state:SYR = {
 			create_pop = {
 				culture = maghrebi
 				size = 41020

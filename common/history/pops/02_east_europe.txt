@@ -439,7 +439,7 @@
 		}
 	}
 	s:STATE_ESTONIA = {
-		region_state:LAT = {
+		region_state:UBD = {
 			create_pop = {
 				culture = estonian
 				size = 573800
@@ -459,7 +459,7 @@
 		}
 	}
 	s:STATE_LATVIA = {
-		region_state:LAT = {
+		region_state:UBD = {
 			create_pop = {
 				culture = latvian
 				size = 1047496
@@ -492,7 +492,7 @@
 		}
 	}
 	s:STATE_LITHUANIA = {
-		region_state:LAT = {
+		region_state:UBD = {
 			create_pop = {
 				culture = polish
 				size = 111796
@@ -982,7 +982,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_TRANSYLVANIA = {
-		region_state:UKR = {
+		region_state:ROM = {
 			create_pop = {
 				culture = hungarian
 				religion = protestant
@@ -1011,7 +1011,7 @@
 		}
 	}
 	s:STATE_NORTHERN_TRANSYLVANIA = {
-		region_state:UKR = {
+		region_state:ROM = {
 			create_pop = {
 				culture = hungarian
 				religion = protestant
@@ -1040,7 +1040,7 @@
 		}
 	}
 	s:STATE_MOLDAVIA = {
-		region_state:UKR = {
+		region_state:ROM = {
 			create_pop = {
 				culture = polish
 				size = 20008
@@ -1079,7 +1079,7 @@
 		}
 	}
 	s:STATE_WALLACHIA = { # Ballpark estimate: 2,227,865 total for 1836, guessing that its recorded 1859 census marked a 7.77% growth over 1836 or that 1836 is 92.79% of the 1859 census, drawn from a trendline of Transylvanian censuses 1784-1850
-		region_state:UKR = {
+		region_state:ROM = {
 			create_pop = {
 				culture = romanian
 				size = 2107689
@@ -1092,7 +1092,7 @@
 		}
 	}
 	s:STATE_BESSARABIA = {
-		region_state:UKR = {
+		region_state:ROM = {
 			create_pop = {
 				culture = romanian
 				size = 808396

@@ -1,7 +1,7 @@
 ﻿DIPLOMACY = {
 	c:GBR = {
 		create_diplomatic_pact = {
-			country = c:FRA
+			country = c:BGY
 			type = rivalry
 		}
 	}		

@@ -105,8 +105,8 @@
 
 		if = {
 			limit = { 
-				exists = c:FRA
-				c:FRA = this
+				exists = c:BGY
+				c:BGY = this
 				ruler = {
 					has_variable = orleanist_leader
 				}
@@ -262,8 +262,8 @@ ai_strategy_reactionary_agenda = {
 
 		if = {
 			limit = { 
-				exists = c:FRA
-				c:FRA = this
+				exists = c:BGY
+				c:BGY = this
 				ruler = {
 					has_variable = legitimist_leader
 				}
@@ -738,8 +738,8 @@ ai_strategy_nationalist_agenda = {
 
 		if = {
 			limit = { 
-				exists = c:FRA
-				c:FRA = this
+				exists = c:BGY
+				c:BGY = this
 				ruler = {
 					has_variable = bonapartist_leader
 				}

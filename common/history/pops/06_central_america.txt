@@ -176,7 +176,7 @@
 		}
 	}
 	s:STATE_PUERTO_RICO = {
-		region_state:SPA = {
+		region_state:CAS = {
 			create_pop = {
 				culture = caribeno
 				size = 182500
@@ -209,7 +209,7 @@
 		}
 	}
 	s:STATE_WEST_INDIES = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = french
 				size = 22200

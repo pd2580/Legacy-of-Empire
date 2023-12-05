@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:SWI = {
+	c:HEV = {
 		# set_next_election_date = ???
 		
 		effect_starting_technology_tier_2_tech = yes

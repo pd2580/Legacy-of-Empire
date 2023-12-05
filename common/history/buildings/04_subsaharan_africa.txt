@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_IVORY_COAST={
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_port"
 				level=1
@@ -24,7 +24,7 @@
 		}
 	}
 	s:STATE_SENEGAL={
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_sugar_plantation"
 				level=2
@@ -192,7 +192,7 @@
 		}
 	}
 	s:STATE_BENIN={
-		region_state:BRI={
+		region_state:AQU={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -214,7 +214,7 @@
 		}
 	}
 	s:STATE_YORUBA_STATES={
-		region_state:BRI={
+		region_state:AQU={
 			create_building={
 				building="building_port"
 				level=2
@@ -248,7 +248,7 @@
 		}
 	}
 	s:STATE_NIGER_DELTA={
-		region_state:BRI={
+		region_state:AQU={
 			create_building={
 				building="building_sugar_plantation"
 				level=9
@@ -1130,7 +1130,7 @@
 		}
 	}
 	s:STATE_SOUTH_CAMEROON={
-		region_state:SPA={
+		region_state:CAS={
 			create_building={
 				building="building_port"
 				level=1

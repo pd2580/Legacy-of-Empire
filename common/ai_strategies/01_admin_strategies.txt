@@ -56,8 +56,8 @@
 
 		if = {
 			limit = { 
-				exists = c:FRA
-				c:FRA = this
+				exists = c:BGY
+				c:BGY = this
 				ruler = {
 					has_variable = legitimist_leader
 				}
@@ -357,8 +357,8 @@ ai_strategy_industrial_expansion = {
 
 		if = {
 			limit = { 
-				exists = c:FRA
-				c:FRA = this
+				exists = c:BGY
+				c:BGY = this
 				ruler = {
 					OR = {
 						has_variable = orleanist_leader

@@ -1,5 +1,5 @@
 COUNTRIES = {
-	c:POM = {
+	c:MIL = {
 		effect_starting_technology_tier_1_tech = yes
 		effect_starting_politics_liberal = yes
 

@@ -76,7 +76,7 @@
 		}
 	}
 	s:STATE_ZEALAND = {
-		region_state:POM = {
+		region_state:SAX = {
 			create_pop = {
 				culture = danish
 				size = 647996
@@ -400,7 +400,7 @@
 		}
 	}
 	s:STATE_ULSTER = {
-		region_state:IRE = {
+		region_state:EIR = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 1183122
@@ -426,7 +426,7 @@
 		}
 	}
 	s:STATE_MUNSTER = {
-		region_state:IRE = {
+		region_state:EIR = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 2214388
@@ -452,7 +452,7 @@
 		}
 	}
 	s:STATE_LEINSTER = {
-		region_state:IRE = {
+		region_state:EIR = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 1677581
@@ -487,7 +487,7 @@
 		}
 	}
 	s:STATE_CONNAUGHT = {
-		region_state:IRE = {
+		region_state:EIR = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 1319428
@@ -512,7 +512,7 @@
 		}
 	}
 	s:STATE_ILE_DE_FRANCE = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = french
 				size = 1852741
@@ -539,7 +539,7 @@
 				size = 41100
 			}
 		}
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = occitan
 				size = 1038678
@@ -560,7 +560,7 @@
 		}
 	}
 	s:STATE_NORMANDY = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = french
 				size = 2670494
@@ -577,7 +577,7 @@
 		}
 	}
 	s:STATE_LANGUEDOC = {
-		region_state:BRI = {
+		region_state:AQU = {
 			create_pop = {
 				culture = occitan
 				size = 1994848
@@ -602,7 +602,7 @@
 		}
 	}
 	s:STATE_RHONE = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = francoprovencal
 				size = 1709209
@@ -658,7 +658,7 @@
 		}
 	}
 	s:STATE_PICARDY = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = french
 				size = 1470989
@@ -705,7 +705,7 @@
 		}
 	}
 	s:STATE_POITOU = {
-		region_state:BRI = {
+		region_state:AQU = {
 			create_pop = {
 				culture = french
 				size = 1980062
@@ -726,7 +726,7 @@
 		}
 	}
 	s:STATE_GUYENNE = {
-		region_state:BRI = {
+		region_state:AQU = {
 			create_pop = {
 				culture = occitan
 				size = 3893584
@@ -743,7 +743,7 @@
 		}
 	}
 	s:STATE_AUVERGNE_LIMOUSIN = {
-		region_state:BRI = {
+		region_state:AQU = {
 			create_pop = {
 				culture = occitan
 				size = 1949056
@@ -764,7 +764,7 @@
 		}
 	}
 	s:STATE_BRITTANY = {
-		region_state:BRI = {
+		region_state:AQU = {
 			create_pop = {
 				culture = breton
 				size = 1599083
@@ -785,7 +785,7 @@
 		}
 	}
 	s:STATE_BURGUNDY = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = french
 				size = 1561366
@@ -806,7 +806,7 @@
 		}
 	}
 	s:STATE_MAINE_ANJOU = {
-		region_state:BRI = {
+		region_state:AQU = {
 			create_pop = {
 				culture = french
 				size = 2107973
@@ -823,7 +823,7 @@
 		}
 	}
 	s:STATE_CHAMPAGNE = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = french
 				size = 1153438
@@ -844,7 +844,7 @@
 		}
 	}
 	s:STATE_FRANCHE_COMTE = {
-		region_state:SWI = {
+		region_state:HEV = {
 			create_pop = {
 				culture = french
 				size = 770731
@@ -865,7 +865,7 @@
 		}
 	}
 	s:STATE_LORRAINE = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = french
 				size = 1133731
@@ -882,7 +882,7 @@
 		}
 	}
 	s:STATE_AQUITAINE = {
-		region_state:OCC = {
+		region_state:AQR = {
 			create_pop = {
 				culture = occitan
 				size = 3963916
@@ -907,7 +907,7 @@
 		}
 	}
 	s:STATE_ORLEANS = {
-		region_state:FRA = {
+		region_state:BGY = {
 			create_pop = {
 				culture = french
 				size = 1375047
@@ -1174,7 +1174,7 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL = {
-		region_state:SAV = {
+		region_state:MIL = {
 			create_pop = {
 				culture = south_german
 				size = 174100
@@ -1186,7 +1186,7 @@
 		}
 	}
 	s:STATE_POMERANIA = {
-		region_state:POM = {
+		region_state:SAX = {
 			create_pop = {
 				culture = north_german
 				size = 1018800
@@ -1232,7 +1232,7 @@
 		}
 	}
 	s:STATE_EAST_SWITZERLAND = {
-		region_state:SAV = {
+		region_state:MIL = {
 			# 895200 total
 			# 43.3% Protestant, 56.7% Catholic
 
@@ -1258,7 +1258,7 @@
 		}
 	}
 	s:STATE_WEST_SWITZERLAND = {
-		region_state:SWI = {
+		region_state:HEV = {
 			# 1070964 total
 			# 31.4% Catholic, 68.6% Protestant
 
@@ -1304,7 +1304,7 @@
 		}		
 	}
 	s:STATE_ANHALT = {
-		region_state:POM = {
+		region_state:SAX = {
 			create_pop = {
 				culture = north_german
 				size = 1196400
@@ -1399,7 +1399,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG = {
-		region_state:POM = {
+		region_state:SAX = {
 			create_pop = {
 				culture = north_german
 				size = 1558704
@@ -1585,7 +1585,7 @@
 		}
 	}
 	s:STATE_SAXONY = {
-		region_state:POM = {
+		region_state:SAX = {
 			create_pop = {
 				culture = north_german
 				size = 1453212
@@ -1680,7 +1680,7 @@
 		}		
 	}
 	s:STATE_MECKLENBURG = {
-		region_state:POM = {
+		region_state:SAX = {
 			create_pop = {
 				culture = north_german
 				size = 490002

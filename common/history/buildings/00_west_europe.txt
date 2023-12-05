@@ -234,7 +234,7 @@
 		}
 	}
 	s:STATE_ZEALAND={
-		region_state:POM={
+		region_state:SAX={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -1216,7 +1216,7 @@
 		}
 	}
 	s:STATE_ULSTER={
-		region_state:IRE={
+		region_state:EIR={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -1244,7 +1244,7 @@
 		}
 	}
 	s:STATE_MUNSTER={
-		region_state:IRE={
+		region_state:EIR={
 			create_building={
 				building="building_rye_farm"
 				level=3
@@ -1260,7 +1260,7 @@
 		}
 	}
 	s:STATE_LEINSTER={
-		region_state:IRE={
+		region_state:EIR={
 			create_building={
 				building="building_university"
 				level=1
@@ -1294,7 +1294,7 @@
 		}
 	}
 	s:STATE_CONNAUGHT={
-		region_state:IRE={
+		region_state:EIR={
 			create_building={
 				building="building_rye_farm"
 				level=2
@@ -1310,7 +1310,7 @@
 		}
 	}
 	s:STATE_ILE_DE_FRANCE={
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_government_administration"
 				level=30
@@ -1394,7 +1394,7 @@
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_privately_owned_plantation" }
 			}
 		}
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_textile_mills"
 				level=3
@@ -1434,7 +1434,7 @@
 		}
 	}
 	s:STATE_NORMANDY={
-		region_state:FRA={	
+		region_state:BGY={	
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1504,7 +1504,7 @@
 		}
 	}
 	s:STATE_LANGUEDOC={
-		region_state:BRI={
+		region_state:AQU={
 			create_building={
 				building="building_university"
 				level=4
@@ -1562,7 +1562,7 @@
 		}
 	}
 	s:STATE_RHONE={
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_construction_sector"
 				level=2
@@ -1714,7 +1714,7 @@
 		}
 	}
 	s:STATE_PICARDY={
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_textile_mills"
 				level=5
@@ -1776,7 +1776,7 @@
 		}
 	}
 	s:STATE_POITOU={
-		region_state:BRI={
+		region_state:AQU={
 			create_building={
 				building="building_paper_mills"
 				level=4
@@ -1816,7 +1816,7 @@
 		}
 	}
 	s:STATE_MAINE_ANJOU={
-		region_state:BRI={
+		region_state:AQU={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -1868,7 +1868,7 @@
 		}
 	}
 	s:STATE_GUYENNE={
-		region_state:BRI={
+		region_state:AQU={
 			create_building={
 				building="building_government_administration"
 				level=9
@@ -1956,7 +1956,7 @@
 		}
 	}
 	s:STATE_AUVERGNE_LIMOUSIN={
-		region_state:BRI={
+		region_state:AQU={
 			create_building={
 				building="building_government_administration"
 				level=7
@@ -2014,7 +2014,7 @@
 		}
 	}
 	s:STATE_BRITTANY={
-		region_state:BRI={
+		region_state:AQU={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -2072,7 +2072,7 @@
 		}
 	}
 	s:STATE_BURGUNDY={
-		region_state:FRA={	
+		region_state:BGY={	
 			create_building={
 				building="building_tooling_workshops"
 				level=4
@@ -2130,7 +2130,7 @@
 		}
 	}
 	s:STATE_CHAMPAGNE={
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_food_industry"
 				level=6
@@ -2164,7 +2164,7 @@
 		}
 	}
 	s:STATE_FRANCHE_COMTE={
-		region_state:SWI={	
+		region_state:HEV={	
 			create_building={
 				building="building_furniture_manufacturies"
 				level=8
@@ -2192,7 +2192,7 @@
 		}
 	}
 	s:STATE_LORRAINE={
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_tooling_workshops"
 				level=4
@@ -2226,7 +2226,7 @@
 		}
 	}
 	s:STATE_AQUITAINE={
-		region_state:OCC={
+		region_state:AQR={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -2350,7 +2350,7 @@
 		}
 	}
 	s:STATE_ORLEANS={
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_glassworks"
 				level=3
@@ -3102,7 +3102,7 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL={
-		region_state:SAV={
+		region_state:MIL={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -3112,7 +3112,7 @@
 		}
 	}
 	s:STATE_POMERANIA={
-		region_state:POM={
+		region_state:SAX={
 			create_building={
 				building="building_fishing_wharf"
 				level=3
@@ -3223,7 +3223,7 @@
 		}
 	}
 	s:STATE_EAST_SWITZERLAND={
-		region_state:SAV={
+		region_state:MIL={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -3269,7 +3269,7 @@
 		}
 	}
 	s:STATE_WEST_SWITZERLAND={
-		region_state:SWI={
+		region_state:HEV={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -3361,7 +3361,7 @@
 		}
 	}
 	s:STATE_ANHALT={
-		region_state:POM={
+		region_state:SAX={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -3588,7 +3588,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG={
-		region_state:POM={
+		region_state:SAX={
 			create_building={
 				building="building_government_administration"
 				level=13
@@ -4024,7 +4024,7 @@
 		}
 	}
 	s:STATE_SAXONY={
-		region_state:POM={
+		region_state:SAX={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -4140,7 +4140,7 @@
 		}
 	}
 	s:STATE_MECKLENBURG={
-		region_state:POM={
+		region_state:SAX={
 			create_building={
 				building="building_rye_farm"
 				level=3

@@ -1,11 +1,11 @@
 ﻿DIPLOMACY = {
-	c:GRE = {
+	c:HEL = {
 		set_owes_obligation_to = {
 			country = c:RUS
 			setting = yes
 		}
 		set_owes_obligation_to = {
-			country = c:FRA
+			country = c:BGY
 			setting = yes
 		}
 		set_owes_obligation_to = {
@@ -15,7 +15,7 @@
 	}
 	c:POR = {
 		set_owes_obligation_to = {
-			country = c:SPA
+			country = c:CAS
 			setting = yes
 		}
 	}

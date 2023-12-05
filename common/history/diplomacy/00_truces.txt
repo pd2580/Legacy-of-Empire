@@ -26,7 +26,7 @@ DIPLOMACY = {
 }
 
 DIPLOMACY = {
-	c:GRE= {
+	c:HEL= {
 		create_truce = {
 			country = c:TUR
 			months = 12

@@ -112,8 +112,8 @@
 
 		if = {
 			limit = { 
-				exists = c:FRA
-				c:FRA = this
+				exists = c:BGY
+				c:BGY = this
 				ruler = {
 					has_variable = legitimist_leader # strict adherence to the Congress of Vienna
 				}
@@ -250,8 +250,8 @@ ai_strategy_territorial_expansion = {
 
 		if = {
 			limit = { 
-				exists = c:FRA
-				c:FRA = this
+				exists = c:BGY
+				c:BGY = this
 				ruler = {
 					has_variable = bonapartist_leader
 				}
@@ -447,8 +447,8 @@ ai_strategy_colonial_expansion = {
 
 		if = {
 			limit = { 
-				exists = c:FRA
-				c:FRA = this
+				exists = c:BGY
+				c:BGY = this
 				ruler = {
 					has_variable = bonapartist_leader
 				}
@@ -868,8 +868,8 @@ ai_strategy_economic_imperialism = {
 
 		if = {
 			limit = { 
-				exists = c:FRA
-				c:FRA = this
+				exists = c:BGY
+				c:BGY = this
 				ruler = {
 					OR = {
 						has_variable = bonapartist_leader

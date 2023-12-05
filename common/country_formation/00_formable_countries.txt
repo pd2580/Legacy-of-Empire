@@ -121,7 +121,7 @@ RUS = {
 	ai_will_do = { always = yes }
 }
 
-FRA = {
+BGY = {
 	states = { 
 		STATE_ILE_DE_FRANCE 
 		STATE_PROVENCE 

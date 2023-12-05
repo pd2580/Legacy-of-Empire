@@ -240,7 +240,7 @@
 		}
 	}
 	s:STATE_PUERTO_RICO={
-		region_state:SPA={
+		region_state:CAS={
 			create_building={
 				building="building_coffee_plantation"
 				level=2
@@ -296,7 +296,7 @@
 		}
 	}
 	s:STATE_WEST_INDIES={
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_sugar_plantation"
 				level=3

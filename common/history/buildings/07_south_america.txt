@@ -54,7 +54,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:FRA={
+		region_state:BGY={
 			create_building={
 				building="building_port"
 				level=1

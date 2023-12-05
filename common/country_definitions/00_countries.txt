@@ -9,6 +9,17 @@
 	capital = STATE_WEST_COUNTRY
 }
 
+ALC = {
+	color = { 82 66 31 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { british }
+	capital = STATE_FEZ
+}
+
 BRT = {
 	color = { 184 4 4 }
 
@@ -73,7 +84,7 @@ RHI = {
 	capital = STATE_NORTH_RHINE
 }
 
-BIG = {
+NAP = {
 	color = { 67 3 107 }
 	
 	country_type = recognized
@@ -84,7 +95,7 @@ BIG = {
 	capital = STATE_WEST_COUNTRY
 }
 
-BRS = {
+UMB = {
 	color = { 24 3 107 }
 	
 	country_type = recognized
@@ -139,7 +150,7 @@ RUS = {
 	capital = STATE_INGRIA
 }
 
-FRA = {
+BGY = {
 	color = { 130 21 65 }
 
 	country_type = recognized
@@ -173,7 +184,7 @@ WES = {
 	is_named_from_capital = yes
 }
 
-POM = {
+SAX = {
 	color = { 145 129 124 }
 	
 	country_type = recognized
@@ -407,7 +418,7 @@ FLA = {
 	is_named_from_capital = yes
 }
 
-IRE = {
+EIR = {
 	color = { 112  150  105 }
 	
 	country_type = recognized
@@ -499,7 +510,7 @@ NAV = {
 	is_named_from_capital = yes
 }
 
-SPA = {
+CAS = {
 	color = { 173 168 94 }
 	
 	country_type = recognized
@@ -704,18 +715,6 @@ OLD = {
 	
 	cultures = { north_german }
 	capital = STATE_HANNOVER
-}
-
-SAX = {
-	color = { 155  147  180 }
-	
-	country_type = recognized
-
-	tier = kingdom
-	
-	cultures = { north_german }
-	capital = STATE_SAXONY
-	is_named_from_capital = yes
 }
 
 WUR = {
@@ -972,7 +971,7 @@ SLV = {
 	capital = STATE_WEST_SLOVAKIA
 }
 
-SWI = {
+HEV = {
 	color = { 146 206 224 }
 	
 	country_type = recognized
@@ -993,17 +992,6 @@ TRS = {
 	
 	cultures = { hungarian romanian }
 	capital = STATE_SOUTHERN_TRANSYLVANIA
-}
-
-UKR = {
-	color = { 21  96  178 }
-	
-	country_type = recognized
-
-	tier = kingdom
-	
-	cultures = { ukrainian }
-	capital = STATE_KIEV
 }
 
 CZH = {
@@ -1088,7 +1076,7 @@ CYP = {
 	is_named_from_capital = yes
 }
 
-GRE = {
+HEL = {
 	color = { 122  180  210 }
 	
 	country_type = recognized
@@ -2571,7 +2559,7 @@ BIC = {
 	capital = STATE_SOUTH_BENGAL
 }
 
-BRI = {
+AQU = {
 	color = { 185 108 230 }
 	
 	country_type = recognized
@@ -2847,18 +2835,6 @@ ANL = {
 	
 	cultures = { spanish }
 	capital = STATE_ANDALUSIA
-	is_named_from_capital = yes
-}
-
-CAS = {
-	color = hsv360{ 51  67  78 }
-	
-	country_type = recognized
-
-	tier = kingdom
-	
-	cultures = { spanish }
-	capital = STATE_TOLEDO
 	is_named_from_capital = yes
 }
 
@@ -3452,7 +3428,7 @@ SGF = {
 	capital = STATE_BAVARIA
 }
 
-OCC = {
+AQR = {
 	color = { 207 187 252 }
 	country_type = recognized
 	tier = principality
@@ -3470,7 +3446,7 @@ TUV = {
 
 }
 
-COR = {
+SYR = {
 	color = { 68 242 236}
 	country_type = recognized
 	tier = principality
@@ -3517,15 +3493,6 @@ DON = {
 	tier = principality
 	cultures = { russian ukrainian }
 	capital = STATE_ROSTOV
-}
-
-SYR = {
-	color = { 241 245 240 }
-	country_type = unrecognized
-	tier = principality
-	cultures = { mashriqi }
-	religion = sunni
-	capital = STATE_SYRIA
 }
 
 EOT = {
@@ -3933,7 +3900,7 @@ CAU = {
 	capital = STATE_GREATER_CAUCASUS
 }
 
-SAV = {
+MIL = {
 	color = { 235 196 231 }
 	
 	country_type = recognized
