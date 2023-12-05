@@ -1,0 +1,58 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:BRZ = {
+		create_diplomatic_play = {
+			name = ragamuffin_war
+		
+			target_state = s:STATE_RIO_GRANDE_DO_SUL.region_state:PNI
+			
+			war = yes
+			
+			type = dp_annex_war
+
+			add_war_goal = {
+				holder = c:PNI
+				type = conquer_state
+				target_state = s:STATE_SANTA_CATARINA.region_state:BRZ
+			}
+		}			
+	}
+	c:BRZ = {
+		create_diplomatic_play = {
+			name = cabanagem_war
+		
+			target_state = s:STATE_PARA.region_state:PRA
+			
+			war = yes
+			
+			type = dp_annex_war
+
+			add_war_goal = {
+				holder = c:PRA
+				type = conquer_state
+				target_state = s:STATE_MARANHAO.region_state:BRZ
+			}
+		}	
+	}
+	c:BRI = {
+		create_diplomatic_play = {
+			name = capital_reclaim
+		
+			target_state = s:STATE_AQUITAINE.region_state:OCC
+			
+			war = yes
+			
+			type = dp_return_state
+
+			add_war_goal = {
+				holder = c:OCC
+				type = conquer_state
+				target_state = s:STATE_CATALONIA.region_state:BRI
+			}
+			add_war_goal = {
+				holder = c:OCC
+				type = conquer_state
+				target_state = s:STATE_LANGUEDOC.region_state:BRI
+			}
+		}	
+	}
+}

@@ -1,0 +1,89 @@
+﻿MILITARY_FORMATIONS = {
+	c:AMS = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_rhine
+				name = "Dutch Peacekeeprs"
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_skirmish_infantry
+					state_region = s:STATE_HOLLAND
+					count = 60
+				}
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_lancers
+					state_region = s:STATE_HOLLAND
+					count = 30
+				}
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_mobile_artillery
+					state_region = s:STATE_HOLLAND
+					count = 30
+				}
+	
+				save_scope_as = dutch_peacekeepers
+			}
+    }
+	c:BRI = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_occitania
+				name = "1st Aquinite Army"
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_skirmish_infantry
+					state_region = s:STATE_GUYENNE
+					count = 15
+				}
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_line_infantry
+					state_region = s:STATE_GUYENNE
+					count = 15
+				}
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_lancers
+					state_region = s:STATE_GUYENNE
+					count = 15
+				}
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_mobile_artillery
+					state_region = s:STATE_GUYENNE
+					count = 15
+				}
+	
+				save_scope_as = 1st_aquinite_army
+			}
+    }
+	c:OCC = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_occitania
+				name = "Rebel Army"
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_skirmish_infantry
+					state_region = s:STATE_AQUITAINE
+					count = 20
+				}
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_lancers
+					state_region = s:STATE_AQUITAINE
+					count = 5
+				}
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_mobile_artillery
+					state_region = s:STATE_AQUITAINE
+					count = 15
+				}
+	
+				save_scope_as = rebel_army
+			}
+    }
+}
