@@ -786,7 +786,7 @@
 		}
 	}
 	s:STATE_CEYLON = {
-		region_state:GBR = {
+		region_state:TAM = {
 			create_pop = {
 				culture = sinhala
 				size = 849208
@@ -798,7 +798,7 @@
 			}
 			create_pop = {
 				culture = tamil
-				size = 194000
+				size = 394000
 			}
 			create_pop = {
 				culture = mashriqi
@@ -815,10 +815,6 @@
 				size = 16400
 			}
 			create_pop = {
-				culture = british
-				size = 7992
-			}
-			create_pop = {
 				culture = sinhala
 				religion = catholic
 				size = 36200
@@ -827,16 +823,6 @@
 				culture = sinhala
 				religion = protestant
 				size = 12000
-			}
-			create_pop = {
-			#	pop_type = slaves
-				culture = tamil
-				size = 21000
-			}
-			create_pop = {
-			#	pop_type = slaves
-				culture = sinhala
-				size = 6400
 			}
 		}
 	}
@@ -921,14 +907,14 @@
 		}
 	}
 	s:STATE_CIRCARS = {
-		region_state:BIC = {
+		region_state:TAM = {
 			create_pop = {
 				culture = telegu
 				size = 9712168
 			}
 			create_pop = {
-				culture = british
-				size = 594
+				culture = tamil
+				size = 600000
 			}
 			create_pop = {
 				culture = kannada
@@ -944,57 +930,30 @@
 				religion = shiite
 				size = 8598
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = telegu
-				size = 50000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = kannada
-				size = 10000
-			}
 		}
 	}
 	s:STATE_MYSORE = {
-		region_state:MYS = {
+		region_state:TAM = {
 			create_pop = {
 				culture = kannada
 				religion = hindu
-				size = 2332290
+				size = 3400000
 			}
 			create_pop = {
-				culture = kannada
-				size = 133290
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = kannada
-				size = 20000
-			}
-		}
-		region_state:BIC = {
-			create_pop = {
-				culture = kannada
-				religion = hindu
-				size = 1320582
-			}
-			create_pop = {
-				culture = kannada
-				size = 127438
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = kannada
-				size = 60000
+				culture = tamil
+				size = 600000
 			}
 		}
 	}
 	s:STATE_TRAVANCORE = {
-		region_state:TRA = {
+		region_state:TAM = {
+			create_pop = {
+				culture = tamil
+				size = 300000
+			}
 			create_pop = {
 				culture = malayalam
-				size = 704000
+				size = 1104000
 			}
 			create_pop = {
 				culture = malayalam
@@ -1004,7 +963,7 @@
 			create_pop = {
 				culture = malayalam
 				religion = sunni
-				size = 192400
+				size = 492400
 			}
 			create_pop = {
 				culture = malayalam
@@ -1014,70 +973,17 @@
 			create_pop = {
 				culture = malayalam
 				religion = catholic
-				size = 84400
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = malayalam
-				size = 90000
+				size = 184400
 			}
 		}
 		region_state:BIC = {
-			create_pop = {
-				culture = malayalam
-				size = 680004
-			}
-			create_pop = {
-				culture = malayalam
-				religion = oriental_orthodox # St. Thomas Christians
-				size = 124000
-			}
-			create_pop = {
-				culture = malayalam
-				religion = sunni
-				size = 340400
-			}
-			create_pop = {
-				culture = malayalam
-				religion = catholic
-				size = 148004
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = malayalam
-				size = 40000
-			}
 		}
 	}
 	s:STATE_MADRAS = {
-		region_state:BGY = {
+		region_state:TAM = {
 			create_pop = {
 				culture = tamil
-				size = 182284
-			}
-			create_pop = {
-				culture = french
-				size = 450
-			}
-			create_pop = {
-				culture = tamil
-				religion = catholic
-				size = 17773
-			}
-		}
-		region_state:BIC = {
-			create_pop = {
-				culture = tamil
-				size = 12479910
-			}
-			create_pop = {
-				culture = tamil
-				religion = protestant
-				size = 91145
-			}
-			create_pop = {
-				culture = british
-				size = 30369
+				size = 14479910
 			}
 			create_pop = {
 				culture = kannada
@@ -1093,20 +999,10 @@
 				religion = catholic
 				size = 109374
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = tamil
-				size = 250000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = kannada
-				size = 34000
-			}
 		}
 	}
 	s:STATE_HYDERABAD = {
-		region_state:HYD = {
+		region_state:TAM = {
 			create_pop = {
 				culture = telegu
 				size = 4724685
