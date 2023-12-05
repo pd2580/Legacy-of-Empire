@@ -86,4 +86,31 @@
 				save_scope_as = rebel_army
 			}
     }
+	c:RHI = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_rhine
+				name = "1st Rhenish Army"
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_skirmish_infantry
+					state_region = s:STATE_RHINELAND
+					count = 20
+				}
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_lancers
+					state_region = s:STATE_RHINELAND
+					count = 5
+				}
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_mobile_artillery
+					state_region = s:STATE_RHINELAND
+					count = 15
+				}
+	
+				save_scope_as = 1st_rhenish_army
+			}
+    }
 }

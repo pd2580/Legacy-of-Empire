@@ -69,7 +69,7 @@ RHI = {
 
 	tier = kingdom
 
-	cultures = { north_german }
+	cultures = { rhenish }
 	capital = STATE_NORTH_RHINE
 }
 

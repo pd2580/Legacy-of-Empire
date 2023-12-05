@@ -1,5 +1,5 @@
 ﻿DIPLOMACY = {
-	c:SAX = {
+	c:BAV = {
 		create_diplomatic_pact = {
 			country = c:TRE
 			type = customs_union

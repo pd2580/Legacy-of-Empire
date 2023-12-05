@@ -1,35 +1,122 @@
 ﻿TRADE_ROUTES = {
-	#Bohemia
-	c:BOH = {
+	#Rhenish Republic
+	c:RHI = {
 		create_trade_route = {
-			goods = silk
-			level = 5
+			goods = dye
+			level = 3
 			direction = import
-			target = c:FRA.market
+			target = c:AMS.market
 		}
 		create_trade_route = {
 			goods = dye
 			level = 3
 			direction = import
-			target = c:POR.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = sugar
+			level = 6
+			direction = import
+			target = c:AMS.market
+		}
+		create_trade_route = {
+			goods = ammunition
+			level = 3
+			direction = export
+			target = c:AMS.market
+		}
+		create_trade_route = {
+			goods = liquor
+			level = 6
+			direction = export
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = lead
+			level = 8
+			direction = export
+			target = c:POM.market
+		}
+		create_trade_route = {
+			goods = hardwood
+			level = 8
+			direction = export
+			target = c:BAV.market
+		}
+		create_trade_route = {
+			goods = hardwood
+			level = 5
+			direction = export
+			target = c:POM.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 8
+			direction = export
+			target = c:POM.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 8
+			direction = export
+			target = c:AMS.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 8
+			direction = export
+			target = c:AMS.market
+		}
+		create_trade_route = {
+			goods = liquor
+			level = 6
+			direction = export
+			target = c:AMS.market
+		}
+		create_trade_route = {
+			goods = liquor
+			level = 6
+			direction = export
+			target = c:BAV.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 6
+			direction = export
+			target = c:AMS.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 6
+			direction = export
+			target = c:BAV.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 3
+			direction = export
+			target = c:POM.market
+		}
+	}
+	#Bohemia
+	c:BOH = {
+		create_trade_route = {
+			goods = paper
+			level = 5
+			direction = import
+			target = c:BAV.market
+		}
+		create_trade_route = {
+			goods = sugar
+			level = 3
+			direction = import
+			target = c:BAV.market
 		}
 		create_trade_route = {
 			goods = lead
 			level = 4
 			direction = import
-			target = c:FRA.market
-		}
-		create_trade_route = {
-			goods = sulfur
-			level = 6
-			direction = import
-			target = c:FRA.market
-		}
-		create_trade_route = {
-			goods = sugar
-			level = 8
-			direction = import
-			target = c:MOR.market
+			target = c:BAV.market
 		}
 	}
 	#Rebels

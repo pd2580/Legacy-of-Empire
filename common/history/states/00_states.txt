@@ -6797,7 +6797,7 @@ STATES = {
 	}
 	s:STATE_TYROL = {
 		create_state = {
-			country = c:SAX
+			country = c:BAV
 			owned_provinces = { x51C0E0 x4A9C68 xEC6873 xC74CD7 xF061C0 xAB7EB0 x5D4166 xD0C0E0 xF0E0C0 }
 		}
 		
@@ -6805,7 +6805,7 @@ STATES = {
 	}
 	s:STATE_AUSTRIA = {
 		create_state = {
-			country = c:SAX
+			country = c:BAV
 			owned_provinces = { xA40093 x316141 x7F2E4E x1180A0 x0CBB8F x20CF50 x84C7C3 xA9793B x62F70E x9001A0 xFDA6CB }
 		}
 		
@@ -6961,7 +6961,7 @@ STATES = {
 	}
 	s:STATE_BAVARIA = {
 		create_state = {
-			country = c:SAX
+			country = c:BAV
 			owned_provinces = { x68CE1C xE76994 x6EA29B xE75868 xB00121 x18A2E1 x565185 x704A5F xC347B1 xB08021 xFE59E7 x8C26DD x010AD7 x318021 x3101A0 x82F4B9 xA7094D }
 		}
 		
@@ -6969,7 +6969,7 @@ STATES = {
 	}
 	s:STATE_FRANCONIA = {
 		create_state = {
-			country = c:SAX
+			country = c:BAV
 			owned_provinces = { xD0C0A0 x9040A0 x51C0A0 xA55FB1 x0B0DBA xD041A0 xF91154 x648AD1 }
 		}
 		

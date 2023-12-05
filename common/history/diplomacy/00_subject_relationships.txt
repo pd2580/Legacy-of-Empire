@@ -11,7 +11,7 @@
 			type = puppet
 		}
 	}
-	c:SAX = {
+	c:BAV = {
 		create_diplomatic_pact = {
 			country = c:AUS
 			type = protectorate
