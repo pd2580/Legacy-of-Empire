@@ -3478,7 +3478,7 @@
 				building="building_livestock_ranch"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "SAXpm_slaughterhouses" }
+				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_slaughterhouses" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3524,7 +3524,7 @@
 				building="building_livestock_ranch"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "SAXpm_slaughterhouses" }
+				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_slaughterhouses" }
 			}
 		}
 	}
