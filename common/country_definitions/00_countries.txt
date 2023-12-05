@@ -3,7 +3,7 @@
 	
 	country_type = recognized
 
-	tier = empire
+	tier = kingdom
 	
 	cultures = { british }
 	capital = STATE_WEST_COUNTRY
