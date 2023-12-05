@@ -1773,6 +1773,17 @@ TRA = {
 	is_named_from_capital = yes
 }
 
+TAM = {
+	color = { 255  221  0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	capital = STATE_MADRAS
+	cultures = { tamil malayalam }
+}
+
 ACE = {
 	color = { 73  152  76 }
 	
