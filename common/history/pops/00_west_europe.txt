@@ -368,11 +368,11 @@
 		}
 		region_state:CWL = {
 			create_pop = {
-				culture = british
+				culture = cornie
 				size = 2669600
 			}
 			create_pop = {
-				culture = british
+				culture = cornie
 				religion = catholic
 				size = 12400
 			}
