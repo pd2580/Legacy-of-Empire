@@ -3794,7 +3794,7 @@
 	s:STATE_HANNOVER={
 		region_state:AMS={
 			create_building={
-				building="building_government_administration"HANN
+				building="building_government_administration"
 				level=5
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
