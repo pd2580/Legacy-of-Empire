@@ -371,6 +371,10 @@
 		region_state:RUS={
 		}
 	}
+	s:STATE_JETISY = {
+		region_state:CHI = {
+		}
+	}
 	s:STATE_AKMOLINSK={
 		region_state:OZH={
 			create_building={

@@ -1,0 +1,20 @@
+﻿COUNTRIES = {
+	c:LBT = {
+		effect_starting_technology_tier_2_tech = yes
+		effect_starting_politics_liberal = yes
+		activate_law = law_type:law_presidential_republic # Liberia did not declare independence until 1847; until then, the American Colonization Society ran the show
+		activate_law = law_type:law_free_trade
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_per_capita_taxation
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_laissez_faire
+
+		add_technology_researched = hydraulic_cranes
+		add_technology_researched = power_of_the_purse
+		add_technology_researched = screw_frigate
+
+	}
+}

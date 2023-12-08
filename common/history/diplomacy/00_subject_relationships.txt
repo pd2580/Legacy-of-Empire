@@ -10,6 +10,10 @@
 			country = c:BEL
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:CTC
+			type = dominion
+		}
 	}
 	c:BAV = {
 		create_diplomatic_pact = {
