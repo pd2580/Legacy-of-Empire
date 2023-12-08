@@ -1,4 +1,14 @@
 ﻿TRADE_ROUTES = {
+	#England
+	c:ENG = {
+		create_trade_route = {
+			goods = sugar
+			level = 3
+			direction = export
+			target = c:AMS.market
+		}
+		
+	}
 	#Rhenish Republic
 	c:RHI = {
 		create_trade_route = {

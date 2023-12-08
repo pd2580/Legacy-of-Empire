@@ -113,4 +113,31 @@
 				save_scope_as = 1st_rhenish_army
 			}
     }
+	c:ENG = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_england
+				name = "1st English Army"
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_skirmish_infantry
+					state_region = s:STATE_HOME_COUNTIES
+					count = 30
+				}
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_lancers
+					state_region = s:STATE_WEST_COUNTRY
+					count = 10
+				}
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_mobile_artillery
+					state_region = s:STATE_MIDLANDS
+					count = 20
+				}
+	
+				save_scope_as = 1st_english_army
+			}
+    }
 }
