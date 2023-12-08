@@ -1357,7 +1357,7 @@
 				building="building_livestock_ranch"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_slaughterhouses" }
+				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
 			}
 			create_building={
 				building="building_paper_mills"
@@ -3794,7 +3794,7 @@
 	s:STATE_HANNOVER={
 		region_state:AMS={
 			create_building={
-				building="building_government_administration"HANN
+				building="building_government_administration"
 				level=5
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
@@ -3866,7 +3866,7 @@
 				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
 			}
 			create_building={
-				building_logging_camp
+				building="building_logging_camp"
 				level=6
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
