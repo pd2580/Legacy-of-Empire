@@ -1,5 +1,20 @@
 ﻿TRADE_ROUTES = {
 	#England
+	c:EIR = {
+		create_trade_route = {
+			goods = coal
+			level = 3
+			direction = import
+			target = c:SCO.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 4
+			direction = import
+			target = c:SWE.market
+		}
+	}
+	#England
 	c:ENG = {
 		create_trade_route = {
 			goods = sugar
@@ -7,7 +22,6 @@
 			direction = export
 			target = c:AMS.market
 		}
-		
 	}
 	#Rhenish Republic
 	c:RHI = {

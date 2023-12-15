@@ -134,7 +134,7 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
-			}		
+			}
 			create_building={
 				building="building_university"
 				level=1
@@ -1317,7 +1317,7 @@
 				building="building_rye_farm"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools" "pm_privately_owned" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_apple_orchards" "pm_tools" "pm_privately_owned" }
 			}	
 			create_building={
 				building="building_logging_camp"
@@ -1330,7 +1330,13 @@
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}			
+			}
+			create_building={
+				building="building_paper_mills"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
+			}
 		}
 	}
 	s:STATE_MUNSTER={
@@ -1339,7 +1345,7 @@
 				building="building_rye_farm"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools" "pm_privately_owned" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_apple_orchards" "pm_tools" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_port"
@@ -1347,10 +1353,22 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+			create_building={
+				building="building_tooling_workshops"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+			}
 		}
 	}
 	s:STATE_LEINSTER={
 		region_state:EIR={
+			create_building={
+				building="building_government_administration"
+				level=12
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
+			}
 			create_building={
 				building="building_university"
 				level=1
@@ -1364,6 +1382,12 @@
 				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_lead_mine" }
 			}
 			create_building={
+				building="building_iron_mine"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
+			}
+			create_building={
 				building="building_food_industry"
 				level=4
 				reserves=1
@@ -1373,13 +1397,19 @@
 				building="building_rye_farm"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools" "pm_privately_owned" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_apple_orchards" "pm_tools" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_port"
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_chemical_plants"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_artificial_fertilizers" "pm_privately_owned_industry" }
 			}
 		}
 	}
@@ -1389,14 +1419,20 @@
 				building="building_rye_farm"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools" "pm_privately_owned" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_apple_orchards" "pm_tools" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_port"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}			
+			}
+			create_building={
+				building="building_sulfur_mine"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_sulfur_mine" }
+			}
 		}
 	}
 	s:STATE_ILE_DE_FRANCE={
