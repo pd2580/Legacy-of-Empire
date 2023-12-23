@@ -203,7 +203,7 @@
 	s:STATE_WEST_INDIES = {
 		region_state:LBT = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 22200
 			}
 			create_pop = {

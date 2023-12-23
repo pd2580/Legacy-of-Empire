@@ -159,7 +159,7 @@ BGY = {
 
 	tier = empire
 	
-	cultures = { french }
+	cultures = { burgundian }
 	capital = STATE_BURGUNDY
 }
 
@@ -3965,7 +3965,7 @@ PRC = {
 
 	tier = empire
 	
-	cultures = { french }
+	cultures = { burgundian }
 	capital = STATE_ILE_DE_FRANCE
 }
 

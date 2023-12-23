@@ -29,6 +29,12 @@
 			type = dominion
 		}
 	}
+	c:SAX = {
+		create_diplomatic_pact = {
+			country = c:MAD
+			type = dominion
+		}
+	}
 	c:CAS = {
 		create_diplomatic_pact = {
 			country = c:CUB

@@ -514,11 +514,11 @@
 	s:STATE_ILE_DE_FRANCE = {
 		region_state:BGY = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 1852741
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				religion = protestant
 				size = 20393
 			}
@@ -550,7 +550,7 @@
 				size = 12115
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 37612
 			}
 			create_pop = {
@@ -562,11 +562,11 @@
 	s:STATE_NORMANDY = {
 		region_state:BGY = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 2670494
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				religion = protestant
 				size = 14169
 			}
@@ -592,7 +592,7 @@
 				size = 145206
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 64216
 			}
 			create_pop = {
@@ -622,7 +622,7 @@
 				size = 78428
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 96520
 			}
 			create_pop = {
@@ -652,7 +652,7 @@
 				size = 2021
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 645
 			}
 		}
@@ -660,11 +660,11 @@
 	s:STATE_PICARDY = {
 		region_state:BGY = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 1470989
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				religion = protestant
 				size = 7307
 			}
@@ -695,7 +695,7 @@
 				size = 4571
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 215063
 			}
 			create_pop = {
@@ -707,11 +707,11 @@
 	s:STATE_POITOU = {
 		region_state:AQU = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 1980062
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				religion = protestant
 				size = 65087
 			}
@@ -732,7 +732,7 @@
 				size = 3893584
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 10362
 			}
 			create_pop = {
@@ -749,7 +749,7 @@
 				size = 1949056
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 369270
 			}
 			create_pop = {
@@ -770,7 +770,7 @@
 				size = 1599083
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 1018017
 			}
 			create_pop = {
@@ -787,11 +787,11 @@
 	s:STATE_BURGUNDY = {
 		region_state:BGY = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 1561366
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				religion = protestant
 				size = 2607
 			}
@@ -808,11 +808,11 @@
 	s:STATE_MAINE_ANJOU = {
 		region_state:AQU = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 2107973
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				religion = protestant
 				size = 11161
 			}
@@ -825,11 +825,11 @@
 	s:STATE_CHAMPAGNE = {
 		region_state:BGY = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 1153438
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				religion = protestant
 				size = 3472
 			}
@@ -846,11 +846,11 @@
 	s:STATE_FRANCHE_COMTE = {
 		region_state:HEV = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 770731
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				religion = protestant
 				size = 40722
 			}
@@ -867,11 +867,11 @@
 	s:STATE_LORRAINE = {
 		region_state:BGY = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 1133731
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				religion = protestant
 				size = 12130
 			}
@@ -893,7 +893,7 @@
 				size = 18784
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 58129
 			}
 			create_pop = {
@@ -909,11 +909,11 @@
 	s:STATE_ORLEANS = {
 		region_state:BGY = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 1375047
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				religion = protestant
 				size = 4355
 			}
@@ -1337,7 +1337,7 @@
 				size = 424000
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 8400
 			}
 			create_pop = {

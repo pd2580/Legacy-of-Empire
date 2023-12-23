@@ -3563,8 +3563,8 @@ portuguese={
 	}
 }
 
-french={
-	color= rgb{ 76 118 155 }
+burgundian={
+	color= rgb{ 130 21 65 }
 	religion = catholic
 	traits = { francophone european_heritage }
 	

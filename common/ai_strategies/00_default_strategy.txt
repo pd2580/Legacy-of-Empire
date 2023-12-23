@@ -217,7 +217,7 @@ ai_strategy_default = {
 					any_scope_state = {
 						OR = {
 							state_region = {
-								is_homeland = cu:french
+								is_homeland = cu:burgundian
 							}
 							state_region = s:STATE_WALLONIA
 							state_region = s:STATE_FLANDERS
@@ -1499,7 +1499,7 @@ ai_strategy_default = {
 					any_scope_state = {
 						OR = {
 							state_region = {
-								is_homeland = cu:french
+								is_homeland = cu:burgundian
 							}
 							state_region = s:STATE_WALLONIA
 							state_region = s:STATE_FLANDERS
@@ -1728,7 +1728,7 @@ ai_strategy_default = {
 			add = 25
 		}
 
-		# Extra french aggression for Haiti renouncing debt payments
+		# Extra burgundian aggression for Haiti renouncing debt payments
 		if = {
 			limit = {
 				has_variable = haiti_stops_paying_france_aggressor				
@@ -1970,7 +1970,7 @@ ai_strategy_default = {
 					any_scope_state = {
 						OR = {
 							state_region = {
-								is_homeland = cu:french
+								is_homeland = cu:burgundian
 							}
 							state_region = s:STATE_WALLONIA
 							state_region = s:STATE_FLANDERS

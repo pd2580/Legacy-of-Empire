@@ -19,7 +19,7 @@
 				size = 2367188
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 93996
 			}
 			create_pop = {
@@ -68,7 +68,7 @@
 				size = 502
 			}
 			create_pop = { # Educated guess
-				culture = french
+				culture = burgundian
 				size = 16723
 			}
 			create_pop = {
@@ -113,7 +113,7 @@
 	s:STATE_SAVOY = {
 		region_state:HEV = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 92032
 			}
 			create_pop = {

@@ -48,7 +48,7 @@ POPS = {
 		}
 		region_state:BGY = {
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 1592
 			}
 			create_pop = {
@@ -1239,7 +1239,7 @@ POPS = {
 				size = 3646
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 416
 			}
 		}

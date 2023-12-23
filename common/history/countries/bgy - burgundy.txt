@@ -59,18 +59,6 @@
 			set_ig_suppression = yes
 		}
 
-		add_modifier = {
-			name = modifier_haitian_independence_payments_4
-		}
-
-		set_variable = {
-			name = orleanist_restoration_var
-		}
-		set_variable = {
-			name = fra_republic_counter
-			value = 1
-		}
-
 		add_company = company_type:company_dmc
 	}
 }

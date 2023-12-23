@@ -1193,7 +1193,7 @@
 				size = 160
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				religion = catholic
 				size = 400
 			}

@@ -526,7 +526,7 @@
 				size = 7849
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 1201
 			}
 			create_pop = {
@@ -596,7 +596,7 @@
 				size = 1778
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 351
 			}
 			create_pop = {
@@ -647,7 +647,7 @@
 				size = 2604
 			}
 			create_pop = {
-				culture = french
+				culture = burgundian
 				size = 681
 			}
 			create_pop = {
