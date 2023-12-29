@@ -928,7 +928,7 @@
 		region_state:AMS = {
 			create_pop = {
 				culture = dutch
-				size = 4800000
+				size = 3800000
 			}
 			create_pop = {
 				culture = dutch

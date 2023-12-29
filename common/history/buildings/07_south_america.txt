@@ -299,7 +299,7 @@
 		}
 	}
 	s:STATE_TARAPACA={
-		region_state:SPU={
+		region_state:INC={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -309,7 +309,7 @@
 		}
 	}
 	s:STATE_ANTOFAGASTA={
-		region_state:BOL={
+		region_state:INC={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -411,7 +411,7 @@
 		}
 	}
 	s:STATE_POTOSI={
-		region_state:BOL={
+		region_state:INC={
 			create_building={
 				building="building_tobacco_plantation"
 				level=2
@@ -445,7 +445,7 @@
 		}
 	}
 	s:STATE_CAJAMARCA={
-		region_state:NPU={
+		region_state:INC={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -479,7 +479,7 @@
 		}
 	}
 	s:STATE_LIMA={
-		region_state:NPU={
+		region_state:INC={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -543,7 +543,7 @@
 		}
 	}
 	s:STATE_ICA={
-		region_state:SPU={
+		region_state:INC={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -606,7 +606,7 @@
 		}
 	}
 	s:STATE_AREQUIPA={
-		region_state:SPU={
+		region_state:INC={
 			create_building={
 				building="building_livestock_ranch"
 				level=1

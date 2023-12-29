@@ -1,6 +1,8 @@
 ﻿l_english:
  AMS:0 "Amsterdam"
- AMS_ADJ:0 "Dutch"  
+ AMS_ADJ:0 "Dutch" 
+ INC:0 "Incan Empire"
+ INC_ADJ:0 "Incan" 
  MAR:0 "Maratha"
  MAR_ADJ:0 "Marathi" 
  LBT:0 "Libertatia"
