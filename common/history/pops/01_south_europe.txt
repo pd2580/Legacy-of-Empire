@@ -95,7 +95,7 @@
 		}
 	}
 	s:STATE_APULIA = {
-		region_state:SIC = {
+		region_state:HEL = {
 			create_pop = {
 				culture = south_italian
 				size = 1284392

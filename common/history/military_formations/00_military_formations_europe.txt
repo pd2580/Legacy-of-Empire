@@ -29,31 +29,31 @@
 	c:SAX = {
 			create_military_formation = {
 				type = army
-				hq_region = sr:region_occitania
+				hq_region = sr:region_north_germany
 				name = "1st Saxon Army"
 	
 				combat_unit = {
 					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_BRANDENBURG
-					count = 25
+					state_region = s:STATE_SAXONY
+					count = 45
 				}
 
 				combat_unit = {
 					type = unit_type:combat_unit_type_line_infantry
-					state_region = s:STATE_BRANDENBURG
+					state_region = s:STATE_SAXONY
 					count = 5
 				}
 
 				combat_unit = {
 					type = unit_type:combat_unit_type_lancers
-					state_region = s:STATE_BRANDENBURG
-					count = 15
+					state_region = s:STATE_POMERANIA
+					count = 10
 				}
 	
 				combat_unit = {
 					type = unit_type:combat_unit_type_mobile_artillery
 					state_region = s:STATE_POMERANIA
-					count = 15
+					count = 20
 				}
 	
 				save_scope_as = 1st_saxon_army

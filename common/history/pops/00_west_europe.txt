@@ -1189,7 +1189,7 @@
 		region_state:SAX = {
 			create_pop = {
 				culture = north_german
-				size = 1018800
+				size = 1528800
 			}
 			create_pop = {
 				culture = north_german
@@ -1402,7 +1402,7 @@
 		region_state:SAX = {
 			create_pop = {
 				culture = north_german
-				size = 1558704
+				size = 1898704
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1588,7 +1588,7 @@
 		region_state:SAX = {
 			create_pop = {
 				culture = north_german
-				size = 1453212
+				size = 1893212
 			}
 			create_pop = {
 				culture = north_german
