@@ -202,11 +202,10 @@ SAX = {
 	
 	country_type = recognized
 
-	tier = principality
+	tier = kingdom
 	
 	cultures = { north_german }
-	capital = STATE_POMERANIA
-	is_named_from_capital = yes
+	capital = STATE_SAXONY
 }
 
 AUS = {
@@ -214,7 +213,7 @@ AUS = {
 
 	country_type = recognized
 
-	tier = empire
+	tier = kingdom
 	
 	cultures = { south_german }
 	capital = STATE_AUSTRIA

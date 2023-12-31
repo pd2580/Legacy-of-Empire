@@ -79,7 +79,7 @@
 		region_state:SAX = {
 			create_pop = {
 				culture = danish
-				size = 647996
+				size = 797996
 			}
 			create_pop = {
 				culture = north_german
