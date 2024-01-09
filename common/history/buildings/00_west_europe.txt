@@ -3135,7 +3135,7 @@
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_coal_mine" }
 			}
-			create_building={
+			create_building={ ## Tooling Workshops
 				building="building_tooling_workshops"
 				level=12
 				reserves=1
@@ -3143,8 +3143,8 @@
 			}
 		}
 	}
-	s:STATE_MORAVIA={
-		region_state:BOH={
+	s:STATE_MORAVIA={ ## Moravia
+		region_state:BOH={ ## Bohemia
 			create_building={ ## Textile Mills
 				building="building_textile_mills"
 				level=3

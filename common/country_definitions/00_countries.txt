@@ -1,4 +1,4 @@
-﻿CWL = {
+﻿CWL = { ## Cornwall
 	color = { 92 45 9 }
 	
 	country_type = recognized
@@ -9,7 +9,7 @@
 	capital = STATE_WEST_COUNTRY
 }
 
-INC = {
+INC = { ## Incan Empire
 	color = { 61 22 99 }
 	
 	country_type = unrecognized
@@ -20,7 +20,7 @@ INC = {
 	capital = STATE_ICA
 }
 
-ALC = {
+ALC = { ##
 	color = { 82 66 31 }
 	
 	country_type = recognized
@@ -31,7 +31,7 @@ ALC = {
 	capital = STATE_FEZ
 }
 
-BRT = {
+BRT = { ##
 	color = { 184 4 4 }
 
 	country_type = recognized
@@ -42,7 +42,7 @@ BRT = {
 	capital = STATE_HOME_COUNTIES
 }
 
-SCE = {
+SCE = { ##
 	color = { 120 113 2 }
 
 	country_type = recognized
@@ -53,7 +53,7 @@ SCE = {
 	capital = STATE_HIGHLANDS
 }
 
-IEM = {
+IEM = { ##
 	color = { 3 130 7 }
 
 	country_type = recognized
@@ -64,7 +64,7 @@ IEM = {
 	capital = STATE_MUNSTER
 }
 
-DUT = {
+DUT = { ##
 	color = { 224 131 0 }
 
 	country_type = recognized
@@ -75,7 +75,7 @@ DUT = {
 	capital = STATE_HOLLAND
 }
 
-SAM = {
+SAM = { ## Sami Union
 	color = { 138 207 219 }
 
 	country_type = recognized
@@ -86,7 +86,7 @@ SAM = {
 	capital = STATE_NORTHERN_NORWAY
 }
 
-RHI = {
+RHI = { ## Rhenish Republic
 	color = { 156 62 62 }
 
 	country_type = recognized
@@ -97,7 +97,7 @@ RHI = {
 	capital = STATE_NORTH_RHINE
 }
 
-NAP = {
+NAP = { ## Naples
 	color = { 113 54 181 }
 	
 	country_type = recognized
@@ -108,7 +108,7 @@ NAP = {
 	capital = STATE_WEST_COUNTRY
 }
 
-UMB = {
+UMB = { ## Umbria
 	color = { 46 130 108 }
 	
 	country_type = recognized
@@ -119,7 +119,7 @@ UMB = {
 	capital = STATE_WEST_COUNTRY
 }
 
-MCN = {
+MCN = { ## Manchester
 	color = { 135 120 80 }
 
 	country_type = recognized
@@ -130,7 +130,7 @@ MCN = {
 	capital = STATE_LANCASHIRE
 }
 
-GBR = {
+GBR = { ## THE BRITISH
 	color = { 56 0 0 }
 
 	country_type = recognized
@@ -141,7 +141,7 @@ GBR = {
 	capital = STATE_HOME_COUNTIES
 }
 
-SCA = {
+SCA = { ## Scania
 	color = { 62  122  189 }
 
 	country_type = recognized
@@ -163,7 +163,7 @@ RUS = {
 	capital = STATE_INGRIA
 }
 
-BGY = {
+BGY = { ## Burgundy
 	color = { 130 21 65 }
 
 	country_type = recognized
@@ -197,7 +197,7 @@ WES = {
 	is_named_from_capital = yes
 }
 
-SAX = {
+SAX = { ## Saxony
 	color = { 145 129 124 }
 	
 	country_type = recognized
