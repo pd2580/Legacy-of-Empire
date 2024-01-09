@@ -1,5 +1,20 @@
 ﻿TRADE_ROUTES = {
-	#England
+	#Rebels
+	c:POL = {
+		create_trade_route = {
+			goods = silk
+			level = 5
+			direction = import
+			target = c:TUR.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 3
+			direction = import
+			target = c:GBR.market
+		}
+	}
+	#Ireland
 	c:EIR = {
 		create_trade_route = {
 			goods = coal

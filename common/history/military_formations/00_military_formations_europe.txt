@@ -1,5 +1,5 @@
 ﻿MILITARY_FORMATIONS = {
-	c:AMS = {
+	c:AMS = { ## Amsterdam
 			create_military_formation = {
 				type = army
 				hq_region = sr:region_rhine
@@ -26,7 +26,28 @@
 				save_scope_as = dutch_peacekeepers
 			}
     }
-	c:SAX = {
+	c:POL = { ## Polish Empire
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_poland
+			name = "Polish Calvary"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MAZOVIA
+				count = 80
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_GREATER_POLAND
+				count = 60
+			}
+
+			save_scope_as = poland_army
+		}
+}
+	c:SAX = { ## Saxony
 			create_military_formation = {
 				type = army
 				hq_region = sr:region_north_germany
@@ -59,7 +80,7 @@
 				save_scope_as = 1st_saxon_army
 			}
     }
-	c:AQU = {
+	c:AQU = { ## Aquitane
 			create_military_formation = {
 				type = army
 				hq_region = sr:region_occitania
@@ -92,7 +113,7 @@
 				save_scope_as = 1st_aquinite_army
 			}
     }
-	c:AQR = {
+	c:AQR = { ## Rebels
 			create_military_formation = {
 				type = army
 				hq_region = sr:region_occitania
@@ -119,7 +140,7 @@
 				save_scope_as = rebel_army
 			}
     }
-	c:RHI = {
+	c:RHI = { ## Rhenish Republic
 			create_military_formation = {
 				type = army
 				hq_region = sr:region_rhine
@@ -146,7 +167,7 @@
 				save_scope_as = 1st_rhenish_army
 			}
     }
-	c:ENG = {
+	c:ENG = { ##England
 			create_military_formation = {
 				type = army
 				hq_region = sr:region_england
