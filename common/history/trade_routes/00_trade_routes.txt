@@ -1,5 +1,65 @@
 ﻿TRADE_ROUTES = {
-	#Rebels
+	#Bavaria
+	c:BAV = {
+		create_trade_route = {
+			goods = engines
+			level = 5
+			direction = export
+			target = c:BOH.market
+		}
+	}
+	#Bohemia
+	c:BOH = {
+		create_trade_route = {
+			goods = iron
+			level = 5
+			direction = export
+			target = c:SAX.market
+		}
+		create_trade_route = {
+			goods = hardwood
+			level = 8
+			direction = export
+			target = c:BAV.market
+		}
+		create_trade_route = {
+			goods = liquor
+			level = 6
+			direction = export
+			target = c:BAV.market
+		}
+		create_trade_route = {
+			goods = coal
+			level = 4
+			direction = export
+			target = c:SAX.market
+		}
+		create_trade_route = {
+			goods = liquor
+			level = 4
+			direction = export
+			target = c:SAX.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 5
+			direction = import
+			target = c:BAV.market
+		}
+		create_trade_route = {
+			goods = sugar
+			level = 3
+			direction = import
+			target = c:BAV.market
+		}
+		create_trade_route = {
+			goods = lead
+			level = 4
+			direction = import
+			target = c:BAV.market
+		}
+	}
+	#Polish Empire
 	c:POL = {
 		create_trade_route = {
 			goods = silk
@@ -135,27 +195,6 @@
 			level = 3
 			direction = export
 			target = c:SAX.market
-		}
-	}
-	#Bohemia
-	c:BOH = {
-		create_trade_route = {
-			goods = paper
-			level = 5
-			direction = import
-			target = c:BAV.market
-		}
-		create_trade_route = {
-			goods = sugar
-			level = 3
-			direction = import
-			target = c:BAV.market
-		}
-		create_trade_route = {
-			goods = lead
-			level = 4
-			direction = import
-			target = c:BAV.market
 		}
 	}
 	#Rebels
