@@ -71,7 +71,7 @@
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
 			}			
-			create_building={
+			create_building={ ## Tooling Workshops
 				building="building_tooling_workshops"
 				level=7
 				reserves=1
@@ -115,11 +115,11 @@
 	}
 	s:STATE_BREST={
 		region_state:POL={
-			create_building={
+			create_building={ ## Rye Farm
 				building="building_rye_farm"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled" "pm_no_secondary" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -247,7 +247,7 @@
 				building="building_rye_farm"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
 	}
@@ -455,7 +455,7 @@
 				building="building_rye_farm"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
 	}
@@ -559,27 +559,33 @@
 	}
 	s:STATE_MAZOVIA={
 		region_state:POL={
-			create_building={
+			create_building={ ## Furniture Manufacturies
 				building="building_furniture_manufacturies"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_luxury_furniture" "pm_automation_disabled" "pm_merchant_guilds_building_furniture_manufacturies" }
 			}
-			create_building={
+			create_building={ ## Construction Sector
+				building="building_construction_sector"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={ ## Paper Mills
 				building="building_paper_mills"
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
 			}
-			create_building={
+			create_building={ ## Rye Farm
 				building="building_rye_farm"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
-			create_building={
+			create_building={ ## Tooling Workshops
 				building="building_tooling_workshops"
-				level=1
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
@@ -593,43 +599,49 @@
 	}
 	s:STATE_SILESIA={
 		region_state:POL={
-			create_building={
+			create_building={ ## Textile Mills
 				building="building_textile_mills"
 				level=8
 				reserves=1
 				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
 			}
-			create_building={
+			create_building={ ## Tooling Workshops
+				building="building_tooling_workshops"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+			}
+			create_building={ ## Construction Sector
 				building="building_construction_sector"
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_iron_frame_buildings" }
 			}				
-			create_building={
+			create_building={ ## Arms Industry
 				building="building_arms_industry"
-				level=4
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" }
 			}
-			create_building={
+			create_building={ ## Coal Mine
 				building="building_coal_mine"
 				level=7
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_coal_mine" }
 			}
-			create_building={
+			create_building={ ## Lead Mine
 				building="building_lead_mine"
 				level=4
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_lead_mine" }
 			}
-			create_building={
+			create_building={ ## Iron Mine
 				building="building_iron_mine"
 				level=4
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
 			}
-			create_building={
+			create_building={ ## Livestock Ranch
 				building="building_livestock_ranch"
 				level=4
 				reserves=1
@@ -651,10 +663,28 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
+			create_building={ ## Tooling Workshops
+				building="building_tooling_workshops"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+			}
+			create_building={
+				building="building_iron_mine"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
+			}
 		}
 	}
 	s:STATE_LESSER_POLAND={
 		region_state:POL={
+			create_building={ ## Construction Sector
+				building="building_construction_sector"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
 			create_building={
 				building="building_paper_mills"
 				level=1
@@ -683,11 +713,11 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
-			create_building={
+			create_building={ ## Rye Farm
 				building="building_rye_farm"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools" "pm_privately_owned" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_apple_orchards" "pm_tools" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_port"
@@ -711,11 +741,11 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
-			create_building={
+			create_building={ ## Rye Farm
 				building="building_rye_farm"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools" "pm_privately_owned" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_apple_orchards" "pm_tools" "pm_privately_owned" }
 			}
 		}
 	}
@@ -727,7 +757,7 @@
 				reserves=1
 				activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_merchant_guilds_building_food_industry" "pm_manual_dough_processing" "pm_pot_stills" }
 			}
-			create_building={
+			create_building={ ## Rye Farm
 				building="building_rye_farm"
 				level=2
 				reserves=1
@@ -749,11 +779,11 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
-			create_building={
+			create_building={ ## Rye Farm
 				building="building_rye_farm"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -921,7 +951,7 @@
 				reserves=1
 				activate_production_methods={ "pm_lathe" "luxury_furniture" "pm_automation_disabled" "pm_merchant_guilds_building_furniture_manufacturies" }
 			}
-			create_building={
+			create_building={ ## Tooling Workshops
 				building="building_tooling_workshops"
 				level=5
 				reserves=1

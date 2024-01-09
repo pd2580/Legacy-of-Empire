@@ -493,7 +493,6 @@ ULS = {
 	tier = principality
 	
 	cultures = { scottish irish }
-	religion = protestant
 	capital = STATE_ULSTER
 	is_named_from_capital = yes
 }
@@ -737,7 +736,6 @@ WUR = {
 	tier = kingdom
 	
 	cultures = { south_german }
-	religion = protestant	
 	capital = STATE_WURTTEMBERG
 	is_named_from_capital = yes
 }
@@ -806,7 +804,6 @@ PRA = { #Gao-Para
 	tier = principality
 	
 	cultures = { amazonic }
-	religion = catholic
 	capital = STATE_PARA
 }
 
@@ -992,7 +989,6 @@ HEV = {
 	
 	capital = STATE_WEST_SWITZERLAND
 	cultures = { alemannic francoprovencal }
-	religion = protestant
 }
 
 TRS = {
@@ -1293,7 +1289,6 @@ HDJ = {
 	country_type = unrecognized
 	
 	tier = principality
-	religion = sunni
 	
 	cultures = { bedouin }
 	capital = STATE_HEDJAZ
@@ -1374,7 +1369,6 @@ OMA = {
 	tier = principality
 	
 	cultures = { bedouin }
-	religion = shiite
 	capital = STATE_OMAN
 	is_named_from_capital = yes
 }
@@ -1455,7 +1449,6 @@ LAH = {
 	tier = principality
 	
 	cultures = { bedouin yemenite }
-	religion = sunni
 	capital = STATE_YEMEN
 }
 
@@ -2487,7 +2480,6 @@ ISR = {
 	tier = principality
 	
 	cultures = { ashkenazi sephardic }
-	religion = jewish
 	capital = STATE_PALESTINE
 }
 
@@ -3520,7 +3512,6 @@ IUS = {
 	country_type = recognized
 	tier = principality
 	cultures = { tatar }
-	religion = sunni
 	capital = STATE_KAZAN
 }
 
@@ -3633,7 +3624,6 @@ TPG = {
 	country_type = unrecognized
 	tier = empire
 	cultures = { han hakka }
-	religion = protestant
 	capital = STATE_NANJING
 }
 
@@ -3678,7 +3668,6 @@ PAL = {
 	tier = principality
 	
 	cultures = { mashriqi }
-	religion = sunni
 	capital = STATE_PALESTINE
 }
 
@@ -4201,7 +4190,6 @@ PAK = {
 	tier = empire
 	
 	cultures = { kashmiri panjabi sindi baluchi pashtun }
-	religion = sunni
 	capital = STATE_SINDH
 }
 
