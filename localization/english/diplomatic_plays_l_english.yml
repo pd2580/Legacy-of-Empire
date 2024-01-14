@@ -324,9 +324,9 @@
  dp_unify_the_isles_tooltip:1 "#header Start a $dp_unify_the_isles$ [concept_diplomatic_play]#!\n$TOOLTIP_DELIMITER$\n$dp_unify_the_isles$"
  dp_unify_the_isles_desc:1 "Sets the initiating [concept_war_goal] to annex all Isles homeland states held by other nations."
    
- dp_unify_italy:0 "Unify Italy"
- dp_unify_italy_tooltip:1 "#header Start a $dp_unify_italy$ [concept_diplomatic_play]#!\n$TOOLTIP_DELIMITER$\n$dp_unify_italy_desc$"
- dp_unify_italy_desc:1 "Sets the initiating [concept_war_goal] to annex all Italian homeland states held by other nations."
+ dp_unify_rome:0 "Unify Rome"
+ dp_unify_rome_tooltip:1 "#header Start a $dp_unify_italy$ [concept_diplomatic_play]#!\n$TOOLTIP_DELIMITER$\n$dp_unify_rome_desc$"
+ dp_unify_rome_desc:1 "Sets the initiating [concept_war_goal] to annex all Roman homeland states held by other nations."
  
  dp_unify_scandinavia:0 "Unify Scandinavia"
  dp_unify_scandinavia_tooltip:1 "#header Start a $dp_unify_scandinavia$ [concept_diplomatic_play]#!\n$TOOLTIP_DELIMITER$\n$dp_unify_scandinavia_desc$"

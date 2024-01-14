@@ -104,7 +104,7 @@ NAP = { ## Naples
 
 	tier = empire
 	
-	cultures = { british south_german }
+	cultures = { south_roman }
 	capital = STATE_WEST_COUNTRY
 }
 
@@ -115,8 +115,19 @@ UMB = { ## Umbria
 
 	tier = empire
 	
-	cultures = { north_italian }
-	capital = STATE_WEST_COUNTRY
+	cultures = { north_roman south_roman }
+	capital = STATE_UMBRIA
+}
+
+RME = { ## Rome
+	color = { 120 41 41 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_roman south_roman }
+	capital = STATE_LAZIO
 }
 
 MCN = { ## Manchester
@@ -315,17 +326,6 @@ JAP = {
 	
 	cultures = { japanese }
 	capital = STATE_KANSAI
-}
-
-ITA = {
-	color = { 125  171  84 }
-	
-	country_type = recognized
-
-	tier = empire
-	
-	cultures = { north_italian south_italian }
-	capital = STATE_LAZIO
 }
 
 KUK = {
@@ -747,7 +747,7 @@ LOM = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { north_roman }
 	capital = STATE_LOMBARDY
 	is_named_from_capital = yes
 }
@@ -759,7 +759,7 @@ LUC = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { north_roman }
 	capital = STATE_EMILIA
 }
 
@@ -770,7 +770,7 @@ MOD = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { north_roman }
 	capital = STATE_EMILIA
 }
 
@@ -781,7 +781,7 @@ PAP = {
 
 	tier = kingdom
 	
-	cultures = { south_italian north_italian }
+	cultures = { north_roman }
 	capital = STATE_LAZIO
 }
 
@@ -792,7 +792,7 @@ PAR = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { north_roman }
 	capital = STATE_EMILIA
 }
 
@@ -814,7 +814,7 @@ SAR = {
 
 	tier = kingdom
 	
-	cultures = { north_italian }
+	cultures = { north_roman }
 	capital = STATE_PIEDMONT
 	is_named_from_capital = yes
 }
@@ -826,7 +826,7 @@ SIC = {
 
 	tier = kingdom
 	
-	cultures = { south_italian }
+	cultures = { south_roman }
 	capital = STATE_CAMPANIA
 }
 
@@ -837,7 +837,7 @@ TRE = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { slovene }
 	capital = STATE_ISTRIA
 }
 
@@ -849,7 +849,7 @@ TUS = {
 	tier = principality
 	
 	capital = STATE_TUSCANY
-	cultures = { north_italian }
+	cultures = { north_roman }
 	is_named_from_capital = yes
 }
 
@@ -860,7 +860,7 @@ VEN = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { north_roman }
 	capital = STATE_VENETIA
 	is_named_from_capital = yes
 }
@@ -4078,7 +4078,7 @@ RSM = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { north_roman }
 	capital = STATE_LOMBARDY
 }
 
@@ -4089,7 +4089,7 @@ HRE = {
 
 	tier = hegemony
 	
-	cultures = { north_german south_german czech dutch flemish wallonian alemannic north_italian slovene }
+	cultures = { north_german south_german czech dutch flemish wallonian alemannic north_roman slovene }
 	capital = STATE_HOLLAND
 }
 

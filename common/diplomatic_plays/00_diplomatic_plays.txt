@@ -615,7 +615,7 @@ dp_unify_germany = {
 	on_war_end = {}
 }
 
-dp_unify_italy = {
+dp_unify_rome = {
 	war_goal = unification
 	
 	requires_interest_marker = no
@@ -629,7 +629,7 @@ dp_unify_italy = {
 	}
 	
 	possible = {
-		NOT = { exists = c:ITA }
+		NOT = { exists = c:RME }
 		NOT = { is_country_type = decentralized }
 		has_technology_researched = nationalism
 	}

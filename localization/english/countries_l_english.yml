@@ -1,6 +1,8 @@
 ﻿l_english:
  AMS:0 "Amsterdam"
  AMS_ADJ:0 "Dutch" 
+ RME:0 "Rome"
+ RME_ADJ:0 "Roman" 
  INC:0 "Incan Empire"
  INC_ADJ:0 "Incan" 
  MAR:0 "Maratha"

@@ -1134,8 +1134,8 @@ ai_strategy_unify_italy = {
 			limit = { 
 				scope:target_country = {
 					OR = {
-						country_has_primary_culture = cu:north_italian
-						country_has_primary_culture = cu:south_italian
+						country_has_primary_culture = cu:north_roman
+						country_has_primary_culture = cu:south_roman
 					}				
 				}
 			}
@@ -1154,8 +1154,8 @@ ai_strategy_unify_italy = {
 			limit = { 
 				scope:target_country = {
 					OR = {
-						country_has_primary_culture = cu:north_italian
-						country_has_primary_culture = cu:south_italian
+						country_has_primary_culture = cu:north_roman
+						country_has_primary_culture = cu:south_roman
 					}	
 				}
 			}
@@ -1206,8 +1206,8 @@ ai_strategy_unify_italy = {
 				scope:target_state = {
 					state_region = {
 						OR = {
-							is_homeland = cu:north_italian
-							is_homeland = cu:south_italian
+							is_homeland = cu:north_roman
+							is_homeland = cu:south_roman
 						}
 					}						
 				}	
@@ -1229,12 +1229,12 @@ ai_strategy_unify_italy = {
 				limit = {
 					scope:target_country = {
 						OR = {
-							country_has_primary_culture = cu:north_italian
-							country_has_primary_culture = cu:south_italian
+							country_has_primary_culture = cu:north_roman
+							country_has_primary_culture = cu:south_roman
 						}
-						NOT = { is_unification_candidate = ITA }
+						NOT = { is_unification_candidate = RME }
 						OR = { 
-							is_supporting_unification_candidate = { who = root country_formation = ITA }
+							is_supporting_unification_candidate = { who = root country_formation = RME }
 							is_subject_of = root
 							has_diplomatic_pact = {
 								who = scope:target_country
@@ -1251,12 +1251,12 @@ ai_strategy_unify_italy = {
 				limit = {
 					scope:target_country = {
 						OR = {
-							country_has_primary_culture = cu:north_italian
-							country_has_primary_culture = cu:south_italian
+							country_has_primary_culture = cu:north_roman
+							country_has_primary_culture = cu:south_roman
 						}					
 						NOR = { 
-							is_unification_candidate = ITA
-							is_supporting_unification_candidate = { who = root country_formation =ITA }
+							is_unification_candidate = RME
+							is_supporting_unification_candidate = { who = root country_formation =RME }
 							is_subject_of = root
 							has_diplomatic_pact = {
 								who = scope:target_country
@@ -1272,7 +1272,7 @@ ai_strategy_unify_italy = {
 			if = {
 				limit = {
 					scope:target_country = {				
-						is_unification_candidate = ITA
+						is_unification_candidate = RME
 					}
 				}
 				add = 1000
@@ -1281,7 +1281,7 @@ ai_strategy_unify_italy = {
 	}
 		
 	possible = {
-		is_unification_candidate = ITA	
+		is_unification_candidate = RME	
 		NOT = { country_tier = empire }
 	}
 

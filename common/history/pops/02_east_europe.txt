@@ -315,7 +315,7 @@
 				size = 986108
 			}
 			create_pop = {
-				culture = south_italian
+				culture = south_roman
 				size = 20000
 			}
 			create_pop = {

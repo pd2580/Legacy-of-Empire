@@ -1092,7 +1092,7 @@
 				size = 240
 			}
 			create_pop = { # "Latins"
-				culture = north_italian
+				culture = north_roman
 				size = 240
 			}
 			create_pop = {

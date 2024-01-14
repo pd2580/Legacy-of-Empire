@@ -531,7 +531,7 @@
 	s:STATE_PROVENCE = {
 		region_state:SAR = {
 			create_pop = {
-				culture = north_italian
+				culture = north_roman
 				size = 131100
 			}
 			create_pop = {
@@ -1180,7 +1180,7 @@
 				size = 174100
 			}
 			create_pop = {
-				culture = north_italian
+				culture = north_roman
 				size = 5900
 			}
 		}
@@ -1252,7 +1252,7 @@
 			# I realize this runs into the old Questione Ladina. Don't care.
 
 			create_pop = {
-				culture = north_italian
+				culture = north_roman
 				size = 186786
 			}
 		}

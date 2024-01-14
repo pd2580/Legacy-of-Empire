@@ -197,7 +197,7 @@ STATES = {
 			owned_provinces = { xB001A0 x3083C8 x3080A0 x8EEB7A xB080A0 x5141E0 x605424 x6984B4 x554866 xC02A3F }
 		}
 		
-		add_homeland = cu:north_italian
+		add_homeland = cu:slovene
 	}
 	s:STATE_POMERANIA = {
 		create_state = {
@@ -1029,7 +1029,7 @@ STATES = {
 			owned_provinces = { x805120 x8A0548 xF0AF66 xC090A0 x702CA8 x00D020 xB7B8F1 }
 		}
 		
-		add_homeland = cu:south_italian
+		add_homeland = cu:corsican
 	}
 	s:STATE_IONIAN_ISLANDS = {
 		create_state = {
@@ -1595,7 +1595,6 @@ STATES = {
 			owned_provinces = { x56B04B xDDDD3B x6B4BA4 xD000E0 }
 		}
 		
-		add_homeland = cu:north_italian
 		add_homeland = cu:burgundian
 		add_homeland = cu:francoprovencal
 	}
@@ -1617,7 +1616,7 @@ STATES = {
 			owned_provinces = { x0B3B43 x700120 xF080A0 xEF0021 xF08021 }
 		}
 		
-		add_homeland = cu:north_italian
+		add_homeland = cu:north_roman
 	}
 	s:STATE_TUSCANY = {
 		create_state = {
@@ -1625,7 +1624,7 @@ STATES = {
 			owned_provinces = { x7080A0 xFAFCD4 x6A7662 xB04020 x32BA1A xF12431 }
 		}
 		
-		add_homeland = cu:north_italian
+		add_homeland = cu:north_roman
 	}
 	s:STATE_ROMAGNA = {
 		create_state = {
@@ -1633,7 +1632,7 @@ STATES = {
 			owned_provinces = { x7000A0 x708020 xF000A0 xFE3729 }
 		}
 		
-		add_homeland = cu:north_italian
+		add_homeland = cu:north_roman
 	}
 	s:STATE_LAZIO = {
 		create_state = {
@@ -1641,7 +1640,7 @@ STATES = {
 			owned_provinces = { xB5726E xB0C0A0 xB040A0 x3040A0 }
 		}
 		
-		add_homeland = cu:south_italian
+		add_homeland = cu:south_roman
 	}
 	s:STATE_NEVADA = {
 		create_state = {
@@ -6563,7 +6562,7 @@ STATES = {
 			owned_provinces = { x73CE17 x214415 x4090A0 xDF1CE3 x890469 x0E8BCC }
 		}
 		
-		add_homeland = cu:south_italian
+		add_homeland = cu:south_roman
 	}
 	s:STATE_ABRUZZO = {
 		create_state = {
@@ -6571,7 +6570,7 @@ STATES = {
 			owned_provinces = { xA6F611 x31C0A0 x0AE57A x0D3025 xF34DC0 }
 		}
 		
-		add_homeland = cu:south_italian
+		add_homeland = cu:south_roman
 	}	
 	s:STATE_CALABRIA = {
 		create_state = {
@@ -6579,7 +6578,7 @@ STATES = {
 			owned_provinces = { xC01020 xC050E0 x785460 xE78C7B }
 		}
 		
-		add_homeland = cu:south_italian
+		add_homeland = cu:south_roman
 	}	
 	s:STATE_APULIA = {
 		create_state = {
@@ -6587,7 +6586,7 @@ STATES = {
 			owned_provinces = { x704020 x2C8F44 xEFC992 x4050DF x74BD9B x836841 x30209F }
 		}
 		
-		add_homeland = cu:south_italian
+		add_homeland = cu:south_roman
 	}
 	s:STATE_WEST_GALICIA = {
 		create_state = {
@@ -6677,7 +6676,6 @@ STATES = {
 		
 		add_homeland = cu:croat
 		add_homeland = cu:slovene
-		add_homeland = cu:north_italian
 	}
 	s:STATE_LOMBARDY = {
 		create_state = {
@@ -6685,7 +6683,7 @@ STATES = {
 			owned_provinces = { x3F1E38 xD04060 x9AC196 x867A90 xA40CE9 x50C060 x70B8A9 x4713EE }
 		}
 		
-		add_homeland = cu:north_italian
+		add_homeland = cu:north_roman
 	}
 	s:STATE_BOHEMIA = {
 		create_state = {
@@ -6744,7 +6742,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:south_german
-		add_homeland = cu:north_italian
 	}
 	s:STATE_SLOVENIA = {
 		create_state = {
@@ -6932,7 +6929,7 @@ STATES = {
 			owned_provinces = { xD080E0 xAA6958 xDA86EA xA9397D x90C060 x1140E0 xF00544 xACB500 x11C061 x904061 x54728A x5F6BAA }
 		}
 		
-		add_homeland = cu:north_italian
+		add_homeland = cu:north_roman
 	}
 	s:STATE_SARDINIA = {
 		create_state = {
@@ -6940,7 +6937,7 @@ STATES = {
 			owned_provinces = { xFD923D x80D020 xA61F49 x0D6170 xD8550D xFA1A93 x30A040 xDC4AE3 }
 		}
 		
-		add_homeland = cu:south_italian
+		add_homeland = cu:corsican
 	}
 	s:STATE_TARAPACA = {
 		create_state = {
@@ -7034,7 +7031,7 @@ STATES = {
 			owned_provinces = { x30C021 x72531E xD3A384 xE782CC x6E8D07 xD8F07B }
 		}
 		
-		add_homeland = cu:south_italian
+		add_homeland = cu:north_roman
 	}
 	s:STATE_BANAT = {
 		create_state = {

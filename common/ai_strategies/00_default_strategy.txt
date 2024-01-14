@@ -3673,8 +3673,8 @@ ai_strategy_default = {
 						any_scope_state = {
 							state_region = {
 								OR = {
-									is_homeland = cu:north_italian
-									is_homeland = cu:south_italian
+									is_homeland = cu:north_roman
+									is_homeland = cu:south_roman
 								}
 							}
 						}
