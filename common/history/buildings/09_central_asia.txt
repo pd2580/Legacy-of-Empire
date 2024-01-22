@@ -181,8 +181,8 @@
 			}
 		}
 	}
-	s:STATE_TARTARIA={
-		region_state:RUS={
+	s:STATE_TARTARIA = {
+		region_state:SAL = {
 			create_building={
 				building="building_iron_mine"
 				level=8
