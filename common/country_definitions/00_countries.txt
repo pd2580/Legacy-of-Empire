@@ -1,4 +1,15 @@
-﻿CWL = { ## Cornwall
+﻿SLA = { ## Slavia
+	color = { 92 135 209 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { bulgarian slovene croat serb bosniak }
+	capital = STATE_WEST_COUNTRY
+}
+
+CWL = { ## Cornwall
 	color = { 92 45 9 }
 	
 	country_type = recognized

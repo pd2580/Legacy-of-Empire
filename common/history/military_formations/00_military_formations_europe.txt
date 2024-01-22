@@ -33,9 +33,15 @@
 			name = "Polish Calvary"
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_MAZOVIA
-				count = 80
+				count = 40
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BREST
+				count = 40
 			}
 
 			combat_unit = {
