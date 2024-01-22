@@ -523,22 +523,34 @@
 		}
 	}
 	s:STATE_BOSNIA = {
-		region_state:BUL = {
+		region_state:BOS = {
 			create_pop = {
 				culture = bosniak
 				size = 304908
 			}
 			create_pop = {
-				culture = sephardic
+				culture = serb
 				size = 3196
 			}
 			create_pop = {
-				culture = serb
-				size = 372400
+				culture = croat
+				size = 83996
 			}
+		}
+		region_state:SEE = {
 			create_pop = {
 				culture = croat
-				size = 183996
+				size = 195000
+			}
+			create_pop = {
+				culture = north_roman
+				size = 5000
+			}
+		}
+		region_state:SER = {
+			create_pop = {
+				culture = serb
+				size = 450000
 			}
 		}
 	}
@@ -740,18 +752,10 @@
 		}
 	}
 	s:STATE_SERBIA = {
-		region_state:BUL = {
-			create_pop = {
-				culture = serb
-				size = 809604
-			}
-		}
-	}
-	s:STATE_SERBIA = {
-		region_state:BUL = {
+		region_state:KOS = {
 			create_pop = {
 				culture = turkish
-				size = 124400
+				size = 74400
 			}
 			create_pop = {
 				culture = bosniak
@@ -759,7 +763,7 @@
 			}
 			create_pop = {
 				culture = serb
-				size = 581800
+				size = 981800
 			}
 			create_pop = {
 				culture = greek
@@ -767,11 +771,23 @@
 			}
 			create_pop = {
 				culture = albanian
-				size = 192596
+				size = 92596
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 49404
+				size = 29404
+			}
+		}
+		region_state:BLG = {
+			create_pop = {
+				culture = bulgarian
+				size = 650000
+			}
+		}
+		region_state:DAN = {
+			create_pop = {
+				culture = bulgarian
+				size = 750000
 			}
 		}
 	}
