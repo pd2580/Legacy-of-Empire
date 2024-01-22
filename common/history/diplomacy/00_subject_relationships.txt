@@ -68,6 +68,10 @@
 			country = c:CTC
 			type = dominion
 		}
+		create_diplomatic_pact = {
+			country = c:CLB
+			type = dominion
+		}
 	}
 	c:BAV = {
 		create_diplomatic_pact = {
