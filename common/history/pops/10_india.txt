@@ -104,7 +104,7 @@
 		}
 	}
 	s:STATE_DELHI = {
-		region_state:BIC = {
+		region_state:PAN = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -141,31 +141,31 @@
 				size = 82020
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				religion = hindu
+				pop_type = slaves
 				size = 100200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kanauji
+				pop_type = slaves
 				size = 130000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kanauji
 				religion = sunni
+				pop_type = slaves
 				size = 40000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = panjabi
 				religion = sunni
+				pop_type = slaves
 				size = 70300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = nepali
+				pop_type = slaves
 				size = 10000
 			}
 		}
@@ -520,26 +520,6 @@
 		}
 	}
 	s:STATE_RAJPUTANA = {
-		region_state:JAS = {
-			create_pop = {
-				culture = rajput
-				size = 387096
-			}
-			create_pop = {
-				culture = avadhi
-				size = 29000
-			}
-			create_pop = {
-				culture = rajput
-				pop_type = slaves
-				size = 20900
-			}
-			create_pop = {
-				culture = avadhi
-				pop_type = slaves
-				size = 3000
-			}
-		}
 		region_state:MEW = {
 			create_pop = {
 				culture = rajput
@@ -607,21 +587,21 @@
 		region_state:MAR = {
 			create_pop = {
 				culture = rajput
-				size = 1001004
+				size = 1388100
 			}
 			create_pop = {
 				culture = avadhi
-				size = 31000
+				size = 60000
 			}
 			create_pop = {
 				culture = rajput
 				pop_type = slaves
-				size = 31000
+				size = 51900
 			}
 			create_pop = {
 				culture = avadhi
 				pop_type = slaves
-				size = 1000
+				size = 4000
 			}
 		}
 	}
