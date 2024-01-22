@@ -103,16 +103,6 @@
 			type = puppet
 		}	
 	}
-	c:NET = {
-		create_diplomatic_pact = {
-			country = c:LUX
-			type = personal_union
-		}
-		create_diplomatic_pact = {
-			country = c:DEI
-			type = dominion
-		}
-	}
 	c:SWE = {
 		create_diplomatic_pact = {
 			country = c:NOR
@@ -306,9 +296,6 @@
 	}
 	c:BIC = {
 
-	}	
-	c:DEI = {
-		
 	}
 
 	c:BGY = {

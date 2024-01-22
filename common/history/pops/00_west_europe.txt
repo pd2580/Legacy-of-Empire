@@ -1174,7 +1174,7 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL = {
-		region_state:MIL = {
+		region_state:PAD = {
 			create_pop = {
 				culture = south_german
 				size = 174100
@@ -1232,7 +1232,7 @@
 		}
 	}
 	s:STATE_EAST_SWITZERLAND = {
-		region_state:MIL = {
+		region_state:PAD = {
 			# 895200 total
 			# 43.3% Protestant, 56.7% Catholic
 

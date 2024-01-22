@@ -329,7 +329,7 @@
 		}
 	}
 
-	c:DEI = {
+	c:JAV = {
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_indonesia

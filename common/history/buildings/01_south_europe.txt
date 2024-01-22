@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_LOMBARDY={
-		region_state:MIL={
+		region_state:PAD={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -46,7 +46,7 @@
 		}
 	}
 	s:STATE_PIEDMONT={
-		region_state:MIL={
+		region_state:PAD={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -658,7 +658,7 @@
 		}
 	}
 	s:STATE_VENETIA={
-		region_state:MIL={
+		region_state:PAD={
 			create_building={
 				building="building_government_administration"
 				level=3
