@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_LOMBARDY = {
-		region_state:MIL = {
+		region_state:PAD = {
 			create_pop = {
 				culture = north_roman
 				size = 2376996
@@ -13,7 +13,7 @@
 		}
 	}
 	s:STATE_PIEDMONT = {
-		region_state:MIL = {
+		region_state:PAD = {
 			create_pop = {
 				culture = north_roman
 				size = 2367188
@@ -177,7 +177,7 @@
 		}
 	}
 	s:STATE_VENETIA = {
-		region_state:MIL = {
+		region_state:PAD = {
 			create_pop = {
 				culture = north_roman
 				size = 1855196

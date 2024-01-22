@@ -193,7 +193,7 @@ STATES = {
 	}
 	s:STATE_VENETIA = {
 		create_state = {
-			country = c:MIL
+			country = c:PAD
 			owned_provinces = { xB001A0 x3083C8 x3080A0 x8EEB7A xB080A0 x5141E0 x605424 x6984B4 x554866 xC02A3F }
 		}
 		
@@ -3279,7 +3279,7 @@ STATES = {
 	}
 	s:STATE_EAST_SWITZERLAND = {
 		create_state = {
-			country = c:MIL
+			country = c:PAD
 			owned_provinces = { x7E4B86 x5FB41E xD00161 x90C0E0 x11C0E0 }
 		}
 		
@@ -6583,7 +6583,7 @@ STATES = {
 	}
 	s:STATE_LOMBARDY = {
 		create_state = {
-			country = c:MIL
+			country = c:PAD
 			owned_provinces = { x3F1E38 xD04060 x9AC196 x867A90 xA40CE9 x50C060 x70B8A9 x4713EE }
 		}
 		
@@ -6641,7 +6641,7 @@ STATES = {
 	}
 	s:STATE_SOUTH_TYROL = {
 		create_state = {
-			country = c:MIL
+			country = c:PAD
 			owned_provinces = { xD0BF60 x1120FF xD040E0 x039D0F }
 		}
 		
@@ -6857,7 +6857,7 @@ STATES = {
 	}
 	s:STATE_PIEDMONT = {
 		create_state = {
-			country = c:MIL
+			country = c:PAD
 			owned_provinces = { xD080E0 xAA6958 xDA86EA xA9397D x90C060 x1140E0 xF00544 xACB500 x11C061 x904061 x54728A x5F6BAA }
 		}
 		
