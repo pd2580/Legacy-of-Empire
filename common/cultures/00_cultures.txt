@@ -15567,7 +15567,7 @@ platinean={
 	graphics = european
 }
 
-argentine={
+argente={
 	color= { 157  144  97 }
 	religion = catholic
 	traits = { francophone european_heritage }
