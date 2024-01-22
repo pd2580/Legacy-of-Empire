@@ -485,7 +485,7 @@
 		}
 	}
 	s:STATE_ALGIERS = {
-		region_state:MAS = {
+		region_state:ALC = {
 			create_pop = {
 				culture = maghrebi
 				size = 541914
@@ -536,7 +536,7 @@
 		}
 	}
 	s:STATE_CONSTANTINE = {
-		region_state:CON = {
+		region_state:ALC = {
 			create_pop = {
 				culture = maghrebi
 				size = 245953
@@ -558,8 +558,6 @@
 				culture = bambara
 				size = 32020
 			}
-		}
-		region_state:AIT = {
 			create_pop = {
 				culture = maghrebi
 				size = 18124
@@ -577,8 +575,6 @@
 				culture = bambara
 				size = 9281
 			}
-		}
-		region_state:SYR = {
 			create_pop = {
 				culture = maghrebi
 				size = 18830
@@ -628,8 +624,6 @@
 				culture = bambara
 				size = 18401
 			}
-		}
-		region_state:SYR = {
 			create_pop = {
 				culture = maghrebi
 				size = 41020
@@ -657,7 +651,7 @@
 		}
 	}
 	s:STATE_TUNISIA = {
-		region_state:TUN = {
+		region_state:ALC = {
 			create_pop = {
 				culture = maghrebi
 				size = 1165804
@@ -804,7 +798,7 @@
 				size = 8004
 			}
 		}
-		region_state:TUG = {
+		region_state:ALC = {
 			create_pop = {
 				culture = maghrebi
 				size = 16020
@@ -820,7 +814,7 @@
 		}
 	}
 	s:STATE_WEST_SAHARA = {
-		region_state:SAH = {
+		region_state:ALC = {
 			create_pop = {
 				culture = berber
 				size = 20000
