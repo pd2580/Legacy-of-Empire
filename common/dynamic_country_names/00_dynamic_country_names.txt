@@ -759,7 +759,7 @@ MAD = { # East Indies
 	}
 }
 
-BLG = { # Bulungan
+BRU = { # Bulungan
 	dynamic_country_name = { # Kalimantan
 		name = dyn_c_kalimantan
 		adjective = dyn_c_kalimantan_adj

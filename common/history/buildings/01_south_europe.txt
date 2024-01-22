@@ -1686,12 +1686,20 @@
 		}
 	}
 	s:STATE_DOBRUDJA={
-		region_state:ROM={
+		region_state:A01={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building = {
+				building="building_shipyards"
+				level=1
+				reserves=1
+				activate_production_methods = {
+					"pm_basic_shipbuilding"
+				}
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -1779,6 +1787,14 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
+			create_building = {
+				building="building_government_administration"
+				level=3
+				reserves=1
+				activate_production_methods = {
+					"pm_horizontal_drawer_cabinets"
+				}
+			}
 		}
 	}
 	s:STATE_NORTHERN_THRACE={
@@ -1816,7 +1832,7 @@
 		}
 	}
 	s:STATE_BULGARIA={
-		region_state:BUL={
+		region_state:A01={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -1834,6 +1850,22 @@
 				level=4
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building = {
+				building="building_government_administration"
+				level=3
+				reserves=1
+				activate_production_methods = {
+					"pm_horizontal_drawer_cabinets"
+				}
+			}
+			create_building = {
+				building="building_tooling_workshops"
+				level=2
+				reserves=1
+				activate_production_methods = {
+					"pm_crude_tools"
+				}
 			}
 		}
 	}
@@ -1860,7 +1892,7 @@
 		}
 	}
 	s:STATE_DALMATIA={
-		region_state:CRO={
+		region_state:SEE={
 			create_building={
 				building="building_fishing_wharf"
 				level=3
@@ -1990,7 +2022,7 @@
 		}
 	}
 	s:STATE_MONTENEGRO={
-		region_state:BUL={
+		region_state:MON={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -1998,7 +2030,7 @@
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 		}
-		region_state:CRO={	
+		region_state:SEE={	
 			create_building={
 				building="building_port"
 				level=2
@@ -2007,17 +2039,17 @@
 			}
 		}
 	}
-	s:STATE_NORTHERN_SERBIA={
-		region_state:BUL={
+	s:STATE_SERBIA={
+		region_state:KOS={
 			create_building={
 				building="building_livestock_ranch"
-				level=1
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" }
 			}
@@ -2026,22 +2058,6 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_privately_owned_plantation" }
-			}
-		}
-	}
-	s:STATE_SOUTHERN_SERBIA={
-		region_state:BUL={
-			create_building={
-				building="building_livestock_ranch"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_wheat_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}
 		}
 	}

@@ -2140,7 +2140,7 @@
 		}
 	}
 	s:STATE_BRITTANY={
-		region_state:AQU={
+		region_state:BRI={
 			create_building={
 				building="building_government_administration"
 				level=10

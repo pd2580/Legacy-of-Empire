@@ -2560,13 +2560,13 @@ BLA_subject_GBR = {
 	}		
 }
 
-BLG = { # Bulungan
+BRU = { # Bulungan
 	# Plain white flag (same as Johore and most sultanates in the region)
 	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 }
-BLG_republic = { # Bulungan
+BRU_republic = { # Bulungan
 	# Modern flag (no concrete info on intermediate designs)
 	
 	pattern = "pattern_solid.tga"

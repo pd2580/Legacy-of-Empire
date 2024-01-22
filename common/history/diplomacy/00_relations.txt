@@ -166,7 +166,7 @@
 		set_relations = { country = c:BIC value = -20 }
 		set_relations = { country = c:BRU value = -20 }
 		set_relations = { country = c:ACE value = -20 }
-		set_relations = { country = c:BLG value = -20 }
+		set_relations = { country = c:BRU value = -20 }
 		set_relations = { country = c:DEI value = 30 }
 	}
 	c:ONT = {

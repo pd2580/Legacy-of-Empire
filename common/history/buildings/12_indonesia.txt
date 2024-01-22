@@ -182,7 +182,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}			
 		}
-		region_state:BLG={
+		region_state:BRU={
 			create_building={
 				building="building_barracks"
 				level=2

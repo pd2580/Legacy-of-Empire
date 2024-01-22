@@ -27,6 +27,36 @@
 	}
 }
 
+SLA = {
+	use_culture_states = yes
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_slavia
+	leadership_play = dp_leadership_slavia
+
+	required_states_fraction = 1
+
+	ai_will_do = { has_technology_researched = nationalism }
+
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:bulgarian
+			country_has_primary_culture = cu:slovene
+		}
+		any_country = {
+			filter = {
+				OR = {
+					country_has_primary_culture = cu:north_roman
+					country_has_primary_culture = cu:south_roman				
+				}
+			}
+			has_technology_researched = nationalism	
+			percent = 1
+		}
+	}
+}
+
 RME = {
 	use_culture_states = yes
 	

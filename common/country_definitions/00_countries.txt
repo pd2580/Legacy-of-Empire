@@ -9,6 +9,161 @@
 	capital = STATE_WEST_COUNTRY
 }
 
+SEE = { ## The See
+	color = { 135 87 145 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_roman croat }
+	capital = STATE_DALMATIA
+}
+
+BRI = { ## Brittany
+	color = { 130 224 221 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
+A01 = { ## Bulgaristan
+	color = { 109 156 138 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { bulgarian }
+	religion =  sunni 
+	capital = STATE_BULGARIA
+}
+
+DAN = { ## Danube
+	color = { 100 127 161 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
+BLG = { ## Belgrade
+	color = { 196 175 132 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
+A04 = { ## Sarajevo
+	color = { 92 45 9 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
+SOF = { ## Sofia
+	color = { 92 45 9 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
+A06 = { ## The See
+	color = { 92 45 9 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
+A07 = { ## Montenegro
+	color = { 92 45 9 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
+KOS = { ## Kosovia
+	color = { 87 58 58 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
+A09 = { ## Tirana
+	color = { 92 45 9 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
+A10 = { ## Albania
+	color = { 92 45 9 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
+A11 = { ## Balkan City State
+	color = { 92 45 9 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
+A12 = { ## Balkan City State 2
+	color = { 92 45 9 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { cornie }
+	capital = STATE_WEST_COUNTRY
+}
+
 INC = { ## Incan Empire
 	color = { 61 22 99 }
 	
@@ -97,6 +252,138 @@ RHI = { ## Rhenish Republic
 	capital = STATE_NORTH_RHINE
 }
 
+RH2 = { ## Frankfurt
+	color = { 184 84 84 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
+RH3 = { ## Mainz
+	color = { 173 90 90 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
+RH4 = { ## Hesse
+	color = { 171 87 87 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
+RH5 = { ## Westphalia
+	color = { 135 22 22 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
+RH6 = { ## Brunswick
+	color = { 227 116 116 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
+RH7 = { ## Siegen
+	color = { 199 107 107 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
+RH8 = { ## Ruhr
+	color = { 138 69 69 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
+RH9 = { ## Cologne
+	color = { 158 92 76 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
+R10 = { ## Aachen
+	color = { 133 66 50}
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
+R11 = { ## Bonn
+	color = { 128 73 73 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
+R12 = { ## Eupen
+	color = { 110 44 25}
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
+R13 = { ## Alsace
+	color = { 110 29 29 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish }
+	capital = STATE_NORTH_RHINE
+}
+
 NAP = { ## Naples
 	color = { 113 54 181 }
 	
@@ -175,7 +462,7 @@ RUS = {
 }
 
 BGY = { ## Burgundy
-	color = { 130 21 65 }
+	color = { 82 12 37 }
 
 	country_type = recognized
 
@@ -1152,7 +1439,7 @@ SER = {
 	tier = kingdom
 	
 	cultures = { serb }
-	capital = STATE_NORTHERN_SERBIA
+	capital = STATE_SERBIA
 }
 
 SLO = {
@@ -1197,7 +1484,7 @@ YUG = {
 
 	tier = empire
 	
-	capital = STATE_NORTHERN_SERBIA 
+	capital = STATE_SERBIA 
 	cultures = { serb croat slovene bosniak }
 }
 
@@ -3935,7 +4222,7 @@ CAU = {
 }
 
 MIL = {
-	color = { 235 196 231 }
+	color = { 73  152  76 }
 	
 	country_type = recognized
 

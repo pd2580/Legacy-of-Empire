@@ -764,7 +764,7 @@
 		}
 	}
 	s:STATE_BRITTANY = {
-		region_state:AQU = {
+		region_state:BRI = {
 			create_pop = {
 				culture = breton
 				size = 1599083

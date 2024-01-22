@@ -457,10 +457,10 @@
 		}
 	}
 	s:STATE_DOBRUDJA = {
-		region_state:ROM = {
+		region_state:A01 = {
 			create_pop = {
-				culture = turkish
-				size = 59044
+				culture = bulgarian
+				size = 1459044
 			}
 			create_pop = {
 				culture = ukrainian
@@ -568,18 +568,30 @@
 		}
 	}
 	s:STATE_BULGARIA = {
-		region_state:BUL = {
+		region_state:A01 = {
 			create_pop = {
 				culture = turkish
 				size = 210404
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 660000
+				size = 1660000
 			}
 			create_pop = {
 				culture = sephardic
 				size = 4004
+			}
+		}
+		region_state:DAN = {
+			create_pop = {
+				culture = bulgarian
+				size = 250400
+			}
+		}
+		region_state:SOF = {
+			create_pop = {
+				culture = bulgarian
+				size = 120400
 			}
 		}
 	}
@@ -596,13 +608,17 @@
 		}
 	}
 	s:STATE_DALMATIA = {
-		region_state:CRO = {
+		region_state:SEE = {
 			create_pop = {
 				culture = croat
-				size = 297796
+				size = 200000
 			}
 			create_pop = {
-				culture = serb
+				culture = bulgarian
+				size = 100000
+			}
+			create_pop = {
+				culture = slovene
 				size = 80000
 			}
 			create_pop = {
@@ -681,7 +697,7 @@
 		}
 	}
 	s:STATE_MONTENEGRO = {
-		region_state:BUL = {
+		region_state:MON = {
 			create_pop = {
 				culture = bosniak
 				size = 43196
@@ -704,7 +720,7 @@
 			}
 		}
 		# Cattaro Region, downscaled version of 1880 census, with inflated Italian numbers, and decreased German ones
-		region_state:CRO = {
+		region_state:SEE = {
 			create_pop = {
 				culture = serb
 				size = 15662
@@ -723,7 +739,7 @@
 			}
 		}
 	}
-	s:STATE_NORTHERN_SERBIA = {
+	s:STATE_SERBIA = {
 		region_state:BUL = {
 			create_pop = {
 				culture = serb
@@ -731,7 +747,7 @@
 			}
 		}
 	}
-	s:STATE_SOUTHERN_SERBIA = {
+	s:STATE_SERBIA = {
 		region_state:BUL = {
 			create_pop = {
 				culture = turkish

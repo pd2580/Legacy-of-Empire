@@ -1079,9 +1079,9 @@
 		}
 	}
 	s:STATE_WALLACHIA = { # Ballpark estimate: 2,227,865 total for 1836, guessing that its recorded 1859 census marked a 7.77% growth over 1836 or that 1836 is 92.79% of the 1859 census, drawn from a trendline of Transylvanian censuses 1784-1850
-		region_state:ROM = {
+		region_state:A01 = {
 			create_pop = {
-				culture = romanian
+				culture = bulgarian
 				size = 2107689
 			}
 			create_pop = {

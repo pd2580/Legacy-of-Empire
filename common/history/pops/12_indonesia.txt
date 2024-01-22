@@ -140,7 +140,7 @@
 				size = 400
 			}
 		}
-		region_state:BLG = {
+		region_state:BRU = {
 			create_pop = {
 				culture = dayak
 				size = 7000
@@ -305,7 +305,7 @@
 				size = 800
 			}
 		}
-		region_state:BLG = {
+		region_state:BRU = {
 			create_pop = {
 				culture = dayak
 				size = 42000
