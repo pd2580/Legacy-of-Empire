@@ -782,50 +782,30 @@ POPS = {
 		}
 	}
 	s:STATE_AMAZONAS = {
+		region_state:ZIO = {
+			create_pop = {
+				culture = ashkenazi
+				size = 1000000
+			}
+			create_pop = {
+				culture = sephardic
+				size = 800000
+			}
+			create_pop = {
+				culture = amazonian
+				size = 200000
+				pop_type = slaves
+			}
+			create_pop = {
+				culture = afro_brazilian
+				pop_type = slaves
+				size = 200000
+			}
+		}
 		region_state:AMZ = {
 			create_pop = {
 				culture = amazonian
-				size = 57666
-			}
-			create_pop = {
-				culture = north_andean
-				size = 204
-			}
-			create_pop = {
-				culture = amazonic
-				size = 13815
-			}
-			create_pop = {
-				culture = afro_brazilian
-				pop_type = slaves
-				size = 908
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 1911
-			}
-		}
-		region_state:ZIO = {
-			create_pop = {
-				culture = amazonian
-				size = 2134
-			}
-			create_pop = {
-				culture = north_andean
-				size = 6
-			}
-			create_pop = {
-				culture = amazonic
-				size = 510
-			}
-			create_pop = {
-				culture = afro_brazilian
-				pop_type = slaves
-				size = 32
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 69
+				size = 100000
 			}
 		}
 	}
