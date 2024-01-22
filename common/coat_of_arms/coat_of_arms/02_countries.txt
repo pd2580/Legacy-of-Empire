@@ -4013,6 +4013,8 @@ BYE = { # Belarus
 		color2 = "white"
 	}		
 }
+
+
 BYE_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"

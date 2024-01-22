@@ -84,29 +84,26 @@
 	s:STATE_COSTA_RICA = {
 		region_state:MRK = {
 			create_pop = {
-				culture = central_american
-				size = 83992
+				culture = marakh
+				size = 87792
+			}
+			create_pop = {
+				culture = afro_marakh
+				pop_type = slaves
+				size = 100000
 			}
 		}
 	}
 	s:STATE_PANAMA = {
 		region_state:MRK = {
 			create_pop = {
-				culture = central_american
+				culture = marakh
 				size = 87792
 			}
 			create_pop = {
-				culture = afro_caribeno
-				size = 28300
-			}
-			create_pop = {
-				culture = afro_caribeno
+				culture = afro_marakh
 				pop_type = slaves
-				size = 4100
-			}
-			create_pop = {
-				culture = north_andean
-				size = 4000
+				size = 100000
 			}
 			create_pop = {
 				culture = cariban

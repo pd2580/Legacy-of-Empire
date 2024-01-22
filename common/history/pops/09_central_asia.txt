@@ -224,23 +224,14 @@
 		}
 	}
 	s:STATE_TARTARIA = {
-		region_state:RUS = {
+		region_state:SAL = {
 			create_pop = {
 				culture = russian
-				size = 2656396
+				size = 3000000
 			}
 			create_pop = {
-				culture = tatar
-				size = 24000
-			}
-			create_pop = {
-				culture = north_german
-				size = 72004
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 35996
+				culture = peruvian
+				size = 500000
 			}
 		}
 	}
