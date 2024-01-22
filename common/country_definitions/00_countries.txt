@@ -704,6 +704,17 @@ BEL = {
 	capital = STATE_FLANDERS
 }
 
+CLB = {
+	color = { 235 200 127 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { flemish wallonian }	
+	capital = STATE_FLANDERS
+}
+
 CAT = {
 	color = { 213  132  76 }
 	

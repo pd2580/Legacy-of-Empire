@@ -10,6 +10,11 @@
  notification_je_secret_police_research_identification_fail_desc:0 "You have failed to research $identification_documents$."
  notification_je_secret_police_research_identification_fail_tooltip:0 "You have failed to research $identification_documents$ for the Secret Police."
 
+ je_ams_iron_fist:0 "Dutch Iron Fist"
+ je_ams_iron_fist_desc:0 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
+ je_ams_iron_fist_tooltip:0 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
+ je_ams_iron_fist_reason:0 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
+
  je_make_schools_secular:0 "Change education law to secular"
  je_make_schools_secular_reason:0 "The $intelligentsia$ want education to be secular."
  notification_je_make_schools_secular_complete_name:0 "Secular Education"

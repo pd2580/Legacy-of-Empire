@@ -1,0 +1,83 @@
+﻿##namespace = iron_fist
+
+#iron_fist.1 = {
+	#type = country_event
+	#placement = scope:iron_fist_state
+	
+	#title = iron_fist.1.t
+	#desc = {
+		#first_valid = {
+			#triggered_desc = {
+				#desc = iron_fist.1.d1
+				#trigger = {
+					#always = yes
+				#}
+			#}
+		#}
+	#}
+	#flavor = iron_fist.1.f
+	
+	#event_image = {
+		#video = "europenorthamerica_russian_serfs"
+	#}
+
+	#on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	#icon = "gfx/interface/icons/event_icons/event_map.dds"
+	
+	#duration = 3
+	
+	#trigger = {
+		# triggered by JE
+	#}
+
+	#immediate = {
+		#random_scope_country = {
+			#limit = {
+				#OR = {
+					#c:CTC = this
+					#c:CLB = this
+				#}
+			#}
+			#save_scope_as = iron_fist_country
+		#}
+	#}
+
+	#option = {
+		#name = iron_fist.1.a
+		#default_option = yes
+		#highlighted_option = yes
+		#trigger = {
+			#always = yes
+		#}
+		#if = {
+			#limit = {
+				#OR = {
+					#exists = c:CLB
+					#exists = c:CTC
+				#}
+				#change_global_variable = {
+					#name = iron_fist_country
+					#add = 1
+				#}
+				#global_var:iron_fist_country_global < 2
+			#}
+			#remove_diplomatic_pact = {
+				#country = c:CTC
+				#type = dominion
+			#}
+		#}
+		#else = {
+			#change_global_variable = {
+				#name = iron_fist_global
+				#add = 2
+			#}
+			#scope:iron_fist_state = {
+				#state_region = {
+					#add_arable_land = 50
+				#}
+			#}
+		#}
+		
+	#}
+#}

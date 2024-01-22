@@ -47,6 +47,11 @@
  enforced_domestic_investment:0 "Enforced Domestic Investment"
  modifier_commander_with_addiction:0 "Addiction affecting work"
  modifier_commander_bribed:0 "Commander Influence"
+
+ iron_fist.1.t:0 "Ruling With an Iron Fish"
+ iron_fist.1.d:1 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
+ iron_fist.1.f:0 "Flavor Text"
+ iron_fist.1.a:0 "There is nothing we can do."
  
  government_conflicts.1.t:0 "Breeding and Education"
  government_conflicts.1.d:1 "Disagreements between the [SCOPE.gsInterestGroup('landowners_ig').GetName] and the [SCOPE.gsInterestGroup('intelligentsia_ig').GetName] are causing conflicts in government."
