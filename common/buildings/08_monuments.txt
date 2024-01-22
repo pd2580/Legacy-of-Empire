@@ -310,7 +310,7 @@ building_taj_mahal = {
 		error_check = {
 			severity = invalid
 			this = {
-				state_region = s:STATE_JAIPUR
+				state_region = s:STATE_RAJPUTANA
 			}
 		}
 	}
