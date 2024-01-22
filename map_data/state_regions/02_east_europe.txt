@@ -29,8 +29,8 @@ STATE_MOSCOW = {
     arable_land = 160
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
-        bg_coal_mining = 60
-        bg_iron_mining = 30
+        bg_coal_mining = 40
+        bg_iron_mining = 20
         bg_logging = 34
         bg_monuments = 1
     }
@@ -99,6 +99,8 @@ STATE_BRYANSK = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 33
+        bg_coal_mining = 10
+        bg_iron_mining = 10
     }
 }
 
@@ -224,8 +226,8 @@ STATE_LUHANSK = {
     arable_land = 110
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
-        bg_coal_mining = 80
-        bg_iron_mining = 45
+        bg_coal_mining = 60
+        bg_iron_mining = 35
         bg_logging = 7
         bg_fishing = 10
     }
@@ -245,6 +247,8 @@ STATE_KURSK = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 18
+        bg_coal_mining = 10
+        bg_iron_mining = 10
     }
 }
 

@@ -27,7 +27,7 @@ TOM = { ## Slavia
 
 	tier = grand_principality
 	
-	cultures = { bulgarian slovene croat serb bosniak }
+	cultures = { irish russian }
 	capital = STATE_WEST_COUNTRY
 }
 
@@ -38,7 +38,7 @@ MAT = { ## Slavia
 
 	tier = grand_principality
 	
-	cultures = { bulgarian slovene croat serb bosniak }
+	cultures = { yankee russian }
 	capital = STATE_WEST_COUNTRY
 }
 
@@ -49,7 +49,7 @@ JUI = { ## Slavia
 
 	tier = grand_principality
 	
-	cultures = { bulgarian slovene croat serb bosniak }
+	cultures = { mexican russian }
 	capital = STATE_WEST_COUNTRY
 }
 RND = { ## Slavia
@@ -59,7 +59,7 @@ RND = { ## Slavia
 
 	tier = grand_principality
 	
-	cultures = { bulgarian slovene croat serb bosniak }
+	cultures = { british russian }
 	capital = STATE_WEST_COUNTRY
 }
 
