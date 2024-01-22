@@ -392,7 +392,7 @@ reinstated_hairy_feet_modifier = {
 
 unrestricted_slave_trade_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	state_slave_import_mult = -0.1
+	state_slave_import_mult = 1
 	country_influence_mult = -0.1
 }
 
