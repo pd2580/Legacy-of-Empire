@@ -26,6 +26,33 @@
 				save_scope_as = dutch_peacekeepers
 			}
     }
+	c:BGY = { ## Burgundy
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_france
+				name = "1st Burgundian Army"
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_skirmish_infantry
+					state_region = s:STATE_BURGUNDY
+					count = 50
+				}
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_lancers
+					state_region = s:STATE_LORRAINE
+					count = 25
+				}
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_mobile_artillery
+					state_region = s:STATE_LORRAINE
+					count = 25
+				}
+	
+				save_scope_as = burgarmy
+			}
+    }
 	c:POL = { ## Polish Empire
 		create_military_formation = {
 			type = army
