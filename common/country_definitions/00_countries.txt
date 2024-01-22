@@ -548,17 +548,6 @@ BGY = { ## Burgundy
 	capital = STATE_BURGUNDY
 }
 
-PRU = {
-	color = { 0 49 83 }
-	
-	country_type = recognized
-
-	tier = kingdom
-	
-	cultures = { north_german }
-	capital = STATE_BRANDENBURG
-}
-
 WES = {
 	color = { 5 85 5 }
 	
@@ -611,7 +600,7 @@ UPA = {
 	
 	tier = empire
 	
-	cultures = { argentine, platinean }
+	cultures = { argentine platinean }
 	capital = STATE_SANTA_FE
 }
 
@@ -1478,18 +1467,6 @@ HEL = {
 	
 	cultures = { greek }	
 	capital = STATE_ATTICA
-}
-
-ION = {
-	color = { 153  141  117 }
-	
-	country_type = recognized
-
-	tier = principality
-	
-	cultures = { greek }	
-	capital = STATE_IONIAN_ISLANDS
-	is_named_from_capital = yes
 }
 
 MOL = {

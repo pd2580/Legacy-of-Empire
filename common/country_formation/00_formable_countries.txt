@@ -228,21 +228,6 @@ PLC = {
 	ai_will_do = { always = yes }
 }
 
-PRU = {
-	states = { 
-		STATE_BRANDENBURG
-		STATE_POMERANIA
-		STATE_WEST_PRUSSIA
-		STATE_EAST_PRUSSIA
-		STATE_SILESIA
-		STATE_POSEN
-	}
-
-	required_states_fraction = 0.8
-	
-	ai_will_do = { always = yes }
-}
-
 CHI = {
 	use_culture_states = yes
 
@@ -739,7 +724,6 @@ RHN = {
 	possible = {
 		has_technology_researched = nationalism
 		NOR = {
-			c:PRU ?= this
 			c:AUS ?= this
 			c:NGF ?= this
 			c:SGF ?= this

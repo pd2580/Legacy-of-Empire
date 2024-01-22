@@ -197,10 +197,6 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:ION
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:BIC
 			type = dominion
 		}

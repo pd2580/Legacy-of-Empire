@@ -2244,7 +2244,7 @@
 		}
 	}
 	s:STATE_IONIAN_ISLANDS={
-		region_state:ION={
+		region_state:HEL={
 			create_building={
 				building="building_wheat_farm"
 				level=1
