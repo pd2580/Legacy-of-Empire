@@ -6362,54 +6362,6 @@ DAI_subject_FRA = {
 	}		
 }
 
-DEI = { 
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue"
-	}
-}
-
-DEI_subject = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue"
-	}
-}
-
-DEI_voc = { #Company Flag
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue"
-	}
-	colored_emblem = {
-		texture = "ce_letter_v_serif.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_letter_o.dds"
-		color1 = "black"
-		instance = { position = { 0.47 0.48 } scale = { 0.3 0.23 } }
-	}
-	colored_emblem = {
-		texture = "ce_letter_c_serif.dds"
-		color1 = "black"
-		instance = { position = { 0.56 0.48 } scale = { 0.23 0.23 } }
-	}
-}
-
 DES = {
 	# Deseret
 	

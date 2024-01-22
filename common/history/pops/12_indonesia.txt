@@ -181,7 +181,7 @@
 				size = 26000
 			}
 		}
-		region_state:DEI = {
+		region_state:JAV = {
 			create_pop = {
 				culture = bornean
 				size = 39660
@@ -345,7 +345,7 @@
 				size = 70000
 			}
 		}
-		region_state:DEI = {
+		region_state:JAV = {
 			create_pop = {
 				culture = bornean
 				size = 10200
@@ -372,7 +372,7 @@
 		}
 	}
 	s:STATE_WEST_JAVA = {
-		region_state:DEI = {
+		region_state:JAV = {
 			create_pop = {
 				culture = javan
 				size = 3432000
@@ -399,7 +399,7 @@
 		}
 	}
 	s:STATE_EAST_JAVA = {
-		region_state:DEI = {
+		region_state:JAV = {
 			create_pop = {
 				culture = javan
 				size = 1873792
@@ -426,7 +426,7 @@
 		}
 	}
 	s:STATE_CENTRAL_JAVA = {
-		region_state:DEI = {
+		region_state:JAV = {
 			create_pop = {
 				culture = javan
 				size = 1772712
@@ -711,7 +711,7 @@
 		}
 	}
 	s:STATE_MOLUCCAS = {
-		region_state:DEI = {
+		region_state:JAV = {
 			create_pop = {
 				culture = moluccan
 				size = 96808
@@ -775,7 +775,7 @@
 				size = 347996
 			}
 		}
-		region_state:DEI = {
+		region_state:JAV = {
 			create_pop = {
 				culture = moluccan
 				size = 11000
@@ -900,7 +900,7 @@
 				size = 3996
 			}
 		}
-		region_state:DEI = {
+		region_state:JAV = {
 			create_pop = {
 				culture = moluccan
 				size = 450800
