@@ -1,3 +1,0 @@
-﻿DIPLOMATIC_PLAYS = {
-	
-}
