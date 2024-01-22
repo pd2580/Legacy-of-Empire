@@ -202,24 +202,14 @@
 		}
 	}
 	s:STATE_KAZAN = {
-		region_state:RUS = {
+		region_state:TOM = {
 			create_pop = {
 				culture = russian
-				size = 2455124
+				size = 3000000
 			}
 			create_pop = {
-				culture = ugrian
-				religion = orthodox
-				size = 100004
-			}
-			create_pop = {
-				culture = tatar
-				size = 642996
-			}
-			create_pop = {
-				culture = tatar
-				religion = orthodox
-				size = 220000
+				culture = irish
+				size = 500000
 			}
 		}
 	}

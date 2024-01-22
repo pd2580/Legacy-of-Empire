@@ -77,6 +77,7 @@ UUU = {
 	ai_will_do = { has_technology_researched = nationalism }
 
 	possible = {
+		has_modifier = universalis_union_unification
 		OR = {
 			country_has_primary_culture = cu:russian
 		}

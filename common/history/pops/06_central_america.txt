@@ -116,15 +116,15 @@
 		region_state:LBT = {
 			create_pop = {
 				culture = afro_antillean
-				size = 838884
+				size = 1338884
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 13543
+				size = 10543
 			}
 			create_pop = {
 				culture = caribeno
-				size = 5120
+				size = 200120
 			}
 			create_pop = {
 				culture = spanish
@@ -144,11 +144,11 @@
 		region_state:LBT = {
 			create_pop = {
 				culture = afro_antillean
-				size = 4007
+				size = 200007
 			}
 			create_pop = {
 				culture = caribeno
-				size = 101639
+				size = 301639
 			}
 			create_pop = {
 				culture = afro_caribeno
@@ -189,7 +189,7 @@
 		region_state:LBT = {
 			create_pop = {
 				culture = british
-				size = 19200
+				size = 59200
 			}
 			create_pop = {
 				culture = afro_caribbean
@@ -241,20 +241,24 @@
 		region_state:LBT = {
 			create_pop = {
 				culture = caribeno
-				size = 461304
+				size = 561304
 			}
 			create_pop = {
-				culture = afro_caribeno
-				size = 152011
+				culture = afro_antillean
+				size = 252011
 			}
 			create_pop = {
 				culture = afro_caribeno
 				pop_type = slaves
-				size = 288786
+				size = 388786
 			}
 			create_pop = {
 				culture = spanish
 				size = 22004
+			}
+			create_pop = {
+				culture = dutch
+				size = 100004
 			}
 		}
 	}

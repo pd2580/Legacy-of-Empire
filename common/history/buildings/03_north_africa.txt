@@ -360,12 +360,10 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=3
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-		}
-		region_state:CAS={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -378,12 +376,6 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
-			create_building={
-				building="building_barracks"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}			
 		}
 	}
 	s:STATE_INNER_MOROCCO={
@@ -409,7 +401,7 @@
 		}
 	}
 	s:STATE_ALGIERS={
-		region_state:MAS={
+		region_state:ALC={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -481,66 +473,34 @@
 		}
 	}
 	s:STATE_CONSTANTINE={
-		region_state:CON={
+		region_state:ALC={
 			create_building={
 				building="building_government_administration"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
-				level=6
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-		region_state:AIT={
-			create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_organization" }
-			}
-			create_building={
-				building="building_wheat_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_privately_owned" }
-			}			
-			create_building={
-				building="building_vineyard_plantation"
-				level=1
-				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=2
+				level=8
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
@@ -567,7 +527,7 @@
 		}
 	}
 	s:STATE_ORAN={
-		region_state:MAS={
+		region_state:ALC={
 			create_building={
 				building="building_wheat_farm"
 				level=3
@@ -615,7 +575,7 @@
 		}
 	}
 	s:STATE_TUNISIA={
-		region_state:TUN={
+		region_state:ALC={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -715,7 +675,7 @@
 	s:STATE_EAST_SAHARA={
 		region_state:AHG={
 		}
-		region_state:TUG={
+		region_state:ALC={
 			create_building={
 				building="building_barracks"
 				level=1
@@ -725,7 +685,7 @@
 		}
 	}
 	s:STATE_WEST_SAHARA={
-		region_state:SAH={
+		region_state:ALC={
 		}
 	}
 	s:STATE_MAURITANIA={
