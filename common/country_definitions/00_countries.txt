@@ -1,4 +1,15 @@
-﻿SLA = { ## Slavia
+﻿UUU = { ## Universalis Union
+	color = { 240 200 24  }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { russian }
+	capital = STATE_MOSCOW
+}
+
+SLA = { ## Slavia
 	color = { 92 135 209 }
 	
 	country_type = recognized
@@ -32,7 +43,7 @@ MAT = { ## Slavia
 }
 
 JUI = { ## Slavia
-	color = { 92 135 209 }
+	color = { 52 102 56 }
 	
 	country_type = recognized
 
@@ -2927,7 +2938,7 @@ BYE = {
 }
 
 SAL = {
-	color = { 172  170  170 }
+	color = { 58 114 199 }
 	
 	country_type = recognized
 
@@ -3920,7 +3931,7 @@ NCA = {
 }
 
 DON = {
-	color = { 245 221 42 }
+	color = { 110 49 49 }
 	country_type = recognized
 	tier = principality
 	cultures = { russian ukrainian }
