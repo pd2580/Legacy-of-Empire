@@ -2241,7 +2241,7 @@ STATES = {
 		
 		add_homeland = cu:platinean
 		add_homeland = cu:patagonian
-		add_claim = c:ARG
+		add_claim = c:UPA
 	}
 	s:STATE_PATAGONIA = { 	
 		create_state = {
@@ -2260,7 +2260,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:patagonian
-		add_claim = c:ARG
+		add_claim = c:UPA
 		add_claim = c:CHL
 	}
 	s:STATE_RIO_NEGRO = {
@@ -2271,7 +2271,7 @@ STATES = {
 		
 		add_homeland = cu:platinean
 		add_homeland = cu:patagonian
-		add_claim = c:ARG
+		add_claim = c:UPA
 	}
 	s:STATE_LA_PAMPA = {
 		create_state = {
@@ -2324,7 +2324,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:platinean
-		add_claim = c:ARG
+		add_claim = c:UPA
 	}
 	s:STATE_SANTA_CRUZ = {
 		create_state = {
@@ -2396,7 +2396,7 @@ STATES = {
 		
 		add_homeland = cu:patagonian		
 		add_claim = c:CHL
-		add_claim = c:ARG
+		add_claim = c:UPA
 	}
 	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
 		create_state = {
@@ -6028,9 +6028,8 @@ STATES = {
 	}
 	s:STATE_TARTARIA = {
 		create_state = {
-			country = c:RUS
+			country = c:SAL
 			owned_provinces = { x9672A5 x8447C0 x5DC7DF xD6ACAE x302B65 x0BAE1A x36696F xDB5E3F xF2884A x3BA63A x904CD8 x69239F xFAB9A8 xF0F779 x2517B5 x587F59 xD19BE5 x060F1F x60DF21 x1C9CEB xE4E080 x66929F x370996 x1233B6 xEBD048 xE8B3EC x9633B6 x5DFE91 x610EC7 xFBE9D0 xB5D0F6 x112A5D x184EBD xC7340F x8F80BA xB353F0 x4190C0 xD9BEED x53AFD2 x8840E2 xAA798E xB9D801 x6DC89F x1E7643 xEB7873 x41D846 xA2AEA2 xD7547A xF49A5A x461223 x135BEB xAE82E6 x248B83 x61384B x45E723 x79F049 x6161A0 x19C20A xC57104 x5EA87F x0B35A0 x269530 x7B5279 xBFDE90 x22B4AF x1084B6 xB80B2E x783E80 xB2B5F4 xFE56AF x352ACF x7A26E0 x7EB0D3 x006422 x003D07 x616020 x74730E xCC3356 xB3B6D0 x75659C x7D40C9 x54F76C x75FC6F x11A456 x00DA3C xE66DB2 x5F82DE x85fb7e }
-			state_type = unincorporated
 		}
 		
 		add_homeland = cu:russian
