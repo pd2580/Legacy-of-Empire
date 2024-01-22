@@ -846,7 +846,7 @@
 		}
 	}
 	s:STATE_DELVIDEK = {
-		region_state:HUN = {
+		region_state:CRO = {
 			create_pop = {
 				culture = south_german
 				size = 197200
@@ -874,13 +874,13 @@
 		}
 	}
 	s:STATE_BANAT = {
-		region_state:HUN = {
+		region_state:DAN = {
 			create_pop = {
 				culture = south_german
 				size = 312640
 			}
 			create_pop = {
-				culture = romanian
+				culture = bulgarian
 				size = 444620
 			}
 			create_pop = {

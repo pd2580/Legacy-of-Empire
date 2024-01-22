@@ -6659,7 +6659,7 @@ STATES = {
 	}
 	s:STATE_DELVIDEK = {
 		create_state = {
-			country = c:HUN
+			country = c:CRO
 			owned_provinces = { x77143D x901B70 x9E1AD1 x11E021 x626998 xC347D8 }
 		}
 		
@@ -6968,10 +6968,11 @@ STATES = {
 	}
 	s:STATE_BANAT = {
 		create_state = {
-			country = c:HUN
+			country = c:DAN
 			owned_provinces = { x90E021 x1161A0 x15C7D1 xF56517 x078D13 xC381B6 x2C0A00 x4D9139 xD1FEBD }
 		}
 		
+		add_homeland = cu:bulgarian
 		add_homeland = cu:hungarian
 		add_homeland = cu:romanian
 		add_homeland = cu:serb
