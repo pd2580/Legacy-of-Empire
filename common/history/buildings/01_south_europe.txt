@@ -1750,7 +1750,7 @@
 		}
 	}
 	s:STATE_BOSNIA={
-		region_state:BUL={
+		region_state:BOS={
 			create_building={
 				building="building_tooling_workshops"
 				level=2

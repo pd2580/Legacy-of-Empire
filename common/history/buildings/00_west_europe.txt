@@ -1500,7 +1500,7 @@
 		}
 	}
 	s:STATE_PROVENCE={
-		region_state:SAR={
+		region_state:BGY={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -1519,8 +1519,6 @@
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_privately_owned_plantation" }
 			}
-		}
-		region_state:BGY={
 			create_building={
 				building="building_textile_mills"
 				level=3
@@ -3916,8 +3914,6 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
-		}
-		region_state:HOH={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -3929,7 +3925,7 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
-			}				
+			}	
 		}
 	}
 	s:STATE_BADEN={

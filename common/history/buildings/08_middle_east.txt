@@ -16,7 +16,7 @@
 		}
 	}
 	s:STATE_OMAN={
-		region_state:OMA={
+		region_state:CAS={
 			create_building={
 				building="building_government_administration"
 				level=3

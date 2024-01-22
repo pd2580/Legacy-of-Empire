@@ -501,7 +501,7 @@ POPS = {
 	s:STATE_BUENOS_AIRES = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 300000
 			}
 			create_pop = {
@@ -544,7 +544,7 @@ POPS = {
 	s:STATE_RIO_NEGRO = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 200000
 			}
 			create_pop = {
@@ -569,7 +569,7 @@ POPS = {
 	s:STATE_LA_PAMPA = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 300000
 			}
 			create_pop = {
@@ -598,7 +598,7 @@ POPS = {
 				size = 8000
 			}
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 800000
 			}
 			create_pop = {
@@ -619,7 +619,7 @@ POPS = {
 	s:STATE_CORRIENTES = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 300000
 			}
 			create_pop = {
@@ -648,7 +648,7 @@ POPS = {
 	s:STATE_TUCUMAN = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 100000
 			}
 			create_pop = {
@@ -673,7 +673,7 @@ POPS = {
 	s:STATE_CHACO = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 200000
 			}
 			create_pop = {
@@ -793,7 +793,7 @@ POPS = {
 	s:STATE_MATO_GROSSO = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 50000
 			}
 			create_pop = {
@@ -839,7 +839,7 @@ POPS = {
 	s:STATE_RIO_GRANDE_DO_SUL = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 200000
 			}
 			create_pop = {
@@ -893,7 +893,7 @@ POPS = {
 	s:STATE_SANTA_CATARINA = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 200000
 			}
 			create_pop = {
@@ -914,7 +914,7 @@ POPS = {
 	s:STATE_SAO_PAULO = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 100000
 			}
 			create_pop = {
@@ -939,7 +939,7 @@ POPS = {
 	s:STATE_MINAS_GERAIS = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 50000
 			}
 			create_pop = {
@@ -960,7 +960,7 @@ POPS = {
 	s:STATE_RIO_DE_JANEIRO = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 100000
 			}
 			create_pop = {
@@ -1124,7 +1124,7 @@ POPS = {
 	s:STATE_GOIAS = {
 		region_state:UPA = {
 			create_pop = {
-				culture = argentine
+				culture = argente
 				size = 20000
 			}
 			create_pop = {
