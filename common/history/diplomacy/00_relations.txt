@@ -187,32 +187,6 @@
 	c:PRG = {
 		set_relations = { country = c:CAS value = -30 }
 	}
-	c:PRU = {
-		set_relations = { country = c:RUS value = 25 }
-		set_relations = { country = c:BRA value = 30 }
-		set_relations = { country = c:LIP value = 20 }
-		set_relations = { country = c:LUB value = 30 }
-		set_relations = { country = c:SCW value = 30 }
-		set_relations = { country = c:SCM value = 30 }
-		set_relations = { country = c:COB value = 30 }
-		set_relations = { country = c:MEI value = 30 }
-		set_relations = { country = c:WEI value = 30 }
-		set_relations = { country = c:HOH value = 30 }
-		set_relations = { country = c:HEK value = 30 }
-		set_relations = { country = c:MST value = 30 }
-		set_relations = { country = c:WLD value = 30 }
-		set_relations = { country = c:SAX value = 30 }
-		set_relations = { country = c:ANH value = 30 }
-		set_relations = { country = c:MEC value = 30 }
-		set_relations = { country = c:HES value = 30 }
-		set_relations = { country = c:NAS value = 30 }
-		set_relations = { country = c:FRM value = 30 }
-		set_relations = { country = c:HAN value = 20 }
-		set_relations = { country = c:BAV value = 30 }
-		set_relations = { country = c:BAD value = 30 }
-		set_relations = { country = c:WUR value = 30 }
-		set_relations = { country = c:GBR value = 20 }
-	}
 	c:QUE = {
 		set_relations = { country = c:GBR value = -20 }
 	}

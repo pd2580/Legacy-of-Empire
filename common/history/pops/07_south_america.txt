@@ -387,8 +387,6 @@ POPS = {
 				culture = amazonian
 				size = 12000
 			}
-		}
-		region_state:IQU = {
 			create_pop = {
 				culture = quechua
 				size = 55000
