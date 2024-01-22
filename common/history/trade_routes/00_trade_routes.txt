@@ -356,12 +356,6 @@
 	# Britain
 	c:GBR = {
 		create_trade_route = {
-			goods = explosives
-			level = 2
-			direction = export
-			target = c:PRU.market
-		}
-		create_trade_route = {
 			goods = opium
 			level = 30
 			direction = export
@@ -1083,12 +1077,6 @@
 			target = c:SWE.market
 		}
 		create_trade_route = {
-			goods = iron
-			level = 2
-			direction = import
-			target = c:PRU.market
-		}
-		create_trade_route = {
 			goods = hardwood
 			level = 1
 			direction = import
@@ -1518,22 +1506,10 @@
 	# Sweden 	
 	c:SWE = {	
 		create_trade_route = {
-			goods = tools
-			level = 8
-			direction = import
-			target = c:PRU.market
-		}	
-		create_trade_route = {
 			goods = hardwood
 			level = 9
 			direction = export
 			target = c:GBR.market
-		}			
-		create_trade_route = {
-			goods = luxury_furniture
-			level = 2
-			direction = import
-			target = c:PRU.market
 		}
 		create_trade_route = {
 			goods = luxury_furniture
@@ -1546,30 +1522,6 @@
 			level = 3
 			direction = import
 			target = c:GBR.market
-		}
-		create_trade_route = {
-			goods = wine
-			level = 3
-			direction = import
-			target = c:PRU.market
-		}
-		create_trade_route = {
-			goods = clothes
-			level = 5
-			direction = import
-			target = c:PRU.market
-		}
-		create_trade_route = {
-			goods = furniture
-			level = 4
-			direction = import
-			target = c:PRU.market
-		}
-		create_trade_route = {
-			goods = artillery
-			level = 1
-			direction = import
-			target = c:PRU.market
 		}
 	}
 	
@@ -1888,12 +1840,6 @@
 			target = c:EGY.market
 		}
 		create_trade_route = {
-			goods = clippers
-			level = 1
-			direction = export
-			target = c:PRU.market
-		}
-		create_trade_route = {
 			goods = manowars
 			level = 2
 			direction = export
@@ -1946,12 +1892,6 @@
 			target = c:BGY.market
 		}
 		create_trade_route = {
-			goods = clippers
-			level = 2
-			direction = export
-			target = c:PRU.market
-		}
-		create_trade_route = {
 			goods = manowars
 			level = 4
 			direction = export
@@ -1972,13 +1912,7 @@
 	}
 	
 	# Switzerland
-	c:HEV = {
-		create_trade_route = {
-			goods = small_arms
-			level = 1
-			direction = import
-			target = c:PRU.market
-		}	
+	c:HEV = {	
 		create_trade_route = {
 			goods = luxury_clothes
 			level = 1
@@ -2009,40 +1943,6 @@
 		}	
 	}
 	
-	# Prussia
-	c:PRU = {			
-		create_trade_route = {
-			goods = manowars
-			level = 3
-			direction = import
-			target = c:NET.market
-		}	
-		create_trade_route = {
-			goods = clippers
-			level = 3
-			direction = import
-			target = c:NET.market
-		}		
-		create_trade_route = {
-			goods = dye
-			level = 9
-			direction = import
-			target = c:NET.market
-		}			
-		create_trade_route = {
-			goods = luxury_clothes
-			level = 4
-			direction = import
-			target = c:GBR.market
-		}				
-		create_trade_route = {
-			goods = sugar
-			level = 9
-			direction = import
-			target = c:NET.market
-		}		
-	}	
-	
 	# Belgium
 	c:BEL = {
 		create_trade_route = {
@@ -2050,12 +1950,6 @@
 			level = 7
 			direction = export
 			target = c:GBR.market
-		}
-		create_trade_route = {
-			goods = explosives
-			level = 3
-			direction = export
-			target = c:PRU.market
 		}
 		create_trade_route = {
 			goods = steel

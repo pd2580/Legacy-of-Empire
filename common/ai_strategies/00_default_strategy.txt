@@ -3103,12 +3103,6 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
-					exists = c:BGY
-					c:BGY = this
-					ruler = {
-						has_variable = legitimist_leader
-					}
-
 					exists = c:CAS
 					scope:target_country = {
 						c:CAS = this
@@ -3380,15 +3374,6 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
-					exists = c:BGY
-					c:BGY = this
-					ruler = {
-						OR = {
-							has_variable = legitimist_leader
-							has_variable = bonapartist_leader
-						}
-					}
-
 					exists = c:PAP
 					scope:target_country = {
 						c:PAP = this
@@ -3396,17 +3381,6 @@ ai_strategy_default = {
 					}
 				}
 				multiply = 1.5
-			}
-			
-			if = { 
-				limit = {
-					exists = c:RSM
-					THIS = {
-						has_journal_entry = je_risorgimento
-					}
-					has_variable = rsm_friendship
-				}
-				add = 100
 			}
 
 			if = {
@@ -5237,14 +5211,6 @@ ai_strategy_default = {
 				limit = { # The EIC/Raj should never seek independence as it will lead to its demise via bic_breakup.1.
 					exists = c:BIC
 					this = c:BIC
-				}
-				multiply = 0.0
-			}
-
-			if = {
-				limit = { # Likewise for the Dutch East Indies.
-					exists = c:DEI
-					this = c:DEI
 				}
 				multiply = 0.0
 			}
