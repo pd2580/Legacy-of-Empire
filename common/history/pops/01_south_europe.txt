@@ -742,14 +742,6 @@
 	s:STATE_SERBIA = {
 		region_state:BUL = {
 			create_pop = {
-				culture = serb
-				size = 809604
-			}
-		}
-	}
-	s:STATE_SERBIA = {
-		region_state:BUL = {
-			create_pop = {
 				culture = turkish
 				size = 124400
 			}

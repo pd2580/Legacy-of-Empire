@@ -82,7 +82,7 @@
 		}
 	}
 	s:STATE_COSTA_RICA = {
-		region_state:UCA = {
+		region_state:MRK = {
 			create_pop = {
 				culture = central_american
 				size = 83992
@@ -90,7 +90,7 @@
 		}
 	}
 	s:STATE_PANAMA = {
-		region_state:CLM = {
+		region_state:MRK = {
 			create_pop = {
 				culture = central_american
 				size = 87792
@@ -100,8 +100,8 @@
 				size = 28300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
+				pop_type = slaves
 				size = 4100
 			}
 			create_pop = {

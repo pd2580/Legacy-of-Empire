@@ -9,6 +9,17 @@
 	capital = STATE_WEST_COUNTRY
 }
 
+MRK = { ## Marakhaibiyya
+	color = { 255  234  168 }
+	
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { marakh }
+	capital = STATE_ZULIA
+}
+
 SEE = { ## The See
 	color = { 135 87 145 }
 	
@@ -528,6 +539,17 @@ USA = {
 	capital = STATE_DISTRICT_OF_COLUMBIA
 }
 
+UPA = {
+	color = { 66  94  193 }
+	
+	country_type = colonial
+	
+	tier = empire
+	
+	cultures = { platinean }
+	capital = STATE_SANTA_FE
+}
+
 CSA = {
 	color = { 190  186  202 }
 	
@@ -586,9 +608,9 @@ AGJ = {
 AMZ = {
 	color = { 42 102 64 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { amazonian }
 	capital = STATE_AMAZONAS
@@ -599,10 +621,10 @@ GRI = {
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { guarani }
-	capital = STATE_AMAZONAS
+	capital = STATE_BAJO_PARAGUAY
 }
 
 JAP = {
@@ -2768,6 +2790,17 @@ ISR = {
 	
 	cultures = { ashkenazi sephardic }
 	capital = STATE_PALESTINE
+}
+
+ZIO = {
+	color = { 150  212  214 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { ashkenazi sephardic }
+	capital = STATE_AMAZONAS
 }
 
 BYZ = {
