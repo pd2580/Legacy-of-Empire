@@ -21,7 +21,7 @@ SLA = { ## Slavia
 }
 
 TOM = { ## Slavia
-	color = { 92 135 209 }
+	color = { 154 104 196 }
 	
 	country_type = recognized
 
@@ -53,7 +53,7 @@ JUI = { ## Slavia
 	capital = STATE_WEST_COUNTRY
 }
 RND = { ## Slavia
-	color = { 92 135 209 }
+	color = { 5 7 158 }
 	
 	country_type = recognized
 
