@@ -731,6 +731,25 @@ RHN = {
 	}
 }
 
+SHQ = {
+	states = {
+		STATE_ALBANIA
+		STATE_SERBIA
+		STATE_MONTENEGRO
+		STATE_SKOPIA
+		STATE_MACEDONIA
+	}
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+	
+	possible = {
+		has_technology_researched = nationalism
+		country_has_primary_culture = cu:albanian
+	}
+}
+
 HRE = {
 	use_culture_states = yes
 

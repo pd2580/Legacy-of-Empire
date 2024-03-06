@@ -1,4 +1,19 @@
 ﻿TRADE_ROUTES = {
+	#Wales
+	c:WLS = {
+		create_trade_route = {
+			goods = iron
+			level = 4
+			target = c:AMS.market
+			direction = import
+		}
+		create_trade_route = {
+			goods = sulfur
+			level = 2
+			target = c:AMS.market
+			direction = import
+		}
+	}
 	#Bavaria
 	c:BAV = {
 		create_trade_route = {

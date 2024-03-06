@@ -1058,12 +1058,21 @@
 		region_state:A01 = {
 			create_pop = {
 				culture = bulgarian
-				size = 2107689
+				size = 1307689
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = romanian
-				size = 120176
+				size = 320176
+			}
+		}
+		region_state:DAN = {
+			create_pop = {
+				culture = bulgarian
+				size = 300000
+			}
+			create_pop = {
+				culture = romanian
+				size = 100000
 			}
 		}
 	}

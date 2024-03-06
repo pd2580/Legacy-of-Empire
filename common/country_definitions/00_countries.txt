@@ -103,8 +103,8 @@ BRI = { ## Brittany
 
 	tier = kingdom
 	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
+	cultures = { breton }
+	capital = STATE_BRITTANY
 }
 
 A01 = { ## Bulgaristan
@@ -124,32 +124,21 @@ DAN = { ## Danube
 	
 	country_type = recognized
 
-	tier = empire
+	tier = grand_principality
 	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
+	cultures = { bulgarian }
+	capital = STATE_BULGARIA
 }
 
-BLG = { ## Belgrade
+SR1 = { ## Belgrade
 	color = { 196 175 132 }
 	
 	country_type = recognized
 
-	tier = empire
+	tier = city_state
 	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
-}
-
-A04 = { ## Sarajevo
-	color = { 92 45 9 }
-	
-	country_type = recognized
-
-	tier = empire
-	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
+	cultures = { serb }
+	capital = STATE_SERBIA
 }
 
 SOF = { ## Sofia
@@ -157,32 +146,10 @@ SOF = { ## Sofia
 	
 	country_type = recognized
 
-	tier = empire
+	tier = city_state
 	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
-}
-
-A06 = { ## The See
-	color = { 92 45 9 }
-	
-	country_type = recognized
-
-	tier = empire
-	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
-}
-
-A07 = { ## Montenegro
-	color = { 92 45 9 }
-	
-	country_type = recognized
-
-	tier = empire
-	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
+	cultures = { bulgarian }
+	capital = STATE_BULGARIA
 }
 
 KOS = { ## Kosovia
@@ -190,54 +157,32 @@ KOS = { ## Kosovia
 	
 	country_type = recognized
 
-	tier = empire
+	tier = grand_principality
 	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
+	cultures = { albanian }
+	capital = STATE_SERBIA
 }
 
-A09 = { ## Tirana
+SHK = { ## Shkoder
 	color = { 92 45 9 }
 	
 	country_type = recognized
 
-	tier = empire
+	tier = city_state
 	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
+	cultures = { albanian }
+	capital = STATE_ALBANIA
 }
 
-A10 = { ## Albania
-	color = { 92 45 9 }
+SHQ = { ## Shqipëri
+	color = { 120 16 16 }
 	
 	country_type = recognized
 
-	tier = empire
+	tier = kingdom
 	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
-}
-
-A11 = { ## Balkan City State
-	color = { 92 45 9 }
-	
-	country_type = recognized
-
-	tier = empire
-	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
-}
-
-A12 = { ## Balkan City State 2
-	color = { 92 45 9 }
-	
-	country_type = recognized
-
-	tier = empire
-	
-	cultures = { cornie }
-	capital = STATE_WEST_COUNTRY
+	cultures = { albanian }
+	capital = STATE_ALBANIA
 }
 
 INC = { ## Incan Empire
@@ -247,7 +192,7 @@ INC = { ## Incan Empire
 
 	tier = kingdom
 	
-	cultures = { cornie }
+	cultures = { quechua }
 	capital = STATE_ICA
 }
 
@@ -770,7 +715,7 @@ BEL = {
 }
 
 CLB = {
-	color = { 222 157 78 }
+	color = { 16 120 120 }
 	
 	country_type = recognized
 

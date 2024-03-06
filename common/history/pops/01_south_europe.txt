@@ -187,6 +187,10 @@
 				religion = jewish
 				size = 2000
 			}
+			create_pop = {
+				culture = slovene
+				size = 50000
+			}
 		}
 	}
 	s:STATE_SICILY = {
@@ -778,7 +782,7 @@
 				size = 29404
 			}
 		}
-		region_state:BLG = {
+		region_state:SR1 = {
 			create_pop = {
 				culture = bulgarian
 				size = 650000

@@ -276,7 +276,7 @@
 		region_state:WLS = {
 			create_pop = {
 				culture = welsh
-				size = 778557
+				size = 838557
 			}
 			create_pop = {
 				culture = british

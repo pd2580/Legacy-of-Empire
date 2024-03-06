@@ -2060,7 +2060,7 @@
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_privately_owned_plantation" }
 			}
 		}
-		region_state:BLG = {
+		region_state:SR1 = {
 			create_building = {
 				building="building_logging_camp"
 				level=2
