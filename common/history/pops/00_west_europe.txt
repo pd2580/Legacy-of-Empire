@@ -305,6 +305,7 @@
 		region_state:SCO = {
 			create_pop = {
 				culture = scottish
+				religion = norse
 				size = 2672396
 			}
 			create_pop = {
@@ -384,6 +385,7 @@
 		region_state:SCO = {
 			create_pop = {
 				culture = scottish
+				religion = norse
 				size = 1397200
 			}
 			create_pop = {
@@ -400,21 +402,14 @@
 	s:STATE_ULSTER = {
 		region_state:SCO = {
 			create_pop = {
-				culture = irish # Catholics
-				size = 1183122
+				culture = scottish
+				religion = norse
+				size = 1783122
 			}
 			create_pop = {
-				culture = british # Anglicans
-				size = 407111
-			}
-			create_pop = {
-				culture = irish # Anglicans
-				religion = protestant
-				size = 71843
-			}
-			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
-				size = 575084
+				culture = irish
+				religion = norse
+				size = 471843
 			}
 			create_pop = {
 				culture = irish  # Presbyterians and Methodists

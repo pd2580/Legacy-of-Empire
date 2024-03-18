@@ -801,6 +801,7 @@ SCO = {
 	tier = kingdom
 	
 	cultures = { scottish }
+	religion = norse
 	capital = STATE_HIGHLANDS
 }
 
