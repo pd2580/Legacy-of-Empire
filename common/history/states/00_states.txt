@@ -3005,7 +3005,7 @@ STATES = {
 	}
 	s:STATE_POITOU = {
 		create_state = {
-			country = c:BRI
+			country = c:AQU
 			owned_provinces = { "x19234B" "x3F74AF" "x50A040" "x9401C7" "xD020C0" "xD0A040" "xDD4DD0" "xE269A3" }
 		}
 		
@@ -3082,7 +3082,7 @@ STATES = {
 	}
 	s:STATE_MAINE_ANJOU = {
 		create_state = {
-			country = c:BRI
+			country = c:AQU
 			owned_provinces = { "x093DF5" "x192CA5" "x30E080" "x56E158" "x6B5474" "x7CAE05" "xB0E080" "xD02040" "xF6A48C" }
 		}
 		
