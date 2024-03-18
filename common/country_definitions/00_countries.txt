@@ -9,6 +9,17 @@
 	capital = STATE_MOSCOW
 }
 
+OCC = { ## Occitania
+	color = { 126 5 255  }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { occitan }
+	capital = STATE_RHONE
+}
+
 SLA = { ## Slavia
 	color = { 92 135 209 }
 	
@@ -97,7 +108,7 @@ SEE = { ## The See
 }
 
 BRI = { ## Brittany
-	color = { 130 224 221 }
+	color = { 162 186 252 }
 	
 	country_type = recognized
 
@@ -439,7 +450,7 @@ RME = { ## Rome
 }
 
 MCN = { ## Manchester
-	color = { 135 120 80 }
+	color = { 50 70 99 }
 
 	country_type = recognized
 
@@ -783,24 +794,22 @@ POR = {
 }
 
 SCO = {
-	color = { 199  175  12 }
+	color = { 142 230 190 }
 	
 	country_type = recognized
 
 	tier = kingdom
 	
 	cultures = { scottish }
-	capital = STATE_LOWLANDS
+	capital = STATE_HIGHLANDS
 }
 
 ENG = {
-	color = { 180 99 58 }
-	
+	color = { 102 50 50 }
 	country_type = recognized
-
 	tier = kingdom
-	
 	cultures = { british }
+	religion = protestant
 	capital = STATE_HOME_COUNTIES
 }
 

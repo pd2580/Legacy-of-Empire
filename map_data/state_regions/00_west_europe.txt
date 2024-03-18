@@ -415,12 +415,15 @@ STATE_HIGHLANDS = {
     farm = "xB7B8EA"
     mine = "xFACCE3"
     wood = "xCCBBD1"
-    arable_land = 30
+    arable_land = 65
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 14
         bg_whaling = 6
         bg_fishing = 14
+        bg_coal_mining = 24
+        bg_iron_mining = 39
+        bg_lead_mining = 7
     }
     naval_exit_id = 3027
 }
@@ -506,7 +509,7 @@ STATE_LOWLANDS = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 60
-        bg_iron_mining = 15
+        bg_sulfur_mining = 15
         bg_logging = 14
         bg_fishing = 12
     }

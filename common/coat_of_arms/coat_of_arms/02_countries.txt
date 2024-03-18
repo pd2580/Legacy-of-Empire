@@ -7281,7 +7281,7 @@ FER_communist = {
     }	
 }
 
-FRA = {
+ENG = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 

@@ -875,3 +875,8 @@
  unable_to_enact.2.d: "After a series of costly and embarassing setbacks, the sitting [ROOT.GetCountry.GetAdjective] government has decided to halt its pursuit of [SCOPE.sLaw('current_law_scope').GetName]. It will be some time before political will exists to try again."
  unable_to_enact.2.f: "Defeat lingered in the air, along with the stench burnt tobacco and spoiling liquor. Hopes crushed, ideas splintered, and desire spoiled. For better or worse, the message was clear: nobody wanted [SCOPE.sLaw('current_law_scope').GetNameNoFormatting] but the men in the room.\n\nA long, treacherous path lay ahead to reingratiate the idea."
  unable_to_enact.2.a: "Unfortunate, and embarassing."
+
+ fra_con.1.t:0 "Escape of the French"
+ fra_con.1.d:1 "After 7 years of brutal fighting across the plains of France, the Burgundian army has successfully pushed us off of the continent."
+ fra_con.1.f:0 "The French government has managed to flee across the channel. Overtaking the decentralized English government with ease. Now, they must consolidate their power once again, and they might have the chance to reclaim their homelands."
+ fra_con.1.a:0 "There is only one way forward from here."

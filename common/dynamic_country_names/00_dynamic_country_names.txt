@@ -2491,7 +2491,7 @@ ALD = {
 	}
 }
 
-FRA = {
+ENG = {
 	dynamic_country_name = {
 		name = dyn_c_french_empire
 		adjective = dyn_c_french_empire_adj

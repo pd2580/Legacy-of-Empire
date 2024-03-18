@@ -1,0 +1,36 @@
+namespace = fra_con
+
+fra_con.1 = {
+	type = country_event
+	placement = root
+
+	title = fra_con.1.t
+	desc = fra_con.1.d
+	flavor = fra_con.1.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = fra_con.1.a
+		default_option = yes
+		set_variable = {
+			name = fra_con_isles # France will consolodate power on the isles before going back for Paris
+		}
+	}
+}

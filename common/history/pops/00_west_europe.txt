@@ -305,7 +305,7 @@
 		region_state:SCO = {
 			create_pop = {
 				culture = scottish
-				size = 672396
+				size = 2672396
 			}
 			create_pop = {
 				culture = scottish
@@ -365,11 +365,9 @@
 				culture = irish
 				size = 4400
 			}
-		}
-		region_state:CWL = {
 			create_pop = {
-				culture = cornie
-				size = 2669600
+				culture = french
+				size = 669600
 			}
 			create_pop = {
 				culture = cornie
@@ -400,7 +398,7 @@
 		}
 	}
 	s:STATE_ULSTER = {
-		region_state:EIR = {
+		region_state:SCO = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 1183122

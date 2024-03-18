@@ -73,7 +73,7 @@ STATES = {
 	}
 	s:STATE_PROVENCE = {
 		create_state = {
-			country = c:BGY
+			country = c:OCC
 			owned_provinces = { x3040E0 x31C0DF x6D5E3F xB040E0 xB0C060 xB0C0E0 xC03918 xCB9C34 x5080E0 }
 		}
 		
@@ -2865,8 +2865,12 @@ STATES = {
 	}
 	s:STATE_WALES = {
 		create_state = {
-			country = c:WLS
-			owned_provinces = { x2020C0 xA2308A x775D55 xA0A040 xB7FC74 x20A040 x70D92B xA02040 x633EF5 }
+			country = c:ENG
+			owned_provinces = { x2020C0 xA2308A x775D55 xA0A040 xB7FC74 x20A040 }
+		}
+		create_state = {
+			country = c:MCN
+			owned_provinces = { xA02040 x633EF5 x70D92B }
 		}
 		
 		add_homeland = cu:british
@@ -2891,7 +2895,11 @@ STATES = {
 	s:STATE_MIDLANDS = {
 		create_state = {
 			country = c:ENG
-			owned_provinces = { x20A0C0 xA021B0 xA220D6 x11C2BB x6020C0 x99305F xE0E080 xA0A0C0 x2482B4 x60E080 x528DEE }
+			owned_provinces = { xA021B0 x6020C0 x99305F xA0A0C0 }
+		}
+		create_state = {
+			country = c:MCN
+			owned_provinces = { xA220D6 x11C2BB x20A0C0 xE0E080 x2482B4 x528DEE x60E080 }
 		}
 		
 		add_homeland = cu:british
@@ -2911,15 +2919,10 @@ STATES = {
 	s:STATE_WEST_COUNTRY = {
 		create_state = {
 			country = c:ENG
-			owned_provinces = { xE020C0 x65B395 x6060C0 x225544 xEB9862 xE0E040 xB78E54 }
-		}
-		create_state = {
-			country = c:CWL
-			owned_provinces = { x1E38F8 xC900EF xA2DD9E x63EF7E }
+			owned_provinces = { xE020C0 x65B395 x6060C0 x225544 xEB9862 xE0E040 xB78E54 x1E38F8 xC900EF xA2DD9E x63EF7E }
 		}
 		
 		add_homeland = cu:british
-		add_homeland = cu:cornie
 	}
 	s:STATE_LOWLANDS = {
 		create_state = {
@@ -2931,7 +2934,7 @@ STATES = {
 	}
 	s:STATE_ULSTER = {
 		create_state = {
-			country = c:EIR
+			country = c:SCO
 			owned_provinces = { x0A38AF x2BE1C8 xA06040 xCFCD2B xAA6FA1 x20E040 xA0C0E0 x688E79 }
 		}
 		
@@ -2966,7 +2969,7 @@ STATES = {
 	}
 	s:STATE_RHONE = {
 		create_state = {
-			country = c:BGY
+			country = c:OCC
 			owned_provinces = { "x1B4B66" "x30C060" "x3369C6" "x704060" "x71A804" "x73F176" "x7516B6" "x8E88DA" "xB04060" "xB8E48D" "xEF4060" }
 		}
 		
@@ -3002,7 +3005,7 @@ STATES = {
 	}
 	s:STATE_POITOU = {
 		create_state = {
-			country = c:AQU
+			country = c:BRI
 			owned_provinces = { "x19234B" "x3F74AF" "x50A040" "x9401C7" "xD020C0" "xD0A040" "xDD4DD0" "xE269A3" }
 		}
 		
@@ -3079,7 +3082,7 @@ STATES = {
 	}
 	s:STATE_MAINE_ANJOU = {
 		create_state = {
-			country = c:AQU
+			country = c:BRI
 			owned_provinces = { "x093DF5" "x192CA5" "x30E080" "x56E158" "x6B5474" "x7CAE05" "xB0E080" "xD02040" "xF6A48C" }
 		}
 		

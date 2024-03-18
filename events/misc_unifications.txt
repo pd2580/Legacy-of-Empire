@@ -1228,7 +1228,7 @@ formation.18 = {
 		trigger = { 
 			has_law = law_type:law_council_republic
 			NOT = {
-				c:FRA ?= {
+				c:ENG ?= {
 					has_law = law_type:law_council_republic
 				}
 			}
@@ -1238,7 +1238,7 @@ formation.18 = {
 		}
 		ROOT = {
 			create_incident = {
-				country = c:FRA
+				country = c:ENG
 				value = 15
 			}
 		}

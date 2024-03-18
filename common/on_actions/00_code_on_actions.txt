@@ -1274,7 +1274,7 @@ on_diplomats_expelled = {
 					has_variable = we_are_not_amused_ach_possible
 				}
 				scope:target = {
-					c:FRA ?= this
+					c:ENG ?= this
 					"relations(scope:initiator)" >= -10 #Why? Because the on_action fires after the opinion malus from expel diplomats occurs.
 				}
 			}
@@ -2642,7 +2642,7 @@ on_revolution_start = {
 			limit = {
 				has_journal_entry = je_the_paris_commune_france
 			}
-			c:FRA = {
+			c:ENG = {
 				trigger_event = { id = paris_commune.4 popup = yes }
 			}
 			random_scope_state = {
@@ -2655,7 +2655,7 @@ on_revolution_start = {
 				annex = scope:target
 				create_diplomatic_play = {
 					type = dp_revolution
-					target_state = c:FRA.capital
+					target_state = c:ENG.capital
 					annex_as_civil_war = yes
 				}
 			}
@@ -2677,7 +2677,7 @@ on_revolution_start = {
 		if = {
 			limit = {
 				has_dlc_feature = voice_of_the_people_content
-				c:FRA ?= ROOT
+				c:ENG ?= ROOT
 			}
 			if = {
 				limit = {
@@ -2984,7 +2984,7 @@ on_civil_war_won = {
 		### Orleanists
 		if = {
 			limit = {
-				c:FRA ?= this
+				c:ENG ?= this
 				has_law = law_type:law_monarchy
 				any_interest_group = {
 					is_in_government = yes
@@ -3092,7 +3092,7 @@ on_civil_war_won = {
 		### Bonapartists
 		else_if = {
 			limit = {
-				c:FRA ?= this
+				c:ENG ?= this
 				has_law = law_type:law_monarchy
 				any_interest_group = {
 					is_in_government = yes
@@ -3200,7 +3200,7 @@ on_civil_war_won = {
 		### Legitimists
 		else_if = {
 			limit = {
-				c:FRA ?= this
+				c:ENG ?= this
 				has_law = law_type:law_monarchy
 				any_interest_group = {
 					is_in_government = yes
@@ -3416,12 +3416,12 @@ on_wargoal_enforced = {
         	limit = {
         		c:PRC ?= root
         		NOT = {
-        			exists = c:FRA
+        			exists = c:ENG
         		}
         	}
         	c:PRC = {
 				set_immune_to_revolutions = no
-				change_tag = FRA
+				change_tag = ENG
 				every_scope_state = {
 					limit = {
 						state_region = {
@@ -3434,14 +3434,14 @@ on_wargoal_enforced = {
         }
 		if = {
 			limit = {
-				c:FRA ?= root
+				c:ENG ?= root
 				NOT = {
 					exists = c:PRC
 				}
 			}
 			if = {
 				limit = {
-					c:FRA = {
+					c:ENG = {
 						is_immune_to_revolutions = yes
 					}
 				}
@@ -3562,7 +3562,7 @@ on_heir_born = {
 		if = {
 			limit = {
 				owner = {
-					c:FRA ?= this
+					c:ENG ?= this
 					ruler = {
 						has_variable = orleanist_leader
 					}
@@ -3578,7 +3578,7 @@ on_heir_born = {
 		if = {
 			limit = {
 				owner = {
-					c:FRA ?= this
+					c:ENG ?= this
 					ruler = {
 						has_variable = legitimist_leader
 					}
@@ -3595,7 +3595,7 @@ on_heir_born = {
 		if = {
 			limit = {
 				owner = {
-					c:FRA ?= this
+					c:ENG ?= this
 					ruler = {
 						has_variable = bonapartist_leader
 					}

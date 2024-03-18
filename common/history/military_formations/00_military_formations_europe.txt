@@ -248,4 +248,25 @@
 				save_scope_as = 1st_english_army
 			}
     }
+	c:SCO = { ##High Kingdom
+			create_military_formation = {
+				type = fleet
+				hq_region = sr:region_north_sea
+				name = "1st High Fleet"
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_man_o_war
+					state_region = s:STATE_HIGHLANDS
+					count = 25
+				}
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_frigate
+					state_region = s:STATE_ULSTER
+					count = 45
+				}
+	
+				save_scope_as = 1st_high_fleet
+			}
+    }
 }
