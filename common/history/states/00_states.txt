@@ -62,6 +62,11 @@ STATES = {
 		}
 		
 		add_homeland = cu:british
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 	s:STATE_LANCASHIRE = {
 		create_state = {
@@ -2875,6 +2880,11 @@ STATES = {
 		
 		add_homeland = cu:british
 		add_homeland = cu:welsh
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 	s:STATE_YORKSHIRE = {
 		create_state = {
@@ -2891,6 +2901,11 @@ STATES = {
 		}
 		
 		add_homeland = cu:scottish
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 	s:STATE_MIDLANDS = {
 		create_state = {
@@ -2903,6 +2918,11 @@ STATES = {
 		}
 		
 		add_homeland = cu:british
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 	s:STATE_EAST_ANGLIA = {
 		create_state = {
@@ -2915,6 +2935,11 @@ STATES = {
 		}
 		
 		add_homeland = cu:british
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 	s:STATE_WEST_COUNTRY = {
 		create_state = {
@@ -2923,6 +2948,11 @@ STATES = {
 		}
 		
 		add_homeland = cu:british
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 	s:STATE_LOWLANDS = {
 		create_state = {
@@ -2931,6 +2961,11 @@ STATES = {
 		}
 		
 		add_homeland = cu:scottish
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 	s:STATE_ULSTER = {
 		create_state = {
@@ -2941,6 +2976,11 @@ STATES = {
 		add_homeland = cu:irish
 		add_homeland = cu:british
 		add_homeland = cu:scottish
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 	s:STATE_MUNSTER = {
 		create_state = {
@@ -2949,6 +2989,11 @@ STATES = {
 		}
 		
 		add_homeland = cu:irish
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 	s:STATE_LEINSTER = {
 		create_state = {
@@ -2957,6 +3002,11 @@ STATES = {
 		}
 		
 		add_homeland = cu:irish
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 	s:STATE_LANGUEDOC = {
 		create_state = {
@@ -7075,5 +7125,10 @@ STATES = {
 		}
 		
 		add_homeland = cu:irish
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 }
