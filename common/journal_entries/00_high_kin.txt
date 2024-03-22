@@ -1,4 +1,4 @@
-je_fra_con = {
+je_high_kin = {
 	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
 
 	group = je_group_historical_content
@@ -8,16 +8,16 @@ je_fra_con = {
 	}
 
 	is_shown_when_inactive = {
-		this = c:ENG
+		this = c:SCO
 		hidden_trigger = {
-			has_variable = fra_con_isles
+			has_variable = high_kin_isles
 		}
 	}
 
 	possible = {
-		this = c:ENG
+		this = c:SCO
 		hidden_trigger = {
-			has_variable = fra_con_isles
+			has_variable = high_kin_isles
 		}
 	}
 
