@@ -817,10 +817,39 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
+			create_building={
+				building="building_government_administration"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
+			}
 			create_building = {
 				building = "building_naval_base"
 				level = 25
 				reserves = 1
+			}
+			create_building = {
+				building = "building_barracks"
+				level = 35
+				reserves = 1
+			}
+			create_building={ # birmingham gun quarter
+				building="building_arms_industry"
+				level = 3
+				reserves = 1
+				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" }
+			}
+			create_building={
+				building="building_munition_plants"
+				level = 2
+				reserves = 1
+				activate_production_methods={ "pm_percussion_caps" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_explosives_factory"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_leblanc_process" "pm_privately_owned_industry" }
 			}
 			create_building = {
 				building = "building_steel_mills"
@@ -843,16 +872,25 @@
 				building = "building_coal_mine"
 				level = 4
 				reserves = 1
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_coal_mine"
+				}
 			}
 			create_building = {
 				building = "building_iron_mine"
 				level = 7
 				reserves = 1
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_iron_mine"
+				}
 			}
 			create_building = {
 				building = "building_lead_mine"
-				level = 2
+				level = 3
 				reserves = 1
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_lead_mine"
+				}
 			}
 			create_building = {
 				building = "building_shipyards"
@@ -868,10 +906,13 @@
 				building = "building_tooling_workshops"
 				level = 6
 				reserves = 1
+				activate_production_methods = {
+					"pm_steel"
+				}
 			}
 			create_building = {
 				building = "building_port"
-				level = 5
+				level = 2
 				reserves = 1
 				activate_production_methods = {
 					"pm_basic_port"
@@ -1241,6 +1282,9 @@
 				building = "building_sulfur_mine"
 				level = 2
 				reserves = 1
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_sulfur_mine"
+				}
 			}		
 			create_building={
 				building="building_rye_farm"
@@ -1268,7 +1312,7 @@
 			}
 			create_building={
 				building="building_port"
-				level=4
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
@@ -1288,6 +1332,11 @@
 				reserves=1
 				activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
+			create_building = {
+				building = "building_barracks"
+				level = 15
+				reserves = 1
+			}
 			create_building={
 				building="building_rye_farm"
 				level=3
@@ -1302,7 +1351,7 @@
 			}
 			create_building={
 				building="building_port"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
@@ -1475,7 +1524,7 @@
 		}
 	}
 	s:STATE_PROVENCE={
-		region_state:BGY={
+		region_state:OCC={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -1661,7 +1710,7 @@
 		}
 	}
 	s:STATE_RHONE={
-		region_state:BGY={
+		region_state:OCC={
 			create_building={
 				building="building_construction_sector"
 				level=2

@@ -71,10 +71,15 @@ STATES = {
 	s:STATE_LANCASHIRE = {
 		create_state = {
 			country = c:MCN
-			owned_provinces = { x410CE6 x60E000 xE0E000 xA242B2 xE06000 xE74158 x65617C x137263 }
+			owned_provinces = { x410CE6 x60E000 xE0E000 xA242B2 xE06000 xE74158 x65617C }
 		}
 		
 		add_homeland = cu:british
+
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:FRA
 	}
 	s:STATE_PROVENCE = {
 		create_state = {
@@ -731,7 +736,11 @@ STATES = {
 	s:STATE_NORTH_CAROLINA = {
 		create_state = {
 			country = c:USA
-			owned_provinces = { x807040 x7BF507 xDBBF9F x5961F9 xD8D851 xF3C9D3 xD01C13 x785402 x644A75 x58A1C9 x8070C0 x5B809B x7F5918 x0F9A00 x7DE315 x81AAED x007040 x7342E7 x1B47BD x4DC66C x711CB6 xE5DA13 xC58DAF xA59977 x3EA432 x00F040 xABF402 x228851 x338BD7 x6FBF63 x3C4F8A x758494 }
+			owned_provinces = { x807040 x7BF507 xDBBF9F x5961F9 xD8D851 xF3C9D3 xD01C13 x785402 x644A75 x58A1C9 x8070C0 x5B809B x7F5918 x0F9A00 x7DE315 x81AAED x7342E7 x1B47BD x4DC66C x711CB6 xA59977 x3EA432 x00F040 xABF402 x338BD7 x758494 }
+		}
+		create_state = {
+			country = c:EIR
+			owned_provinces = { x228851 x3C4F8A x6FBF63 xE5DA13 xC58DAF x007040 }
 		}
 		
 		add_homeland = cu:dixie	
@@ -2893,6 +2902,12 @@ STATES = {
 		}
 		
 		add_homeland = cu:british
+
+		add_claim = c:SCO
+		add_claim = c:EIR
+		add_claim = c:ENG
+		add_claim = c:MCN
+		add_claim = c:FRA
 	}
 	s:STATE_HIGHLANDS = {
 		create_state = {
@@ -2957,7 +2972,7 @@ STATES = {
 	s:STATE_LOWLANDS = {
 		create_state = {
 			country = c:SCO
-			owned_provinces = { xB2A15E x20E080 x676072 xA0E080 x0B53FA x832656 xA06080 x363883 x80F634 xD01BE2 xDCD566 x206080 x002C82 xA0E000 x193EFC x9B6ACC }
+			owned_provinces = { x137263 xB2A15E x20E080 x676072 xA0E080 x0B53FA x832656 xA06080 x363883 x80F634 xD01BE2 xDCD566 x206080 x002C82 xA0E000 x193EFC x9B6ACC }
 		}
 		
 		add_homeland = cu:scottish

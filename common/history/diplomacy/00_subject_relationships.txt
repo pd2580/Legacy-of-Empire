@@ -1,57 +1,5 @@
 ﻿DIPLOMACY = {
 	c:RHI = {
-		create_diplomatic_pact = {
-			country = c:RH2
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:RH3
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:RH4
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:RH5
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:RH6
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:RH7
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:RH8
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:RH9
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:R10
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:R11
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:R12
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:R13
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:R14
-			type = dominion
-		}
 	}
 	c:FIN = {
 		create_diplomatic_pact = {
@@ -303,6 +251,10 @@
 		create_diplomatic_pact = {
 			country = c:PLY
 			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:OCC
+			type = puppet
 		}
 	}
 

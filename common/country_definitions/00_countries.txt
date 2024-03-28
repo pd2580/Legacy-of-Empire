@@ -230,7 +230,7 @@ BRT = { ##
 }
 
 SCE = { ##
-	color = { 120 113 2 }
+	color = { 115 205 250 }
 
 	country_type = recognized
 
@@ -541,7 +541,7 @@ AUS = {
 USA = {
 	color = { 66  94  193 }
 	
-	country_type = colonial
+	country_type = decentralized
 	
 	tier = empire
 	

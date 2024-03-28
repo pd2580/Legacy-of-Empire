@@ -522,7 +522,11 @@
 		}
 	}
 	s:STATE_PROVENCE = {
-		region_state:SAR = {
+		region_state:OCC = {
+			create_pop = {
+				culture = occitan
+				size = 1038678
+			}
 			create_pop = {
 				culture = north_roman
 				size = 131100
@@ -530,12 +534,6 @@
 			create_pop = {
 				culture = occitan
 				size = 41100
-			}
-		}
-		region_state:BGY = {
-			create_pop = {
-				culture = occitan
-				size = 1038678
 			}
 			create_pop = {
 				culture = occitan
@@ -595,7 +593,7 @@
 		}
 	}
 	s:STATE_RHONE = {
-		region_state:BGY = {
+		region_state:OCC = {
 			create_pop = {
 				culture = francoprovencal
 				size = 1709209

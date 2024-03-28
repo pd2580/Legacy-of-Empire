@@ -268,5 +268,24 @@
 	
 				save_scope_as = 1st_high_fleet
 			}
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_north_sea
+				name = "1st High Army"
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_skirmish_infantry
+					state_region = s:STATE_HIGHLANDS
+					count = 35
+				}
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_mobile_artillery
+					state_region = s:STATE_ULSTER
+					count = 15
+				}
+	
+				save_scope_as = 1st_high_army
+			}
     }
 }
