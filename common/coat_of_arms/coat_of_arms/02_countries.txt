@@ -7281,7 +7281,7 @@ FER_communist = {
     }	
 }
 
-ENG = {
+FRA = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
@@ -10548,7 +10548,7 @@ IRC = { # Iron Confederacy
 	}	
 }
 
-IRE = { # Ireland
+EIR = { # Ireland
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 
@@ -10558,7 +10558,7 @@ IRE = { # Ireland
 		color2 = "yellow"
 	}
 }
-IRE_with_canton = {		
+EIR_with_canton = {		
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 
@@ -10569,7 +10569,7 @@ IRE_with_canton = {
         instance = { position = { 0.75 0.5 } scale = { 0.75 0.75 } }
 	}	
 }
-IRE_republic = {
+EIR_republic = {
 	# Irish tricolor
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -10582,7 +10582,7 @@ IRE_republic = {
 		color2 = color3
 	}
 }
-IRE_republic_state_religion = {
+EIR_republic_state_religion = {
 	# Irish tricolor, but with Catholic yellow instead of Protestant Orange
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -10595,7 +10595,7 @@ IRE_republic_state_religion = {
 		color2 = color3
 	}
 }
-IRE_republic_state_religion = {
+EIR_republic_state_religion = {
 	# Irish tricolor, but with Catholic yellow instead of Protestant Orange
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -10608,13 +10608,13 @@ IRE_republic_state_religion = {
 		color2 = color3
 	}
 }
-IRE_coa = {
+EIR_coa = {
     sub = {
         parent = "sub_IRE_coa" 
         #instance = { scale = { 0.5 0.5 }  } # top left
     }
 }
-IRE_st_patrick_saltire = {
+EIR_st_patrick_saltire = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 	color2 = "red"
@@ -10625,7 +10625,7 @@ IRE_st_patrick_saltire = {
 		color2 = color2
 	}
 }
-IRE_theocracy = {
+EIR_theocracy = {
 	# Irish tricolor, with Papal Tiara
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -10642,7 +10642,7 @@ IRE_theocracy = {
 		texture = "te_coa_papal_states_tiara.dds"
 	}
 }
-IRE_theocracy_state_religion = {
+EIR_theocracy_state_religion = {
 	# Irish tricolor, but with Catholic yellow instead of Protestant Orange. Also has Papal Tiara
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -10659,7 +10659,7 @@ IRE_theocracy_state_religion = {
 		texture = "te_coa_papal_states_tiara.dds"
 	}
 }
-IRE_dictatorship = {
+EIR_dictatorship = {
 
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -10671,7 +10671,7 @@ IRE_dictatorship = {
 		color2 = color2
 	}
 }
-IRE_easter_rising = {
+EIR_easter_rising = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 
@@ -10681,7 +10681,7 @@ IRE_easter_rising = {
 		color2 = "saffron"
 	}
 }
-IRE_fascist = {	
+EIR_fascist = {	
 	# Blue shirts (saltire can also be fimbriated gold)
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"

@@ -107,16 +107,6 @@
 			type = dominion
 		}
 	}
-	c:USA = {
-		create_diplomatic_pact = {
-			country = c:SEQ
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:LIB
-			type = protectorate
-		}
-	}
 	c:UPA = {
 		create_diplomatic_pact = {
 			country = c:GRI

@@ -551,6 +551,14 @@
 				reserves=1
 				activate_production_methods={ "pm_cannons" "pm_automation_disabled" "pm_merchant_guilds_building_artillery_foundries" }
 			}
+			create_building = {
+				building = "building_military_shipyards"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					
+				}
+			}
 			create_building={
 				building="building_logging_camp"
 				level=4
@@ -822,16 +830,6 @@
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
-			}
-			create_building = {
-				building = "building_naval_base"
-				level = 25
-				reserves = 1
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 35
-				reserves = 1
 			}
 			create_building={ # birmingham gun quarter
 				building="building_arms_industry"
@@ -1332,11 +1330,6 @@
 				reserves=1
 				activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
-			create_building = {
-				building = "building_barracks"
-				level = 15
-				reserves = 1
-			}
 			create_building={
 				building="building_rye_farm"
 				level=3
@@ -1389,9 +1382,14 @@
 		region_state:EIR={
 			create_building={
 				building="building_government_administration"
-				level=12
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_barracks"
+				level = 5
+				reserves = 1
 			}
 			create_building={
 				building="building_university"

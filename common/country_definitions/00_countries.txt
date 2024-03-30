@@ -86,7 +86,7 @@ CWL = { ## Cornwall
 }
 
 MRK = { ## Marakhaibiyya
-	color = { 255  234  168 }
+	color = { 52 240 10 }
 	
 	country_type = colonial
 
@@ -1125,15 +1125,15 @@ PAR = {
 	capital = STATE_EMILIA
 }
 
-PRA = { #Gao-Para
-	color = { 128  202  129 }
+PRU = { #Prussia
+	color = { 50 59 99 }
 	
 	country_type = recognized
 
 	tier = principality
 	
-	cultures = { amazonic }
-	capital = STATE_PARA
+	cultures = { north_german }
+	capital = STATE_WEST_PRUSSIA
 }
 
 SAR = {
@@ -3037,7 +3037,7 @@ ORG = {
 COM = {
 	color = { 96 57 19 }
 
-	country_type = decentralized
+	country_type = unrecognized
 
 	tier = principality
 	
@@ -3070,7 +3070,7 @@ DKT = {
 LKT = {
 	color = { 198 114 168 }
 
-	country_type = decentralized
+	country_type = unrecognized
 
 	tier = principality
 	
@@ -3081,7 +3081,7 @@ LKT = {
 NVJ = {
 	color = { 126 180 154 }
 
-	country_type = decentralized
+	country_type = unrecognized
 
 	tier = principality
 	
@@ -3597,7 +3597,7 @@ CSC = { # Cascadia
 IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
 	color = { 87 182 80 }
 	
-	country_type = recognized
+	country_type = unrecognized
 	
 	tier = principality
 	
@@ -3609,7 +3609,7 @@ IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
 CTF = { # the Council of Three Fires, Niswa-mishkodewinan
 	color = { 220 147 37 }
 	
-	country_type = decentralized
+	country_type = unrecognized
 	
 	tier = principality
 	
@@ -3621,7 +3621,7 @@ CTF = { # the Council of Three Fires, Niswa-mishkodewinan
 MSC = { # Muscogee
 	color = { 108 139 208 }
 	
-	country_type = decentralized
+	country_type = unrecognized
 	
 	tier = principality
 	
@@ -3635,7 +3635,7 @@ UTE = { # Ute
 	
 	cultures = { paiute }
 	
-	country_type = decentralized
+	country_type = unrecognized
 	
 	tier = principality
 	
@@ -3647,7 +3647,7 @@ PWN = { # Pawnee
 	
 	cultures = { caddoan }
 	
-	country_type = decentralized
+	country_type = unrecognized
 	
 	tier = principality
 	
