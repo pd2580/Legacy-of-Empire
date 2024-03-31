@@ -2496,6 +2496,14 @@
 				reserves=1
 				activate_production_methods={ "pm_lathe" "pm_luxury_furniture" "pm_automation_disabled" "pm_privately_owned_building_furniture_manufacturies" }
 			}
+			create_building = {
+				building = "building_logging_camp"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_saw_mills" "pm_no_hardwood"
+				}
+			}
 			create_building={
 				building="building_iron_mine"
 				level=1
@@ -3677,6 +3685,38 @@
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_tooling_workshops"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_steel"
+				}
+			}
+			create_building = {
+				building = "building_coal_mine"
+				level = 3
+				reserves = 1
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_coal_mine"
+				}
+			}
+			create_building = {
+				building = "building_iron_mine"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_iron_mine"
+				}
+			}
+			create_building = {
+				building = "building_steel_mills"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					
+				}
 			}
 			create_building={
 				building="building_paper_mills"
