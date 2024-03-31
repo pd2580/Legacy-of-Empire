@@ -59,6 +59,6 @@
 			set_ig_suppression = yes
 		}
 
-		add_company = company_type:company_dmc
+		trigger_event = {}
 	}
 }

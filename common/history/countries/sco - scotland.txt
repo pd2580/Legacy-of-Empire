@@ -34,5 +34,11 @@ COUNTRIES = {
 		add_declared_interest = region_england
 		add_declared_interest = region_rhine
 		add_declared_interest = region_iberia
+
+		trigger_event = { 
+			id = high_kin.1
+			popup = yes
+			days = 1
+	 	} 
 	}
 }
