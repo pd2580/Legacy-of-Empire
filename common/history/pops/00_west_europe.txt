@@ -532,13 +532,17 @@
 	s:STATE_ILE_DE_FRANCE = {
 		region_state:BGY = {
 			create_pop = {
-				culture = burgundian
-				size = 2352741
+				culture = french
+				size = 2002741
+			}
+			create_pop = {
+				culture = french
+				religion = protestant
+				size = 20393
 			}
 			create_pop = {
 				culture = burgundian
-				religion = protestant
-				size = 20393
+				size = 35000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -579,12 +583,16 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 2970494
+				size = 2070494
 			}
 			create_pop = {
 				culture = burgundian
 				religion = protestant
 				size = 14169
+			}
+			create_pop = {
+				culture = french
+				size = 900000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -677,12 +685,16 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1470989
+				size = 1400989
 			}
 			create_pop = {
 				culture = burgundian
 				religion = protestant
 				size = 7307
+			}
+			create_pop = {
+				culture = french
+				size = 70000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -804,7 +816,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 2561366
+				size = 1801366
 			}
 			create_pop = {
 				culture = burgundian
@@ -814,6 +826,10 @@
 			create_pop = {
 				culture = francoprovencal
 				size = 12350
+			}
+			create_pop = {
+				culture = french
+				size = 256000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -842,7 +858,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 2153438
+				size = 1753438
 			}
 			create_pop = {
 				culture = burgundian
@@ -852,6 +868,10 @@
 			create_pop = { # Givet area Walloon
 				culture = wallonian
 				size = 4167
+			}
+			create_pop = {
+				culture = french
+				size = 423000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -884,12 +904,16 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 2133731
+				size = 1933731
 			}
 			create_pop = {
 				culture = burgundian
 				religion = protestant
 				size = 12130
+			}
+			create_pop = {
+				culture = french
+				size = 210000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -926,7 +950,11 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1375047
+				size = 375047
+			}
+			create_pop = {
+				culture = french
+				size = 1000000
 			}
 			create_pop = {
 				culture = burgundian
