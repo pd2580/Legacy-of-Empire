@@ -4282,7 +4282,7 @@ PAD = {
 	tier = principality
 	
 	capital = STATE_SAVOY
-	cultures = { francoprovencal }
+	cultures = { north_roman }
 }
 
 RHE = {

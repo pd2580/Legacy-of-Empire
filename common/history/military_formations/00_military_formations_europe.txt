@@ -26,6 +26,26 @@
 				save_scope_as = dutch_peacekeepers
 			}
     }
+	c:PAD = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_italy
+				name = "1st Padanian Army"
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_line_infantry
+					state_region = s:STATE_LOMBARDY
+					count = 20
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_cannon_artillery
+					state_region = s:STATE_LOMBARDY
+					count = 15
+				}
+
+				save_scope_as = 1st_padanian_army
+			}
+	}
 	c:MCN = {
 			create_military_formation = {
 				type = army
@@ -53,7 +73,7 @@
 					count = 2
 				}
 
-				save_scope_as 1st_north_army
+				save_scope_as = 1st_north_army
 			}
 	}
 	c:BGY = { ## Burgundy
