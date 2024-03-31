@@ -26,6 +26,26 @@
 				save_scope_as = dutch_peacekeepers
 			}
     }
+	c:BAV = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_germany
+			name = "1st Bayern Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BAVARIA
+				count = 60
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_AUSTRIA
+				count = 20
+			}
+
+			save_scope_as = 1st_bavarian_army
+		}
+	}
 	c:PAD = {
 			create_military_formation = {
 				type = army
