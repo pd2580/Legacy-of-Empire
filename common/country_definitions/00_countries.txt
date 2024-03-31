@@ -2419,6 +2419,8 @@ CHE = {
 	country_type = unrecognized
 	
 	tier = principality
+
+	religion = animist
 	
 	cultures = { cherokee }
 	capital = STATE_ARKANSAS
