@@ -59,6 +59,10 @@
 			set_ig_suppression = yes
 		}
 
-		trigger_event = {}
+		trigger_event = { 
+			id = fra_uni.1
+			popup = yes
+			days = 1
+		}
 	}
 }
