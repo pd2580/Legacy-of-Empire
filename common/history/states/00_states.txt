@@ -2361,12 +2361,7 @@ STATES = {
 	s:STATE_ORAN = {
 		create_state = {
 			country = c:ALC
-			owned_provinces = { "x0D2515" "x207040" "x3E6888" "x465605" "x4CE79E" "x60D278" "x6736D2" "x6F831B" "x7534E5" "x8C4FD5" "x95CBD4" "xA07040" "xB78BBE" "xBCA418" "xC2269C" "xCEB068"  "xE76FA0" "xEFD8F4" }
-		}
-		create_state = {
-			country = c:BGY
-			owned_provinces = { "xDFB0C0" "xB735DB" }
-			state_type = unincorporated
+			owned_provinces = { "xDFB0C0" "xB735DB" "x0D2515" "x207040" "x3E6888" "x465605" "x4CE79E" "x60D278" "x6736D2" "x6F831B" "x7534E5" "x8C4FD5" "x95CBD4" "xA07040" "xB78BBE" "xBCA418" "xC2269C" "xCEB068"  "xE76FA0" "xEFD8F4" }
 		}
 		
 		add_homeland = cu:maghrebi
@@ -2399,12 +2394,7 @@ STATES = {
 	s:STATE_ALGIERS = {
 		create_state = {
 			country = c:ALC
-			owned_provinces = { "x0811DE" "x13AB12" "x16B315" "x20EF40" "x20EF80" "x267471" "x363B86" "x3BB3BB" "x513113" "x5ACA8F"  "x7E5293" "x9D893C" "xA75E78" "xAA79B2" "xB951DE" "xC6BA37" "xCB898B" "xD14DAC" "xD9F21C" "xEB7B78" "xEF919A" "xF151FD" "xFEE41A" }
-		}
-		create_state = {
-			country = c:BGY
-			owned_provinces = { "x713C2F" }
-			state_type = unincorporated
+			owned_provinces = { "x713C2F" "x0811DE" "x13AB12" "x16B315" "x20EF40" "x20EF80" "x267471" "x363B86" "x3BB3BB" "x513113" "x5ACA8F"  "x7E5293" "x9D893C" "xA75E78" "xAA79B2" "xB951DE" "xC6BA37" "xCB898B" "xD14DAC" "xD9F21C" "xEB7B78" "xEF919A" "xF151FD" "xFEE41A" }
 		}
 		
 		add_homeland = cu:maghrebi
@@ -2413,13 +2403,8 @@ STATES = {
 	s:STATE_CONSTANTINE = {
 		create_state = {
 			country = c:ALC
-			owned_provinces = { x01D0A0 x01EE15 x137E91 x1AF7B7 x265E07 x3AD789 x3EE58D x79D029 x7C6240 x8050A0 x991E79 xA12B39 xA31194 xA39A15 xB5486B xC3090D xC65997 xD99A74 xDC0687 xDF1F38 xFCF985 x0C42E2 xB04F35 x8FFB18 x429B12 x9AF6A4 x8E7690 x2DF9DB x3A0E38 x0090A0 xB1BCFF x0C5C65
+			owned_provinces = { "x0050A0" "x8090DF" x01D0A0 x01EE15 x137E91 x1AF7B7 x265E07 x3AD789 x3EE58D x79D029 x7C6240 x8050A0 x991E79 xA12B39 xA31194 xA39A15 xB5486B xC3090D xC65997 xD99A74 xDC0687 xDF1F38 xFCF985 x0C42E2 xB04F35 x8FFB18 x429B12 x9AF6A4 x8E7690 x2DF9DB x3A0E38 x0090A0 xB1BCFF x0C5C65
 			}
-		}
-		create_state = {
-			country = c:BGY
-			owned_provinces = { "x0050A0" "x8090DF" }
-			state_type = unincorporated
 		}
 		
 		add_homeland = cu:maghrebi
