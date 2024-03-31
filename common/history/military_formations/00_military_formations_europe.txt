@@ -46,6 +46,26 @@
 			save_scope_as = 1st_hungarian_army
 		}
 	}
+	c:SLV = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_danubia
+			name = "1st Slovak Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WEST_SLOVAKIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_EAST_SLOVAKIA
+				count = 5
+			}
+
+			save_scope_as = 1st_slovak_army
+		}
+	}
 	c:BAV = {
 		create_military_formation = {
 			type = army
