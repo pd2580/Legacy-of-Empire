@@ -106,6 +106,26 @@
 				save_scope_as = 1st_padanian_army
 			}
 	}
+	c:PRU = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_poland
+			name = "1st Prussian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_WEST_PRUSSIA
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_EAST_PRUSSIA
+				count = 25
+			}
+
+			save_scope_as = 1st_prussian_army
+		}
+}
 	c:MCN = {
 			create_military_formation = {
 				type = army

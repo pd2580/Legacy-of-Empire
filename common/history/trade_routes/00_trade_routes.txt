@@ -14,6 +14,21 @@
 			direction = import
 		}
 	}
+	#Prussia
+	c:PRU = {
+		create_trade_route = {
+			goods = lead
+			level = 3
+			target = c:POL.market
+			direction = import
+		}
+		create_trade_route = {
+			goods = sugar
+			level = 6
+			target = c:AMS.market
+			direction = import
+		}
+	}
 	#High Kingdom
 	c:SCO = {
 		create_trade_route = {

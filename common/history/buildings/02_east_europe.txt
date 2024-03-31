@@ -706,7 +706,15 @@
 		}
 	}
 	s:STATE_WEST_PRUSSIA={
-		region_state:POL={
+		region_state:PRU={
+			create_building = {
+				building = "building_government_administration"
+				level = 3
+				reserves = 1
+				activate_production_methods = {
+					"pm_horizontal_drawer_cabinets"
+				}
+			}
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -725,15 +733,111 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_iron_mine"
+				level = 6
+				reserves = 1
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_iron_mine"
+				}
+			}
+			create_building = {
+				building = "building_coal_mine"
+				level = 6
+				reserves = 1
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_coal_mine"
+				}
+			}
+			create_building = {
+				building = "building_steel_mills"
+				level = 3
+				reserves = 1
+				activate_production_methods = {
+					
+				}
+			}
+			create_building = {
+				building = "building_tooling_workshops"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_steel"
+				}
+			}
+			create_building = {
+				building = "building_shipyards"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					
+				}
+			}
+			create_building = {
+				building = "building_munition_plants"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					
+				}
+			}
+			create_building = {
+				building = "building_explosives_factory"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					
+				}
+			}
+			create_building = {
+				building = "building_sulfur_mine"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_sulfur_mine"
+				}
+			}
+			create_building = {
+				building = "building_chemical_plants"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					
+				}
+			}
 		}
 	}
 	s:STATE_EAST_PRUSSIA={
-		region_state:POL={
+		region_state:PRU={
 			create_building={
 				building="building_textile_mills"
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
+			}
+			create_building = {
+				building = "building_glassworks"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					
+				}
+			}
+			create_building = {
+				building = "building_fishing_wharf"
+				level = 3
+				reserves = 1
+				activate_production_methods = {
+					
+				}
+			}
+			create_building = {
+				building = "building_paper_mills"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					
+				}
 			}
 			create_building={
 				building="building_logging_camp"
@@ -750,7 +854,7 @@
 		}
 	}
 	s:STATE_POSEN={
-		region_state:POL={
+		region_state:PRU={
 			create_building={
 				building="building_food_industry"
 				level=5
@@ -768,6 +872,22 @@
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building = {
+				building = "building_arms_industry"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					
+				}
+			}
+			create_building = {
+				building = "building_artillery_foundries"
+				level = 2
+				reserves = 1
+				activate_production_methods = {
+					
+				}
 			}
 		}
 	}
@@ -798,7 +918,7 @@
 				activate_production_methods={ "pm_scholastic_education" }
 			}
 			create_building={
-				building="building_textile_mills"
+				building = "building_textile_mills"
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
