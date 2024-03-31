@@ -422,6 +422,14 @@
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
+				building="building_port"
+				level=2
+				reserves=1
+				activate_production_methods={
+
+				}
+			}
+			create_building={
 				building="building_wheat_farm"
 				level=3
 				reserves=1
@@ -2205,7 +2213,7 @@
 		region_state:HEL={
 			create_building={
 				building="building_government_administration"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -2242,6 +2250,18 @@
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
+			}
+			create_building={
+				building="building_paper_mills"
+				level=2
+				reserves=1
+				activate_production_methods={  }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -2292,7 +2312,13 @@
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}		
+			}
+			create_building={
+				building="building_silk_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={  }
+			}
 			create_building={
 				building="building_textile_mills"
 				level=2
@@ -2365,7 +2391,7 @@
 				building="building_government_administration"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_simple_organization" }
+				activate_production_methods={ "pm_horizontal_drawers" }
 			}		
 			create_building={
 				building="building_shipyards"
