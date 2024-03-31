@@ -592,7 +592,7 @@
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
-				size = 452400
+				size = 952400
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -610,7 +610,7 @@
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 8004
+				size = 38004
 			}
 		}
 	}
