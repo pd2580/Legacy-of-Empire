@@ -26,6 +26,26 @@
 				save_scope_as = dutch_peacekeepers
 			}
     }
+	c:HUN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_danubia
+			name = "1st Hungarian Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CENTRAL_HUNGARY
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_TRANSDANUBIA
+				count = 5
+			}
+
+			save_scope_as = 1st_hungarian_army
+		}
+	}
 	c:BAV = {
 		create_military_formation = {
 			type = army
