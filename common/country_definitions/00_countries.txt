@@ -9,6 +9,21 @@
 	capital = STATE_MOSCOW
 }
 
+FRKA = {
+	color = {
+		21 8 140
+	}
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = {
+		burgundian occitan
+	}
+	capital = STATE_ILE_DE_FRANCE
+}
+
 OCC = { ## Occitania
 	color = { 126 5 255  }
 	
@@ -499,7 +514,7 @@ BGY = { ## Burgundy
 
 	country_type = recognized
 
-	tier = empire
+	tier = kingdom
 	
 	cultures = { burgundian }
 	capital = STATE_BURGUNDY
@@ -2941,9 +2956,9 @@ AQU = {
 	
 	country_type = recognized
 
-	tier = empire
+	tier = kingdom
 	
-	cultures = { breton }
+	cultures = { occitan }
 	capital = STATE_GUYENNE
 }
 
