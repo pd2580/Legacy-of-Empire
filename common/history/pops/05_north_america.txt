@@ -1,23 +1,10 @@
 ﻿POPS = {
 	s:STATE_DISTRICT_OF_COLUMBIA = {
-		# total population of DC in 1830 was 30261, and 33745 in 1840. 32003 serves as a workable average.
-		# + Fairfax County, VA. Total pop in 1830 was 9204, 5203 free/4001 slaves
-		# + Montgomery Co, Prince George's Co, Charles co, St. Mary's Co and Calvert Co in MD- 80418 total, 42176 free/38242 slaves
-		# Number of actual pops adjusted from historical research to better fit the buildings
-		region_state:USA = { 
+		region_state:IRO = { 
 			create_pop = {
-				culture = yankee
-				size = 27544
-			}		
-			create_pop = {
-				culture = dixie
-				size = 86263
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 7818
-			}
+				culture = iroquoian
+				size = 57544
+			}	
 		}
 	}
 	s:STATE_LOUISIANA = {
@@ -29,36 +16,14 @@
 		}
 	}
 	s:STATE_NEW_YORK = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 2135000
-			}
-			create_pop = {
-				culture = yankee
-				religion = jewish
-				size = 2000
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 39996
-			}
-			create_pop = {
-				culture = afro_american
-				size = 20004
-			}
-			create_pop = {
-				culture = irish
-				size = 16000
-			}
+		region_state:IRO = {
 			create_pop = {
 				culture = iroquoian
-				size = 8000
+				size = 2135000
 			}
 		}
 	}
-	s:STATE_VIRGINIA = { # population of VA proper minus Fairfax County, which had its population figures added to DC to inflate the pop count there
+	s:STATE_VIRGINIA = {
 		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
@@ -566,96 +531,36 @@
 		}
 	}
 	s:STATE_WEST_VIRGINIA = {
-		region_state:USA = {
+		region_state:IRO = {
 			create_pop = {
-				culture = dixie
-				size = 160916
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 18081 # 17673 slaves in WV's counties in 1830, 18488 slaves in 1840
-			}
-			create_pop = {
-				culture = afro_american
-				size = 1808 # don't have easy numbers for WV's free non-white population, but ~10% of the enslaved population seems to roughly track
-			}
-			create_pop = {
-				culture = dixie
-				religion = catholic
-				size = 28000
+				culture = iroquoian
+				size = 1160916
 			}
 		}
 	}
-	s:STATE_MARYLAND = { # Actually Maryland + Delaware
-		region_state:USA = {
-			# Maryland: (1830, 447040) (1840, 470019), so 1835 est. 458530
-			# Delaware: (1830, 76748)  (1840, 78085),  so 1835 est. 77417
-			# minus 42176 free/38242 slaves that have been ceded to DC to inflate its pop figure
-			# aim for 535947 pops for Mega-Maryland (Megaland?) in total
+	s:STATE_MARYLAND = {
+		region_state:IRO = {
 			create_pop = {
-				culture = dixie
+				culture = iroquoian
 				size = 251997
-			}
-			# Maryland: 52938 free in 1830, 62078 free in 1840
-			# Delaware: 15855 free in 1830, 16919 free in 1840
-			create_pop = {
-				culture = afro_american
-				size = 48541
-			}
-			# Maryland: 102994 in 1830, 89737 in 1840
-			# Delaware: 3292 in 1830, 2605 in 1840
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 58467
 			}
 		}
 	}
 
 	s:STATE_DELAWARE = {
-		region_state:USA = {
+		region_state:IRO = {
 			create_pop = {
-				culture = dixie
-				size = 77000
-			}
-	
-			create_pop = {
-					culture = afro_american
-					size = 16919
-			}
-	
-			create_pop = {
-					pop_type = slaves
-					culture = afro_american
-					size = 2605
+				culture = iroquoian
+				size = 177000
 			}
 		}
 	}
 
 	s:STATE_PENNSYLVANIA = {
-		region_state:USA = {
+		region_state:IRO = {
 			create_pop = {
-				culture = yankee
-				size = 1250496
-			}
-			create_pop = {
-				culture = yankee
-				religion = jewish
-				size = 2000
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 144008
-			}
-			create_pop = {
-				culture = irish
-				size = 59800
-			}
-			create_pop = {
-				culture = afro_american
-				size = 43996
+				culture = iroquoian
+				size = 2250496
 			}
 		}
 	}
@@ -726,39 +631,26 @@
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE = {
-		region_state:USA = {
+		region_state:IRO = {
 			create_pop = {
-				culture = yankee
-				size = 223300
-			}
-			create_pop = {
-				culture = franco_canadian
-				size = 24000
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 32000
+				culture = iroquoian
+				size = 323300
 			}
 		}
 	}
 	s:STATE_VERMONT = {
-		region_state:USA = {
+		region_state:IRO = {
 			create_pop = {
-				culture = yankee
+				culture = iroquoian
 				size = 282848
 			}
 		}
 	}
 	s:STATE_MAINE = {
-		region_state:USA = {
+		region_state:IRO = {
 			create_pop = {
-				culture = anglo_canadian
-				size = 16000
-			}
-			create_pop = {
-				culture = yankee
-				size = 381228
+				culture = iroquoian
+				size = 411228
 			}
 		}
 	}
