@@ -1,14 +1,29 @@
 ﻿TRADE_ROUTES = {
-	#Wales
-	c:WLS = {
+	#Northumbria
+	c:MCN = {
 		create_trade_route = {
-			goods = iron
-			level = 4
+			goods = dye
+			level = 2
 			target = c:AMS.market
 			direction = import
 		}
 		create_trade_route = {
-			goods = sulfur
+			goods = silk
+			level = 3
+			target = c:AMS.market
+			direction = import
+		}
+	}
+	#High Kingdom
+	c:SCO = {
+		create_trade_route = {
+			goods = sugar
+			level = 6
+			target = c:AMS.market
+			direction = import
+		}
+		create_trade_route = {
+			goods = dye
 			level = 2
 			target = c:AMS.market
 			direction = import

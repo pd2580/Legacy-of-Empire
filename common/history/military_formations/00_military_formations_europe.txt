@@ -26,6 +26,36 @@
 				save_scope_as = dutch_peacekeepers
 			}
     }
+	c:MCN = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_england
+				name = "1st Northumbrian Army"
+
+				combat_unit = {
+					type = unit_type:combat_unit_type_skirmish_infantry
+					state_region = s:STATE_YORKSHIRE
+					count = 3
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_mobile_artillery
+					state_region = s:STATE_YORKSHIRE
+					count = 2
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_skirmish_infantry
+					state_region = s:STATE_LANCASHIRE
+					count = 3
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_mobile_artillery
+					state_region = s:STATE_LANCASHIRE
+					count = 2
+				}
+
+				save_scope_as 1st_north_army
+			}
+	}
 	c:BGY = { ## Burgundy
 			create_military_formation = {
 				type = army

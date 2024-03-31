@@ -273,14 +273,24 @@
 		}
 	}
 	s:STATE_WALES = {
-		region_state:WLS = {
+		region_state:MCN = {
 			create_pop = {
 				culture = welsh
-				size = 838557
+				size = 438557
 			}
 			create_pop = {
 				culture = british
-				size = 194639
+				size = 84639
+			}
+		}
+		region_state:ENG = {
+			create_pop = {
+				culture = welsh
+				size = 438557
+			}
+			create_pop = {
+				culture = british
+				size = 84639
 			}
 		}
 	}
@@ -319,12 +329,27 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = british
-				size = 2043604
+				size = 1043604
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 24400
+				size = 14400
+			}
+			create_pop = {
+				culture = irish
+				size = 12000
+			}
+		}
+		region_state:MCN = {
+			create_pop = {
+				culture = british
+				size = 1043604
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 14400
 			}
 			create_pop = {
 				culture = irish
@@ -508,7 +533,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1852741
+				size = 2352741
 			}
 			create_pop = {
 				culture = burgundian
@@ -554,7 +579,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 2670494
+				size = 2970494
 			}
 			create_pop = {
 				culture = burgundian
@@ -779,7 +804,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1561366
+				size = 2561366
 			}
 			create_pop = {
 				culture = burgundian
@@ -817,7 +842,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1153438
+				size = 2153438
 			}
 			create_pop = {
 				culture = burgundian
@@ -859,7 +884,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1133731
+				size = 2133731
 			}
 			create_pop = {
 				culture = burgundian

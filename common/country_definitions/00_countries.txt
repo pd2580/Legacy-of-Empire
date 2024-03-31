@@ -208,13 +208,14 @@ INC = { ## Incan Empire
 }
 
 ALC = { ##
-	color = { 82 66 31 }
+	color = { 21 99 4 }
 	
 	country_type = recognized
 
 	tier = empire
 	
-	cultures = { british }
+	cultures = { maghrebi }
+	religion = sunni 
 	capital = STATE_FEZ
 }
 

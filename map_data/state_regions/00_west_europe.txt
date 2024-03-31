@@ -877,6 +877,7 @@ STATE_LORRAINE = {
         bg_lead_mining = 45
         bg_sulfur_mining = 40
         bg_iron_mining = 60
+        bg_coal_mining = 45
         bg_logging = 17
     }
 }
