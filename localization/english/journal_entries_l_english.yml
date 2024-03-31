@@ -15,6 +15,11 @@
  je_ams_iron_fist_tooltip:0 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
  je_ams_iron_fist_reason:0 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
 
+ je_francia_reuni_bgy:0 "Francian Re-Unification"
+ je_francia_reuni_bgy_desc:0 "Now that the chaos of the French Civil war has died down, we should focus on restoring the once great Francia"
+ je_francia_reuni_bgy_tooltip:0 "Now that the chaos of the French Civil war has died down, we should focus on restoring the once great Francia"
+ je_francia_reuni_bgy_reason:0 "Now that the chaos of the French Civil war has died down, we should focus on restoring the once great Francia"
+
  je_make_schools_secular:0 "Change education law to secular"
  je_make_schools_secular_reason:0 "The $intelligentsia$ want education to be secular."
  notification_je_make_schools_secular_complete_name:0 "Secular Education"
