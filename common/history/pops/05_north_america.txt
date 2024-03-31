@@ -28,6 +28,7 @@
 			create_pop = {
 				culture = cherokee
 				size = 1823597
+				religion = animist
 			}
 		}
 	}
@@ -285,6 +286,7 @@
 			create_pop = {
 				culture = cherokee
 				size = 50800
+				religion = animist
 			}
 		}
 		region_state:COM = {
@@ -317,6 +319,7 @@
 			create_pop = {
 				culture = cherokee
 				size = 30136
+				religion = animist
 			}
 		}
 	}
@@ -471,6 +474,7 @@
 			create_pop = {
 				culture = cherokee
 				size = 1579988
+				religion = animist
 			}
 		}
 	}
@@ -479,6 +483,7 @@
 			create_pop = {
 				culture = cherokee
 				size = 1669604
+				religion = animist
 			}
 		}
 	}
@@ -498,7 +503,8 @@
 			}
 			create_pop = {
 				culture = cherokee
-				size = 1424 # 1835 Cherokee Census "Henderson Roll"
+				size = 1424
+				religion = animist
 			}
 			create_pop = {
 				culture = muskogean # Creeks tallied in the "Parsons and Albert Roll" after the 1832 Treaty of Cusseta
@@ -526,7 +532,8 @@
 			}
 			create_pop = {
 				culture = cherokee
-				size = 18946 # 1835 Cherokee Census "Henderson Roll"
+				size = 18946
+				religion = animist
 			}
 		}
 	}
@@ -658,6 +665,7 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
+				religion = animist
 				size = 2492500
 			}
 		}
@@ -691,6 +699,7 @@
 			create_pop = {
 				culture = cherokee
 				size = 1453836
+				religion = animist
 			}
 		}
 	}
