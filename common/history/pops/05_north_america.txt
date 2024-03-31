@@ -59,24 +59,10 @@
 		}
 	}
 	s:STATE_VIRGINIA = { # population of VA proper minus Fairfax County, which had its population figures added to DC to inflate the pop count there
-		region_state:USA = {
+		region_state:CHE = {
 			create_pop = {
-				culture = dixie
-				size = 423597
-			}
-			create_pop = {
-				culture = dixie
-				religion = catholic
-				size = 48000
-			}
-			create_pop = {
-				culture = afro_american
-				size = 35120
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 312079
+				culture = cherokee
+				size = 1823597
 			}
 		}
 	}
@@ -516,60 +502,18 @@
 		}
 	}
 	s:STATE_KENTUCKY = {
-		region_state:USA = {
+		region_state:CHE = {
 			create_pop = {
-				culture = dixie
-				size = 239988
-			}
-			create_pop = {
-				culture = yankee
-				size = 316392
-			}
-			create_pop = {
-				culture = afro_american
-				size = 6117 # 4917 free in 1830, 7317 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 161879
-			}
-			create_pop = {
-				culture = irish
-				size = 20000
+				culture = cherokee
+				size = 1579988
 			}
 		}
 	}
 	s:STATE_TENNESSEE = {
-		region_state:USA = {
-			create_pop = {
-				culture = dixie
-				size = 369604
-			}
+		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
-				size = 7200
-			}
-			create_pop = {
-				culture = yankee
-				size = 204800
-			}
-			create_pop = {
-				culture = afro_american
-				size = 5040 # 4555 free in 1830, 5524 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 142960
-			}
-			create_pop = {
-				culture = irish
-				size = 39996
-			}
-			create_pop = {
-				culture = cherokee
-				size = 2528 # 1835 Cherokee Census "Henderson Roll"
+				size = 1669604
 			}
 		}
 	}
@@ -819,23 +763,10 @@
 		}
 	}
 	s:STATE_NORTH_CAROLINA = {
-		region_state:USA = {
-			create_pop = {
-				culture = dixie
-				size = 492500
-			}
-			create_pop = {
-				culture = afro_american
-				size = 21138 # 19543 free in 1830, 22732 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 222862
-			}
+		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
-				size = 3644 # 1835 Cherokee Census "Henderson Roll"
+				size = 2492500
 			}
 		}
 	}
@@ -864,28 +795,10 @@
 		}
 	}
 	s:STATE_SOUTH_CAROLINA = {
-		region_state:USA = {
-			create_pop = {
-				culture = dixie
-				size = 253836
-			}
-			create_pop = {
-				culture = dixie
-				religion = jewish
-				size = 1000
-			}
+		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
-				size = 6960
-			}
-			create_pop = {
-				culture = afro_american
-				size = 8099 # 7921 free in 1830, 8276 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 318693
+				size = 1453836
 			}
 		}
 	}
