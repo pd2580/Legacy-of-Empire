@@ -884,7 +884,7 @@
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:POR = {
+		region_state:CAS = {
 			create_building={
 				building="building_dye_plantation"
 				level=2
