@@ -87,6 +87,7 @@ STATES = {
 			owned_provinces = { x3040E0 x31C0DF x6D5E3F xB040E0 xB0C060 xB0C0E0 xC03918 xCB9C34 x5080E0 }
 		}
 		
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 		add_homeland = cu:occitan
 	}
@@ -1513,6 +1514,7 @@ STATES = {
 			owned_provinces = { x56B04B xDDDD3B x6B4BA4 xD000E0 }
 		}
 		
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 		add_homeland = cu:francoprovencal
 	}
@@ -2865,6 +2867,7 @@ STATES = {
 			owned_provinces = { "x106040" "x1060C0" "x1727F7" "x306080" "x3784B2" "x5615DD" "x7C1D57" "x906080" "xB0E000" "xBBB6AD" "xCF9FBF" "xECF077" "xF0C060" }
 		}
 		
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 		add_homeland = cu:occitan
 	}
@@ -2874,6 +2877,7 @@ STATES = {
 			owned_provinces = { "x1B4B66" "x30C060" "x3369C6" "x704060" "x71A804" "x73F176" "x7516B6" "x8E88DA" "xB04060" "xB8E48D" "xEF4060" }
 		}
 		
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 		add_homeland = cu:occitan
 		add_homeland = cu:francoprovencal
@@ -2883,6 +2887,8 @@ STATES = {
 			country = c:AMS
 			owned_provinces = { "x106000" "x5362AC" "x70C020" "xA0A080" "xD0854D" "xE0A0C0" }
 		}
+
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 		add_homeland = cu:flemish
 	}
@@ -2910,6 +2916,7 @@ STATES = {
 			owned_provinces = { "x19234B" "x3F74AF" "x50A040" "x9401C7" "xD020C0" "xD0A040" "xDD4DD0" "xE269A3" }
 		}
 		
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 	}
 	s:STATE_GUYENNE = {
@@ -2918,6 +2925,7 @@ STATES = {
 			owned_provinces = { "x061121" "x086618" "x106080" "x306000" "x30E000" "x5020C0" "x7BCDC4" "xA2BBE9" "xAF89BC" "xB06000" "xC8CD2F" "xF3D359" }
 		}
 		
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 		add_homeland = cu:occitan
 	}
@@ -2927,6 +2935,7 @@ STATES = {
 			owned_provinces = { "x01FD5F" "x07BCC1" "x368F00" "x3FE149" "x50A0C0" "x61609A" "x70C060" "xA27EFD" "xA8AE71" "xABE045" "xBED0F4" "xDF5770" "xF080E0" }
 		}
 		
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 		add_homeland = cu:occitan
 	}
@@ -2936,6 +2945,7 @@ STATES = {
 			owned_provinces = { "x10A040" "x2368E7" "x2BD902" "x32C2E2" "x50F4A7" "x55607E" "x706000" "x85E5AC" "xA0B0D1" "xABF468" "xC4D7A2" "xD0E080" "xD584A0" "xF91DD2" }
 		}
 		
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 		add_homeland = cu:breton
 	}
@@ -2961,6 +2971,7 @@ STATES = {
 			owned_provinces = { "x3D8EF9" "x700060" "xA9D961" "xB000E0" "xCF46D1" "xF00060" }
 		}
 		
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 	}
 	s:STATE_LORRAINE = {
@@ -2978,6 +2989,7 @@ STATES = {
 		}
 		
 		add_claim = c:AQU
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 		add_homeland = cu:occitan
 	}
@@ -2986,7 +2998,8 @@ STATES = {
 			country = c:AQU
 			owned_provinces = { "x093DF5" "x192CA5" "x30E080" "x56E158" "x6B5474" "x7CAE05" "xB0E080" "xD02040" "xF6A48C" }
 		}
-		
+
+		add_claim = c:BGY
 		add_homeland = cu:burgundian
 	}
 	s:STATE_ORLEANS = {
