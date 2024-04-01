@@ -2178,6 +2178,28 @@
 				}
 			}
 		}
+		region_state:DAN = {
+			create_building = {
+				building = "building_logging_camp"
+				level = 3
+				reserves = 1
+				activate_production_methods = {
+					"pm_saw_mills"
+				}
+			}
+			create_building={
+				building="building_tooling_workshops"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" }
+			}
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+		}
 	}
 	s:STATE_CRETE={
 		region_state:EGY={
