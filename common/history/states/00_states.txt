@@ -5468,7 +5468,7 @@ STATES = {
 	}
 	s:STATE_KYUSHU = {
 		create_state = {
-			country = c:JAP
+			country = c:KOR
 			owned_provinces = { x70CF00 xF0D000 x73414A xAE5874 xE16F98 x705080 x906F1E xEF5080 xCEA020 x1F0D2C x5C7980 x70D080 x800111 xEF50C0 }
 		}
 		
@@ -5495,7 +5495,7 @@ STATES = {
 	}
 	s:STATE_SHIKOKU = {
 		create_state = {
-			country = c:JAP
+			country = c:BGY
 			owned_provinces = { xF05040 x7C9BEB xEFD040 x90D040 x5D5512 }
 		}
 		
