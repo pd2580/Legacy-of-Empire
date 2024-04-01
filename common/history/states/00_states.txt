@@ -88,6 +88,7 @@ STATES = {
 		}
 		
 		add_claim = c:BGY
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 		add_homeland = cu:occitan
 	}
@@ -97,6 +98,7 @@ STATES = {
 			owned_provinces = { "x065CAE" "x0B7098" "x1020C0" "x65728E" "x79C0E6" "x9020C0" "x90A040" "xA786BB" "xB06080" "xB8903B" "xD642B5" }
 		}
 		
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 	}
 	s:STATE_ANDALUSIA = {
@@ -1515,6 +1517,7 @@ STATES = {
 		}
 		
 		add_claim = c:BGY
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 		add_homeland = cu:francoprovencal
 	}
@@ -2878,6 +2881,7 @@ STATES = {
 		}
 		
 		add_claim = c:BGY
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 		add_homeland = cu:occitan
 		add_homeland = cu:francoprovencal
@@ -2889,6 +2893,7 @@ STATES = {
 		}
 
 		add_claim = c:BGY
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 		add_homeland = cu:flemish
 	}
@@ -2898,6 +2903,7 @@ STATES = {
 			owned_provinces = { "x075199" "x10A0C0" "x7040A0" "xC4C61A" "xCF1F6D" "xE0A624" }
 		}
 		
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 	}
 	s:STATE_ALSACE_LORRAINE = {
@@ -2946,6 +2952,7 @@ STATES = {
 		}
 		
 		add_claim = c:BGY
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 		add_homeland = cu:breton
 	}
@@ -2955,6 +2962,7 @@ STATES = {
 			owned_provinces = { "x09BB96" "x10DF00" "x380D42" "x6D7896" "x7000E0" "x708060" "x79B85C" "x8329EC" "x8C3297" "x999D4B" "xC69235" "xF08060" }
 		}
 		
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 	}
 	s:STATE_CHAMPAGNE = {
@@ -2963,6 +2971,7 @@ STATES = {
 			owned_provinces = { "x4B7684" "x5FEA2F" "x600883" "x669027" "x8AE8D1" "xD6A06D" "xE280FC" "xEF00DF" "xEF40A0" "xEFBF20" }
 		}
 		
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 	}
 	s:STATE_FRANCHE_COMTE = {
@@ -2972,6 +2981,7 @@ STATES = {
 		}
 		
 		add_claim = c:BGY
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 	}
 	s:STATE_LORRAINE = {
@@ -2980,6 +2990,7 @@ STATES = {
 			owned_provinces = { "x282DCC" "x3080E0" "x70BFA0" "x7FC1E6" "xB080E0" "xC5F13A" }
 		}
 		
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 	}
 	s:STATE_AQUITAINE = {
@@ -3008,6 +3019,7 @@ STATES = {
 			owned_provinces = { "x14F855" "x47B641" "x50CE72" "x6E4717" "x886277" "x90A0C0" "x90E000" "xD8BA95" "xE13BC2" "xE3E249" "xE7B296" "xF0E39E" "xF522D9" }
 		}
 		
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 	}
 	s:STATE_ILE_DE_FRANCE = {
@@ -3016,6 +3028,7 @@ STATES = {
 			owned_provinces = { "x12462D" "x7080DF" "x71DA2E" "x906000" }
 		}
 		
+		add_claim = c:AQU
 		add_homeland = cu:burgundian
 	}
 	s:STATE_ELBE = {
