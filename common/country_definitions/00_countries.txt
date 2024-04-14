@@ -11,7 +11,7 @@
 
 FRKA = {
 	color = {
-		21 8 140
+		130 30 180
 	}
 
 	country_type = recognized
