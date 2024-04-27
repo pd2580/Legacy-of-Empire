@@ -10,14 +10,14 @@ je_francia_reuni_bgy = {
 	is_shown_when_inactive = {
 		this = c:BGY
 		hidden_trigger = {
-			has_variable = fra_uni
+			has_variable = fra_uni_yes
 		}
 	}
 
 	possible = {
 		this = c:BGY
 		hidden_trigger = {
-			has_variable = fra_uni
+			has_variable = fra_uni_yes
 		}
 	}
 

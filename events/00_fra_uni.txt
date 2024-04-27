@@ -30,7 +30,13 @@ fra_uni.1 = {
 		name = fra_uni.1.a
 		default_option = yes
 		set_variable = {
-			name = fra_uni
+			name = fra_uni_no
+		}
+	}
+	option = {
+		name = fra_uni.1.b
+		set_variable = {
+			name = fra_uni_yes
 		}
 	}
 }

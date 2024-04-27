@@ -1,0 +1,37 @@
+je_francia_reuni_bgy = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
+	}
+
+	is_shown_when_inactive = {
+		this = c:BGY
+		hidden_trigger = {
+			has_variable = fra_uni_no
+		}
+	}
+
+	possible = {
+		this = c:BGY
+		hidden_trigger = {
+			has_variable = fra_uni_no
+		}
+	}
+
+	complete = {
+		
+	}
+
+	fail = {
+		
+	}
+
+	on_complete = {
+		
+	}
+
+	should_be_pinned_by_default = yes
+}
