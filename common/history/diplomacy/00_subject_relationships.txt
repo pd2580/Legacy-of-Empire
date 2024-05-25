@@ -1,5 +1,41 @@
 ﻿DIPLOMACY = {
-	c:RHI = {
+	c:BOR = {
+		create_diplomatic_pact = {
+			country = c:BAU
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:NGA
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:BGI
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:ABJ
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:SOK
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:NIA
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:HAU
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:WAD
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:DFR
+			type = dominion
+		}
 	}
 	c:FIN = {
 		create_diplomatic_pact = {

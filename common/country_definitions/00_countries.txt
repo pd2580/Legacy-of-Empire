@@ -9,6 +9,66 @@
 	capital = STATE_MOSCOW
 }
 
+ABJ = { ## Abuja
+	color = {
+		148 136 58
+	}
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = {
+		hausa
+	}
+	capital = STATE_EAST_HAUSALAND
+}
+
+BAU = { ## Bauchi
+	color = {
+		3 110 92
+	}
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = {
+		equatorial_bantu
+	}
+	capital = STATE_NIGERIA
+}
+
+NGA = { ## Ngaoundere
+	color = {
+		120 7 82
+	}
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = {
+		equatorial_bantu
+	}
+	capital = STATE_NORTH_CAMEROON
+}
+
+NIA = { ## Niamey
+	color = {
+		112 47 47
+	}
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = {
+		equatorial_bantu
+	}
+	capital = STATE_OUTER_HAUSALAND
+}
+
 FRKA = {
 	color = {
 		130 30 180
