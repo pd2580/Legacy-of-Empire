@@ -193,7 +193,7 @@ BRI = { ## Brittany
 	capital = STATE_BRITTANY
 }
 
-A01 = { ## Bulgaristan
+BGS = { ## Bulgaristan
 	color = { 109 156 138 }
 	
 	country_type = recognized
@@ -269,6 +269,17 @@ SHQ = { ## Shqipëri
 	
 	cultures = { albanian }
 	capital = STATE_ALBANIA
+}
+
+THA = { ## Thrace
+	color = { 120 16 16 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { turkish }
+	capital = STATE_EASTERN_THRACE
 }
 
 INC = { ## Incan Empire
@@ -1201,12 +1212,23 @@ PAR = {
 	capital = STATE_EMILIA
 }
 
-PRU = { #Prussia
+TUT = { #Prussia
 	color = { 50 59 99 }
 	
 	country_type = recognized
 
 	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_WEST_PRUSSIA
+}
+
+PRU = { #Prussia
+	color = { 50 59 99 }
+	
+	country_type = recognized
+
+	tier = empire
 	
 	cultures = { north_german }
 	capital = STATE_WEST_PRUSSIA

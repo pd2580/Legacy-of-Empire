@@ -2,39 +2,39 @@
 	c:BOR = {
 		create_diplomatic_pact = {
 			country = c:BAU
-			type = dominion
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:NGA
-			type = dominion
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:BGI
-			type = dominion
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:ABJ
-			type = dominion
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:SOK
-			type = dominion
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:NIA
-			type = dominion
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:HAU
-			type = dominion
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:WAD
-			type = dominion
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:DFR
-			type = dominion
+			type = vassal
 		}
 	}
 	c:FIN = {
@@ -150,94 +150,7 @@
 		}
 	}
 	c:GBR = {
-		create_diplomatic_pact = {
-			country = c:ABU
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:BIC
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:SIL
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:ORG
-			type = puppet
-		}		
-		create_diplomatic_pact = {
-			country = c:HAN
-			type = personal_union
-		}
-		create_diplomatic_pact = {
-			country = c:SAF
-			type = puppet
-		}
 
-		### OH CANADA ###
-		# Province of Upper Canada
-		create_diplomatic_pact = {
-			country = c:ONT
-			type = puppet
-		}
-		# Province of Lower Canada
-		create_diplomatic_pact = {
-			country = c:QUE
-			type = puppet
-		}
-		# New Brunswick
-		create_diplomatic_pact = {
-			country = c:NBS
-			type = puppet
-		}
-		# Nova Scotia
-		create_diplomatic_pact = {
-			country = c:NVS
-			type = puppet
-		}
-		# Hudson Bay Company has a weird autonomous charter
-		create_diplomatic_pact = {
-			country = c:HBC
-			type = dominion
-		}
-
-		### AUSTRALIA ###
-		# Colony of New South Wales
-		create_diplomatic_pact = {
-			country = c:NSW
-			type = puppet
-		}
-		# Colony of Western Australia
-		create_diplomatic_pact = {
-			country = c:WAS
-			type = puppet
-		}
-		# Colony of South Australia, established in February 1836
-		create_diplomatic_pact = {
-			country = c:SAS
-			type = puppet
-		}
-		# Colony of Tasmania, historically called Van Dieman's Land until 1856
-		create_diplomatic_pact = {
-			country = c:TAS
-			type = puppet
-		}
-		# United Tribes of New Zealand
-		create_diplomatic_pact = {
-			country = c:UNT
-			type = protectorate
-		}
-		# Kaurna
-		create_diplomatic_pact = {
-			country = c:KAU
-			type = protectorate
-		}
-		# Mosquito Kingdom
-		create_diplomatic_pact = {
-			country = c:MKT
-			type = protectorate
-		}
 	}
 	c:DAI = {
 		create_diplomatic_pact = {
@@ -273,15 +186,7 @@
 	}
 
 	c:BGY = {
-		# Tahiti
-		create_diplomatic_pact = {
-			country = c:PLY
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:OCC
-			type = puppet
-		}
+		
 	}
 
 	c:BOL = {

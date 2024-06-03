@@ -15,7 +15,7 @@
 		}
 	}
 	#Prussia
-	c:PRU = {
+	c:TUT = {
 		create_trade_route = {
 			goods = lead
 			level = 3
@@ -529,7 +529,7 @@
 			goods = dye
 			level = 5
 			direction = import
-			target = c:MEX.market
+			target = c:NAH.market
 		}		
 		create_trade_route = {
 			goods = clothes
@@ -1005,7 +1005,7 @@
 	}
 	
 	# Mexico
-	c:MEX = {
+	c:NAH = {
 		create_trade_route = {
 			goods = artillery
 			level = 1

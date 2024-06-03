@@ -795,6 +795,7 @@ STATE_BULGARIA = {
     capped_resources = {
         bg_logging = 14
         bg_fishing = 2
+        bg_iron_mining = 7
     }
     naval_exit_id = 3036
 }

@@ -714,7 +714,7 @@
 		}
 	}
 	s:STATE_WEST_PRUSSIA={
-		region_state:PRU={
+		region_state:TUT={
 			create_building = {
 				building = "building_government_administration"
 				level = 3
@@ -816,7 +816,7 @@
 		}
 	}
 	s:STATE_EAST_PRUSSIA={
-		region_state:PRU={
+		region_state:TUT={
 			create_building={
 				building="building_textile_mills"
 				level=2
@@ -862,7 +862,7 @@
 		}
 	}
 	s:STATE_POSEN={
-		region_state:PRU={
+		region_state:TUT={
 			create_building={
 				building="building_food_industry"
 				level=5
@@ -1380,7 +1380,7 @@
 		}
 	}
 	s:STATE_WALLACHIA={
-		region_state:A01={
+		region_state:BGS={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1466,7 +1466,23 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills"
+					"pm_saw_mills" "pm_hardwood"
+				}
+			}
+			create_building = {
+				building = "building_arms_industry"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					
+				}
+			}
+			create_building = {
+				building = "building_artillery_foundries"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					
 				}
 			}
 		}

@@ -6,6 +6,30 @@
 	ai_will_do = { always = yes }
 }
 
+PRU = {
+	states = {
+		STATE_BRANDENBURG
+		STATE_ANHALT
+		STATE_SAXONY
+		STATE_SILESIA
+		STATE_POSEN
+		STATE_MECKLENBURG
+		STATE_POMERANIA
+		STATE_WEST_PRUSSIA
+		STATE_EAST_PRUSSIA
+	}
+
+	required_states_fraction = 1
+
+	possible = {
+		country_has_primary_culture = cu:north_german
+	}
+
+	ai_will_do = {
+		always = yes
+	}
+}
+
 FRKA = {
 	states = {
 		STATE_BRITTANY

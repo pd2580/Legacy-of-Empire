@@ -46,6 +46,75 @@
 			save_scope_as = 1st_hungarian_army
 		}
 	}
+	c:OCC = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_occitania
+			name = "1st Occitan Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_RHONE
+				count = 35
+			}
+		}
+	}
+	c:BGS = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = "1st Bulgar Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BULGARIA
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BULGARIA
+				count = 2
+			}
+			
+			save_scope_as = 1st_bulgar_army
+		}
+
+		create_character = {
+			first_name = Blagovest
+			last_name = Sekelsky
+			culture = cu:bulgar
+			hq = region_balkans
+			age = 28
+			traits = {
+				brave
+			}
+			save_scope_as = bulgar_dude
+		}
+
+		scope:bulgar_dude = {
+			transfer_to_formation = scope:1st_bulgar_army
+		}
+	}
+	c:DAN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = "1st Danube Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BULGARIA
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_BULGARIA
+				count = 10
+			}
+
+			save_scope_as = 1st_danube_army
+		}
+	}
 	c:SLV = {
 		create_military_formation = {
 			type = army
@@ -106,7 +175,7 @@
 				save_scope_as = 1st_padanian_army
 			}
 	}
-	c:PRU = {
+	c:TUT = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_poland

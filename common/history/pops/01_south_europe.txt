@@ -461,10 +461,11 @@
 		}
 	}
 	s:STATE_DOBRUDJA = {
-		region_state:A01 = {
+		region_state:BGS = {
 			create_pop = {
 				culture = bulgarian
 				size = 1459044
+				religion = sunni
 			}
 			create_pop = {
 				culture = ukrainian
@@ -584,14 +585,15 @@
 		}
 	}
 	s:STATE_BULGARIA = {
-		region_state:A01 = {
+		region_state:BGS = {
 			create_pop = {
-				culture = turkish
+				culture = romanian
 				size = 210404
 			}
 			create_pop = {
 				culture = bulgarian
 				size = 1660000
+				religion = sunni
 			}
 			create_pop = {
 				culture = sephardic

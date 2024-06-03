@@ -589,7 +589,7 @@
 		}
 	}
 	s:STATE_WEST_PRUSSIA = {
-		region_state:PRU = {
+		region_state:TUT = {
 			create_pop = {
 				culture = north_german
 				size = 952400
@@ -615,7 +615,7 @@
 		}
 	}
 	s:STATE_EAST_PRUSSIA = {
-		region_state:PRU = {
+		region_state:TUT = {
 			create_pop = {
 				culture = north_german
 				size = 629796
@@ -642,7 +642,7 @@
 		}
 	}
 	s:STATE_POSEN = {
-		region_state:PRU = {
+		region_state:TUT = {
 			create_pop = {
 				culture = north_german
 				size = 540400
@@ -1055,10 +1055,11 @@
 		}
 	}
 	s:STATE_WALLACHIA = { # Ballpark estimate: 2,227,865 total for 1836, guessing that its recorded 1859 census marked a 7.77% growth over 1836 or that 1836 is 92.79% of the 1859 census, drawn from a trendline of Transylvanian censuses 1784-1850
-		region_state:A01 = {
+		region_state:BGS = {
 			create_pop = {
 				culture = bulgarian
 				size = 1307689
+				religion = sunni
 			}
 			create_pop = {
 				culture = romanian
