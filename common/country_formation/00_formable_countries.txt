@@ -371,13 +371,13 @@ MEX = {
 KUK = {
 	use_culture_states = yes
 
-	required_states_fraction = 0.9
+	required_states_fraction = 0.75
 	
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = pan-nationalism
-		has_law = law_type:law_multicultural
+		has_technology_researched = nationalism
+		has_law = law_type:law_cultural_exclusion
 	}
 }
 

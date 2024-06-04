@@ -1,4 +1,18 @@
 ﻿DIPLOMACY = {
+	c:POL = {
+		create_diplomatic_pact = {
+			country = c:SMO
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:SAL
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:CRI
+			type = dominion
+		}
+	}
 	c:BOR = {
 		create_diplomatic_pact = {
 			country = c:BAU
@@ -94,18 +108,7 @@
 		}
 	}
 	c:RUS = {
-		create_diplomatic_pact = {
-			country = c:KZH
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:UZH
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:OZH
-			type = puppet
-		}
+		
 	}		
 	c:DEN = {
 		create_diplomatic_pact = {

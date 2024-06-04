@@ -9,6 +9,19 @@
 	capital = STATE_MOSCOW
 }
 
+SMO = {
+	color = { 120 227 195 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = {
+		russian
+	}
+	capital = STATE_SMOLENSK
+}
+
 ABJ = { ## Abuja
 	color = {
 		148 136 58
@@ -203,6 +216,76 @@ BGS = { ## Bulgaristan
 	cultures = { bulgarian }
 	religion =  sunni 
 	capital = STATE_BULGARIA
+}
+
+IST = {
+	color = { 133 181 71 }
+
+	country_type = recognized
+
+	tier = city_state
+
+	cultures = {
+		turkish
+	}
+	religion = sunni
+	capital = STATE_EASTERN_THRACE
+}
+
+MAE = {
+	color = { 179 181 71 }
+
+	country_type = recognized
+
+	tier = city_state
+
+	cultures = {
+		greek
+	}
+	religion = sunni
+	capital = STATE_MACEDONIA
+}
+
+PEL = {
+	color = { 181 117 71 }
+
+	country_type = recognized
+
+	tier = city_state
+
+	cultures = {
+		greek
+	}
+	religion = sunni
+	capital = STATE_PELOPONNESE
+}
+
+AEG = {
+	color = { 71 91 181 }
+
+	country_type = recognized
+
+	tier = city_state
+
+	cultures = {
+		greek
+	}
+	religion = sunni
+	capital = STATE_WEST_AEGEAN_ISLANDS
+}
+
+SYN = {
+	color = { 124 152 191 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = {
+		turkish
+	}
+	religion = sunni
+	capital = STATE_SYRIA
 }
 
 DAN = { ## Danube

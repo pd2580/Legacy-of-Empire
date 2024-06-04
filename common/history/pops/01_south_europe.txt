@@ -545,7 +545,7 @@
 		region_state:SEE = {
 			create_pop = {
 				culture = croat
-				size = 195000
+				size = 395000
 			}
 			create_pop = {
 				culture = north_roman
@@ -629,11 +629,11 @@
 		region_state:SEE = {
 			create_pop = {
 				culture = croat
-				size = 200000
+				size = 700000
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 100000
+				size = 200000
 			}
 			create_pop = {
 				culture = slovene

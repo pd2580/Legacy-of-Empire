@@ -46,6 +46,26 @@
 			save_scope_as = 1st_hungarian_army
 		}
 	}
+	c:SEE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = "1st Pontifical Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_DALMATIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BOSNIA
+				count = 5
+			}
+
+			save_scope_as = 1st_pont_army
+		}
+	}
 	c:OCC = {
 		create_military_formation = {
 			type = army
