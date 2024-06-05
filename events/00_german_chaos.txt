@@ -1,0 +1,145 @@
+namespace = ger_cha
+
+ger_cha.1 = {
+	type = country_event
+	placement = root
+
+	title = ger_cha.1.t
+	desc = ger_cha.1.d
+	flavor = ger_cha.1.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = ger_cha.1.a
+		ai_chance = {
+			base = .50
+		}
+		c:SAX = { trigger_event = {id = ger_cha.2} }
+	}
+	option = {
+		name = ger_cha.1.b
+		ai_chance = {
+			base = .48
+		}
+		c:BAV = { trigger_event = {id = ger_cha.3} }
+	}
+	option = {
+		name = ger_cha.1.c
+		ai_chance = {
+			base = .02
+		}
+	}
+}
+
+ger_cha.2 = {
+	type = country_event
+	placement = root
+
+	title = ger_cha.2.t
+	desc = ger_cha.2.d
+	flavor = ger_cha.2.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = ger_cha.2.a
+		ai_chance = {
+			base = .95
+		}
+		create_diplomatic_pact = {
+			country = c:BOH
+			type = dominion
+		}
+		create_truce = {
+			country = c:BOH
+			months = 60
+		}
+	}
+	option = {
+		name = ger_cha.2.b
+		ai_chance = {
+			base = .05
+		}
+	}
+}
+
+ger_cha.3 = {
+	type = country_event
+	placement = root
+
+	title = ger_cha.3.t
+	desc = ger_cha.3.d
+	flavor = ger_cha.3.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = ger_cha.3.a
+		ai_chance = {
+			base = .95
+		}
+		create_diplomatic_pact = {
+			country = c:BOH
+			type = dominion
+		}
+		create_truce = {
+			country = c:BOH
+			months = 60
+		}
+	}
+	option = {
+		name = ger_cha.3.b
+		ai_chance = {
+			base = .05
+		}
+	}
+}
