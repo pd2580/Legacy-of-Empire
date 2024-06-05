@@ -1757,3 +1757,8 @@
  dei_breakup.1.b: "One motherland, one nation, one language!"
  dei_breakup.1.c: "We will rage against the storm until we are saved."
  dei_vassals_independent_tt:0 "All [concept_subject] countries will become independent, and our [Concept('concept_state', '$concept_states$')] will be divided between them."
+ papal_to_rome.1.t:0 "The Eternal City"
+ papal_to_rome.1.d:0 "Discontent is growing in Rome. After centuries of papal authority, the people grow restless.\nOutspoken voices from politicians like [SCOPE.sCharacter('intelligentsia_leader').GetFullName] call for the end of the holy tyranny and a new republic to be founded by the Roman people.\nThe catholic curia call for more extensive policing to keep the rabble down and look for assistance from the catholic powers of europe."
+ papal_to_rome.1.f:0 "“They are protesting again Your Holiness.\nThey demand your abdication”\n“This is heresy! Where is the gendarmeria?!\nHow can they continue to allow this?”\n“The gendarmeria refuses to intervene Holy Father, there is nothing we can do”\n“God help us my child, God help us all”"
+ papal_to_rome.1.a:0 "Roma restituenda est!"
+ papal_to_rome.1.b:0 "Send in the Swiss guard!"

@@ -1,0 +1,135 @@
+namespace = papal_to_rome
+
+# start event
+papal_to_rome.1 = { 
+	type = country_event
+	placement = ROOT
+	
+	title = papal_to_rome.1.t
+	desc = papal_to_rome.1.d
+	flavor = papal_to_rome.1.f
+	
+    duration = 3
+
+	event_image = {
+		video = "southamerica_election"
+	}
+	
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	
+	
+	trigger = {
+	}
+	
+    immediate = {
+        random_interest_group = {
+        limit {
+            is_interest_group_type = ig_intelligentsia
+            exist = leader
+        }
+        leader = {
+            save_scope_as = intelligentsia_leader
+        }
+        }
+    }
+	
+	option = {
+		name = papal_to_rome.1.a
+		default_option = yes
+        every_interest_group = {
+            limit = {
+                OR = {
+            
+                is_interest_group_type = ig_armed_forces
+                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_industrialists
+                is_interest_group_type = ig_rural_folk
+                }
+            }
+            add_modifier = {
+                name = modifier_rome_positive
+                months = normal_modifier_time
+                is_decaying = yes
+            }
+        }
+        every_interest_group = {
+            limit = {
+                OR = {
+                    is_interest_group_type = ig_devout
+                    is_interest_group_type = ig_landowners
+                }
+            }
+            add_modifier = {
+                name = modifier_rome_negative
+                months = normal_modifier_time
+                is_decaying = yes
+            }
+        }
+
+        add_radicals = {
+            strata = rich
+            value = large_radicals
+        }
+        add_loyalists = {
+            strata = middle
+            value = medium_radicals
+        }
+        add_loyalists = {
+            strata = poor
+            value = medium_radicals
+        }
+	}
+	
+	option = {
+		name = papal_to_rome.1.b
+        every_interest_group = {
+            limit = {
+                OR = {
+                    is_interest_group_type = ig_devout
+                    is_interest_group_type = ig_landowners
+                }
+            }
+            add_modifier = {
+                name = modifier_rome_positive
+                months = normal_modifier_time
+                is_decaying = yes
+            }
+        }
+        every_interest_group = {
+            limit = {
+                OR = {
+            
+                is_interest_group_type = ig_armed_forces
+                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_industrialists
+                is_interest_group_type = ig_rural_folk
+                }
+            }
+            add_modifier = {
+                name = modifier_rome_negative
+                months = normal_modifier_time
+                is_decaying = yes
+            }
+        }
+         add_loyalists = {
+            strata = rich
+            value = very_large_radicals
+        }
+        add_radicals = {
+            strata = middle
+            value = large_radicals
+        }
+        add_radicals = {
+            strata = poor
+            value = large_radicals
+        }
+	}
+	
+	after = {
+	}
+
+}
