@@ -62,7 +62,7 @@
 		trigger_event = { 
 			id = fra_uni.1
 			popup = yes
-			days = 1
+			days = 0
 		}
 	}
 }

@@ -8037,6 +8037,50 @@ berber={ # Amazigh
 	graphics = arabic
 }
 
+phoenician={ # Amazigh
+	color= { 165 189 87 }
+	religion = sunni
+	traits = { arab_speaking middle_eastern_heritage european_heritage }
+	male_common_first_names={
+		Abd_al-Karim
+		Ahmed
+		Khalid
+		Muhammad
+		Mustafa
+	}
+	female_common_first_names = {
+		Fatima
+		Khadija
+		Khalida
+		Malika
+		Tassadit
+		Zohra
+	}	
+	noble_last_names = {
+		el_Krim
+		Al-Khattabi
+	}
+	common_last_names={
+		Belkadi
+		Messaoudi 
+		Mukrani
+		Imalayen
+		Iftaten
+		Tanut
+		Tisbaa
+		al-Jazuli
+		al-Rifi
+		al-Sahrawi
+		al-Shawiyyati
+		al-Shiluhi
+		al-Zanatawi
+	}
+	ethnicities = {
+		1 = arab
+	}
+	graphics = arabic
+}
+
 persian={
 	color= hsv{ 0.1 0.43 0.56 }
 	religion = shiite

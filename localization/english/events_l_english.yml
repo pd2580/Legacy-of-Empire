@@ -52,6 +52,11 @@
  iron_fist.1.d:1 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
  iron_fist.1.f:0 "Flavor Text"
  iron_fist.1.a:0 "There is nothing we can do."
+
+ pol_reform.1.t:0 "Polish Reforms"
+ pol_reform.1.d:1 "The grand Polish Empire was built on opportune attacks, weak neighbors, and a geographical blessing. However, to esablish itself as a strong contender on the world stage, and worthy to stand as a peer to other European powers. The Empire must be able to hold it's own should the time come."
+ pol_reform.1.f:0 ""We can no longer rely on our neighbors simply being weaker than us, we have to make an active effort to be stronger than them, more advanced than them, and ensure we can hold our own should anyone question Polish Sovereignty""
+ pol_reform.1.a:0 "It's time for Poland to establish itself as a leading power on the world stage."
  
  government_conflicts.1.t:0 "Breeding and Education"
  government_conflicts.1.d:1 "Disagreements between the [SCOPE.gsInterestGroup('landowners_ig').GetName] and the [SCOPE.gsInterestGroup('intelligentsia_ig').GetName] are causing conflicts in government."

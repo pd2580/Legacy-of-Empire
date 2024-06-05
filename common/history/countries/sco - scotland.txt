@@ -38,7 +38,7 @@ COUNTRIES = {
 		trigger_event = { 
 			id = high_kin.1
 			popup = yes
-			days = 1
+			days = 0
 	 	} 
 	}
 }

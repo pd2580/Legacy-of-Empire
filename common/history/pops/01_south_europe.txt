@@ -32,7 +32,7 @@
 	s:STATE_SARDINIA = {
 		region_state:SYR = {
 			create_pop = {
-				culture = south_roman
+				culture = phoenician
 				size = 524084
 			}
 		}
@@ -197,7 +197,11 @@
 		region_state:SYR = {
 			create_pop = {
 				culture = south_roman
-				size = 1647596
+				size = 1047596
+			}
+			create_pop = {
+				culture = phoenician
+				size = 600000
 			}
 		}
 	}
@@ -205,7 +209,7 @@
 		region_state:CAS = {
 			create_pop = {
 				culture = spanish
-				size = 1268400
+				size = 168400
 			}
 		}
 	}

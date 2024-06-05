@@ -1,12 +1,16 @@
 COUNTRIES = {
 	c:POL = {
 		effect_starting_technology_tier_2_tech = yes
-		effect_starting_politics_liberal = yes
+		effect_starting_politics_conservative = yes
+
+		add_modifier = {
+			name = polish_stupid
+		}
 
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
@@ -14,6 +18,7 @@ COUNTRIES = {
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_hereditary_bureaucrats
 		
 		set_tax_level = medium
 		
@@ -28,6 +33,12 @@ COUNTRIES = {
 
 		ig:ig_industrialists = {
 			add_ruling_interest_group = yes
+		}
+
+		trigger_event = { 
+			id = pol_reform.1
+			popup = yes
+			days = 0
 		}
 	}
 }
