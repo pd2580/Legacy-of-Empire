@@ -87,6 +87,11 @@ free_speech_lewd_drawing_supported_ig = {
 	interest_group_pol_str_mult = -0.05
 }
 
+polish_stupid = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	state_education_access_add = -0.25
+}
+
 womens_rights_divorce_advance = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_law_enactment_success_add = 0.2

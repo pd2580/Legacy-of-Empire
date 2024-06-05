@@ -225,7 +225,7 @@
 		}
 	}
 
-	c:MEX = {
+	c:NAH = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_dixie

@@ -28,5 +28,6 @@ COUNTRIES = {
 		ig:ig_industrialists = {
 			add_ruling_interest_group = yes
 		}
+		add_declared_interest = region_rhine
 	}
 }

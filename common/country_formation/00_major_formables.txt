@@ -44,15 +44,32 @@ SLA = {
 			country_has_primary_culture = cu:bulgarian
 			country_has_primary_culture = cu:slovene
 		}
-		any_country = {
-			filter = {
-				OR = {
-					country_has_primary_culture = cu:north_roman
-					country_has_primary_culture = cu:south_roman				
-				}
-			}
-			has_technology_researched = nationalism	
-			percent = 1
+	}
+}
+
+UUU = {
+	states = {
+		STATE_MOSCOW
+		STATE_TARTARIA
+		STATE_LUHANSK
+		STATE_KURSK
+		STATE_BRYANSK
+		STATE_KAZAN
+	}
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_uu
+	leadership_play = dp_leadership_uu
+
+	required_states_fraction = 1
+
+	ai_will_do = { has_technology_researched = nationalism }
+
+	possible = {
+		has_modifier = universalis_union_unification
+		OR = {
+			country_has_primary_culture = cu:russian
 		}
 	}
 }
@@ -73,16 +90,6 @@ RME = {
 		OR = {
 			country_has_primary_culture = cu:north_roman
 			country_has_primary_culture = cu:south_roman
-		}
-		any_country = {
-			filter = {
-				OR = {
-					country_has_primary_culture = cu:north_roman
-					country_has_primary_culture = cu:south_roman				
-				}
-			}
-			has_technology_researched = nationalism	
-			percent = 1
 		}
 	}
 }

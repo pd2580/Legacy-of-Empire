@@ -729,21 +729,6 @@ BIC = { # East India Company
 	}
 }
 
-DEI = { # East Indies
-	dynamic_country_name = {
-		name = dyn_c_east_indies
-		adjective = dyn_c_east_indies_adj
-		use_overlord_prefix = yes
-
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			coa_def_subject_trigger = yes
-		}
-	}
-}
-
 MAD = { # East Indies
 	dynamic_country_name = {
 		name = dyn_c_madagascar
@@ -2506,7 +2491,7 @@ ALD = {
 	}
 }
 
-FRA = {
+ENG = {
 	dynamic_country_name = {
 		name = dyn_c_french_empire
 		adjective = dyn_c_french_empire_adj

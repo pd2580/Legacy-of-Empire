@@ -402,7 +402,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:NET={
+		region_state:AMS={
 			create_building={
 				building="building_port"
 				level=1
@@ -578,7 +578,15 @@
 		}
 	}
 	s:STATE_KENYA={
-		region_state:KKY={
+		region_state:CAS={
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
+				}
+			}
 		}
 	}
 	s:STATE_RIFT_VALLEY={
@@ -880,7 +888,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:WSG={
+		region_state:CAS={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -893,11 +901,13 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
+				}
 			}
 		}
 		region_state:GLD={

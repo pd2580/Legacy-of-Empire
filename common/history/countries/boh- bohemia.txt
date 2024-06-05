@@ -28,5 +28,11 @@ COUNTRIES = {
 		ig:ig_industrialists = {
 			add_ruling_interest_group = yes
 		}
+
+		trigger_event = { 
+			id = ger_cha.1
+			popup = yes
+			days = 90
+		}
 	}
 }

@@ -455,9 +455,9 @@
 		}
 	}
 	s:STATE_LEBANON = {
-		region_state:EGY = {
+		region_state:SYN = {
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = sunni
 				size = 88000
 			}
@@ -466,22 +466,22 @@
 				size = 6000
 			}
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = catholic
 				size = 26000
 			}
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = shiite
 				size = 128000
 			}
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = orthodox
 				size = 36000
 			}
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = shiite
 				size = 78000
 			}
@@ -512,24 +512,24 @@
 		}
 	}
 	s:STATE_SYRIA = {
-		region_state:EGY = {
+		region_state:SYN = {
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = shiite
 				size = 25000
 			}
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = shiite
 				size = 32000
 			}
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = sunni
 				size = 312000
 			}
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = orthodox
 				size = 148000
 			}
@@ -555,29 +555,29 @@
 		}
 	}
 	s:STATE_ALEPPO = {
-		region_state:EGY = {
+		region_state:SYN = {
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = sunni
 				size = 172000
 			}
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = shiite
 				size = 84000
 			}
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = shiite
 				size = 8000
 			}
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = orthodox
 				size = 32000
 			}
 			create_pop = {
-				culture = mashriqi
+				culture = phoenician
 				religion = orthodox
 				size = 63000
 			}

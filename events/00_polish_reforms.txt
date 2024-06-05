@@ -1,0 +1,51 @@
+namespace = pol_reform
+
+pol_reform.1 = {
+	type = country_event
+	placement = root
+	title = pol_reform.1.t
+	desc = pol_reform.1.d
+	flavor = pol_reform.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_factory_closed"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		set_variable = {
+			name = pol_reform_var
+			value = 0
+		}
+		add_journal_entry = {
+			type = je_polish_reforms_main
+		}
+	}
+
+	option = {
+		name = pol_reform.1.a
+		set_variable =  {
+			name = pol_reform
+		}
+		add_journal_entry = {
+			type = je_polish_reforms_eco
+		}
+		add_journal_entry = {
+			type = je_pol_reform_education
+		}
+		add_journal_entry = {
+			type = je_pol_reform_army
+		}
+		add_journal_entry = {
+			type = je_pol_reform_bureaucracy
+		}
+	}
+}

@@ -1,0 +1,31 @@
+je_ams_iron_fist = {
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+
+	group = je_group_historical_content
+	
+	is_shown_when_inactive = {
+		exists = c:AMS
+		this = c:AMS
+	}
+
+	immediate = {
+		c:AMS = {
+			# saved scopes can be used in any events triggered from the Journal Entry, as well as in the loc for the Journal Entry itself
+			# To use saved scopes in loc: JournalEntry.GetTopScope.sCountry('saved_scope_name') or SCOPE.sCountry('saved_scope_name')
+			save_scope_as = dutch_iron_fist
+			set_variable = {
+				name = iron_fist
+				value = 1
+			}
+		}
+
+		set_variable = oppresive
+
+		# all events in these on_actions can refer to scope:god_bless_america
+		trigger_event = {
+			id = iron_fist.1
+			days = 0
+			popup = yes
+		}
+	}
+}

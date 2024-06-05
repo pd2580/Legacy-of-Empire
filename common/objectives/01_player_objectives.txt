@@ -1,0 +1,51 @@
+﻿objective_isles_thunderdome = {
+	background = "gfx/loadingscreens/victoria3_load_2.dds"
+	icon = "gfx/interface/icons/invention_icons/dynamite.dds"
+	
+	recommended_tags = { SCO EIR MCN ENG }
+	
+	objective_subgoals = {
+
+	}
+	
+	on_start = {
+		
+	}
+}
+
+objective_balkan_nightmare = {
+	background = "gfx/interface/icons/objectives/hegemon_illu.dds"
+	icon = "gfx/interface/icons/objectives/hegemon.dds"
+	
+	recommended_tags = { DAN BGS CRO SEE }	
+	
+	objective_subgoals = {
+		
+	}
+	
+	on_start = {
+
+	}
+}
+	
+objective_egalitarian_society = {
+	background = "gfx/interface/icons/objectives/egalitarian_society_illu.dds"
+	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
+	
+	recommended_tags = { FRA RUS CHI NAH }	
+	
+	objective_subgoals = {
+		sg_encourage_liberal_ideas
+		sg_pass_laws
+		sg_public_services
+		sg_liberate_the_slaves
+		sg_women_and_children
+		sg_egalitarian_society
+	}
+	
+	final_subgoal = sg_egalitarian_society
+	
+	on_start = {
+		start_tutorial_lesson = { tutorial_lesson = egalitarian_society }
+	}
+}

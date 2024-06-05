@@ -2097,16 +2097,6 @@ BAV_communist = {
 		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
 	}		
 }
-BAV_subject_PRU = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue_light"
-	}
-}
 
 
 BEL = {
@@ -3047,40 +3037,6 @@ BRE_subject = {
 		color1 = "white"
 		color2 = "white"
 		instance = { scale = { 0.35 0.35 } position = { 0.75 0.52 } }				
-	}		
-}
-BRE_subject_PRU = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "black"
-	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }			
-	}
-	colored_emblem = {
-		texture = "ce_shield_iberian.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.51 } }				
-	}	
-	colored_emblem = {
-		texture = "ce_shield_iberian.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { scale = { 0.62 0.62 } position = { 0.5 0.51 } }				
-	}	
-	colored_emblem = {
-		texture = "ce_key_bremen.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.52 } }				
 	}		
 }
 
@@ -6406,54 +6362,6 @@ DAI_subject_FRA = {
 	}		
 }
 
-DEI = { 
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue"
-	}
-}
-
-DEI_subject = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue"
-	}
-}
-
-DEI_voc = { #Company Flag
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue"
-	}
-	colored_emblem = {
-		texture = "ce_letter_v_serif.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_letter_o.dds"
-		color1 = "black"
-		instance = { position = { 0.47 0.48 } scale = { 0.3 0.23 } }
-	}
-	colored_emblem = {
-		texture = "ce_letter_c_serif.dds"
-		color1 = "black"
-		instance = { position = { 0.56 0.48 } scale = { 0.23 0.23 } }
-	}
-}
-
 DES = {
 	# Deseret
 	
@@ -9607,36 +9515,6 @@ HAM_subject = {
         instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }				
 	}	
 }
-HAM_subject_PRU = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "black"
-	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }			
-	}
-	colored_emblem = {
-		texture = "ce_shield_iberian.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.51 } }			
-	}	
-    sub = {
-        parent = "sub_HAM" 
-		color1 = "white"
-		color2 = "white"	
-		color3 = "white"
-		color4 = "pearl"
-        instance = { scale = { 0.48 0.48 } offset = { 0.26 0.26 } }		
-    }		
-}
 
 HAN = {
 	pattern = "pattern_solid.tga"
@@ -9767,35 +9645,6 @@ HAN_subject_gold = {
 		color1 = "yellow"
 		color2 = "yellow"
         instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }				
-	}		
-}
-HAN_subject_PRU = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "black"
-	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }			
-	}
-	colored_emblem = {
-		texture = "ce_shield_iberian.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.51 } }			
-	}	
-	colored_emblem = {
-		texture = "ce_horse.dds"
-		color1 = "white"
-		color2 = "white"
-		color3 = "red"
-		instance = { position = { 0.51 0.51 } scale = { 0.5 0.5 } }
 	}		
 }
 
@@ -10164,32 +10013,6 @@ HES_subject = {
 		color2 = "yellow"
         instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }				
 	}	
-}
-HES_subject_PRU = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "black"
-	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }			
-	}
-	colored_emblem = {
-		texture = "ce_shield_hesse.dds"
-		color1 = "blue"
-		color2 = "blue"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.51 } }		
-	}	
-	textured_emblem  = {
-		texture = "te_lion_hesse.dds"
-		instance = { scale = { 0.6 0.6 } position = { 0.505 0.53 } }	
-	}			
 }
 
 HND = { # India
@@ -10712,33 +10535,6 @@ IND_subject = {
 	}				
 }
 
-ION = { # Ionian Islands
-	# Septinsular Republic
-	
-	pattern = "pattern_border_of_4.dds"
-	color1 = "blue"
-	color2 = "red"
-	
-	colored_emblem = {
-		texture = "ce_lion_corfu.dds"
-		color1 = "yellow"
-		color2 = "white"
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }	
-	}
-}
-ION_subject = {
-	pattern = "pattern_border_of_3.dds"
-	color1 = "blue"
-	color2 = "red"
-	
-	colored_emblem = {
-		texture = "ce_lion_corfu.dds"
-		color1 = "yellow"
-		color2 = "pearl"
-		instance = { scale = { 0.5 0.5 } position = { 0.68 0.69 } }	
-	}
-}
-
 IRC = { # Iron Confederacy
 	# Painted buffalo skull, borrowing colours from modern tribe flag
 	
@@ -10752,7 +10548,7 @@ IRC = { # Iron Confederacy
 	}	
 }
 
-IRE = { # Ireland
+EIR = { # Ireland
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 
@@ -10762,7 +10558,7 @@ IRE = { # Ireland
 		color2 = "yellow"
 	}
 }
-IRE_with_canton = {		
+EIR_with_canton = {		
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 
@@ -10773,7 +10569,7 @@ IRE_with_canton = {
         instance = { position = { 0.75 0.5 } scale = { 0.75 0.75 } }
 	}	
 }
-IRE_republic = {
+EIR_republic = {
 	# Irish tricolor
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -10786,7 +10582,7 @@ IRE_republic = {
 		color2 = color3
 	}
 }
-IRE_republic_state_religion = {
+EIR_republic_state_religion = {
 	# Irish tricolor, but with Catholic yellow instead of Protestant Orange
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -10799,7 +10595,7 @@ IRE_republic_state_religion = {
 		color2 = color3
 	}
 }
-IRE_republic_state_religion = {
+EIR_republic_state_religion = {
 	# Irish tricolor, but with Catholic yellow instead of Protestant Orange
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -10812,13 +10608,13 @@ IRE_republic_state_religion = {
 		color2 = color3
 	}
 }
-IRE_coa = {
+EIR_coa = {
     sub = {
         parent = "sub_IRE_coa" 
         #instance = { scale = { 0.5 0.5 }  } # top left
     }
 }
-IRE_st_patrick_saltire = {
+EIR_st_patrick_saltire = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 	color2 = "red"
@@ -10829,7 +10625,7 @@ IRE_st_patrick_saltire = {
 		color2 = color2
 	}
 }
-IRE_theocracy = {
+EIR_theocracy = {
 	# Irish tricolor, with Papal Tiara
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -10846,7 +10642,7 @@ IRE_theocracy = {
 		texture = "te_coa_papal_states_tiara.dds"
 	}
 }
-IRE_theocracy_state_religion = {
+EIR_theocracy_state_religion = {
 	# Irish tricolor, but with Catholic yellow instead of Protestant Orange. Also has Papal Tiara
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -10863,7 +10659,7 @@ IRE_theocracy_state_religion = {
 		texture = "te_coa_papal_states_tiara.dds"
 	}
 }
-IRE_dictatorship = {
+EIR_dictatorship = {
 
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -10875,7 +10671,7 @@ IRE_dictatorship = {
 		color2 = color2
 	}
 }
-IRE_easter_rising = {
+EIR_easter_rising = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 
@@ -10885,7 +10681,7 @@ IRE_easter_rising = {
 		color2 = "saffron"
 	}
 }
-IRE_fascist = {	
+EIR_fascist = {	
 	# Blue shirts (saltire can also be fimbriated gold)
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
@@ -13755,31 +13551,6 @@ MEC_subject = {
         instance = { scale = { 0.5 0.5 } offset = { 0.5 0.25 } }		
     }		
 }
-MEC_subject_PRU = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "black"
-	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }			
-	}
-    sub = {
-        parent = "sub_MEC_coa" 
-		color1 = "yellow"
-		color2 = "black"
-		color3 = "pearl"
-		color4 = "red_light"
-		color5 = "yellow"	
-        instance = { scale = { 0.7 0.7 } offset = { 0.15 0.15 } }		
-    }		
-}
 
 MEW = { # Mewar
 	pattern = "pattern_solid.tga"
@@ -15003,17 +14774,6 @@ NAS_republic = {
 	colored_emblem = {
 		texture = "ce_stripes_04.dds"
 		color1 = "blue"
-		color2 = "blue"
-	}		
-}
-NAS_subject_PRU = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "white"
-	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
 		color2 = "blue"
 	}		
 }
@@ -16375,29 +16135,6 @@ OLD_subject = {
 		texture = "te_crown_cut.dds"
 		instance = { scale = { 0.3 0.3 } position = { 0.75 0.315 } }
 	}		
-}
-OLD_subject_PRU = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "black"
-	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }			
-	}
-	colored_emblem = {
-		texture = "ce_coa_oldenburg_delmenhorst.dds"
-		color1 = "blue"
-		color2 = "yellow"
-		color3 = "red"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 }  }	
-	}			
 }
 	
 OMA = { # Muscat-Oman
@@ -18673,148 +18410,6 @@ PRK = {
 	}
 }
 
-PRU = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	colored_emblem = {
-		texture = "ce_eagle_prussia.dds"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
-		color1 = "black"
-		color2 = "yellow"	
-		color3 = "pearl"		
-	}		
-	textured_emblem = {
-		texture = "te_crown_cut.dds"
-		instance = { scale = { 0.15 0.20 } position = { 0.52 0.195 } rotation = 12 }
-	}		
-}
-PRU_teutonic_order = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	color2 = "black"
-
-	colored_emblem = {
-		texture = "ce_cross_england.dds"
-		color1 = color2
-		color2 = color2
-	}
-}
-PRU_republic = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "black"
-	}
-}
-PRU_absolute_monarchy = {
-	# Late 19th c. with stripes and changes to the eagle (scepter-sword, monogram, bone links)
-	# Starting flag although PRU is the historical one (more convenient and still fits the gov type)
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "black"
-		color2 = "black"
-		instance = { scale = { 1.0 0.18 } position = { 0.5 0.09 } }	
-		instance = { scale = { 1.0 0.18 } position = { 0.5 0.91 } }			
-	}
-	textured_emblem  = {
-		texture = "te_eagle_prussia_monogram_crown.dds"
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.485 } }	
-	}		
-}
-PRU_communist = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "black"
-		color2 = "black"
-		instance = { scale = { 1.0 0.18 } position = { 0.5 0.09 } }	
-		instance = { scale = { 1.0 0.18 } position = { 0.5 0.91 } }			
-	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = {  scale = { 0.45 0.45 } position = { 0.5 0.53 } }
-	}	
-	colored_emblem = {
-		texture = "ce_hammer_and_sickle_round.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.30 0.30 } position = { 0.5 0.53 } }
-	}		
-	colored_emblem = {
-		texture = "ce_coa_frame_austria.dds"
-		color1 = "yellow"
-		color2 = "white"
-		color3 = "black"
-		instance = { scale = { 0.60 0.60 } position = { 0.5 0.53 }  }	
-	}	
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.24 0.24 } position = { 0.5 0.31 } }			
-	}	
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { scale = { 0.18 0.18 } position = { 0.5 0.31 } }			
-	}		
-}
-PRU_fascist = {		
-	# Parteiadler with prussian design. The Iron cross replaces the swastika
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "black"
-		color2 = "black"
-		instance = { scale = { 1.0 0.18 } position = { 0.5 0.09 } }	
-		instance = { scale = { 1.0 0.18 } position = { 0.5 0.91 } }			
-	}
-	colored_emblem = {
-		texture = "ce_parteiadler.dds"
-		color1 = "black"
-		color2 = "grey"
-		color3 = "white"
-		instance = { scale = { 0.66 0.66 } position = { 0.5 0.49 } }
-	}	
-	colored_emblem = {
-		texture = "ce_iron_cross.dds"
-		color1 = "grey"
-		color2 = "black"
-		instance = { scale = { 0.18 0.18 } position = { 0.5 0.645 } }
-	}	
-}
-PRU_subject = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	colored_emblem = {
-		texture = "ce_eagle_prussia.dds"
-		instance = { scale = { 0.9 0.9 } position = { 0.67 0.5 } }	
-		color1 = "black"
-		color2 = "yellow"	
-		color3 = "pearl"		
-	}	
-	textured_emblem = {
-		texture = "te_crown_cut.dds"
-		instance = { scale = { 0.14 0.18 } position = { 0.685 0.225 } rotation = 12 }
-	}		
-}
-
 PUE = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -19580,17 +19175,6 @@ SAX_communist = {
 		color2 = "yellow"
 		instance = { scale = { 0.9 0.88 } position = { 0.5 0.5 } }
 	}				
-}
-SAX_subject_PRU = {
-	# 1882
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "green"
-	}
 }
 
 SCA = {
@@ -23907,16 +23491,6 @@ WUR_communist = {
 		color2 = "red"
 		instance = { scale = { 0.35 0.35 } position = { 0.5 0.51 } }
 	}	
-}
-WUR_subject_PRU = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "red"
-		color2 = "white"
-	}
 }
 
 XIN = { # Xinjiang

@@ -10,6 +10,43 @@
  notification_je_secret_police_research_identification_fail_desc:0 "You have failed to research $identification_documents$."
  notification_je_secret_police_research_identification_fail_tooltip:0 "You have failed to research $identification_documents$ for the Secret Police."
 
+ je_polish_reforms_main:0 "Polish Reforms"
+ je_polish_reforms_main_desc:0 "To stand as a peer of the great powers, Poland must establish herself as a formidable foe; she must be bold in the face of looming threats to her sovereignty and prove herself a force to be reckoned with."
+ je_polish_reforms_main_tooltip:0 "To stand as a peer of the great powers, Poland must establish herself as a formidable foe; she must be bold in the face of looming threats to her sovereignty and prove herself a force to be reckoned with."
+ je_polish_reforms_main_reason:0 "To stand as a peer of the great powers, Poland must establish herself as a formidable foe; she must be bold in the face of looming threats to her sovereignty and prove herself a force to be reckoned with."
+ je_polish_reforms_main_goal:0 "Complete 4 "Polish Reform" [Concept('concept_journal_entry', '$concept_journal_entries$')]"
+ je_pol_reform_advance:0 "Advances the "Polish Reforms" [concept_journal_entry]"
+
+ je_pol_reform_bureaucracy:0 "Polish Reforms: Bureaucracy"
+ je_pol_reform_bureaucracy_desc:0 "If we're going to have an effective foreign policy, we need to make sure our domestic control is as strong as possible, and a part of that may need some concessions to the lower class."
+ je_pol_reform_bureaucracy_tooltip:0 "If we're going to have an effective foreign policy, we need to make sure our domestic control is as strong as possible, and a part of that may need some concessions to the lower class."
+ je_pol_reform_bureaucracy_reason:0 "If we're going to have an effective foreign policy, we need to make sure our domestic control is as strong as possible, and a part of that may need some concessions to the lower class."
+
+ je_pol_reform_army:0 "Polish Reforms: Army"
+ je_pol_reform_army_desc:0 "The most important aspect of any true empire is its ability to enfore its will on those who wish to oppose it. To live up to our title of empire, it is imperative for us to surpass this requirement."
+ je_pol_reform_army_tooltip:0 "The most important aspect of any true empire is its ability to enfore its will on those who wish to oppose it. To live up to our title of empire, it is imperative for us to surpass this requirement."
+ je_pol_reform_army_reason:0 "The most important aspect of any true empire is its ability to enfore its will on those who wish to oppose it. To live up to our title of empire, it is imperative for us to surpass this requirement."
+
+ je_pol_reform_education:0 "Polish Reforms: Education"
+ je_pol_reform_education_desc:0 "To ensure our people are more capable than our enemies, we must to secure a site for higher learning. Our society should be taught by the best to be the best."
+ je_pol_reform_education_tooltip:0 "To ensure our people are more capable than our enemies, we must to secure a site for higher learning. Our society should be taught by the best to be the best."
+ je_pol_reform_education_reason:0 "To ensure our people are more capable than our enemies, we must to secure a site for higher learning. Our society should be taught by the best to be the best."
+
+ je_polish_reforms_eco:0 "Polish Reforms: Urbanization"
+ je_polish_reforms_eco_desc:0 "If we are to prove to the world that we're a force to be reckoned with, we'll first need to secure our economy."
+ je_polish_reforms_eco_tooltip:0 "If we are to prove to the world that we're a force to be reckoned with, we'll first need to secure our economy."
+ je_polish_reforms_eco_reason:0 "If we are to prove to the world that we're a force to be reckoned with, we'll first need to secure our economy."
+
+ je_ams_iron_fist:0 "Dutch Iron Fist"
+ je_ams_iron_fist_desc:0 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
+ je_ams_iron_fist_tooltip:0 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
+ je_ams_iron_fist_reason:0 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
+
+ je_francia_reuni_bgy:0 "Francian Re-Unification"
+ je_francia_reuni_bgy_desc:0 "Now that the chaos of the French Civil war has died down, we should focus on restoring the once great Francia"
+ je_francia_reuni_bgy_tooltip:0 "Now that the chaos of the French Civil war has died down, we should focus on restoring the once great Francia"
+ je_francia_reuni_bgy_reason:0 "Now that the chaos of the French Civil war has died down, we should focus on restoring the once great Francia"
+
  je_make_schools_secular:0 "Change education law to secular"
  je_make_schools_secular_reason:0 "The $intelligentsia$ want education to be secular."
  notification_je_make_schools_secular_complete_name:0 "Secular Education"

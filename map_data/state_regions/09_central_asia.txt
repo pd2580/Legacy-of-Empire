@@ -135,6 +135,8 @@ STATE_KAZAN = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 25
+        bg_coal_mining = 10
+        bg_iron_mining = 10
     }
 }
 
@@ -151,7 +153,8 @@ STATE_TARTARIA = {
     arable_land = 150
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 45
+        bg_iron_mining = 35
+        bg_coal_mining = 10
         bg_logging = 8
     }
     resource = {

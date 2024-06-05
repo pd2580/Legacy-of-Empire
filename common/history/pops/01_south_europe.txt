@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_LOMBARDY = {
-		region_state:MIL = {
+		region_state:PAD = {
 			create_pop = {
 				culture = north_roman
 				size = 2376996
@@ -13,7 +13,7 @@
 		}
 	}
 	s:STATE_PIEDMONT = {
-		region_state:MIL = {
+		region_state:PAD = {
 			create_pop = {
 				culture = north_roman
 				size = 2367188
@@ -32,7 +32,7 @@
 	s:STATE_SARDINIA = {
 		region_state:SYR = {
 			create_pop = {
-				culture = south_roman
+				culture = phoenician
 				size = 524084
 			}
 		}
@@ -177,7 +177,7 @@
 		}
 	}
 	s:STATE_VENETIA = {
-		region_state:MIL = {
+		region_state:PAD = {
 			create_pop = {
 				culture = north_roman
 				size = 1855196
@@ -187,13 +187,21 @@
 				religion = jewish
 				size = 2000
 			}
+			create_pop = {
+				culture = slovene
+				size = 50000
+			}
 		}
 	}
 	s:STATE_SICILY = {
 		region_state:SYR = {
 			create_pop = {
 				culture = south_roman
-				size = 1647596
+				size = 1047596
+			}
+			create_pop = {
+				culture = phoenician
+				size = 600000
 			}
 		}
 	}
@@ -201,7 +209,7 @@
 		region_state:CAS = {
 			create_pop = {
 				culture = spanish
-				size = 1268400
+				size = 168400
 			}
 		}
 	}
@@ -457,10 +465,11 @@
 		}
 	}
 	s:STATE_DOBRUDJA = {
-		region_state:A01 = {
+		region_state:BGS = {
 			create_pop = {
 				culture = bulgarian
 				size = 1459044
+				religion = sunni
 			}
 			create_pop = {
 				culture = ukrainian
@@ -540,7 +549,7 @@
 		region_state:SEE = {
 			create_pop = {
 				culture = croat
-				size = 195000
+				size = 395000
 			}
 			create_pop = {
 				culture = north_roman
@@ -580,14 +589,15 @@
 		}
 	}
 	s:STATE_BULGARIA = {
-		region_state:A01 = {
+		region_state:BGS = {
 			create_pop = {
-				culture = turkish
+				culture = romanian
 				size = 210404
 			}
 			create_pop = {
 				culture = bulgarian
 				size = 1660000
+				religion = sunni
 			}
 			create_pop = {
 				culture = sephardic
@@ -623,11 +633,11 @@
 		region_state:SEE = {
 			create_pop = {
 				culture = croat
-				size = 200000
+				size = 700000
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 100000
+				size = 200000
 			}
 			create_pop = {
 				culture = slovene
@@ -778,7 +788,7 @@
 				size = 29404
 			}
 		}
-		region_state:BLG = {
+		region_state:SR1 = {
 			create_pop = {
 				culture = bulgarian
 				size = 650000
@@ -943,7 +953,7 @@
 		}
 	}
 	s:STATE_IONIAN_ISLANDS = {
-		region_state:ION = {
+		region_state:HEL = {
 			create_pop = {
 				culture = greek
 				size = 186404

@@ -540,45 +540,15 @@
 		}
 	}
 	s:STATE_RAJPUTANA={
-		region_state:BIK={
+		region_state:PAN={
 			create_building={
 				building="building_barracks"
-				level=10
+				level=20
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:JAS={
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-		region_state:MEW={
-			create_building={
-				building="building_opium_plantation"
-				level=4
-				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_barracks"
-				level=15
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-		region_state:JOD={
-			create_building={
-				building="building_barracks"
-				level=15
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-		region_state:JAI={
+		region_state:MAR={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -600,6 +570,18 @@
 			create_building={
 				building="building_taj_mahal"
 				level=1
+			}
+			create_building={
+				building="building_opium_plantation"
+				level=4
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
+			}
+			create_building={
+				building="building_barracks"
+				level=15
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}
@@ -902,7 +884,7 @@
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:POR = {
+		region_state:CAS = {
 			create_building={
 				building="building_dye_plantation"
 				level=2

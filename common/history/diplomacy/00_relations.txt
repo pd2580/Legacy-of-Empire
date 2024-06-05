@@ -5,7 +5,6 @@
 	}
 	c:AUS = { 
 		set_relations = { country = c:KRA value = -30 }
-		set_relations = { country = c:PRU value = -50 }
 		set_relations = { country = c:TUR value = -30 }
 		set_relations = { country = c:BAV value = 30 }
 		set_relations = { country = c:BAD value = 30 }
@@ -72,7 +71,6 @@
 		set_relations = { country = c:HOL value = 30 }
 		set_relations = { country = c:SWE value = -50 }
 		set_relations = { country = c:RUS value = -20 }
-		set_relations = { country = c:PRU value = -20 }
 	}
 	c:EGY = {
 		set_relations = { country = c:HDJ value = -30 }
@@ -94,9 +92,7 @@
 	}
 	c:BGY = {
 		set_relations = { country = c:GBR value = -50 }
-		set_relations = { country = c:PRU value = -20 }
 		set_relations = { country = c:AUS value = 20 }
-		set_relations = { country = c:NET value = -30 }
 		set_relations = { country = c:BEL value = -1 }
 		set_relations = { country = c:CAS value = -20 }
 		set_relations = { country = c:MAS value = -30 }
@@ -111,7 +107,6 @@
 	c:GBR = {
 		set_relations = { country = c:POR value = 50 }
         set_relations = { country = c:BIC value = 50 }
-        set_relations = { country = c:ION value = 30 }
         set_relations = { country = c:SIL value = 30 }
         set_relations = { country = c:ORA value = 30 }
         set_relations = { country = c:HAN value = 30 }
@@ -142,7 +137,7 @@
 	c:LAN = {
 		set_relations = { country = c:NET value = 30 }
 	}
-	c:MEX = {
+	c:NAH = {
 		set_relations = { country = c:USA value = -50 }
 	}
 	c:MOL = { 
@@ -157,17 +152,6 @@
 	}
 	c:BEL = {
 		set_relations = { country = c:GBR value = 30 }
-	}
-	c:NET = {
-		set_relations = { country = c:BEL value = -30 }
-		set_relations = { country = c:LUX value = 50 }
-		set_relations = { country = c:GBR value = 30 }
-		set_relations = { country = c:TUR value = -20 }
-		set_relations = { country = c:BIC value = -20 }
-		set_relations = { country = c:BRU value = -20 }
-		set_relations = { country = c:ACE value = -20 }
-		set_relations = { country = c:BRU value = -20 }
-		set_relations = { country = c:DEI value = 30 }
 	}
 	c:ONT = {
 		set_relations = { country = c:GBR value = -20 }
@@ -187,32 +171,6 @@
 	}
 	c:PRG = {
 		set_relations = { country = c:CAS value = -30 }
-	}
-	c:PRU = {
-		set_relations = { country = c:RUS value = 25 }
-		set_relations = { country = c:BRA value = 30 }
-		set_relations = { country = c:LIP value = 20 }
-		set_relations = { country = c:LUB value = 30 }
-		set_relations = { country = c:SCW value = 30 }
-		set_relations = { country = c:SCM value = 30 }
-		set_relations = { country = c:COB value = 30 }
-		set_relations = { country = c:MEI value = 30 }
-		set_relations = { country = c:WEI value = 30 }
-		set_relations = { country = c:HOH value = 30 }
-		set_relations = { country = c:HEK value = 30 }
-		set_relations = { country = c:MST value = 30 }
-		set_relations = { country = c:WLD value = 30 }
-		set_relations = { country = c:SAX value = 30 }
-		set_relations = { country = c:ANH value = 30 }
-		set_relations = { country = c:MEC value = 30 }
-		set_relations = { country = c:HES value = 30 }
-		set_relations = { country = c:NAS value = 30 }
-		set_relations = { country = c:FRM value = 30 }
-		set_relations = { country = c:HAN value = 20 }
-		set_relations = { country = c:BAV value = 30 }
-		set_relations = { country = c:BAD value = 30 }
-		set_relations = { country = c:WUR value = 30 }
-		set_relations = { country = c:GBR value = 20 }
 	}
 	c:QUE = {
 		set_relations = { country = c:GBR value = -20 }
@@ -259,14 +217,13 @@
 		set_relations = { country = c:EGY value = -1 }
 		set_relations = { country = c:TUR value = -1 }
 		set_relations = { country = c:USA value = -20 }
-		set_relations = { country = c:MEX value = -30 }
+		set_relations = { country = c:NAH value = -30 }
 		set_relations = { country = c:UCA value = -30 }
 		set_relations = { country = c:CHL value = -30 }
 		set_relations = { country = c:BOL value = -30 }
 	}
 	c:SWE = {
 		set_relations = { country = c:NOR value = 30 }
-		set_relations = { country = c:PRU value = 30 }
 	}
 	c:TUR = {
 		set_relations = { country = c:WAL value = -30 }

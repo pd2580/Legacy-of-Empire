@@ -1206,8 +1206,8 @@ ideology_jingoist_leader = {
 		if = {
 			limit = {
 				owner = {
-					exists = c:FRA
-					this = c:FRA
+					exists = c:ENG
+					this = c:ENG
 					has_journal_entry = je_divided_monarchists
 				}
 				scope:interest_group = {
@@ -1270,8 +1270,8 @@ ideology_royalist = {
 		owner = {
 			NOR = {
 				AND = {
-					exists = c:FRA
-					c:FRA = this
+					exists = c:ENG
+					c:ENG = this
 				}
 				AND = {
 					any_interest_group = {
@@ -2697,8 +2697,8 @@ ideology_market_liberal = {
 		if = {
 			limit = {
 				owner = {
-					exists = c:FRA
-					this = c:FRA
+					exists = c:ENG
+					this = c:ENG
 					has_journal_entry = je_divided_monarchists
 				}
 				scope:interest_group = {
@@ -2949,8 +2949,8 @@ ideology_authoritarian = {
 		if = {
 			limit = {
 				owner = {
-					exists = c:FRA
-					this = c:FRA
+					exists = c:ENG
+					this = c:ENG
 					has_journal_entry = je_divided_monarchists
 				}
 				scope:interest_group = {
@@ -3113,8 +3113,8 @@ ideology_protectionist = {
 		if = {
 			limit = {
 				owner = {
-					exists = c:FRA
-					this = c:FRA
+					exists = c:ENG
+					this = c:ENG
 					has_journal_entry = je_divided_monarchists
 				}
 				scope:interest_group = {

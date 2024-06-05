@@ -1,6 +1,0 @@
-﻿POPULATION = {
-	c:BGY = {
-		effect_starting_pop_wealth_high = yes
-		effect_starting_pop_literacy_middling = yes
-	}
-}

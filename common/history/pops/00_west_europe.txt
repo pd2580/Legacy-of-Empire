@@ -273,14 +273,24 @@
 		}
 	}
 	s:STATE_WALES = {
-		region_state:WLS = {
+		region_state:MCN = {
 			create_pop = {
 				culture = welsh
-				size = 778557
+				size = 438557
 			}
 			create_pop = {
 				culture = british
-				size = 194639
+				size = 84639
+			}
+		}
+		region_state:ENG = {
+			create_pop = {
+				culture = welsh
+				size = 438557
+			}
+			create_pop = {
+				culture = british
+				size = 84639
 			}
 		}
 	}
@@ -305,7 +315,8 @@
 		region_state:SCO = {
 			create_pop = {
 				culture = scottish
-				size = 672396
+				religion = norse
+				size = 2672396
 			}
 			create_pop = {
 				culture = scottish
@@ -318,12 +329,27 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = british
-				size = 2043604
+				size = 1043604
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 24400
+				size = 14400
+			}
+			create_pop = {
+				culture = irish
+				size = 12000
+			}
+		}
+		region_state:MCN = {
+			create_pop = {
+				culture = british
+				size = 1043604
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 14400
 			}
 			create_pop = {
 				culture = irish
@@ -365,11 +391,9 @@
 				culture = irish
 				size = 4400
 			}
-		}
-		region_state:CWL = {
 			create_pop = {
-				culture = cornie
-				size = 2669600
+				culture = french
+				size = 669600
 			}
 			create_pop = {
 				culture = cornie
@@ -386,6 +410,7 @@
 		region_state:SCO = {
 			create_pop = {
 				culture = scottish
+				religion = norse
 				size = 1397200
 			}
 			create_pop = {
@@ -400,23 +425,16 @@
 		}
 	}
 	s:STATE_ULSTER = {
-		region_state:EIR = {
+		region_state:SCO = {
 			create_pop = {
-				culture = irish # Catholics
-				size = 1183122
+				culture = scottish
+				religion = norse
+				size = 1783122
 			}
 			create_pop = {
-				culture = british # Anglicans
-				size = 407111
-			}
-			create_pop = {
-				culture = irish # Anglicans
-				religion = protestant
-				size = 71843
-			}
-			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
-				size = 575084
+				culture = irish
+				religion = norse
+				size = 471843
 			}
 			create_pop = {
 				culture = irish  # Presbyterians and Methodists
@@ -514,13 +532,17 @@
 	s:STATE_ILE_DE_FRANCE = {
 		region_state:BGY = {
 			create_pop = {
-				culture = burgundian
-				size = 1852741
+				culture = french
+				size = 2002741
+			}
+			create_pop = {
+				culture = french
+				religion = protestant
+				size = 20393
 			}
 			create_pop = {
 				culture = burgundian
-				religion = protestant
-				size = 20393
+				size = 35000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -529,7 +551,11 @@
 		}
 	}
 	s:STATE_PROVENCE = {
-		region_state:SAR = {
+		region_state:OCC = {
+			create_pop = {
+				culture = occitan
+				size = 1038678
+			}
 			create_pop = {
 				culture = north_roman
 				size = 131100
@@ -537,12 +563,6 @@
 			create_pop = {
 				culture = occitan
 				size = 41100
-			}
-		}
-		region_state:BGY = {
-			create_pop = {
-				culture = occitan
-				size = 1038678
 			}
 			create_pop = {
 				culture = occitan
@@ -563,12 +583,16 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 2670494
+				size = 2070494
 			}
 			create_pop = {
 				culture = burgundian
 				religion = protestant
 				size = 14169
+			}
+			create_pop = {
+				culture = french
+				size = 900000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -602,7 +626,7 @@
 		}
 	}
 	s:STATE_RHONE = {
-		region_state:BGY = {
+		region_state:OCC = {
 			create_pop = {
 				culture = francoprovencal
 				size = 1709209
@@ -661,12 +685,16 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1470989
+				size = 1400989
 			}
 			create_pop = {
 				culture = burgundian
 				religion = protestant
 				size = 7307
+			}
+			create_pop = {
+				culture = french
+				size = 70000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -788,7 +816,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1561366
+				size = 1801366
 			}
 			create_pop = {
 				culture = burgundian
@@ -798,6 +826,10 @@
 			create_pop = {
 				culture = francoprovencal
 				size = 12350
+			}
+			create_pop = {
+				culture = french
+				size = 256000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -826,7 +858,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1153438
+				size = 1753438
 			}
 			create_pop = {
 				culture = burgundian
@@ -836,6 +868,10 @@
 			create_pop = { # Givet area Walloon
 				culture = wallonian
 				size = 4167
+			}
+			create_pop = {
+				culture = french
+				size = 423000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -868,12 +904,16 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1133731
+				size = 1933731
 			}
 			create_pop = {
 				culture = burgundian
 				religion = protestant
 				size = 12130
+			}
+			create_pop = {
+				culture = french
+				size = 210000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -910,7 +950,11 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1375047
+				size = 375047
+			}
+			create_pop = {
+				culture = french
+				size = 1000000
 			}
 			create_pop = {
 				culture = burgundian
@@ -1174,7 +1218,7 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL = {
-		region_state:MIL = {
+		region_state:PAD = {
 			create_pop = {
 				culture = south_german
 				size = 174100
@@ -1232,7 +1276,7 @@
 		}
 	}
 	s:STATE_EAST_SWITZERLAND = {
-		region_state:MIL = {
+		region_state:PAD = {
 			# 895200 total
 			# 43.3% Protestant, 56.7% Catholic
 

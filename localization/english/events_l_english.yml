@@ -47,6 +47,16 @@
  enforced_domestic_investment:0 "Enforced Domestic Investment"
  modifier_commander_with_addiction:0 "Addiction affecting work"
  modifier_commander_bribed:0 "Commander Influence"
+
+ iron_fist.1.t:0 "Ruling With an Iron Fish"
+ iron_fist.1.d:1 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
+ iron_fist.1.f:0 "Flavor Text"
+ iron_fist.1.a:0 "There is nothing we can do."
+
+ pol_reform.1.t:0 "Polish Reforms"
+ pol_reform.1.d:1 "The grand Polish Empire was built on opportune attacks, weak neighbors, and a geographical blessing. However, to esablish itself as a strong contender on the world stage, and worthy to stand as a peer to other European powers. The Empire must be able to hold it's own should the time come."
+ pol_reform.1.f:0 ""We can no longer rely on our neighbors simply being weaker than us, we have to make an active effort to be stronger than them, more advanced than them, and ensure we can hold our own should anyone question Polish Sovereignty""
+ pol_reform.1.a:0 "It's time for Poland to establish itself as a leading power on the world stage."
  
  government_conflicts.1.t:0 "Breeding and Education"
  government_conflicts.1.d:1 "Disagreements between the [SCOPE.gsInterestGroup('landowners_ig').GetName] and the [SCOPE.gsInterestGroup('intelligentsia_ig').GetName] are causing conflicts in government."
@@ -870,3 +880,13 @@
  unable_to_enact.2.d: "After a series of costly and embarassing setbacks, the sitting [ROOT.GetCountry.GetAdjective] government has decided to halt its pursuit of [SCOPE.sLaw('current_law_scope').GetName]. It will be some time before political will exists to try again."
  unable_to_enact.2.f: "Defeat lingered in the air, along with the stench burnt tobacco and spoiling liquor. Hopes crushed, ideas splintered, and desire spoiled. For better or worse, the message was clear: nobody wanted [SCOPE.sLaw('current_law_scope').GetNameNoFormatting] but the men in the room.\n\nA long, treacherous path lay ahead to reingratiate the idea."
  unable_to_enact.2.a: "Unfortunate, and embarassing."
+
+ high_kin.1.t:0 "Success in Ireland!"
+ high_kin.1.d:1 "Our recent conquest into the northern regions of Ireland have been successful, we have annexed our rightful land."
+ high_kin.1.f:0 ""While this is a great victory for the Nordic people, we can't stop here. We must unite all Nordic people, and we can't stop until it's done.""
+ high_kin.1.a:0 "The conquest continues."
+ fra_uni.1.t:0 "Final Push for Re-Unification"
+ fra_uni.1.d:1 "In the aftermath of Francia's tumultuous fall, a semblance of order has finally begun to emerge, presenting Burgundy with a critical juncture in its history. The leaders of Burgundy now face a pivotal decision, to consolidate and centralize the territories acquired amidst the chaos, ensuring a stronger, more unified state, or to embark on an ambitious expansion to the west. However, the latter path is fraught with challenges, as it brings them into direct competition with the thriving empire of Aquitaine, a formidable rival that has successfully navigated its own regional complexities. This decision will not only define Burgundy's future political landscape but also its potential as a dominant power in the region."
+ fra_uni.1.f:0 ""We have carved out our own empire in the east. It's time to decide weather we want to strengthen our rule over our current land, or to continue the push westward.""
+ fra_uni.1.a:0 "That's enough land for now."
+ fra_uni.1.b:0 "Frankia will rise once more."

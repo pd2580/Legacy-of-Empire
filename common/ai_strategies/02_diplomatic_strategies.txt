@@ -1591,7 +1591,7 @@ ai_strategy_unify_the_isles = {
 	}
 	
 	wargoal_scores = {
-		annex_country = {
+		return_state = {
 			if = {
 				limit = {
 					OR = {

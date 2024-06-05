@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_DAGESTAN={
-		region_state:RUS={
+		region_state:DON={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -19,8 +19,6 @@
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
-		}
-		region_state:CHC={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -36,7 +34,7 @@
 		}
 	}
 	s:STATE_KUBAN={
-		region_state:RUS={
+		region_state:DON={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -55,8 +53,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
-		}
-		region_state:CIR={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -78,7 +74,7 @@
 		}
 	}
 	s:STATE_ARMENIA={
-		region_state:RUS={
+		region_state:DON={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -88,7 +84,7 @@
 		}
 	}
 	s:STATE_AZERBAIJAN={
-		region_state:RUS={
+		region_state:DON={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -104,7 +100,7 @@
 		}
 	}
 	s:STATE_GREATER_CAUCASUS={
-		region_state:RUS={
+		region_state:DON={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -198,7 +194,7 @@
 		}
 	}
 	s:STATE_ASTRAKHAN={
-		region_state:RUS={
+		region_state:DON={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
