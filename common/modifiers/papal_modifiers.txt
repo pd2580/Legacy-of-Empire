@@ -11,16 +11,21 @@ modifier_rome_negative = {
 modifier_rome_one = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
 	interest_group_approval_add = -3
-	interest_group_pol_str_mult = -0.10
+	interest_group_pol_str_mult = -0.50
 }
 modifier_rome_two = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	interest_group_approval_add = 2
-	interest_group_pol_str_mult = 0.30
-	interest_group_pop_attraction_mult = 0.30
+	interest_group_pol_str_mult = 0.50
+	interest_group_pop_attraction_mult = 0.50
 }
-restitutor_orbis = {
+modifier_restitutor_orbis = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 character_health_add = 0.3
 		character_popularity_add = 50
+}
+modifier_clergy_decline = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_pol_str_mult = -0.50
+	interest_group_pop_attraction_mult = -0.50
 }

@@ -57,12 +57,13 @@
  notification_je_make_schools_secular_fail_tooltip:0 "You have failed to switch to a secular education law."
 
  rome_je_main:0 "A Dream Called Rome"
- rome_je_main_desc:0 "Republicans at the gates of Saint Peter's Basilica! The papacy clings to power as the republicans grow in strength. Whether it is redemption or oblivion that awaits her, Rome balances on a knife edge.
-"
- rome_je_main_tooltip:0 "Republicans at the gates of Saint Peter's Basilica! The papacy clings to power as the republicans grow in strength. Whether it is redemption or oblivion that awaits her, Rome balances on a knife edge.
-"
  rome_je_main_reason:0 "Republicans at the gates of Saint Peter's Basilica! The papacy clings to power as the republicans grow in strength. Whether it is redemption or oblivion that awaits her, Rome balances on a knife edge.
 "
+sax_je_main:0 "A Divine Mission"
+sax_je_main_reason:0 "If we keep the role of religion pivotal in the lives of the german people, we can make sure that our Divine Mission will be followed"
+
+one_church:0 "The True Pope"
+one_church_reason:0 "That impostor has tarnished the legitimacy of the Pope for too long, it's time to depose him."
 
  je_group_historical_content: "National Agenda"
  je_group_crises: "Major Situations"

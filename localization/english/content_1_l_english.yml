@@ -1768,9 +1768,18 @@
 "
  papal_to_rome.2.a:0 "Long live the Roman Republic"
  papal_to_rome.3.t:0 "Roma, Ex Cinere"
- papal_to_rome.3.d:0 "With the pope deposed, the people of Rome look to the restored senate to return their great city to prominence. In the chamber of the Curia Aurelianus, many factions vie for power. Rome has a chance for greatness if only the right man can lead it.
+ papal_to_rome.3.d:0 "With the pope deposed, the Roman people look to the restored senate to return their great republic to prominence.\nIn the chamber of the Curia Aurelianus, many factions vie for power\nRome has a chance for greatness if only the right man can lead it.
 "
  papal_to_rome.3.f:0 "“Consul, the legions demand strong leadership! We cannot stand by and watch the city burn while the senate talks!”\n“So you want another oppressor? A dictator to bleed our people dry just like the papacy? I fought for this republic! We fought for this and you want to squander it on some dream of greatness?”\n“Quiet, both of you! You illiterates use words you don’t even know the meaning of,and talk about Rome without knowing her legacy! Let the people who knows Rome’s history decide”
 "
  papal_to_rome.3.a:0 "A New Age, A New Rome"
  papal_to_rome.3.b:0 "Rome is meant to be an Empire!"
+ 
+by_gods_mercy.1.t:0 "Republicans Suppressed"
+by_gods_mercy.1.d:0 "After years of turmoil, the Pope has finally managed to impose his authority"
+by_gods_mercy.1.f:0 "Now that the the papacy has regained stability, and no one in our lands dares to question papal authority, it's time to deal with the real enemy, the false Pope of the Holy See"
+by_gods_mercy.1.a:0 "For the Pope, and God!"
+fall_papacy.1.t:0 "The Fall of The Papacy"
+fall_papacy.1.d:0 "After the fall of Rome, republican supporters have taken advantage of the chaos to depose the Pope and proclaim the rebirth of the Roman Republic"
+fall_papacy.1.f:0 "We are now free from the tyranny of the Pope, but it's to soon to celebrate;\nRome has fallen, and we must...no, it's our mission to retake it!"
+fall_papacy.1.a:0 "Rome will be ours!"

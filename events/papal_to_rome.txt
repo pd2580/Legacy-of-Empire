@@ -137,10 +137,11 @@ papal_to_rome.2 = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	trigger = {
 	}
+	
 	option = {
 		name = papal_to_rome.2.a
 		default_option = yes
-		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_wealth_voting
 		add_loyalists = {
 			strata = poor
@@ -150,13 +151,15 @@ papal_to_rome.2 = {
 			strata = rich
 			value = small_radicals
 		}
+		
 		trigger_event = {
 			id = papal_to_rome.3
 		}
+		
 	}
 }
 
-papal_to_rome.3 = {
+papal_to_rome.3 = { # roma ex cinere
 	type = country_event
 	placement = ROOT
 	title = papal_to_rome.3.t
@@ -184,6 +187,7 @@ papal_to_rome.3 = {
 	}
 	option = {
 		name = papal_to_rome.3.a
+		default_option = yes
 		every_interest_group = {
 			limit = {
 				is_interest_group_type = ig_armed_forces
@@ -207,6 +211,30 @@ papal_to_rome.3 = {
 				is_decaying = yes
 			}
 		}
+		s:STATE_UMBRIA = {
+			add_claim = c:PAP
+					}
+		s:STATE_ABRUZZO = {
+			add_claim  = c:PAP
+		}
+		s:STATE_CAMPANIA = {
+			add_claim  = c:PAP
+		}
+		s:STATE_APULIA = {
+			add_claim  = c:PAP
+					}
+		s:STATE_CALABRIA = {
+			add_claim  = c:PAP
+					}
+		s:STATE_VENETIA = {
+			add_claim  = c:PAP
+					}
+		s:STATE_LOMBARDY = {
+			add_claim  = c:PAP
+					}
+		s:STATE_PIEDMONT = {
+			add_claim  = c:PAP
+					}
 	}
 	option = {
 		name = papal_to_rome.3.b
@@ -222,7 +250,7 @@ papal_to_rome.3 = {
 		}
 		scope:armed_forces_leader = {
 			set_ideology = ideology:ideology_authoritarian
-			add_modifier = restitutor_orbis
+			add_modifier = modifier_restitutor_orbis
 		}
 		every_interest_group = {
 			limit = {
@@ -237,8 +265,159 @@ papal_to_rome.3 = {
 				is_decaying = yes
 			}
 		}
-		trigger_event = {
-			id = holy_see.2
+		after = {
+			add_journal_entry = {
+				type = restore_the_emperor
+			}
 		}
 	}
 }
+papal_to_rome.4 = { # by gods mercy
+type = country_event
+	placement = ROOT
+	title = by_gods_mercy.1.t
+	desc = by_gods_mercy.1.d
+	flavor = by_gods_mercy.1.f
+	duration = 3
+	event_image = {
+		video = "southamerica_christianity"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	trigger = {
+	}
+	option = {
+		name = by_gods_mercy.1.a
+		every_interest_group = {
+			limit = {
+					is_interest_group_type = ig_devout
+				}
+				add_modifier = {
+				name = modifier_rome_two
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+			}
+		s:STATE_DALMATIA = {
+			add_claim  = c:PAP
+		}
+	}
+	after = {
+			add_journal_entry = {
+				type = one_church
+			}
+		}
+}
+
+fall_papacy.1 = {
+type = country_event
+	placement = ROOT
+	title = fall_papacy.1.t
+	desc = fall_papacy.1.d
+	flavor = fall_papacy.1.f
+	duration = 3
+	event_image = {
+		video = "unspecific_fire"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	trigger = {
+	}
+	option = {
+		name = fall_papacy.1.a
+		default_option = yes
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_wealth_voting
+		every_interest_group = {
+			limit = {
+					is_interest_group_type = ig_devout
+				}
+			add_modifier = {
+				name = modifier_clergy_decline
+				months = normal_modifier_time
+			}
+		}
+				s:STATE_LAZIO = {
+			add_claim  = c:PAP
+					}
+			trigger_event = {
+			id = papal_to_rome.3
+			}
+		}
+	}
+papal_to_rome.5 = { # The One Pope
+	type = country_event
+	placement = ROOT
+	title = papal_to_rome.5.t
+	desc = papal_to_rome.5.d
+	flavor = papal_to_rome.5.f
+	duration = 3
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	trigger = {
+	}
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_armed_forces
+				exist = leader
+			}
+			leader = {
+				save_scope_as = armed_forces_leader
+			}
+		}
+	}
+	option = {
+		name = papal_to_rome.3.a
+		default_option = yes
+		every_interest_group = {
+			limit = {
+				is_interest_group_type = ig_armed_forces
+			}
+			add_modifier = {
+				name = modifier_rome_one
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_rural_folk
+				}
+			}
+			add_modifier = {
+				name = modifier_rome_two
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+		s:STATE_UMBRIA = {
+			add_claim = c:PAP
+					}
+		s:STATE_ABRUZZO = {
+			add_claim  = c:PAP
+		}
+		s:STATE_CAMPANIA = {
+			add_claim  = c:PAP
+		}
+		s:STATE_APULIA = {
+			add_claim  = c:PAP
+					}
+		s:STATE_CALABRIA = {
+			add_claim  = c:PAP
+					}
+		s:STATE_VENETIA = {
+			add_claim  = c:PAP
+					}
+		s:STATE_LOMBARDY = {
+			add_claim  = c:PAP
+					}
+		s:STATE_PIEDMONT = {
+			add_claim  = c:PAP
+					}
