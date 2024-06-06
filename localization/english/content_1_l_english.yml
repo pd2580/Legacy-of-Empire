@@ -1768,18 +1768,36 @@
 "
  papal_to_rome.2.a:0 "Long live the Roman Republic"
  papal_to_rome.3.t:0 "Roma, Ex Cinere"
- papal_to_rome.3.d:0 "With the pope deposed, the Roman people look to the restored senate to return their great republic to prominence.\nIn the chamber of the Curia Aurelianus, many factions vie for power\nRome has a chance for greatness if only the right man can lead it.
+ papal_to_rome.3.d:0 "With the pope deposed, the Roman people look to the restored senate to return their great republic to prominence.\nIn the chamber of the Curia Aurelianus, many factions vie for power,knowing that this is the most critical moment to gain power.\nRome has a chance for greatness if only the right man can lead it.
 "
  papal_to_rome.3.f:0 "“Consul, the legions demand strong leadership! We cannot stand by and watch the city burn while the senate talks!”\n“So you want another oppressor? A dictator to bleed our people dry just like the papacy? I fought for this republic! We fought for this and you want to squander it on some dream of greatness?”\n“Quiet, both of you! You illiterates use words you don’t even know the meaning of,and talk about Rome without knowing her legacy! Let the people who knows Rome’s history decide”
 "
  papal_to_rome.3.a:0 "A New Age, A New Rome"
  papal_to_rome.3.b:0 "Rome is meant to be an Empire!"
  
-by_gods_mercy.1.t:0 "Republicans Suppressed"
-by_gods_mercy.1.d:0 "After years of turmoil, the Pope has finally managed to impose his authority"
-by_gods_mercy.1.f:0 "Now that the the papacy has regained stability, and no one in our lands dares to question papal authority, it's time to deal with the real enemy, the false Pope of the Holy See"
-by_gods_mercy.1.a:0 "For the Pope, and God!"
-fall_papacy.1.t:0 "The Fall of The Papacy"
-fall_papacy.1.d:0 "After the fall of Rome, republican supporters have taken advantage of the chaos to depose the Pope and proclaim the rebirth of the Roman Republic"
-fall_papacy.1.f:0 "We are now free from the tyranny of the Pope, but it's to soon to celebrate;\nRome has fallen, and we must...no, it's our mission to retake it!"
-fall_papacy.1.a:0 "Rome will be ours!"
+ by_gods_mercy.1.t:0 "Republicans Suppressed"
+ by_gods_mercy.1.d:0 "After years of turmoil, the Pope has finally managed to impose his authority"
+ by_gods_mercy.1.f:0 "Now that the the papacy has regained stability, and no one in our lands dares to question papal authority, it's time to deal with the real enemy, the false Pope of the Holy See"
+ by_gods_mercy.1.a:0 "For the Pope, and God!"
+ fall_papacy.1.t:0 "The Fall of The Papacy"
+ fall_papacy.1.d:0 "After the fall of Rome, republican supporters have taken advantage of the chaos to depose the Pope and proclaim the rebirth of the Roman Republic"
+ fall_papacy.1.f:0 "We are now free from the tyranny of the Pope, but it's to soon to celebrate;\nRome has fallen, and we must...no, it's our mission to retake it!"
+ fall_papacy.1.a:0 "Rome will be ours!"
+
+ revive_the_roman_empire:0 "Revive the Roman Empire"
+ revive_the_roman_empire_desc:0 "Rome will cement its place as the Dominus of the Mediterranean" 
+
+ papal_to_rome.6.t:0 "The Emperorship restored"
+ papal_to_rome.6.d:0 "After a long struggle, Rome is once again ruled by one Emperor, as it should always be"
+ papal_to_rome.6.f:0 ""Finally we will be able to claim our lost lands!"\n"Our lost lands? Are you drunk? What will you gain from all of this? The only thing we had, our democracy, is gone, and here are people celebrating as if they were the ones who got the power"
+ papal_to_rome.6.a:0 "Long Live the Emperor"
+
+ papal_to_rome.7.t:0 "The Death of a Madman"
+ papal_to_rome.7.d:0 "The struggle for democracy is over."
+ papal_to_rome.7.f:0 "Many followed him, others hated him, but nothing matters anymore, as he is dead.\nWhat remains is democracy, and that is what is important."
+ papal_to_rome.7.a:0 "Long live the Republic"
+
+ papal_to_rome.8.t:0 "Exalted Among Men"
+ papal_to_rome.8.d:0 "At the start of the century, nobody could have imagined that a man would have restored the Roman Empire, but sometimes reality is better than immagination.\n [SCOPE.sCharacter('armed_forces_leader').GetFullName] will go down in history as one of the greatest emperors that Rome ever had."
+ papal_to_rome.8.f:0 ""You have a strange accent, where are you from?"\n"I come from Aleppo sir"\n"Well, 10 years ago I'd have called you a foreigner, but today we are brothers. Come with me, I'll offer you some wine""
+ papal_to_rome.8.a:0 "Long Live the Emperor"

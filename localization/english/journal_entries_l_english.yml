@@ -62,8 +62,16 @@
 sax_je_main:0 "A Divine Mission"
 sax_je_main_reason:0 "If we keep the role of religion pivotal in the lives of the german people, we can make sure that our Divine Mission will be followed"
 
-one_church:0 "The True Pope"
-one_church_reason:0 "That impostor has tarnished the legitimacy of the Pope for too long, it's time to depose him."
+je_one_church:0 "The True Pope"
+je_one_church_reason:0 "That impostor has tarnished the legitimacy of the Pope for too long, it's time to depose him."
+je_one_church_see_not_real:0 "The Holy See must not exist"
+
+je_restore_emperor:0 "Restore the Emperor"
+je_restore_emperor_reason:0 "Rome reached its peak under the guide of a strong ruler, thus is mandatory for Rome to be ruled by an Emperor if we want to really become the dominant power of the Mediterranean"
+
+je_mare_nostrum:0 "Mare Nostrum"
+je_mare_nostrum_reason:0 "Before the Emperor the general idea of the ruling class was to reclaim Italy, but for the Emperor such an insignificant feat would be an insult to the name of Rome. It's time to take back Our Sea."
+
 
  je_group_historical_content: "National Agenda"
  je_group_crises: "Major Situations"
