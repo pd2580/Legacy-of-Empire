@@ -1762,3 +1762,15 @@
  papal_to_rome.1.f:0 "“They are protesting again Your Holiness.\nThey demand your abdication”\n“This is heresy! Where is the gendarmeria?!\nHow can they continue to allow this?”\n“The gendarmeria refuses to intervene Holy Father, there is nothing we can do”\n“God help us my child, God help us all”"
  papal_to_rome.1.a:0 "Roma restituenda est!"
  papal_to_rome.1.b:0 "Send in the Swiss guard!"
+ papal_to_rome.2.t:0 "Senatus PopulusQue Romanus"
+ papal_to_rome.2.d:0 "After One Thousand Years, Rome Has Been Restored"
+ papal_to_rome.2.f:0 "At long last, the Eternal City is finally free, and the Pope has been forced into permanent exile.\nThe military reformed, the patrician class restored and the Church removed from its position of temporal power.\n The people celebrate in the streets, not knowing that the hardest part has yet to come.
+"
+ papal_to_rome.2.a:0 "Long live the Roman Republic"
+ papal_to_rome.3.t:0 "Roma, Ex Cinere"
+ papal_to_rome.3.d:0 "With the pope deposed, the people of Rome look to the restored senate to return their great city to prominence. In the chamber of the Curia Aurelianus, many factions vie for power. Rome has a chance for greatness if only the right man can lead it.
+"
+ papal_to_rome.3.f:0 "“Consul, the legions demand strong leadership! We cannot stand by and watch the city burn while the senate talks!”\n“So you want another oppressor? A dictator to bleed our people dry just like the papacy? I fought for this republic! We fought for this and you want to squander it on some dream of greatness?”\n“Quiet, both of you! You illiterates use words you don’t even know the meaning of,and talk about Rome without knowing her legacy! Let the people who knows Rome’s history decide”
+"
+ papal_to_rome.3.a:0 "A New Age, A New Rome"
+ papal_to_rome.3.b:0 "Rome is meant to be an Empire!"

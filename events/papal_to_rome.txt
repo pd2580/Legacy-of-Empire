@@ -1,135 +1,244 @@
 namespace = papal_to_rome
-
 # start event
-papal_to_rome.1 = { 
+papal_to_rome.1 = {
 	type = country_event
 	placement = ROOT
-	
 	title = papal_to_rome.1.t
 	desc = papal_to_rome.1.d
 	flavor = papal_to_rome.1.f
-	
-    duration = 3
-
+	duration = 3
 	event_image = {
 		video = "southamerica_election"
 	}
-	
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-
-    icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
-	
-	
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	trigger = {
 	}
-	
-    immediate = {
-        random_interest_group = {
-        limit {
-            is_interest_group_type = ig_intelligentsia
-            exist = leader
-        }
-        leader = {
-            save_scope_as = intelligentsia_leader
-        }
-        }
-    }
-	
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_intelligentsia
+				exist = leader
+			}
+			leader = {
+				save_scope_as = intelligentsia_leader
+			}
+		}
+	}
 	option = {
 		name = papal_to_rome.1.a
 		default_option = yes
-        every_interest_group = {
-            limit = {
-                OR = {
-            
-                is_interest_group_type = ig_armed_forces
-                is_interest_group_type = ig_petty_bourgeoisie
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_industrialists
-                is_interest_group_type = ig_rural_folk
-                }
-            }
-            add_modifier = {
-                name = modifier_rome_positive
-                months = normal_modifier_time
-                is_decaying = yes
-            }
-        }
-        every_interest_group = {
-            limit = {
-                OR = {
-                    is_interest_group_type = ig_devout
-                    is_interest_group_type = ig_landowners
-                }
-            }
-            add_modifier = {
-                name = modifier_rome_negative
-                months = normal_modifier_time
-                is_decaying = yes
-            }
-        }
-
-        add_radicals = {
-            strata = rich
-            value = large_radicals
-        }
-        add_loyalists = {
-            strata = middle
-            value = medium_radicals
-        }
-        add_loyalists = {
-            strata = poor
-            value = medium_radicals
-        }
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_petty_bourgeoisie
+					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_rural_folk
+				}
+			}
+			add_modifier = {
+				name = modifier_rome_positive
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_devout
+					is_interest_group_type = ig_landowners
+				}
+			}
+			add_modifier = {
+				name = modifier_rome_negative
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+		add_radicals = {
+			strata = rich
+			value = large_radicals
+		}
+		add_loyalists = {
+			strata = middle
+			value = medium_radicals
+		}
+		add_loyalists = {
+			strata = poor
+			value = medium_radicals
+		}
 	}
-	
 	option = {
 		name = papal_to_rome.1.b
-        every_interest_group = {
-            limit = {
-                OR = {
-                    is_interest_group_type = ig_devout
-                    is_interest_group_type = ig_landowners
-                }
-            }
-            add_modifier = {
-                name = modifier_rome_positive
-                months = normal_modifier_time
-                is_decaying = yes
-            }
-        }
-        every_interest_group = {
-            limit = {
-                OR = {
-            
-                is_interest_group_type = ig_armed_forces
-                is_interest_group_type = ig_petty_bourgeoisie
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_industrialists
-                is_interest_group_type = ig_rural_folk
-                }
-            }
-            add_modifier = {
-                name = modifier_rome_negative
-                months = normal_modifier_time
-                is_decaying = yes
-            }
-        }
-         add_loyalists = {
-            strata = rich
-            value = very_large_radicals
-        }
-        add_radicals = {
-            strata = middle
-            value = large_radicals
-        }
-        add_radicals = {
-            strata = poor
-            value = large_radicals
-        }
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_devout
+					is_interest_group_type = ig_landowners
+				}
+			}
+			add_modifier = {
+				name = modifier_rome_positive
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_petty_bourgeoisie
+					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_rural_folk
+				}
+			}
+			add_modifier = {
+				name = modifier_rome_negative
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+		add_loyalists = {
+			strata = rich
+			value = very_large_radicals
+		}
+		add_radicals = {
+			strata = middle
+			value = large_radicals
+		}
+		add_radicals = {
+			strata = poor
+			value = large_radicals
+		}
 	}
-	
 	after = {
+		add_journal_entry = {
+			type = rome_je_main
+		}
 	}
+}
 
+#senatus et populus que romanus event
+papal_to_rome.2 = {
+	type = country_event
+	placement = ROOT
+	title = papal_to_rome.2.t
+	desc = papal_to_rome.2.d
+	flavor = papal_to_rome.2.f
+	duration = 3
+	event_image = {
+		video = "europenorthamerica_political_extremism"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	trigger = {
+	}
+	option = {
+		name = papal_to_rome.2.a
+		default_option = yes
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_wealth_voting
+		add_loyalists = {
+			strata = poor
+			value = very_large_radicals
+		}
+		add_radicals = {
+			strata = rich
+			value = small_radicals
+		}
+		trigger_event = {
+			id = papal_to_rome.3
+		}
+	}
+}
+
+papal_to_rome.3 = {
+	type = country_event
+	placement = ROOT
+	title = papal_to_rome.3.t
+	desc = papal_to_rome.3.d
+	flavor = papal_to_rome.3.f
+	duration = 3
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	trigger = {
+	}
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_armed_forces
+				exist = leader
+			}
+			leader = {
+				save_scope_as = armed_forces_leader
+			}
+		}
+	}
+	option = {
+		name = papal_to_rome.3.a
+		every_interest_group = {
+			limit = {
+				is_interest_group_type = ig_armed_forces
+			}
+			add_modifier = {
+				name = modifier_rome_one
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_rural_folk
+				}
+			}
+			add_modifier = {
+				name = modifier_rome_two
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+	}
+	option = {
+		name = papal_to_rome.3.b
+		every_interest_group = {
+			limit = {
+				is_interest_group_type = ig_armed_forces
+			}
+			add_modifier = {
+				name = modifier_rome_two
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+		scope:armed_forces_leader = {
+			set_ideology = ideology:ideology_authoritarian
+			add_modifier = restitutor_orbis
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_rural_folk
+				}
+			}
+			add_modifier = {
+				name = modifier_rome_one
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+		trigger_event = {
+			id = holy_see.2
+		}
+	}
 }
