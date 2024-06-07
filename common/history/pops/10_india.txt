@@ -201,100 +201,100 @@
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 3703877
+				size = 3555722
 			}
 			create_pop = {
 				culture = avadhi
 				religion = shiite
-				size = 34708
+				size = 33320
 			}
 			create_pop = {
 				culture = avadhi
-				size = 666339
+				size = 639686
 			}
 			create_pop = {
 				culture = avadhi
 				religion = hindu
 				pop_type = slaves
-				size = 94775
+				size = 90984
 			}
 			create_pop = {
 				culture = avadhi
 				pop_type = slaves
-				size = 35693
+				size = 34266
 			}
 			create_pop = {
 				culture = nepali
-				size = 65477
+				size = 62858
 			}
 			create_pop = {
 				culture = kanauji
-				size = 492554
+				size = 472852
 			}
 			create_pop = {
 				culture = kanauji
 				religion = sunni
-				size = 123941
+				size = 118984
 			}
 			create_pop = {
 				culture = nepali
 				pop_type = slaves
-				size = 6154
+				size = 5908
 			}
 			create_pop = {
 				culture = kanauji
 				pop_type = slaves
-				size = 19693
+				size = 18906
 			}
 		}
 		region_state:AWA = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 2314923
+				size = 2463078
 			}
 			create_pop = {
 				culture = avadhi
 				religion = shiite
-				size = 21692
+				size = 23080
 			}
 			create_pop = {
 				culture = avadhi
-				size = 416461
+				size = 443114
 			}
 			create_pop = {
 				culture = avadhi
 				religion = hindu
 				pop_type = slaves
-				size = 59233
+				size = 63024
 			}
 			create_pop = {
 				culture = avadhi
 				pop_type = slaves
-				size = 22307
+				size = 23734
 			}
 			create_pop = {
 				culture = nepali
-				size = 40923
+				size = 43542
 			}
 			create_pop = {
 				culture = kanauji
-				size = 307846
+				size = 327548
 			}
 			create_pop = {
 				culture = kanauji
 				religion = sunni
-				size = 77463
+				size = 82420
 			}
 			create_pop = {
 				culture = nepali
 				pop_type = slaves
-				size = 3846
+				size = 4092
 			}
 			create_pop = {
 				culture = kanauji
 				pop_type = slaves
-				size = 12307
+				size = 13094
 			}
 		}
 	}

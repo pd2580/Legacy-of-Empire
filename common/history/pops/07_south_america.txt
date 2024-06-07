@@ -88,16 +88,31 @@ POPS = {
 		region_state:MRK = {
 			create_pop = {
 				culture = marakh
-				size = 144392
+				size = 123335
 			}
 			create_pop = {
 				culture = afro_marakh
 				pop_type = slaves
-				size = 200000
+				size = 170834
 			}
 			create_pop = {
 				culture = amazonian
-				size = 28000
+				size = 23918
+			}
+		}
+		region_state:AMZ = {
+			create_pop = {
+				culture = marakh
+				size = 21057
+			}
+			create_pop = {
+				culture = afro_marakh
+				pop_type = slaves
+				size = 29166
+			}
+			create_pop = {
+				culture = amazonian
+				size = 4082
 			}
 		}
 	}
@@ -241,7 +256,7 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_CRUZ = {
-		region_state:UPA = {
+		region_state:GRI = {
 			create_pop = {
 				culture = south_andean
 				size = 28200
@@ -777,7 +792,7 @@ POPS = {
 		}
 	}
 	s:STATE_MATO_GROSSO = {
-		region_state:UPA = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = argente
 				size = 50000
@@ -851,55 +866,55 @@ POPS = {
 		region_state:AMZ = {
 			create_pop = {
 				culture = amazonic
-				size = 103935
+				size = 100904
 			}
 			create_pop = {
 				culture = afro_brazilian
 				pop_type = slaves
-				size = 61389
+				size = 59598
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 72507
+				size = 70392
 			}
 			create_pop = {
 				culture = amazonian
-				size = 40903
+				size = 39710
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 3405
+				size = 3306
 			}
 			create_pop = {
 				culture = burgundian
-				size = 389
+				size = 378
 			}
 		}
 		region_state:ZIO = {
 			create_pop = {
 				culture = amazonic
-				size = 7362
+				size = 10393
 			}
 			create_pop = {
 				culture = afro_brazilian
 				pop_type = slaves
-				size = 4348
+				size = 6139
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 5135
+				size = 7250
 			}
 			create_pop = {
 				culture = amazonian
-				size = 2897
+				size = 4090
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 241
+				size = 340
 			}
 			create_pop = {
 				culture = burgundian
-				size = 27
+				size = 38
 			}
 		}
 	}
@@ -1114,7 +1129,7 @@ POPS = {
 		}
 	}
 	s:STATE_MARANHAO = {
-		region_state:AMZ = {
+		region_state:BRZ = {
 			create_pop = {
 				culture = amazonic
 				size = 42595
@@ -1135,7 +1150,7 @@ POPS = {
 		}
 	}
 	s:STATE_GOIAS = {
-		region_state:UPA = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = argente
 				size = 20000
