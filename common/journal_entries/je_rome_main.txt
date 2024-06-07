@@ -1,0 +1,205 @@
+rome_je_main = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	group = je_group_historical_content
+	complete = {
+		OR = {
+			any_scope_state = {
+				state_region = s:STATE_LAZIO
+				turmoil >= 0.25
+			}
+			has_law = law_type:law_parliamentary_republic
+			has_law = law_type:law_presidential_republic
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = papal_to_rome.2
+		}
+	}
+	timeout = 1500
+	fail = {
+		any_scope_state = {
+			state_region = s:STATE_LAZIO
+			NOT = {
+				owner = c:PAP
+			}
+		}
+	}
+	on_fail = {
+		trigger_event = {
+			id = fall_papacy.1
+		}
+	}
+	on_timeout = {
+		trigger_event = {
+			id = papal_to_rome.4
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_one_church = {
+	#pope vs holy see
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	group = je_group_historical_content
+	complete = {
+		custom_tooltip = {
+			text = je_one_church_see_not_real
+			NOT = {
+				exists = c:SEE
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_DALMATIA
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = papal_to_rome.5
+		}
+	}
+	fail = {
+		NOT = {
+			has_law = law_type:law_theocracy
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_restore_emperor = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	group = je_group_historical_content
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_armed_forces
+				exist = leader
+			}
+			leader = {
+				save_scope_as = armed_forces_leader
+			}
+		}
+	}
+	complete = {
+		has_law = law_type:law_monarchy
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+		}
+		scope:armed_forces_leader = {
+			is_ruler = yes
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = papal_to_rome.6
+		}
+	}
+	fail = {
+		scope:armed_forces_leader = {
+			is_character_alive = no
+		}
+	}
+	on_fail = {
+		trigger_event = {
+			id = papal_to_rome.7
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_mare_nostrum = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	group = je_group_historical_content
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_armed_forces
+				exist = leader
+			}
+			leader = {
+				save_scope_as = armed_forces_leader
+			}
+		}
+	}
+	complete = {
+		owns_entire_state_region = STATE_LAZIO
+		owns_entire_state_region = STATE_EASTERN_THRACE
+		owns_entire_state_region = STATE_PALESTINE
+		any_scope_state = {
+			count >= 6
+			AND = {
+				region = sr:region_balkans
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 2
+			AND = {
+				region = sr:region_anatolia
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 15
+			AND = {
+				region = sr:region_italy
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 3
+			AND = {
+				region = sr:region_north_africa
+				owner = ROOT
+			}
+		}
+		has_law = law_type:law_monarchy
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+		}
+		has_technology_researched = pan-nationalism
+	}
+	on_complete = {
+		trigger_event = {
+			id = papal_to_rome.8
+		}
+	}
+	fail = {
+		scope:armed_forces_leader = {
+			is_character_alive = no
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_church_ita = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	group = je_group_historical_content
+	complete = {
+		owns_entire_state_region = STATE_LAZIO
+		owns_entire_state_region = STATE_CALABRIA
+		owns_entire_state_region = STATE_APULIA
+		owns_entire_state_region = STATE_ABRUZZO
+		owns_entire_state_region = STATE_UMBRIA
+		owns_entire_state_region = STATE_EMILIA
+		owns_entire_state_region = STATE_TUSCANY
+		owns_entire_state_region = STATE_ROMAGNA
+		owns_entire_state_region = STATE_PIEDMONT
+		owns_entire_state_region = STATE_LOMBARDY
+		owns_entire_state_region = STATE_VENETIA
+		owns_entire_state_region = STATE_EAST_SWITZERLAND
+		owns_entire_state_region = STATE_DALMATIA
+		owns_entire_state_region = STATE_SOUTH_TYROL
+		has_law = law_type:law_theocracy
+	}
+	on_complete = {
+		trigger_event = {
+			id = papal_to_rome.9
+		}
+	}
+	should_be_pinned_by_default = yes
+}
