@@ -50,3 +50,14 @@ modifier_rome_seven = {
 	interest_group_approval_add = 10
 	interest_group_pol_str_mult = 0.30
 }
+modifier_rome_eight = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_approval_add = 10
+	interest_group_pol_str_mult = 0.10
+	interest_group_pop_attraction_mult = 0.15
+}
+modifier_rome_nine = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_approval_add = 10
+	interest_group_pol_str_mult = 0.30
+}
