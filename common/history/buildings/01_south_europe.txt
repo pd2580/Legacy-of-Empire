@@ -426,7 +426,7 @@
 		}
 	}
 	s:STATE_APULIA={
-		region_state:HEL={
+		region_state:SEE={
 			create_building={
 				building="building_sugar_plantation"
 				level=2
@@ -1034,7 +1034,7 @@
 			create_building = {
 				building = "building_logging_camp"
 				level = 2
-				reserves = 
+				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
@@ -1726,7 +1726,7 @@
 		}
 	}
 	s:STATE_EASTERN_THRACE={
-		region_state:TUR={
+		region_state:IST={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -1932,7 +1932,7 @@
 		}
 	}
 	s:STATE_NORTHERN_THRACE={
-		region_state:HEL={
+		region_state:THA={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=2
@@ -2282,7 +2282,7 @@
 		}
 	}
 	s:STATE_CRETE={
-		region_state:EGY={
+		region_state:CRE={
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -2304,7 +2304,7 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS={
-		region_state:HEL={
+		region_state:AEG={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -2314,7 +2314,7 @@
 		}
 	}
 	s:STATE_EAST_AEGEAN_ISLANDS={
-		region_state:TUR={
+		region_state:AEG={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -2324,7 +2324,7 @@
 		}
 	}
 	s:STATE_THESSALIA={
-		region_state:HEL={
+		region_state:MAE={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -2392,7 +2392,7 @@
 		}
 	}
 	s:STATE_MACEDONIA={
-		region_state:HEL={
+		region_state:MAE={
 			create_building={
 				building="building_food_industry"
 				level=1
@@ -2420,7 +2420,7 @@
 		}
 	}
 	s:STATE_WESTERN_THRACE={
-		region_state:HEL={
+		region_state:IST={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -2558,7 +2558,7 @@
 		}
 	}	
 	s:STATE_PELOPONNESE={
-		region_state:HEL={
+		region_state:PEL={
 			create_building={
 				building="building_wheat_farm"
 				level=1
