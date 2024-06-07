@@ -1787,6 +1787,11 @@
  revive_the_roman_empire:0 "Revive the Roman Empire"
  revive_the_roman_empire_desc:0 "Rome will cement its place as the Dominus of the Mediterranean" 
 
+ papal_to_rome.5.t:0 "The One Pope" 
+ papal_to_rome.5.d:0 "After more than three decades, the Western Schism has finally been mended, and the Pope of Rome is to be considered the only legitimate one"
+ papal_to_rome.5.f:0 "After the schism in 1809, the catholic world plunged into chaos.\nFor years the papacy has feared to lose its authority and its lands, but now the Pope and the Clergy heave a sigh of relief, as the true Pope's legitimacy has been finally reinstated."
+ papal_to_rome.5.a:0 "Deo Gratias!"
+
  papal_to_rome.6.t:0 "The Emperorship restored"
  papal_to_rome.6.d:0 "After a long struggle, Rome is once again ruled by one Emperor, as it should always be"
  papal_to_rome.6.f:0 ""Finally we will be able to claim our lost lands!"\n"Our lost lands? Are you drunk? What will you gain from all of this? The only thing we had, our democracy, is gone, and here are people celebrating as if they were the ones who got the power"
@@ -1801,3 +1806,8 @@
  papal_to_rome.8.d:0 "At the start of the century, nobody could have imagined that a man would have restored the Roman Empire, but sometimes reality is better than immagination.\n [SCOPE.sCharacter('armed_forces_leader').GetFullName] will go down in history as one of the greatest emperors that Rome ever had."
  papal_to_rome.8.f:0 ""You have a strange accent, where are you from?"\n"I come from Aleppo sir"\n"Well, 10 years ago I'd have called you a foreigner, but today we are brothers. Come with me, I'll offer you some wine""
  papal_to_rome.8.a:0 "Long Live the Emperor"
+ 
+ papal_to_rome.9.t:0 "The Imperial Church of Italia"
+ papal_to_rome.9.d:0 "For the first time in history, an empire is ruled directly by a Pope"
+ papal_to_rome.9.f:0 "Catholic fervor has never been so high, almost every catholic of Italy feel the need travel all around the world and spread the Gospel.\nIs this the start of a new age of religious fanatism?"
+ papal_to_rome.9.a:0 "Go, and spread God's Word"
