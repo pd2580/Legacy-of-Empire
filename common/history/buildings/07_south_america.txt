@@ -269,10 +269,8 @@
 			}
 		}
 	}
-	s:STATE_PASTAZA={
-		region_state:NPU={
-		}
-		region_state:ECU={
+	s:STATE_PASTAZA = {
+		region_state:AMZ = {
 		}
 	}
 	s:STATE_TARAPACA={
@@ -1019,6 +1017,20 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
+		region_state:ZIO = {
+			create_building={
+				building="building_logging_camp"
+				level=0
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
+			}
+			create_building={
+				building="building_port"
+				level=0
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
 	}
 	s:STATE_SANTA_CATARINA = {
 		region_state:UPA = {
@@ -1468,22 +1480,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
-		}
-	}
-	s:STATE_PARA={
-		region_state:AMZ={
-			create_building={
-				building="building_logging_camp"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}			
 		}
 	}
 }

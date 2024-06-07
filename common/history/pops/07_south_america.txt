@@ -184,32 +184,18 @@ POPS = {
 		}
 	}
 	s:STATE_PASTAZA = {
-		region_state:NPU = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = amazonian
-				size = 40000
+				size = 72000
 			}
 			create_pop = {
 				culture = south_andean
-				size = 11996
+				size = 13696
 			}
 			create_pop = {
 				culture = quechua
-				size = 4004
-			}
-		}
-		region_state:ECU = {
-			create_pop = {
-				culture = amazonian
-				size = 32000
-			}
-			create_pop = {
-				culture = south_andean
-				size = 1700
-			}
-			create_pop = {
-				culture = quechua
-				size = 3200
+				size = 7204
 			}
 		}
 	}
@@ -865,28 +851,55 @@ POPS = {
 		region_state:AMZ = {
 			create_pop = {
 				culture = amazonic
-				size = 111297
+				size = 103935
 			}
 			create_pop = {
 				culture = afro_brazilian
 				pop_type = slaves
-				size = 65737
+				size = 61389
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 77642
+				size = 72507
 			}
 			create_pop = {
 				culture = amazonian
-				size = 43800
+				size = 40903
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 3646
+				size = 3405
 			}
 			create_pop = {
 				culture = burgundian
-				size = 416
+				size = 389
+			}
+		}
+		region_state:ZIO = {
+			create_pop = {
+				culture = amazonic
+				size = 7362
+			}
+			create_pop = {
+				culture = afro_brazilian
+				pop_type = slaves
+				size = 4348
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 5135
+			}
+			create_pop = {
+				culture = amazonian
+				size = 2897
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 241
+			}
+			create_pop = {
+				culture = burgundian
+				size = 27
 			}
 		}
 	}
