@@ -2,7 +2,7 @@
 
 POPS = {
 	s:STATE_ECUADOR = {
-		region_state:ECU = {
+		region_state:INC = {
 			create_pop = {
 				culture = north_andean
 				size = 332100
@@ -20,10 +20,10 @@ POPS = {
 				size = 12000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
+				pop_type = slaves
 				size = 84429
-			}		
+			}
 		}
 	}
 	s:STATE_GUAYANA = {
@@ -261,7 +261,7 @@ POPS = {
 		}
 	}
 	s:STATE_LA_PAZ = {
-		region_state:BOL = {
+		region_state:INC = {
 			create_pop = {
 				culture = south_andean
 				size = 220792
@@ -279,7 +279,7 @@ POPS = {
 				size = 47000
 			}
 			create_pop = {
-				culture = afro_caribeno	# Yungas Afro-Bolivians
+				culture = afro_caribeno
 				size = 3200
 			}
 		}

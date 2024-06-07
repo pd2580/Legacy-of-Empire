@@ -3,27 +3,53 @@
 		region_state:BGL = {
 			create_pop = {
 				culture = bihari
-				size = 9124092
+				size = 5614827
 			}
 			create_pop = {
 				culture = british
-				size = 192
+				size = 120
 			}
 			create_pop = {
 				culture = bihari
 				religion = sunni
-				size = 1210301
+				size = 744802
 			}
 			create_pop = {
 				culture = bihari
 				pop_type = slaves
-				size = 120300
+				size = 74032
 			}
 			create_pop = {
 				culture = bihari
 				religion = sunni
 				pop_type = slaves
-				size = 50091
+				size = 30827
+			}
+		}
+		region_state:BIH = {
+			create_pop = {
+				culture = bihari
+				size = 3509265
+			}
+			create_pop = {
+				culture = british
+				size = 72
+			}
+			create_pop = {
+				culture = bihari
+				religion = sunni
+				size = 465499
+			}
+			create_pop = {
+				culture = bihari
+				pop_type = slaves
+				size = 46268
+			}
+			create_pop = {
+				culture = bihari
+				religion = sunni
+				pop_type = slaves
+				size = 19264
 			}
 		}
 	}
@@ -175,50 +201,100 @@
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 6018800
+				size = 3703877
 			}
 			create_pop = {
 				culture = avadhi
 				religion = shiite
-				size = 56400
+				size = 34708
 			}
 			create_pop = {
 				culture = avadhi
-				size = 1082800
+				size = 666339
 			}
 			create_pop = {
 				culture = avadhi
 				religion = hindu
 				pop_type = slaves
-				size = 154008
+				size = 94775
 			}
 			create_pop = {
 				culture = avadhi
 				pop_type = slaves
-				size = 58000
+				size = 35693
 			}
 			create_pop = {
 				culture = nepali
-				size = 106400
+				size = 65477
 			}
 			create_pop = {
 				culture = kanauji
-				size = 800400
+				size = 492554
 			}
 			create_pop = {
 				culture = kanauji
 				religion = sunni
-				size = 201404
+				size = 123941
 			}
 			create_pop = {
 				culture = nepali
 				pop_type = slaves
-				size = 10000
+				size = 6154
 			}
 			create_pop = {
 				culture = kanauji
 				pop_type = slaves
-				size = 32000
+				size = 19693
+			}
+		}
+		region_state:AWA = {
+			create_pop = {
+				culture = avadhi
+				religion = hindu
+				size = 2314923
+			}
+			create_pop = {
+				culture = avadhi
+				religion = shiite
+				size = 21692
+			}
+			create_pop = {
+				culture = avadhi
+				size = 416461
+			}
+			create_pop = {
+				culture = avadhi
+				religion = hindu
+				pop_type = slaves
+				size = 59233
+			}
+			create_pop = {
+				culture = avadhi
+				pop_type = slaves
+				size = 22307
+			}
+			create_pop = {
+				culture = nepali
+				size = 40923
+			}
+			create_pop = {
+				culture = kanauji
+				size = 307846
+			}
+			create_pop = {
+				culture = kanauji
+				religion = sunni
+				size = 77463
+			}
+			create_pop = {
+				culture = nepali
+				pop_type = slaves
+				size = 3846
+			}
+			create_pop = {
+				culture = kanauji
+				pop_type = slaves
+				size = 12307
 			}
 		}
 	}
