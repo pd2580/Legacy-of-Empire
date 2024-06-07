@@ -142,6 +142,8 @@ papal_to_rome.2 = {
 		default_option = yes
 		activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_public_schools
 		add_loyalists = {
 			strata = poor
 			value = very_large_radicals
@@ -241,9 +243,8 @@ papal_to_rome.3 = {
 				is_interest_group_type = ig_armed_forces
 			}
 			add_modifier = {
-				name = modifier_rome_two
-				months = normal_modifier_time
-				is_decaying = yes
+				name = modifier_rome_armd
+				months = long_modifier_time
 			}
 		}
 		scope:armed_forces_leader = {
@@ -259,6 +260,16 @@ papal_to_rome.3 = {
 			}
 			add_modifier = {
 				name = modifier_rome_one
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+		every_interest_group = {
+			limit = {
+				is_interest_group_type = ig_devout
+			}
+			add_modifier = {
+				name = modifier_rome_bad
 				months = normal_modifier_time
 				is_decaying = yes
 			}
@@ -403,9 +414,14 @@ papal_to_rome.5 = {
 			add_claim = c:PAP
 		}
 	}
+	after = {
+		add_journal_entry = {
+			type = je_church_ita
+		}
+	}
 }
 
-papal_to_rome.6 = { 
+papal_to_rome.6 = { # emperorship restored
 	type = country_event
 	placement = ROOT
 	title = papal_to_rome.6.t
@@ -413,7 +429,7 @@ papal_to_rome.6 = {
 	flavor = papal_to_rome.6.f
 	duration = 3
 	event_image = {
-		video = "unspecific_ruler_unspecific_military_parade"
+		video = "unspecific_military_parade"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
@@ -459,6 +475,7 @@ papal_to_rome.6 = {
 				value = very_large_radicals
 				pop_type = academics
 			}
+			activate_law = law_type:law_private_health_insurance
 			s:STATE_UMBRIA = {
 				add_claim = c:PAP
 			}
@@ -584,7 +601,7 @@ papal_to_rome.7 = { # death of a madman
 		}
 	}
 }
-papal_to_rome.8 = { 
+papal_to_rome.8 = { # Exalthed among men
 	type = country_event
 	placement = ROOT
 	title = papal_to_rome.8.t
@@ -662,11 +679,16 @@ papal_to_rome.9 = {
 		} 
 		add_loyalists = {
 			strata = poor
-			value = very_large_radical
+			value = very_large_radicals
 		}
 		add_modifier = {
 			name = modifier_rome_nine
 			months = very_long_modifier_time
+			is_decaying = yes
+		}
+		add_modifier = {
+			name = modifier_rome_ten
+			months = long_modifier_time
 			is_decaying = yes
 		}
 	}

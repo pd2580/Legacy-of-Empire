@@ -40,7 +40,7 @@ rome_je_main = {
 
 je_one_church = {
 	#pope vs holy see
-	icon = "gfx/interface/icons/event_icons/event_tutorial_icon.dds"
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	group = je_group_historical_content
 	complete = {
 		custom_tooltip = {
@@ -193,6 +193,7 @@ je_church_ita = {
 		owns_entire_state_region = STATE_VENETIA
 		owns_entire_state_region = STATE_EAST_SWITZERLAND
 		owns_entire_state_region = STATE_DALMATIA
+		owns_entire_state_region = STATE_SOUTH_TYROL
 		has_law = law_type:law_theocracy
 	}
 	on_complete = {
