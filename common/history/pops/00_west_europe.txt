@@ -1251,7 +1251,7 @@
 		}
 	}
 	s:STATE_ELBE = {
-		region_state:AMS = {
+		region_state:HAM = {
 			create_pop = {
 				culture = dutch
 				size = 1702004
@@ -1552,7 +1552,7 @@
 		}
 	}
 	s:STATE_HANNOVER = {
-		region_state:AMS = {
+		region_state:HAM = {
 			create_pop = {
 				culture = dutch
 				size = 1219696

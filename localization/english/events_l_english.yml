@@ -57,6 +57,11 @@
  pol_reform.1.d:1 "The grand Polish Empire was built on opportune attacks, weak neighbors, and a geographical blessing. However, to esablish itself as a strong contender on the world stage, and worthy to stand as a peer to other European powers. The Empire must be able to hold it's own should the time come."
  pol_reform.1.f:0 ""We can no longer rely on our neighbors simply being weaker than us, we have to make an active effort to be stronger than them, more advanced than them, and ensure we can hold our own should anyone question Polish Sovereignty""
  pol_reform.1.a:0 "It's time for Poland to establish itself as a leading power on the world stage."
+
+ pol_reform.2.t:0 "The First Partition"
+ pol_reform.2.d:1 "Our greatest fears have come to light. Our neighbors have recognized our weakness, their troops are on our border, all communication has been cut. It's only a matter of time now..."
+ pol_reform.2.f:0 ""All we can do is muster every possible man that we can get our hands on, prepare for the worst, and pray""
+ pol_reform.2.a:0 "There's no way this ends well..."
  
  government_conflicts.1.t:0 "Breeding and Education"
  government_conflicts.1.d:1 "Disagreements between the [SCOPE.gsInterestGroup('landowners_ig').GetName] and the [SCOPE.gsInterestGroup('intelligentsia_ig').GetName] are causing conflicts in government."

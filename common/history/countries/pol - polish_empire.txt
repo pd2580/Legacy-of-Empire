@@ -5,6 +5,8 @@ COUNTRIES = {
 
 		add_modifier = {
 			name = polish_stupid
+			months = 240
+			is_decaying = yes
 		}
 
 		activate_law = law_type:law_monarchy
