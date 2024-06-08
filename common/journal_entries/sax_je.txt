@@ -1,0 +1,25 @@
+sax_je_main = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_historical_content
+	complete = {
+                                has_law = law_type:law_ethnostate
+                                has_law = law_type:law_state_religion
+                        }
+	on_complete = {
+		trigger_event = {
+			id = papal_to_rome.2
+		}
+	}
+fail = {}
+
+    on_fail = {}
+	timeout = 4000
+
+	on_timeout = {
+		trigger_event = {
+			id = by_gods_mercy.1
+		}
+	}
+    should_be_pinned_by_default = yes
+}
