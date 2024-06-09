@@ -1,0 +1,35 @@
+namespace = papal_to_rome
+# start event
+papal_to_rome.1 = {
+	type = country_event
+	placement = ROOT
+	title = papal_to_rome.1.t
+	desc = papal_to_rome.1.d
+	flavor = papal_to_rome.1.f
+	duration = 3
+	event_image = {
+		video = "southamerica_election"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	trigger = {
+	}
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_intelligentsia
+				exist = leader
+			}
+			leader = {
+				save_scope_as = intelligentsia_leader
+			}
+		}
+	}
+	limit = {
+		THIS ?= c:BOH
+	trigger_event = {
+		id = bohem.1
+	}
+}
+}

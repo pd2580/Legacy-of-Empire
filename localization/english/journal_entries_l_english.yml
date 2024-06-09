@@ -58,23 +58,34 @@
 
  rome_je_main:0 "A Dream Called Rome"
  rome_je_main_reason:0 "Republicans at the gates of Saint Peter's Basilica! The papacy clings to power as the republicans grow in strength. Whether it is redemption or oblivion that awaits her, Rome balances on a knife edge.
-"
-sax_je_main:0 "A Divine Mission"
-sax_je_main_reason:0 "If we keep the role of religion pivotal in the lives of the german people, we can make sure that our Divine Mission will be followed"
+ "
+ sax_je_main:0 "A Divine Mission"
+ sax_je_main_reason:0 "If we keep the role of religion pivotal in the lives of the german people, we can make sure that our Divine Mission will be followed"
 
-je_one_church:0 "The True Pope"
-je_one_church_reason:0 "That impostor has tarnished the legitimacy of the Pope for too long.\n The time has come to be rid of him."
-je_one_church_see_not_real:0 "The Holy See must not exist"
+ je_one_church:0 "The True Pope"
+ je_one_church_reason:0 "That impostor has tarnished the legitimacy of the Pope for too long.\n The time has come to be rid of him."
+ je_one_church_see_not_real:0 "The Holy See must not exist"
 
-je_restore_emperor:0 "Restore the Emperor"
-je_restore_emperor_reason:0 "Rome reached its peak under the guide of a strong ruler, thus is mandatory for our nation to be ruled by an Emperor if we want to really become the dominant power of the Mediterranean"
+ je_restore_emperor:0 "Restore the Emperor"
+ je_restore_emperor_reason:0 "Rome reached its peak under the guide of a strong ruler, thus is mandatory for our nation to be ruled by an Emperor if we want to really become the dominant power of the Mediterranean"
 
-je_mare_nostrum:0 "Mare Nostrum"
-je_mare_nostrum_reason:0 "Before the Emperor the general idea of the ruling class was to reclaim Italy, but for the Emperor such an insignificant feat would be an insult to the name of Rome. It's time to take back Our Sea."
+ je_mare_nostrum:0 "Mare Nostrum"
+ je_mare_nostrum_reason:0 "Before the Emperor the general idea of the ruling class was to reclaim Italy, but for the Emperor such an insignificant feat would be an insult to the name of Rome. It's time to take back Our Sea."
 
-je_church_ita:0 "Imperial Church of Italia"
-je_church_ita_reason:0 "Recent history has taught us that even if the Pope is the highest religious authority of the catholic world, we are far from safe.\nIt's time to expand our borders to make sure the papal authority will never be questioned again."
+ je_church_ita:0 "Imperial Church of Italia"
+ je_church_ita_reason:0 "Recent history has taught us that even if the Pope is the highest religious authority of the catholic world, we are far from safe.\nIt's time to expand our borders to make sure the papal authority will never be questioned again."
 
+ je_sax_main:0 "The future of our kingdom"
+ je_sax_main_reason:0 "Following the Carolingian Empire's downfall, our kingdom has been greatly diminished.\nNow a mere shadow of its legendary glory, the long-complacent government falls behind the changing currents of the industrial world.\nCan theocratic rule, having weathered more than a thousand years of storms, withstand the tide? Or will our 1500 years old kingdom fall, like so many others, into the frothing sea?"
+
+ je_gods_chosen_people:0 "God's Chosen People"
+ je_gods_chosen_people_reason:0 "asads"
+
+je_a_kingdom_for_ngp:0
+je_a_kingdom_for_ngp_reason:0
+
+je_charlemagne_legacy:0
+je_charlemagne_legacy_reason:0
 
 
  je_group_historical_content: "National Agenda"

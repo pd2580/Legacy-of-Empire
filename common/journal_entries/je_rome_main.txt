@@ -143,7 +143,7 @@ je_mare_nostrum = {
 			}
 		}
 		any_scope_state = {
-			count >= 15
+			count >= 14
 			AND = {
 				region = sr:region_italy
 				owner = ROOT
@@ -190,7 +190,6 @@ je_church_ita = {
 		owns_entire_state_region = STATE_ROMAGNA
 		owns_entire_state_region = STATE_PIEDMONT
 		owns_entire_state_region = STATE_LOMBARDY
-		owns_entire_state_region = STATE_VENETIA
 		owns_entire_state_region = STATE_EAST_SWITZERLAND
 		owns_entire_state_region = STATE_DALMATIA
 		owns_entire_state_region = STATE_SOUTH_TYROL

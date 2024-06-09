@@ -1,25 +1,52 @@
-sax_je_main = {
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-
+je_sax_main = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	complete = {
-                                has_law = law_type:law_ethnostate
-                                has_law = law_type:law_state_religion
-                        }
+		has_technology_researched = nationalism
+	}
 	on_complete = {
 		trigger_event = {
-			id = papal_to_rome.2
+			id = lotharingia.2
 		}
 	}
-fail = {}
-
-    on_fail = {}
-	timeout = 4000
-
-	on_timeout = {
+	should_be_pinned_by_default = yes
+}
+je_a_kingdom_for_ngp = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	group = je_group_historical_content
+	complete = {
+		has_law = law_type:law_agrarianism
+	}
+	on_complete = {
 		trigger_event = {
-			id = by_gods_mercy.1
+			id = lotharingia.2
 		}
 	}
-    should_be_pinned_by_default = yes
+	should_be_pinned_by_default = yes
+}
+je_charlemagne_legacy = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	group = je_group_historical_content
+	complete = {
+		has_law = law_type:law_agrarianism
+	}
+	on_complete = {
+		trigger_event = {
+			id = lotharingia.2
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+je_gods_chosen_people = {
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	group = je_group_historical_content
+	complete = {
+		has_law = law_type:law_agrarianism
+	}
+	on_complete = {
+		trigger_event = {
+			id = lotharingia.2
+		}
+	}
+	should_be_pinned_by_default = yes
 }

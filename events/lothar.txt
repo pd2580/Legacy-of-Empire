@@ -8,27 +8,278 @@ lotharingia.1 = {
 	flavor = lotharingia.1.f
 	duration = 3
 	event_image = {
-		video = "southamerica_election"
+		video = "europenorthamerica_judaism"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	trigger = {
+	}
+	immediate = {
+	random_interest_group = {
+		limit
+		{
+			is_interest_group_type = ig_devout
+			exist = leader
+		}
+		leader = {
+			save_scope_as = devout_leader
+		}
+	}
+}
+
+	option = {
+		name = lotharingia.1.a
+		scope:devout_leader = {
+			set_ideology = ideology:ideology_theocrat
+		}
+	}
+	after = {
+		add_journal_entry = {
+			type = je_sax_main
+		}
+	}
+}
+
+lotharingia.2 = {
+	type = country_event
+	placement = ROOT
+	title = lotharingia.2.t
+	desc = lotharingia.2.d
+	flavor = lotharingia.2.f
+	duration = 3
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	trigger = {
 	}
 	immediate = {
 		random_interest_group = {
 			limit
 			{
-				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_landowners
 				exist = leader
 			}
 			leader = {
-				save_scope_as = intelligentsia_leader
+				save_scope_as = landowners_leader
 			}
+		}
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_devout
+				exist = leader
+			}
+			leader = {
+				save_scope_as = devout_leader
+			}
+		}
+	}
+	option = {
+		name = lotharingia.2.a
+		scope:devout_leader = {
+			set_ideology = ideology:ideology_ethno_nationalist
+		}
+		add_loyalists = {
+			value = large_radicals
+			pop_type = clergymen
+		}
+		trigger_event = {
+			id = lotharingia.3
+		}
+	}
+	option = {
+		default_option = yes
+		name = lotharingia.2.b
+		scope:landowners_leader = {
+			set_ideology = ideology:ideology_royalist
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_intelligentsia
+			}
+		}
+			add_modifier = {
+				name = modifier_loth_one
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+			add_loyalists = {
+				value = large_radicals
+				pop_type = aristocrats
+			}
+			add_loyalists = {
+				value = large_radicals
+				pop_type = bureaucrats
+			}
+		trigger_event = {
+			id = lotharingia.4
+		}
+	}
+	option = {
+		name = lotharingia.2.c
+		add_loyalists = {
+			value = large_radicals
+			pop_type = soldiers
+		}
+		add_loyalists = {
+			value = very_large_radicals
+			pop_type = officers
+		}
+		add_loyalists = {
+			value = medium_radicals
+			pop_type = aristocrats
+		}
+		trigger_event = {
+			id = lotharingia.5
+		}
+	}
+}
+
+lotharingia.3 = {
+	#gods chosen
+	type = country_event
+	placement = ROOT
+	title = lotharingia.2.t
+	desc = lotharingia.2.d
+	flavor = lotharingia.2.f
+	duration = 3
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	trigger = {
+	}
+	option = {
+		default_option = yes
+		name = lotharingia.3.a
+	}
+	after = {
+		add_journal_entry = {
+			type = je_gods_chosen_people
+		}
+	}
+}
+
+lotharingia.4 = {
+	# to prussia
+	type = country_event
+	placement = ROOT
+	title = lotharingia.2.t
+	desc = lotharingia.2.d
+	flavor = lotharingia.2.f
+	duration = 3
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	trigger = {
+	}
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_landowners
+				exist = leader
+			}
+			leader = {
+				save_scope_as = landowners_leader
+			}
+		}
+	}
+	option = {
+		default_option = yes
+		name = lotharingia.4.a
+		s:STATE_POSEN = {
+			add_claim = c:SAX
+		}
+		s:STATE_WEST_PRUSSIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_EAST_PRUSSIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_SILESIA = {
+			add_claim = c:SAX
 		}
 	}
 	after = {
 		add_journal_entry = {
-			type = sax_je_main
+			type = je_a_kingdom_for_ngp
+		}
+	}
+}
+
+lotharingia.5 = {
+	# to carolingian
+	type = country_event
+	placement = ROOT
+	title = lotharingia.2.t
+	desc = lotharingia.2.d
+	flavor = lotharingia.2.f
+	duration = 3
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	trigger = {
+	}
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_landowners
+				exist = leader
+			}
+			leader = {
+				save_scope_as = landowners_leader
+			}
+		}
+	}
+	option = {
+		default_option = yes
+		name = lotharingia.5.a
+		s:STATE_POSEN = {
+			add_claim = c:SAX
+		}
+		s:STATE_WEST_PRUSSIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_EAST_PRUSSIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_BRUNSWICK = {
+			add_claim = c:SAX
+		}
+		s:STATE_WESTPHALIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_HESSE = {
+			add_claim = c:SAX
+		}
+		s:STATE_RUHR = {
+			add_claim = c:SAX
+		}
+		s:STATE_NORTH_RHINE = {
+			add_claim = c:SAX
+		}
+		s:STATE_RHINELAND = {
+			add_claim = c:SAX
+		}
+		s:STATE_ALSACE_LORRAINE = {
+			add_claim = c:SAX
+		}
+	}
+	after = {
+		add_journal_entry = {
+			type = je_charlemagne_legacy
 		}
 	}
 }

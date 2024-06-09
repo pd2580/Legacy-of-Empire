@@ -310,6 +310,9 @@ papal_to_rome.4 = {
 		s:STATE_DALMATIA = {
 			add_claim = c:PAP
 		}
+		s:STATE_APULIA = {
+			add_claim = c:PAP
+		}
 	}
 	after = {
 		add_journal_entry = {
