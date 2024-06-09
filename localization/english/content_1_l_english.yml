@@ -1824,10 +1824,10 @@
  lotharingia.2.b:0 "Down with the Theocracy, all hail the king of the north germans!"
  lotharingia.2.c:0 "Maybe we are destined to a much grander feat..."
 
- lotharingia.3.t:0 
- lotharingia.3.d:0 
- lotharingia.3.f:0 
- lotharingia.3.a:0 
+ lotharingia.3.t:0 "A nation wanted by God"
+ lotharingia.3.d:0 "The government has finally decided to back the idea of a nation made only for the thuringian people."
+ lotharingia.3.f:0 "The longevity of our reign has convinced the ruling class that the existence of Thuringia is not a coincidence, but an act of the will of God, and thus it's our mission to make our nation fit for God's Chosen People."
+ lotharingia.3.a:0 "By God, with God and for God"
 
  lotharingia.4.t:0 
  lotharingia.4.d:0 
@@ -1839,7 +1839,7 @@
  lotharingia.5.f:0 
  lotharingia.5.a:0 
 
- lotharingia.6.t:0 
+ lotharingia.6.t:0 "A Sacred Kingdom"
  lotharingia.6.d:0 
  lotharingia.6.f:0 
  lotharingia.6.a:0 
@@ -1858,3 +1858,7 @@
  lotharingia.9.d:0 
  lotharingia.9.f:0 
  lotharingia.9.a:0 
+ fall_theocracy.1.t:0 "The Fall of The Theocracy"
+ fall_theocracy.1.d:0 "The centuries-long theocratic government has fallen "
+ fall_theocracy.1.f:0 "The people of Thuringia has not deemed the Theocracy to be able to guarantee the future of the nation, and thus the government had to be overthrown.\nA change was needed, and a change was made, but will this be enough for the nation to survive?"
+ fall_theocracy.1.a:0 "Difficult times are ahead of us"

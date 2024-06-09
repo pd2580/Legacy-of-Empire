@@ -144,20 +144,30 @@ lotharingia.3 = {
 	#gods chosen
 	type = country_event
 	placement = ROOT
-	title = lotharingia.2.t
-	desc = lotharingia.2.d
-	flavor = lotharingia.2.f
+	title = lotharingia.3.t
+	desc = lotharingia.3.d
+	flavor = lotharingia.3.f
 	duration = 3
 	event_image = {
-		video = "unspecific_politicians_arguing"
+		video = "southamerica_christianity"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	trigger = {
 	}
 	option = {
 		default_option = yes
 		name = lotharingia.3.a
+		every_interest_group = {
+			limit = {
+				is_interest_group_type = ig_devout
+		}
+			add_modifier = {
+				name = modifier_loth_three
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
 	}
 	after = {
 		add_journal_entry = {
@@ -280,6 +290,72 @@ lotharingia.5 = {
 	after = {
 		add_journal_entry = {
 			type = je_charlemagne_legacy
+		}
+	}
+}
+fall_theocracy.1 = {
+	type = country_event
+	placement = ROOT
+	title = fall_theocracy.1.t
+	desc = fall_theocracy.1.d
+	flavor = fall_theocracy.1.f
+	duration = 3
+	event_image = {
+		video = "europenorthamerica_political_extremism"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	trigger = {
+	}
+	option = {
+		default_option = yes
+		name = fall_theocracy.1.a
+		every_interest_group = {
+			limit = {
+				is_interest_group_type = ig_devout
+		}
+			add_modifier = {
+				name = modifier_loth_two
+				months = long_modifier_time
+				is_decaying = yes
+			}
+		}
+	}
+}
+lotharingia.6 = {
+	# to anointed
+	type = country_event
+	placement = ROOT
+	title = lotharingia.6.t
+	desc = lotharingia.6.d
+	flavor = lotharingia.6.f
+	duration = 3
+	event_image = {
+		video = "middleeast_islam"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/tutorial_icon/.dds"
+	trigger = {
+	}
+	option = {
+		default_option = yes
+		name = lotharingia.4.a
+		s:STATE_POSEN = {
+			add_claim = c:SAX
+		}
+		s:STATE_WEST_PRUSSIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_EAST_PRUSSIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_SILESIA = {
+			add_claim = c:SAX
+		}
+	}
+	after = {
+		add_journal_entry = {
+			type = je_a_kingdom_for_ngp
 		}
 	}
 }
