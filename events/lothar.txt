@@ -15,18 +15,17 @@ lotharingia.1 = {
 	trigger = {
 	}
 	immediate = {
-	random_interest_group = {
-		limit
-		{
-			is_interest_group_type = ig_devout
-			exist = leader
-		}
-		leader = {
-			save_scope_as = devout_leader
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_devout
+				exist = leader
+			}
+			leader = {
+				save_scope_as = devout_leader
+			}
 		}
 	}
-}
-
 	option = {
 		name = lotharingia.1.a
 		scope:devout_leader = {
@@ -98,24 +97,24 @@ lotharingia.2 = {
 		every_interest_group = {
 			limit = {
 				OR = {
-				is_interest_group_type = ig_landowners
-				is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_landowners
+					is_interest_group_type = ig_intelligentsia
+				}
 			}
-		}
 			add_modifier = {
 				name = modifier_loth_one
 				months = normal_modifier_time
 				is_decaying = yes
 			}
 		}
-			add_loyalists = {
-				value = large_radicals
-				pop_type = aristocrats
-			}
-			add_loyalists = {
-				value = large_radicals
-				pop_type = bureaucrats
-			}
+		add_loyalists = {
+			value = large_radicals
+			pop_type = aristocrats
+		}
+		add_loyalists = {
+			value = large_radicals
+			pop_type = bureaucrats
+		}
 		trigger_event = {
 			id = lotharingia.4
 		}
@@ -161,7 +160,7 @@ lotharingia.3 = {
 		every_interest_group = {
 			limit = {
 				is_interest_group_type = ig_devout
-		}
+			}
 			add_modifier = {
 				name = modifier_loth_three
 				months = normal_modifier_time
@@ -293,6 +292,7 @@ lotharingia.5 = {
 		}
 	}
 }
+
 fall_theocracy.1 = {
 	type = country_event
 	placement = ROOT
@@ -313,7 +313,7 @@ fall_theocracy.1 = {
 		every_interest_group = {
 			limit = {
 				is_interest_group_type = ig_devout
-		}
+			}
 			add_modifier = {
 				name = modifier_loth_two
 				months = long_modifier_time
@@ -322,6 +322,7 @@ fall_theocracy.1 = {
 		}
 	}
 }
+
 lotharingia.6 = {
 	# to anointed
 	type = country_event
@@ -334,28 +335,94 @@ lotharingia.6 = {
 		video = "middleeast_islam"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	icon = "gfx/interface/icons/tutorial_icon/.dds"
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	trigger = {
 	}
 	option = {
 		default_option = yes
-		name = lotharingia.4.a
-		s:STATE_POSEN = {
+		name = lotharingia.6.a
+		s:STATE_SCHLESWIG_HOLSTEIN = {
 			add_claim = c:SAX
 		}
-		s:STATE_WEST_PRUSSIA = {
+		s:STATE_ELBE = {
 			add_claim = c:SAX
 		}
-		s:STATE_EAST_PRUSSIA = {
+		s:STATE_HANNOVER = {
 			add_claim = c:SAX
 		}
-		s:STATE_SILESIA = {
+		s:STATE_BRUNSWICK = {
+			add_claim = c:SAX
+		}
+		s:STATE_WESTPHALIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_HESSE = {
+			add_claim = c:SAX
+		}
+		s:STATE_WURTTEMBERG = {
+			add_claim = c:SAX
+		}
+		s:STATE_BADEN = {
+			add_claim = c:SAX
+		}
+		s:STATE_FRANCONIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_BAVARIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_TYROL = {
+			add_claim = c:SAX
+		}
+		s:STATE_AUSTRIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_SLOVENIA = {
 			add_claim = c:SAX
 		}
 	}
 	after = {
 		add_journal_entry = {
-			type = je_a_kingdom_for_ngp
+			type = 	je_our_land
 		}
 	}
+}
+lotharingia.7 = { 
+	type = country_event
+	placement = ROOT
+	title = lotharingia.7.t
+	desc = lotharingia.7.d
+	flavor = lotharingia.7.f
+	duration = 3
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	trigger = {
+	}
+	option = {
+		name = lotharingia.7.a
+		default_option = yes
+			
+		add_loyalists = {
+			value = very_large_radicals
+			pop_type = clergymen
+		} 
+		add_loyalists = {
+			strata = poor
+			value = very_large_radicals
+		}
+		add_modifier = {
+			name = modifier_loth_four
+		}
+		add_modifier = {
+			name = modifier_loth_five
+		}
+	}
+	after = {
+		add_journal_entry = {
+			type = 	je_a_divine_mission
+		}
+}
 }

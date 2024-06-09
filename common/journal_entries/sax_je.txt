@@ -11,6 +11,7 @@ je_sax_main = {
 	}
 	should_be_pinned_by_default = yes
 }
+
 je_a_kingdom_for_ngp = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
@@ -24,6 +25,7 @@ je_a_kingdom_for_ngp = {
 	}
 	should_be_pinned_by_default = yes
 }
+
 je_charlemagne_legacy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	group = je_group_historical_content
@@ -37,6 +39,7 @@ je_charlemagne_legacy = {
 	}
 	should_be_pinned_by_default = yes
 }
+
 je_gods_chosen_people = {
 	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	group = je_group_historical_content
@@ -59,6 +62,55 @@ je_gods_chosen_people = {
 		trigger_event = {
 			id = fall_theocracy.1
 		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_our_land = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	group = je_group_historical_content
+	complete = {
+		owns_entire_state_region = STATE_SCHLESWIG_HOLSTEIN
+		owns_entire_state_region = STATE_MECKLENBURG
+		owns_entire_state_region = STATE_ELBE
+		owns_entire_state_region = STATE_HANNOVER
+		owns_entire_state_region = STATE_ANHALT
+		owns_entire_state_region = STATE_BRUNSWICK
+		owns_entire_state_region = STATE_WESTPHALIA
+		owns_entire_state_region = STATE_SAXONY
+		owns_entire_state_region = STATE_HESSE
+		owns_entire_state_region = STATE_FRANCONIA
+		owns_entire_state_region = STATE_BADEN
+		owns_entire_state_region = STATE_WURTTEMBERG
+		owns_entire_state_region = STATE_BAVARIA
+		owns_entire_state_region = STATE_TYROL
+		owns_entire_state_region = STATE_AUSTRIA
+		owns_entire_state_region = STATE_SLOVENIA
+		has_law = law_type:law_theocracy
+	}
+	on_complete = {
+		trigger_event = {
+			id = lotharingia.7
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_a_divine_mission = {
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	group = je_group_historical_content
+	fail = {
+		NOT = {
+			or = {
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_state_religion
+				has_law = law_type:law_ethnostate
+			}
+		}
+	}
+	on_fail = {
+		remove_modifier = modifier_loth_four
+		remove_modifier = modifier_loth_five
 	}
 	should_be_pinned_by_default = yes
 }

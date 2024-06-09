@@ -57,10 +57,7 @@
  notification_je_make_schools_secular_fail_tooltip:0 "You have failed to switch to a secular education law."
 
  rome_je_main:0 "A Dream Called Rome"
- rome_je_main_reason:0 "Republicans at the gates of Saint Peter's Basilica! The papacy clings to power as the republicans grow in strength. Whether it is redemption or oblivion that awaits her, Rome balances on a knife edge.
- "
- sax_je_main:0 "A Divine Mission"
- sax_je_main_reason:0 "If we keep the role of religion pivotal in the lives of the german people, we can make sure that our Divine Mission will be followed"
+ rome_je_main_reason:0 "Republicans at the gates of Saint Peter's Basilica! The papacy clings to power as the republicans grow in strength. Whether it is redemption or oblivion that awaits her, Rome balances on a knife edge."
 
  je_one_church:0 "The True Pope"
  je_one_church_reason:0 "That impostor has tarnished the legitimacy of the Pope for too long.\n The time has come to be rid of him."
@@ -81,11 +78,19 @@
  je_gods_chosen_people:0 "God's Chosen People"
  je_gods_chosen_people_reason:0 "Now that the government and the clergy have understood the true meaning of our Mission, it's time to lay the first stone."
 
-je_a_kingdom_for_ngp:0
-je_a_kingdom_for_ngp_reason:0
+ je_our_land:0 "The Anointed Kingdom of West Frankia"
+ je_our_land_reason:0 "We cannot become a Sacred Kingdom if we don't first take back the lands that God has originally given to our People."
 
-je_charlemagne_legacy:0
-je_charlemagne_legacy_reason:0
+ je_a_divine_mission:0 "A Divine Mission"
+ je_a_divine_mission_reason:0 "Now that we have reclaimed our sacred lands, we must keep the role of religion pivotal in the lives of God's Chosen People, so that we can make sure that our Divine Mission will be followed."
+
+ je_a_kingdom_for_ngp:0
+ je_a_kingdom_for_ngp_reason:0
+
+ je_charlemagne_legacy:0
+ je_charlemagne_legacy_reason:0
+
+
 
 
  je_group_historical_content: "National Agenda"

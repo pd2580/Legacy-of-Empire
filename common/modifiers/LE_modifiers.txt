@@ -1,76 +1,76 @@
 modifier_rome_positive = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	interest_group_approval_add = 2
-	interest_group_pol_str_mult = 0.10
+	interest_group_pol_str_mult = 0.1
 }
 modifier_rome_negative = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
 	interest_group_approval_add = -2
-	interest_group_pol_str_mult = -0.10
+	interest_group_pol_str_mult = -0.1
 }
 modifier_rome_one = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	interest_group_approval_add = -5
-	interest_group_pol_str_mult = -0.20
+	interest_group_pol_str_mult = -0.2
 }
 modifier_rome_two = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	interest_group_approval_add = 2
-	interest_group_pol_str_mult = 0.10
-	interest_group_pop_attraction_mult = 0.10
+	interest_group_pol_str_mult = 0.1
+	interest_group_pop_attraction_mult = 0.1
 }
 modifier_rome_three = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
 	interest_group_approval_add = 2
-	interest_group_pol_str_mult = 0.10
+	interest_group_pol_str_mult = 0.1
 }
 modifier_rome_armd = {
 		icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-		interest_group_approval_add = 10
-		interest_group_pol_str_mult = 0.50
+		interest_group_approval_add = 1
+		interest_group_pol_str_mult = 0.5
 		interest_group_pop_attraction_mult = 1
 }
 modifier_rome_bad = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
 	interest_group_approval_add = -5
-	interest_group_pol_str_mult = -0.50
+	interest_group_pol_str_mult = -0.5
 	interest_group_pop_attraction_mult = -1.5
 }
 modifier_restitutor_orbis = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 character_health_add = 1
-		character_popularity_add = 50
+		character_popularity_add = 5
 }
 modifier_clergy_decline = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	interest_group_pol_str_mult = -0.50
-	interest_group_pop_attraction_mult = -0.50
+	interest_group_pol_str_mult = -0.5
+	interest_group_pop_attraction_mult = -0.5
 }
 modifier_rome_four = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	interest_group_approval_add = 10
-	interest_group_pol_str_mult = 0.10
-	interest_group_pop_attraction_mult = 0.10
+	interest_group_pol_str_mult = 0.1
+	interest_group_pop_attraction_mult = 0.1
 }
 modifier_rome_five = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
 	interest_group_approval_add = -5
-	interest_group_pol_str_mult = -0.10
+	interest_group_pol_str_mult = -0.1
 }
 modifier_rome_six = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	interest_group_approval_add = 2
-	interest_group_pol_str_mult = 0.10
+	interest_group_pol_str_mult = 0.1
 }
 modifier_rome_seven = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	interest_group_approval_add = 10
-	interest_group_pol_str_mult = 0.30
+	interest_group_approval_add = 1
+	interest_group_pol_str_mult = 0.3
 }
 modifier_rome_eight = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
 	interest_group_approval_add = 10
-	interest_group_pol_str_mult = 0.10
+	interest_group_pol_str_mult = 0.1
 	interest_group_pop_attraction_mult = 0.15
 }
 modifier_rome_nine = {
@@ -79,22 +79,30 @@ modifier_rome_nine = {
 }
 modifier_rome_ten = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	state_accepted_birth_rate_mult = 0.10
+	state_accepted_birth_rate_mult = 0.15
 }
 modifier_loth_one = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 	interest_group_approval_add = 15
-	interest_group_pol_str_mult = 0.30
+	interest_group_pol_str_mult = 0.3
 }
 modifier_loth_two = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
 	interest_group_approval_add = -10
-	interest_group_pol_str_mult = -0.50
-	interest_group_pop_attraction_mult = -0.50
+	interest_group_pol_str_mult = -0.5
+	interest_group_pop_attraction_mult = -0.5
 }
 modifier_loth_three = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	interest_group_approval_add = 2
-	interest_group_pol_str_mult = 0.20
-	interest_group_pop_attraction_mult = 0.10
+	interest_group_pol_str_mult = 0.2
+	interest_group_pop_attraction_mult = 0.1
+}
+modifier_loth_four = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_conversion_mult = 0.5
+}
+modifier_loth_five = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	state_accepted_birth_rate_mult = 0.1
 }

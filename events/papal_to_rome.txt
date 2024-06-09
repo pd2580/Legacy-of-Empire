@@ -678,7 +678,7 @@ papal_to_rome.9 = {
 			
 		add_loyalists = {
 			value = very_large_radicals
-			pop_type = clergy
+			pop_type = clergymen
 		} 
 		add_loyalists = {
 			strata = poor
