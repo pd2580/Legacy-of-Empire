@@ -757,7 +757,7 @@
 		region_state:AQU = {
 			create_pop = {
 				culture = occitan
-				size = 3893584
+				size = 2893584
 			}
 			create_pop = {
 				culture = burgundian
@@ -925,7 +925,7 @@
 		region_state:AQR = {
 			create_pop = {
 				culture = occitan
-				size = 3963916
+				size = 2463916
 			}
 			create_pop = {
 				culture = occitan
@@ -1207,7 +1207,7 @@
 		region_state:BAV = {
 			create_pop = {
 				culture = south_german
-				size = 429286
+				size = 729286
 			}
 			# Voralberg. Arbitrarily pinning this at 23% of the total population of Voralburg + Tyrol + Salzburg
 			create_pop = {
@@ -1598,7 +1598,7 @@
 		region_state:BAV = {
 			create_pop = {
 				culture = south_german
-				size = 1682000
+				size = 2382000
 			}
 			create_pop = {
 				culture = south_german
@@ -1615,7 +1615,7 @@
 		region_state:BAV = {
 			create_pop = {
 				culture = south_german
-				size = 1051792
+				size = 1951792
 			}
 			create_pop = {
 				culture = ashkenazi
