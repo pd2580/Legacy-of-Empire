@@ -1834,10 +1834,10 @@
  lotharingia.4.f:0 
  lotharingia.4.a:0 
 
- lotharingia.5.t:0 
- lotharingia.5.d:0 
- lotharingia.5.f:0 
- lotharingia.5.a:0 
+ lotharingia.5.t:0 "Charlemagne's Heir"
+ lotharingia.5.d:0 "Centuries of humiliations for our country have left the people of Thuringia disillusioned and angry against the current government"
+ lotharingia.5.f:0 "The Theocracy has managed to keep our country alive for more than a millennia, but what is the point of surviving that long it that means being constantly humiliated by our neighbors?\nMany dream of a distant glorious past, and the growing discontent is making [SCOPE.sCharacter('armed_forces_leader').GetFullName], a man who proclaims to be the descendant of Charlemagne, increasingly popular."
+ lotharingia.5.a:0 "What the future holds for us?"
 
  lotharingia.6.t:0 "A Sacred Kingdom"
  lotharingia.6.d:0 "The fundations for a sacred kingdom have been laid, so the time has come to build it."
@@ -1849,16 +1849,16 @@
  lotharingia.7.f:0 "Now that our people live in the lands that God has originally made for us, it's time for the Chosen People to furfill the Divine Mission God gave us and populate those lands under His name."
  lotharingia.7.a:0 "Eternal Glory to God!"
 
- lotharingia.8.t:0 
- lotharingia.8.d:0 
- lotharingia.8.f:0 
- lotharingia.8.a:0 
+ lotharingia.8.t:0 "Charlemagne's Successor"
+ lotharingia.8.d:0 "A column of Thuringian soldiers parades through the streets of Frankfurt for the first time in centuries"
+ lotharingia.8.f:0 "After centuries of humiliations, Thuringia is finally back in the place she deverves.\nPeople in the streets of the capital chant the name of the man who made all of this possible, but in this moment of glory [SCOPE.sCharacter('armed_forces_leader').GetFullName] refuses to be crowned as the Emperor of Thuringia, as he make a proclamation:\n"This is but a small feat for our glorious nation, and thus I cannot accept the title of emperor as of now; my coronation will happen in Rome, as per my ancestor, Charlemagne!""
+ lotharingia.8.a:0 "Long live [SCOPE.sCharacter('armed_forces_leader').GetFullName]"
 
- lotharingia.9.t:0 
+ lotharingia.9.t:0 "The Coronation of [SCOPE.sCharacter('armed_forces_leader').GetFullName]"
  lotharingia.9.d:0 
  lotharingia.9.f:0 
  lotharingia.9.a:0 
  fall_theocracy.1.t:0 "The Fall of The Theocracy"
  fall_theocracy.1.d:0 "The centuries-long theocratic government has fallen "
- fall_theocracy.1.f:0 "The people of Thuringia has not deemed the Theocracy to be able to guarantee the future of the nation, and thus the government had to be overthrown.\nA change was needed, and a change was made, but will this be enough for the nation to survive?"
+ fall_theocracy.1.f:0 "The people of Thuringia has not deemed the Theocracy to be able to guarantee the future of the nation, and thus the government had to be overthrown.\nA change was needed, and a change was made, but will this be enough for the nation to survive?
  fall_theocracy.1.a:0 "Difficult times are ahead of us"

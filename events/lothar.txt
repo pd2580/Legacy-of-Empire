@@ -229,32 +229,65 @@ lotharingia.5 = {
 	# to carolingian
 	type = country_event
 	placement = ROOT
-	title = lotharingia.2.t
-	desc = lotharingia.2.d
-	flavor = lotharingia.2.f
+	title = lotharingia.5.t
+	desc = lotharingia.5.d
+	flavor = lotharingia.5.f
 	duration = 3
 	event_image = {
-		video = "unspecific_politicians_arguing"
+		video = "unspecific_ruler_speaking_to_people"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
 	trigger = {
 	}
 	immediate = {
 		random_interest_group = {
 			limit
 			{
-				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_armed_forces
 				exist = leader
 			}
 			leader = {
-				save_scope_as = landowners_leader
+				save_scope_as = armed_forces_leader
 			}
 		}
 	}
 	option = {
 		default_option = yes
 		name = lotharingia.5.a
+		scope:armed_forces_leader = {
+			set_ideology = ideology:ideology_authoritarian
+			add_modifier = modifier_charles
+		}
+		every_interest_group = {
+			limit = {
+				is_interest_group_type = ig_armed_forces
+			}
+			add_modifier = {
+				name = modifier_loth_six
+				months = long_modifier_time
+			}
+		}
+		every_interest_group = {
+			limit = {
+				is_interest_group_type = ig_devout
+			}
+			add_modifier = {
+				name = modifier_loth_seven
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+		every_interest_group = {
+			limit = {
+				is_interest_group_type = ig_landowners
+			}
+			add_modifier = {
+				name = modifier_loth_eight
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
 		s:STATE_POSEN = {
 			add_claim = c:SAX
 		}
@@ -383,11 +416,12 @@ lotharingia.6 = {
 	}
 	after = {
 		add_journal_entry = {
-			type = 	je_our_land
+			type = je_our_land
 		}
 	}
 }
-lotharingia.7 = { 
+
+lotharingia.7 = { #anointed
 	type = country_event
 	placement = ROOT
 	title = lotharingia.7.t
@@ -404,11 +438,10 @@ lotharingia.7 = {
 	option = {
 		name = lotharingia.7.a
 		default_option = yes
-			
 		add_loyalists = {
 			value = very_large_radicals
 			pop_type = clergymen
-		} 
+		}
 		add_loyalists = {
 			strata = poor
 			value = very_large_radicals
@@ -422,7 +455,249 @@ lotharingia.7 = {
 	}
 	after = {
 		add_journal_entry = {
-			type = 	je_a_divine_mission
+			type = je_a_divine_mission
 		}
+	}
 }
+
+lotharingia.8 = {
+	# to carolingian empire
+	type = country_event
+	placement = ROOT
+	title = lotharingia.8.t
+	desc = lotharingia.8.d
+	flavor = lotharingia.8.f
+	duration = 3
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	trigger = {
+	}
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_armed_forces
+				exist = leader
+			}
+			leader = {
+				save_scope_as = armed_forces_leader
+			}
+		}
+	}
+	option = {
+		default_option = yes
+		name = lotharingia.8.a
+		every_interest_group = {
+			limit = {
+				is_interest_group_type = ig_armed_forces
+			}
+			add_modifier = {
+				name = modifier_loth_nine
+				months = long_modifier_time
+			}
+			add_loyalists = {
+				strata = middle
+				value = very_large_radicals
+			}
+			add_loyalists = {
+				strata = poor
+				value = large_radicals
+			}
+			add_radicals = {
+				value = medium_radicals
+				pop_type = clergymen
+			}
+		}
+		s:STATE_POSEN = {
+			add_claim = c:SAX
+		}
+		s:STATE_WEST_PRUSSIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_EAST_PRUSSIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_BRUNSWICK = {
+			add_claim = c:SAX
+		}
+		s:STATE_WESTPHALIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_HESSE = {
+			add_claim = c:SAX
+		}
+		s:STATE_RUHR = {
+			add_claim = c:SAX
+		}
+		s:STATE_NORTH_RHINE = {
+			add_claim = c:SAX
+		}
+		s:STATE_RHINELAND = {
+			add_claim = c:SAX
+		}
+		s:STATE_ALSACE_LORRAINE = {
+			add_claim = c:SAX
+		}
+		s:STATE_ISTRIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_SLOVENIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_SOUTH_TYROL ={
+			add_claim = c:SAX
+		}
+		s:STATE_VENETIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_LOMBARDY = {
+			add_claim = c:SAX
+		}
+		s:STATE_PIEDMONT = {
+			add_claim = c:SAX
+		}
+		s:STATE_ROMAGNA = {
+			add_claim = c:SAX
+		}
+		s:STATE_EMILIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_UMBRIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_ABRUZZO = {
+			add_claim = c:SAX
+		}
+		s:STATE_LAZIO = {
+			add_claim = c:SAX
+		}
+		s:STATE_TUSCANY = {
+			add_claim = c:SAX
+		}
+		s:STATE_WEST_SWITZERLAND = {
+			add_claim = c:SAX
+		}
+		s:STATE_EAST_SWITZERLAND = {
+			add_claim = c:SAX
+		}
+		s:STATE_FRANCONIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_WURTTEMBERG = {
+			add_claim = c:SAX
+		}
+		s:STATE_BADEN = {
+			add_claim = c:SAX
+		}
+		s:STATE_BAVARIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_TYROL = {
+			add_claim = c:SAX
+		}
+		s:STATE_AUSTRIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_STYRIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_SCHLESWIG_HOLSTEIN = {
+			add_claim = c:SAX
+		}
+		s:STATE_ELBE = {
+			add_claim = c:SAX
+		}
+		s:STATE_HANNOVER = {
+			add_claim = c:SAX
+		}
+		s:STATE_FRIESLAND = {
+			add_claim = c:SAX
+		}
+		s:STATE_GELRE = {
+			add_claim = c:SAX
+		}
+		s:STATE_HOLLAND = {
+			add_claim = c:SAX
+		}
+		s:STATE_FLANDERS = {
+			add_claim = c:SAX
+		}
+		s:STATE_WALLONIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_FRENCH_LOW_COUNTRIES = {
+			add_claim = c:SAX
+		}
+		s:STATE_LORRAINE = {
+			add_claim = c:SAX
+		}
+		s:STATE_FRANCHE_COMTE = {
+			add_claim = c:SAX
+		}
+		s:STATE_SAVOY = {
+			add_claim = c:SAX
+		}
+		s:STATE_CHAMPAGNE = {
+			add_claim = c:SAX
+		}
+		s:STATE_PICARDY = {
+			add_claim = c:SAX
+		}
+		s:STATE_NORMANDY = {
+			add_claim = c:SAX
+		}
+		s:STATE_ILE_DE_FRANCE = {
+			add_claim = c:SAX
+		}
+		s:STATE_BURGUNDY = {
+			add_claim = c:SAX
+		}
+		s:STATE_RHONE = {
+			add_claim = c:SAX
+		}
+		s:STATE_PROVENCE = {
+			add_claim = c:SAX
+		}
+		s:STATE_ORLEANS = {
+			add_claim = c:SAX
+		}
+		s:STATE_BRITTANY = {
+			add_claim = c:SAX
+		}
+		s:STATE_MAINE_ANJOU = {
+			add_claim = c:SAX
+		}
+		s:STATE_POITOU = {
+			add_claim = c:SAX
+		}
+		s:STATE_AUVERGNE_LIMOUSIN = {
+			add_claim = c:SAX
+		}
+		s:STATE_LANGUEDOC = {
+			add_claim = c:SAX
+		}
+		s:STATE_GUYENNE = {
+			add_claim = c:SAX
+		}
+		s:STATE_AQUITAINE = {
+			add_claim = c:SAX
+		}
+		s:STATE_CATALONIA = {
+			add_claim = c:SAX
+		}
+		s:STATE_ARAGON = {
+			add_claim = c:SAX
+		}
+		s:STATE_NAVARRA = {
+			add_claim = c:SAX
+		}
+	}
+	after = {
+		add_journal_entry = {
+			type = je_restore_the_ce
+		}
+	}
 }

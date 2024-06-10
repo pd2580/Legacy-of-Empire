@@ -29,12 +29,41 @@ je_a_kingdom_for_ngp = {
 je_charlemagne_legacy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	group = je_group_historical_content
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_armed_forces
+				exist = leader
+			}
+			leader = {
+				save_scope_as = armed_forces_leader
+			}
+		}
+	}
 	complete = {
-		has_law = law_type:law_agrarianism
+		has_law = law_type:law_monarchy
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+		}
+		owns_entire_state_region = STATE_POSEN
+		owns_entire_state_region = STATE_WEST_PRUSSIA
+		owns_entire_state_region = STATE_EAST_PRUSSIA
+		owns_entire_state_region = STATE_BRUNSWICK
+		owns_entire_state_region = STATE_WESTPHALIA
+		owns_entire_state_region = STATE_HESSE
+		owns_entire_state_region = STATE_RUHR
+		owns_entire_state_region = STATE_NORTH_RHINE
+		owns_entire_state_region = STATE_RHINELAND
+		owns_entire_state_region = STATE_ALSACE_LORRAINE
+		scope:armed_forces_leader = {
+			is_ruler = yes
+		}
 	}
 	on_complete = {
 		trigger_event = {
-			id = lotharingia.2
+			id = lotharingia.8
 		}
 	}
 	should_be_pinned_by_default = yes
@@ -101,7 +130,7 @@ je_a_divine_mission = {
 	group = je_group_historical_content
 	fail = {
 		NOT = {
-			or = {
+			AND = {
 				has_law = law_type:law_theocracy
 				has_law = law_type:law_state_religion
 				has_law = law_type:law_ethnostate
@@ -111,6 +140,87 @@ je_a_divine_mission = {
 	on_fail = {
 		remove_modifier = modifier_loth_four
 		remove_modifier = modifier_loth_five
+	}
+	should_be_pinned_by_default = yes
+}
+je_restore_the_ce = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	group = je_group_historical_content
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_armed_forces
+				exist = leader
+			}
+			leader = {
+				save_scope_as = armed_forces_leader
+			}
+		}
+	}
+	complete = {
+		owns_entire_state_region = STATE_LAZIO
+		owns_entire_state_region = STATE_ILE_DE_FRANCE
+		owns_entire_state_region = STATE_HESSE
+		owns_entire_state_region = STATE_BAVARIA
+		any_scope_state = {
+			count >= 8
+			AND = {
+				region = sr:region_north_germany
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 9
+			AND = {
+				region = sr:region_south_germany
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 6
+			AND = {
+				region = sr:region_rhine
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 10
+			AND = {
+				region = sr:region_france
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 9
+			AND = {
+				region = sr:region_italy
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 6
+			AND = {
+				region = sr:region_occitania
+				owner = ROOT
+			}
+		}
+		has_law = law_type:law_monarchy
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+		}
+		has_technology_researched = pan-nationalism
+	}
+	on_complete = {
+		trigger_event = {
+			id = lotharingia.10
+		}
+	}
+	fail = {
+		scope:armed_forces_leader = {
+			is_character_alive = no
+		}
 	}
 	should_be_pinned_by_default = yes
 }

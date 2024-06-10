@@ -38,8 +38,8 @@ modifier_rome_bad = {
 }
 modifier_restitutor_orbis = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-character_health_add = 1
-		character_popularity_add = 5
+		character_health_add = 1
+		character_popularity_add = 50
 }
 modifier_clergy_decline = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
@@ -105,4 +105,33 @@ modifier_loth_four = {
 modifier_loth_five = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
 	state_accepted_birth_rate_mult = 0.1
+}
+modifier_charles = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_health_add = 1
+	character_popularity_add = 50
+}
+modifier_loth_six = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	interest_group_approval_add = 5
+	interest_group_pol_str_mult = 1
+	interest_group_pop_attraction_mult = 0.3
+}
+modifier_loth_seven = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	interest_group_approval_add = -5
+	interest_group_pol_str_mult = -0.5
+	interest_group_pop_attraction_mult = -0.1
+}
+modifier_loth_eight = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -1
+	interest_group_pol_str_mult = -0.75
+	interest_group_pop_attraction_mult = -0.1
+}
+modifier_loth_nine = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_approval_add = 10
+	interest_group_pol_str_mult = 0.5
+	interest_group_pop_attraction_mult = 0.2
 }
