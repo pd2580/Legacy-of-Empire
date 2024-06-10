@@ -701,3 +701,52 @@ lotharingia.8 = {
 		}
 	}
 }
+lotharingia.9 = { 
+	type = country_event
+	placement = ROOT
+	title = lotharingia.9.t
+	desc = lotharingia.9.d
+	flavor = lotharingia.9.f
+	duration = 3
+	event_image = {
+		texture = "gfx/event_pictures/Coronation.dds"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	trigger = {
+	}
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_armed_forces
+				exist = leader
+			}
+			leader = {
+				save_scope_as = armed_forces_leader
+			}
+		}
+	}
+	option = {
+		name = lotharingia.9.a
+		default_option = yes
+		add_loyalists = {
+			value = very_large_radicals
+			pop_type = soldiers
+		} 
+		add_loyalists = {
+			strata = poor
+			value = very_large_radicals
+
+	}
+	add_primary_culture = cu:south_german
+	add_primary_culture = cu:north_roman
+	add_primary_culture = cu:rhenish
+	add_primary_culture = cu:burgundian
+	add_primary_culture = cu:french
+	add_primary_culture = cu:francoprovencal
+	add_primary_culture = cu:breton
+	add_primary_culture = cu:occitan
+	add_primary_culture = cu:north_roman
+}
+}

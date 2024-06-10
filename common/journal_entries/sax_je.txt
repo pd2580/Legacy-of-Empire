@@ -143,6 +143,7 @@ je_a_divine_mission = {
 	}
 	should_be_pinned_by_default = yes
 }
+
 je_restore_the_ce = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	group = je_group_historical_content
@@ -159,6 +160,12 @@ je_restore_the_ce = {
 		}
 	}
 	complete = {
+		has_law = law_type:law_monarchy
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+		}
+		has_technology_researched = pan-nationalism
 		owns_entire_state_region = STATE_LAZIO
 		owns_entire_state_region = STATE_ILE_DE_FRANCE
 		owns_entire_state_region = STATE_HESSE
@@ -205,16 +212,10 @@ je_restore_the_ce = {
 				owner = ROOT
 			}
 		}
-		has_law = law_type:law_monarchy
-		OR = {
-			has_law = law_type:law_autocracy
-			has_law = law_type:law_oligarchy
-		}
-		has_technology_researched = pan-nationalism
 	}
 	on_complete = {
 		trigger_event = {
-			id = lotharingia.10
+			id = lotharingia.9
 		}
 	}
 	fail = {

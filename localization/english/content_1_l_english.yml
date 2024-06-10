@@ -1854,11 +1854,32 @@
  lotharingia.8.f:0 "After centuries of humiliations, Thuringia is finally back in the place she deverves.\nPeople in the streets of the capital chant the name of the man who made all of this possible, but in this moment of glory [SCOPE.sCharacter('armed_forces_leader').GetFullName] refuses to be crowned as the Emperor of Thuringia, as he make a proclamation:\n"This is but a small feat for our glorious nation, and thus I cannot accept the title of emperor as of now; my coronation will happen in Rome, as per my ancestor, Charlemagne!""
  lotharingia.8.a:0 "Long live [SCOPE.sCharacter('armed_forces_leader').GetFullName]"
 
- lotharingia.9.t:0 "The Coronation of [SCOPE.sCharacter('armed_forces_leader').GetFullName]"
- lotharingia.9.d:0 
- lotharingia.9.f:0 
- lotharingia.9.a:0 
+ lotharingia.9.t:0 "The Coronation of The Emperor"
+ lotharingia.9.d:0 "Today is a day that will go down in all the history books of the world."
+ lotharingia.9.f:0 "After giving a short speech to the crowd massed outside Saint Peter's Basilica, [SCOPE.sCharacter('armed_forces_leader').GetFullName] entered the Basilica and the coronation ceremony started.\n"Will you defend the holy faith?" "I will"\n"Will you defend the Protestant Church?" "I will"\n"Will you defend the Empire?" "I will"\n"Will you maintain the laws of the Empire?" "I will"\n"Will you maintain justice?" "I will"\n"Bless, Lord, this Emperor, let these hands be anointed, as kings and prophets were anointed and as Samuel anointed David to be king may you be blessed and established king in this kingdom over this people, whom the Lord, your God, has given you to rule and govern, which he vouchsafes to grant, who with the Father and the Holy Spirit, lives and reigns;\nI, as the archbishop of Rome and Vicar of Christ, consecrate you as the Emperor of all Franks."
+ lotharingia.9.a:0 "All Hail the Emperor!"
+
  fall_theocracy.1.t:0 "The Fall of The Theocracy"
  fall_theocracy.1.d:0 "The centuries-long theocratic government has fallen "
  fall_theocracy.1.f:0 "The people of Thuringia has not deemed the Theocracy to be able to guarantee the future of the nation, and thus the government had to be overthrown.\nA change was needed, and a change was made, but will this be enough for the nation to survive?
  fall_theocracy.1.a:0 "Difficult times are ahead of us"
+
+ lotharingia.4.t:0 
+ lotharingia.4.d:0 
+ lotharingia.4.f:0 
+ lotharingia.4.a:0 
+
+ lotharingia.4.t:0 
+ lotharingia.4.d:0 
+ lotharingia.4.f:0 
+ lotharingia.4.a:0 
+
+ lotharingia.4.t:0 
+ lotharingia.4.d:0 
+ lotharingia.4.f:0 
+ lotharingia.4.a:0 
+
+ lotharingia.4.t:0 
+ lotharingia.4.d:0 
+ lotharingia.4.f:0 
+ lotharingia.4.a:0 
