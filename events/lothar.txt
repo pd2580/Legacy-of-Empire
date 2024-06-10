@@ -755,6 +755,7 @@ lotharingia.9 = {
 		add_primary_culture = cu:breton
 		add_primary_culture = cu:occitan
 		add_primary_culture = cu:north_roman
+		add_primary_culture = cu:dutch
 	}
 }
 
