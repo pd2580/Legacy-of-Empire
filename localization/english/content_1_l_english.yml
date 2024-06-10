@@ -1829,10 +1829,10 @@
  lotharingia.3.f:0 "The longevity of our reign has convinced the ruling class that the existence of Thuringia is not a coincidence, but an act of the will of God, and thus it's our mission to make our nation fit for God's Chosen People."
  lotharingia.3.a:0 "By God, with God and for God"
 
- lotharingia.4.t:0 
- lotharingia.4.d:0 
- lotharingia.4.f:0 
- lotharingia.4.a:0 
+ lotharingia.4.t:0 "A Kingdom for the North German People"
+ lotharingia.4.d:0 "People have lost their trust in the current government, and a faction under the lead of [SCOPE.sCharacter('landowners_leader').GetFullName] is gaining more and more popularity."
+ lotharingia.4.f:0 ""It is now the time to end our misery, and become a kingdom that will be respected in all of Europe! It is the time to found the kingdom of the north germans, Prussia!""
+ lotharingia.4.a:0 "To Prussia!"
 
  lotharingia.5.t:0 "Charlemagne's Heir"
  lotharingia.5.d:0 "Centuries of humiliations for our country have left the people of Thuringia disillusioned and angry against the current government"
@@ -1864,22 +1864,28 @@
  fall_theocracy.1.f:0 "The people of Thuringia has not deemed the Theocracy to be able to guarantee the future of the nation, and thus the government had to be overthrown.\nA change was needed, and a change was made, but will this be enough for the nation to survive?
  fall_theocracy.1.a:0 "Difficult times are ahead of us"
 
- lotharingia.4.t:0 
- lotharingia.4.d:0 
- lotharingia.4.f:0 
- lotharingia.4.a:0 
+ lotharingia.10.t:0 "The Birth of The Kingdom of Prussia"
+ lotharingia.10.d:0 "Today a kingdom made by and for north german people has been proclaimed."
+ lotharingia.10.f:0 "After the coronation ceremony of [SCOPE.sCharacter('landowners_leader').GetFullName] held in Berlin, the new king made a speech to the crowd massed outside the new government palace:\n"My loyal subjects, this is but the start of a glorious future for our Kingdom; I, as the new king, solemny promise that I will defend and protect this Kingdom till my death!"
+ lotharingia.10.a:0 "All hail the King"
 
- lotharingia.4.t:0 
- lotharingia.4.d:0 
- lotharingia.4.f:0 
- lotharingia.4.a:0 
+ lotharingia.11.t:0 "The Proclamation of the Republic"
+ lotharingia.11.d:0 "The Republican Revolution has won, Long live the Republic!"
+ lotharingia.11.f:0 "After 5 days of fierce combats, the republican revolutionaries have finally managed to fully occupy the capital; with the fall of the Theocracy, a new age of democracy begins in the Republic of Prussia."
+ lotharingia.11.a:0 "Long Live the Republic!"
 
- lotharingia.4.t:0 
- lotharingia.4.d:0 
- lotharingia.4.f:0 
- lotharingia.4.a:0 
+ lotharingia.12.t:0 "The Next Step"
+ lotharingia.12.d:0 "Now that the Theocracy is but a distant memory, the time has come to choose the path our nation will take."
+ lotharingia.12.f:0 "Two major faction are currently monopolizing the political scene, one pushing for a unified Germany, while the other pushing for a more pragmatic idea, a federation made by all north german people.\nWhich one will be able to gain more popular support?"
+ lotharingia.12.a:0 "Unifying with those lazy southeners will be more of a burden than a gain, to the North German Federation!"
+ lotharingia.12.b:0 "It's time to unify all german people under one flag!"
 
- lotharingia.4.t:0 
- lotharingia.4.d:0 
- lotharingia.4.f:0 
- lotharingia.4.a:0 
+ lotharingia.13.t:0 "The Frankfurt's Agreement"
+ lotharingia.13.d:0 "After two days of negotiations, the prussian government has finally reached an agreement with the rhenish nobility."
+ lotharingia.13.f:0 ""For a second I thought they were not gonna sign."\n"Me too, me too, but it seems like that all the concessions we gave them managed to shake their firmness; those concessions are gonna hurt us for some time, but what matters at the end is that we all live inside the same nation now.\nLong live the North German Federation!""
+ lotharingia.13.a:0 "Long Live The North German Federation!"
+
+ lotharingia.14.t:0 "The Munich's Agreement"
+ lotharingia.14.d:0 "The prussian government has managed to reach an agreement with the nobility of all Germany."
+ lotharingia.14.f:0 "Many decribed this agreement as a visible miracle, and indeed it is.\nThe negotiations lasted 3 weeks, and as the time passed, the hope for a unified germany dwindled, but the prussian government was greatly determined to reach an agreement, and so they did.\nHuge concessions were given to the nobility of Bavaria, Rhineland, Baden and Württemberg, concessions that will create many problems to the german govenment in the years to come, but at last Germany was made."
+ lotharingia.14.a:0 "Long Live the German Confederation"

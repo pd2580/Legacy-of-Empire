@@ -72,7 +72,7 @@
  je_church_ita:0 "Imperial Church of Italia"
  je_church_ita_reason:0 "Recent history has taught us that even if the Pope is the highest religious authority of the catholic world, we are far from safe.\nIt's time to expand our borders to make sure the papal authority will never be questioned again."
 
- je_sax_main:0 "The future of our kingdom"
+ je_sax_main:0 "The Future of our Kingdom"
  je_sax_main_reason:0 "Following the Carolingian Empire's downfall, our kingdom has been greatly diminished.\nNow a mere shadow of its legendary glory, the long-complacent government falls behind the changing currents of the industrial world.\nCan theocratic rule, having weathered more than a thousand years of storms, withstand the tide? Or will our 1500 years old kingdom fall, like so many others, into the frothing sea?"
 
  je_gods_chosen_people:0 "God's Chosen People"
@@ -84,8 +84,8 @@
  je_a_divine_mission:0 "A Divine Mission"
  je_a_divine_mission_reason:0 "Now that we have reclaimed our sacred lands, we must keep the role of religion pivotal in the lives of God's Chosen People, so that we can make sure that our Divine Mission will be followed."
 
- je_a_kingdom_for_ngp:0
- je_a_kingdom_for_ngp_reason:0
+ je_a_kingdom_for_ngp:0 "A Kingdom for the North Germans"
+ je_a_kingdom_for_ngp_reason:0 "In order to become the Kingdom of Prussia, we must first reclaim all its de jure lands.\nDiscontent is groving in the capital, so if we don't want the republicans to rise to power before us, we must keep the turmoil in Dresden as low as possible."
 
  je_charlemagne_legacy:0 "Charlemagne`s Legacy"
  je_charlemagne_legacy_reason:0 "Restoring the Carolingian Empire has been a dream for many people, and if we want to achieve this dream we will need to get rid of the Theocracy, and expand our borders quickly to show our People that this is not an impossible feat."
@@ -93,6 +93,11 @@
  je_restore_the_ce:0 "Restore the Carolingian Empire"
  je_restore_the_ce_reason:0 "With the return of Thuringia to the international stage, and the military stronger than it has ever been, the refoundation of the Carolingian empire could become a reality if we keep staying in the right hands."
 
+ je_ngf:0 "The North German Federation"
+ je_ngf_reason:0 "We can form the federation either through diplomacy or war.\nA war may be needed against Amsterdam, but there might be another solution for Rhineland;\nif they accept to become our subject and we keep good relations with them, we will be able to annex their lands peacefully."
+
+ je_german_conf:0 "A Country for all the Germans"
+ je_german_conf_reason:0 "We can form Germany either through diplomacy or war.\nA war may be needed against Amsterdam, but there might be another solution for Bavaria and Rhineland;\nif they accept to become our subject and we keep good relations with them, we will be able to annex their lands peacefully."
 
 
  je_group_historical_content: "National Agenda"

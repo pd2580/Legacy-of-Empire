@@ -16,12 +16,40 @@ je_a_kingdom_for_ngp = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	complete = {
-		has_law = law_type:law_agrarianism
+		has_law = law_type:law_monarchy
+		owns_entire_state_region = STATE_MECKLENBURG
+		owns_entire_state_region = STATE_POMERANIA
+		owns_entire_state_region = STATE_BRANDENBURG
+		owns_entire_state_region = STATE_ANHALT
+		owns_entire_state_region = STATE_SAXONY
+		owns_entire_state_region = STATE_SILESIA
+		owns_entire_state_region = STATE_POSEN
+		owns_entire_state_region = STATE_EAST_PRUSSIA
+		owns_entire_state_region = STATE_WEST_PRUSSIA
 	}
 	on_complete = {
 		trigger_event = {
-			id = lotharingia.2
+			id = lotharingia.10
 		}
+		change_tag = PRU
+	}
+	fail = {
+		OR = {
+			any_scope_state = {
+				state_region = s:STATE_SAXONY
+				turmoil >= 0.2
+			}
+			has_law = law_type:law_parliamentary_republic
+			has_law = law_type:law_presidential_republic
+		}
+	}
+	on_fail = {
+		trigger_event = {
+			id = lotharingia.11
+		}
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_census_voting
+		change_tag = PRU
 	}
 	should_be_pinned_by_default = yes
 }
@@ -221,6 +249,109 @@ je_restore_the_ce = {
 	fail = {
 		scope:armed_forces_leader = {
 			is_character_alive = no
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_ngf = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	group = je_group_historical_content
+	complete = {
+		owns_entire_state_region = STATE_SCHLESWIG_HOLSTEIN
+		owns_entire_state_region = STATE_ELBE
+		owns_entire_state_region = STATE_HANNOVER
+		OR = {
+			AND = {
+				owns_entire_state_region = STATE_WESTPHALIA
+				owns_entire_state_region = STATE_BRUNSWICK
+				owns_entire_state_region = STATE_HESSE
+				owns_entire_state_region = STATE_RUHR
+				owns_entire_state_region = STATE_RHINELAND
+				owns_entire_state_region = STATE_NORTH_RHINE
+			}
+			c:RHI = {
+				is_subject_of = ROOT
+				relations:ROOT > relations_threshold:cordial
+			}
+		}
+	}
+	on_complete = {
+		if = {
+			limit = {
+				c:RHI = {
+					is_subject_of = ROOT
+				}
+			}
+			annex = c:RHI
+		}
+		change_tag = NGF
+		trigger_event = {
+			id = lotharingia.13
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_german_conf = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	group = je_group_historical_content
+	complete = {
+		any_scope_state = {
+			count >= 9
+			AND = {
+				region = sr:region_north_germany
+				owner = ROOT
+			}
+		}
+		owns_entire_state_region = STATE_BADEN
+		owns_entire_state_region = STATE_WURTTEMBERG
+		OR = {
+			AND = {
+				owns_entire_state_region = STATE_WESTPHALIA
+				owns_entire_state_region = STATE_BRUNSWICK
+				owns_entire_state_region = STATE_HESSE
+				owns_entire_state_region = STATE_RUHR
+				owns_entire_state_region = STATE_RHINELAND
+				owns_entire_state_region = STATE_NORTH_RHINE
+			}
+			c:RHI = {
+				is_subject_of = ROOT
+				relations:ROOT > relations_threshold:cordial
+			}
+		}
+		OR = {
+			AND = {
+				owns_entire_state_region = STATE_FRANCONIA
+				owns_entire_state_region = STATE_BAVARIA
+				owns_entire_state_region = STATE_TYROL
+			}
+			c:BAV = {
+				is_subject_of = ROOT
+				relations:ROOT > relations_threshold:cordial
+			}
+		}
+	}
+	on_complete = {
+		if = {
+			limit = {
+				c:RHI = {
+					is_subject_of = ROOT
+				}
+			}
+			annex = c:RHI
+		}
+		if = {
+			limit = {
+				c:BAV = {
+					is_subject_of = ROOT
+				}
+			}
+			annex = c:BAV
+		}
+		change_tag = GER
+		trigger_event = {
+			id = lotharingia.14
 		}
 	}
 	should_be_pinned_by_default = yes

@@ -135,3 +135,36 @@ modifier_loth_nine = {
 	interest_group_pol_str_mult = 0.5
 	interest_group_pop_attraction_mult = 0.2
 }
+modifier_loth_ten = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	interest_group_approval_add = 5
+	interest_group_pol_str_mult = 0.3
+}
+modifier_loth_eleven = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -5
+	interest_group_pol_str_mult = -0.5
+}
+modifier_loth_twelwe = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_bureaucracy_mult = -0.1
+	state_tax_capacity_mult = -0.1
+	country_expenses_add = 1000
+	state_conscription_rate_mult = -0.1
+}
+modifier_loth_thirteen = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_authority_mult = -0.15
+	country_expenses_add = 1000
+	state_conscription_rate_mult = -0.1
+}
+modifier_loth_fourteen = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	state_tax_capacity_mult = -0.15
+	country_expenses_add = 5000
+}
+modifier_loth_fifteen = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	state_construction_mult = -0.1
+	state_conscription_rate_mult = -0.1
+}

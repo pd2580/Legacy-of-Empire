@@ -5,7 +5,7 @@ rome_je_main = {
 		OR = {
 			any_scope_state = {
 				state_region = s:STATE_LAZIO
-				turmoil >= 0.25
+				turmoil >= 0.20
 			}
 			has_law = law_type:law_parliamentary_republic
 			has_law = law_type:law_presidential_republic
@@ -26,6 +26,8 @@ rome_je_main = {
 		}
 	}
 	on_fail = {
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_wealth_voting
 		trigger_event = {
 			id = fall_papacy.1
 		}
