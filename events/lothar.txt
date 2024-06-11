@@ -326,7 +326,7 @@ lotharingia.5 = {
 	}
 }
 
-fall_theocracy.1 = {
+fall_theo.1 = {
 	type = country_event
 	placement = ROOT
 	title = fall_theocracy.1.t

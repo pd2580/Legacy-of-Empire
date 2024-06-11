@@ -1,11 +1,11 @@
-namespace = papal_to_rome
+namespace = bohem_x_bavaria
 # start event
-papal_to_rome.1 = {
+le_bohem.1 = {
 	type = country_event
 	placement = ROOT
-	title = papal_to_rome.1.t
-	desc = papal_to_rome.1.d
-	flavor = papal_to_rome.1.f
+	title = le_bohem.1.t
+	desc = le_bohem.1.d
+	flavor = le_bohem.1.f
 	duration = 3
 	event_image = {
 		video = "southamerica_election"
@@ -26,10 +26,49 @@ papal_to_rome.1 = {
 			}
 		}
 	}
-	limit = {
-		THIS ?= c:BOH
-	trigger_event = {
-		id = bohem.1
+	option = {
+		name = le_bohem.1.a
+		scope:devout_leader = {
+			set_ideology = ideology:ideology_theocrat
+		}
+		hidden_effect = {
+			trigger_event = { id = dvg_austria.3 days = 400 }
+		} 
 	}
 }
+le_bavaria.1 = {
+	type = country_event
+	placement = ROOT
+	title = le_bavaria.1.t
+	desc = le_bavaria.1.d
+	flavor = le_bavaria.1.f
+	duration = 3
+	event_image = {
+		video = "southamerica_election"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	trigger = {
+	}
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_intelligentsia
+				exist = leader
+			}
+			leader = {
+				save_scope_as = intelligentsia_leader
+			}
+		}
+	}
+	option = {
+		name = le_bavaria.1.a
+		scope:devout_leader = {
+			set_ideology = ideology:ideology_theocrat
+		}
+		hidden_effect = {
+			trigger_event = { id = dvg_austria.3 days = 400 }
+		} 
+	}
 }
