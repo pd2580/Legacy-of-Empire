@@ -18,10 +18,9 @@ rome_je_main = {
 	}
 	timeout = 1500
 	fail = {
-		any_scope_state = {
+		NOT = {
+			any_scope_state = {
 			state_region = s:STATE_LAZIO
-			NOT = {
-				owner = c:PAP
 			}
 		}
 	}

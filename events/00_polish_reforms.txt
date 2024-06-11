@@ -49,3 +49,35 @@ pol_reform.1 = {
 		}
 	}
 }
+
+pol_reform.2 = {
+	type = country_event
+	placement = root
+	title = pol_reform.2.t
+	desc = pol_reform.2.d
+	flavor = pol_reform.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "europenorthamerica_before_the_battle"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		add_journal_entry = {
+			type = je_pol_first_partition
+		}
+	}
+
+	option = {
+		name = pol_reform.2.a
+		
+	}
+}

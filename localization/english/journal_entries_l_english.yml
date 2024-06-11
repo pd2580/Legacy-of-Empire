@@ -33,7 +33,9 @@
  je_pol_reform_education_reason:0 "To ensure our people are more capable than our enemies, we must to secure a site for higher learning. Our society should be taught by the best to be the best."
 
  je_polish_reforms_eco:0 "Polish Reforms: Urbanization"
+ je_polish_reforms_eco_status:0 "$concept_gdp_short$ increased by (#variable @money![JournalEntry.GetGoalProgressValue|K] / @money![JournalEntry.GetGoalAddValue|K]#!)"
  je_polish_reforms_eco_desc:0 "If we are to prove to the world that we're a force to be reckoned with, we'll first need to secure our economy."
+ je_polish_reforms_eco_goal:3 "Have a $concept_gdp_short$ of @money![JournalEntry.GetTotalGoalValue|K]#!"
  je_polish_reforms_eco_tooltip:0 "If we are to prove to the world that we're a force to be reckoned with, we'll first need to secure our economy."
  je_polish_reforms_eco_reason:0 "If we are to prove to the world that we're a force to be reckoned with, we'll first need to secure our economy."
 
