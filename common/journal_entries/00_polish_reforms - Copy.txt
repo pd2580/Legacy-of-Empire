@@ -19,7 +19,7 @@ je_polish_reforms_main = {
 
 	on_timeout = {
 		trigger_event = {
-			id = 
+			id = pol_reform.2
 		}
 	}
 
@@ -43,16 +43,15 @@ je_polish_reforms_eco = {
 	group = je_group_historical_content
 
 	complete = {
-		in_default = no
-		any_scope_state = {
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_urban_center
-				level >= 3
-				occupancy >= 0.9
-			}
-			percent >= 0.75
-		}
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+	
+	current_value = {
+		value = gdp
+	}
+	goal_add_value = {
+		value = gdp
+		multiply = 0.35
 	}
 
 	on_complete = {
@@ -98,6 +97,7 @@ je_pol_reform_education = {
 			name = pol_reform_var
 			add = 1
 		}
+		remove_modifier = polish_stupid
 	}
 
 	invalid = {
@@ -207,6 +207,36 @@ je_pol_reform_bureaucracy = {
 			100 = 0
 			10 = tanzimat_events.9 # Land registration resisted
 		}
+	}
+
+	invalid = {
+		custom_tooltip = {
+			text = finished_pol_reform_tt
+			has_variable = pol_reform_complete
+		}
+	}
+
+	transferable = no
+
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+je_pol_first_partition = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+	complete = {
+		
+	}
+
+	on_complete = {
+		
+	}
+
+	on_monthly_pulse = {
+
 	}
 
 	invalid = {

@@ -3588,7 +3588,7 @@
 		}
 	}
 	s:STATE_ELBE={
-		region_state:AMS={
+		region_state:HAM={
             create_building={
 				building="building_logging_camp"
 				level=2
@@ -4282,7 +4282,7 @@
 		}
 	}
 	s:STATE_HANNOVER={
-		region_state:AMS={
+		region_state:HAM={
 			create_building={
 				building="building_government_administration"
 				level=5

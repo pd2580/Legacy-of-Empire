@@ -63,6 +63,10 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
+			country = c:HAM
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:CTC
 			type = dominion
 		}

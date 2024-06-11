@@ -9,6 +9,17 @@
 	capital = STATE_MOSCOW
 }
 
+BIH = {
+	color = { 183  62  62 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { bihari }
+	capital = STATE_BIHAR
+}
+
 SMO = {
 	color = { 120 227 195 }
 
