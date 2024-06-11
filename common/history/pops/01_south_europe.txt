@@ -177,7 +177,7 @@
 		}
 	}
 	s:STATE_VENETIA = {
-		region_state:PAD = {
+		region_state:VEN = {
 			create_pop = {
 				culture = north_roman
 				size = 1855196
@@ -714,7 +714,7 @@
 		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:TRE = {
+		region_state:VEN = {
 			create_pop = {
 				culture = north_roman
 				size = 197800
