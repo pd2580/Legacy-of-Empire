@@ -8,7 +8,7 @@
 		add_taxed_goods = g:liquor
 		add_taxed_goods = g:wine
 		
-		effect_starting_technology_tier_1_tech = yes
+		effect_starting_technology_tier_3_tech = yes
 		
 		effect_starting_politics_liberal = yes
 		

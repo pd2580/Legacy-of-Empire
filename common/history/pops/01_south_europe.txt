@@ -513,7 +513,7 @@
 		region_state:ALB = {
 			create_pop = {
 				culture = albanian
-				size = 1004808
+				size = 704808
 			}
 			create_pop = {
 				culture = greek
@@ -523,6 +523,25 @@
 				culture = albanian
 				religion = catholic
 				size = 127200
+			}
+			create_pop = {
+				culture = albanian
+				religion = orthodox
+				size = 91200
+			}
+		region_state:SHK = {
+			create_pop = {
+				culture = albanian
+				size = 315434
+			}
+			create_pop = {
+				culture = greek
+				size = 3000
+			}
+			create_pop = {
+				culture = albanian
+				religion = catholic
+				size = 54360
 			}
 			create_pop = {
 				culture = albanian

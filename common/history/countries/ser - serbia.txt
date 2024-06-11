@@ -1,6 +1,8 @@
 ﻿COUNTRIES = {
 	c:SER = {
 		effect_starting_technology_tier_3_tech = yes
+
+		add_technology_researched = napoleonic_warfare
 		
 		effect_starting_politics_traditional = yes
 	}

@@ -1,6 +1,6 @@
 COUNTRIES = {
 	c:BRI = {
-		effect_starting_technology_tier_1_tech = yes
+		effect_starting_technology_tier_3_tech = yes
 
 		set_tax_level = medium
 		
