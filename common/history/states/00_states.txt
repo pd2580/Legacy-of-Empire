@@ -210,7 +210,7 @@ STATES = {
 	}
 	s:STATE_VENETIA = {
 		create_state = {
-			country = c:PAD
+			country = c:VEN
 			owned_provinces = { xB001A0 x3083C8 x3080A0 x8EEB7A xB080A0 x5141E0 x605424 x6984B4 x554866 xC02A3F }
 		}
 		
@@ -6476,7 +6476,7 @@ STATES = {
 	}
 	s:STATE_ISTRIA = {
 		create_state = {
-			country = c:TRE
+			country = c:VEN
 			owned_provinces = { x108021 x3060BF x56C78A xB061C0 x36B2E3 xF0A040 }
 		}
 		
@@ -6734,7 +6734,11 @@ STATES = {
 	s:STATE_PIEDMONT = {
 		create_state = {
 			country = c:PAD
-			owned_provinces = { xD080E0 xAA6958 xDA86EA xA9397D x90C060 x1140E0 xF00544 xACB500 x11C061 x904061 x54728A x5F6BAA }
+			owned_provinces = { xD080E0 xAA6958 xDA86EA xA9397D x90C060 x1140E0 xF00544 xACB500 x11C061 x54728A x5F6BAA }
+		}
+		create_state = {
+			country = c:PAP
+			owned_provinces = { x904061 }
 		}
 		
 		add_homeland = cu:north_roman
