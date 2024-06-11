@@ -38,7 +38,7 @@ modifier_rome_bad = {
 }
 modifier_restitutor_orbis = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-		character_health_add = 1
+		character_health_add = 1.5
 		character_popularity_add = 50
 }
 modifier_clergy_decline = {
@@ -108,7 +108,7 @@ modifier_loth_five = {
 }
 modifier_charles = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	character_health_add = 1
+	character_health_add = 1.5
 	character_popularity_add = 50
 }
 modifier_loth_six = {

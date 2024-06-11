@@ -1,0 +1,119 @@
+﻿revive_the_roman_empire = {
+	is_shown = {
+		exists = c:PAP
+		this = c:PAP
+	}
+
+	possible = {
+		owns_entire_state_region = STATE_LAZIO
+		owns_entire_state_region = STATE_EASTERN_THRACE
+		owns_entire_state_region = STATE_PALESTINE
+		any_scope_state = {
+			count >= 6
+			AND = {
+				region = sr:region_balkans
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 2
+			AND = {
+				region = sr:region_anatolia
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 15
+			AND = {
+				region = sr:region_italy
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 3
+			AND = {
+				region = sr:region_north_africa
+				owner = ROOT
+			}
+		}
+		has_law = law_type:law_monarchy
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+		}
+		has_technology_researched = pan-nationalism
+	}
+	when_taken = {
+		add_primary_culture = cu:greek
+		add_primary_culture = cu:albanian
+		add_primary_culture = cu:serb
+		add_primary_culture = cu:bulgarian
+		add_primary_culture = cu:croat
+	}
+}
+revive_the_carolingian_empire = {
+	is_shown = {
+		exists = c:SAX
+		this = c:SAX
+	}
+	possible = {
+		has_law = law_type:law_monarchy
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+		}
+		has_technology_researched = pan-nationalism
+		owns_entire_state_region = STATE_LAZIO
+		owns_entire_state_region = STATE_ILE_DE_FRANCE
+		owns_entire_state_region = STATE_HESSE
+		owns_entire_state_region = STATE_BAVARIA
+		any_scope_state = {
+			count >= 8
+			AND = {
+				region = sr:region_north_germany
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 9
+			AND = {
+				region = sr:region_south_germany
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 6
+			AND = {
+				region = sr:region_rhine
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 10
+			AND = {
+				region = sr:region_france
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 9
+			AND = {
+				region = sr:region_italy
+				owner = ROOT
+			}
+		}
+		any_scope_state = {
+			count >= 6
+			AND = {
+				region = sr:region_occitania
+				owner = ROOT
+			}
+		}
+	}
+	when_taken = {
+		change_tag = CAE
+		add_primary_culture = cu:rhenish
+		add_primary_culture = cu:south_german
+		add_primary_culture = cu:french
+	}
+}

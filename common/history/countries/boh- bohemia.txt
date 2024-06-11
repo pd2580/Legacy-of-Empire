@@ -28,5 +28,8 @@ COUNTRIES = {
 		ig:ig_industrialists = {
 			add_ruling_interest_group = yes
 		}
+		trigger_event = {
+			id = le_bohem.1
+		}
 	}
 }

@@ -94,6 +94,22 @@ je_charlemagne_legacy = {
 			id = lotharingia.8
 		}
 	}
+	fail = {
+		OR = {
+			any_scope_state = {
+				state_region = s:STATE_SAXONY
+				turmoil >= 0.2
+			}
+		scope:armed_forces_leader = {
+			is_character_alive = no
+		}
+	}
+}
+	on_fail = {
+		trigger_event = {
+			id = lotharingia.11
+		}
+	}
 	should_be_pinned_by_default = yes
 }
 
