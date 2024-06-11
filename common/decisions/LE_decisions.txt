@@ -111,7 +111,7 @@ revive_the_carolingian_empire = {
 		}
 	}
 	when_taken = {
-		change_tag = CAE
+		change_tag = HRE
 		add_primary_culture = cu:rhenish
 		add_primary_culture = cu:south_german
 		add_primary_culture = cu:french

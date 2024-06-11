@@ -47,9 +47,6 @@ je_a_kingdom_for_ngp = {
 		trigger_event = {
 			id = lotharingia.11
 		}
-		activate_law = law_type:law_parliamentary_republic
-		activate_law = law_type:law_census_voting
-		change_tag = PRU
 	}
 	should_be_pinned_by_default = yes
 }
@@ -258,6 +255,7 @@ je_restore_the_ce = {
 		}
 	}
 	on_complete = {
+		change_tag = HRE
 		trigger_event = {
 			id = lotharingia.9
 		}
