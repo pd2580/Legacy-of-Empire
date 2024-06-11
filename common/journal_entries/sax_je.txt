@@ -130,7 +130,7 @@ je_gods_chosen_people = {
 	}
 	on_fail = {
 		trigger_event = {
-			id = fall_theocracy.1
+			id = fall_theo.1
 		}
 	}
 	should_be_pinned_by_default = yes
