@@ -5,7 +5,7 @@ rome_je_main = {
 		OR = {
 			any_scope_state = {
 				state_region = s:STATE_LAZIO
-				turmoil >= 0.25
+				turmoil >= 0.20
 			}
 			has_law = law_type:law_parliamentary_republic
 			has_law = law_type:law_presidential_republic
@@ -25,6 +25,8 @@ rome_je_main = {
 		}
 	}
 	on_fail = {
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_wealth_voting
 		trigger_event = {
 			id = fall_papacy.1
 		}
@@ -142,7 +144,7 @@ je_mare_nostrum = {
 			}
 		}
 		any_scope_state = {
-			count >= 15
+			count >= 14
 			AND = {
 				region = sr:region_italy
 				owner = ROOT
@@ -189,7 +191,6 @@ je_church_ita = {
 		owns_entire_state_region = STATE_ROMAGNA
 		owns_entire_state_region = STATE_PIEDMONT
 		owns_entire_state_region = STATE_LOMBARDY
-		owns_entire_state_region = STATE_VENETIA
 		owns_entire_state_region = STATE_EAST_SWITZERLAND
 		owns_entire_state_region = STATE_DALMATIA
 		owns_entire_state_region = STATE_SOUTH_TYROL
