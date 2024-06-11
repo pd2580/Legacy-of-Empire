@@ -1,0 +1,110 @@
+namespace = le_bavaria
+le_bavaria.1 = {
+	type = country_event
+	placement = ROOT
+	title = le_bavaria.1.t
+	desc = le_bavaria.1.d
+	flavor = le_bavaria.1.f
+	duration = 1
+	event_image = {
+		video = "europenorthamerica_art_gallery"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	trigger = {
+	}
+	option = {
+		name = le_bavaria.1.a
+		hidden_effect = {
+			trigger_event = {
+				id = le_bavaria.2
+				days = 70
+			}
+		}
+	}
+}
+
+le_bavaria.2 = {
+	type = country_event
+	placement = ROOT
+	title = le_bavaria.2.t
+	desc = le_bavaria.2.d
+	flavor = le_bavaria.2.f
+	duration = 1
+	event_image = {
+		texture = "gfx/event_pictures/funeral.dds"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	trigger = {
+	}
+	immediate = {
+		ruler = {
+			kill_character = yes
+		}
+	}
+	option = {
+		name = le_bavaria.2.a
+	}
+}
+
+le_bavaria.3 = {
+	type = country_event
+	placement = ROOT
+	title = le_bohem.1.t
+	desc = le_bohem.1.d
+	flavor = le_bohem.1.f
+	duration = 1
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	trigger = {
+	}
+	option = {
+		name = dvg_austria.11.a
+		default_option = yes
+		create_diplomatic_play = {
+			allow_negotiated_peace = no
+			target_country = c:WUR
+			war = yes
+			type = dp_annex_subject
+			add_war_goal = {
+				holder = c:BAD
+				type = independence
+				target_country = c:BAV
+			}
+			add_war_goal = {
+				holder = c:WUR
+				type = independence
+				target_country = c:BAV
+			}
+			add_war_goal = {
+				holder = c:AUS
+				type = independence
+				target_country = c:BAV
+			}
+			add_war_goal = {
+				holder = c:AUS
+				type = conquer_state
+				target_state = s:STATE_AUSTRIA.region_state:BAV
+			}
+			add_war_goal = {
+				holder = c:BAV
+				type = annex_country
+				target_country = c:BAD
+			}
+			add_war_goal = {
+				holder = c:BAV
+				type = make_puppet
+				target_country = c:AUS
+			}
+		}
+		on_war_end = {
+			trigger_event = {
+				id = papal_to_rome.8
+			}
+		}
+	}
+}

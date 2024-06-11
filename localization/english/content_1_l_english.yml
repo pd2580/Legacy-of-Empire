@@ -1892,3 +1892,53 @@
 
  revive_the_carolingian_empire:0 "Revive the Carolingian Empire"
  revive_the_carolingian_empire_desc:0 "An impossible feat for some, a dream for others, restoring the Carolingian Empire has never been an easy task for anybody from the start.\nWill there ever be a man capable to achieve such a grandiose feat?"
+
+ le_bavaria.1.t:0 "The Solitude of a King"
+ le_bavaria.1.d:0 "The von Bayern dynasty became the ruling dynasty of Bavaria 82 years ago, when Luitpold von Bayern overthrew the old king Michal Albert Mansfeld."
+ le_bavaria.1.f:0 "When Ludwig I, Luitpold's son and heir, came into power, there were already signs of dissatisfaction in the bavarian nobility; his father ruled as an absolute monarch, and greatly reduced the power of the nobility.\nIsolated by the nobility, and grown up in a difficult environment, King Ludwig became slowly more and more reclusive, leaving the matters of the state to his regent.\nEver since his wife's death in march 1834, the king has refused to leave the Royal Palace, and rumors say that his mental and physical state is precarious.\nTaking advantage of this situation, the high nobility has become the de facto ruler of the kingdom, and the presumed near death of the king could strike the spark of an aristocratic uprising."
+ le_bavaria.1.a:0 "Dark times are ahead of us"
+
+ le_bavaria.2.t:0 "The Death Of The King"
+ le_bavaria.2.d:0 "King Ludwig I is dead."
+ le_bavaria.2.f:0 "Today, the furneral of king Ludwig has taken place in Munich; even if he was disliked by the nobility, a death is always a tragedy, and thus the king was given all the homages a king deserves.\nThe coronation ceremony of Maximilian von Bayern will be held in the Cathedral of Munchen on december 6th, and until that moment the prince will be helped by a regent.\nThe path in front of Maximilian is an arduous one, and the prince will need to show great resilience face his burdensome future."
+ le_bavaria.2.a:0 "The king is dead, long live the king!"
+
+ le_bavaria.1.t:0
+ le_bavaria.1.d:0
+ le_bavaria.1.f:0
+ le_bavaria.1.a:0
+
+ le_bavaria.1.t:0
+ le_bavaria.1.d:0
+ le_bavaria.1.f:0
+ le_bavaria.1.a:0
+
+ le_bavaria.1.t:0
+ le_bavaria.1.d:0
+ le_bavaria.1.f:0
+ le_bavaria.1.a:0
+
+ le_bavaria.1.t:0
+ le_bavaria.1.d:0
+ le_bavaria.1.f:0
+ le_bavaria.1.a:0
+
+ le_bohem.1.t:0 "The Shadow of a Great Empire"
+ le_bohem.1.d:0 "In 1712, after the death of King Petr II Mansfeld, the Kingdom of the Danube was split between the first son, Petr III, who inherited most of the kigdom, ad Michal, the secod one, who inherited the Kingdom of Bavaria."
+ le_bohem.1.f:0 "After 124 years and numerous wars and revolts, the Kingdom of the Danube shrunk in size, reduced to what is now the Principality of Bohemia.\nMassive investments in military and research have allowed our country to survive at last, and with the nation now stable, the nobility has started pushing the king to reclaim the lost territories."
+ le_bohem.1.a:0 "For a glorious future of our country!"
+
+ le_bohem.1.t:0
+ le_bohem.1.d:0
+ le_bohem.1.f:0
+ le_bohem.1.a:0
+
+ le_bohem.1.t:0
+ le_bohem.1.d:0
+ le_bohem.1.f:0
+ le_bohem.1.a:0
+
+ le_bohem.1.t:0
+ le_bohem.1.d:0
+ le_bohem.1.f:0
+ le_bohem.1.a:0
