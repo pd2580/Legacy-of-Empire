@@ -32,11 +32,17 @@ fra_uni.1 = {
 		set_variable = {
 			name = fra_uni_no
 		}
+		add_journal_entry = {
+			type = je_francia_cent_bgy
+		}
 	}
 	option = {
 		name = fra_uni.1.b
 		set_variable = {
 			name = fra_uni_yes
+		}
+		add_journal_entry = {
+			type = je_francia_reuni_bgy
 		}
 	}
 }
