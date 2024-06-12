@@ -24,12 +24,8 @@ STATES = {
 	}
 	s:STATE_NEW_YORK = {
 		create_state = {
-			country = c:IRO
-			owned_provinces = { xDB0967 x99CB10 xD534B1 x75F2A6 x38C881 x260926 x9CC56A x4B0747 xBA53D0 x70C080 x195B49 xE217B5 x8C059D xB343E6 x308000 x2CA754 xE7BE2D x01D042 xB00080 xA6BED5 x235E9F xEDC7DA x3CB274 x73A16C x42D496 xFCF1BE xA7B5FE x05187E x9484F3 xEC2EAA }
-		}
-		create_state = {
 			country = c:CLB
-			owned_provinces = { x377E55 x1BAD55 x300080 xB08000 xFC18F1 }
+			owned_provinces = { x377E55 x1BAD55 x300080 xB08000 xFC18F1 xDB0967 x99CB10 xD534B1 x75F2A6 x38C881 x260926 x9CC56A x4B0747 xBA53D0 x70C080 x195B49 xE217B5 x8C059D xB343E6 x308000 x2CA754 xE7BE2D x01D042 xB00080 xA6BED5 x235E9F xEDC7DA x3CB274 x73A16C x42D496 xFCF1BE xA7B5FE x05187E x9484F3 xEC2EAA }
 		}
 		
 		add_homeland = cu:yankee
@@ -539,7 +535,7 @@ STATES = {
 	}
 	s:STATE_MARYLAND = {
 		create_state = {
-			country = c:IRO
+			country = c:CLB
 			owned_provinces = { x708080 x0E3435 xAEB9F5 xF08000 x16482D x5E6C0F x888194 x576240 x3CC08F }
 		}
 		
@@ -548,7 +544,7 @@ STATES = {
 
 	s:STATE_DELAWARE = {
 		create_state = {
-			country = c:IRO
+			country = c:CLB
 			owned_provinces = { x708000 xeba646 }
 		}
 		
@@ -557,7 +553,7 @@ STATES = {
 
 	s:STATE_PENNSYLVANIA = {
 		create_state = {
-			country = c:IRO
+			country = c:CLB
 			owned_provinces = { xB00000 x703866 x75195D xDD6B3C xAF1AEE x308080 xACC198 x4CB9DF xF08080 x038B77 xBC1A94 x345319 x0804CE xB7EDCF x56401E xCDBD85 x265ADC xC786AB x976E86 xF1C228 xC0C080 x242311 x501463 x7CF534 xAC9DC0 x67DB6F xE2ACEE x691121 x413E60 x6C494D x8C787A x533151 xC4DED4 x606D4F }
 		}
 		
@@ -605,7 +601,7 @@ STATES = {
 	}
 	s:STATE_VERMONT = {
 		create_state = {
-			country = c:IRO
+			country = c:CLB
 			owned_provinces = { xB0C040 x34FFC4 x142566 x30F1AF x3FA10D x38CCDA }
 		}
 		
@@ -613,7 +609,7 @@ STATES = {
 	}	
 	s:STATE_NEW_HAMPSHIRE = {
 		create_state = {
-			country = c:IRO
+			country = c:CLB
 			owned_provinces = { x30C040 xBB7965 x1DC591 xDB930D x3E6BAD xD871BE x2B5499 xB16D83 x92CF0F }
 		}
 		
@@ -621,7 +617,7 @@ STATES = {
 	}	
 	s:STATE_MAINE = {
 		create_state = {
-			country = c:IRO
+			country = c:CLB
 			owned_provinces = { x6B3A42 xF2502E x1CA7B0 xBD7C03 x6AE419 xC2B02B xC4CDFC x8F9450 xD68A28 x990681 x54816B xD64964 xEFC355 x7182E8 xFBEDD6 x8243C0 x59DEDF xFB9715 x262924 x6E757B xFCFF52 xF080C0 xA5DE9D x441473 x5806F4 x1E33E8 xB04040 }
 		}
 		
