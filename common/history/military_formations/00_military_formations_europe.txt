@@ -4,7 +4,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_rhine
-			name = "Dutch Peacekeeprs"
+			name = "Dutch Peacekeepers"
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_HOLLAND
@@ -485,20 +485,19 @@
 			save_scope_as = 1st_high_army
 		}
 	}
-
-c:VEN = {
-	## Venetia
-	create_military_formation = {
-		type = army
-		hq_region = sr:region_italy
-		name = "Esercito della Serenissima"
-		combat_unit = {
-			type = unit_type:combat_unit_type_line_infantry
-			state_region = s:STATE_VENETIA
-			count = 30
+	c:VEN = {
+		## Venetia
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_italy
+			name = "Esercito della Serenissima"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_VENETIA
+				count = 30
+			}
+			save_scope_as = army_venetia
 		}
-		save_scope_as = army_venetia
-	}
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_italy
@@ -531,21 +530,56 @@ c:VEN = {
 			}
 			save_scope_as = army_venetia_b
 		}
-			create_military_formation = {
-				type = fleet
-				hq_region = sr:region_italy
-				name = "Flotta del Mar Giallo"
-				combat_unit = {
-					type = unit_type:combat_unit_type_frigate
-					state_region = s:STATE_BEIJING
-					count = 5
-				}
-				combat_unit = {
-					type = unit_type:combat_unit_type_man_o_war
-					state_region = s:STATE_ZHILI
-					count = 5
-				}
-				save_scope_as = navy_venetia
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_italy
+			name = "Flotta del Mar Giallo"
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_BEIJING
+				count = 5
 			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_ZHILI
+				count = 5
+			}
+			save_scope_as = navy_venetia
+		}
+	}
+	c:SYR = {
+		## Carthage
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_africa
+			name = "Carthaginian Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SICILY
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_TUNISIA
+				count = 20
+			}
+			save_scope_as = carthage_army
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_north_africa
+			name = "Carthaginian Navy"
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_SICILY
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_TUNISIA
+				count = 10
+			}
+			save_scope_as = carthage_navy
+		}
 	}
 }

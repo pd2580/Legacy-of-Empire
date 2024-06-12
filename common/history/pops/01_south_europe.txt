@@ -33,7 +33,7 @@
 		region_state:SYR = {
 			create_pop = {
 				culture = phoenician
-				size = 524084
+				size = 1524084
 			}
 		}
 	}
@@ -193,7 +193,7 @@
 			}
 			create_pop = {
 				culture = phoenician
-				size = 600000
+				size = 1256875
 			}
 		}
 	}
