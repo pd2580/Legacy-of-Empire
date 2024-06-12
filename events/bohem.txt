@@ -52,6 +52,8 @@ le_bohem.2 = {
 				target_country = c:BOH
 			}
 		}
+		change_infamy = -1000
+		set_variable = wonbav
 	}
 }
 le_bohem.3 = {
@@ -67,10 +69,10 @@ le_bohem.3 = {
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	trigger = {
-		any_state = {
-			state = s:STATE_BAVARIA
+		c:BOH = {
+		has_variable = wonbav
+		is_at_war = no
 		}
-		owner = c:BOH
 	}
 	option = {
 		name = le_bohem.1.a

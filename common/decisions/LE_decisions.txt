@@ -117,3 +117,10 @@ revive_the_carolingian_empire = {
 		add_primary_culture = cu:french
 	}
 }
+LE_venice = {
+	is_shown = {
+		exists = c:VEN
+		this = c:VEN
+	}
+	when_taken = {
+}
