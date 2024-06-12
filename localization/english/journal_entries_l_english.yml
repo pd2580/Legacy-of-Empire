@@ -101,6 +101,9 @@
  je_german_conf:0 "A Country for all the Germans"
  je_german_conf_reason:0 "We can form Germany either through diplomacy or war.\nA war may be needed against Amsterdam, but there might be another solution for Bavaria and Rhineland;\nif they accept to become our subject and we keep good relations with them, we will be able to annex their lands peacefully."
 
+ je_bav_pro:0 "The Matter of Bavaria"
+ je_bav_pro_reason:0 "Reclaiming the Kingdom of Bavaria would grant us more resources and more wealth, but the deep cultural and religious differences between the Czech and the South German people could cause many problems for the stability of the reign, making Bavaria more of a burden than a gain."
+
 
  je_group_historical_content: "National Agenda"
  je_group_crises: "Major Situations"

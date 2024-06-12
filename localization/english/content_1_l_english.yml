@@ -1894,7 +1894,7 @@
  revive_the_carolingian_empire_desc:0 "An impossible feat for some, a dream for others, restoring the Carolingian Empire has never been an easy task for anybody from the start.\nWill there ever be a man capable to achieve such a grandiose feat?"
 
  le_bavaria.1.t:0 "The Solitude of a King"
- le_bavaria.1.d:0 "The von Bayern dynasty became the ruling dynasty of Bavaria 82 years ago, when Luitpold von Bayern overthrew the old king Michal Albert Mansfeld."
+ le_bavaria.1.d:0 "The von Bayern dynasty became the ruling dynasty of Bavaria 82 years ago, when Luitpold von Bayern overthrew the old king Michal Albert Vratislav z Mitrovic."
  le_bavaria.1.f:0 "When Ludwig I, Luitpold's son and heir, came into power, there were already signs of dissatisfaction in the bavarian nobility; his father ruled as an absolute monarch, and greatly reduced the power of the nobility.\nIsolated by the nobility, and grown up in a difficult environment, King Ludwig became slowly more and more reclusive, leaving the matters of the state to his regent.\nEver since his wife's death in march 1834, the king has refused to leave the Royal Palace, and rumors say that his mental and physical state is precarious.\nTaking advantage of this situation, the high nobility has become the de facto ruler of the kingdom, and the presumed near death of the king could strike the spark of an aristocratic uprising."
  le_bavaria.1.a:0 "Dark times are ahead of us"
 
@@ -1924,14 +1924,14 @@
  le_bavaria.1.a:0
 
  le_bohem.1.t:0 "The Shadow of a Great Empire"
- le_bohem.1.d:0 "In 1712, after the death of King Petr II Mansfeld, the Kingdom of the Danube was split between the first son, Petr III, who inherited most of the kigdom, ad Michal, the secod one, who inherited the Kingdom of Bavaria."
+ le_bohem.1.d:0 "In 1712, after the death of King Petr II Vratislav z Mitrovic, the Kingdom of the Danube was split between the first son, Petr III, who inherited most of the kigdom, ad Michal, the secod one, who inherited the Kingdom of Bavaria."
  le_bohem.1.f:0 "After 124 years and numerous wars and revolts, the Kingdom of the Danube shrunk in size, reduced to what is now the Principality of Bohemia.\nMassive investments in military and research have allowed our country to survive at last, and with the nation now stable, the nobility has started pushing the king to reclaim the lost territories."
  le_bohem.1.a:0 "For a glorious future of our country!"
 
- le_bohem.1.t:0
- le_bohem.1.d:0
- le_bohem.1.f:0
- le_bohem.1.a:0
+ le_bohem.2.t:0 "The Matter of Bavaria"
+ le_bohem.2.d:0 "In 1754 the king of Bavaria, Michal Albert Vratislav z Mitrovic, was ousted by Luitpold von Bayern."
+ le_bohem.2.f:0 "Being the nephew of Michal Albert, prince Alexander has a natural claim on the kingdom of Bavaria, and the bohemian nobility is heavily pushing for the prince to enforce his claim.\nThe Kingdom of Bavaria is going through a difficult time, and the death of their king, whose health is in a precarious state, could be the perfect chance to push the prince's claim."
+ le_bohem.2.a:0 "What the future holds for us?"
 
  le_bohem.1.t:0
  le_bohem.1.d:0

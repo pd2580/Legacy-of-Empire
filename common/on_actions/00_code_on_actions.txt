@@ -4237,15 +4237,3 @@ on_military_formation_created = {
 		}
 	}
 }
-
-on_monthly_pulse_country = {
-	if = {
-		country = c:BOH
-		has_variable = wonbav
-	}
-	on_war_end = {
-		trigger_event = {
-			id = le_bohem.3
-		}
-	}
-}

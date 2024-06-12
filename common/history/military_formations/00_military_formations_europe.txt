@@ -1,37 +1,33 @@
 ﻿MILITARY_FORMATIONS = {
-	c:AMS = { ## Amsterdam
-			create_military_formation = {
-				type = army
-				hq_region = sr:region_rhine
-				name = "Dutch Peacekeeprs"
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_HOLLAND
-					count = 60
-				}
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_lancers
-					state_region = s:STATE_HOLLAND
-					count = 30
-				}
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_mobile_artillery
-					state_region = s:STATE_HOLLAND
-					count = 30
-				}
-	
-				save_scope_as = dutch_peacekeepers
+	c:AMS = {
+		## Amsterdam
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_rhine
+			name = "Dutch Peacekeeprs"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_HOLLAND
+				count = 60
 			}
-    }
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_HOLLAND
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_HOLLAND
+				count = 30
+			}
+			save_scope_as = dutch_peacekeepers
+		}
+	}
 	c:HUN = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_danubia
 			name = "1st Hungarian Army"
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CENTRAL_HUNGARY
@@ -42,7 +38,6 @@
 				state_region = s:STATE_TRANSDANUBIA
 				count = 5
 			}
-
 			save_scope_as = 1st_hungarian_army
 		}
 	}
@@ -51,7 +46,6 @@
 			type = army
 			hq_region = sr:region_balkans
 			name = "1st Pontifical Army"
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_DALMATIA
@@ -62,7 +56,6 @@
 				state_region = s:STATE_BOSNIA
 				count = 5
 			}
-
 			save_scope_as = 1st_pont_army
 		}
 	}
@@ -71,7 +64,6 @@
 			type = army
 			hq_region = sr:region_occitania
 			name = "1st Occitan Army"
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_RHONE
@@ -84,7 +76,6 @@
 			type = army
 			hq_region = sr:region_balkans
 			name = "1st Bulgar Army"
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BULGARIA
@@ -95,10 +86,8 @@
 				state_region = s:STATE_BULGARIA
 				count = 2
 			}
-			
 			save_scope_as = 1st_bulgar_army
 		}
-
 		create_character = {
 			first_name = Blagovest
 			last_name = Sekelsky
@@ -110,7 +99,6 @@
 			}
 			save_scope_as = bulgar_dude
 		}
-
 		scope:bulgar_dude = {
 			transfer_to_formation = scope:1st_bulgar_army
 		}
@@ -120,7 +108,6 @@
 			type = army
 			hq_region = sr:region_balkans
 			name = "1st Danube Army"
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BULGARIA
@@ -131,7 +118,6 @@
 				state_region = s:STATE_BULGARIA
 				count = 10
 			}
-
 			save_scope_as = 1st_danube_army
 		}
 	}
@@ -140,7 +126,6 @@
 			type = army
 			hq_region = sr:region_danubia
 			name = "1st Slovak Army"
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_WEST_SLOVAKIA
@@ -151,7 +136,6 @@
 				state_region = s:STATE_EAST_SLOVAKIA
 				count = 5
 			}
-
 			save_scope_as = 1st_slovak_army
 		}
 	}
@@ -160,47 +144,37 @@
 			type = army
 			hq_region = sr:region_south_germany
 			name = "1st Bayern Army"
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BAVARIA
-				count = 60
+				count = 10
 			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_AUSTRIA
-				count = 20
-			}
-
 			save_scope_as = 1st_bavarian_army
 		}
 	}
 	c:PAD = {
-			create_military_formation = {
-				type = army
-				hq_region = sr:region_italy
-				name = "1st Padanian Army"
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_line_infantry
-					state_region = s:STATE_LOMBARDY
-					count = 20
-				}
-				combat_unit = {
-					type = unit_type:combat_unit_type_cannon_artillery
-					state_region = s:STATE_LOMBARDY
-					count = 15
-				}
-
-				save_scope_as = 1st_padanian_army
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_italy
+			name = "1st Padanian Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_LOMBARDY
+				count = 20
 			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_LOMBARDY
+				count = 15
+			}
+			save_scope_as = 1st_padanian_army
+		}
 	}
 	c:TUT = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_poland
 			name = "1st Prussian Army"
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_WEST_PRUSSIA
@@ -211,344 +185,367 @@
 				state_region = s:STATE_EAST_PRUSSIA
 				count = 25
 			}
-
 			save_scope_as = 1st_prussian_army
 		}
-}
-	c:MCN = {
-			create_military_formation = {
-				type = army
-				hq_region = sr:region_england
-				name = "1st Northumbrian Army"
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_YORKSHIRE
-					count = 3
-				}
-				combat_unit = {
-					type = unit_type:combat_unit_type_mobile_artillery
-					state_region = s:STATE_YORKSHIRE
-					count = 2
-				}
-				combat_unit = {
-					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_LANCASHIRE
-					count = 3
-				}
-				combat_unit = {
-					type = unit_type:combat_unit_type_mobile_artillery
-					state_region = s:STATE_LANCASHIRE
-					count = 2
-				}
-
-				save_scope_as = 1st_north_army
-			}
 	}
-	c:BGY = { ## Burgundy
-			create_military_formation = {
-				type = army
-				hq_region = sr:region_france
-				name = "1st Burgundian Army"
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_BURGUNDY
-					count = 50
-				}
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_lancers
-					state_region = s:STATE_LORRAINE
-					count = 25
-				}
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_mobile_artillery
-					state_region = s:STATE_LORRAINE
-					count = 25
-				}
-	
-				save_scope_as = burgarmy
+	c:MCN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_england
+			name = "1st Northumbrian Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_YORKSHIRE
+				count = 3
 			}
-    }
-	c:POL = { ## Polish Empire
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_YORKSHIRE
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_LANCASHIRE
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_LANCASHIRE
+				count = 2
+			}
+			save_scope_as = 1st_north_army
+		}
+	}
+	c:BGY = {
+		## Burgundy
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_france
+			name = "1st Burgundian Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_BURGUNDY
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_LORRAINE
+				count = 25
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_LORRAINE
+				count = 25
+			}
+			save_scope_as = burgarmy
+		}
+	}
+	c:POL = {
+		## Polish Empire
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_poland
 			name = "Polish Calvary"
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_MAZOVIA
 				count = 40
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_BREST
 				count = 40
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_GREATER_POLAND
 				count = 60
 			}
-
 			save_scope_as = poland_army
 		}
 	}
-	c:BOH = { ## Bohemia
+	c:BOH = {
+		## Bohemia
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_south_germany
-			name = "Bohemian Army"
-
+			name = "Prince Alexander's Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BOHEMIA
-				count = 5
+				count = 40
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_MORAVIA
-				count = 5
+				count = 20
 			}
-
 			save_scope_as = bohemia_army
 		}
 	}
-	c:SAX = { ## Saxony
-			create_military_formation = {
-				type = army
-				hq_region = sr:region_north_germany
-				name = "1st Saxon Army"
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_SAXONY
-					count = 45
-				}
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_line_infantry
-					state_region = s:STATE_SAXONY
-					count = 5
-				}
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_lancers
-					state_region = s:STATE_POMERANIA
-					count = 10
-				}
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_mobile_artillery
-					state_region = s:STATE_POMERANIA
-					count = 20
-				}
-	
-				save_scope_as = 1st_saxon_army
+	c:SAX = {
+		## Saxony
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_germany
+			name = "1st Saxon Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_SAXONY
+				count = 45
 			}
-    	}
-	c:AQU = { ## Aquitane
-			create_military_formation = {
-				type = army
-				hq_region = sr:region_occitania
-				name = "1st Aquinite Army"
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_GUYENNE
-					count = 15
-				}
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_line_infantry
-					state_region = s:STATE_GUYENNE
-					count = 15
-				}
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_lancers
-					state_region = s:STATE_GUYENNE
-					count = 15
-				}
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_mobile_artillery
-					state_region = s:STATE_GUYENNE
-					count = 15
-				}
-	
-				save_scope_as = 1st_aquinite_army
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SAXONY
+				count = 5
 			}
-    	}
-	c:AQR = { ## Rebels
-			create_military_formation = {
-				type = army
-				hq_region = sr:region_occitania
-				name = "Rebel Army"
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_AQUITAINE
-					count = 20
-				}
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_lancers
-					state_region = s:STATE_AQUITAINE
-					count = 5
-				}
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_mobile_artillery
-					state_region = s:STATE_AQUITAINE
-					count = 15
-				}
-	
-				save_scope_as = rebel_army
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_POMERANIA
+				count = 10
 			}
-    	}
-	c:RHI = { ## Rhenish Republic
-			create_military_formation = {
-				type = army
-				hq_region = sr:region_rhine
-				name = "1st Rhenish Army"
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_RHINELAND
-					count = 20
-				}
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_lancers
-					state_region = s:STATE_RHINELAND
-					count = 5
-				}
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_mobile_artillery
-					state_region = s:STATE_RHINELAND
-					count = 15
-				}
-	
-				save_scope_as = 1st_rhenish_army
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_POMERANIA
+				count = 20
 			}
-    	}
-	c:ENG = { ##England
-			create_military_formation = {
-				type = army
-				hq_region = sr:region_england
-				name = "1st English Army"
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_HOME_COUNTIES
-					count = 15
-				}
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_lancers
-					state_region = s:STATE_WEST_COUNTRY
-					count = 5
-				}
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_mobile_artillery
-					state_region = s:STATE_MIDLANDS
-					count = 10
-				}
-	
-				save_scope_as = 1st_english_army
+			save_scope_as = 1st_saxon_army
+		}
+	}
+	c:AQU = {
+		## Aquitane
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_occitania
+			name = "1st Aquinite Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_GUYENNE
+				count = 15
 			}
-			create_military_formation = {
-				type = army
-				hq_region = sr:region_england
-				name = "2nd English Army"
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_HOME_COUNTIES
-					count = 15
-				}
-
-				combat_unit = {
-					type = unit_type:combat_unit_type_lancers
-					state_region = s:STATE_WEST_COUNTRY
-					count = 5
-				}
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_mobile_artillery
-					state_region = s:STATE_MIDLANDS
-					count = 10
-				}
-	
-				save_scope_as = 2nd_english_army
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GUYENNE
+				count = 15
 			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_GUYENNE
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_GUYENNE
+				count = 15
+			}
+			save_scope_as = 1st_aquinite_army
+		}
+	}
+	c:AQR = {
+		## Rebels
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_occitania
+			name = "Rebel Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_AQUITAINE
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_AQUITAINE
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_AQUITAINE
+				count = 15
+			}
+			save_scope_as = rebel_army
+		}
+	}
+	c:RHI = {
+		## Rhenish Republic
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_rhine
+			name = "1st Rhenish Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_RHINELAND
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_RHINELAND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_RHINELAND
+				count = 15
+			}
+			save_scope_as = 1st_rhenish_army
+		}
+	}
+	c:ENG = {
+		##England
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_england
+			name = "1st English Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_HOME_COUNTIES
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_WEST_COUNTRY
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_MIDLANDS
+				count = 10
+			}
+			save_scope_as = 1st_english_army
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_england
+			name = "2nd English Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_HOME_COUNTIES
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_WEST_COUNTRY
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_MIDLANDS
+				count = 10
+			}
+			save_scope_as = 2nd_english_army
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_england
+			name = "1st English Fleet"
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_WEST_COUNTRY
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_HOME_COUNTIES
+				count = 25
+			}
+			save_scope_as = 1st_english_fleet
+		}
+	}
+	c:SCO = {
+		##High Kingdom
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_north_sea_coast
+			name = "1st High Fleet"
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_HIGHLANDS
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_ULSTER
+				count = 25
+			}
+			save_scope_as = 1st_high_fleet
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_sea_coast
+			name = "1st High Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_HIGHLANDS
+				count = 35
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_ULSTER
+				count = 15
+			}
+			save_scope_as = 1st_high_army
+		}
+	}
+
+c:VEN = {
+	## Venetia
+	create_military_formation = {
+		type = army
+		hq_region = sr:region_italy
+		name = "Esercito della Serenissima"
+		combat_unit = {
+			type = unit_type:combat_unit_type_line_infantry
+			state_region = s:STATE_VENETIA
+			count = 30
+		}
+		save_scope_as = army_venetia
+	}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_italy
+			name = "Marina della Serenissima"
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_VENETIA
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_VENETIA
+				count = 10
+			}
+			save_scope_as = navy_venetia
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_italy
+			name = "Divisione di istanza a Tientsin"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BEIJING
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SHANDONG
+				count = 5
+			}
+			save_scope_as = army_venetia_b
+		}
 			create_military_formation = {
 				type = fleet
-				hq_region = sr:region_england
-				name = "1st English Fleet"
-	
+				hq_region = sr:region_italy
+				name = "Flotta del Mar Giallo"
 				combat_unit = {
-					type = unit_type:combat_unit_type_man_o_war
-					state_region = s:STATE_WEST_COUNTRY
+					type = unit_type:combat_unit_type_frigate
+					state_region = s:STATE_BEIJING
 					count = 5
 				}
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_frigate
-					state_region = s:STATE_HOME_COUNTIES
-					count = 25
-				}
-	
-				save_scope_as = 1st_english_fleet
-			}
-    	}
-	c:SCO = { ##High Kingdom
-			create_military_formation = {
-				type = fleet
-				hq_region = sr:region_north_sea_coast
-				name = "1st High Fleet"
-	
 				combat_unit = {
 					type = unit_type:combat_unit_type_man_o_war
-					state_region = s:STATE_HIGHLANDS
-					count = 15
+					state_region = s:STATE_ZHILI
+					count = 5
 				}
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_frigate
-					state_region = s:STATE_ULSTER
-					count = 25
-				}
-	
-				save_scope_as = 1st_high_fleet
+				save_scope_as = navy_venetia
 			}
-			create_military_formation = {
-				type = army
-				hq_region = sr:region_north_sea_coast
-				name = "1st High Army"
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_skirmish_infantry
-					state_region = s:STATE_HIGHLANDS
-					count = 35
-				}
-	
-				combat_unit = {
-					type = unit_type:combat_unit_type_mobile_artillery
-					state_region = s:STATE_ULSTER
-					count = 15
-				}
-	
-				save_scope_as = 1st_high_army
-			}
-    	}
+	}
 }

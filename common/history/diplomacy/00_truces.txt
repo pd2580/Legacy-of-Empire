@@ -42,3 +42,11 @@ DIPLOMACY = {
 		}
 	}	
 }
+DIPLOMACY = {
+	c:BOH = {
+		create_truce = {
+			country = c:BAV
+			months = 4
+		}
+	}
+}

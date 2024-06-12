@@ -1128,10 +1128,10 @@
 		}
 	}
 	s:STATE_AUSTRIA = {
-		region_state:BAV = {
+		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 1964404
+				size = 2964404
 			}
 			create_pop = {
 				culture = ashkenazi
