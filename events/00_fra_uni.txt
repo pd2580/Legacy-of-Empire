@@ -29,14 +29,339 @@ fra_uni.1 = {
 	option = {
 		name = fra_uni.1.a
 		default_option = yes
-		set_variable = {
-			name = fra_uni_no
+		add_journal_entry = {
+			type = je_francia_cent_bgy
 		}
 	}
 	option = {
 		name = fra_uni.1.b
 		set_variable = {
-			name = fra_uni_yes
+			name = fra_uni_var
+			value = 0
+		}
+		add_journal_entry = {
+			type = je_francia_reuni_bgy
+		}
+		add_journal_entry = {
+			type = je_francia_reuni_bgy_fra
+		}
+		add_journal_entry = {
+			type = je_francia_reuni_bgy_occ
+		}
+		add_journal_entry = {
+			type = je_francia_reuni_bgy_ams
+		}
+		add_journal_entry = {
+			type = je_francia_reuni_bgy_rhi
+		}
+		add_journal_entry = {
+			type = je_francia_reuni_bgy_ibe
+		}
+		add_loyalists = {
+			strata = middle
+			value = 0.1
+		}
+		add_radicals = {
+			strata = poor
+			value = 0.05
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_armed_forces
+				}
+			}
+			add_modifier = {
+				name = modifier_imperialist
+				months = 61
+				is_decaying = yes
+			}
+		}
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_armed_forces
+				exist = leader
+			}
+			leader = {
+				save_scope_as = armed_forces_leader
+			}
+		}
+		scope:armed_forces_leader = {
+			set_ideology = ideology:ideology_authoritarian
+		}
+	}
+}
+
+fra_uni.2 = {
+	type = country_event
+	placement = root
+
+	title = fra_uni.2.t
+	desc = fra_uni.2.d
+	flavor = fra_uni.2.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = fra_uni.2.a
+		default_option = yes
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_armed_forces
+				}
+			}
+			add_modifier = {
+				name = modifier_imperialist
+				months = 25
+				is_decaying = yes
+			}
+		}
+	}
+}
+
+fra_uni.3 = {
+	type = country_event
+	placement = root
+
+	title = fra_uni.3.t
+	desc = fra_uni.3.d
+	flavor = fra_uni.3.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = fra_uni.3.a
+		default_option = yes
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_armed_forces
+				}
+			}
+			add_modifier = {
+				name = modifier_imperialist
+				months = 25
+				is_decaying = yes
+			}
+		}
+	}
+}
+
+fra_uni.4 = {
+	type = country_event
+	placement = root
+
+	title = fra_uni.4.t
+	desc = fra_uni.4.d
+	flavor = fra_uni.4.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = fra_uni.4.a
+		default_option = yes
+		every_interest_group = {
+			add_modifier = {
+				name = dutch_defeat
+				months = 61
+				is_decaying = no
+			}
+		}
+		add_loyalists = {
+			value = 0.2
+		}
+	}
+}
+
+fra_uni.5 = {
+	type = country_event
+	placement = root
+
+	title = fra_uni.5.t
+	desc = fra_uni.5.d
+	flavor = fra_uni.5.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = fra_uni.5.a
+		default_option = yes
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_armed_forces
+				}
+			}
+			add_modifier = {
+				name = modifier_imperialist
+				months = 25
+				is_decaying = yes
+			}
+		}
+		add_modifier = {
+			name = rhineland_income
+			months = 61
+		}
+	}
+}
+
+fra_uni.6 = {
+	type = country_event
+	placement = root
+
+	title = fra_uni.6.t
+	desc = fra_uni.6.d
+	flavor = fra_uni.6.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = fra_uni.6.a
+		default_option = yes
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_armed_forces
+				}
+			}
+			add_modifier = {
+				name = modifier_imperialist
+				months = 25
+				is_decaying = yes
+			}
+		}
+	}
+}
+
+fra_uni.7 = {
+	type = country_event
+	placement = root
+
+	title = fra_uni.7.t
+	desc = fra_uni.7.d
+	flavor = fra_uni.7.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = fra_uni.7.a
+		default_option = yes
+		every_interest_group = {
+			add_modifier = {
+				name = modifier_imperialist
+				months = 25
+				is_decaying = yes
+			}
+		}
+		add_loyalists = {
+			strata = rich
+			value = 0.1
+		}
+		add_loyalists = {
+			strata = middle
+			value = 0.05
+		}
+		add_loyalists = {
+			strata = poor
+			value = 0.01
 		}
 	}
 }
