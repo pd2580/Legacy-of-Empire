@@ -53,7 +53,7 @@
 		region_state:UMB = {
 			create_pop = {
 				culture = south_roman
-				size = 451000
+				size = 1451000
 			}
 		}
 	}
@@ -82,7 +82,7 @@
 		region_state:NAP = {
 			create_pop = {
 				culture = south_roman
-				size = 2557396
+				size = 2257396
 			}
 		}
 	}
@@ -90,15 +90,15 @@
 		region_state:NAP = {
 			create_pop = {
 				culture = south_roman
-				size = 882848
+				size = 1882848
 			}
 		}
 	}
 	s:STATE_APULIA = {
-		region_state:HEL = {
+		region_state:SEE = {
 			create_pop = {
 				culture = south_roman
-				size = 1284392
+				size = 1984392
 			}
 		}
 	}
@@ -106,7 +106,7 @@
 		region_state:UMB = {
 			create_pop = {
 				culture = south_roman
-				size = 660448
+				size = 1660448
 			}
 		}
 	}
@@ -130,15 +130,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = north_roman
-				size = 472004
-			}
-			create_pop = {
-				culture = north_roman
-				size = 108408
-			}
-			create_pop = {
-				culture = north_roman
-				size = 648400
+				size = 1772004
 			}
 		}
 	}
@@ -146,7 +138,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = north_roman
-				size = 1625400
+				size = 1925400
 			}
 			create_pop = {
 				culture = north_roman
@@ -159,7 +151,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = north_roman
-				size = 803600
+				size = 1803600
 			}
 		}
 	}
@@ -167,7 +159,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = south_roman
-				size = 1333868
+				size = 2433868
 			}
 			create_pop = {
 				culture = south_roman
