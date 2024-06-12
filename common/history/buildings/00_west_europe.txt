@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_SVEALAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -64,7 +64,7 @@
 		}
 	}
 	s:STATE_GOTALAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -110,7 +110,7 @@
 		}
 	}
 	s:STATE_SCANIA={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -190,7 +190,7 @@
 		}
 	}
 	s:STATE_GOTLAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_port"
 				level=1
@@ -206,7 +206,7 @@
 		}
 	}
 	s:STATE_JUTLAND={
-		region_state:BEL={
+		region_state:DMK={
 			create_building={
 				building="building_rye_farm"
 				level=8
@@ -234,7 +234,7 @@
 		}
 	}
 	s:STATE_ZEALAND={
-		region_state:SAX={
+		region_state:THU={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -310,7 +310,7 @@
 		}
 	}
 	s:STATE_WESTERN_NORWAY={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_fishing_wharf"
 				level=4
@@ -360,7 +360,7 @@
 		}
 	}
 	s:STATE_EASTERN_NORWAY={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -412,7 +412,7 @@
 		}
 	}
 	s:STATE_ICELAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -428,7 +428,7 @@
 		}
 	}
 	s:STATE_GREENLAND={
-		region_state:SWE={
+		region_state:SCA={
 		}
 	}
 	s:STATE_SOUTHERN_FINLAND={
@@ -917,7 +917,7 @@
 		}
 	}
 	s:STATE_HIGHLANDS={
-		region_state:SCO={
+		region_state:HKE={
 			create_building={
 				building="building_logging_camp"
 				level=9
@@ -1396,7 +1396,7 @@
 		}
 	}
 	s:STATE_LOWLANDS={
-		region_state:SCO={
+		region_state:HKE={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -1480,7 +1480,7 @@
 		}
 	}
 	s:STATE_ULSTER={
-		region_state:SCO={
+		region_state:HKE={
 			create_building={
 				building="building_livestock_ranch"
 				level=12
@@ -3515,7 +3515,7 @@
 		}
 	}
 	s:STATE_TYROL={
-		region_state:BAV={
+		region_state:BAY={
 			create_building={
 				building="building_iron_mine"
 				level=1
@@ -3531,7 +3531,7 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL={
-		region_state:PAD={
+		region_state:LMG={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -3541,7 +3541,7 @@
 		}
 	}
 	s:STATE_POMERANIA={
-		region_state:SAX={
+		region_state:THU={
 			create_building={
 				building="building_government_administration"
 				level=7
@@ -3677,7 +3677,7 @@
 		}
 	}
 	s:STATE_EAST_SWITZERLAND={
-		region_state:PAD={
+		region_state:LMG={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -3841,7 +3841,7 @@
 		}
 	}
 	s:STATE_ANHALT={
-		region_state:SAX={
+		region_state:THU={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -4074,7 +4074,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG={
-		region_state:SAX={
+		region_state:THU={
 			create_building={
 				building="building_government_administration"
 				level=17
@@ -4132,7 +4132,7 @@
 		}
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN={
-		region_state:BEL={
+		region_state:DMK={
             create_building={
 				building="building_government_administration"
 				level=1
@@ -4422,7 +4422,7 @@
 		}
 	}
 	s:STATE_BAVARIA={
-		region_state:BAV={
+		region_state:BAY={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -4496,7 +4496,7 @@
 		}
 	}
 	s:STATE_FRANCONIA={
-		region_state:BAV={
+		region_state:BAY={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -4544,7 +4544,7 @@
 		}
 	}
 	s:STATE_SAXONY={
-		region_state:SAX={
+		region_state:THU={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -4673,7 +4673,7 @@
 		}
 	}
 	s:STATE_MECKLENBURG={
-		region_state:SAX={
+		region_state:THU={
 			create_building={
 				building="building_rye_farm"
 				level=3

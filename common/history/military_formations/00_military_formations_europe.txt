@@ -139,7 +139,7 @@
 			save_scope_as = 1st_slovak_army
 		}
 	}
-	c:BAV = {
+	c:BAY = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_south_germany
@@ -152,7 +152,7 @@
 			save_scope_as = 1st_bavarian_army
 		}
 	}
-	c:PAD = {
+	c:LMG = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_italy
@@ -240,7 +240,7 @@
 			save_scope_as = burgarmy
 		}
 	}
-	c:POL = {
+	c:PLE = {
 		## Polish Empire
 		create_military_formation = {
 			type = army
@@ -283,7 +283,7 @@
 			save_scope_as = bohemia_army
 		}
 	}
-	c:SAX = {
+	c:THU = {
 		## Saxony
 		create_military_formation = {
 			type = army
@@ -450,7 +450,7 @@
 			save_scope_as = 1st_english_fleet
 		}
 	}
-	c:SCO = {
+	c:HKE = {
 		##High Kingdom
 		create_military_formation = {
 			type = fleet

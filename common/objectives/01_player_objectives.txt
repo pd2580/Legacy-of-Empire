@@ -2,7 +2,7 @@
 	background = "gfx/loadingscreens/victoria3_load_2.dds"
 	icon = "gfx/interface/icons/invention_icons/dynamite.dds"
 	
-	recommended_tags = { SCO EIR MCN ENG }
+	recommended_tags = { HKE EIR MCN ENG }
 	
 	objective_subgoals = {
 

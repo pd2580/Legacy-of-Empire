@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:PAD = {
+	c:LMG = {
 
 		ig:ig_devout = {
 			add_ruling_interest_group = yes

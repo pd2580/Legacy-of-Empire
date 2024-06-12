@@ -149,11 +149,11 @@ law_high_monarchy = {
 	}
 
 	can_enact = {
-		c:SCO = this 
+		c:HKE = this 
 	}
 	
 	is_visible = {
-		c:SCO = this
+		c:HKE = this
 	}
 
 	modifier = {

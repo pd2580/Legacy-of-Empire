@@ -2986,7 +2986,7 @@ on_secession_start = {
 		if = {
 			limit = {
 				NOR = {
-					c:POL ?= this
+					c:PLE ?= this
 					c:KRA ?= this
 					AND = {
 						c:GAL ?= this
@@ -2997,7 +2997,7 @@ on_secession_start = {
 				}
 				scope:target = {
 					OR = {
-						c:POL ?= this
+						c:PLE ?= this
 						c:KRA ?= this
 						AND = {
 							c:GAL ?= this
@@ -3008,7 +3008,7 @@ on_secession_start = {
 					}
 				}
 				OR = {
-					c:POL ?= {
+					c:PLE ?= {
 						NOT = {
 							this = scope:target
 						}
@@ -3038,7 +3038,7 @@ on_secession_start = {
 			every_country = {
 				limit = {
 					OR = {
-						c:POL ?= this
+						c:PLE ?= this
 						c:KRA ?= this
 						AND = {
 							c:GAL ?= this

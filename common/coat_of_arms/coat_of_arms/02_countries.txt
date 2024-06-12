@@ -2013,7 +2013,7 @@ BAS_subject = {
 	}		
 }
 
-BAV = {
+BAY = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
@@ -2099,7 +2099,7 @@ BAV_communist = {
 }
 
 
-BEL = {
+DMK = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -2762,7 +2762,7 @@ BOL_subject = {
 	}	
 }
 
-BOS = { # Bosnia
+SR5 = { # Bosnia
 	# 1878 flag
 	
 	pattern = "pattern_solid.tga"
@@ -17763,7 +17763,7 @@ PNM_subject_MEX = {
 	}
 }
 
-POL = { # Poland
+PLE = { # Poland
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
@@ -19099,7 +19099,7 @@ SAS_subject = {
 	}
 }
 
-SAX = {
+THU = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
@@ -19266,7 +19266,7 @@ SCN_canton = {
 	}
 }
 
-SCO = {
+HKE = {
     sub = {
         parent = "sub_SCO" 
     }
@@ -19362,7 +19362,7 @@ SEQ = { # Indian Territory
 	}
 }
 
-SER = {
+SR6 = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 
@@ -20323,7 +20323,7 @@ SUL = { # Sulu
 	}
 }
 
-SWE = {
+SCA = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 	color2 = "yellow"

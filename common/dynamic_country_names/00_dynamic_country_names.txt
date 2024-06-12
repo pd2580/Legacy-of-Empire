@@ -500,7 +500,7 @@ DEFAULT = {
 	}
 }
 
-SWE = {
+SCA = {
 	dynamic_country_name = {
 		name = dyn_c_gotland_revolt
 		adjective = dyn_c_gotland_revolt_adj
@@ -666,7 +666,7 @@ AZB = { # Azerbaijan
 	}
 }
 
-BAV = { # Bavaria
+BAY = { # Bavaria
 	dynamic_country_name = {
 		name = dyn_c_bavarian_raterepublic
 		adjective = BAV_ADJ
@@ -680,7 +680,7 @@ BAV = { # Bavaria
 	}
 }
 
-BEL = { # Belgium
+DMK = { # Belgium
 	dynamic_country_name = {
 		name = dyn_c_united_belgian_states
 		adjective = BEL_ADJ

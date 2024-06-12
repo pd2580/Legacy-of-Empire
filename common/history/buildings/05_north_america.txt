@@ -971,7 +971,7 @@
 				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
 		}
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_sulfur_mine"
 				level=6
@@ -1011,7 +1011,7 @@
 		}
 	}
 	s:STATE_NEW_BRUNSWICK={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_lead_mine"
 				level=2
@@ -1045,7 +1045,7 @@
 		}
 	}
 	s:STATE_QUEBEC={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_university"
 				level=1

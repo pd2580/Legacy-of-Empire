@@ -75,30 +75,30 @@ le_bavaria.3 = {
 			add_war_goal = {
 				holder = c:BAD
 				type = independence
-				target_country = c:BAV
+				target_country = c:BAY
 			}
 			add_war_goal = {
 				holder = c:WUR
 				type = independence
-				target_country = c:BAV
+				target_country = c:BAY
 			}
 			add_war_goal = {
 				holder = c:AUS
 				type = independence
-				target_country = c:BAV
+				target_country = c:BAY
 			}
 			add_war_goal = {
 				holder = c:AUS
 				type = conquer_state
-				target_state = s:STATE_AUSTRIA.region_state:BAV
+				target_state = s:STATE_AUSTRIA.region_state:BAY
 			}
 			add_war_goal = {
-				holder = c:BAV
+				holder = c:BAY
 				type = annex_country
 				target_country = c:BAD
 			}
 			add_war_goal = {
-				holder = c:BAV
+				holder = c:BAY
 				type = make_puppet
 				target_country = c:AUS
 			}

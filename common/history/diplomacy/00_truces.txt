@@ -1,7 +1,7 @@
 ﻿DIPLOMACY = {
 	c:NET = {
 		create_truce = {
-			country = c:BEL
+			country = c:DMK
 			months = 7
 		}
 	}	
@@ -45,7 +45,7 @@ DIPLOMACY = {
 DIPLOMACY = {
 	c:BOH = {
 		create_truce = {
-			country = c:BAV
+			country = c:BAY
 			months = 4
 		}
 	}

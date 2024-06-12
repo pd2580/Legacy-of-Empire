@@ -4,9 +4,9 @@
  objective_tutorial_idle_header:0 "Explore and play the game!"
  objective_tutorial_idle_hint:0 "More challenges will appear eventually"
  
- objective_tutorial_name_SWE:0 "#v $SWE$#!"
+ objective_tutorial_name_SWE:0 "#v $SCA$#!"
  objective_tutorial_desc_SWE:0 "#lore $SWE_FLAVOR_TEXT$#!"
- objective_tutorial_name_BEL:0 "#v $BEL$#!"
+ objective_tutorial_name_BEL:0 "#v $DMK$#!"
  objective_tutorial_desc_BEL:0 "#lore $BEL_FLAVOR_TEXT$#!"
  objective_tutorial_name_CHL:0 "#v $CHL$#!"
  objective_tutorial_desc_CHL:0 "#lore $CHL_FLAVOR_TEXT$#!"

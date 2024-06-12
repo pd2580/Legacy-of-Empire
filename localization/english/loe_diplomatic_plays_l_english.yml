@@ -1,0 +1,8 @@
+﻿l_english:
+ dp_unify_the_isles:0 "Unify The Isles"
+ dp_unify_the_isles_tooltip:1 "#header Start a $dp_unify_the_isles$ [concept_diplomatic_play]#!\n$TOOLTIP_DELIMITER$\n$dp_unify_the_isles$"
+ dp_unify_the_isles_desc:1 "Sets the initiating [concept_war_goal] to annex all Isles homeland states held by other nations."
+   
+ dp_unify_rome:0 "Unify Rome"
+ dp_unify_rome_tooltip:1 "#header Start a $dp_unify_italy$ [concept_diplomatic_play]#!\n$TOOLTIP_DELIMITER$\n$dp_unify_rome_desc$"
+ dp_unify_rome_desc:1 "Sets the initiating [concept_war_goal] to annex all Roman homeland states held by other nations."

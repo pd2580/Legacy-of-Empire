@@ -71,11 +71,11 @@ le_bohem.3 = {
 	option = {
 		name = le_bohem.3.a
 		create_diplomatic_play = {
-			target_country = c:BAV
+			target_country = c:BAY
 			war = yes
 			type = dp_make_protectorate
 			add_war_goal = {
-				holder = c:BAV
+				holder = c:BAY
 				type = conquer_state
 				target_state = s:STATE_BOHEMIA.region_state:BOH
 			}
