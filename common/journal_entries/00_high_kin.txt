@@ -8,14 +8,14 @@ je_high_kin = {
 	}
 
 	is_shown_when_inactive = {
-		this = c:SCO
+		this = c:HKE
 		hidden_trigger = {
 			has_variable = high_kin_isles
 		}
 	}
 
 	possible = {
-		this = c:SCO
+		this = c:HKE
 		hidden_trigger = {
 			has_variable = high_kin_isles
 		}

@@ -509,7 +509,7 @@ gov_prince = {
 	possible = {	
 		has_law = law_type:law_monarchy
 		OR = {
-			AND = { exists = c:SER c:SER = ROOT }
+			AND = { exists = c:SR6 c:SR6 = ROOT }
 			AND = { exists = c:WAL c:WAL = ROOT }
 			AND = { exists = c:MOL c:MOL = ROOT }
 		}

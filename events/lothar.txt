@@ -206,16 +206,16 @@ lotharingia.4 = {
 		default_option = yes
 		name = lotharingia.4.a
 		s:STATE_POSEN = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_WEST_PRUSSIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_EAST_PRUSSIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_SILESIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 	}
 	after = {
@@ -289,34 +289,34 @@ lotharingia.5 = {
 			}
 		}
 		s:STATE_POSEN = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_WEST_PRUSSIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_EAST_PRUSSIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_BRUNSWICK = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_WESTPHALIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_HESSE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_RUHR = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_NORTH_RHINE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_RHINELAND = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_ALSACE_LORRAINE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 	}
 	after = {
@@ -326,7 +326,7 @@ lotharingia.5 = {
 	}
 }
 
-fall_theocracy.1 = {
+fall_theo.1 = {
 	type = country_event
 	placement = ROOT
 	title = fall_theocracy.1.t
@@ -379,43 +379,43 @@ lotharingia.6 = {
 		default_option = yes
 		name = lotharingia.6.a
 		s:STATE_SCHLESWIG_HOLSTEIN = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_ELBE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_HANNOVER = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_BRUNSWICK = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_WESTPHALIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_HESSE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_WURTTEMBERG = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_BADEN = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_FRANCONIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_BAVARIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_TYROL = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_AUSTRIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_SLOVENIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 	}
 	after = {
@@ -519,187 +519,187 @@ lotharingia.8 = {
 			}
 		}
 		s:STATE_POSEN = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_WEST_PRUSSIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_EAST_PRUSSIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_BRUNSWICK = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_WESTPHALIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_HESSE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_RUHR = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_NORTH_RHINE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_RHINELAND = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_ALSACE_LORRAINE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_ISTRIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_SLOVENIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_SOUTH_TYROL = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_VENETIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_LOMBARDY = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_PIEDMONT = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_ROMAGNA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_EMILIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_UMBRIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_ABRUZZO = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_LAZIO = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_TUSCANY = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_WEST_SWITZERLAND = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_EAST_SWITZERLAND = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_FRANCONIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_WURTTEMBERG = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_BADEN = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_BAVARIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_TYROL = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_AUSTRIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_STYRIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_SCHLESWIG_HOLSTEIN = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_ELBE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_HANNOVER = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_FRIESLAND = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_GELRE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_HOLLAND = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_FLANDERS = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_WALLONIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_FRENCH_LOW_COUNTRIES = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_LORRAINE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_FRANCHE_COMTE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_SAVOY = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_CHAMPAGNE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_PICARDY = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_NORMANDY = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_ILE_DE_FRANCE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_BURGUNDY = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_RHONE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_PROVENCE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_ORLEANS = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_BRITTANY = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_MAINE_ANJOU = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_POITOU = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_AUVERGNE_LIMOUSIN = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_LANGUEDOC = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_GUYENNE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_AQUITAINE = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_CATALONIA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_ARAGON = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 		s:STATE_NAVARRA = {
-			add_claim = c:SAX
+			add_claim = c:THU
 		}
 	}
 	after = {
@@ -756,6 +756,7 @@ lotharingia.9 = {
 		add_primary_culture = cu:occitan
 		add_primary_culture = cu:north_roman
 		add_primary_culture = cu:dutch
+		change_tag = HRE
 	}
 }
 
@@ -828,6 +829,9 @@ lotharingia.11 = {
 	option = {
 		name = lotharingia.11.a
 		default_option = yes
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_census_voting
+		change_tag = PRU
 		every_interest_group = {
 			limit = {
 				OR = {

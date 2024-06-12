@@ -500,7 +500,7 @@ DEFAULT = {
 	}
 }
 
-SWE = {
+SCA = {
 	dynamic_country_name = {
 		name = dyn_c_gotland_revolt
 		adjective = dyn_c_gotland_revolt_adj
@@ -666,7 +666,7 @@ AZB = { # Azerbaijan
 	}
 }
 
-BAV = { # Bavaria
+BAY = { # Bavaria
 	dynamic_country_name = {
 		name = dyn_c_bavarian_raterepublic
 		adjective = BAV_ADJ
@@ -680,7 +680,7 @@ BAV = { # Bavaria
 	}
 }
 
-BEL = { # Belgium
+DMK = { # Belgium
 	dynamic_country_name = {
 		name = dyn_c_united_belgian_states
 		adjective = BEL_ADJ
@@ -1260,39 +1260,6 @@ ITA = { # Italy
 			scope:actor = { 
 				has_law = law_type:law_theocracy 
 				was_formed_from = PAP
-			}
-		}
-	}
-}
-
-JAP = { # Japan
-	dynamic_country_name = {
-		name = dyn_c_japan_shogunate
-		adjective = dyn_c_japan_shogunate_adj
-
-		is_main_tag_only = yes
-		priority = 10
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_monarchy
-				NOT = { has_variable = meiji_var }
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_empire_of_japan
-		adjective = dyn_c_empire_of_japan_adj
-
-		is_main_tag_only = yes
-		priority = 20
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_monarchy
-				has_variable = meiji_var
 			}
 		}
 	}

@@ -47,9 +47,6 @@ je_a_kingdom_for_ngp = {
 		trigger_event = {
 			id = lotharingia.11
 		}
-		activate_law = law_type:law_parliamentary_republic
-		activate_law = law_type:law_census_voting
-		change_tag = PRU
 	}
 	should_be_pinned_by_default = yes
 }
@@ -94,6 +91,22 @@ je_charlemagne_legacy = {
 			id = lotharingia.8
 		}
 	}
+	fail = {
+		OR = {
+			any_scope_state = {
+				state_region = s:STATE_SAXONY
+				turmoil >= 0.2
+			}
+		scope:armed_forces_leader = {
+			is_character_alive = no
+		}
+	}
+}
+	on_fail = {
+		trigger_event = {
+			id = lotharingia.11
+		}
+	}
 	should_be_pinned_by_default = yes
 }
 
@@ -117,7 +130,7 @@ je_gods_chosen_people = {
 	}
 	on_fail = {
 		trigger_event = {
-			id = fall_theocracy.1
+			id = fall_theo.1
 		}
 	}
 	should_be_pinned_by_default = yes
@@ -242,6 +255,7 @@ je_restore_the_ce = {
 		}
 	}
 	on_complete = {
+		change_tag = HRE
 		trigger_event = {
 			id = lotharingia.9
 		}
@@ -326,7 +340,7 @@ je_german_conf = {
 				owns_entire_state_region = STATE_BAVARIA
 				owns_entire_state_region = STATE_TYROL
 			}
-			c:BAV = {
+			c:BAY = {
 				is_subject_of = ROOT
 				relations:ROOT > relations_threshold:cordial
 			}
@@ -343,11 +357,11 @@ je_german_conf = {
 		}
 		if = {
 			limit = {
-				c:BAV = {
+				c:BAY = {
 					is_subject_of = ROOT
 				}
 			}
-			annex = c:BAV
+			annex = c:BAY
 		}
 		change_tag = GER
 		trigger_event = {

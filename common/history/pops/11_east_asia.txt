@@ -230,6 +230,16 @@
 				size = 81994
 			}
 		}
+		region_state:VEN = {
+			create_pop = {
+				culture = han 
+				size = 1256348
+			}
+			create_pop = {
+				culture = north_roman
+				size = 845982
+			}
+		}
 	}
 	s:STATE_SHENGJING = {
 		region_state:KOR = {
@@ -623,6 +633,16 @@
 				size = 54528
 			}
 		}
+		region_state:VEN = {
+			create_pop = {
+				culture = han 
+				size = 326789
+			}
+			create_pop = {
+				culture = north_roman
+				size =56905
+			}
+		}
 	}
 	s:STATE_JIANGXI = {
 		region_state:CHI = {
@@ -770,6 +790,16 @@
 			create_pop = {
 				culture = han # nanfaren
 				size = 15088000
+			}
+		}
+		region_state:VEN = {
+			create_pop = {
+				culture = han 
+				size = 483001
+			}
+			create_pop = {
+				culture = north_roman
+				size = 88692
 			}
 		}
 	}

@@ -1,0 +1,18 @@
+je_bav_pro = {
+ 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	group = je_group_historical_content
+	complete = {
+		c:BAY = {
+			is_subject_of = ROOT
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = bohem.4
+		}
+	}
+	fail = {
+		game_date > 1838.1.1
+	}
+	should_be_pinned_by_default = yes
+}

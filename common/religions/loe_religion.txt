@@ -1,0 +1,7 @@
+﻿norse = {
+	texture = "gfx/interface/icons/religion_icons/protestant.dds"
+	traits = {
+		christian
+	}
+	color = { 95 154 222 }
+}

@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_LOMBARDY = {
-		region_state:PAD = {
+		region_state:LMG = {
 			create_pop = {
 				culture = north_roman
 				size = 2376996
@@ -13,7 +13,7 @@
 		}
 	}
 	s:STATE_PIEDMONT = {
-		region_state:PAD = {
+		region_state:LMG = {
 			create_pop = {
 				culture = north_roman
 				size = 2367188
@@ -33,7 +33,7 @@
 		region_state:SYR = {
 			create_pop = {
 				culture = phoenician
-				size = 524084
+				size = 1524084
 			}
 		}
 	}
@@ -53,7 +53,7 @@
 		region_state:UMB = {
 			create_pop = {
 				culture = south_roman
-				size = 451000
+				size = 1451000
 			}
 		}
 	}
@@ -82,7 +82,7 @@
 		region_state:NAP = {
 			create_pop = {
 				culture = south_roman
-				size = 2557396
+				size = 2257396
 			}
 		}
 	}
@@ -90,15 +90,15 @@
 		region_state:NAP = {
 			create_pop = {
 				culture = south_roman
-				size = 882848
+				size = 1882848
 			}
 		}
 	}
 	s:STATE_APULIA = {
-		region_state:HEL = {
+		region_state:SEE = {
 			create_pop = {
 				culture = south_roman
-				size = 1284392
+				size = 1984392
 			}
 		}
 	}
@@ -106,7 +106,7 @@
 		region_state:UMB = {
 			create_pop = {
 				culture = south_roman
-				size = 660448
+				size = 1660448
 			}
 		}
 	}
@@ -130,15 +130,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = north_roman
-				size = 472004
-			}
-			create_pop = {
-				culture = north_roman
-				size = 108408
-			}
-			create_pop = {
-				culture = north_roman
-				size = 648400
+				size = 1772004
 			}
 		}
 	}
@@ -146,7 +138,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = north_roman
-				size = 1625400
+				size = 1925400
 			}
 			create_pop = {
 				culture = north_roman
@@ -159,7 +151,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = north_roman
-				size = 803600
+				size = 1803600
 			}
 		}
 	}
@@ -167,7 +159,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = south_roman
-				size = 1333868
+				size = 2433868
 			}
 			create_pop = {
 				culture = south_roman
@@ -177,10 +169,10 @@
 		}
 	}
 	s:STATE_VENETIA = {
-		region_state:PAD = {
+		region_state:VEN = {
 			create_pop = {
 				culture = north_roman
-				size = 1855196
+				size = 3855196
 			}
 			create_pop = {
 				culture = north_roman
@@ -201,7 +193,7 @@
 			}
 			create_pop = {
 				culture = phoenician
-				size = 600000
+				size = 1256875
 			}
 		}
 	}
@@ -551,7 +543,7 @@
 		}
 	}
 	s:STATE_BOSNIA = {
-		region_state:BOS = {
+		region_state:SR5 = {
 			create_pop = {
 				culture = bosniak
 				size = 304908
@@ -575,7 +567,7 @@
 				size = 5000
 			}
 		}
-		region_state:SER = {
+		region_state:SR6 = {
 			create_pop = {
 				culture = serb
 				size = 450000
@@ -714,7 +706,7 @@
 		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:TRE = {
+		region_state:VEN = {
 			create_pop = {
 				culture = north_roman
 				size = 197800

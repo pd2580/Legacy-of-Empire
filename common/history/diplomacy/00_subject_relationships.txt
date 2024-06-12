@@ -1,5 +1,5 @@
 ﻿DIPLOMACY = {
-	c:POL = {
+	c:PLE = {
 		create_diplomatic_pact = {
 			country = c:SMO
 			type = dominion
@@ -59,7 +59,7 @@
 	}
 	c:AMS = {
 		create_diplomatic_pact = {
-			country = c:BEL
+			country = c:DMK
 			type = puppet
 		}
 		create_diplomatic_pact = {
@@ -75,7 +75,7 @@
 			type = dominion
 		}
 	}
-	c:BAV = {
+	c:BAY = {
 		create_diplomatic_pact = {
 			country = c:AUS
 			type = protectorate
@@ -89,7 +89,7 @@
 			type = dominion
 		}
 	}
-	c:SAX = {
+	c:THU = {
 		create_diplomatic_pact = {
 			country = c:MAD
 			type = dominion
@@ -105,7 +105,7 @@
 			type = puppet
 		}	
 	}
-	c:SWE = {
+	c:SCA = {
 		create_diplomatic_pact = {
 			country = c:NOR
 			type = personal_union
