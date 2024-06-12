@@ -661,14 +661,6 @@
 				size = 19204
 			}
 			create_pop = {
-				culture = maltese
-				size = 2000
-			}
-			create_pop = {
-				culture = south_roman
-				size = 2000
-			}
-			create_pop = {
 				culture = berber
 				size = 100000
 			}
@@ -686,6 +678,12 @@
 				pop_type = slaves
 				culture = equatorial_bantu
 				size = 13000
+			}
+		}
+		region_state:SYR = {
+			create_pop = {
+				culture = phoenician
+				size = 2905763
 			}
 		}
 	}
