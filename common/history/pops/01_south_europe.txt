@@ -172,7 +172,7 @@
 		region_state:VEN = {
 			create_pop = {
 				culture = north_roman
-				size = 1855196
+				size = 3855196
 			}
 			create_pop = {
 				culture = north_roman

@@ -184,6 +184,11 @@ STATES = {
 				"x115180" "x16E6F3" "x175EC6" "x1ABD79" "x1D4C25" "x2EF696" "x32CFB2" "x33490F" "x38A73B" "x39F708" "x41FB70" "x4724A9" "x483CDB" "x498F0D" "x50D040" "x55944E" "x599BC4" "x6B8F67" "x6BFF52" "x6DA6F9" "x71C085" "x798677" "x8064F0" "x83EC09" "x90D001" "x9D1474" "xA0CF65" "xAB53A3" "xAC24A6" "xAEDF9B" "xB33A36" "xBAA1D3" "xC13552" "xC14ECA" "xC55E74" "xCF50BF" "xE01180" "xE19708" "xF07810" "xF2D180"
 			}
 		}
+		create_state = {
+			country = c:VEN
+			owned_provinces = { x90D001 x6BFF52 x1ABD79 }
+			state_type = unincorporated
+		}
 		
 		add_homeland = cu:han
 	}
@@ -5591,7 +5596,11 @@ STATES = {
 				"x038690" "x0DC804" "x0E8D56" "x0F5604" "x0F88C8" "x132B15" "x15C9C0" "x166F01" "x1DE6DF" "x1E1B11" "x20642C" "x2167D8" "x231686" "x248784" "x2AD313" "x2BA1CE" "x2C0AC4" "x2F7E73" "x3A340B" "x3C6EFC" "x3CFF20" "x3E9C33" "x3F46FB" "x49C04A" "x4BECCA" "x4ED08B" "x58AFAC" "x5D4C2D" "x5F795B" "x61E0DD" "x6376AC" "x6583A6" "x6A5736" "x6AB0FB" "x74A475" "x74DF28" "x762B45" "x777A4F" "x84B446" "x88FF71" "x89DBF2" "x8D47D0" "x9BB46B" "xA0662C" "xA8C9D2" "xAA031A" "xAF5387" "xB00D9D" "xB17E6B" "xB6039C" "xB9FF8C" "xBCF72D" "xBDC299" "xC7BB4D" "xC905ED" "xCC917E" "xCDCDEE" "xD13996" "xD1BFAF" "xD4E0E8" "xE60560" "xED840A" "xF151F1" "xF1EF03" "xF4B72A" "xFBDEDF"
 			}
 		}
-		add_homeland = cu:han
+		create_state = {
+			country = c:VEN
+			owned_provinces = { x58AFAC xCDCDEE xF151F1 xB00D9D }
+		}
+		add_homeland = cu:han		
 	}
 	s:STATE_SHENGJING = {
 		create_state = {
@@ -5750,6 +5759,11 @@ STATES = {
 			owned_provinces = { 
 				"x0970D9" "x0FEECE" "x115101" "x1AB7C6" "x1F637F" "x215101" "x43043A" "x480190" "x4E770A" "x5CFC15" "x5DA25B" "x5E5C94" "x680507" "x6850DA" "x76B0CC" "x81A01A" "x83E0CF" "x905101" "xA08982" "xAD4A5C" "xD09080" "xD8F037" "xDBD047" "xE0D001" "xE5DAD3" "xF54194" "xF7D611" "xF9A4A2"
 			}
+		}
+		create_state = {
+			country = c:VEN
+			owned_provinces = { xE5DAD3 x0FEECE xD8F037 }
+			state_type = treaty_port
 		}
 		
 		add_homeland = cu:han
@@ -6526,7 +6540,7 @@ STATES = {
 	}
 	s:STATE_AUSTRIA = {
 		create_state = {
-			country = c:BAV
+			country = c:AUS
 			owned_provinces = { xA40093 x316141 x7F2E4E x1180A0 x0CBB8F x20CF50 x84C7C3 xA9793B x62F70E x9001A0 xFDA6CB }
 		}
 		
