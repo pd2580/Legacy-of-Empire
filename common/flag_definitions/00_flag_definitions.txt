@@ -848,10 +848,10 @@ BAS = { # Bastar
 	}		
 }
 
-BAV = { # Bavaria
+BAY = { # Bavaria
 	flag_definition = {
-		coa = BAV
-		subject_canton = BAV
+		coa = BAY
+		subject_canton = BAY
 		allow_overlord_canton = yes
 		priority = 1
 	}
@@ -888,10 +888,10 @@ BAV = { # Bavaria
 	}	
 }
 
-BEL = { # Belgium
+DMK = { # Belgium
 	flag_definition = {
-		coa = BEL
-		subject_canton = BEL
+		coa = DMK
+		subject_canton = DMK
 		allow_overlord_canton = yes	
 		coa_with_overlord_canton = BEL_subject			
 		priority = 1
@@ -937,7 +937,7 @@ BEL = { # Belgium
 	}	
 	flag_definition = {
 		coa = BEL_subject	
-		subject_canton = BEL
+		subject_canton = DMK
 		allow_overlord_canton = yes	
 		overlord_canton_offset = { 0.01 0.015 }
 		overlord_canton_scale = { 0.48 0.47 }			
@@ -948,7 +948,7 @@ BEL = { # Belgium
 	}	
 	flag_definition = {
 		coa = BEL_subject	
-		subject_canton = BEL
+		subject_canton = DMK
 		allow_overlord_canton = yes	
 		overlord_canton_offset = { 0.01 0.015 }
 		overlord_canton_scale = { 0.48 0.47 }			
@@ -1222,10 +1222,10 @@ BOL = { # Bolivia
 	}		
 }
 
-BOS = { # Bosnia
+SR5 = { # Bosnia
 	flag_definition = {
-		coa = BOS
-		subject_canton = BOS
+		coa = SR5
+		subject_canton = SR5
 		allow_overlord_canton = yes	
 		coa_with_overlord_canton = BOS_subject
 		priority = 1
@@ -3528,7 +3528,7 @@ GER = { # Germany
 			exists = scope:actor
 			scope:actor = {
 				has_law = law_type:law_monarchy
-				was_formed_from = BAV
+				was_formed_from = BAY
 			}
 		}
 	}	
@@ -3553,7 +3553,7 @@ GER = { # Germany
 			exists = scope:actor
 			scope:actor = {
 				has_law = law_type:law_monarchy
-				was_formed_from = SAX
+				was_formed_from = THU
 			}
 		}
 	}
@@ -3566,7 +3566,7 @@ GER = { # Germany
 			coa_def_absolute_monarchy_flag_trigger = yes
 			exists = scope:actor
 			scope:actor = {
-				was_formed_from = SAX
+				was_formed_from = THU
 			}
 		}
 	}
@@ -7049,10 +7049,10 @@ PNM = { # Panama
 	}	
 }
 
-POL = { # Poland
+PLE = { # Poland
 	flag_definition = {
-		coa = POL
-		subject_canton = POL
+		coa = PLE
+		subject_canton = PLE
 		priority = 1
 	}	
 	flag_definition = {
@@ -7503,11 +7503,11 @@ SAV = { # Savoy
 }
 
 
-SAX = { # Saxony
+THU = { # Saxony
 	flag_definition = {
-		coa = SAX
+		coa = THU
 		allow_overlord_canton = yes		
-		subject_canton = SAX
+		subject_canton = THU
 		priority = 1
 	}
 	flag_definition = {
@@ -7596,10 +7596,10 @@ SCN = { # Scania
 }
 
 
-SCO = { # Scotland
+HKE = { # Scotland
 	flag_definition = {
-		coa = SCO
-		subject_canton = SCO
+		coa = HKE
+		subject_canton = HKE
 		priority = 1
 	}
 	flag_definition = {
@@ -7619,7 +7619,7 @@ SCO = { # Scotland
 	}
 	flag_definition = {
 		coa = SCO_military
-		subject_canton = SCO
+		subject_canton = HKE
 		priority = 20
 		trigger = { 
 			coa_def_military_junta_flag_trigger = yes
@@ -7668,10 +7668,10 @@ SEQ = { # Indian Territory
 	}	
 }
 
-SER = { # Serbia
+SR6 = { # Serbia
 	flag_definition = {
-		coa = SER
-		subject_canton = SER
+		coa = SR6
+		subject_canton = SR6
 		allow_overlord_canton = yes			
 		coa_with_overlord_canton = SER_subject					
 		priority = 1
@@ -7687,8 +7687,8 @@ SER = { # Serbia
 		}
 	}	
 	flag_definition = {
-		coa = SER
-		subject_canton = SER
+		coa = SR6
+		subject_canton = SR6
 		allow_overlord_canton = yes				
 		priority = 10
 		trigger = { 
@@ -8014,9 +8014,9 @@ SUL = { # Sulu
 	}
 }
 
-SWE = { # Sweden
+SCA = { # Sweden
 	flag_definition = {
-		coa = SWE
+		coa = SCA
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_sweden_x @canton_scale_sweden_y }
 		subject_canton = SWE_canton
@@ -8024,7 +8024,7 @@ SWE = { # Sweden
 	}
 	flag_definition = {
 		coa = SWE_norway
-		coa_with_overlord_canton = SWE
+		coa_with_overlord_canton = SCA
 		allow_overlord_canton = yes
 		subject_canton = SWE_canton
 		overlord_canton_scale = { @canton_scale_sweden_x @canton_scale_sweden_y }
@@ -8035,7 +8035,7 @@ SWE = { # Sweden
 	}
 	flag_definition = {
 		coa = SWE_union_mark_canton
-		coa_with_overlord_canton = SWE
+		coa_with_overlord_canton = SCA
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_sweden_x @canton_scale_sweden_y }
 		subject_canton = sub_SWE_union_mark
@@ -8067,7 +8067,7 @@ SWE = { # Sweden
 		coa = SWE_absolute_monarchy
 		# allow_overlord_canton = yes
 		# overlord_canton_scale = { @canton_scale_sweden_x @canton_scale_sweden_y }
-		subject_canton = SWE
+		subject_canton = SCA
 		priority = 10
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes

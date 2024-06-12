@@ -209,7 +209,7 @@ BGY = {
 	ai_will_do = { always = yes }
 }
 
-SWE = {
+SCA = {
 	states = { 
 		STATE_SVEALAND 
 		STATE_GOTALAND 
@@ -429,7 +429,7 @@ AST = {
 	}
 }
 
-POL = {
+PLE = {
 	use_culture_states = yes
 
 	required_states_fraction = 0.55

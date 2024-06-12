@@ -697,7 +697,7 @@ WES = {
 	is_named_from_capital = yes
 }
 
-SAX = { ## Saxony
+THU = { ## Saxony
 	color = { 145 129 124 }
 	
 	country_type = recognized
@@ -882,7 +882,7 @@ NOR = {
 	capital = STATE_EASTERN_NORWAY
 }
 
-SWE = {
+SCA = {
 	color = { 87  130  199 }
 	
 	country_type = recognized
@@ -905,7 +905,7 @@ SCN = {
 	is_named_from_capital = yes
 }
 
-BEL = {
+DMK = {
 	color = { 235 200 127 }
 	
 	country_type = recognized
@@ -984,7 +984,7 @@ POR = {
 	capital = STATE_ESTREMADURA
 }
 
-SCO = {
+HKE = {
 	color = { 142 230 190 }
 	
 	country_type = recognized
@@ -1088,7 +1088,7 @@ BAD = {
 	is_named_from_capital = yes
 }
 
-BAV = {
+BAY = {
 	color = { 121  175  235 }
 	
 	country_type = recognized
@@ -1478,7 +1478,7 @@ LAT = {
 	is_named_from_capital = yes
 }
 
-POL = {
+PLE = {
 	color = { 209 67 86 }
 	
 	country_type = recognized
@@ -1556,7 +1556,7 @@ ALB = {
 	is_named_from_capital = yes
 }
 
-BOS = {
+SR5 = {
 	color = { 240  167  130 }
 	
 	country_type = recognized
@@ -1663,7 +1663,7 @@ ROM = {
 	cultures = { romanian }
 }
 
-SER = {
+SR6 = {
 	color = { 166  72  57 }
 	
 	country_type = recognized
@@ -4477,7 +4477,7 @@ CAU = {
 	capital = STATE_GREATER_CAUCASUS
 }
 
-PAD = {
+LMG = {
 	color = { 73  152  76 }
 	
 	country_type = recognized

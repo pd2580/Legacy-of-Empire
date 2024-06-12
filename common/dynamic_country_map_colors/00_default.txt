@@ -11,8 +11,8 @@
 #    color = "black"
 #	
 #	possible = {
-#		exists = c:SWE # you /must/ check that a tag exists before doing anything else
-#		this = c:SWE
+#		exists = c:SCA # you /must/ check that a tag exists before doing anything else
+#		this = c:SCA
 #
 #        exists = ig:ig_armed_forces
 #        ig:ig_armed_forces = {

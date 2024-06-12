@@ -11,7 +11,7 @@
 			type = trade_agreement
 		}		
 		create_diplomatic_pact = {
-			country = c:BEL
+			country = c:DMK
 			type = trade_agreement
 		}		
 	}	

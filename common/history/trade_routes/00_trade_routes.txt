@@ -19,7 +19,7 @@
 		create_trade_route = {
 			goods = lead
 			level = 3
-			target = c:POL.market
+			target = c:PLE.market
 			direction = import
 		}
 		create_trade_route = {
@@ -30,7 +30,7 @@
 		}
 	}
 	#High Kingdom
-	c:SCO = {
+	c:HKE = {
 		create_trade_route = {
 			goods = sugar
 			level = 6
@@ -45,7 +45,7 @@
 		}
 	}
 	#Bavaria
-	c:BAV = {
+	c:BAY = {
 		create_trade_route = {
 			goods = engines
 			level = 5
@@ -59,53 +59,53 @@
 			goods = iron
 			level = 5
 			direction = export
-			target = c:SAX.market
+			target = c:THU.market
 		}
 		create_trade_route = {
 			goods = hardwood
 			level = 8
 			direction = export
-			target = c:BAV.market
+			target = c:BAY.market
 		}
 		create_trade_route = {
 			goods = liquor
 			level = 6
 			direction = export
-			target = c:BAV.market
+			target = c:BAY.market
 		}
 		create_trade_route = {
 			goods = coal
 			level = 4
 			direction = export
-			target = c:SAX.market
+			target = c:THU.market
 		}
 		create_trade_route = {
 			goods = liquor
 			level = 4
 			direction = export
-			target = c:SAX.market
+			target = c:THU.market
 		}
 		create_trade_route = {
 			goods = paper
 			level = 5
 			direction = import
-			target = c:BAV.market
+			target = c:BAY.market
 		}
 		create_trade_route = {
 			goods = sugar
 			level = 3
 			direction = import
-			target = c:BAV.market
+			target = c:BAY.market
 		}
 		create_trade_route = {
 			goods = lead
 			level = 4
 			direction = import
-			target = c:BAV.market
+			target = c:BAY.market
 		}
 	}
 	#Polish Empire
-	c:POL = {
+	c:PLE = {
 		create_trade_route = {
 			goods = silk
 			level = 5
@@ -125,13 +125,13 @@
 			goods = coal
 			level = 3
 			direction = import
-			target = c:SCO.market
+			target = c:HKE.market
 		}
 		create_trade_route = {
 			goods = clippers
 			level = 4
 			direction = import
-			target = c:SWE.market
+			target = c:SCA.market
 		}
 	}
 	#England
@@ -179,25 +179,25 @@
 			goods = lead
 			level = 8
 			direction = export
-			target = c:SAX.market
+			target = c:THU.market
 		}
 		create_trade_route = {
 			goods = hardwood
 			level = 8
 			direction = export
-			target = c:BAV.market
+			target = c:BAY.market
 		}
 		create_trade_route = {
 			goods = hardwood
 			level = 5
 			direction = export
-			target = c:SAX.market
+			target = c:THU.market
 		}
 		create_trade_route = {
 			goods = tools
 			level = 8
 			direction = export
-			target = c:SAX.market
+			target = c:THU.market
 		}
 		create_trade_route = {
 			goods = tools
@@ -221,7 +221,7 @@
 			goods = liquor
 			level = 6
 			direction = export
-			target = c:BAV.market
+			target = c:BAY.market
 		}
 		create_trade_route = {
 			goods = iron
@@ -233,13 +233,13 @@
 			goods = iron
 			level = 6
 			direction = export
-			target = c:BAV.market
+			target = c:BAY.market
 		}
 		create_trade_route = {
 			goods = iron
 			level = 3
 			direction = export
-			target = c:SAX.market
+			target = c:THU.market
 		}
 	}
 	#Rebels
@@ -383,7 +383,7 @@
 			goods = clothes
 			level = 2
 			direction = export
-			target = c:SAX.market
+			target = c:THU.market
 		}
 		create_trade_route = {
 			goods = tools
@@ -434,7 +434,7 @@
 			goods = liquor
 			level = 7
 			direction = export
-			target = c:BEL.market
+			target = c:DMK.market
 		}			
 		create_trade_route = {
 			goods = coffee
@@ -1119,7 +1119,7 @@
 			goods = iron
 			level = 2
 			direction = import
-			target = c:SWE.market
+			target = c:SCA.market
 		}
 		create_trade_route = {
 			goods = hardwood
@@ -1131,7 +1131,7 @@
 			goods = hardwood
 			level = 1
 			direction = import
-			target = c:SWE.market
+			target = c:SCA.market
 		}
 	}
 
@@ -1549,7 +1549,7 @@
 	}
 
 	# Sweden 	
-	c:SWE = {	
+	c:SCA = {	
 		create_trade_route = {
 			goods = hardwood
 			level = 9
@@ -1586,7 +1586,7 @@
 			goods = wood
 			level = 3
 			direction = import
-			target = c:SWE.market
+			target = c:SCA.market
 		}
 		create_trade_route = {
 			goods = grain
@@ -1984,12 +1984,12 @@
 			goods = iron
 			level = 5
 			direction = import
-			target = c:SWE.market
+			target = c:SCA.market
 		}	
 	}
 	
 	# Belgium
-	c:BEL = {
+	c:DMK = {
 		create_trade_route = {
 			goods = fertilizer
 			level = 7
@@ -2116,7 +2116,7 @@
 			goods = wood
 			level = 8
 			direction = import
-			target = c:SWE.market
+			target = c:SCA.market
 		}		
 		create_trade_route = {
 			goods = wood
@@ -2140,7 +2140,7 @@
 			goods = iron
 			level = 4
 			direction = import
-			target = c:SWE.market
+			target = c:SCA.market
 		}			
 	}
 

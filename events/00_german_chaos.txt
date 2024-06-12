@@ -31,14 +31,14 @@ ger_cha.1 = {
 		ai_chance = {
 			base = .50
 		}
-		c:SAX = { trigger_event = {id = ger_cha.2} }
+		c:THU = { trigger_event = {id = ger_cha.2} }
 	}
 	option = {
 		name = ger_cha.1.b
 		ai_chance = {
 			base = .48
 		}
-		c:BAV = { trigger_event = {id = ger_cha.3} }
+		c:BAY = { trigger_event = {id = ger_cha.3} }
 	}
 	option = {
 		name = ger_cha.1.c

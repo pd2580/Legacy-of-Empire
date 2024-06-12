@@ -114,7 +114,7 @@
 		}
 	}
 	s:STATE_BREST={
-		region_state:POL={
+		region_state:PLE={
 			create_building={ ## Rye Farm
 				building="building_rye_farm"
 				level=5
@@ -130,7 +130,7 @@
 		}
 	}
 	s:STATE_VOLHYNIA={
-		region_state:POL={
+		region_state:PLE={
 			create_building={
 				building="building_logging_camp"
 				level=6
@@ -146,7 +146,7 @@
 		}
 	}
 	s:STATE_KIEV={
-		region_state:POL={
+		region_state:PLE={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -208,7 +208,7 @@
 		}
 	}
 	s:STATE_SMOLENSK={
-		region_state:POL={
+		region_state:PLE={
 			create_building={
 				building="building_food_industry"
 				level=3
@@ -230,7 +230,7 @@
 		}
 	}
 	s:STATE_ORSHA={
-		region_state:POL={
+		region_state:PLE={
 			create_building={
 				building="building_paper_mills"
 				level=3
@@ -376,7 +376,7 @@
 		}
 	}
 	s:STATE_CHERSON={
-		region_state:POL={
+		region_state:PLE={
 			create_building={
 				building="building_shipyards"
 				level=1
@@ -426,7 +426,7 @@
 		}
 	}
 	s:STATE_MINSK={
-		region_state:POL={
+		region_state:PLE={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -558,7 +558,7 @@
 		}
 	}
 	s:STATE_MAZOVIA={
-		region_state:POL={
+		region_state:PLE={
 			create_building={ ## Furniture Manufacturies
 				building="building_furniture_manufacturies"
 				level=1
@@ -606,7 +606,7 @@
 		}
 	}
 	s:STATE_SILESIA={
-		region_state:POL={
+		region_state:PLE={
 			create_building={ ## Textile Mills
 				building="building_textile_mills"
 				level=8
@@ -658,7 +658,7 @@
 		}
 	}
 	s:STATE_GREATER_POLAND={
-		region_state:POL={
+		region_state:PLE={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -686,7 +686,7 @@
 		}
 	}
 	s:STATE_LESSER_POLAND={
-		region_state:POL={
+		region_state:PLE={
 			create_building={ ## Construction Sector
 				building="building_construction_sector"
 				level=3
@@ -900,7 +900,7 @@
 		}
 	}
 	s:STATE_WEST_GALICIA={
-		region_state:POL={
+		region_state:PLE={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -934,7 +934,7 @@
 		}
 	}
 	s:STATE_EAST_GALICIA={
-		region_state:POL={
+		region_state:PLE={
 			create_building={
 				building="building_government_administration"
 				level=3

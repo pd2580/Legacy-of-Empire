@@ -41,7 +41,7 @@
 		}
 	}
 	s:STATE_BREST = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = polish
 				size = 143992
@@ -75,7 +75,7 @@
 		}
 	}
 	s:STATE_VOLHYNIA = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = polish
 				size = 140004
@@ -95,7 +95,7 @@
 		}
 	}
 	s:STATE_KIEV = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = ukrainian
 				size = 3923992
@@ -140,7 +140,7 @@
 		}
 	}
 	s:STATE_ORSHA = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = russian
 				size = 88400
@@ -269,7 +269,7 @@
 		}
 	}
 	s:STATE_CHERSON = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = ukrainian
 				size = 986108
@@ -326,7 +326,7 @@
 		}
 	}
 	s:STATE_MINSK = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = polish
 				size = 139932
@@ -476,7 +476,7 @@
 		}
 	}
 	s:STATE_MAZOVIA = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = polish
 				size = 1676000
@@ -501,7 +501,7 @@
 		}
 	}
 	s:STATE_SILESIA = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = north_german
 				size = 1319008
@@ -525,7 +525,7 @@
 				size = 60000
 			}
 		}
-		region_state:SAX = {
+		region_state:THU = {
 			create_pop = {
 				culture = north_german
 				size = 856987
@@ -533,7 +533,7 @@
 		}
 	}
 	s:STATE_GREATER_POLAND = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = polish
 				size = 897396
@@ -554,7 +554,7 @@
 		}
 	}
 	s:STATE_LESSER_POLAND = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = polish
 				size = 1057396
@@ -653,7 +653,7 @@
 		}
 	}
 	s:STATE_WEST_GALICIA = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = polish
 				size = 1740004
@@ -689,7 +689,7 @@
 		}
 	}
 	s:STATE_EAST_GALICIA = {
-		region_state:POL = {
+		region_state:PLE = {
 			create_pop = {
 				culture = polish
 				size = 832800

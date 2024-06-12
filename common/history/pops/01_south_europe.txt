@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_LOMBARDY = {
-		region_state:PAD = {
+		region_state:LMG = {
 			create_pop = {
 				culture = north_roman
 				size = 2376996
@@ -13,7 +13,7 @@
 		}
 	}
 	s:STATE_PIEDMONT = {
-		region_state:PAD = {
+		region_state:LMG = {
 			create_pop = {
 				culture = north_roman
 				size = 2367188
@@ -543,7 +543,7 @@
 		}
 	}
 	s:STATE_BOSNIA = {
-		region_state:BOS = {
+		region_state:SR5 = {
 			create_pop = {
 				culture = bosniak
 				size = 304908
@@ -567,7 +567,7 @@
 				size = 5000
 			}
 		}
-		region_state:SER = {
+		region_state:SR6 = {
 			create_pop = {
 				culture = serb
 				size = 450000

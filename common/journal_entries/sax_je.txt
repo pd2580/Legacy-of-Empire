@@ -340,7 +340,7 @@ je_german_conf = {
 				owns_entire_state_region = STATE_BAVARIA
 				owns_entire_state_region = STATE_TYROL
 			}
-			c:BAV = {
+			c:BAY = {
 				is_subject_of = ROOT
 				relations:ROOT > relations_threshold:cordial
 			}
@@ -357,11 +357,11 @@ je_german_conf = {
 		}
 		if = {
 			limit = {
-				c:BAV = {
+				c:BAY = {
 					is_subject_of = ROOT
 				}
 			}
-			annex = c:BAV
+			annex = c:BAY
 		}
 		change_tag = GER
 		trigger_event = {

@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_LOMBARDY={
-		region_state:PAD={
+		region_state:LMG={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -62,7 +62,7 @@
 		}
 	}
 	s:STATE_PIEDMONT={
-		region_state:PAD={
+		region_state:LMG={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1924,7 +1924,7 @@
 		}
 	}
 	s:STATE_BOSNIA={
-		region_state:BOS={
+		region_state:SR5={
 			create_building={
 				building="building_tooling_workshops"
 				level=2

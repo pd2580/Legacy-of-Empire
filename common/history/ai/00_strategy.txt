@@ -1,5 +1,5 @@
 ﻿AI = {
-	c:SWE = {
+	c:SCA = {
 		random_list = {	
 			75 = { set_strategy = ai_strategy_resource_expansion }
 			25 = { set_strategy = ai_strategy_industrial_expansion }
@@ -43,7 +43,7 @@
 			50 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}
-	c:SCO = {
+	c:HKE = {
 		random_list = {	
 			75 = { set_strategy = ai_strategy_resource_expansion }
 			25 = { set_strategy = ai_strategy_industrial_expansion }
