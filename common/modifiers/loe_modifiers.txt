@@ -168,3 +168,20 @@ modifier_loth_fifteen = {
 	state_construction_mult = -0.1
 	state_conscription_rate_mult = -0.1
 }
+modifier_imperialist = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_approval_add = 5
+	interest_group_pol_str_mult = 0.2
+}
+polish_stupid = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	state_education_access_add = -0.25
+}
+dutch_defeat = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	interest_group_approval_add = 5
+}
+rhineland_income = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_tax_income_add = 3000
+}
