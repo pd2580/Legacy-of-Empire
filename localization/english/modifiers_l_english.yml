@@ -16,7 +16,10 @@
  native_conscription_11:0 "$native_conscription_1$"
  native_conscription_12:0 "$native_conscription_1$"
 
- polish_stupid: "Learning Struggles"
+ polish_stupid:0 "Learning Struggles"
+ modifier_imperialist:0 "Imperialist Fervor"
+ dutch_defeat:0 "Burgundian Patriotism"
+ rhineland_income:0 "Rhineland Income"
 
  modifier_country_agitator_slots_add: "Potential [Concept('concept_agitator','$concept_agitators$')]"
  modifier_country_agitator_slots_add_desc: "An increase or decrease to the number of potential [Concept('concept_agitator','$concept_agitators$')] a [concept_country] can maintain within its borders"
