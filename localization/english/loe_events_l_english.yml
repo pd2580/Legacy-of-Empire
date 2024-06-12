@@ -1,0 +1,243 @@
+﻿l_english:
+
+ iron_fist.1.t:0 "Ruling With an Iron Fish"
+ iron_fist.1.d:1 "The tyrannical rule of the Dutch across the globe is causing unrest in our colonies"
+ iron_fist.1.f:0 "Flavor Text"
+ iron_fist.1.a:0 "There is nothing we can do."
+
+ pol_reform.1.t:0 "Polish Reforms"
+ pol_reform.1.d:1 "The grand Polish Empire was built on opportune attacks, weak neighbors, and a geographical blessing. However, to esablish itself as a strong contender on the world stage, and worthy to stand as a peer to other European powers. The Empire must be able to hold it's own should the time come."
+ pol_reform.1.f:0 ""We can no longer rely on our neighbors simply being weaker than us, we have to make an active effort to be stronger than them, more advanced than them, and ensure we can hold our own should anyone question Polish Sovereignty""
+ pol_reform.1.a:0 "It's time for Poland to establish itself as a leading power on the world stage."
+
+ pol_reform.2.t:0 "The First Partition"
+ pol_reform.2.d:1 "Our greatest fears have come to light. Our neighbors have recognized our weakness, their troops are on our border, all communication has been cut. It's only a matter of time now..."
+ pol_reform.2.f:0 ""All we can do is muster every possible man that we can get our hands on, prepare for the worst, and pray""
+ pol_reform.2.a:0 "There's no way this ends well..."
+
+ high_kin.1.t:0 "Success in Ireland!"
+ high_kin.1.d:1 "Our recent conquest into the northern regions of Ireland have been successful, we have annexed our rightful land."
+ high_kin.1.f:0 ""While this is a great victory for the Nordic people, we can't stop here. We must unite all Nordic people, and we can't stop until it's done.""
+ high_kin.1.a:0 "The conquest continues."
+
+ fra_uni.1.t:0 "The Legacy of Frankia"
+ fra_uni.1.d:1 "The old French Empire fell with the death of King Louis the XIV, and with it the grand dream of a united Frankish people. The Empire has collapsed into various duchies and now, over a century later, the Burgundians and Aquitains have brought the idea of restoring the old Empire into light. We must now decide how we want to go about this issue."
+ fra_uni.1.f:0 ""Imperialists call for the full restoration of Frankia. The Liberals want us to stop before we go down the same path that sent the French into chaos."\n "It's always important to keep together the kingdom, but there's nothing stopping us from taking back our old land, right?""
+ fra_uni.1.a:0 "We should focus on stabalizing ourselves before anything else."
+ fra_uni.1.b:0 "Frankia will rise once more."
+
+ fra_uni.2.t:0 "France Reclaimed!"
+ fra_uni.2.d:1 "Through our might we have extended our influence to the rest of France. Our control over the heart of Frankia is secure, our people can rest easy, and the Imperialists are ecstaitc."
+ fra_uni.2.f:0 ""This is great day for the Frankish people. We are on the path to greatness, and this will be one of many great days for our people.""
+ fra_uni.2.a:0 "Long live the Frankish Empire. Fight on!"
+
+ fra_uni.3.t:0 "Occitania Reclaimed!"
+ fra_uni.3.d:1 "Our grand army has extended our influence into the southern regions of Frankia. Our new citizens will surely meet us with open arms as their new protector, and we will protect."
+ fra_uni.3.f:0 ""This is great day for the Frankish people. We are on the path to greatness, and this will be one of many great days for our people.""
+ fra_uni.3.a:0 "Long live the Frankish Empire. Fight on!"
+
+ fra_uni.4.t:0 "The Dutch Retreat!"
+ fra_uni.4.d:1 "We've spent years preparing. We've spent months fighting. Now, after showing Frankish superiority over the "strongest" empire in the world, we've reclaimed our homelands."
+ fra_uni.4.f:0 "The people of the Benelux welcomed the Burgundians with open arms. It had been hundreds of years since the low countries had called themselves Burgunian, but they were ready to do so once more. They were no longer under occupation, they were home."
+ fra_uni.4.a:0 "Burgundians are once more under Burgundian rule."
+
+ fra_uni.5.t:0 "The Rhine Reclaimed!"
+ fra_uni.5.d:1 "We have now reclaimed a vital industrial heartland. With The Rhine under our control we can fund further expansion of the state."
+ fra_uni.5.f:0 ""This is great day for the Frankish people. We are on the path to greatness, and this will be one of many great days for our people.""
+ fra_uni.5.a:0 "Long live the Frankish Empire. Fight on!"
+
+ fra_uni.6.t:0 "Iberia Reclaimed!"
+ fra_uni.6.d:1 "We have reclaimed the furthest extent of the old French Empire, and now Frankish people in Iberia will no longer need to fear the wrath of the Muslims, or the Spanish. They are protected now."
+ fra_uni.6.f:0 ""This is great day for the Frankish people. We are on the path to greatness, and this will be one of many great days for our people.""
+ fra_uni.6.a:0 "Long live the Frankish Empire. Fight on!"
+
+ fra_uni.7.t:0 "Frankia Re-Unified"
+ fra_uni.7.d:1 "It was a long, stressful, and painful process, but we've done it. All Frankish people are once again under one banner, our banner. From our ancestral homelands of the Low Countries to the beautiful seas of Iberia, our people are now safe. Our people can be free from oppression. Our people are free from danger. Our people are free from the shackles of old, and can now embrace the modern era with open arms."
+ fra_uni.7.f:0 "News spread slow at first, but eventually everyone had heard. Frankia was united once more. The patriots of the old Burgundian throne were now recognized as Frankish heros. Those who kept the country together throughout this battle have been relieved of a heavy burden. Those liberated from their oppressors celebrate the end of the fight, and a return to normalcy."
+ fra_uni.7.a:0 "Long live the Frankish Empire!"
+
+ papal_to_rome.1.t:0 "The Eternal City"
+ papal_to_rome.1.d:0 "Discontent is growing in Rome. After centuries of papal authority, the people grow restless.\nOutspoken voices from politicians like [SCOPE.sCharacter('intelligentsia_leader').GetFullName] call for the end of the holy tyranny and a new republic to be founded by the Roman people.\nThe catholic curia call for more extensive policing to keep the rabble down and look for assistance from the catholic powers of europe."
+ papal_to_rome.1.f:0 "“They are protesting again Your Holiness.\nThey demand your abdication”\n“This is heresy! Where is the gendarmeria?!\nHow can they continue to allow this?”\n“The gendarmeria refuses to intervene Holy Father, there is nothing we can do”\n“God help us my child, God help us all”"
+ papal_to_rome.1.a:0 "Roma restituenda est!"
+ papal_to_rome.1.b:0 "Send in the Swiss guard!"
+ papal_to_rome.2.t:0 "Senatus PopulusQue Romanus"
+ papal_to_rome.2.d:0 "After One Thousand Years, Rome Has Been Restored"
+ papal_to_rome.2.f:0 "At long last, the Eternal City is finally free, and the Pope has been forced into permanent exile.\nThe military reformed, the patrician class restored and the Church removed from its position of temporal power.\n The people celebrate in the streets, not knowing that the hardest part has yet to come.
+"
+ papal_to_rome.2.a:0 "Long live the Roman Republic"
+ papal_to_rome.3.t:0 "Roma, Ex Cinere"
+ papal_to_rome.3.d:0 "With the pope deposed, the Roman people look to the restored senate to return their great republic to prominence.\nIn the chamber of the Curia Aurelianus, many factions vie for power,knowing that this is the most critical moment to gain power.\nRome has a chance for greatness if only the right man can lead it.
+"
+ papal_to_rome.3.f:0 "“Consul, the legions demand strong leadership! We cannot stand by and watch the city burn while the senate talks!”\n“So you want another oppressor? A dictator to bleed our people dry just like the papacy? I fought for this republic! We fought for this and you want to squander it on some dream of greatness?”\n“Quiet, both of you! You illiterates use words you don’t even know the meaning of,and talk about Rome without knowing her legacy! Let the people who knows Rome’s history decide”
+"
+ papal_to_rome.3.a:0 "A New Age, A New Rome"
+ papal_to_rome.3.b:0 "Rome is meant to be an Empire!"
+ 
+ by_gods_mercy.1.t:0 "Republicans Suppressed"
+ by_gods_mercy.1.d:0 "After years of turmoil, the Pope has finally managed to impose his authority"
+ by_gods_mercy.1.f:0 "Now that the the papacy has regained stability, and no one in our lands dares to question papal authority, it's time to deal with the real enemy, the false Pope of the Holy See"
+ by_gods_mercy.1.a:0 "For the Pope, and God!"
+ fall_papacy.1.t:0 "The Fall of The Papacy"
+ fall_papacy.1.d:0 "After the fall of Rome, republican supporters have taken advantage of the chaos to depose the Pope and proclaim the rebirth of the Roman Republic"
+ fall_papacy.1.f:0 "We are now free from the tyranny of the Pope, but it's to soon to celebrate;\nRome has fallen, and we must...no, it's our mission to retake it!"
+ fall_papacy.1.a:0 "Rome will be ours!"
+
+ revive_the_roman_empire:0 "Revive the Roman Empire"
+ revive_the_roman_empire_desc:0 "Rome will cement its place as the Dominus of the Mediterranean" 
+
+ papal_to_rome.5.t:0 "The One Pope" 
+ papal_to_rome.5.d:0 "After more than three decades, the Western Schism has finally been mended, and the Pope of Rome is to be considered the only legitimate one"
+ papal_to_rome.5.f:0 "After the schism in 1809, the catholic world plunged into chaos.\nFor years the papacy has feared to lose its authority and its lands, but now the Pope and the Clergy heave a sigh of relief, as the true Pope's legitimacy has been finally reinstated."
+ papal_to_rome.5.a:0 "Deo Gratias!"
+
+ papal_to_rome.6.t:0 "The Emperorship restored"
+ papal_to_rome.6.d:0 "After a long struggle, Rome is once again ruled by one Emperor, as it should always be"
+ papal_to_rome.6.f:0 ""Finally we will be able to claim our lost lands!"\n"Our lost lands? Are you drunk? What will you gain from all of this? The only thing we had, our democracy, is gone, and here are people celebrating as if they were the ones who got the power"
+ papal_to_rome.6.a:0 "Long Live the Emperor"
+
+ papal_to_rome.7.t:0 "The Death of a Madman"
+ papal_to_rome.7.d:0 "The struggle for democracy is finally over."
+ papal_to_rome.7.f:0 "Many followed him, others hated him, but nothing matters anymore, as he is dead.\nWhat remains is democracy, and that is what is important."
+ papal_to_rome.7.a:0 "Long live the Republic"
+
+ papal_to_rome.8.t:0 "Exalted Among Men"
+ papal_to_rome.8.d:0 "At the start of the century, nobody could have imagined that a man would have restored the Roman Empire, but sometimes reality is better than immagination.\n [SCOPE.sCharacter('armed_forces_leader').GetFullName] will go down in history as one of the greatest emperors that Rome ever had."
+ papal_to_rome.8.f:0 ""You have a strange accent, where are you from?"\n"I come from Aleppo sir"\n"Well, 10 years ago I'd have called you a foreigner, but today we are brothers. Come with me, I'll offer you some wine""
+ papal_to_rome.8.a:0 "Long Live the Emperor"
+ 
+ papal_to_rome.9.t:0 "The Imperial Church of Italia"
+ papal_to_rome.9.d:0 "For the first time in history, an empire is ruled directly by a Pope"
+ papal_to_rome.9.f:0 "Catholic fervor has never been so high, almost every catholic of Italy feel the need travel all around the world and spread the Gospel.\nIs this the start of a new age of religious fanatism?"
+ papal_to_rome.9.a:0 "Go, my children, and spread God's Word"
+
+ lotharingia.1.t:0 "God's Kingdom"
+ lotharingia.1.d:0 "A Kingom that will never fall"
+ lotharingia.1.f:0 "Thuringia is the oldest kingdom still alive in Europe;\nFounded in 340 CE by those who were called "Germani" by the romans, its longevity has caused some members of the clergy and the ruling class to start thinking that the people of Thuringia is God's Chosen People, destined to live in a kingdom that will never fall."
+ lotharingia.1.a:0 "May Thuringia prosper for a thousand years more!"
+
+ lotharingia.2.t:0 "The Rise of Nationalism"
+ lotharingia.2.d:0 "Ferocious political discussions are carried out in intellectual circles, cafès and literary salons all across Thuringia"
+ lotharingia.2.f:0 "The rise of nationalism in all german lands has caused chaos in Thuringia;\nMany people advocate for unification with other german states, others support the idea of Lotharingia being "the country of God's Chosen People", some other people ask for a liberal change to free from the chains of the corrupted theocratic government, while others dream about an idea that has never died in Thuringia, restoring the Carolingian Empire"
+ lotharingia.2.a:0 "We are God's Chosen People!"
+ lotharingia.2.b:0 "Down with the Theocracy, all hail the king of the north germans!"
+ lotharingia.2.c:0 "Maybe we are destined to a much grander feat..."
+
+ lotharingia.3.t:0 "A nation wanted by God"
+ lotharingia.3.d:0 "The government has finally decided to back the idea of a nation made only for the thuringian people."
+ lotharingia.3.f:0 "The longevity of our reign has convinced the ruling class that the existence of Thuringia is not a coincidence, but an act of the will of God, and thus it's our mission to make our nation fit for God's Chosen People."
+ lotharingia.3.a:0 "By God, with God and for God"
+
+ lotharingia.4.t:0 "A Kingdom for the North German People"
+ lotharingia.4.d:0 "People have lost their trust in the current government, and a faction under the lead of [SCOPE.sCharacter('landowners_leader').GetFullName] is gaining more and more popularity."
+ lotharingia.4.f:0 ""It is now the time to end our misery, and become a kingdom that will be respected in all of Europe! It is the time to found the kingdom of the north germans, Prussia!""
+ lotharingia.4.a:0 "To Prussia!"
+
+ lotharingia.5.t:0 "Charlemagne's Heir"
+ lotharingia.5.d:0 "Centuries of humiliations for our country have left the people of Thuringia disillusioned and angry against the current government"
+ lotharingia.5.f:0 "The Theocracy has managed to keep our country alive for more than a millennia, but what is the point of surviving that long it that means being constantly humiliated by our neighbors?\nMany dream of a distant glorious past, and the growing discontent is making [SCOPE.sCharacter('armed_forces_leader').GetFullName], a man who proclaims to be the descendant of Charlemagne, increasingly popular."
+ lotharingia.5.a:0 "What the future holds for us?"
+
+ lotharingia.6.t:0 "A Sacred Kingdom"
+ lotharingia.6.d:0 "The fundations for a sacred kingdom have been laid, so the time has come to build it."
+ lotharingia.6.f:0 "It is now time to reclaim our former lands, the lands we lost after centuries of wars, and populate them with our People."
+ lotharingia.6.a:0 "We draw our swords for God and Our Land"
+
+ lotharingia.7.t:0 "The Anointed Kingdom of West Frankia"
+ lotharingia.7.d:0 "After centuries of exile from our sacred lands, we have finally claimed them back!"
+ lotharingia.7.f:0 "Now that our people live in the lands that God has originally made for us, it's time for the Chosen People to furfill the Divine Mission God gave us and populate those lands under His name."
+ lotharingia.7.a:0 "Eternal Glory to God!"
+
+ lotharingia.8.t:0 "Charlemagne's Successor"
+ lotharingia.8.d:0 "A column of Thuringian soldiers parades through the streets of Frankfurt for the first time in centuries"
+ lotharingia.8.f:0 "After centuries of humiliations, Thuringia is finally back in the place she deverves.\nPeople in the streets of the capital chant the name of the man who made all of this possible, but in this moment of glory [SCOPE.sCharacter('armed_forces_leader').GetFullName] refuses to be crowned as the Emperor of Thuringia, as he make a proclamation:\n"This is but a small feat for our glorious nation, and thus I cannot accept the title of emperor as of now; my coronation will happen in Rome, as per my ancestor, Charlemagne!""
+ lotharingia.8.a:0 "Long live [SCOPE.sCharacter('armed_forces_leader').GetFullName]"
+
+ lotharingia.9.t:0 "The Coronation of The Emperor"
+ lotharingia.9.d:0 "Today is a day that will go down in all the history books of the world."
+ lotharingia.9.f:0 "After giving a short speech to the crowd massed outside Saint Peter's Basilica, [SCOPE.sCharacter('armed_forces_leader').GetFullName] entered the Basilica and the coronation ceremony started.\n"Will you defend the holy faith?" "I will"\n"Will you defend the Protestant Church?" "I will"\n"Will you defend the Empire?" "I will"\n"Will you maintain the laws of the Empire?" "I will"\n"Will you maintain justice?" "I will"\n"Bless, Lord, this Emperor, let these hands be anointed, as kings and prophets were anointed and as Samuel anointed David to be king may you be blessed and established king in this kingdom over this people, whom the Lord, your God, has given you to rule and govern, which he vouchsafes to grant, who with the Father and the Holy Spirit, lives and reigns;\nI, as the archbishop of Rome and Vicar of Christ, consecrate you as the Emperor of all Franks.""
+ lotharingia.9.a:0 "All Hail the Emperor!"
+
+ fall_theocracy.1.t:0 "The Fall of The Theocracy"
+ fall_theocracy.1.d:0 "The centuries-long theocratic government has fallen "
+ fall_theocracy.1.f:0 "The people of Thuringia has not deemed the Theocracy to be able to guarantee the future of the nation, and thus the government had to be overthrown.\nA change was needed, and a change was made, but will this be enough for the nation to survive?
+ fall_theocracy.1.a:0 "Difficult times are ahead of us"
+
+ lotharingia.10.t:0 "The Birth of The Kingdom of Prussia"
+ lotharingia.10.d:0 "Today a kingdom made by and for north german people has been proclaimed."
+ lotharingia.10.f:0 "After the coronation ceremony of [SCOPE.sCharacter('landowners_leader').GetFullName] held in Berlin, the new king made a speech to the crowd massed outside the new government palace:\n"My loyal subjects, this is but the start of a glorious future for our Kingdom; I, as the new king, solemny promise that I will defend and protect this Kingdom till my death!"
+ lotharingia.10.a:0 "All hail the King"
+
+ lotharingia.11.t:0 "The Proclamation of the Republic"
+ lotharingia.11.d:0 "The Republican Revolution has won, Long live the Republic!"
+ lotharingia.11.f:0 "After 5 days of fierce combats, the republican revolutionaries have finally managed to fully occupy the capital; with the fall of the Theocracy, a new age of democracy begins in the Republic of Prussia."
+ lotharingia.11.a:0 "Long Live the Republic!"
+
+ lotharingia.12.t:0 "The Next Step"
+ lotharingia.12.d:0 "Now that the Theocracy is but a distant memory, the time has come to choose the path our nation will take."
+ lotharingia.12.f:0 "Two major faction are currently monopolizing the political scene, one pushing for a unified Germany, while the other pushing for a more pragmatic idea, a federation made by all north german people.\nWhich one will be able to gain more popular support?"
+ lotharingia.12.a:0 "Unifying with those lazy southeners will be more of a burden than a gain, to the North German Federation!"
+ lotharingia.12.b:0 "It's time to unify all german people under one flag!"
+
+ lotharingia.13.t:0 "The Frankfurt's Agreement"
+ lotharingia.13.d:0 "After two days of negotiations, the prussian government has finally reached an agreement with the rhenish nobility."
+ lotharingia.13.f:0 ""For a second I thought they were not gonna sign."\n"Me too, me too, but it seems like that all the concessions we gave them managed to shake their firmness; those concessions are gonna hurt us for some time, but what matters at the end is that we all live inside the same nation now.\nLong live the North German Federation!""
+ lotharingia.13.a:0 "Long Live The North German Federation!"
+
+ lotharingia.14.t:0 "The Munich's Agreement"
+ lotharingia.14.d:0 "The prussian government has managed to reach an agreement with the nobility of all Germany."
+ lotharingia.14.f:0 "Many decribed this agreement as a visible miracle, and indeed it is.\nThe negotiations lasted 3 weeks, and as the time passed, the hope for a unified germany dwindled, but the prussian government was greatly determined to reach an agreement, and so they did.\nHuge concessions were given to the nobility of Bavaria, Rhineland, Baden and Württemberg, concessions that will create many problems to the german govenment in the years to come, but at last Germany was made."
+ lotharingia.14.a:0 "Long Live the German Confederation"
+
+ revive_the_carolingian_empire:0 "Revive the Carolingian Empire"
+ revive_the_carolingian_empire_desc:0 "An impossible feat for some, a dream for others, restoring the Carolingian Empire has never been an easy task for anybody from the start.\nWill there ever be a man capable to achieve such a grandiose feat?"
+
+ le_bavaria.1.t:0 "The Solitude of a King"
+ le_bavaria.1.d:0 "The von Bayern dynasty became the ruling dynasty of Bavaria 82 years ago, when Luitpold von Bayern overthrew the old king Michal Albert Vratislav z Mitrovic."
+ le_bavaria.1.f:0 "When Ludwig I, Luitpold's son and heir, came into power, there were already signs of dissatisfaction in the bavarian nobility; his father ruled as an absolute monarch, and greatly reduced the power of the nobility.\nIsolated by the nobility, and grown up in a difficult environment, King Ludwig became slowly more and more reclusive, leaving the matters of the state to his regent.\nEver since his wife's death in march 1834, the king has refused to leave the Royal Palace, and rumors say that his mental and physical state is precarious.\nTaking advantage of this situation, the high nobility has become the de facto ruler of the kingdom, and the presumed near death of the king could strike the spark of an aristocratic uprising."
+ le_bavaria.1.a:0 "Dark times are ahead of us"
+
+ le_bavaria.2.t:0 "The Death Of The King"
+ le_bavaria.2.d:0 "King Ludwig I is dead."
+ le_bavaria.2.f:0 "Today, the furneral of king Ludwig has taken place in Munich; even if he was disliked by the nobility, a death is always a tragedy, and thus the king was given all the homages a king deserves.\nThe coronation ceremony of Maximilian von Bayern will be held in the Cathedral of Munchen on december 6th, and until that moment the prince will be helped by a regent.\nThe path in front of Maximilian is an arduous one, and the prince will need to show great resilience face his burdensome future."
+ le_bavaria.2.a:0 "The king is dead, long live the king!"
+
+ le_bavaria.1.t:0
+ le_bavaria.1.d:0
+ le_bavaria.1.f:0
+ le_bavaria.1.a:0
+
+ le_bavaria.1.t:0
+ le_bavaria.1.d:0
+ le_bavaria.1.f:0
+ le_bavaria.1.a:0
+
+ le_bavaria.1.t:0
+ le_bavaria.1.d:0
+ le_bavaria.1.f:0
+ le_bavaria.1.a:0
+
+ le_bavaria.1.t:0
+ le_bavaria.1.d:0
+ le_bavaria.1.f:0
+ le_bavaria.1.a:0
+
+ le_bohem.1.t:0 "The Shadow of a Great Empire"
+ le_bohem.1.d:0 "In 1712, after the death of King Petr II Vratislav z Mitrovic, the Kingdom of the Danube was split between the first son, Petr III, who inherited most of the kigdom, ad Michal, the secod one, who inherited the Kingdom of Bavaria."
+ le_bohem.1.f:0 "After 124 years and numerous wars and revolts, the Kingdom of the Danube shrunk in size, reduced to what is now the Principality of Bohemia.\nMassive investments in military and research have allowed our country to survive at last, and with the nation now stable, the nobility has started pushing the king to reclaim the lost territories."
+ le_bohem.1.a:0 "For a glorious future of our country!"
+
+ le_bohem.2.t:0 "The Matter of Bavaria"
+ le_bohem.2.d:0 "In 1754 the king of Bavaria, Michal Albert Vratislav z Mitrovic, was ousted by Luitpold von Bayern."
+ le_bohem.2.f:0 "Being the nephew of Michal Albert, prince Alexander has a natural claim on the kingdom of Bavaria, and the bohemian nobility is heavily pushing for the prince to enforce his claim.\nThe Kingdom of Bavaria is going through a difficult time, and the death of their king, whose health is in a precarious state, could be the perfect chance to push the prince's claim."
+ le_bohem.2.a:0 "What the future holds for us?"
+
+ le_bohem.1.t:0
+ le_bohem.1.d:0
+ le_bohem.1.f:0
+ le_bohem.1.a:0
+
+ le_bohem.1.t:0
+ le_bohem.1.d:0
+ le_bohem.1.f:0
+ le_bohem.1.a:0
