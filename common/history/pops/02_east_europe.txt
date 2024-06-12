@@ -33,14 +33,10 @@
 		}
 	}
 	s:STATE_MOSCOW = {
-		region_state:EST = {
+		region_state:SMO = {
 			create_pop = {
 				culture = russian
-				size = 3000000
-			}
-			create_pop = {
-				culture = dixie
-				size = 500000
+				size = 2682734
 			}
 		}
 	}
@@ -119,22 +115,18 @@
 		}
 	}
 	s:STATE_BRYANSK = {
-		region_state:MAT = {
+		region_state:SMO = {
 			create_pop = {
 				culture = russian
-				size = 3000000
-			}
-			create_pop = {
-				culture = yankee
-				size = 500000
+				size = 3597829
 			}
 		}
 	}
 	s:STATE_SMOLENSK = {
-		region_state:POL = {
+		region_state:SMO = {
 			create_pop = {
 				culture = russian
-				size = 1281596
+				size = 2281596
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -216,7 +208,7 @@
 		}
 	}
 	s:STATE_CRIMEA = {
-		region_state:RUS = {
+		region_state:CRI = {
 			create_pop = {
 				culture = tatar
 				size = 158400
@@ -244,26 +236,18 @@
 		}
 	}
 	s:STATE_LUHANSK = {
-		region_state:RND = {
+		region_state:SAL = {
 			create_pop = {
 				culture = russian
-				size = 3000000
-			}
-			create_pop = {
-				culture = british
-				size = 500000
+				size = 1985790
 			}
 		}
 	}
 	s:STATE_KURSK = {
-		region_state:JUI = {
+		region_state:SAL = {
 			create_pop = {
 				culture = russian
-				size = 3000000
-			}
-			create_pop = {
-				culture = mexican
-				size = 500000
+				size = 2765492
 			}
 		}
 	}
@@ -539,6 +523,12 @@
 				culture = czech
 				religion = catholic
 				size = 60000
+			}
+		}
+		region_state:SAX = {
+			create_pop = {
+				culture = north_german
+				size = 856987
 			}
 		}
 	}
