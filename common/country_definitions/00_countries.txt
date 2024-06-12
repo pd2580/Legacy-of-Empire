@@ -95,7 +95,7 @@ NIA = { ## Niamey
 
 FRKA = {
 	color = {
-		130 30 180
+		5 32 105
 	}
 
 	country_type = recognized
