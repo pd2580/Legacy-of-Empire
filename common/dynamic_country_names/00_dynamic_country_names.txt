@@ -1937,7 +1937,7 @@ TSW = { # Tswana
 	}
 }
 
-TUN = { # Tunis
+QAR = { # Tunis
 	dynamic_country_name = {
 		name = dyn_c_tunisia
 		adjective = TUN_ADJ

@@ -522,32 +522,6 @@ gov_prince = {
 		post_change_to_hereditary = yes
 	}
 }
-
-gov_bey = {
-	transfer_of_power = hereditary
-	
-	male_ruler = "RULER_TITLE_BEY"
-	female_ruler = "RULER_TITLE_BEGUM"
-
-	male_heir = "RULER_TITLE_Bey_AL_MAHALLA"
-	female_heir = "" # Empty on purpose
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		OR = {
-			AND = { exists = c:TUN c:TUN = ROOT }
-			AND = { exists = c:CON c:CON = ROOT }
-		}
-	}
-
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-	on_post_government_type_change = {
-		post_change_to_hereditary = yes
-	}
-}
-
 gov_sharif = {
 	transfer_of_power = hereditary
 	

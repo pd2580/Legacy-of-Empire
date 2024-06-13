@@ -20328,7 +20328,7 @@ SWN = { # Sweden-Norway
 	}
 }
 
-QAR = { # Syria
+SYR = { # Syria
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 	color2 = "green"
@@ -21054,7 +21054,7 @@ TRS = {
 	}
 }
 
-TUN = { # Carthage
+QAR = { # Carthage
 	pattern = "pattern_border_two_stripes.dds"
 	color1 = "white"
 	color2 = "green"
@@ -21064,7 +21064,7 @@ TUN = { # Carthage
 		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
 	}		
 }
-TUN_subject = {
+QAR_subject = {
 	pattern = "pattern_border_two_stripes"
 	color1 = "white"
 	color2 = "green"
