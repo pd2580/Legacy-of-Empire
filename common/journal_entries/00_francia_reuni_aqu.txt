@@ -1,0 +1,193 @@
+je_francia_reuni_aqu = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = fra_uni_main_tt
+			scope:journal_entry = {
+				is_goal_complete = yes
+			}
+		}
+	}
+
+	current_value = {
+		value = var:fra_uni_var
+	}
+
+	goal_add_value = {
+		add = 5
+	}
+
+	fail = {
+		exists = c:FRKA
+	}
+
+	on_complete = {
+		change_tag = FRKA
+		trigger_event = fra_uni.7
+	}
+
+	should_be_pinned_by_default = yes
+}
+
+je_francia_reuni_aqu_fra = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
+	}
+
+	complete = {
+		any_scope_state = {
+			count >= 11
+			AND = {
+				region = sr:region_france
+				owner = ROOT
+			}
+		}
+	}
+
+	fail = {
+		exists = c:FRKA
+	}
+
+	on_complete = {
+		change_variable = {
+			name = fra_uni_var
+			add = 1
+		}
+		trigger_event = fra_uni.2
+	}
+
+	should_be_pinned_by_default = yes
+}
+
+je_francia_reuni_aqu_occ = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
+	}
+
+	complete = {
+		any_scope_state = {
+			count = 7
+			AND = {
+				region = sr:region_occitania
+				owner = ROOT
+			}
+		}
+	}
+
+	fail = {
+		exists = c:FRKA
+	}
+
+	on_complete = {
+		change_variable = {
+			name = fra_uni_var
+			add = 1
+		}
+		trigger_event = fra_uni.3
+	}
+
+	should_be_pinned_by_default = yes
+}
+
+je_francia_reuni_aqu_ams = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
+	}
+
+	complete = {
+		owns_entire_state_region = STATE_FRENCH_LOW_COUNTRIES
+		owns_entire_state_region = STATE_WALLONIA
+		owns_entire_state_region = STATE_FLANDERS
+	}
+
+	fail = {
+		exists = c:FRKA
+	}
+
+	on_complete = {
+		change_variable = {
+			name = fra_uni_var
+			add = 1
+		}
+		trigger_event = fra_uni.4
+	}
+
+	should_be_pinned_by_default = yes
+}
+
+je_francia_reuni_aqu_rhi = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
+	}
+
+	complete = {
+		owns_entire_state_region = STATE_ALSACE_LORRAINE
+		owns_entire_state_region = STATE_RHINELAND
+	}
+
+	fail = {
+		exists = c:FRKA
+	}
+
+	on_complete = {
+		change_variable = {
+			name = fra_uni_var
+			add = 1
+		}
+		trigger_event = fra_uni.5
+	}
+
+	should_be_pinned_by_default = yes
+}
+
+je_francia_reuni_aqu_ibe = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
+	}
+
+	complete = {
+		owns_entire_state_region = STATE_NAVARRA
+		owns_entire_state_region = STATE_CATALONIA
+	}
+
+	fail = {
+		exists = c:FRKA
+	}
+
+	on_complete = {
+		change_variable = {
+			name = fra_uni_var
+			add = 1
+		}
+		trigger_event = fra_uni.6
+	}
+
+	should_be_pinned_by_default = yes
+}
