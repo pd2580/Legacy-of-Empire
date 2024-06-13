@@ -47,7 +47,7 @@ je_francia_reuni_bgy_fra = {
 
 	complete = {
 		any_scope_state = {
-			count = 11
+			count >= 11
 			AND = {
 				region = sr:region_france
 				owner = ROOT
