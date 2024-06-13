@@ -1094,35 +1094,6 @@ GBR = { # Great Britain of United Kingdom
 	}
 }
 
-GRO = { # Germany
-	dynamic_country_name = {
-		name = dyn_c_german_empire
-		adjective = GER_ADJ
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			coa_def_monarchy_flag_trigger = yes
-			scope:actor = { 
-				country_rank >= rank_value:major_power
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = nihilist_germany_name
-		adjective = nihilist_germany_name_adj
-		
-		is_main_tag_only = yes
-		priority = 10
-		
-		trigger = {
-			coa_def_nihilist_flag_trigger = yes
-		}
-	}
-}
-
 HAI = { # Haiti
 	dynamic_country_name = {
 		name = dyn_c_saint-domingue
