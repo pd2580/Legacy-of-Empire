@@ -30,7 +30,7 @@
 		}
 	}
 	s:STATE_SARDINIA = {
-		region_state:SYR = {
+		region_state:TUN = {
 			create_pop = {
 				culture = phoenician
 				size = 1524084
@@ -38,7 +38,7 @@
 		}
 	}
 	s:STATE_MALTA = {
-		region_state:SYR = {
+		region_state:TUN = {
 			create_pop = {
 				culture = maltese
 				size = 117192
@@ -58,7 +58,7 @@
 		}
 	}
 	s:STATE_CORSICA = {
-		region_state:SYR = {
+		region_state:TUN = {
 			create_pop = {
 				culture = corsican
 				size = 190540
@@ -154,6 +154,12 @@
 				size = 1803600
 			}
 		}
+		region_state:UMB = {
+			create_pop = {
+				culture = south_roman
+				size = 350600
+			}
+		}
 	}
 	s:STATE_LAZIO = {
 		region_state:PAP = {
@@ -191,7 +197,7 @@
 		}
 	}
 	s:STATE_SICILY = {
-		region_state:SYR = {
+		region_state:TUN = {
 			create_pop = {
 				culture = south_roman
 				size = 1047596
@@ -293,7 +299,7 @@
 		}
 	}
 	s:STATE_BALEARES = {
-		region_state:SYR = {
+		region_state:TUN = {
 			create_pop = {
 				culture = catalan
 				size = 145244
@@ -360,7 +366,7 @@
 			}
 		}
 	}
-	s:STATE_ESTREMADURA = {
+	s:STATE_ESTUNMADURA = {
 		region_state:POR = {
 			create_pop = {
 				culture = portuguese

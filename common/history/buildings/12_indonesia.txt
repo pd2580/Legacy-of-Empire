@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_MALAYA={
-		region_state:SYR={
+		region_state:TUN={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -434,7 +434,7 @@
 		}
 	}
 	s:STATE_NORTH_SUMATRA={
-		region_state:SYR={
+		region_state:TUN={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -508,7 +508,7 @@
 		}
 	}
 	s:STATE_SOUTH_SUMATRA={
-		region_state:SYR={
+		region_state:TUN={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -542,7 +542,7 @@
 		}
 	}
 	s:STATE_ACEH={
-		region_state:SYR={
+		region_state:TUN={
 			create_building={
 				building="building_rice_farm"
 				level=1
