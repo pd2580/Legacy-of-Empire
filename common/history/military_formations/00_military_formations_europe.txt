@@ -547,7 +547,7 @@
 			save_scope_as = navy_venetia
 		}
 	}
-	c:SYR = {
+	c:QAR = {
 		## Carthage
 		create_military_formation = {
 			type = army

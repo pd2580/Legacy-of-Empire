@@ -4036,7 +4036,7 @@ TUV = {
 
 }
 
-SYR = {
+QAR = {
 	color = { 68 242 236}
 	country_type = recognized
 	tier = principality

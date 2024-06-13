@@ -172,7 +172,7 @@
 		}
 	}
 	s:STATE_SARDINIA={
-		region_state:SYR={
+		region_state:QAR={
 			create_building={
 				building="building_iron_mine"
 				level=2
@@ -264,7 +264,7 @@
 		}
 	}
 	s:STATE_CORSICA={
-		region_state:SYR={
+		region_state:QAR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -884,7 +884,7 @@
 		}
 	}
 	s:STATE_SICILY={
-		region_state:SYR={
+		region_state:QAR={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -1352,7 +1352,7 @@
 		}
 	}
 	s:STATE_BALEARES={
-		region_state:SYR={
+		region_state:QAR={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
