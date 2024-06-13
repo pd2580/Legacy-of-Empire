@@ -613,7 +613,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:TUN={
+		region_state:QAR={
 				create_building={
 					building="building_government_administration"
 					level=7

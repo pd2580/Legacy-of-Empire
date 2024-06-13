@@ -4047,6 +4047,14 @@ TUV = {
 
 }
 
+QAR = {
+	color = { 68 242 236}
+	country_type = recognized
+	tier = principality
+	cultures = { corsican }
+	capital = STATE_CORSICA
+}
+
 TNS = {
 	color = { 11 115 39 }
 	country_type = unrecognized

@@ -20328,7 +20328,7 @@ SWN = { # Sweden-Norway
 	}
 }
 
-SYR = { # Syria
+QAR = { # Syria
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 	color2 = "green"

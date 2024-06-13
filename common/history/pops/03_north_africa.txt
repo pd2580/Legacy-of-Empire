@@ -680,7 +680,7 @@
 				size = 13000
 			}
 		}
-		region_state:TUN = {
+		region_state:QAR = {
 			create_pop = {
 				culture = phoenician
 				size = 2905763
