@@ -20328,7 +20328,7 @@ SWN = { # Sweden-Norway
 	}
 }
 
-QAR = { # Syria
+SYN = { # Syria
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 	color2 = "green"
@@ -20352,7 +20352,7 @@ QAR = { # Syria
 		instance = { scale = { 0.33 0.33 } position = { 0.175 0.5 } }
 	}	
 }
-SYR_subject = {
+SYN_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
 	color2 = "white"
@@ -20364,7 +20364,7 @@ SYR_subject = {
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
 	}	
 }
-SYR_republic = {
+SYN_republic = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 	color2 = "white"
@@ -21054,7 +21054,7 @@ TRS = {
 	}
 }
 
-TUN = { # Carthage
+QAR = { # Carthage
 	pattern = "pattern_border_two_stripes.dds"
 	color1 = "white"
 	color2 = "green"
@@ -21064,7 +21064,7 @@ TUN = { # Carthage
 		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
 	}		
 }
-TUN_subject = {
+QAR_subject = {
 	pattern = "pattern_border_two_stripes"
 	color1 = "white"
 	color2 = "green"

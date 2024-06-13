@@ -1370,7 +1370,7 @@ SIC = {
 	cultures = { south_roman }
 	capital = STATE_CAMPANIA
 }
-TUN = {
+QAR = {
 	color = { 68 242 236 }
 	
 	country_type = recognized
@@ -4047,13 +4047,6 @@ TUV = {
 
 }
 
-QAR = {
-	color = { 68 242 236}
-	country_type = recognized
-	tier = principality
-	cultures = { corsican }
-	capital = STATE_CORSICA
-}
 
 TNS = {
 	color = { 11 115 39 }

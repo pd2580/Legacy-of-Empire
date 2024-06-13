@@ -8054,17 +8054,17 @@ SWI = { # Switzerland
 	}	
 }
 
-QAR = { # Syria
+QAR = { # Qartaj
 	flag_definition = {
 		coa = QAR
 		subject_canton = QAR
 		allow_overlord_canton = yes		
-		coa_with_overlord_canton = SYR_subject		
+		coa_with_overlord_canton = QAR_subject		
 		priority = 1
 	}
 	flag_definition = {
-		coa = SYR_republic
-		subject_canton = SYR_republic
+		coa = QAR_republic
+		subject_canton = QAR_republic
 		allow_overlord_canton = yes			
 		priority = 10
 		trigger = { 
@@ -8353,11 +8353,11 @@ TSW = { # Botswana
 	}	
 }
 
-TUN = { # Tunis
+QAR = { # Qartaj
 	flag_definition = {
-		coa = TUN
+		coa = QAR
 		allow_overlord_canton = yes			
-		subject_canton = TUN
+		subject_canton = QAR
 		overlord_canton_scale = { 0.402 0.402 }			
 		priority = 1
 	}
