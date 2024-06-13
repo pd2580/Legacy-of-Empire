@@ -154,6 +154,12 @@
 				size = 1803600
 			}
 		}
+		region_state:UMB = {
+			create_pop = {
+				culture = south_roman
+				size = 350600
+			}
+		}
 	}
 	s:STATE_LAZIO = {
 		region_state:PAP = {
@@ -360,7 +366,7 @@
 			}
 		}
 	}
-	s:STATE_ESTREMADURA = {
+	s:STATE_ESTUNMADURA = {
 		region_state:POR = {
 			create_pop = {
 				culture = portuguese

@@ -121,7 +121,7 @@ STATES = {
 		}
 		create_state = {
 			country = c:OMA
-			state_type = treaty_port
+			state_type = TUNaty_port
 			owned_provinces = { xB7B2BD }
 		}
 		create_state = {
@@ -1537,10 +1537,15 @@ STATES = {
 	s:STATE_ROMAGNA = {
 		create_state = {
 			country = c:PAP
-			owned_provinces = { x7000A0 x708020 xF000A0 xFE3729 }
+			owned_provinces = { x7000A0 x708020 xF000A0 }
+		}
+		create_state = {
+			country = c:UMB
+			owned_provinces = { xFE3729 }
 		}
 		
 		add_homeland = cu:north_roman
+		add_homeland = cu:south_roman
 	}
 	s:STATE_LAZIO = {
 		create_state = {
@@ -3042,7 +3047,7 @@ STATES = {
 		add_claim = c:CAS
 		add_homeland = cu:portuguese
 	}
-	s:STATE_ESTREMADURA = {
+	s:STATE_ESTUNMADURA = {
 		create_state = {
 			country = c:POR
 			owned_provinces = { xD0A080 xA0F6EC x50A000 xD02000 x545164 }
@@ -3924,7 +3929,7 @@ STATES = {
 		add_homeland = cu:chewa
 		add_homeland = cu:lacustrine_bantu
 	}
-	s:STATE_ERITREA = {
+	s:STATE_ERITUNA = {
 		create_state = {
 			country = c:EGY
 			owned_provinces = { x9970A0 x48573C x64B77C x409D6F x7090A0 xE64992 x140193 x0EBF6B xE00AC4 xF786F9 x593F30 x035501 x03442D x9E4472 x59AB39 x569C7E xEC9D04 x70A072 xEB1C6A xC5D429 x5D45FC x66F6C3 x1B0B1E }
@@ -5761,7 +5766,7 @@ STATES = {
 		create_state = {
 			country = c:VEN
 			owned_provinces = { xE5DAD3 x0FEECE xD8F037 }
-			state_type = treaty_port
+			state_type = TUNaty_port
 		}
 		
 		add_homeland = cu:han
@@ -6737,11 +6742,7 @@ STATES = {
 	s:STATE_PIEDMONT = {
 		create_state = {
 			country = c:LMG
-			owned_provinces = { xD080E0 xAA6958 xDA86EA xA9397D x90C060 x1140E0 xF00544 xACB500 x11C061 x54728A x5F6BAA }
-		}
-		create_state = {
-			country = c:PAP
-			owned_provinces = { x904061 }
+			owned_provinces = { xD080E0 xAA6958 xDA86EA xA9397D x90C060 x1140E0 xF00544 xACB500 x11C061 x54728A x5F6BAA x904061 }
 		}
 		
 		add_homeland = cu:north_roman
