@@ -3,7 +3,6 @@
 		exists = c:PAP
 		this = c:PAP
 	}
-
 	possible = {
 		owns_entire_state_region = STATE_LAZIO
 		owns_entire_state_region = STATE_EASTERN_THRACE
@@ -51,6 +50,7 @@
 		add_primary_culture = cu:croat
 	}
 }
+
 revive_the_carolingian_empire = {
 	is_shown = {
 		exists = c:THU
@@ -117,10 +117,19 @@ revive_the_carolingian_empire = {
 		add_primary_culture = cu:french
 	}
 }
+
 LE_venice = {
 	is_shown = {
 		exists = c:VEN
 		this = c:VEN
 	}
 	when_taken = {
+		every_state = {
+			add_culture_standard_of_living_modifier = {
+				culture = cu:slovene
+				months = normal_modifier_time
+				multiplier = -0.5
+			}
+		}
+	}
 }

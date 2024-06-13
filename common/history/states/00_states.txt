@@ -212,10 +212,12 @@ STATES = {
 	s:STATE_VENETIA = {
 		create_state = {
 			country = c:VEN
-			owned_provinces = { xB001A0 x3083C8 x3080A0 x8EEB7A xB080A0 x5141E0 x605424 x6984B4 x554866 xC02A3F }
+			owned_provinces = { "xB001A0" "x3083C8" "x3080A0" "x8EEB7A" "xB080A0" "x5141E0" "x605424" "x6984B4" "x554866" "xC02A3F" "xD040E0" }
 		}
 		
+		add_homeland = north_roman
 		add_homeland = cu:slovene
+		
 	}
 	s:STATE_POMERANIA = {
 		create_state = {
@@ -6545,7 +6547,7 @@ STATES = {
 	s:STATE_SOUTH_TYROL = {
 		create_state = {
 			country = c:LMG
-			owned_provinces = { xD0BF60 x1120FF xD040E0 x039D0F }
+			owned_provinces = { x1120FF xD040E0 x039D0F xD0BF60 }
 		}
 		
 		add_homeland = cu:south_german
