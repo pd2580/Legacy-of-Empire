@@ -3436,38 +3436,38 @@ GEO = { # Georgia
 	}		
 }
 
-GER = { # Germany
+GRO = { # Germany
 	flag_definition = {
-		coa = GER_modern
-		subject_canton = GER_modern
+		coa = GRO_modern
+		subject_canton = GRO_modern
 	}
 	flag_definition = {
 		coa = GER_modern
-		subject_canton = GER_modern
+		subject_canton = GRO_modern
 		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = GER_dictatorship
-		subject_canton = GER_dictatorship
+		coa = GRO_dictatorship
+		subject_canton = GRO_dictatorship
 		priority = 15
 		trigger = { 
 			coa_def_dictatorship_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = GER_spartakist
-		subject_canton = GER_spartakist
+		coa = GRO_spartakist
+		subject_canton = GRO_spartakist
 		priority = 2000
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = GER_ddr
-		subject_canton = GER_ddr
+		coa = GRO_ddr
+		subject_canton = GRO_ddr
 		priority = 1500
 		trigger = { 
 			scope:actor = {
@@ -3510,97 +3510,18 @@ GER = { # Germany
 		}
 	}
 	flag_definition = {
-		coa = GER_fascist
-		subject_canton = GER_fascist
+		coa = GRO_fascist
+		subject_canton = GRO_fascist
 		priority = 1250
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
 	}
-
-### country-specific Germany variants ###
-
-	flag_definition = {
-		coa = GER_bavarian
-		subject_canton = GER_bavarian
-		priority = 100
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				was_formed_from = BAY
-			}
-		}
-	}	
-	flag_definition = {
-		coa = GER_austrian
-		subject_canton = GER
-		priority = 100
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				was_formed_from = AUS
-			}
-		}
-	}	
-
-	flag_definition = {
-		coa = GER_saxon
-		subject_canton = GER_saxon
-		priority = 100
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				was_formed_from = THU
-			}
-		}
-	}
-
-	flag_definition = {
-		coa = GER_saxon_monarchist
-		subject_canton = GER_saxon_monarchist
-		priority = 150
-		trigger = {
-			coa_def_absolute_monarchy_flag_trigger = yes
-			exists = scope:actor
-			scope:actor = {
-				was_formed_from = THU
-			}
-		}
-	}
-
-	flag_definition = {
-		coa = GER_hannover
-		subject_canton = GER_hannover
-		priority = 100
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				was_formed_from = HAN
-			}
-		}
-	}
-
-	flag_definition = {
-		coa = GER_wurttemberg
-		subject_canton = GER_wurttemberg
-		priority = 100
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				was_formed_from = WUR
-			}
-		}
-	}
 	
 	# Black-White-Red tricolor is reserved for a Prussian monarchy
 	flag_definition = {
-		coa = GER
-		subject_canton = GER
+		coa = GRO
+		subject_canton = GRO
 		priority = 100
 		trigger = {
 			exists = scope:actor
@@ -3610,8 +3531,8 @@ GER = { # Germany
 		}
 	}
 	flag_definition = {
-		coa = GER_iron_cross
-		subject_canton = GER_iron_cross
+		coa = GOR_iron_cross
+		subject_canton = GOR_iron_cross
 		priority = 5
 		trigger = {
 			coa_def_autocracy_flag_trigger = yes

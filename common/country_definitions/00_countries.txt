@@ -8,6 +8,16 @@
 	cultures = { russian }
 	capital = STATE_MOSCOW
 }
+GRO = {
+	color = { 147 130 110 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_german south_german rhenish }
+	capital = STATE_BRANDENBURG
+}
 
 BIH = {
 	color = { 183  62  62 }
@@ -1301,7 +1311,7 @@ PAP = {
 
 	tier = kingdom
 	
-	cultures = { north_roman }
+	cultures = { south_roman }
 	capital = STATE_LAZIO
 }
 
@@ -1385,13 +1395,13 @@ TUS = {
 }
 
 VEN = {
-	color = { 200 26 33 255 }
+	color = { 87 1 82 }
 	
 	country_type = recognized
 
 	tier = kingdom
 	
-	cultures = { north_roman }
+	cultures = { Venetian }
 	capital = STATE_VENETIA
 	is_named_from_capital = yes
 }
