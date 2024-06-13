@@ -1094,7 +1094,7 @@ GBR = { # Great Britain of United Kingdom
 	}
 }
 
-GER = { # Germany
+GRO = { # Germany
 	dynamic_country_name = {
 		name = dyn_c_german_empire
 		adjective = GER_ADJ
@@ -2961,9 +2961,9 @@ VNZ = {
 					}
 				}
 				AND = {
-					exists = c:GER
+					exists = c:GRO
 					scope:actor = {
-						is_subject_of = c:GER
+						is_subject_of = c:GRO
 					}
 				}
 				AND = {

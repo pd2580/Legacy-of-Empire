@@ -338,7 +338,6 @@ je_german_conf = {
 			AND = {
 				owns_entire_state_region = STATE_FRANCONIA
 				owns_entire_state_region = STATE_BAVARIA
-				owns_entire_state_region = STATE_TYROL
 			}
 			c:BAY = {
 				is_subject_of = ROOT
@@ -363,7 +362,7 @@ je_german_conf = {
 			}
 			annex = c:BAY
 		}
-		change_tag = GER
+		change_tag = GRO
 		trigger_event = {
 			id = lotharingia.14
 		}

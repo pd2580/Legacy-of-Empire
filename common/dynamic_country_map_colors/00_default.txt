@@ -276,8 +276,8 @@ unpleasant_germany = {
 	color = "feldgrau"
 
 	possible = {
-		exists = c:GER
-		THIS = c:GER
+		exists = c:GRO
+		THIS = c:GRO
 		coa_dictatorship_trigger = yes
 		NOT = {
 			OR = {
@@ -303,8 +303,8 @@ communist_germany = {
     color = "communist_germany_red"
 
 	possible = {
-		exists = c:GER
-		THIS = c:GER
+		exists = c:GRO
+		THIS = c:GRO
 		has_law = law_type:law_council_republic
 	}
 }
@@ -313,8 +313,8 @@ ddr_germany = {
 	color = "DDR_green"
 
 	possible = {
-		exists = c:GER
-		THIS = c:GER
+		exists = c:GRO
+		THIS = c:GRO
 		OR = {
 			AND = {
 				has_law = law_type:law_single_party_state
@@ -437,19 +437,6 @@ nihilist_russia = {
 	possible = {
 		exists = c:RUS
 		THIS = c:RUS
-		has_law = law_type:law_state_atheism
-		ruler = {
-			has_ideology = ideology:ideology_atheist
-		}
-	}
-}
-
-nihilist_germany = {
-	color = "nihilist_germany_color"
-
-	possible = {
-		exists = c:GER
-		THIS = c:GER 
 		has_law = law_type:law_state_atheism
 		ruler = {
 			has_ideology = ideology:ideology_atheist

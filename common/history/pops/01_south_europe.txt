@@ -171,17 +171,22 @@
 	s:STATE_VENETIA = {
 		region_state:VEN = {
 			create_pop = {
-				culture = north_roman
+				culture = Venetian
 				size = 3855196
 			}
 			create_pop = {
 				culture = north_roman
 				religion = jewish
-				size = 2000
+				size = 1398
+			}
+			create_pop = {
+				culture = Venetian
+				religion = jewish
+				size = 2133
 			}
 			create_pop = {
 				culture = slovene
-				size = 50000
+				size = 56895
 			}
 		}
 	}
@@ -433,6 +438,10 @@
 				size = 7996
 			}
 			create_pop = {
+				culture = Venetian
+				size = 3499
+			}
+			create_pop = {
 				culture = bulgarian
 				size = 80004
 			}
@@ -655,7 +664,7 @@
 				size = 80000
 			}
 			create_pop = {
-				culture = north_roman
+				culture = Venetian
 				size = 20004
 			}
 		}
@@ -708,7 +717,7 @@
 	s:STATE_ISTRIA = {
 		region_state:VEN = {
 			create_pop = {
-				culture = north_roman
+				culture = Venetian
 				size = 197800
 			}
 			create_pop = {
