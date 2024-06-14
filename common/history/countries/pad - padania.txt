@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:LMG = {
+	c:LLO = {
 
 		ig:ig_devout = {
 			add_ruling_interest_group = yes
@@ -8,7 +8,7 @@
 		add_taxed_goods = g:liquor
 		add_taxed_goods = g:wine
 		
-		effect_starting_technology_tier_3_tech = yes
+		effect_starting_technology_tier_2_tech = yes
 		
 		effect_starting_politics_liberal = yes
 		

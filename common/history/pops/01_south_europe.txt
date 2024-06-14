@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_LOMBARDY = {
-		region_state:LMG = {
+		region_state:LLO = {
 			create_pop = {
 				culture = north_roman
 				size = 2376996
@@ -13,7 +13,7 @@
 		}
 	}
 	s:STATE_PIEDMONT = {
-		region_state:LMG = {
+		region_state:LLO = {
 			create_pop = {
 				culture = north_roman
 				size = 2367188
@@ -63,7 +63,8 @@
 				culture = corsican
 				size = 190540
 			}
-			create_pop = { # Ligurian
+			create_pop = {
+				# Ligurian
 				culture = north_roman
 				size = 502
 			}
@@ -235,7 +236,7 @@
 				culture = basque
 				size = 32000
 			}
-		}	
+		}
 	}
 	s:STATE_CASTILE = {
 		region_state:CAS = {
@@ -361,7 +362,7 @@
 			}
 		}
 	}
-	s:STATE_ESTUNMADURA = {
+	s:STATE_ESTREMADURA = {
 		region_state:POR = {
 			create_pop = {
 				culture = portuguese
@@ -389,7 +390,6 @@
 			}
 		}
 	}
-
 	s:STATE_MADEIRA = {
 		region_state:POR = {
 			create_pop = {
@@ -402,7 +402,6 @@
 			}
 		}
 	}
-
 	s:STATE_CANARY_ISLANDS = {
 		region_state:CAS = {
 			create_pop = {
@@ -411,7 +410,6 @@
 			}
 		}
 	}
-
 	s:STATE_AZORES = {
 		region_state:POR = {
 			create_pop = {
@@ -531,24 +529,25 @@
 				religion = orthodox
 				size = 91200
 			}
-		region_state:SHK = {
-			create_pop = {
-				culture = albanian
-				size = 315434
-			}
-			create_pop = {
-				culture = greek
-				size = 3000
-			}
-			create_pop = {
-				culture = albanian
-				religion = catholic
-				size = 54360
-			}
-			create_pop = {
-				culture = albanian
-				religion = orthodox
-				size = 91200
+			region_state:SHK = {
+				create_pop = {
+					culture = albanian
+					size = 315434
+				}
+				create_pop = {
+					culture = greek
+					size = 3000
+				}
+				create_pop = {
+					culture = albanian
+					religion = catholic
+					size = 54360
+				}
+				create_pop = {
+					culture = albanian
+					religion = orthodox
+					size = 91200
+				}
 			}
 		}
 	}
@@ -842,7 +841,6 @@
 			}
 		}
 	}
-
 	s:STATE_EAST_AEGEAN_ISLANDS = {
 		region_state:TUR = {
 			create_pop = {
@@ -970,7 +968,6 @@
 				culture = lacustrine_bantu
 				size = 1500
 			}
-
 		}
 	}
 	s:STATE_IONIAN_ISLANDS = {

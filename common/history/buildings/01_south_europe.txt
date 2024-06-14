@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_LOMBARDY={
-		region_state:LMG={
+		region_state:LLO={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -62,7 +62,7 @@
 		}
 	}
 	s:STATE_PIEDMONT={
-		region_state:LMG={
+		region_state:LLO={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1643,7 +1643,7 @@
 			}
 		}
 	}
-	s:STATE_ESTUNMADURA={
+	s:STATE_ESTREMADURA={
 		region_state:POR={
 			create_building={
 				building="building_government_administration"
