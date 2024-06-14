@@ -67,14 +67,9 @@
 				culture = north_roman
 				size = 502
 			}
-			create_pop = { # Educated guess
-				culture = burgundian
-				size = 16723
-			}
 			create_pop = {
 				culture = corsican
-				religion = protestant
-				size = 124
+				size = 90678
 			}
 		}
 	}
@@ -724,7 +719,7 @@
 		region_state:VEN = {
 			create_pop = {
 				culture = Venetian
-				size = 197800
+				size = 987800
 			}
 			create_pop = {
 				culture = hungarian

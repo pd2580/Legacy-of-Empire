@@ -1140,6 +1140,37 @@
 				size = 11996
 			}
 		}
+		region_state:YUA = {
+			create_pop = {
+				culture = han
+				religion = atheist
+				size = 252343
+			}
+			create_pop = {
+				culture = min
+				religion = atheist
+				size = 171996
+			}
+			create_pop = {
+				culture = yue
+				religion = atheist
+				size = 194532
+			}
+			create_pop = {
+				culture = manchu
+				religion = atheist
+				size = 87943
+			}
+			create_pop = {
+				culture = japanese
+				religion = atheist
+				size = 11387
+			}
+			create_pop = {
+				culture = japanese
+				size = 45387
+			}
+		}
 	}
 	# 97864 in 1830, 127586 in 1840
 	# working total of 112724

@@ -159,6 +159,7 @@ je_our_land = {
 		has_law = law_type:law_theocracy
 	}
 	on_complete = {
+		change_tag = AEF
 		trigger_event = {
 			id = lotharingia.7
 		}

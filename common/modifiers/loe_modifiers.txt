@@ -79,7 +79,7 @@ modifier_rome_nine = {
 }
 modifier_rome_ten = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	state_accepted_birth_rate_mult = 0.15
+	state_accepted_birth_rate_mult = 0.2
 }
 modifier_loth_one = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds

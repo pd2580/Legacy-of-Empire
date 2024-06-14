@@ -15008,9 +15008,18 @@ NEW_theocracy = {
 	}
 }
 
-NGF = { # North German Federation
-	# Actually used the simple tricolor given to GER
-	# version with german state crown
+AEF = {
+	pattern = "pattern_border_venice.dds"
+	color1 = "white"
+	color2 = "blue"
+
+	colored_emblem = {
+		texture = "ce_chi_rho.dds"
+		color1 = "blue"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
+	}	
+}
+AEF_republic = {
 	
 	pattern = "pattern_solid.tga"
 	color1 = "black"
@@ -15029,10 +15038,136 @@ NGF = { # North German Federation
 		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }
 	}	
 	textured_emblem  = {
-		texture = "te_german_state_crown.dds"
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.48 } }	
+		texture = "te_eagle_prussia_monogram_crown.dds"
+		instance = { scale = { 0.66 0.66 } position = { 0.5 0.52 } }	
+	}	
+
+}
+
+ICI = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "yellow"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_shield_plc.dds"
+		color1 = "red"
+		color2 = "yellow_light"
+		instance = { scale = { 0.6 0.6 } position = { 0.75 0.59 } }
+	}	
+	colored_emblem = {
+		texture = "ce_keys_st_peter_knot.dds"
+		color1 = "yellow"
+		color2 = "white"
+		color3 = "white"
+		instance = { scale = { 0.29 0.32 } position = { 0.75 0.57 } }
+	}	
+	colored_emblem = {
+		texture = "ce_mitre.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "red"
+		instance = { scale = { 0.38 0.38 } position = { 0.75 0.26 } }
+	}	
+	colored_emblem = {
+		texture = "ce_shield_plc.dds"
+		color1 = "white"
+		color2 = "orange"
+		instance = { scale = { 0.6 0.6 } position = { 0.25 0.59 } }
+	}	
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "black"
+		color2 = "yellow"
+		instance = { scale = { 0.32 0.34 } position = { 0.25 0.59 } }
+	}
+	colored_emblem = {
+		texture = "ce_crown_imperial_austria.dds"
+		color1 = "yellow_dark"
+		color2 = "white"
+		color3 = "blue"
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.28 } }
+	}
+}
+ICI_republic = {
+	
+	pattern = "pattern_border_venice.dds"
+	color1 = "red"
+	color2 = "orange"
+
+	colored_emblem = {
+		texture = "ce_chi_rho.dds"
+		color1 = "white"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
+	}	
+
+}
+ICI_communist = { 
+	
+	pattern = "pattern_border_venice.dds"
+	color1 = "red"
+	color2 = "orange"
+
+	colored_emblem = {
+		texture = "ce_star_05_safcp.dds"
+		color1 = "yellow_light"
+		color2 = "red_dark"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
+	}	
+
+}
+
+PRU = {
+	pattern = "pattern_border_of_2.dds"
+	color1 = "white"
+	color2 = "black"
+
+	colored_emblem = {
+		texture = ce_stripes_04.dds
+		color1 = "black"
+		instance = { scale = { 2.5 2.5 } position = { 0.5 0.18 } }
+	}
+	textured_emblem  = {
+		texture = "te_eagle_prussia_monogram_crown.dds"
+		instance = { scale = { 0.66 0.66 } position = { 0.44 0.48 } }	
 	}	
 }
+
+NGF = { # North German Federation
+	# Actually used the simple tricolor given to GER
+	# version with german state crown
+	
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	color3 = "red"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+	}
+	colored_emblem = {
+		texture = "ce_iron_cross.dds"
+		color1 = "white"
+		color2 = "black"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
+	}	
+
+}
+NGF_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	color3 = "red"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+	}
+}
+
 NGF_absolute_monarchy = {
 	# version with prussian eagle
 	
@@ -16514,25 +16649,31 @@ PAP_republic = {
 }
 PAP_communist = {
 	pattern = "pattern_solid.tga"
-	color1 = "black"
-	color2 = "yellow"
+	color1 = "red"
 
 	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
+		texture = "ce_coa_frame_austria.dds"
 		color1 = "white"
-		color2 = "red"
-	}		
+		color2 = "yellow_light"
+		color3 = "black"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } } 
+	}
 	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.56 0.56 } position = { 0.5 0.5 } } 
-	}	
-	colored_emblem = {
-		texture = "ce_star_05.dds"
+		texture = "ce_coa_roundel_austria.dds"
 		color1 = "red"
-		color2 = "red"
-		instance = { scale = { 0.44 0.44 } position = { 0.5 0.5 } } 
+		color2 = "yellow"
+		color3 = "yellow_light"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.4 } } 
+	}
+	colored_emblem = {
+		texture = "ce_hammer_and_sickle.dds"
+		color1 = "black"
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.55 } } 
+	}
+	colored_emblem = {
+		texture = "ce_hammer_and_sickle.dds"
+		color1 = "yellow_light"
+		instance = { scale = { 0.38 0.38 } position = { 0.5 0.55 } } 
 	}
 }
 PAP_fascist = {	
@@ -21052,6 +21193,17 @@ TRS = {
 		color1 = "red"
 		color2 = "yellow"
 	}
+}
+
+YUA = { # Yuan Pei
+	pattern = "pattern_border_two_stripes.dds"
+	color1 = "white"
+	color2 = "green"
+
+	textured_emblem = {
+		texture = "te_coa_carthage.dds"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}		
 }
 
 QAR = { # Carthage

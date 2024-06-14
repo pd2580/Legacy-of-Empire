@@ -3442,7 +3442,7 @@ GRO = { # Germany
 		subject_canton = GRO_modern
 	}
 	flag_definition = {
-		coa = GER_modern
+		coa = GRO_modern
 		subject_canton = GRO_modern
 		priority = 10
 		trigger = { 
@@ -3527,38 +3527,18 @@ GRO = { # Germany
 			exists = scope:actor
 			scope:actor = {
 				has_law = law_type:law_monarchy
+				was_formed_from = PRU
 			}
 		}
 	}
 	flag_definition = {
-		coa = GOR_iron_cross
-		subject_canton = GOR_iron_cross
+		coa = GRO_iron_cross
+		subject_canton = GRO_iron_cross
 		priority = 5
 		trigger = {
 			coa_def_autocracy_flag_trigger = yes
 			exists = scope:actor
-		}
-	}	
-	flag_definition = {
-		coa = GER_nihilist
-		subject_canton = GER_nihilist
-		priority = 1500
-		trigger = { 
-			coa_def_nihilist_flag_trigger = yes
-		}
-	}
-}
-
-### end of country-specific Germany variants ###
-
-GGR = { # Greater Germany
-	includes = GER
-	flag_definition = {
-		coa = GGR_fascist
-		subject_canton = GGR_fascist
-		priority = 20
-		trigger = { 
-			coa_def_fascist_flag_trigger = yes
+			was_formed_from = PRU
 		}
 	}	
 }
@@ -6185,7 +6165,54 @@ NGF = { # North Germany
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
+	}
+	flag_definition = {
+		coa = NGF_republic
+		subject_canton = NGF_republic
+		priority = 1500
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+ICI = { # Imperial Church of Italia
+	flag_definition = {
+		coa = ICI
+		subject_canton = ICI
+		priority = 1		
 	}	
+	flag_definition = {
+		coa = ICI_republic
+		subject_canton = ICI_republic
+		priority = 1500
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ICI_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+}
+
+AEF = { # Anointed Kingdom of West Frankia
+	flag_definition = {
+		coa = AEF
+		subject_canton = AEF
+		priority = 1		
+	}	
+	flag_definition = {
+		coa = AEF_republic
+		subject_canton = AEF_republic
+		priority = 1500
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
 }
 
 NIC = { # Nicaragua
@@ -8052,6 +8079,16 @@ SWI = { # Switzerland
 			coa_def_french_ensign_trigger = yes
 		}
 	}	
+}
+
+YUA = { # Yuan pei
+	flag_definition = {
+		coa = YUA
+		subject_canton = YUA
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = YUA_subject		
+		priority = 1
+	}
 }
 
 QAR = { # Qartaj
