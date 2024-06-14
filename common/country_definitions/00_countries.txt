@@ -3319,7 +3319,7 @@ LKT = {
 NVJ = {
 	color = { 126 180 154 }
 
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = principality
 	
@@ -4030,6 +4030,18 @@ AEF = {
 	cultures = { north_german south_german rhenish }
 	capital = STATE_HESSE
 }
+
+HOK = {
+	color = { 164 168 118 }
+	
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { hokan }
+	capital = STATE_CALIFORNIA
+}
+
 ICI = {
 	color = { 164 168 118 }
 	
@@ -4040,6 +4052,7 @@ ICI = {
 	cultures = { north_roman south_roman }
 	capital = STATE_LAZIO
 }
+
 NGF = {
 	color = {41 37 37}
 	
