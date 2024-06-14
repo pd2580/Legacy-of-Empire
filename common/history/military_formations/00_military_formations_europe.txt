@@ -582,4 +582,18 @@
 			save_scope_as = carthage_navy
 		}
 	}
+	c:YUA = {
+		## Yuan pei
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_pacific_coast
+			name = "City Garrison"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CALIFORNIA
+				count = 10
+			}
+			save_scope_as = yuan_army
+		}
+	}
 }

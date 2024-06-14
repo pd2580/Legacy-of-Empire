@@ -363,6 +363,8 @@ roman_rome = {
 			has_law = law_type:law_parliamentary_republic
 			has_law = law_type:law_presidential_republic
 			has_law = law_type:law_council_republic
+			has_law = law_type:law_anarchy
+			has_law = law_type:law_monarchy
 		}
 	}
 }
@@ -489,6 +491,19 @@ algeria_ait_abbas = {
 		has_variable = algeria_ait_abbas_var
 	}
 }
+
+Imperial_church_comm = {
+	color = "turkish_republic_red"
+	possible = {
+		exists = c:ICI
+		THIS = c:ICI
+		OR = {
+		has_law = law_type:law_council_republic
+		has_law = law_type:law_anarchy
+		}
+	}
+}
+
 
 hre_republic = {
 	color = "european_blue"

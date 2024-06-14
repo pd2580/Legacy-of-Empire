@@ -2609,6 +2609,19 @@ CAL = {
 	capital = STATE_CALIFORNIA
 }
 
+YUA = {
+	color = { 195 207 54 }
+	
+	country_type = unrecognized
+	
+	tier = city_state
+
+	religion = atheist
+	
+	cultures = { han min yue manchu }
+	capital = STATE_CALIFORNIA
+}
+
 CAN = {
 	color = { 94  117  55 }
 	
@@ -4007,6 +4020,26 @@ BLH = {
 	capital = STATE_BALUCHISTAN
 }
 
+AEF = {
+	color = { 225 230 161 }
+	
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { north_german south_german rhenish }
+	capital = STATE_HESSE
+}
+ICI = {
+	color = { 164 168 118 }
+	
+	country_type = recognized
+
+	tier = empire
+
+	cultures = { north_roman south_roman }
+	capital = STATE_LAZIO
+}
 NGF = {
 	color = {41 37 37}
 	
@@ -4014,7 +4047,7 @@ NGF = {
 
 	tier = kingdom
 
-	cultures = { north_german}
+	cultures = { north_german }
 	capital = STATE_BRANDENBURG
 }
 
