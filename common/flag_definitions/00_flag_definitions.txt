@@ -6184,6 +6184,14 @@ HOK = {
 	}
 }	
 
+LLO = { # Lombard League
+	flag_definition = {
+		coa = LLO
+		subject_canton = LLO
+		priority = 1		
+	}	
+}
+
 ICI = { # Imperial Church of Italia
 	flag_definition = {
 		coa = ICI

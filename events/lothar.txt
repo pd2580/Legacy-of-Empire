@@ -717,7 +717,7 @@ lotharingia.9 = {
 	flavor = lotharingia.9.f
 	duration = 3
 	event_image = {
-		texture = "gfx/event_pictures/Coronation.dds"
+		texture = "gfx/event_pictures/coronation.dds"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"

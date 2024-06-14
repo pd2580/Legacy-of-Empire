@@ -3531,7 +3531,7 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL={
-		region_state:LMG={
+		region_state:LLO={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -3677,7 +3677,7 @@
 		}
 	}
 	s:STATE_EAST_SWITZERLAND={
-		region_state:LMG={
+		region_state:LLO={
 			create_building={
 				building="building_government_administration"
 				level=1
