@@ -6176,6 +6176,14 @@ NGF = { # North Germany
 	}
 }
 
+HOK = {
+	flag_definition = {
+		coa = HOK
+		subject_canton = HOK
+		priority = 1		
+	}
+}	
+
 ICI = { # Imperial Church of Italia
 	flag_definition = {
 		coa = ICI
@@ -6192,6 +6200,7 @@ ICI = { # Imperial Church of Italia
 	}
 	flag_definition = {
 		coa = ICI_communist
+		subject_canton = ICI_communist
 		priority = 1500
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
@@ -8088,6 +8097,29 @@ YUA = { # Yuan pei
 		allow_overlord_canton = yes		
 		coa_with_overlord_canton = YUA_subject		
 		priority = 1
+	}
+	flag_definition = {
+		coa = YUA_monarchy
+		subject_canton = YUA_monarchy
+		priority = 1500
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = YUA_dictatorship
+		subject_canton = YUA_dictatorship
+		priority = 20
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = YUA_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
 	}
 }
 

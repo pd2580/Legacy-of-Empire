@@ -1052,7 +1052,7 @@
 		}
 	}
 	s:STATE_NEVADA = {
-		region_state:NAH = {
+		region_state:NVJ = {
 			create_pop = {
 				culture = paiute
 				size = 28000
@@ -1130,14 +1130,16 @@
 		}
 	}
 	s:STATE_CALIFORNIA = {
-		region_state:NAH = {
+		region_state:HOK = {
 			create_pop = {
 				culture = hokan
 				size = 52000
 			}
+		}
+		region_state:JAP = {
 			create_pop = {
-				culture = mexican
-				size = 11996
+				culture = japanese
+				size = 185234
 			}
 		}
 		region_state:YUA = {
@@ -1453,18 +1455,18 @@
 		}
 	}
 	s:STATE_BAJA_CALIFORNIA = {
-		region_state:NAH = {
+		region_state:JAP = {
 			create_pop = {
 				culture = mexican
 				size = 8264
 			}
 			create_pop = {
 				culture = oodham
-				size = 13300
+				size = 13382
 			}
 			create_pop = {
-				culture = afro_caribeno
-				size = 1300
+				culture = japanese
+				size = 111344
 			}
 		}
 	}

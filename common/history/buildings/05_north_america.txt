@@ -1736,7 +1736,7 @@
 		}
 	}
 	s:STATE_NEVADA = {
-		region_state:NAH = {
+		region_state:NVJ = {
 		}
 	}
 	s:STATE_ARIZONA = {
@@ -1756,6 +1756,38 @@
 		}
 	}
 	s:STATE_CALIFORNIA = {
+		region_state:JAP = {
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_coal_mine"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_coal_mine" }
+			}
+			create_building={
+				building="building_iron_mine"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
+			}
+			create_building={
+				building="building_logging_camp"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+		}
 		region_state:YUA = {
 			create_building = {
 				building = "building_government_administration"
@@ -1765,26 +1797,26 @@
 					"pm_horizontal_drawer_cabinets"
 				}
 			}
+				create_building={
+					building="building_port"
+					level=1
+					reserves=1
+					activate_production_methods={ "pm_basic_port" }
+				}
 			create_building = {
 				building = "building_university"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = {
-					"pm_scholastic_education"
+					"pm_philosophy_department"
 				}
-			}
-			create_building={
-				building="building_shipyards"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding" "pm_merchant_guilds_building_shipyards" }
 			}
 			create_building = {
 				building = "building_food_industry"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_bakery"
+					"pm_sweeteners"
 					"pm_disabled_canning"
 					"pm_merchant_guilds_building_food_industry"
 					"pm_manual_dough_processing"
@@ -1799,12 +1831,12 @@
 				activate_production_methods = {
 					"pm_pig_iron"
 					"pm_automation_disabled"
-					"pm_privately_owned_building_tooling_workshops"
+					"pm_merchant_guilds_building_tooling_workshops"
 				}
 			}
 			create_building = {
 				building = "building_livestock_ranch"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_privately_owned"
@@ -1815,50 +1847,29 @@
 				}
 			}
 			create_building = {
-				building = "building_coal_mine"
-				level = 1
-				reserves = 1
-				activate_production_methods = {
-					"pm_atmospheric_engine_pump_building_coal_mine"
-					"pm_no_explosives"
-					"pm_no_steam_automation"
-					"pm_road_carts"
-					"pm_privately_owned_building_coal_mine"
-				}
-			}
-			create_building = {
 				building = "building_textile_mills"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_handsewn_clothes"
+					"pm_dye_workshops"
 					"pm_merchant_guilds_building_textile_mills"
 					"pm_traditional_looms"
 					"pm_craftsman_sewing"
 				}
 			}
-			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
-					"pm_tools_disabled"
+					"pm_soil_enriching_farming"
+					"pm_tools"
 					"pm_privately_owned"
 				}
 			}
 			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = {
-					"pm_basic_port"
-				}
-			}
-			create_building = {
 				building = "building_logging_camp"
-				level = 1
+				level = 3
 				reserves = 1
 				activate_production_methods = {
 					"pm_saw_mills"
@@ -2480,7 +2491,25 @@
 		}
 	}
 	s:STATE_BAJA_CALIFORNIA = {
-		region_state:NAH = {
+		region_state:JAP = {
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_shipyards"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_shipbuilding" "pm_merchant_guilds_building_shipyards" }
+			}
 		}
 	}
 }
