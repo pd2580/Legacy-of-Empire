@@ -185,3 +185,13 @@ rhineland_income = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
 	country_tax_income_add = 3000
 }
+modifier_bgy_positive = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_approval_add = 2
+	interest_group_pol_str_mult = 0.1
+}
+modifier_bgy_negative = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	interest_group_approval_add = -2
+	interest_group_pol_str_mult = -0.1
+}

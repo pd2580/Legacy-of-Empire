@@ -7,22 +7,140 @@ je_francia_cent_bgy = {
 		
 	}
 
-	is_shown_when_inactive = {
-		this = c:BGY
-		hidden_trigger = {
-			has_variable = fra_uni_no
+	complete = {
+		custom_tooltip = {
+			text = fra_cent_main_tt
+			scope:journal_entry = {
+				is_goal_complete = yes
+			}
 		}
 	}
 
-	possible = {
-		this = c:BGY
-		hidden_trigger = {
-			has_variable = fra_uni_no
-		}
+	current_value = {
+		value = var:fra_cent_var
+	}
+
+	goal_add_value = {
+		add = 5
+	}
+
+	fail = {
+		
+	}
+
+	on_complete = {
+		
+	}
+
+	should_be_pinned_by_default = yes
+}
+
+je_francia_cent_bgy_gov = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
 	}
 
 	complete = {
+		OR = {
+			has_law = law_type:law_presidential_republic
+			has_law = law_type:law_parliamentary_republic
+		}
+		OR = {
+			has_law = law_type:law_census_voting
+			has_law = law_type:law_universal_suffrage
+		}
+	}
+
+	fail = {
 		
+	}
+
+	on_complete = {
+		
+	}
+
+	should_be_pinned_by_default = yes
+}
+
+je_francia_cent_bgy_rights = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
+	}
+
+	complete = {
+		NOT = {
+			has_law = law_type:law_no_social_security
+		}
+		NOT = {
+			has_law = law_type:law_no_womens_rights
+		}
+		NOT = {
+			has_law = law_type:law_serfdom
+		}
+		NOT = {
+			has_law = law_type:law_state_religion
+		}
+		NOT = {
+			has_law = law_type:law_child_labor_allowed
+		}
+		NOT = {
+			OR = {
+				has_law = law_type:law_ethnostate
+				has_law = law_type:law_national_supremacy
+			}
+		}
+	}
+
+	fail = {
+		
+	}
+
+	on_complete = {
+		
+	}
+
+	should_be_pinned_by_default = yes
+}
+
+je_francia_cent_bgy_bue = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
+	}
+
+	complete = {
+		OR = {
+			has_law = law_type:law_public_schools
+			has_law = law_type:law_private_schools
+		}
+		OR = {
+			has_law = law_type:law_public_health_insurance
+			has_law = law_type:law_private_health_insurance
+		}
+		OR = {
+			has_law = law_type:law_dedicated_police
+			has_law = law_type:law_local_police
+			has_law = law_type:law_militarized_police
+		}
+		OR = {
+			has_law = law_type:law_national_guard
+			has_law = law_type:law_secret_police
+			has_law = law_guaranteed_liberties
+		}
+		NOT = {
+			has_law = law_type:law_censorship
+		}
 	}
 
 	fail = {
