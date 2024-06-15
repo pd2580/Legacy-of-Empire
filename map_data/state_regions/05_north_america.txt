@@ -1282,6 +1282,7 @@ STATE_CALIFORNIA = {
         bg_sulfur_mining = 40
         bg_logging = 13
         bg_fishing = 14
+        bg_coal_mining = 15
     }
     resource = {
         type = "bg_gold_fields"

@@ -48,8 +48,10 @@ COUNTRIES = {
 			add_ruling_interest_group = yes
 		}
 
-		ig:ig_intelligentsia = {
-			set_ig_suppression = yes
+		trigger_event = { 
+			id = fra_uni_aqu.1
+			popup = yes
+			days = 0
 		}
 	}
 }

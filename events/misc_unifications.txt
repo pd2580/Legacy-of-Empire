@@ -1075,8 +1075,6 @@ formation.17 = {
 			c:HRE ?= THIS
 			c:UNL ?= THIS
 			c:RHN ?= THIS
-			c:ITA ?= THIS
-			c:GER ?= THIS
 			c:UUU ?= THIS
 		}
 	}

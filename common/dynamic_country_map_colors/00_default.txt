@@ -276,8 +276,8 @@ unpleasant_germany = {
 	color = "feldgrau"
 
 	possible = {
-		exists = c:GER
-		THIS = c:GER
+		exists = c:GRO
+		THIS = c:GRO
 		coa_dictatorship_trigger = yes
 		NOT = {
 			OR = {
@@ -303,8 +303,8 @@ communist_germany = {
     color = "communist_germany_red"
 
 	possible = {
-		exists = c:GER
-		THIS = c:GER
+		exists = c:GRO
+		THIS = c:GRO
 		has_law = law_type:law_council_republic
 	}
 }
@@ -313,8 +313,8 @@ ddr_germany = {
 	color = "DDR_green"
 
 	possible = {
-		exists = c:GER
-		THIS = c:GER
+		exists = c:GRO
+		THIS = c:GRO
 		OR = {
 			AND = {
 				has_law = law_type:law_single_party_state
@@ -363,6 +363,8 @@ roman_rome = {
 			has_law = law_type:law_parliamentary_republic
 			has_law = law_type:law_presidential_republic
 			has_law = law_type:law_council_republic
+			has_law = law_type:law_anarchy
+			has_law = law_type:law_monarchy
 		}
 	}
 }
@@ -444,19 +446,6 @@ nihilist_russia = {
 	}
 }
 
-nihilist_germany = {
-	color = "nihilist_germany_color"
-
-	possible = {
-		exists = c:GER
-		THIS = c:GER 
-		has_law = law_type:law_state_atheism
-		ruler = {
-			has_ideology = ideology:ideology_atheist
-		}
-	}
-}
-
 generic_black_anarchist = {
 	color = "black"
 
@@ -500,6 +489,28 @@ algeria_ait_abbas = {
 		exists = c:ALD
 		THIS = c:ALD
 		has_variable = algeria_ait_abbas_var
+	}
+}
+
+Imperial_church_comm = {
+	color = "turkish_republic_red"
+	possible = {
+		exists = c:ICI
+		THIS = c:ICI
+		OR = {
+		has_law = law_type:law_council_republic
+		has_law = law_type:law_anarchy
+		}
+	}
+}
+
+itf_communist = {
+	color = "red_dark"
+
+	possible = {
+		exists = c:ITF
+		THIS = c:ITF
+		has_law = law_type:law_council_republic
 	}
 }
 

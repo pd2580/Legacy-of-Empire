@@ -56,6 +56,7 @@
 		set_relations = { country = c:JAP value = -30 }
 		set_relations = { country = c:DAI value = -20 }
 		set_relations = { country = c:SIA value = -30 }
+		set_relations = { country = c:YUA value = 100 }
 	}
 	c:CLM = {
 		set_relations = { country = c:CAS value = -30 }

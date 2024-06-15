@@ -1218,14 +1218,14 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL = {
-		region_state:LMG = {
+		region_state:LLO = {
 			create_pop = {
 				culture = south_german
-				size = 174100
+				size = 114100
 			}
 			create_pop = {
 				culture = north_roman
-				size = 5900
+				size = 90900
 			}
 		}
 	}
@@ -1276,7 +1276,7 @@
 		}
 	}
 	s:STATE_EAST_SWITZERLAND = {
-		region_state:LMG = {
+		region_state:LLO = {
 			# 895200 total
 			# 43.3% Protestant, 56.7% Catholic
 

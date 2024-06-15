@@ -6,67 +6,6 @@
 	ai_will_do = { always = yes }
 }
 
-PRU = {
-	states = {
-		STATE_BRANDENBURG
-		STATE_ANHALT
-		STATE_SAXONY
-		STATE_SILESIA
-		STATE_POSEN
-		STATE_MECKLENBURG
-		STATE_POMERANIA
-		STATE_WEST_PRUSSIA
-		STATE_EAST_PRUSSIA
-	}
-
-	required_states_fraction = 1
-
-	possible = {
-		country_has_primary_culture = cu:north_german
-	}
-
-	ai_will_do = {
-		always = yes
-	}
-}
-
-FRKA = {
-	states = {
-		STATE_BRITTANY
-		STATE_NORMANDY
-		STATE_PICARDY
-		STATE_CHAMPAGNE
-		STATE_FRENCH_LOW_COUNTRIES
-		STATE_LORRAINE
-		STATE_ALSACE_LORRAINE
-		STATE_FRANCHE_COMTE
-		STATE_BURGUNDY
-		STATE_ORLEANS
-		STATE_MAINE_ANJOU
-		STATE_POITOU
-		STATE_AUVERGNE_LIMOUSIN
-		STATE_RHONE
-		STATE_PROVENCE
-		STATE_LANGUEDOC
-		STATE_GUYENNE
-		STATE_AQUITAINE
-		STATE_ILE_DE_FRANCE
-	}
-
-	required_states_fraction = 0.75
-
-	possible = { 
-		OR = {
-			country_has_primary_culture = cu:burgundian
-			country_has_primary_culture = cu:occitan
-		}
-	}
-
-	ai_will_do = {
-		always = yes
-	}
-}
-
 BRT = {
 	states = {
 		STATE_HOME_COUNTIES
@@ -814,7 +753,7 @@ SHQ = {
 HRE = {
 	use_culture_states = yes
 
-	required_states_fraction = 0.75
+	required_states_fraction = 0.50
 	
 	ai_will_do = { always = no }
 	

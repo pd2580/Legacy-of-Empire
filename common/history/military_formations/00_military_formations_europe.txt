@@ -152,11 +152,11 @@
 			save_scope_as = 1st_bavarian_army
 		}
 	}
-	c:LMG = {
+	c:LLO = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_italy
-			name = "1st Padanian Army"
+			name = "Prima Divisione Lombarda"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_LOMBARDY
@@ -164,7 +164,7 @@
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_LOMBARDY
+				state_region = s:STATE_PIEDMONT
 				count = 15
 			}
 			save_scope_as = 1st_padanian_army
@@ -547,7 +547,7 @@
 			save_scope_as = navy_venetia
 		}
 	}
-	c:SYR = {
+	c:QAR = {
 		## Carthage
 		create_military_formation = {
 			type = army
@@ -580,6 +580,20 @@
 				count = 10
 			}
 			save_scope_as = carthage_navy
+		}
+	}
+	c:YUA = {
+		## Yuan pei
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_pacific_coast
+			name = "City Garrison"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CALIFORNIA
+				count = 10
+			}
+			save_scope_as = yuan_army
 		}
 	}
 }

@@ -56,6 +56,43 @@
  fra_uni.7.f:0 "News spread slow at first, but eventually everyone had heard. Frankia was united once more. The patriots of the old Burgundian throne were now recognized as Frankish heros. Those who kept the country together throughout this battle have been relieved of a heavy burden. Those liberated from their oppressors celebrate the end of the fight, and a return to normalcy."
  fra_uni.7.a:0 "Long live the Frankish Empire!"
 
+ fra_uni_aqu.1.t:0 "The Legacy of Frankia"
+ fra_uni_aqu.1.d:1 "The old French Empire fell with the death of King Louis the XIV, and with it the grand dream of a united Frankish people. The Empire has collapsed into various duchies and now, over a century later, the Burgundians and Aquitains have brought the idea of restoring the old Empire into light. We must now decide how we want to go about this issue."
+ fra_uni_aqu.1.f:0 ""Imperialists call for the full restoration of Frankia. The Liberals want us to stop before we go down the same path that sent the French into chaos."\n "It's always important to keep together the kingdom, but there's nothing stopping us from taking back our old land, right?""
+ fra_uni_aqu.1.a:0 "We should focus on stabalizing ourselves before anything else."
+ fra_uni_aqu.1.b:0 "Frankia will rise once more."
+
+ fra_uni_aqu.2.t:0 "France Reclaimed!"
+ fra_uni_aqu.2.d:1 "Through our might we have extended our influence to the rest of France. Our control over the heart of Frankia is secure, our people can rest easy, and the Imperialists are ecstaitc."
+ fra_uni_aqu.2.f:0 ""This is great day for the Frankish people. We are on the path to greatness, and this will be one of many great days for our people.""
+ fra_uni_aqu.2.a:0 "Long live the Frankish Empire. Fight on!"
+
+ fra_uni_aqu.3.t:0 "Occitania Reclaimed!"
+ fra_uni_aqu.3.d:1 "Our grand army has extended our influence into the southern regions of Frankia. Our new citizens will surely meet us with open arms as their new protector, and we will protect."
+ fra_uni_aqu.3.f:0 ""This is great day for the Frankish people. We are on the path to greatness, and this will be one of many great days for our people.""
+ fra_uni_aqu.3.a:0 "Long live the Frankish Empire. Fight on!"
+
+ fra_uni_aqu.4.t:0 "The Dutch Retreat!"
+ fra_uni_aqu.4.d:1 "We've spent years preparing. We've spent months fighting. Now, after showing Frankish superiority over the "strongest" empire in the world, we've reclaimed our homelands."
+ fra_uni_aqu.4.f:0 "The people of the Benelux welcomed the Burgundians with open arms. It had been hundreds of years since the low countries had called themselves Burgunian, but they were ready to do so once more. They were no longer under occupation, they were home."
+ fra_uni_aqu.4.a:0 "Burgundians are once more under Burgundian rule."
+
+ fra_uni_aqu.5.t:0 "The Rhine Reclaimed!"
+ fra_uni_aqu.5.d:1 "We have now reclaimed a vital industrial heartland. With The Rhine under our control we can fund further expansion of the state."
+ fra_uni_aqu.5.f:0 ""This is great day for the Frankish people. We are on the path to greatness, and this will be one of many great days for our people.""
+ fra_uni_aqu.5.a:0 "Long live the Frankish Empire. Fight on!"
+
+ fra_uni_aqu.6.t:0 "Iberia Reclaimed!"
+ fra_uni_aqu.6.d:1 "We have reclaimed the furthest extent of the old French Empire, and now Frankish people in Iberia will no longer need to fear the wrath of the Muslims, or the Spanish. They are protected now."
+ fra_uni_aqu.6.f:0 ""This is great day for the Frankish people. We are on the path to greatness, and this will be one of many great days for our people.""
+ fra_uni_aqu.6.a:0 "Long live the Frankish Empire. Fight on!"
+
+ fra_uni_aqu.7.t:0 "Frankia Re-Unified"
+ fra_uni_aqu.7.d:1 "It was a long, stressful, and painful process, but we've done it. All Frankish people are once again under one banner, our banner. From our ancestral homelands of the Low Countries to the beautiful seas of Iberia, our people are now safe. Our people can be free from oppression. Our people are free from danger. Our people are free from the shackles of old, and can now embrace the modern era with open arms."
+ fra_uni_aqu.7.f:0 "News spread slow at first, but eventually everyone had heard. Frankia was united once more. The patriots of the old Burgundian throne were now recognized as Frankish heros. Those who kept the country together throughout this battle have been relieved of a heavy burden. Those liberated from their oppressors celebrate the end of the fight, and a return to normalcy."
+ fra_uni_aqu.7.a:0 "Long live the Frankish Empire!"
+
+
  papal_to_rome.1.t:0 "The Eternal City"
  papal_to_rome.1.d:0 "Discontent is growing in Rome. After centuries of papal authority, the people grow restless.\nOutspoken voices from politicians like [SCOPE.sCharacter('intelligentsia_leader').GetFullName] call for the end of the holy tyranny and a new republic to be founded by the Roman people.\nThe catholic curia call for more extensive policing to keep the rabble down and look for assistance from the catholic powers of europe."
  papal_to_rome.1.f:0 "“They are protesting again Your Holiness.\nThey demand your abdication”\n“This is heresy! Where is the gendarmeria?!\nHow can they continue to allow this?”\n“The gendarmeria refuses to intervene Holy Father, there is nothing we can do”\n“God help us my child, God help us all”"
@@ -111,6 +148,9 @@
  papal_to_rome.9.f:0 "Catholic fervor has never been so high, almost every catholic of Italy feel the need travel all around the world and spread the Gospel.\nIs this the start of a new age of religious fanatism?"
  papal_to_rome.9.a:0 "Go, my children, and spread God's Word"
 
+ LE_venice:0 "Discriminate all the slovenes"
+ LE_venice_desc:0 "Exactly that."
+
  lotharingia.1.t:0 "God's Kingdom"
  lotharingia.1.d:0 "A Kingom that will never fall"
  lotharingia.1.f:0 "Thuringia is the oldest kingdom still alive in Europe;\nFounded in 340 CE by those who were called "Germani" by the romans, its longevity has caused some members of the clergy and the ruling class to start thinking that the people of Thuringia is God's Chosen People, destined to live in a kingdom that will never fall."
@@ -143,7 +183,7 @@
  lotharingia.6.f:0 "It is now time to reclaim our former lands, the lands we lost after centuries of wars, and populate them with our People."
  lotharingia.6.a:0 "We draw our swords for God and Our Land"
 
- lotharingia.7.t:0 "The Anointed Kingdom of West Frankia"
+ lotharingia.7.t:0 "The Anointed Kingdom of East Frankia"
  lotharingia.7.d:0 "After centuries of exile from our sacred lands, we have finally claimed them back!"
  lotharingia.7.f:0 "Now that our people live in the lands that God has originally made for us, it's time for the Chosen People to furfill the Divine Mission God gave us and populate those lands under His name."
  lotharingia.7.a:0 "Eternal Glory to God!"
@@ -241,3 +281,36 @@
  le_bohem.1.d:0
  le_bohem.1.f:0
  le_bohem.1.a:0
+
+ lombard.1.t:0 "A Failed Confederation"
+ lombard.1.d:0 "In January 1809 north italy was invaded by the Archduchy of Austria, whose aim was to conquer the region of south Tyrol, Istria, Venetia and Lombardy."
+ lombard.1.f:0 "After a few months, the north italian cities organized into a defensive league, the Lombard League, in order to favor military cooperation against the invader.\nThe war lasted 3 years, ending with the peace of Venice that granted the region of south tyrol to the archduchy of austria.\nVenice left the lombard league after the peace due to some conflicts of interest about the use of venician ports in the Mediterranean to restock food for the League's military ships.\nMilan, Turin and Genoa stayed in the league, with Milan taking advantage of a weakened Austria to regain south Tyrol in 1820.\nPersonal interests and widespread corruption have weakened greatly the confederation, which has almost reached the breaking point.\nChanges are to be made, or the confederation won't be able to survive."
+ lombard.1.a:0 "Difficult times are ahead of us."
+
+ lombard.2.t:0 "To Become a Nation"
+ lombard.2.d:0 "A wave of nationalism is causing chaos in all of the confederation."
+ lombard.2.f:0 "The previous dissatisfaction for the current political situation is now mixing with a newly spread sentiment of nationalism in the heart of the italian people, and the result is a ticking bomb that is just waiting to explode.\nPoliticians such as [SCOPE.sCharacter('intelligentsia_leader').GetFullName] are telling that the only way for the confederation to survive, is to abandon any parochialism and embrace the idea of a nation made by and for the Italian people."
+ lombard.2.a:0 "Verso l'Italia!"
+
+ lombard.3.t:0 "The Proclamation of Italy"
+ lombard.3.d:0 "Today, the Milanese Republic, the Republic of Piedmont and the Merchantile Republic of Genoa have been officially dissolved."
+ lombard.3.f:0 "Under heavy popular pressure, all the members of the previous ruling class of Milan, Turin and Genoa have been forced to resign from their office; the parliament was moved to Parma, and the people is waiting for new elections.\nToday marks the beginning of a new era for all italian people, an era of democracy and prosperity."
+ lombard.3.a:0 "Viva l'Italia"
+
+ lombard.4.t:0 "The fall of Rome"
+ lombard.4.d:0 "After five centuries, Rome has fallen again."
+ lombard.4.f:0 "This morning italian troops have entered Rome, taking advantage of a breach they caused near Porta Pia.\nThe Pope has been forced into exile, and the city is now under italian rule.\nDespite the destruction, the people of Rome celebrate, now that the city has been freed from the corrupted tyranny of the Curia romana."
+ lombard.4.a:0 "For a prosperous future of our Country"
+
+loe_venice.1.t:0 "The Fallen Queen of the Mediterranean"
+loe_venice.1.d:0 "The Venice that once ruled the Mediterranean Sea,\nis now reduced to a mere regional power."
+loe_venice.1.f:0 "The decline of Venice has started centuries ago, and ever since she reached her peak in the middle ages, the former queen of the mediterranean has only known defeat.\nWith the rapid spread of industrialization, a second chance was given to Venice, but the road to glory is paved with difficulties."
+loe_venice.1.a:0 "Per Aspera ad Astra"
+
+loe_venice.2.t:0 "All the Ships Lead to Venice"
+loe_venice.2.d:0 "Venice has emerged as the greatest trade power the world has ever known"
+loe_venice.2.f:0 "What seemed like an impossible achievement, was indeed achieved; Venice has not only reached her peak of the past, but she has exceeded it greatly.\nAn age of grand prosperity is starting, and Venice is the protagonist of it."
+loe_venice.2.a:0 "May Venice prosper a thousand years more!"
+
+Felice:0 "Felice"
+Iannarella:0 "Iannarella"

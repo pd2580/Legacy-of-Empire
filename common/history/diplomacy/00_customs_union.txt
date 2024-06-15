@@ -1,3 +1,8 @@
 ﻿DIPLOMACY = {
-
+	c:CHI = {
+		create_diplomatic_pact = {
+			country = c:YUA
+			type = customs_union
+		}
+	}
 }
