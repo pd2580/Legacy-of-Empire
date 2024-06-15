@@ -292,11 +292,11 @@ STATE_VENETIA = {
     provinces = { x3080A0 x3083C8 x5141E0 x554866 x605424 x6984B4 x8EEB7A xB001A0 xB080A0 xC02A3F }
     traits = { "state_trait_po_river" }
 
-    city = xB001A0
-    port = xB001A0
-    farm = x3083C8
-    mine = xD0BF60
-    wood = x6984B4
+    city = "x3083C8"
+    port = "xB001A0"
+    farm = "x5141E0"
+    mine = "x8EEB7A"
+    wood = "x6984B4"
     arable_land = 190
 
     arable_resources = { bg_vineyard_plantations bg_wheat_farms bg_livestock_ranches bg_silk_plantations }
