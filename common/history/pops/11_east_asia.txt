@@ -236,7 +236,7 @@
 				size = 1256348
 			}
 			create_pop = {
-				culture = Venetian
+				culture = venetian
 				size = 845982
 			}
 		}
@@ -639,7 +639,7 @@
 				size = 326789
 			}
 			create_pop = {
-				culture = Venetian
+				culture = venetian
 				size =156905
 			}
 		}
@@ -798,7 +798,7 @@
 				size = 483001
 			}
 			create_pop = {
-				culture = Venetian
+				culture = venetian
 				size = 188692
 			}
 		}

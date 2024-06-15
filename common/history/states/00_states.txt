@@ -121,7 +121,7 @@ STATES = {
 		}
 		create_state = {
 			country = c:OMA
-			state_type = TUNaty_port
+			state_type = treaty_port
 			owned_provinces = { xB7B2BD }
 		}
 		create_state = {
@@ -187,7 +187,7 @@ STATES = {
 		create_state = {
 			country = c:VEN
 			owned_provinces = { x90D001 x6BFF52 x1ABD79 }
-			state_type = unincorporated
+			state_type = treaty_port
 		}
 		
 		add_homeland = cu:han
@@ -215,7 +215,7 @@ STATES = {
 			owned_provinces = { "xB001A0" "x3083C8" "x3080A0" "x8EEB7A" "xB080A0" "x5141E0" "x605424" "x6984B4" "x554866" "xC02A3F" "xD040E0" }
 		}
 		
-		add_homeland = Venetian
+		add_homeland = cu:venetian
 		add_homeland = cu:slovene
 		
 	}
@@ -3940,7 +3940,7 @@ STATES = {
 		add_homeland = cu:chewa
 		add_homeland = cu:lacustrine_bantu
 	}
-	s:STATE_ERITUNA = {
+	s:STATE_ERITREA = {
 		create_state = {
 			country = c:EGY
 			owned_provinces = { x9970A0 x48573C x64B77C x409D6F x7090A0 xE64992 x140193 x0EBF6B xE00AC4 xF786F9 x593F30 x035501 x03442D x9E4472 x59AB39 x569C7E xEC9D04 x70A072 xEB1C6A xC5D429 x5D45FC x66F6C3 x1B0B1E }
@@ -5776,8 +5776,8 @@ STATES = {
 		}
 		create_state = {
 			country = c:VEN
+			state_type = treaty_port
 			owned_provinces = { xE5DAD3 x0FEECE xD8F037 }
-			state_type = TUNaty_port
 		}
 		
 		add_homeland = cu:han
@@ -6498,7 +6498,7 @@ STATES = {
 			country = c:VEN
 			owned_provinces = { x108021 x3060BF x56C78A xB061C0 x36B2E3 xF0A040 }
 		}
-		add_homeland = cu:Venetian
+		add_homeland = cu:venetian
 		add_homeland = cu:croat
 		add_homeland = cu:slovene
 	}

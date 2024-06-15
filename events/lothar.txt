@@ -754,7 +754,7 @@ lotharingia.9 = {
 		add_primary_culture = cu:francoprovencal
 		add_primary_culture = cu:breton
 		add_primary_culture = cu:occitan
-		add_primary_culture = cu:Venetian
+		add_primary_culture = cu:venetian
 		add_primary_culture = cu:dutch
 		change_tag = HRE
 	}

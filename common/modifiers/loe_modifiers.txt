@@ -185,6 +185,56 @@ rhineland_income = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
 	country_tax_income_add = 3000
 }
+
+modifier_lom_one = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_approval_add = 5
+	interest_group_pol_str_mult = 0.25
+	interest_group_pop_attraction_mult = 0.2
+}
+modifier_lom_two = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -2
+	interest_group_pol_str_mult = -0.15
+	interest_group_pop_attraction_mult = -0.1
+}
+modifier_lom_three = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_approval_add = 5
+	interest_group_pol_str_mult = 0.20
+	interest_group_pop_attraction_mult = 0.3
+}
+modifier_lom_four = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 100
+}
+modifier_ven_one = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_prestige_add = 5
+	country_tax_income_add = 2500
+}
+modifier_ven_two = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_prestige_add = 10
+	country_tax_income_add = 4500
+}
+modifier_ven_three = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_prestige_add = 50
+	country_tax_income_add = 25000
+}
+modifier_ven_four = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_prestige_add = 15
+	country_tax_income_add = 5500
+}
+modifier_ven_five = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_prestige_add = 100
+	country_tax_income_add = 40000
+	state_migration_pull_mult = 0.35
+	country_tech_spread_mult = 0.15
+
 modifier_bgy_positive = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	interest_group_approval_add = 2

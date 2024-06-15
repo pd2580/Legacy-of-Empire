@@ -504,6 +504,15 @@ Imperial_church_comm = {
 	}
 }
 
+itf_communist = {
+	color = "red_dark"
+
+	possible = {
+		exists = c:ITF
+		THIS = c:ITF
+		has_law = law_type:law_council_republic
+	}
+}
 
 hre_republic = {
 	color = "european_blue"

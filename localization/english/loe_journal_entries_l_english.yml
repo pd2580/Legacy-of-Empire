@@ -108,3 +108,51 @@
 
  je_bav_pro:0 "The Matter of Bavaria"
  je_bav_pro_reason:0 "Reclaiming the Kingdom of Bavaria would grant us more resources and more wealth, but the deep cultural and religious differences between the Czech and the South German people could cause many problems for the stability of the reign, making Bavaria more of a burden than a gain."
+
+ je_lom_main:0 "Winds of Change"
+ je_lom_main_reason:0 "The Lombard League is a de facto federation of three republics, the Milanese Republic, the Republic of Piedmont and the Merchantile republic of Genoa.\nThis great decentralization of power has favored the personal interests of most politicians, to the disadvantage of the people of the confederation.\nThis situation cannot continue, and the ruling class knows that.\nPeople demand change."
+
+ je_lom_ita:0 "A Nation for the Italian People"
+ je_lom_ita:0 "Centuries of division have greatly fractured the cultures in the italian peninsula, but the feeling of being italian has cemented in the hearts of italian people\nParochialism and personal interests have hindered any type of national unification, but now things have changed.\nIt is now time to unite all italian people under one flag."
+
+je_lom_rome:0 "La Questione Romana"
+je_lom_rome_reason:0 "Even though centuries of division have split italian and roman people apart culturally, Rome is still the city that represent the peninsula the most, and thus italian politicians are heavily pushing to conquer it."
+
+je_venice_main:0 "Hub of all Trades"
+je_venice_main_reason:0 "With the spreading of industrialization all across Europe and the increasing necessity of raw resources, our once glorious merchantile republic has the opportunity to become the most significant port of Europe, but in order to achieve that we must monopolize most of the trade routes that come into Europe."
+je_venice_main_goal:0 "7 Journal Entries have been completed."
+je_venice_main_r:0 "Hegemon of the Trade"
+je_venice_main_r_reason:0 "Now that we have gained the status of hegemon of the trade, we must do everything in our power to defend it, or we will lose everything we fought for."
+
+je_venice_adriatic:0 "Queen of the Adriatic"
+je_venice_adriatic_reason:0 "Reclaiming our former lands in Dalmatia and Albania will help us secure all trades routes coming from and going and to Venice"
+
+je_venice_resources:0 "Raw Resources Crysis"
+je_venice_resources_reason:0 "The impending need to increase the industrialization level of our country has exacerbated one of the biggest problem of our country:the lack of natural raw resources.\nConquering the rich region of Lombardy, albeit an hard task, would give us some room to breathe for the time being."
+
+je_venice_greece:0 "Ruler of Greece"
+je_venice_greece_reason:0 "When Venice reached her peak in the middle ages, almost all of Greece was under her rule.\nTaking back those land would grant us international prestige, as well as more resources and manpower."
+
+je_venice_black:0 "The Gatekeeper of the Black Sea"
+je_venice_black_reason:0 "Taking control of the Bosphorus would give us the complete monopoly on naval trade from the black sea."
+je_venice_black_r:0 "Protect the Bosphorus"
+je_venice_black_r_reason:0 "If we lose the Bosphorus, we will lose power, money and authority, therefore it's mandatory to defend it to the last man."
+
+je_venice_cape:0 "World's restocking port"
+je_venice_cape_reason:0 "Until another way is found, every european ship going to and coming from the east has to restock in Cape Town;\nTaking that city would grant us wealth, as well as political power and influence."
+je_venice_cape_r:0 "Protect Cape Town"
+je_venice_cape_r_reason:0 "Owning the Cape is source of international prestige, other than money, thus losing this region would be a great loss."
+
+je_venice_east:0 "Eastern Trade"
+je_venice_east_reason:0 "The industrial revolution ha caused the rapid enrichment of some segments of society, and therefore the increase in need for luxury materials and goods that are only available in the east.\nHence it is mandatory to acquire trade ports in that region."
+
+je_venice_mediterranean:0 "The Gates of the Mediterranean"
+je_venice_mediterranean_reason:0 "Obtaining Gibraltar would give us the complete monopoly on the naval trade of the Mediterranean, and if we were to find another way to reach the east faster and monopolize that too, immense wealth and political influence would be gained."
+je_venice_mediterranean_r:0 "Protect Gibraltar and the Suez"
+je_venice_mediterranean_reason_r:0 "Gibraltar and the Suez are by far our greatest assets, hence the idea of losing even one of them is not to be contemplated."
+
+je_venice_panama:0 "An Impossible Project"
+je_venice_panama_reason:0 "Venetian architects have started fantasizing about a way to connect the Pacific Ocean to the Atlantic Ocean, and it seems like it would be possible to hypothetically build a canal in central america, but we would have to send a mission first and the project itself would be massively expensive;\nOn the other side, building such a canal would give us the monopoly of all the naval trade routes between those two Oceans."
+je_venice_advance:0 "Finishing this Journal Entry will make "Hub of all Trades" JE advance."
+je_venice_panama_r:0 "Protect the Panama"
+je_venice_panama_reason:0 "The Panama is Venice's Magnum Opus, and considering the absurd amount of money and time we spent for it, even the idea of losing it is inconceivable.\nThe Canal must not fall in other nation's hands."

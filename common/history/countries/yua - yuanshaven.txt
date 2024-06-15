@@ -50,5 +50,8 @@ COUNTRIES = {
 		ig:ig_intelligentsia = {
 			add_ruling_interest_group = yes
 		}
+		ig:ig_intelligentsia = {
+			set_ig_bolstering = yes
+		}
 	}
 }

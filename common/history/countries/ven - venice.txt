@@ -11,6 +11,14 @@
 		effect_starting_technology_tier_1_tech = yes
 		
 		effect_starting_politics_liberal = yes
+
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_private_health_insurance
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_laissez_faire
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_public_schools
 		
 		set_tax_level = medium
 		
@@ -19,8 +27,23 @@
 
 		activate_law = law_type:law_dedicated_police
 
-		ig:ig_landowners = {
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 3
+		}
+		set_institution_investment_level = {
+			institution = institution_health_system
+			level = 3
+		}
+
+		ig:ig_petty_bourgeoisie = {
 			add_ruling_interest_group = yes
+		}
+		ig:ig_petty_bourgeoisie = {
+			set_ig_bolstering = yes
+		}
+		trigger_event = {
+			id = loe_venice.1
 		}
 	}
 }

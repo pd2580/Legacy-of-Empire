@@ -3005,7 +3005,7 @@ south_italian={
 }
 
 
-Venetian={
+venetian={
 	color= hsv{ 87 1 82 }
 	religion = catholic
 	traits = { italophone european_heritage }
@@ -3020,7 +3020,7 @@ Venetian={
 		Camillo Carlo Cesare Costanzo Casimiro Cristoforo
 		Davide Domenico Damiano
 		Enrico Enzo Ettore Efisio Emiliano Ernesto
-		Fabrizio Faustino Federico Felice Ferdinando Fiorenzo Francesco Filippo Filiberto
+		Fabrizio Faustino Federico Felice Ferdinando Fiorenzo Francesco Filippo Filiberto Felice
 		Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Giacomo Giorgio Gaspare Gaetano
 		Innocenzo Ignazio Ippolito Ilario
 		Leopoldo Luigi Luca Lorenzo
@@ -3066,7 +3066,7 @@ Venetian={
 		Emo
 		Fanti Fara Filomarino Fara Farina Farini Ferraciu Fescot
 		Garibaldi Giardino Govone Gallenga Gallisai Gallo Galvagno Gastinelli Genina Gerbore Germanetti Geymet Ghiglini Gianolio Gilardini Ginet Giovanola Graffigna Grixoni Guglianetti Guillet
-		Imperiali Isola
+		Iannarella Imperiali Isola
 		Lachenal Lanza Louaraz
 		Malan La_Marmora Mambretti Menabrea Mozzoni Mameli Mamiani Mantelli Marassi Mari Marongiu Martelli Martin Mathieu Mautino Mazza Melegari Mellana Menabrea Mezzena Michelini Miglietti Miglioretti Minoglio Moia Mongellaz Monticelli Mossi Musso
 		Naytana Niccolini Nino Notta
