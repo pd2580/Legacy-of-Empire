@@ -258,7 +258,7 @@ ideology_republican_leader = {
 	
 	lawgroup_governance_principles = {
 		law_presidential_republic = approve
-		law_parliamentary_republic = approve
+		law_parliamentary_republic = strongly_approve
 		law_council_republic = disapprove
 		law_monarchy = disapprove
 		law_theocracy = disapprove
@@ -268,6 +268,15 @@ ideology_republican_leader = {
 		law_elected_bureaucrats = approve
 		law_appointed_bureaucrats = neutral
 		law_hereditary_bureaucrats = disapprove
+	}
+
+	lawgroup_distribution_of_power = {
+		law_universal_suffrage = strongly_approve
+		law_census_voting = approve
+		law_wealth_voting = neutral
+		law_landed_voting = neutral
+		law_oligarchy = disapprove
+		law_autocracy = strongly_disapprove
 	}
 	
 	possible = {

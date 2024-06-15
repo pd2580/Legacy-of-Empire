@@ -32,6 +32,68 @@ fra_uni.1 = {
 		add_journal_entry = {
 			type = je_francia_cent_bgy
 		}
+		add_journal_entry = {
+			type = je_francia_cent_bgy_gov
+		}
+		add_journal_entry = {
+			type = je_francia_cent_bgy_bue
+		}
+		add_journal_entry = {
+			type = je_francia_cent_bgy_rights
+		}
+		add_loyalists = {
+			strata = poor
+			value = 0.05
+		}
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_landowners
+				exist = leader
+			}
+			leader = {
+				save_scope_as = landowners_leader
+			}
+		}
+		scope:landowners_leader = {
+			set_ideology = ideology:ideology_reformer
+		}
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_intelligentsia
+				exist = leader
+			}
+			leader = {
+				save_scope_as = intelligentsia_leader
+			}
+		}
+		scope:intelligentsia_leader = {
+			set_ideology = ideology:ideology_republican_leader
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_landowners
+				}
+			}
+			add_modifier = {
+				name = modifier_bgy_negative
+				years = 25
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_industrialists
+				}
+			}
+			add_modifier = {
+				name = modifier_bgy_positive
+				years = 25
+			}
+		}
 	}
 	option = {
 		name = fra_uni.1.b

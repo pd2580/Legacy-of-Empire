@@ -49,6 +49,20 @@
  je_francia_reuni_bgy_ibe:0 "Frankish Re-Unification: Iberia"
  je_francia_reuni_bgy_ibe_reason:0 "Though Iberian lands were part of the farthest extent of the old French Empire, they are still vital to reclaim in our efforts."
 
+ je_francia_cent_bgy:0 "A Better Burgundy"
+ je_franciacent_bgy_desc:0 "Now that the chaos of the French Civil war has died down, we should focus on restoring the once great Frankia"
+ je_francia_cent_bgy_tooltip:0 "Now that the chaos of the French Civil war has died down, we should focus on restoring the once great Frankia"
+ je_francia_cent_bgy_reason:0 "Now that the chaos of the French Civil war has died down, we should focus on restoring the once great Frankia"
+
+ je_francia_cent_bgy_gov:0 "A Better Burgundy: Right to Rule"
+ je_francia_cent_bgy_gov_reason:0 "To ensure the prosperity and longevity of our nation we're going to need a government that can change with the times."
+
+ je_francia_cent_bgy_rights:0 "A Better Burgundy: Human Rights"
+ je_francia_cent_bgy_rights_reason:0 "To ensure the prosperity and longevity of our nation we're going to need a government that can change with the times."
+
+ je_francia_cent_bgy_bue:0 "A Better Burgundy: Modern Bureaucracy"
+ je_francia_cent_bgy_bue_reason:0 "We need to make sure our people have access to modern services to keep them in line."
+
  rome_je_main:0 "A Dream Called Rome"
  rome_je_main_reason:0 "Republicans at the gates of Saint Peter's Basilica! The papacy clings to power as the republicans grow in strength. Whether it is redemption or oblivion that awaits her, Rome balances on a knife edge."
 
