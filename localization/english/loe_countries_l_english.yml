@@ -25,6 +25,8 @@
  AQR_ADJ:0 "Gascon"
  LLO:0 "Lombard League"
  LLO_ADJ:0 "North Italian"
+ ITF:0 "Italian Federation"
+ ITF_ADJ:0 "Italian"
  RHI:0 "Rhineland"
  RHI_ADJ:0 "Rhenish"
  THU:0 "Thuringia"
@@ -133,3 +135,4 @@
  YUA:0 "Yuanpei's Haven"
  YUA:0 "Yuanpeian"
  HOK:0 "Hokan"
+ HOK_ADJ:0 "Hokan"

@@ -1406,13 +1406,13 @@ TUS = {
 }
 
 VEN = {
-	color = { 87 1 82 }
+	color = { 87 2 82 }
 	
 	country_type = recognized
 
 	tier = kingdom
 	
-	cultures = { Venetian }
+	cultures = { venetian }
 	capital = STATE_VENETIA
 	is_named_from_capital = yes
 }
@@ -2611,8 +2611,6 @@ CAL = {
 
 YUA = {
 	color = { 195 207 54 }
-	
-	country_type = unrecognized
 	
 	tier = city_state
 
@@ -4682,6 +4680,17 @@ RSM = {
 	tier = principality
 	
 	cultures = { north_roman }
+	capital = STATE_LOMBARDY
+}
+
+ITF = {
+	color = { 15 94 36 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_roman venetian }
 	capital = STATE_LOMBARDY
 }
 

@@ -281,3 +281,36 @@
  le_bohem.1.d:0
  le_bohem.1.f:0
  le_bohem.1.a:0
+
+ lombard.1.t:0 "A Failed Confederation"
+ lombard.1.d:0 "In January 1809 north italy was invaded by the Archduchy of Austria, whose aim was to conquer the region of south Tyrol, Istria, Venetia and Lombardy."
+ lombard.1.f:0 "After a few months, the north italian cities organized into a defensive league, the Lombard League, in order to favor military cooperation against the invader.\nThe war lasted 3 years, ending with the peace of Venice that granted the region of south tyrol to the archduchy of austria.\nVenice left the lombard league after the peace due to some conflicts of interest about the use of venician ports in the Mediterranean to restock food for the League's military ships.\nMilan, Turin and Genoa stayed in the league, with Milan taking advantage of a weakened Austria to regain south Tyrol in 1820.\nPersonal interests and widespread corruption have weakened greatly the confederation, which has almost reached the breaking point.\nChanges are to be made, or the confederation won't be able to survive."
+ lombard.1.a:0 "Difficult times are ahead of us."
+
+ lombard.2.t:0 "To Become a Nation"
+ lombard.2.d:0 "A wave of nationalism is causing chaos in all of the confederation."
+ lombard.2.f:0 "The previous dissatisfaction for the current political situation is now mixing with a newly spread sentiment of nationalism in the heart of the italian people, and the result is a ticking bomb that is just waiting to explode.\nPoliticians such as [SCOPE.sCharacter('intelligentsia_leader').GetFullName] are telling that the only way for the confederation to survive, is to abandon any parochialism and embrace the idea of a nation made by and for the Italian people."
+ lombard.2.a:0 "Verso l'Italia!"
+
+ lombard.3.t:0 "The Proclamation of Italy"
+ lombard.3.d:0 "Today, the Milanese Republic, the Republic of Piedmont and the Merchantile Republic of Genoa have been officially dissolved."
+ lombard.3.f:0 "Under heavy popular pressure, all the members of the previous ruling class of Milan, Turin and Genoa have been forced to resign from their office; the parliament was moved to Parma, and the people is waiting for new elections.\nToday marks the beginning of a new era for all italian people, an era of democracy and prosperity."
+ lombard.3.a:0 "Viva l'Italia"
+
+ lombard.4.t:0 "The fall of Rome"
+ lombard.4.d:0 "After five centuries, Rome has fallen again."
+ lombard.4.f:0 "This morning italian troops have entered Rome, taking advantage of a breach they caused near Porta Pia.\nThe Pope has been forced into exile, and the city is now under italian rule.\nDespite the destruction, the people of Rome celebrate, now that the city has been freed from the corrupted tyranny of the Curia romana."
+ lombard.4.a:0 "For a prosperous future of our Country"
+
+loe_venice.1.t:0 "The Fallen Queen of the Mediterranean"
+loe_venice.1.d:0 "The Venice that once ruled the Mediterranean Sea,\nis now reduced to a mere regional power."
+loe_venice.1.f:0 "The decline of Venice has started centuries ago, and ever since she reached her peak in the middle ages, the former queen of the mediterranean has only known defeat.\nWith the rapid spread of industrialization, a second chance was given to Venice, but the road to glory is paved with difficulties."
+loe_venice.1.a:0 "Per Aspera ad Astra"
+
+loe_venice.2.t:0 "All the Ships Lead to Venice"
+loe_venice.2.d:0 "Venice has emerged as the greatest trade power the world has ever known"
+loe_venice.2.f:0 "What seemed like an impossible achievement, was indeed achieved; Venice has not only reached her peak of the past, but she has exceeded it greatly.\nAn age of grand prosperity is starting, and Venice is the protagonist of it."
+loe_venice.2.a:0 "May Venice prosper a thousand years more!"
+
+Felice:0 "Felice"
+Iannarella:0 "Iannarella"

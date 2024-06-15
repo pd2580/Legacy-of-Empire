@@ -4306,137 +4306,39 @@ ISR = { # Israel
 	}
 }
 
-ITA = { # Italy
+ITF = { # Italian Federation
 	flag_definition = {
-		coa = ITA_republic
-		subject_canton = ITA_republic
+		coa = ITF
+		subject_canton = ITF
 		priority = 1
 	}
-	flag_definition = {
-		coa = ITA_papal
-		subject_canton = ITA_papal
-		priority = 15
-		
-		trigger = {
-			NOT = { exists = c:PAP } # Can't be Pope if the Pope is still in control of another country!
-			coa_def_theocracy_flag_trigger = yes
-		}
-	}
-
-	### Different monarchist Italies ###
-
-	# Sardinia-Piedmont Italy
-	flag_definition = {
-		coa = ITA
-		subject_canton = ITA
-		priority = 15
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				was_formed_from = SAR
-			}
-		}
-	}
-
-	## Two Sicilies Italy
-	flag_definition = {
-		coa = ITA_sicilian
-		subject_canton = ITA_sicilian
-		priority = 15
-		trigger = { 
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				was_formed_from = SIC
-			}
-		}
-	}
-
-	# Tuscany Italy
-	flag_definition = {
-		coa = ITA_tuscan
-		subject_canton = ITA_tuscan
-		priority = 15
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				was_formed_from = TUS
-			}
-		}
-	}
-
-	# Modena Italy
-	flag_definition = {
-		coa = ITA_modenan
-		subject_canton = ITA_modenan
-		priority = 15
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				was_formed_from = MOD
-			}
-		}
-	}
-
-	# Parma Italy
-	flag_definition = {
-		coa = ITA_parmesan
-		subject_canton = ITA_parmesan
-		priority = 15
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				was_formed_from = PAR
-			}
-		}
-	}
-
-	# Lucca Italy
-	flag_definition = {
-		coa = ITA_luccan
-		subject_canton = ITA_luccan
-		priority = 15
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				was_formed_from = LUC
-			}
-		}
-	}
-
-	### end of country-specific flags ###
 
 	flag_definition = {
-		coa = ITA_republic
-		subject_canton = ITA_republic
+		coa = ITF_monarchist
+		subject_canton = ITF_monarchist
 		priority = 10
 		trigger = { 
-			coa_def_republic_flag_trigger = yes
+			coa_def_monarchy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = ITA_dictatorship
-		subject_canton = ITA_dictatorship
+		coa = ITF_fascist
+		subject_canton = ITF_fascist
 		priority = 20
 		trigger = {
 			coa_def_dictatorship_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
-		coa = ITA_communist
+		coa = ITF_communist
 		priority = 1500
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
-		coa = ITA_fascist
-		subject_canton = ITA_fascist
+		coa = ITF_fascist
+		subject_canton = ITF_fascist
 		priority = 1500
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
