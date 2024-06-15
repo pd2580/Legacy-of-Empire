@@ -1805,7 +1805,7 @@
 				}
 			create_building = {
 				building = "building_university"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = {
 					"pm_philosophy_department"

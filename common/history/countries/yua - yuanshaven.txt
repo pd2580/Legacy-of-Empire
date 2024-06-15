@@ -26,7 +26,7 @@ COUNTRIES = {
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_frontier_colonization
-		activate_law = law_type:law_private_health_insurance
+		activate_law = law_type:law_public_health_insurance
 		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_no_police
@@ -45,7 +45,7 @@ COUNTRIES = {
 		}
 		set_institution_investment_level = {
 			institution = institution_health_system
-			level = 3
+			level = 4
 		}
 		ig:ig_intelligentsia = {
 			add_ruling_interest_group = yes
