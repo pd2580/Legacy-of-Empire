@@ -4551,7 +4551,7 @@ CAU = {
 }
 
 LLO = {
-	color = { 73  152  76 }
+	color = { 4 59 2 }
 	
 	country_type = recognized
 
