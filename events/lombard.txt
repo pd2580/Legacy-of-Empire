@@ -16,7 +16,6 @@ lombard.1 = {
 	}
 	option = {
 		name = lombard.1.a
-
 	}
 	after = {
 		add_journal_entry = {
@@ -24,6 +23,7 @@ lombard.1 = {
 		}
 	}
 }
+
 lombard.2 = {
 	type = country_event
 	placement = ROOT
@@ -82,11 +82,11 @@ lombard.2 = {
 					is_interest_group_type = ig_landowners
 				}
 			}
-		}
-		add_modifier = {
-			name = modifier_lom_two
-			months = normal_modifier_time
-			is_decaying = yes
+			add_modifier = {
+				name = modifier_lom_two
+				months = normal_modifier_time
+				is_decaying = yes
+			}
 		}
 		add_radicals = {
 			value = large_radicals
@@ -121,7 +121,7 @@ lombard.2 = {
 	}
 }
 
-lombard.3 = { 
+lombard.3 = {
 	type = country_event
 	placement = ROOT
 	title = lombard.3.t
@@ -155,7 +155,7 @@ lombard.3 = {
 		add_loyalists = {
 			strata = middle
 			value = very_large_radicals
-		} 
+		}
 		add_loyalists = {
 			strata = poor
 			value = very_large_radicals
@@ -172,7 +172,7 @@ lombard.3 = {
 	}
 }
 
-lombard.4 = { 
+lombard.4 = {
 	type = country_event
 	placement = ROOT
 	title = lombard.4.t
@@ -202,7 +202,7 @@ lombard.4 = {
 		add_loyalists = {
 			strata = middle
 			value = large_radicals
-		} 
+		}
 		add_loyalists = {
 			strata = poor
 			value = large_radicals
