@@ -53,5 +53,12 @@ COUNTRIES = {
 		ig:ig_intelligentsia = {
 			set_ig_bolstering = yes
 		}
+		add_modifier = {
+			name = modifier_yua_base
+			months = very_long_modifier_time
+		}
+		add_modifier = {
+			name = modifier_yua_base_two
+		}
 	}
 }

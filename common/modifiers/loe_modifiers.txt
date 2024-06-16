@@ -234,7 +234,7 @@ modifier_ven_five = {
 	country_tax_income_add = 40000
 	state_migration_pull_mult = 0.35
 	country_tech_spread_mult = 0.15
-
+}
 modifier_bgy_positive = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	interest_group_approval_add = 2
@@ -244,4 +244,14 @@ modifier_bgy_negative = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
 	interest_group_approval_add = -2
 	interest_group_pol_str_mult = -0.1
+}
+modifier_yua_base = {
+		icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+		state_migration_pull_add = 100
+		state_migration_pull_mult = 0.25
+}
+modifier_yua_base_two = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	state_migration_pull_add = 20
+	state_migration_pull_mult = 0.1
 }
