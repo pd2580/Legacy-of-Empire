@@ -2985,3 +2985,7 @@ modifier_ven_two:0 "Cape town`s restock tax"
 modifier_ven_three:0 "Suez`s dividends"
 modifier_ven_four:0 "Panama`s transit tax"
 modifier_ven_five:0 "Hub of all Trades"
+
+
+modifier_bgy_positive:0 "Pro Reform"
+modifier_bgy_negative:0 "Anti Reform"

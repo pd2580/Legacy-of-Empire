@@ -234,7 +234,7 @@ modifier_ven_five = {
 	country_tax_income_add = 40000
 	state_migration_pull_mult = 0.35
 	country_tech_spread_mult = 0.15
-
+}
 modifier_bgy_positive = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	interest_group_approval_add = 2
