@@ -4061,6 +4061,16 @@ NGF = {
 	cultures = { north_german }
 	capital = STATE_BRANDENBURG
 }
+SRC = {
+	color = { 25 64 94 }
+	
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { rhenish north_german south_german }
+	capital = STATE_HESSE
+}
 
 SGF = {
 	color = { 176 18 7}
