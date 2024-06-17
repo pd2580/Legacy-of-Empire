@@ -2758,77 +2758,82 @@ south_roman={
 	}	
 	
 	male_common_first_names={
-		Alessandro Armando Augusto Achille Antonio Agesilao
-		Bartolomeo Benedetto
-		Carlo Cesare Corrado Cesidio Corradino Cristoforo Carcano Carmine
-		Domenico Donato
-		Enrico Enzo Ettore Emanuele
-		Fabio Fabrizio Ferdinando Francesco Fausto
-		Gaetano Giacomo Giovanni Giulio Giuseppe Guglielmo GiosuE_ Goffredo Giorgio Giustino
-		Ignazio
-		Leopoldo Lorenzo Ludovico Luca Luigi Ludovico
-		Marcantonio Marino Mario Matteo Marco Monaldo Michele Melchiorre
-		Nicola
-		Orazio Oronzio
-		Pierfrancesco Paolo Pasquale Pietro Pellegrino
-		Raimondo Raffaele
-		Sigismondo Salvatore Sebastiano Saverio
-		Tommasso
-		Vincenzo
+		Adriano_Fabio Adriano Alessandro Antonio Attilio Alessandro_Esquilino Antonio_Curzio Attilio_Camilio
+		Cornelio_Appio Cornelio
+		Cristoforo Claudio_Giulio Caio_Quirino Claudio Caio
+		Domenico Decimo_Sabazio Decimo
+		Emanuele_Flaminio Emiliano_Galerio Enrico_Veturio Emanuele Emiliano Enrico
+		Fabio_Teretino Fausto_Marzio Flaminio_Claudio Flavio_Romilio Fulvio_Menio Filippo_Palatino Fabio Fausto Flaminio Flavio Fulvio Filippo
+		Gaio_Virgilio Gaio
+		Giulio_Voltinio Giuliano_Mezio Giulio Giuliano
+		Lorenzo_Pupinio Ludovico_Scaptio Luca_Aurelio Lucio_Settimio Livio_Lemonio Lorenzo Ludovico Luca Lucio Livio
+		Mario_Galerio Manlio_Cornelio Matteo Marco_Voltinio Marciano_Pomptinio Munaldo_Lemonio Marcello_Fabio Martino_Falerno Manlio Marco Marciano Munaldo Marcello Martino
+		Nicola_Appio Nono_Emilio Nicola Nono
+		Ottavio_Aurelio Ottavio_Voltinio Orazio_Quirino Ottavio
+		Paolo Pietro Pio Pompeo_Ostilio Publio_Claudio Pompeo Publio
+		Quarto_Camilio Quinto_Flaminio Quarto Quito
+		Regismondo Raffaello
+		Segimundo Sebastiano_Cornelio Sesto_Cornelio Settimo_Veturio Settimio_Velino Saverio_Menio Sebastiano Sesto Settimo Settimio Saverio
+		Tommaso_Appio Teodosio_Fabio Terzo_Quirino Tito_Galerio Tiberio_Curzio Tommaso Teodosio Terzo Tito Tiberio
+		Vincenzo_Scaptio Vincenzo Valeriano Valeriano_Ostilio
 	}
 	female_common_first_names = {
-		Anna Amalia Antonia Alfonsa Alssandra Alssandrina Augusta
-		Beatrice Bianca Barbara Benedetta
-		Clotilde Carlotta Carolina Caterina Cristina Cecilia Cornelia Costanza
-		Enrichetta Eleonora Eulalia Elena Emanuela Elisabetta
-		Filippina Francesca
+		Anna Amalia Antonia Alfonsa Alssandra Alssandrina
+		Beatrice Bianca Benedetta
+		Clotilde Carlotta Carola Cecilia Cornelia Costanza
+		Enrica Eleonora Eulalia Elena Emanuela Elisabetta
+		Filippa Francesca 
 		Giuseppina Giovanna Giulia Giustiniana
 		Isabella Ippolita
 		Luisa Luisa_Carlotta Lucrezia Laura Lucia Leonora
-		Maria Maria_Anna Maria_Luisa Maria_Enrichetta Mercedes Maria_Barbara Michela Margherita Marianna
-		Paolina
+		Maria Maria_Anna Maria_Luisa Maria_Enrichetta Maria_Barbara Michela Margherita Marianna
+		Paola
 		Sofia
-		Vittoria Violante
+		Vittoria Valeria
 	}	
 	noble_last_names = {
-		Afan_de_Rivera Antici d_Albergo d_Ayala
-		Barracco Berlingieri Bufalari Baccarini Di_Brocchetti
-		Caetani CalA__Ulloa Caracciolo di_Cesare Ceccarini di_Crollalanza
-		Donnorso_di_Serracapriola
-		Ercolani d_Escamard
-		Filangieri
-		Galluppi Giannuzzi-Savelli della_Genga
-		Lanfranci Lucifero de_Liguori Leopardi de_Luca
-		Montani_da_Pesaro Marchesani
-		Ondedei Osmani
-		Piccolomini Pignatelli del_Pezzo
-		de_Riseis della_Rovere De_Renzi de_Rilliet del_Re
-		Sanfelice Spinello de_Samuele_Cagnazzi Sgariglia Smeducci Sammarruco di_Sangro
-		de_Thomasis
-		d_Urso
-		Visconti
-		Winspeare
-		Zurlo Zorniotti
+		Agricola Agrippa Augustale Andronico
+		Barbato Bruto Bello
+		Cesare Cesio Calpornio Camillo Candido Cervido Cicerone Crasso Curione
+		Dalmazio Decimio Domiziano Druso
+		Eunapio
+		Fabillo Flaviano Fulviano Fusco
+		Germanico Gordiano Gracco Graziano
+		Onorio Osidio
+		Giovenzio Giustiniano
+		Letiniano Larzio Laurenzio Lavinio Lepido Liviano
+		Macrone Mallo Massenzio Massimiano Massimino Mercuriale Micone Minicio
+		Nevio Nelio Nepote Nerone Nolo Novello
+		Ovidio
+		Panfilio Panezio Pilato Pompilio Pollieno
+		Quintilio
+		Rufino
+		Sabino Saturnino Severo Silano Silla
+		Tacito Tiburzio
+		Uticense
+		Valentiniano Valeriano Velio Vespasiano Vitellio Volturnio
 	}
 	common_last_names={
-		Anfora Avitabile Alianelli Antonelli Assanti Acclavio
-		Barberini-Colonna Bonaccorsi Benci Bozzelli Baldacchini Briganti Bausan Bianchini
-		Caraga Cattaneo Chigi Clary Cosenz Cianciulli Cuoco Costa Campagna Capocci Capasso Croce Carrascosa Colletta
-		Diaz Durini Delfico
-		Ferrari Filangieri Filioli Fergola Fardella Forteguerri Ferri Fortunato
-		Gironda Gravina Grifeo Garzia Gagliardo Galdi Guarini Genoino Gussone Gio Giannuzzi Galletti
-		Imbriani Intonti
-		Lanza Lombardo Lunardi Landi Lanza Longobardi
-		Molinelli Mezzacapo Milano Morelli
-		Nunziante Naselli
-		Orsini Ottaviani Oliva
-		Pironti Pepe Poerio Palmieri Persico Parisi PaternO_ Pianell Pignatelli Pionati Parisio
-		Quandel
-		Ritucci Ruggiero Romano Rosaroll Ricciardi Rosica
-		Scammacca Scovazzo Sansone Sannia Schipa Silvati Settimo Scialoja Statella Santangelo
-		Torlonia Turrisi Troya Tommasi Tenore Tafuri Torelli Tardio Troisi
-		Vernazza Valiante Vignale Vecchione
-		Zunica Zurlo
+		Afranio Agricola Agrippa Augustale Andronico Arrio
+		Barbato Bruto
+		Cesare Cesio Calpornio Camillo Candido Cervido Cicerone Crasso Curione
+		Dalmazio Decimio Domiziano Druso
+		Eunapio
+		Fabillo Flaviano Fulviano Fusco
+		Germanico Gordiano Gracco Graziano
+		Onorio Osidio
+		Giovenzio Giustiniano
+		Letiniano Larzio Laurenzio Lavinio Lepido Liviano
+		Macrone Mallo Massenzio Massimiano Massimino Mercuriale Micone Minicio
+		Nevio Nelio Nepote Nerone Nolo Novello
+		Ovidio
+		Panfilio Panezio Pilato Pompilio Pollieno
+		Quintilio
+		Rufino
+		Sabino Saturnino Severo Silano Silla
+		Tacito Tiburzio
+		Uticense
+		Valentiniano Valeriano Velio Vespasiano Vitellio Volturnio
 	}
 	graphics = european
 	ethnicities = {

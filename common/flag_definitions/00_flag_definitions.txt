@@ -7570,6 +7570,22 @@ SR6 = { # Serbia
 		}
 	}		
 }
+SRC = {
+	flag_definition = {
+		coa = SRC
+		coa_with_overlord_canton = SRC_subject		
+		allow_overlord_canton = yes				
+		subject_canton = SRC
+		priority = 1
+	}	
+	flag_definition = {
+		coa = SRC_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}		
+}	
 
 SGF = { # South German Federation
 	flag_definition = {

@@ -1,0 +1,23 @@
+je_rhineland_main = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	group = je_group_historical_content
+	complete = {
+		owns_entire_state_region = STATE_HANNOVER
+		owns_entire_state_region = STATE_ELBE
+		owns_entire_state_region = STATE_SCHLESWIG_HOLSTEIN
+		owns_entire_state_region = STATE_MECKLENBURG
+		owns_entire_state_region = STATE_ANHALT
+		owns_entire_state_region = STATE_SAXONY
+		owns_entire_state_region = STATE_FRANCONIA
+		owns_entire_state_region = STATE_BAVARIA
+		owns_entire_state_region = STATE_BADEN
+		owns_entire_state_region = STATE_WURTTEMBERG
+	}
+	on_complete = {
+		trigger_event = {
+			id = loe_rhine.2
+		}
+		change_tag = SRC
+	}
+	should_be_pinned_by_default = yes
+}
