@@ -1,56 +1,32 @@
 namespace = rhineland
-loe_rhi.2 = {
+loe_rhi.1 = {
 	type = country_event
 	placement = ROOT
-	title = loe_rhi.2.t
-	desc = loe_rhi.2.d
-	flavor = loe_rhi.2.f
+	title = loe_rhi.1.t
+	desc = loe_rhi.1.d
+	flavor = loe_rhi.1.f
 	duration = 3
 	event_image = {
-		video = "unspecific_politicians_arguing"
+		video = "southamerica_aristocrats"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	trigger = {
 	}
-	immediate = {
-		random_interest_group = {
-			limit
-			{
-				is_interest_group_type = ig_intelligentsia
-				exist = leader
-			}
-			leader = {
-				save_scope_as = intelligentsia_leader
-			}
-		}
-	}
 	option = {
-		name = loe_rhi.2.a
+		name = loe_rhi.1.a
 		default_option = yes
 		add_radicals = {
 			value = large_radicals
-			strata = poor
+			strata = middle
 		}
-		add_loyalists = {
+		add_radicals = {
 			value = large_radicals
 			pop_type = academics
 		}
-		add_loyalists = {
+		add_radicals = {
 			value = very_large_radicals
 			pop_type = soldiers
-		}
-		add_radicals = {
-			value = large_radicals
-			pop_type = shopkeepers
-		}
-		add_radicals = {
-			value = medium_radicals
-			pop_type = clerks
-		}
-		add_radicals = {
-			value = very_large_radicals
-			pop_type = aristocrats
 		}
 		s:STATE_SCHLESWIG_HOLSTEIN = {
 			add_claim = c:RHI
@@ -82,5 +58,59 @@ loe_rhi.2 = {
 		s:STATE_WURTTEMBERG = {
 			add_claim = c:RHI
 		}
+		s:STATE_WEST_SWITZERLAND = {
+			add_claim = c:RHI
+		}
+		s:STATE_EAST_SWITZERLAND = {
+			add_claim = c:RHI
+		}
+		s:STATE_TYROL = {
+			add_claim = c:RHI
+		}
+		add_journal_entry = {
+			type = je_rhineland_main
+		}
+	}
+}
+
+loe_rhine.2 = {
+	type = country_event
+	placement = ROOT
+	title = loe_rhine.2.t
+	desc = loe_rhine.2.d
+	flavor = loe_rhine.2.f
+	duration = 3
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	trigger = {
+	}
+	option = {
+		name = loe_rhine.2.a
+		default_option = yes
+		add_modifier = {
+			name = unification_prestige
+			months = very_long_modifier_time
+		}
+		add_loyalists = {
+			value = very_large_radicals
+			pop_type = soldiers
+		}
+		add_loyalists = {
+			strata = poor
+			value = large_radicals
+		}
+		add_loyalists = {
+			strata = middle
+			value = very_large_radicals
+		}
+		add_loyalists = {
+			strata = rich
+			value = large_radicals
+		}
+		add_primary_culture = cu:north_german
+		add_primary_culture = cu:south_german
 	}
 }

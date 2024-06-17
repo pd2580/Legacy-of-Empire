@@ -248,7 +248,6 @@ papal_to_rome.3 = {
 			}
 		}
 		scope:armed_forces_leader = {
-			set_ideology = ideology:ideology_authoritarian
 			add_modifier = modifier_restitutor_orbis
 		}
 		every_interest_group = {

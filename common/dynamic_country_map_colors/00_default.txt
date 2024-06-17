@@ -503,6 +503,17 @@ Imperial_church_comm = {
 		}
 	}
 }
+second_rhine_comm = {
+	color = "algeria_red"
+	possible = {
+		exists = c:SRC
+		THIS = c:SRC
+		OR = {
+		has_law = law_type:law_council_republic
+		has_law = law_type:law_anarchy
+		}
+	}
+}
 
 itf_communist = {
 	color = "red_dark"

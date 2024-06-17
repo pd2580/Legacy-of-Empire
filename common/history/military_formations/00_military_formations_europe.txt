@@ -41,6 +41,53 @@
 			save_scope_as = 1st_hungarian_army
 		}
 	}
+	c:UMBR = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_italy
+			name = "Esercito di Difesa di San Marino"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ABRUZZO
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_UMBRIA
+				count = 5
+			}
+			save_scope_as = 1st_sanmarino_army
+		}
+	}
+	c:PAP = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_italy
+			name = "Esercito Papale"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_LAZIO
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_TUSCANY
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_EMILIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_ROMAGNA
+				count = 5
+			}
+
+			save_scope_as = 1st_papal_army
+		}
+	}
 	c:SEE = {
 		create_military_formation = {
 			type = army
@@ -290,7 +337,7 @@
 			hq_region = sr:region_north_germany
 			name = "1st Saxon Army"
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SAXONY
 				count = 45
 			}
@@ -374,12 +421,12 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_NORTH_RHINE
-				count = 20
+				count = 30
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_RHINELAND
-				count = 5
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
