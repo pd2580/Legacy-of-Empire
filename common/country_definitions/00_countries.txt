@@ -118,6 +118,21 @@ FRKA = {
 	capital = STATE_ILE_DE_FRANCE
 }
 
+SUN = {
+	color = {
+		255 115 0
+	}
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = {
+		burgundian occitan
+	}
+	capital = STATE_ILE_DE_FRANCE
+}
+
 OCC = { ## Occitania
 	color = { 126 5 255  }
 	

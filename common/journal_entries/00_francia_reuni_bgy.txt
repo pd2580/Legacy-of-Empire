@@ -191,3 +191,54 @@ je_francia_reuni_bgy_ibe = {
 
 	should_be_pinned_by_default = yes
 }
+
+je_francia_bgy_expand = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
+	}
+
+	complete = {
+		owns_entire_state_region = STATE_FRIESLAND
+		owns_entire_state_region = STATE_HOLLAND
+		owns_entire_state_region = STATE_GELRE
+		owns_entire_state_region = STATE_NORTH_RHINE
+		owns_entire_state_region = STATE_ARAGON
+	}
+
+	fail = {
+		AND = {
+			NOT = {
+				any_scope_state = {
+					count >= 7
+					AND = {
+						region = sr:region_france
+						owner = ROOT
+					}
+				}
+				any_scope_state = {
+					count >= 4
+					AND = {
+						region = sr:region_occitania
+						owner = ROOT
+					}
+				}
+				owns_entire_state_region = STATE_FRENCH_LOW_COUNTRIES
+				owns_entire_state_region = STATE_WALLONIA
+				owns_entire_state_region = STATE_FLANDERS
+				owns_entire_state_region = STATE_ALSACE_LORRAINE
+				owns_entire_state_region = STATE_RHINELAND
+			}
+		}
+	}
+
+	on_complete = {
+		change_tag = SUN
+		trigger_event = fra_uni.3
+	}
+
+	should_be_pinned_by_default = yes
+}
