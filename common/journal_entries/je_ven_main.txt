@@ -248,7 +248,6 @@ je_venice_cape = {
 
 	complete = {
 		owns_entire_state_region = STATE_CAPE_COLONY
-		owns_entire_state_region = STATE_NORTHERN_CAPE
 		owns_entire_state_region = STATE_EASTERN_CAPE
 	}
 	on_complete = {
@@ -277,7 +276,6 @@ je_venice_cape_r = {
 	complete = {
 		NOT = {
 		owns_entire_state_region = STATE_CAPE_COLONY
-		owns_entire_state_region = STATE_NORTHERN_CAPE
 		owns_entire_state_region = STATE_EASTERN_CAPE
 		}
 	}

@@ -1,0 +1,86 @@
+namespace = rhineland
+loe_rhi.2 = {
+	type = country_event
+	placement = ROOT
+	title = loe_rhi.2.t
+	desc = loe_rhi.2.d
+	flavor = loe_rhi.2.f
+	duration = 3
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	trigger = {
+	}
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_intelligentsia
+				exist = leader
+			}
+			leader = {
+				save_scope_as = intelligentsia_leader
+			}
+		}
+	}
+	option = {
+		name = loe_rhi.2.a
+		default_option = yes
+		add_radicals = {
+			value = large_radicals
+			strata = poor
+		}
+		add_loyalists = {
+			value = large_radicals
+			pop_type = academics
+		}
+		add_loyalists = {
+			value = very_large_radicals
+			pop_type = soldiers
+		}
+		add_radicals = {
+			value = large_radicals
+			pop_type = shopkeepers
+		}
+		add_radicals = {
+			value = medium_radicals
+			pop_type = clerks
+		}
+		add_radicals = {
+			value = very_large_radicals
+			pop_type = aristocrats
+		}
+		s:STATE_SCHLESWIG_HOLSTEIN = {
+			add_claim = c:RHI
+		}
+		s:STATE_ELBE = {
+			add_claim = c:RHI
+		}
+		s:STATE_HANNOVER = {
+			add_claim = c:RHI
+		}
+		s:STATE_MECKLENBURG = {
+			add_claim = c:RHI
+		}
+		s:STATE_ANHALT = {
+			add_claim = c:RHI
+		}
+		s:STATE_SAXONY = {
+			add_claim = c:RHI
+		}
+		s:STATE_FRANCONIA = {
+			add_claim = c:RHI
+		}
+		s:STATE_BAVARIA = {
+			add_claim = c:RHI
+		}
+		s:STATE_BADEN = {
+			add_claim = c:RHI
+		}
+		s:STATE_WURTTEMBERG = {
+			add_claim = c:RHI
+		}
+	}
+}

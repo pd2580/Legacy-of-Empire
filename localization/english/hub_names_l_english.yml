@@ -2965,3 +2965,7 @@
  HUB_NAME_STATE_MADEIRA_city:0 "Vila Baleira"
  HUB_NAME_STATE_MADEIRA_port:0 "Funchal"
  HUB_NAME_STATE_MADEIRA_farm:0 "Porto Moniz"
+ HUB_NAME_STATE_SERBIA_city:0 "Belgrade"
+ HUB_NAME_STATE_SERBIA_mine:0 "Kruševac"
+ HUB_NAME_STATE_SERBIA_farm:0 "Požarevac"
+ HUB_NAME_STATE_SERBIA_wood:0 "Valjevo"

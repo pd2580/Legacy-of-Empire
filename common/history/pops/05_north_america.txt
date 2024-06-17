@@ -1139,24 +1139,24 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 185234
+				size = 285234
 			}
 		}
 		region_state:YUA = {
 			create_pop = {
 				culture = han
 				religion = atheist
-				size = 252343
+				size = 452343
 			}
 			create_pop = {
 				culture = min
 				religion = atheist
-				size = 171996
+				size = 471996
 			}
 			create_pop = {
 				culture = yue
 				religion = atheist
-				size = 194532
+				size = 394532
 			}
 			create_pop = {
 				culture = manchu
@@ -1166,11 +1166,11 @@
 			create_pop = {
 				culture = japanese
 				religion = atheist
-				size = 11387
+				size = 33387
 			}
 			create_pop = {
 				culture = japanese
-				size = 45387
+				size = 85387
 			}
 		}
 	}
