@@ -3187,7 +3187,7 @@ CTC = {
 }
 
 AQU = {
-	color = { 185 108 230 }
+	color = { 68 129 196 }
 	
 	country_type = recognized
 
