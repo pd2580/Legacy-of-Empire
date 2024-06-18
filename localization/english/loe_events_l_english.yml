@@ -264,12 +264,12 @@
 
  le_bohem.1.t:0 "The Shadow of a Great Empire"
  le_bohem.1.d:0 "In 1712, after the death of King Petr II Vratislav z Mitrovic, the Kingdom of the Danube was split between the first son, Petr III, who inherited most of the kigdom, ad Michal, the secod one, who inherited the Kingdom of Bavaria."
- le_bohem.1.f:0 "After 124 years and numerous wars and revolts, the Kingdom of the Danube shrunk in size, reduced to what is now the Principality of Bohemia.\nMassive investments in military and research have allowed our country to survive at last, and with the nation now stable, the nobility has started pushing the king to reclaim the lost territories."
+ le_bohem.1.f:0 "After 124 years and numerous wars and revolts, the Kingdom of the Danube shrunk in size, reduced to what is now the Kingdom of Bohemia.\nMassive investments in military and research have allowed our country to survive at last, and with the nation now stable, the nobility has started pushing the king to reclaim the lost territories."
  le_bohem.1.a:0 "For a glorious future of our country!"
 
  le_bohem.2.t:0 "The Matter of Bavaria"
  le_bohem.2.d:0 "In 1754 the king of Bavaria, Michal Albert Vratislav z Mitrovic, was ousted by Luitpold von Bayern."
- le_bohem.2.f:0 "Being the nephew of Michal Albert, prince Alexander has a natural claim on the kingdom of Bavaria, and the bohemian nobility is heavily pushing for the prince to enforce his claim.\nThe Kingdom of Bavaria is going through a difficult time, and the death of their king, whose health is in a precarious state, could be the perfect chance to push the prince's claim."
+ le_bohem.2.f:0 "Being the nephew of Michal Albert, King Alexander has a natural claim on the kingdom of Bavaria, and the bohemian nobility is heavily pushing for the king to enforce his claim.\nThe Kingdom of Bavaria is going through a difficult time, and the death of their king, whose health is in a precarious state, could be the perfect chance to push the king's claim."
  le_bohem.2.a:0 "What the future holds for us?"
 
  le_bohem.3.t:0 "News from Munich"
@@ -278,31 +278,31 @@
  le_bohem.3.a:0 "Mobilize the troops!"
  le_bohem.3.b:0 "I have a much grander plan for the country, I won't meddle in Von Bayern's affairs."
 
- le_bohem.4.t:0
- le_bohem.4.d:0
- le_bohem.4.f:0
- le_bohem.4.a:0
+ le_bohem.4.t:0 "The Reclamation of Bavaria"
+ le_bohem.4.d:0 "The Kingdom of Bavaria has been occupied by our forces, but we must think about the aftermath."
+ le_bohem.4.f:0 "The death and devastation of the war are causing massive turmoil in the regions we have just conquered, and if we want to keep those lands we must think thoroughly before imposing our culture or our religion.\nChanges in our legislation are to be made if we want to fully integrate the kingdom of Bavaria."
+ le_bohem.4.a:0 "King Alexander is the true and only ruler of Bavaria, we will not lose those lands."
 
  le_bohem.5.t:0 "Chaos in Prague's Parliament"
  le_bohem.5.d:0 "Most of the nobles are furious, seeing their ruler's vileness as an act of treason against the reign."
- le_bohem.5.f:0 ""Order in the chamber! The Prince wants to speak!"\n"Fear not, oh nobles of Bohemia, for my actions have a meaning.\nI have greatly invested in this country, and now we are reaping the fruits of those investments, and those fruits will allow us to achieve my greatest dream...""
- le_bohem.5.a:0 "...restore the kingdom of our ancestors, Great Moravia!"
- le_bohem.5.b:0 "...restore the kingdom of my grandfather, the Kingdom of the Danube!"
+ le_bohem.5.f:0 ""Order in the chamber! The King wants to speak!"\n"Fear not, oh nobles of Bohemia, for my actions have a meaning.\nI have greatly invested in this country, and now we are reaping the fruits of those investments, and those fruits will allow us to achieve my greatest dream...""
+ le_bohem.5.a:0 "...restoring the kingdom of our ancestors, Great Moravia!"
+ le_bohem.5.b:0 "...restoring the kingdom of my grandfather, the Kingdom of the Danube!"
 
- le_bohem.1.t:0
- le_bohem.1.d:0
- le_bohem.1.f:0
- le_bohem.1.a:0
+ le_bohem.6.t:0 "The Restoration of the Kingdom"
+ le_bohem.6.d:0 "The Kingdom of the Danube has been restored."
+ le_bohem.6.f:0 "Thanks to the heroic deeds of our great ruler, after more than a century the Kingdom is now reborn from the ashes.\nToday in Prague [SCOPE.sCharacter('ruler_scope').GetFullName] has been crowned Emperor of the Danube in front of a crowd of fifty thousand people, and delegates from all across europe are coming to the capital to personally congratulate the Emperor for his grand feat."
+ le_bohem.6.a:0 "Long live the Emperor!"
 
- le_bohem.1.t:0
- le_bohem.1.d:0
- le_bohem.1.f:0
- le_bohem.1.a:0
+ le_bohem.7.t:0 "The Integration of Bavaria"
+ le_bohem.7.d:0 "The Kingdom of Bavaria has been fully integrated."
+ le_bohem.7.f:0 "Today is a day to be remembered, for today is the day the kingdoms of Bohemia and Bavaria have been merged into one single crown;\n[SCOPE.sCharacter('ruler_scope').GetFullName] is now king of all the czech and south german people, and those two people shall prosper forever under his rule!"
+ le_bohem.7.a:0 "All hail [SCOPE.sCharacter('ruler_scope').GetFullName]!"
 
- le_bohem.1.t:0
- le_bohem.1.d:0
- le_bohem.1.f:0
- le_bohem.1.a:0
+ le_bohem.8.t:0 "The Kingdom of the West Slavs"
+ le_bohem.8.d:0 "After more than 9 centuries, Great Moravia has been refounded."
+ le_bohem.8.f:0 "Czech, Slovak and sorb people have all accepted to unite under one name and one flag, and thus Great Moravia has been established.\nIt has now started a new age of prosperity for all moravian people, and may it never fall again."
+ le_bohem.8.a:0 "Long live Great Moravia!"
 
  le_bohem.1.t:0
  le_bohem.1.d:0

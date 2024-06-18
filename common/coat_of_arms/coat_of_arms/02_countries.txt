@@ -11826,29 +11826,56 @@ KTI_subject_GBR = {
 	}
 }
 
-KUK = {
-	pattern = "pattern_vertical_split_01.tga"
-	color1 = "red"
-	color2 = "red"
-	color3 = "white"
-	color4 = "green"
+DKI = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
 
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
-		color1 = color3
-		color2 = color1
+		color1 = "red"
+		color2 = "blue"
 
 		mask = { 1 }
 	}
+	colored_emblem = {
+		texture = "ce_shield_accolade_02.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }		
+	}		
+	colored_emblem = {
+		texture = "ce_lion_rampant_forked_crowned.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "red"
+		instance = { scale = { 0.57 0.57 } position = { 0.51 0.51 } }
+	}	
+}
+DKI_republic = {
+	pattern = "pattern_rhombus.dds"
+	color1 = "blue"
+	color2 = "yellow"
 
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = color3
-		color2 = color4
-
-		mask = { 2 }
-	}
+		texture = "ce_eagle_double_headed.dds"
+		color1 = "blue"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}	
 }
+DKI_communist = {
+	pattern = "pattern_border_two_stripes.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_star_05_safcp.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { scale = { 0.25 0.25 } position = { 0.15 0.3 } }		
+	}	
+}
+
 
 KUR = { # Kurdistan
 	pattern = "pattern_solid.tga"
@@ -15048,6 +15075,89 @@ GRM_communist = {
 	}	
 }
 
+BBA = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ce_bicolor_top.dds"
+		color1 = "red"
+		instance = { scale = { 1 1 } position = { 0.02 0.33 } }
+	}	
+	colored_emblem = {
+		texture = "ce_shield_accolade_02.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { scale = { 0.45 0.44 } position = { 0.29 0.49 } }		
+	}		
+	colored_emblem = {
+		texture = "ce_lion_rampant_forked_crowned.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "red"
+		instance = { scale = { 0.32 0.32 } position = { 0.29 0.49 } }
+	}	
+	colored_emblem = {
+		texture = "ce_crown_simple.dds"
+		color1 = "yellow_light"
+		color2 = "green"
+		color3 = "white"
+		instance = { scale = { 0.36 0.36 } position = { 0.29 0.27 } }
+	}
+	textured_emblem = {
+		texture = "te_coa_bav.dds"
+		instance = { scale = { 0.34 0.34 } position = { 0.75 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ce_crown_ducal.dds"
+		color1 = "yellow_light"
+		color2 = "green"
+		color3 = "green"
+		instance = { scale = { 0.36 0.36 } position = { 0.75 0.28 } }
+	}
+}
+BBA_communist = {
+	pattern = "pattern_border_of_3.dds"
+	color1 = "red_dark"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_star_frame_hammer_sickle.dds"
+		color1 = "yellow_light"
+		color2 = "red_dark"
+		instance = { scale = { 0.35 0.34 } position = { 0.15 0.25 } }
+	}	
+
+}
+BBA_republic = {
+		pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ce_lion_rampant_forked_crowned.dds"
+		color1 = "blue_light"
+		color2 = "white"
+		color3 = "white"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}	
+}
+
 ICI = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -15122,7 +15232,7 @@ ICI_communist = {
 		texture = "ce_star_frame_hammer_sickle.dds"
 		color1 = "yellow_light"
 		color2 = "red_dark"
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
 	}	
 
 }

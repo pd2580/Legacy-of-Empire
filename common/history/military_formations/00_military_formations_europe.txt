@@ -603,12 +603,12 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SICILY
-				count = 20
+				count = 25
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_TUNISIA
-				count = 20
+				count = 25
 			}
 			save_scope_as = carthage_army
 		}
@@ -630,7 +630,7 @@
 		}
 	create_military_formation = {
 		type = army
-		hq_region = sr:region_north_africa
+		hq_region = sr:region_indonesia
 		name = "2nd Carthaginian Army"
 		combat_unit = {
 			type = unit_type:combat_unit_type_line_infantry

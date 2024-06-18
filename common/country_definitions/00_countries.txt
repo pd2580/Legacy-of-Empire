@@ -863,15 +863,15 @@ JAP = {
 	capital = STATE_KANSAI
 }
 
-KUK = {
-	color = { 124 40 30 }
+DKI = {
+	color = { 16 82 122 }
 	
 	country_type = recognized
 
 	tier = empire
 	
 	capital = STATE_BOHEMIA
-	cultures = { hungarian romanian croat czech slovak slovene }
+	cultures = { hungarian romanian croat czech slovak }
 }
 
 DEN = {
@@ -1448,7 +1448,7 @@ BOH = {
 	
 	country_type = recognized
 
-	tier = principality
+	tier = kingdom
 	
 	cultures = { czech }	
 	capital = STATE_BOHEMIA
@@ -4064,6 +4064,17 @@ HOK = {
 
 	cultures = { hokan }
 	capital = STATE_CALIFORNIA
+}
+
+BBA = {
+	color = { 197 220 235 }
+	
+	country_type = recognized
+
+	tier = empire
+
+	cultures = { czech south_german }
+	capital = STATE_BOHEMIA
 }
 
 ICI = {

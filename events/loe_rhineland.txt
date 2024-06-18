@@ -1,4 +1,4 @@
-namespace = rhineland
+namespace = loe_rhi
 loe_rhi.1 = {
 	type = country_event
 	placement = ROOT

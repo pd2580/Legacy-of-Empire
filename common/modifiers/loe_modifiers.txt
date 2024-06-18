@@ -264,3 +264,19 @@ modifier_mor_two = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
 	state_accepted_birth_rate_mult = 0.2
 }
+modifier_dan_one = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+		character_health_add = 0.1
+		character_popularity_add = 100
+}
+modifier_boh_one = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_bureaucracy_mult = -0.1
+	state_tax_capacity_mult = -0.1
+	state_conscription_rate_mult = -0.1
+	state_radicals_from_discrimination_mult = 0.25
+}
+modifier_carp = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_add = 50
+}
