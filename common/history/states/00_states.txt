@@ -105,6 +105,8 @@ STATES = {
 		
 		add_claim = c:CAS
 		add_homeland = cu:spanish
+		add_homeland = cu:phoenician
+		add_claim = c:QAR
 	}
 	s:STATE_HOLLAND = {
 		create_state = {
@@ -1348,6 +1350,7 @@ STATES = {
 		add_homeland = cu:maghrebi
 		add_homeland = cu:berber
 		add_homeland = cu:phoenician
+		add_claim = c:QAR
 	}
 	s:STATE_GUINEA = {
 		create_state = {
@@ -2347,7 +2350,9 @@ STATES = {
 		}
 		
 		add_homeland = cu:maghrebi
-		add_homeland = cu:berber		
+		add_homeland = cu:berber
+		add_homeland = cu:phoenician
+		add_claim = c:QAR	
 	}
 	s:STATE_AL_RIF = {
 		create_state = {
@@ -2356,7 +2361,9 @@ STATES = {
 		}
 		
 		add_homeland = cu:maghrebi
-		add_homeland = cu:berber		
+		add_homeland = cu:berber
+		add_homeland = cu:phoenician
+		add_claim = c:QAR	
 	}
 	s:STATE_INNER_MOROCCO = {
 		create_state = {
@@ -2380,7 +2387,9 @@ STATES = {
 		}
 		
 		add_homeland = cu:maghrebi
-		add_homeland = cu:berber		
+		add_homeland = cu:berber
+		add_homeland = cu:phoenician
+		add_claim = c:QAR	
 	}
 	s:STATE_SAHARA = {
 		create_state = {
@@ -2414,6 +2423,8 @@ STATES = {
 		
 		add_homeland = cu:maghrebi
 		add_homeland = cu:berber
+		add_homeland = cu:phoenician
+		add_claim = c:QAR
 	}
 	s:STATE_CONSTANTINE = {
 		create_state = {
@@ -2423,7 +2434,9 @@ STATES = {
 		}
 		
 		add_homeland = cu:maghrebi
-		add_homeland = cu:berber		
+		add_homeland = cu:berber
+		add_homeland = cu:phoenician
+		add_claim = c:QAR	
 	}
 	s:STATE_TRIPOLI = {
 		create_state = {
@@ -2435,6 +2448,8 @@ STATES = {
 		add_homeland = cu:tuareg
 		add_homeland = cu:bedouin
 		add_homeland = cu:berber
+		add_homeland = cu:phoenician
+		add_claim = c:QAR
 	}
 	s:STATE_LIBYAN_DESERT = {
 		create_state = {
@@ -2454,7 +2469,9 @@ STATES = {
 		}
 
 		add_homeland = cu:maghrebi
-		add_homeland = cu:bedouin		
+		add_homeland = cu:bedouin
+		add_homeland = cu:phoenician
+		add_claim = c:QAR	
 	}
 	s:STATE_UPPER_EGYPT = {
 		create_state = {
@@ -3129,6 +3146,8 @@ STATES = {
 		
 		add_claim = c:CAS
 		add_homeland = cu:spanish
+		add_homeland = cu:phoenician
+		add_claim = c:QAR
 	}
 	s:STATE_BADAJOZ = {
 		create_state = {
@@ -4921,7 +4940,9 @@ STATES = {
 		
 		add_homeland = cu:mashriqi
 		add_homeland = cu:bedouin
+		add_homeland = cu:phoenician
 		add_claim = c:TUR
+		add_claim = c:QAR
 	}
 	s:STATE_PALESTINE = {
 		create_state = {
@@ -4931,7 +4952,9 @@ STATES = {
 		}
 		
 		add_homeland = cu:mashriqi
+		add_homeland = cu:phoenician
 		add_claim = c:TUR
+		add_claim = c:QAR
 	}
 	s:STATE_LEBANON = {
 		create_state = {
@@ -4940,7 +4963,9 @@ STATES = {
 		}
 		
 		add_homeland = cu:mashriqi
+		add_homeland = cu:phoenician
 		add_claim = c:TUR
+		add_claim = c:QAR
 	}
 	s:STATE_SYRIA = {
 		create_state = {
@@ -4949,7 +4974,9 @@ STATES = {
 		}
 
 		add_homeland = cu:mashriqi
+		add_homeland = cu:phoenician
 		add_claim = c:TUR
+		add_claim = c:QAR
 	}
 	s:STATE_ALEPPO = {
 		create_state = {
@@ -4960,7 +4987,9 @@ STATES = {
 		add_homeland = cu:mashriqi
 		add_homeland = cu:turkish
 		add_homeland = cu:kurdish
+		add_homeland = cu:phoenician
 		add_claim = c:TUR
+		add_claim = C:QAR
 	}
 	s:STATE_BAGHDAD = {
 		create_state = {
@@ -5181,7 +5210,9 @@ STATES = {
 		}
 		
 		add_homeland = cu:turkish
-		add_homeland = cu:greek		
+		add_homeland = cu:greek
+		add_homeland = cu:phoenician
+		add_claim = c:QAR	
 	}
 	s:STATE_TRABZON = {
 		create_state = {
@@ -5556,7 +5587,7 @@ STATES = {
 	s:STATE_GUIZHOU = {
 		create_state = {
 			country = c:CHI
-			owned_provinces = { x97C139 x2145E4 x9F6A1B xEBF671 x88C50C x0398DE xDAD8AE x4C694B x8B77B9 x909000 xF38277 x14F092 x581D64 xEE0374 x12DE54 xC80075 x91CCD7 x6B9BF6 x096C00 x7BC0E9 x4D64C0 x70CB39 x9DDD67 x269610 xAEBCB8 x2DB649 x735753 x392877 x109000 xC3B047 xC7612E xAA4079 x24BC36 x3DD0C5 xCABB49 xF1F862 xE0F060 xFCC7AF x957B54 xF4DC23 x3254BE x4526DC x053F4B x785430 xA61477 x8EF2F9 x21B519 }
+			owned_provinces = { xE19EFE xB1309B xBE7B7A xFA9280  x97C139 x2145E4 x9F6A1B xEBF671 x88C50C x0398DE xDAD8AE x4C694B x8B77B9 x909000 xF38277 x14F092 x581D64 xEE0374 x12DE54 xC80075 x91CCD7 x6B9BF6 x096C00 x7BC0E9 x4D64C0 x70CB39 x9DDD67 x269610 xAEBCB8 x2DB649 x735753 x392877 x109000 xC3B047 xC7612E xAA4079 x24BC36 x3DD0C5 xCABB49 xF1F862 xE0F060 xFCC7AF x957B54 xF4DC23 x3254BE x4526DC x053F4B x785430 xA61477 x8EF2F9 x21B519 }
 		}
 		
 		add_homeland = cu:han
@@ -5596,7 +5627,7 @@ STATES = {
 	s:STATE_GUANGXI = {
 		create_state = {
 			country = c:CTC
-			owned_provinces = { xBE7B7A x6D1ACD x1E5C7E xE19EFE x37E3AC xC407AF xDCC7E1 x8D45C0 xF0F0A0 xBC6F1C xC20E6A x0422AC x53ABCA x58D3A8 xB1309B x94D1BC x702462 xC3BDF0 x4269D4 x686CE7 xB71848 xFA9280 xA98A12 xCC1018 xF071A0 xE38868 x09D527 xC776A0 x3B542C x9F05B1 x84F9AF x8834F9 xE2A874 x9E2972 x25EA31 x84BD66 x116561 xE33EC4 x5100A2 x0F948D x201F22 x05C2CD x942ACA x48D397 xA34E72 x1380FF xBA0CC4 xDDB27C xF4850E x0359FB x9E70F2 x505080 x135B0F x368CDE xFF1286 x6EB824 x244859 xB0B0E0 x432FE3 xD8799B x12B2EF }
+			owned_provinces = { x6D1ACD x1E5C7E x37E3AC xC407AF xDCC7E1 x8D45C0 xF0F0A0 xBC6F1C xC20E6A x0422AC x53ABCA x58D3A8 x94D1BC x702462 xC3BDF0 x4269D4 x686CE7 xB71848 xA98A12 xCC1018 xF071A0 xE38868 x09D527 xC776A0 x3B542C x9F05B1 x84F9AF x8834F9 xE2A874 x9E2972 x25EA31 x84BD66 x116561 xE33EC4 x5100A2 x0F948D x201F22 x05C2CD x942ACA x48D397 xA34E72 x1380FF xBA0CC4 xDDB27C xF4850E x0359FB x9E70F2 x505080 x135B0F x368CDE xFF1286 x6EB824 x244859 xB0B0E0 x432FE3 xD8799B x12B2EF }
 		}
 		
 		add_homeland = cu:yue
@@ -6416,7 +6447,7 @@ STATES = {
 	s:STATE_WEST_GALICIA = {
 		create_state = {
 			country = c:PLE
-			owned_provinces = { x90E060 x1161E0 xC8690C x66DCEE xA63CE6 xFCC35F xC7B7B8 x5F3456 x56599F xA550A9 x9061E0 x906060 x11E061 }
+			owned_provinces = { x90E060 x1161E0 xC8690C x66DCEE xA63CE6 xFCC35F xC7B7B8 x5F3456 xA550A9 x9061E0 x906060 x11E061 }
 		}
 		
 		add_homeland = cu:polish
@@ -6424,7 +6455,7 @@ STATES = {
 	s:STATE_EAST_GALICIA = {
 		create_state = {
 			country = c:PLE
-			owned_provinces = { xA2805F x9D8087 xCDD223 x11A021 xCAE5B0 x8F9F20 xE369C4 xA3CF78 xB021A0 x053163 x4D0305 xC1B262 xEFE270 x489C42 x7EDD9E x53932F xC58E1C xD0E061 }
+			owned_provinces = { x56599F xA2805F x9D8087 xCDD223 x11A021 xCAE5B0 x8F9F20 xE369C4 xA3CF78 xB021A0 x053163 x4D0305 xC1B262 xEFE270 x489C42 x7EDD9E x53932F xC58E1C xD0E061 }
 		}
 		
 		add_homeland = cu:polish
@@ -6539,7 +6570,7 @@ STATES = {
 	s:STATE_STYRIA = {
 		create_state = {
 			country = c:AUS
-			owned_provinces = { xB06141 x86FD73 xB4D292 x8F8020 x1101A0 x155A44 x59D927 x017E3C }
+			owned_provinces = { xB06141 x86FD73 x8F8020 x1101A0 x155A44 x59D927 x017E3C }
 		}
 		
 		add_homeland = cu:south_german
@@ -6547,7 +6578,7 @@ STATES = {
 	s:STATE_TYROL = {
 		create_state = {
 			country = c:BAY
-			owned_provinces = { x51C0E0 x4A9C68 xEC6873 xC74CD7 xF061C0 xAB7EB0 x5D4166 xD0C0E0 xF0E0C0 }
+			owned_provinces = { x51C0E0 x4A9C68 xEC6873 xC74CD7 xF061C0 xAB7EB0 x5D4166 xD0C0E0 xF0E0C0 xB4D292 }
 		}
 		
 		add_homeland = cu:south_german

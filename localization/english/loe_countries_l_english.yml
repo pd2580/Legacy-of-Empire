@@ -130,6 +130,8 @@
  BRT_ADJ:0 "British"
  ICI:0 "Imperial Church of Italia"
  ICI_ADJ:0 "Italian"
+ GRM:0 "Great Moravia"
+ GRM_ADJ:0 "Moravian"
  AEF:0 "Anointed Kingdom of East Frankia"
  AEF:0 "East Frankish"
  YUA:0 "Yuanpei's Haven"

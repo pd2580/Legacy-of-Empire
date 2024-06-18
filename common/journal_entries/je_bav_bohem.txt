@@ -1,5 +1,5 @@
 je_bav_pro = {
- 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	group = je_group_historical_content
 	complete = {
 		c:BAY = {
@@ -8,11 +8,147 @@ je_bav_pro = {
 	}
 	on_complete = {
 		trigger_event = {
-			id = bohem.4
+			id = le_bohem.4
 		}
 	}
 	fail = {
-		game_date > 1838.1.1
+		game_date > 1837.6.1
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_boh_mor = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	group = je_group_historical_content
+	complete = {
+		owns_entire_state_region = STATE_WEST_GALICIA
+		owns_entire_state_region = STATE_WEST_SLOVAKIA
+		owns_entire_state_region = STATE_EAST_SLOVAKIA
+		owns_entire_state_region = STATE_TRANSDANUBIA
+		owns_entire_state_region = STATE_CENTRAL_HUNGARY
+		owns_entire_state_region = STATE_BEKES
+		owns_entire_state_region = STATE_BANAT
+		owns_entire_state_region = STATE_DELVIDEK
+		owns_entire_state_region = STATE_AUSTRIA
+		owns_entire_state_region = STATE_STYRIA
+		has_law = law_type:law_ethnostate
+		OR = {
+			has_law = law_type:law_freedom_of_conscience
+			has_law = law_type:law_total_separation
+		}
+	}
+	on_complete = {
+		change_tag = GRM
+		trigger_event = {
+			id = le_bohem.8
+		}
+		custom_tooltip = {
+			text = je_moravian_culture
+			every_country = {
+				every_scope_pop = {
+					limit = {
+						culture = cu:czech
+					}
+					change_pop_culture = {
+						target = cu:moravian
+						value = 1
+					}
+				}
+				every_scope_pop = {
+					limit = {
+						culture = cu:slovak
+					}
+					change_pop_culture = {
+						target = cu:moravian
+						value = 1
+					}
+				}
+				every_scope_pop = {
+					limit = {
+						culture = cu:sorb
+					}
+					change_pop_culture = {
+						target = cu:moravian
+						value = 1
+					}
+				}
+			}
+		}
+		add_primary_culture = cu:moravian
+		add_primary_culture = cu:slovak
+		add_primary_culture = cu:sorb
+		s:STATE_BOHEMIA = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_MORAVIA = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_SILESIA = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_WEST_SLOVAKIA = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_EAST_SLOVAKIA = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_WEST_GALICIA = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_BEKES = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_CENTRAL_HUNGARY = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_BANAT = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_DELVIDEK = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_TRANSDANUBIA = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_STYRIA = {
+			add_homeland = cu:moravian
+		}
+		s:STATE_AUSTRIA = {
+			add_homeland = cu:moravian
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_boh_dan = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	group = je_group_historical_content
+	complete = {
+		owns_entire_state_region = STATE_SCHLESWIG_HOLSTEIN
+		owns_entire_state_region = STATE_MECKLENBURG
+		owns_entire_state_region = STATE_ELBE
+		owns_entire_state_region = STATE_HANNOVER
+		owns_entire_state_region = STATE_ANHALT
+		owns_entire_state_region = STATE_BRUNSWICK
+		owns_entire_state_region = STATE_WESTPHALIA
+		owns_entire_state_region = STATE_SAXONY
+		owns_entire_state_region = STATE_HESSE
+		owns_entire_state_region = STATE_FRANCONIA
+		owns_entire_state_region = STATE_BADEN
+		owns_entire_state_region = STATE_WURTTEMBERG
+		owns_entire_state_region = STATE_BAVARIA
+		owns_entire_state_region = STATE_TYROL
+		owns_entire_state_region = STATE_AUSTRIA
+		owns_entire_state_region = STATE_SLOVENIA
+		has_law = law_type:law_theocracy
+	}
+	on_complete = {
+		trigger_event = {
+			id = le_bohem.4
+		}
+	}
+	fail = {
+		game_date > 1837.6.1
 	}
 	should_be_pinned_by_default = yes
 }

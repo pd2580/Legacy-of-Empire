@@ -1417,6 +1417,17 @@ VEN = {
 	is_named_from_capital = yes
 }
 
+GRM = {
+	color = { 204 170 57 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { moravian czech slovak sorb }	
+	capital = STATE_BOHEMIA
+}
+
 BOH = {
 	color = { 161 139 40 }
 	

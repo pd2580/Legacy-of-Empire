@@ -6094,6 +6094,30 @@ LLO = { # Lombard League
 	}	
 }
 
+CTC = { # Canton Trade Company
+	flag_definition = {
+		coa = CTC
+		subject_canton = CTC
+		priority = 1		
+	}	
+}
+
+GRM = { # Great Moravia
+	flag_definition = {
+		coa = GRM
+		subject_canton = GRM
+		priority = 1		
+	}	
+	flag_definition = {
+		coa = GRM_communist
+		subject_canton = GRM_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+}
+
 ICI = { # Imperial Church of Italia
 	flag_definition = {
 		coa = ICI
