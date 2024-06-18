@@ -54,6 +54,59 @@ COB = {
 	}
 }
 
+AMS = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	textured_emblem = {
+		texture = "te_dutch.dds"
+		instance = { scale = { 0.75 0.7	5 } position = { 0.325 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_cross_germany_war_ensign.dds"
+		color1 = "red"
+		color2 = "yellow"
+	}
+}
+
+BGY = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_cross_burgundy.dds"
+		color1 = "red"
+	}
+}
+
+AQU = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_cross_denmark.dds"
+		color1 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_cross_occitan.dds"
+		color1 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.145 0.22 } }
+	}
+	colored_emblem = {
+		texture = "ce_lion_passant_guardant_long.dds"
+		color1 = "yellow"
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 0.7 0.7 } position = { 0.68 0.22 } }
+	}
+}
+
+FRKA = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_cross_burgundy.dds"
+		color1 = "bonapartist_blue"
+	}
+}
+
 MEI = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
