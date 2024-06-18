@@ -345,6 +345,7 @@ je_german_conf = {
 				relations:ROOT > relations_threshold:cordial
 			}
 		}
+		has_technology_researched = pan-nationalism
 	}
 	on_complete = {
 		if = {

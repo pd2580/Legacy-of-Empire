@@ -603,12 +603,12 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SICILY
-				count = 20
+				count = 25
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_TUNISIA
-				count = 20
+				count = 25
 			}
 			save_scope_as = carthage_army
 		}
@@ -628,7 +628,18 @@
 			}
 			save_scope_as = carthage_navy
 		}
+	create_military_formation = {
+		type = army
+		hq_region = sr:region_indonesia
+		name = "2nd Carthaginian Army"
+		combat_unit = {
+			type = unit_type:combat_unit_type_line_infantry
+			state_region = s:STATE_MALAYA
+			count = 5
+		}
+		save_scope_as = 2nd_carthage_army
 	}
+}
 	c:YUA = {
 		## Yuan pei
 		create_military_formation = {

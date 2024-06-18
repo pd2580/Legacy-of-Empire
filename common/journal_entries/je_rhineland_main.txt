@@ -14,10 +14,10 @@ je_rhineland_main = {
 		owns_entire_state_region = STATE_WURTTEMBERG
 	}
 	on_complete = {
-		trigger_event = {
-			id = loe_rhine.2
-		}
 		change_tag = SRC
+		trigger_event = {
+			id = loe_rhi_finale
+		}
 	}
 	should_be_pinned_by_default = yes
 }

@@ -19,6 +19,9 @@ le_bavaria.1 = {
 				id = le_bavaria.2
 				days = 100
 			}
+			ruler = {
+				set_character_immortal = yes
+			}
 		}
 	}
 	option = {
@@ -42,6 +45,7 @@ le_bavaria.2 = {
 	}
 	immediate = {
 		ruler = {
+			set_character_immortal = no
 			kill_character = yes
 		}
 	}

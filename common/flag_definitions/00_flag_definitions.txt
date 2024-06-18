@@ -643,6 +643,30 @@ AST = { # Australia
 	}		
 }
 
+DKI = { # Danube
+	flag_definition = {
+		coa = DKI
+		subject_canton = DKI		
+		allow_overlord_canton = yes
+		priority = 1
+	}
+	flag_definition = {
+		coa = DKI_republic
+		subject_canton = DKI_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = DKI_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
 AUS = { # Austria
 	flag_definition = {
 		coa = AUS
@@ -684,14 +708,6 @@ AUS = { # Austria
 		priority = 10
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = KUK
-		subject_canton = KUK
-		priority = 100
-		trigger = { 
-			scope:actor = { country_has_primary_culture = cu:hungarian }
 		}
 	}
 	flag_definition = {
@@ -6094,6 +6110,55 @@ LLO = { # Lombard League
 	}	
 }
 
+CTC = { # Canton Trade Company
+	flag_definition = {
+		coa = CTC
+		subject_canton = CTC
+		priority = 1		
+	}	
+}
+
+GRM = { # Great Moravia
+	flag_definition = {
+		coa = GRM
+		subject_canton = GRM
+		priority = 1		
+	}	
+	flag_definition = {
+		coa = GRM_communist
+		subject_canton = GRM_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+}
+
+BBA = { # Bavaria Bohemia
+	flag_definition = {
+		coa = BBA
+		subject_canton = BBA
+		priority = 1		
+	}	
+	flag_definition = {
+		coa = BBA_communist
+		subject_canton = BBA_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = BBA_republic
+		subject_canton = BBA_republic
+		priority = 1500
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+
 ICI = { # Imperial Church of Italia
 	flag_definition = {
 		coa = ICI
@@ -6110,7 +6175,6 @@ ICI = { # Imperial Church of Italia
 	}
 	flag_definition = {
 		coa = ICI_communist
-		subject_canton = ICI_communist
 		priority = 1500
 		trigger = { 
 			coa_def_communist_flag_trigger = yes

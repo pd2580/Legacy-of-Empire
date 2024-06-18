@@ -2749,7 +2749,7 @@ north_roman={
 }
 
 south_roman={
-	color= rgb{ 97 77 117 }
+	color= rgb{ 150 18 18 }
 	religion = catholic
 	traits = { italophone european_heritage }
 	
@@ -2813,7 +2813,7 @@ south_roman={
 		Uticense
 		Valentiniano Valeriano Velio Vespasiano Vitellio Volturnio
 	}
-	common_last_names={
+	common_last_names = {
 		Afranio Agricola Agrippa Augustale Andronico Arrio
 		Barbato Bruto
 		Cesare Cesio Calpornio Camillo Candido Cervido Cicerone Crasso Curione
@@ -2841,7 +2841,7 @@ south_roman={
 	}
 }
 
-north_italian={
+north_italian = {
 	color= hsv{ 0.38 0.27 0.86 }
 	religion = catholic
 	traits = { italophone european_heritage }
@@ -2894,7 +2894,7 @@ north_italian={
 		Sacchetti di_Savoia di_Savoia-Aosta Solaro_della_Margarita di_Salmour Santa_Croce_Villahermosa Solaroli_di_Briona Somis_di_Chavrie
 		Toesca Torelli Thaon_di_Revel
 	}
-	common_last_names={
+	common_last_names = {
 		Acton Albricci Agnes Airenti Amaretti Ara Arminjon Arnulfo Arrifo Asproni Astengo Avigdor Avondo
 		Badoglio Baldissera Baratieri Bava-Beccaris Baldassi Benci Baino Barbier BeldI_ Bellono Benintendi Berruti Bersezio Berti Bertini Bertoldi Bezzi Biancheri Bianchetti Bianchi Billiet Blanc Bo Bolmida Bona Borella Botta Bottero Brignone Brofferio Brunati Brunet Brunier Bruschetti Buffa Buraggi Buttini
 		Cadorna Cagni Canevaro Capello Caviglia Ceccherini Cialdini Cusani Cabella Caboni Cambieri Campana Canalis Cantara Capriolo Carquet Carta Casaretto Cassinis Castelli Cavalli Cavallini Chenal Chiaves ChiO_ Cobianchi Colli Cornero Correnti Corsi Costa Crosa Cugia
@@ -2921,7 +2921,7 @@ north_italian={
 	}
 }
 
-south_italian={
+south_italian = {
 	color= rgb{ 97 77 117 }
 	religion = catholic
 	traits = { italophone european_heritage }
@@ -2930,7 +2930,7 @@ south_italian={
 		wine
 	}	
 	
-	male_common_first_names={
+	male_common_first_names = {
 		Alessandro Armando Augusto Achille Antonio Agesilao
 		Bartolomeo Benedetto
 		Carlo Cesare Corrado Cesidio Corradino Cristoforo Carcano Carmine
@@ -2983,7 +2983,7 @@ south_italian={
 		Winspeare
 		Zurlo Zorniotti
 	}
-	common_last_names={
+	common_last_names = {
 		Anfora Avitabile Alianelli Antonelli Assanti Acclavio
 		Barberini-Colonna Bonaccorsi Benci Bozzelli Baldacchini Briganti Bausan Bianchini
 		Caraga Cattaneo Chigi Clary Cosenz Cianciulli Cuoco Costa Campagna Capocci Capasso Croce Carrascosa Colletta
@@ -3009,9 +3009,528 @@ south_italian={
 	}
 }
 
+danubian = {
+		color= rgb{ 157 211 242 }
+		religion = orthodox
+		traits = { european_heritage }
+		male_common_first_names={
+			Alajos
+			Albert
+			Anasztaz
+			Andras
+			Arisztid
+			Aurel
+			Benedek
+			Bertalan
+			Bela
+			Beni
+			Daniel_3
+			David_2
+			Edvard_2
+			Erno
+			Ferencz
+			Gyula
+			Gyorgy
+			Gabor
+			Gabriel_2
+			Gaspar_2
+			Ignac
+			Imre
+			Istvan
+			Izidor
+			Janos
+			Jozsef
+			Jozsef_Manes
+			Katalin
+			Kelemen
+			Krisztian
+			Kalman
+			Karoly
+			Lajos
+			Laszlo
+			Mano
+			Mihaly
+			Myklos
+			Mor
+			Sandor
+			Peter_2
+			Rafael_2
+			Simon
+			Sandor_2
+			Tivadar
+			Vilmos
+			Virag
+			Zsigmond
+			Almos
+			Elias_2
+			Odon
+			Abdulvehhab
+			Adnan
+			Ahmed
+			Ali
+			Alija
+			Asim
+			Atif
+			Beriz
+			Dzemal
+			Dzemaludin
+			Elvir
+			Enver
+			Fikret
+			Fuad
+			Gazi
+			Hakija
+			Hamdija
+			Hamid
+			Haris
+			Hasan
+			Husein
+			Irfan
+			Isa
+			Ivan
+			Izet
+			Jusuf
+			Mehmed
+			Meho
+			Mirsad
+			Muhamed
+			Musa
+			Mustafa
+			Naser
+			Osman
+			Raif
+			Rasim
+			Refik
+			Safet
+			Safvet
+			Sefer
+			Sejad
+			Seknab
+			Semezdin
+			Semir
+			Skender_2
+			Sokollu
+			Sulejman
+			Vedad
+			Zija
+			Zlatko
+			Zuko
+		}
+		female_common_first_names = {
+			Amalia_2
+			Anna
+			Bertha
+			Brigitta
+			Emilia
+			Emma
+			Flora
+			Fruzina
+			Judit
+			Kornelia
+			Maria
+			Milena
+			Nina
+			Polixenia
+			Riza
+			Rozalia
+			Terez
+			Vilma
+			Zsuzsanna
+			Aleksandra
+			Bisera
+			Edina
+			Nasiha
+			Nura
+			Ognjenka
+			Sabina
+			Samra
+		}	
+		noble_last_names = {
+			Andrassy
+			Deak
+			Erenyi_Ullmann
+			Frakashazi_Fischer
+			Laczkovics
+			Lahner
+			Leiningen-Westerburg
+			Lichtenstein
+			Osterreicher
+			von_Benedek
+			Zrinyi
+			Stefics
+			Izetbegovic
+			Kurtcehajic
+			Mehmedinovic
+			Muradbegovic
+			Osmanagic
+			Pozderac
+			Sijercic
+		}
+		common_last_names={
+			Apponyi
+			Aulich
+			Bacher
+			Baross
+			Batthyany
+			Beothy
+			Bothmer
+			Damjanich
+			Dessewffy
+			Egressy
+			Farkas
+			Goldziher
+			Gungl
+			Hauszmann
+			Heller
+			Horthy
+			Izso
+			Jaszai
+			Joseffy
+			Katona
+			Kaufman
+			Kiss
+			Knezich
+			Kogutowicz
+			Keler
+			Liszt
+			Lazar
+			Mikszath
+			Molnar
+			Nagy-Sandor
+			Ottinger
+			Perczel
+			Poeltenberg
+			Remenyi
+			Rohr
+			Schweidel
+			Szemere
+			Szlavic
+			Szechenyi
+			Tersztyansky
+			Torok
+			Varga
+			Vecsey
+			Abdic
+			Arapovic
+			Basgic
+			Belkic
+			Bijedic
+			Catic
+			Causevic
+			Ceric
+			Colakovic
+			Dizdar
+			Dizdarevic
+			Dzikic
+			Dzumhur
+			Ekrem
+			Gradascevic
+			Halilovic
+			Husrev
+			Ibisevic
+			Ilhamija
+			Imamovic
+			Isakovic
+			Kodro
+			Konjic
+			Kulenovic
+			Lagumdzija
+			Ljajic
+			Ljubicic
+			Ljubijankic
+			Muzurovic
+			Peco
+			Plakalo
+			Prazina
+			Rizvanbegovic
+			Sabanadzovic
+			Salihovic
+			Sarajlic
+			Selimovic
+			Selmanagic
+			Silajdzic
+			Sokolovic
+			Spaho
+			Terzic
+			Tihic
+			Turaljic
+			Tukcan
+			Ugljanin
+		}
+		ethnicities = {
+			1 = slavic
+		}
+		graphics = european
+	}
+moravian = {
+		color= rgb{ 204 170 57 }
+		religion = protestant
+		traits = { west_slavic european_heritage }
+		male_common_first_names = {
+			Abraham
+			Alexander
+			Alfred
+			Alois
+			Antonin
+			August
+			Bedrich
+			Benedikt
+			Borivoj
+			Cenek
+			Drahoslav
+			David_2
+			Edvard
+			Emanuel
+			Emil
+			Evzen
+			Frantisek
+			Frantisek_Josef
+			Frantisek_Xaver
+			Hermenegild
+			Jaroslav
+			Jindrich
+			Jiri
+			Josef
+			Jan_2
+			Jan_Krtitel
+			Jan_Nepomuk
+			Kajetan
+			Karel
+			Konstantin
+			Ladislav
+			Luvik
+			Matyas
+			Maxmilian
+			Mikulas
+			Olbram
+			Otakar
+			Pavel
+			Petr
+			Radola
+			Rafael_2
+			Tomas
+			Vincenc
+			Vitezslav
+			Vlastimil
+			Vojtech
+			Vratislav
+			Vaclav
+			Zdenek
+			Albin
+			Alexander
+			Andrej
+			Andras
+			Augustin_2
+			Basil
+			Cyprian
+			Dalibor
+			Dezider
+			Dominik
+			Eugen
+			Fedor
+			Ferdinand
+			Frantisek
+			Frico
+			Gabriel
+			Gustav_2
+			Imrich
+			Janko
+			Jozef
+			Juraj
+			Jachym
+			Jan_2
+			Karol
+			Ladislav
+			Levoslav
+			Marian_2
+			Marko
+			Martin
+			Matej
+			Michal
+			Mikulas
+			Milan
+			Milos
+			Miloslav
+			Miroslav
+			Pavel
+			Pavol
+			Peter
+			Ratislav
+			Rudolf
+			Samuel
+			Sergej
+			Stefan
+			Svtozar
+			Tibor
+			Tomas
+			Viliam
+			Vladimir_2
+			Vojtech
+		}
+		female_common_first_names = {
+			Anna
+			Barbara
+			Blank
+			Eleonora
+			Ivana
+			Jaroslava
+			Jenovefa
+			Karolina
+			Katerina
+			Klara
+			Martha
+			Martina
+			Olga
+			Renata
+			Stanislava
+			Tereza
+			Zdena
+			Zuzana
+			Anna
+			Edita
+			Elena
+			Emilia
+			Irena
+			Jana
+			Jaroslava
+			Kristina
+			Ludmila
+			Margita
+			Olga
+			Vilma
+			Terezia
+		}	
+		noble_last_names = {
+			Albert
+			Clary_Aldringen
+			Colloredo-Mansfeld
+			Harrach
+			Lichnovsky
+			Thun-Hohenstein
+			von_Mittrowitz-Nettolitzky
+			von_Nostitz
+			Vratislav_z_Mitrovic
+			z_Bubna
+			z_Lichtenstejna
+			z_Lobkovic
+			Bernolak
+			Daxner
+			Durcansky
+			Jesensky
+			Kollar
+			Kosut
+			Mednansky
+			Matuska
+			Rakovsky
+		}
+		common_last_names={
+			Balaban
+			Basch
+			Breisky
+			Celovsky
+			Dvorak
+			Fibich
+			Gajda
+			Gellner
+			Hrdlicka
+			Halek
+			Jirecek
+			Kadlec
+			Kafka
+			Koller
+			Krizkovsky
+			Kucera
+			Kuchar
+			Lederer
+			Makosky
+			Mik
+			Moravec
+			Nemecek
+			Neruda
+			Novotny
+			Novacek
+			Popper
+			Radecky
+			Rokytansky
+			Safranek
+			Safarik
+			Schack
+			Schubert
+			Skoda
+			Skuhersky
+			Smetana
+			Snejdarek
+			Suk
+			Svoboda
+			Syrovy
+			Tomasek
+			Tyl
+			Vitasek
+			Vorisek
+			Wankel
+			Weber
+			Zoubek
+			Zibrt
+			Zivr
+			Bella
+			Benes
+			Blaho
+			Bazlic
+			Catlos
+			Cikker
+			Clementis
+			Daxner
+			Dubcek
+			Figus-Bystry
+			Freso
+			Gojdic
+			Golian
+			Hlinka
+			Hodza
+			Hopko
+			Hurban
+			Hurban-Vajansky
+			Husak
+			Ivanka
+			Kafenda
+			Kardos
+			Kocak
+			Kupkovic
+			Mach
+			Macudzinski
+			Malovec
+			Malar
+			Markovic
+			Masaryk
+			Moyses
+			Mory
+			Rohacek
+			Rudnay
+			Razus
+			Selepceni
+			Sidor
+			Skultety-Gabris
+			Smik
+			Sokol
+			Stefanik
+			Suchon
+			Sverma
+			Tiso
+			Trcka
+			Tuka
+			Turanec
+			Viest
+			Zoch
+			Achim
+		}
+		ethnicities = {
+			1 = slavic
+		}
+		graphics = european
+	}
 
 venetian={
-	color= hsv{ 87 1 82 }
+	color= rgb{ 87 1 82 }
 	religion = catholic
 	traits = { italophone european_heritage }
 	
