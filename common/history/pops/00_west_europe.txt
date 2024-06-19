@@ -582,7 +582,7 @@
 	s:STATE_NORMANDY = {
 		region_state:BGY = {
 			create_pop = {
-				culture = burgundian
+				culture = french
 				size = 2070494
 			}
 			create_pop = {
@@ -603,7 +603,7 @@
 	s:STATE_LANGUEDOC = {
 		region_state:AQU = {
 			create_pop = {
-				culture = occitan
+				culture = aquitain
 				size = 1994848
 			}
 			create_pop = {
@@ -658,13 +658,13 @@
 	s:STATE_FRENCH_LOW_COUNTRIES = {
 		region_state:AMS = {
 			create_pop = {
-				culture = dutch
-				size = 1608005
+				culture = burgundian
+				size = 1408005
 			}
 			create_pop = {
 				culture = dutch
 				religion = protestant
-				size = 10279
+				size = 210279
 			}
 			create_pop = {
 				culture = dutch
@@ -685,7 +685,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1400989
+				size = 1000989
 			}
 			create_pop = {
 				culture = burgundian
@@ -694,7 +694,7 @@
 			}
 			create_pop = {
 				culture = french
-				size = 70000
+				size = 470000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -735,13 +735,12 @@
 	s:STATE_POITOU = {
 		region_state:AQU = {
 			create_pop = {
-				culture = burgundian
+				culture = aquitain
 				size = 1980062
 			}
 			create_pop = {
-				culture = burgundian
-				religion = protestant
-				size = 65087
+				culture = french
+				size = 165087
 			}
 			create_pop = {
 				culture = occitan
@@ -756,11 +755,11 @@
 	s:STATE_GUYENNE = {
 		region_state:AQU = {
 			create_pop = {
-				culture = occitan
+				culture = aquitain
 				size = 2893584
 			}
 			create_pop = {
-				culture = burgundian
+				culture = occitan
 				size = 10362
 			}
 			create_pop = {
@@ -773,7 +772,7 @@
 	s:STATE_AUVERGNE_LIMOUSIN = {
 		region_state:AQU = {
 			create_pop = {
-				culture = occitan
+				culture = aquitain
 				size = 1949056
 			}
 			create_pop = {
@@ -840,13 +839,12 @@
 	s:STATE_MAINE_ANJOU = {
 		region_state:AQU = {
 			create_pop = {
-				culture = burgundian
-				size = 2107973
+				culture = aquitain
+				size = 307973
 			}
 			create_pop = {
-				culture = burgundian
-				religion = protestant
-				size = 11161
+				culture = french
+				size = 191161
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -858,7 +856,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1753438
+				size = 1253438
 			}
 			create_pop = {
 				culture = burgundian
@@ -872,7 +870,7 @@
 			}
 			create_pop = {
 				culture = french
-				size = 423000
+				size = 923000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -905,7 +903,7 @@
 		region_state:BGY = {
 			create_pop = {
 				culture = burgundian
-				size = 1933731
+				size = 1610000
 			}
 			create_pop = {
 				culture = burgundian
@@ -914,7 +912,7 @@
 			}
 			create_pop = {
 				culture = french
-				size = 210000
+				size = 533731
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -925,7 +923,7 @@
 	s:STATE_AQUITAINE = {
 		region_state:AQR = {
 			create_pop = {
-				culture = occitan
+				culture = aquitain
 				size = 2463916
 			}
 			create_pop = {
@@ -1053,8 +1051,8 @@
 	s:STATE_WALLONIA = {
 		region_state:AMS = {
 			create_pop = {
-				culture = wallonian
-				size = 103992
+				culture = burgundian
+				size = 1103992
 			}
 			create_pop = {
 				culture = north_german
@@ -1070,8 +1068,8 @@
 				size = 210
 			}
 			create_pop = {
-				culture = wallonian				# 'Walloon & French' in census data.
-				size = 1413476
+				culture = wallonian # 'Walloon & French' in census data.
+				size = 413476
 			}
 			create_pop = {
 				culture = north_german
@@ -1101,7 +1099,7 @@
 	s:STATE_FLANDERS = {
 		region_state:AMS = {
 			create_pop = {
-				culture = flemish				# 'Flemish & Dutch' in census data.
+				culture = burgundian # 'Flemish & Dutch' in census data.
 				size = 2224197
 			}
 			create_pop = {

@@ -3204,7 +3204,7 @@ AQU = {
 
 	tier = kingdom
 	
-	cultures = { occitan }
+	cultures = { aquitain }
 	capital = STATE_GUYENNE
 }
 
