@@ -46,26 +46,6 @@ UUU = {
 	}
 }
 
-RME = {
-	use_culture_states = yes
-	
-	is_major_formation = yes
-	
-	unification_play = dp_unify_rome
-	leadership_play = dp_leadership_rome
-
-	required_states_fraction = 1
-
-	ai_will_do = { has_technology_researched = nationalism }
-
-	possible = {
-		OR = {
-			country_has_primary_culture = cu:north_roman
-			country_has_primary_culture = cu:south_roman
-		}
-	}
-}
-
 SCA = {
 	use_culture_states = yes
 	

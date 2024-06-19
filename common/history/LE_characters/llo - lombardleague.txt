@@ -8,7 +8,9 @@ CHARACTERS = {
 			dna = dna_Iannarella
 			birth_date = 1805.1.11
 			culture = cu:north_roman
+			ig_leader = yes
 			interest_group = ig_devout
+
 			ideology = ideology_republican
 			traits = {
 				inspirational_orator

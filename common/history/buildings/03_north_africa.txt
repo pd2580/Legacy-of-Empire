@@ -628,7 +628,7 @@
 				}
 				create_building={
 					building="building_construction_sector"
-					level=3
+					level=2
 					reserves=1
 					activate_production_methods={ "pm_wooden_buildings" }
 				}	
@@ -670,7 +670,7 @@
 				}
 				create_building={
 					building="building_arms_industry"
-					level=2
+					level=3
 					reserves=1
 					activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" }
 				}
@@ -694,13 +694,13 @@
 				}
 				create_building={
 					building="building_port"
-					level=2
+					level=1
 					reserves=1
 					activate_production_methods={ "pm_basic_port" }
 				}
 				create_building = {
 					building = "building_logging_camp"
-					level = 1
+					level = 3
 					reserves = 1
 					activate_production_methods = {
 						"pm_saw_mills" "pm_hardwood"

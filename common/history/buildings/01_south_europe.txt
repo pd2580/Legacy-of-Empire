@@ -793,7 +793,7 @@
 			}
 			create_building={
 				building="building_university"
-				level=3
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_scholastic_education" }
 			}
@@ -811,7 +811,7 @@
 			}
 			create_building={
 				building="building_military_shipyards"
-				level=3
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden" "pm_merchant_guilds_building_military_shipyards" }
 			}
@@ -835,7 +835,7 @@
 			}
 			create_building={
 				building="building_shipyards"
-				level=3
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_basic_shipbuilding" "pm_merchant_guilds_building_shipyards" }
 			}
@@ -847,7 +847,7 @@
 			}
 			create_building={
 				building="building_iron_mine"
-				level=4
+				level=7
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
 			}
@@ -871,7 +871,7 @@
 			}
 			create_building={
 				building="building_paper_mills"
-				level=5
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
 			}
@@ -912,6 +912,12 @@
 				activate_production_methods = {
 					"pm_saw_mills" "pm_hardwood"
 				}
+			}
+			create_building={
+				building="building_furniture_manufacturies"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" "pm_merchant_guilds_building_furniture_manufacturies" }
 			}
 		}
 	}

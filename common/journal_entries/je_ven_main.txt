@@ -227,7 +227,7 @@ je_venice_east = {
 		}
 		OR = {
 			owns_treaty_port_in = STATE_ZHILI
-			owns_treaty_port_in = STATE_SHANDONG
+			owns_treaty_port_in = STATE_BEIJING
 		}
 	}
 
@@ -408,7 +408,7 @@ je_venice_main_r = {
 			has_building = building_panama_canal
 			OR = {
 				owns_treaty_port_in = STATE_ZHILI
-				owns_treaty_port_in = STATE_SHANDONG
+				owns_treaty_port_in = STATE_BEIJING
 			}
 		}
 	}

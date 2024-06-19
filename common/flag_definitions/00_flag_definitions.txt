@@ -6158,6 +6158,27 @@ BBA = { # Bavaria Bohemia
 	}
 }
 
+WEI = { # Imperial Church of Italia
+	flag_definition = {
+		coa = WEI
+		subject_canton = WEI
+		priority = 1		
+	}	
+}
+SHU = { # Imperial Church of Italia
+	flag_definition = {
+		coa = SHU
+		subject_canton = SHU
+		priority = 1		
+	}	
+}
+KWO = { # Imperial Church of Italia
+	flag_definition = {
+		coa = KWO
+		subject_canton = KWO
+		priority = 1		
+	}	
+}
 
 ICI = { # Imperial Church of Italia
 	flag_definition = {

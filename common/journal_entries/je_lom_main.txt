@@ -30,6 +30,27 @@ je_lom_ita = {
 		}
 		activate_law = law_type:law_census_voting
 		change_tag = ITF
+		hidden_effect = {
+			every_country = {
+				every_scope_pop = {
+					limit = {
+						culture = cu:venetian
+					}
+					change_pop_culture = {
+						target = cu:north_roman
+						value = 1
+					}
+				}
+			}
+			s:STATE_VENETIA = {
+				remove_homeland = cu:venetian
+				add_homeland = cu:north_roman
+			}
+			s:STATE_ISTRIA = {
+				remove_homeland = cu:venetian
+				add_homeland = cu:north_roman
+			}
+		}
 	}
 	should_be_pinned_by_default = yes
 }

@@ -452,10 +452,10 @@ BLH = {
 NGF = {
 	use_culture_states = yes
 
-	required_states_fraction = 0.75
+	required_states_fraction = 1
 
 	possible = {
-		has_technology_researched = nationalism
+		has_technology_researched = pan-nationalism
 	}
 
 	ai_will_do = { always = yes }
@@ -704,17 +704,86 @@ RHN = {
 		STATE_MECKLENBURG
 	}
 
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+	
+	possible = {
+		has_technology_researched = mass_surveillance
+		NOR = {
+			c:AUS ?= this
+			c:NGF ?= this
+			c:SGF ?= this
+			c:BAY ?= this
+			c:THU ?= this
+		}
+	}
+}
+
+WER = {
+	states = {
+		STATE_BEIJING
+		STATE_SHENGJING
+		STATE_ZHILI
+		STATE_SHANDONG
+		STATE_JIANGSU
+		STATE_NORTHERN_ANHUI
+		STATE_HENAN
+		STATE_SHANXI
+		STATE_XIAN
+		STATE_NINGXIA
+		STATE_GANSU
+	}
 	required_states_fraction = 0.75
 	
 	ai_will_do = { always = yes }
 	
 	possible = {
 		has_technology_researched = nationalism
-		NOR = {
-			c:AUS ?= this
-			c:NGF ?= this
-			c:SGF ?= this
-		}
+		country_has_primary_culture = cu:han
+	}
+}
+
+SHU = {
+	states = {
+		STATE_YUNNAN
+		STATE_CHONGQING
+		STATE_GUIZHOU
+		STATE_SICHUAN
+	}
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+	
+	possible = {
+		has_technology_researched = nationalism
+		country_has_primary_culture = cu:han
+	}
+}
+
+KWO = {
+	states = {
+		STATE_TONKIN
+		STATE_GUANGXI
+		STATE_GUANGDONG
+		STATE_SHAOZHOU
+		STATE_FUJIAN
+		STATE_ZHEJIANG
+		STATE_SUZHOU
+		STATE_NANJING
+		STATE_SOUTHERN_ANHUI
+		STATE_JIANGXI
+		STATE_EASTERN_HUBEI
+		STATE_WESTERN_HUBEI
+		STATE_HUNAN
+	}
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+	
+	possible = {
+		has_technology_researched = nationalism
+		country_has_primary_culture = cu:han
 	}
 }
 
