@@ -120,7 +120,7 @@
 		}
 	}
 	s:STATE_GUIZHOU = {
-		region_state:GUI = {
+		region_state:GUC = {
 			create_building = {
 				building = "building_government_administration"
 				level = 10
@@ -197,8 +197,6 @@
 	}
 	s:STATE_SHAOZHOU = {
 		region_state:YUE = {
-			
-		} = {
 			create_building = {
 				building = "building_government_administration"
 				level = 8
@@ -987,7 +985,7 @@
 		}
 	}
 	s:STATE_ZHEJIANG = {
-		region_state:CHI = {
+		region_state:TAC = {
 			create_building = {
 				building = "building_government_administration"
 				level = 10
@@ -1069,6 +1067,28 @@
 				}
 			}
 		}
+		region_state:NCL = {
+			create_building = {
+				building = "building_tea_plantation"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"default_building_tea_plantation"
+					"pm_road_carts"
+					"pm_privately_owned_plantation"
+				}
+			}
+			create_building = {
+				building = "building_silk_plantation"
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					"default_building_silk_plantation"
+					"pm_road_carts"
+					"pm_privately_owned_plantation"
+				}
+			}
+		}
 	}
 	s:STATE_JIANGSU = {
 		region_state:SHA = {
@@ -1115,7 +1135,7 @@
 		}
 	}
 	s:STATE_NANJING = {
-		region_state:AHU = {
+		region_state:NCL = {
 			create_building = {
 				building = "building_government_administration"
 				level = 17
@@ -1759,7 +1779,7 @@
 		}
 	}
 	s:STATE_SUZHOU = {
-		region_state:CHI = {
+		region_state:NCL = {
 			create_building = {
 				building = "building_government_administration"
 				level = 16
@@ -2429,7 +2449,7 @@
 				}
 			}
 		}
-		region_state:BIC = {
+		region_state:VEN = {
 			create_building = {
 				building = "building_opium_plantation"
 				level = 1

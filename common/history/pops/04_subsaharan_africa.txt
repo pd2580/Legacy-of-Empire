@@ -794,7 +794,7 @@
 		}
 	}
 	s:STATE_TOGO = {
-		region_state:DEN = {
+		region_state:VEN = {
 			create_pop = {
 				culture = akan
 				size = 116308
@@ -1553,7 +1553,7 @@
 		}
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
-		region_state:MAD = {
+		region_state:VEN = {
 			create_pop = {
 				culture = malagasy
 				size = 805196
@@ -1577,7 +1577,7 @@
 		}
 	}
 	s:STATE_NORTH_MADAGASCAR = {
-		region_state:MAD = {
+		region_state:VEN = {
 			create_pop = {
 				culture = malagasy
 				size = 900304

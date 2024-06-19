@@ -2451,7 +2451,7 @@ CHI = {
 	
 	tier = empire
 	
-	cultures = { manchu han } 
+	cultures = { han yue min yi } 
 	capital = STATE_BEIJING
 }
 
@@ -4086,6 +4086,39 @@ ICI = {
 
 	cultures = { north_roman south_roman }
 	capital = STATE_LAZIO
+}
+
+NCL = {
+	color = { 252 186 3 }
+	
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { han }
+	capital = STATE_NANJING
+}
+
+TAC = {
+	color = { 164 168 118 }
+	
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { han }
+	capital = STATE_ZHEJIANG
+}
+
+GUC = {
+	color = { 105 141 191 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { han yi }
+	capital = STATE_GUIZHOU
 }
 
 WER = {
