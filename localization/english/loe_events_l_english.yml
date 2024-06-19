@@ -242,45 +242,74 @@
  le_bavaria.2.f:0 "Today, the furneral of king Ludwig has taken place in Munich; even if he was disliked by the nobility, a death is always a tragedy, and thus the king was given all the homages a king deserves.\nThe coronation ceremony of Maximilian von Bayern will be held in the Cathedral of Munchen on december 6th, and until that moment the prince will be helped by a regent.\nThe path in front of Maximilian is an arduous one, and the prince will need to show great resilience face his burdensome future."
  le_bavaria.2.a:0 "The king is dead, long live the king!"
 
- le_bavaria.1.t:0
- le_bavaria.1.d:0
- le_bavaria.1.f:0
- le_bavaria.1.a:0
+ le_bavaria.3.t:0 "Aristocratic Uprising"
+ le_bavaria.3.d:0 "The dukes of Württemberg and Baden have revolted, and many bavarian nobles are joining their side."
+ le_bavaria.3.f:0 ""They aim to gain independence my liege, their troops are already marching towards Munich!\nWhat are your orders, my King?""
+ le_bavaria.3.a:0 ""We shall meet them on the battlefield""
 
- le_bavaria.1.t:0
- le_bavaria.1.d:0
- le_bavaria.1.f:0
- le_bavaria.1.a:0
+ le_bavaria.4.t:0 "The Fate of the Rioters"
+ le_bavaria.4.d:0 "All the nobles that have revolted have been arrested."
+ le_bavaria.4.f:0 "The nobles are now being detained in the royal palace, and the military is waiting for you to tell them what will be the consequences for their act of treason."
+ le_bavaria.4.a:0 "We will give them a fair trial."
+ le_bavaria.4.b:0 "Kill them all!"
 
- le_bavaria.1.t:0
- le_bavaria.1.d:0
- le_bavaria.1.f:0
- le_bavaria.1.a:0
+ le_bavaria.5.t:0 "A King's Dilemma"
+ le_bavaria.5.d:0 "The rise of nationalism in all the land inhabited by german people is causing massive political movements."
+ le_bavaria.5.f:0 ""My Liege, your subjects are asking you to become the King of all Germans, how shall we respond them?"\n"King of all Germans you say? Sounds more of a burden than anything else, and those thuringians and rhenish people have never helped us, so I don't see why I should become king of such people,\nIf my lands are to expand, it will be my choice.""
+ le_bavaria.5.a:0 "If I am king of a german people, it's the south german people."
+ le_bavaria.5.b:0 "Maybe "King of all Germans" doesn't sound that bad."
 
- le_bavaria.1.t:0
- le_bavaria.1.d:0
- le_bavaria.1.f:0
- le_bavaria.1.a:0
+ le_bavaria.6.t:0 "The Birth of the South German Federation"
+ le_bavaria.6.d:0 "All the south german people have been gathered\nunder one nation"
+ le_bavaria.6.f:0 "For the first time in history, a country made by, with and for the south german people has been created.\nAn age of prosperity is beginning for this people, an may it never ends."
+ le_bavaria.6.a:0 "Long Live the South German Federation!"
+
+ le_bavaria.7.t:0 "The Brunswick's Agreement"
+ le_bavaria.7.d:0 "The bavarian government has managed to reach an agreement with the nobility of all Germany."
+ le_bavaria.7.f:0 "Many decribed this agreement as a visible miracle, and indeed it is.\nThe negotiations lasted 3 weeks, and as the time passed, the hope for a unified germany dwindled, but the bavarian government was greatly determined to reach an agreement, and so they did.\nHuge concessions were given to the nobility of Lotharingia, Rhineland and Austria, concessions that will create many problems to the german govenment in the years to come, but at last Germany was made."
+ le_bavaria.7.a:0 "Long Live the German Confederation"
 
  le_bohem.1.t:0 "The Shadow of a Great Empire"
  le_bohem.1.d:0 "In 1712, after the death of King Petr II Vratislav z Mitrovic, the Kingdom of the Danube was split between the first son, Petr III, who inherited most of the kigdom, ad Michal, the secod one, who inherited the Kingdom of Bavaria."
- le_bohem.1.f:0 "After 124 years and numerous wars and revolts, the Kingdom of the Danube shrunk in size, reduced to what is now the Principality of Bohemia.\nMassive investments in military and research have allowed our country to survive at last, and with the nation now stable, the nobility has started pushing the king to reclaim the lost territories."
+ le_bohem.1.f:0 "After 124 years and numerous wars and revolts, the Kingdom of the Danube shrunk in size, reduced to what is now the Kingdom of Bohemia.\nMassive investments in military and research have allowed our country to survive at last, and with the nation now stable, the nobility has started pushing the king to reclaim the lost territories."
  le_bohem.1.a:0 "For a glorious future of our country!"
 
  le_bohem.2.t:0 "The Matter of Bavaria"
  le_bohem.2.d:0 "In 1754 the king of Bavaria, Michal Albert Vratislav z Mitrovic, was ousted by Luitpold von Bayern."
- le_bohem.2.f:0 "Being the nephew of Michal Albert, prince Alexander has a natural claim on the kingdom of Bavaria, and the bohemian nobility is heavily pushing for the prince to enforce his claim.\nThe Kingdom of Bavaria is going through a difficult time, and the death of their king, whose health is in a precarious state, could be the perfect chance to push the prince's claim."
+ le_bohem.2.f:0 "Being the nephew of Michal Albert, King Alexander has a natural claim on the kingdom of Bavaria, and the bohemian nobility is heavily pushing for the king to enforce his claim.\nThe Kingdom of Bavaria is going through a difficult time, and the death of their king, whose health is in a precarious state, could be the perfect chance to push the king's claim."
  le_bohem.2.a:0 "What the future holds for us?"
 
- le_bohem.1.t:0
- le_bohem.1.d:0
- le_bohem.1.f:0
- le_bohem.1.a:0
+ le_bohem.3.t:0 "News from Munich"
+ le_bohem.3.d:0 "King Ludwig I is dead."
+ le_bohem.3.f:0 ""We must strike now, we won't have a better chance than this to reclaim what is de jure ours!"\n"The Count of Brno is right, the reign is economically and militarily ready to go to war, we cannot afford to miss such a great chance!""
+ le_bohem.3.a:0 "Mobilize the troops!"
+ le_bohem.3.b:0 "I have a much grander plan for the country, I won't meddle in Von Bayern's affairs."
 
- le_bohem.1.t:0
- le_bohem.1.d:0
- le_bohem.1.f:0
- le_bohem.1.a:0
+ le_bohem.4.t:0 "The Reclamation of Bavaria"
+ le_bohem.4.d:0 "The Kingdom of Bavaria has been occupied by our forces, but we must think about the aftermath."
+ le_bohem.4.f:0 "The death and devastation of the war are causing massive turmoil in the regions we have just conquered, and if we want to keep those lands we must think thoroughly before imposing our culture or our religion.\nChanges in our legislation are to be made if we want to fully integrate the kingdom of Bavaria."
+ le_bohem.4.a:0 "King Alexander is the true and only ruler of Bavaria, we will not lose those lands."
+
+ le_bohem.5.t:0 "Chaos in Prague's Parliament"
+ le_bohem.5.d:0 "Most of the nobles are furious, seeing their ruler's vileness as an act of treason against the reign."
+ le_bohem.5.f:0 ""Order in the chamber! The King wants to speak!"\n"Fear not, oh nobles of Bohemia, for my actions have a meaning.\nI have greatly invested in this country, and now we are reaping the fruits of those investments, and those fruits will allow us to achieve my greatest dream...""
+ le_bohem.5.a:0 "...restoring the kingdom of our ancestors, Great Moravia!"
+ le_bohem.5.b:0 "...restoring the kingdom of my grandfather, the Kingdom of the Danube!"
+
+ le_bohem.6.t:0 "The Restoration of the Kingdom"
+ le_bohem.6.d:0 "The Kingdom of the Danube has been restored."
+ le_bohem.6.f:0 "Thanks to the heroic deeds of our great ruler, after more than a century the Kingdom is now reborn from the ashes.\nToday in Prague [SCOPE.sCharacter('ruler_scope').GetFullName] has been crowned Emperor of the Danube in front of a crowd of fifty thousand people, and delegates from all across europe are coming to the capital to personally congratulate the Emperor for his grand feat."
+ le_bohem.6.a:0 "Long live the Emperor!"
+
+ le_bohem.7.t:0 "The Integration of Bavaria"
+ le_bohem.7.d:0 "The Kingdom of Bavaria has been fully integrated."
+ le_bohem.7.f:0 "Today is a day to be remembered, for today is the day the kingdoms of Bohemia and Bavaria have been merged into one single crown;\n[SCOPE.sCharacter('ruler_scope').GetFullName] is now king of all the czech and south german people, and those two people shall prosper forever under his rule!"
+ le_bohem.7.a:0 "All hail [SCOPE.sCharacter('ruler_scope').GetFullName]!"
+
+ le_bohem.8.t:0 "The Kingdom of the West Slavs"
+ le_bohem.8.d:0 "After more than 9 centuries, Great Moravia has been refounded."
+ le_bohem.8.f:0 "Czech, Slovak and sorb people have all accepted to unite under one name and one flag, and thus Great Moravia has been established.\nIt has now started a new age of prosperity for all moravian people, and may it never fall again."
+ le_bohem.8.a:0 "Long live Great Moravia!"
 
  lombard.1.t:0 "A Failed Confederation"
  lombard.1.d:0 "In January 1809 north italy was invaded by the Archduchy of Austria, whose aim was to conquer the region of south Tyrol, Istria, Venetia and Lombardy."
@@ -321,6 +350,7 @@ Lambruschini:0 "Druso"
 Giovanni_Maria:0 "Livio Flaminio"
 Ferretti:0 "Gordiano"
 Armellini:0 "Micone"
+pm_cannery_fish:0 "Canned Fish"
 loe_rhi.1.t:0 "An Unfortunate Country"
 loe_rhi.1.d:0 "The Rhineland, formerly the Confederation of the Rhine, was born in the 18th century as a buffer state between France and Thuringia"
 loe_rhi.1.f:0 "After the collapse of the French Kingdom, the confederation was occupied by burgundian forces first, and then by Austria; The confederation will become independent only in 1819, and to this day the nation is still struggling to gain international recognition.\nThe unfortunate conditions that created this country greatly influence the view that the other nations have of us, and to transform our country into a recognized power, we have to show our real strenght."

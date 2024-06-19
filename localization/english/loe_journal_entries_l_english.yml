@@ -161,3 +161,26 @@ je_venice_panama_reason:0 "The Panama is Venice's Magnum Opus, and considering t
 
 je_rhineland_main:0 "A Second Confederation?"
 je_rhineland_main_reason:0 "Our neighbors still consider our nation to be unable to defend itself, but time has passed and things have changed.\nIf we were to conquer the german lands next to us, not only we would get the recognition we deserve, but we could also sway the german nobility and form a greater confederation, which would allow us to become a force to reckon with."
+
+je_boh_mor:0 "The Kingdom of the West Slavs"
+je_boh_mor_reason:0 "The Kingdom of Great Moravia was the first successful attempt to gather all the west slavs people under one flag.\nUnfortunately, almost a thousand years have passed since its fall, and a lot has changed; the only way we can convince the slovak and sorb people to unite into one people, is by leveraging our common ancestry and giving freedom of religion."
+je_boh_dan:0 "The Danubian Kingdom"
+je_boh_dan_reason:0 "Years of lost wars and revolts have caused the fall of the kingdom, but our great ruler is won't repeat the same mistake of his predecessor;\nIf we can guarantee freedom of religion and ethnic tolerance, the longevity of the kingdom will be secured."
+je_moravian_culture:0 "Czech, Slovak and Sorb people will become Moravian."
+je_ethno_boh:0 "A Kingdom for the west slavs"
+je_ethno_boh_reason:0 "In order to repopulate our lands with our people, we must make sure people of other cultures understand that they are not welcomed in our great nation."
+je_disf_king:0 "A dysfunctional Kingdom"
+je_disf_king_reason:0 "If we want to fully integrate those lands, we must pass cultural and religious reforms that can guarantee the freedom of the south german people.\nFurthermore the regions of austria and styria, which are de jure part of the Kingdom of Bavaria, are still not under our rule; needless to say, but this is not tolerable."
+je_carp:0 "Reaching the Carphatians"
+je_carp_reason:0 "Our country is geographically defended by the Alps to the south, and by multiple rivers to the north and to the west;\nOur only weakspot is the eastern border, which unfortunately is mostly made by great plains.\nReaching the Carphatians would be not only a source of international prestige, but it would grant us an excellent natural defensive border to the east, thus making it easier to defend our country."
+
+je_ari_rev:0 "Aristocratic Uprising"
+je_ari_rev_reason:0 "The high nobility is taking advantage of the death of the former king of Bavaria, Ludwig I, to detach from the kingdom, but luckily most of the army has shown his loyalty to the king.\nIt is time to make them pay for their act of treason."
+
+je_bav_nat:0 "Winds of Change"
+je_bav_nat_reason:0 "Nationalism is on the rise in all german lands;\nthose movements are still really small, but they might spread and explode pretty soon."
+
+je_sgf:0 "The South German Federation"
+je_sgf_reason:0 "South german people can be found in Bohemia, Hungary, Slovenia and north Italy; the south german people has never been a united people, therefore gathering all of it under one nation can be quite an arduous task.\nMany wars will be needed, so we have to prepare our nation first."
+je_ger_conf:0 "The German Confederation"
+je_ger_conf_reason:0 "We can form Germany either through diplomacy or war.\nIf Thuringia and Rhineland become our subject and we keep good relations with them, we will be able to annex their lands peacefully, otherwise it will be war."

@@ -1,4 +1,4 @@
-namespace = rhineland
+namespace = loe_rhi
 loe_rhi.1 = {
 	type = country_event
 	placement = ROOT
@@ -73,7 +73,7 @@ loe_rhi.1 = {
 	}
 }
 
-loe_rhine.2 = {
+loe_rhi_finale = {
 	type = country_event
 	placement = ROOT
 	title = loe_rhine.2.t
