@@ -74,20 +74,6 @@ le_bohem.3 = {
 	}
 	option = {
 		name = le_bohem.3.a
-		create_diplomatic_play = {
-			target_country = c:BAY
-			war = yes
-			type = dp_make_protectorate
-			add_war_goal = {
-				holder = c:BAY
-				type = conquer_state
-				target_state = s:STATE_BOHEMIA.region_state:BOH
-			}
-		}
-		change_infamy = -35
-	}
-	option = {
-		name = le_bohem.3.b
 		default_option = yes
 		trigger_event = {
 			id = le_bohem.5
@@ -104,6 +90,20 @@ le_bohem.3 = {
 		ai_chance = {
 			base = 100
 		}
+	}
+	option = {
+		name = le_bohem.3.b
+		create_diplomatic_play = {
+			target_country = c:BAY
+			war = yes
+			type = dp_make_protectorate
+			add_war_goal = {
+				holder = c:BAY
+				type = conquer_state
+				target_state = s:STATE_BOHEMIA.region_state:BOH
+			}
+		}
+		change_infamy = -35
 	}
 }
 

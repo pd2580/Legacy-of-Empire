@@ -32,6 +32,7 @@ je_disf_king = {
 		}
 		owns_entire_state_region = STATE_AUSTRIA
 		owns_entire_state_region = STATE_STYRIA
+		has_technology_researched = egalitarianism
 		has_technology_researched = nationalism
 	}
 	on_complete = {
