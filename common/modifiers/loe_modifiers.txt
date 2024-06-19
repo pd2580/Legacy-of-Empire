@@ -280,3 +280,35 @@ modifier_carp = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	country_prestige_add = 50
 }
+modifier_bav_one = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -10
+	interest_group_pol_str_mult = -0.80
+	interest_group_pop_attraction_mult = -0.3
+}
+modifier_bav_two = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -2
+	interest_group_pol_str_mult = -0.10
+	interest_group_pop_attraction_mult = -0.1
+}
+modifier_bav_three = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_authority_mult = -0.15
+	country_expenses_add = 1000
+	state_construction_mult = -0.1
+	state_conscription_rate_mult = -0.1
+}
+modifier_bav_four = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	state_tax_capacity_mult = -0.10
+	country_expenses_add = 5000
+}
+modifier_bav_five = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	country_bureaucracy_mult = -0.05
+	state_tax_capacity_mult = -0.1
+	country_expenses_add = 1000
+	state_conscription_rate_mult = -0.1
+	state_radicals_from_discrimination_mult = 0.2
+}

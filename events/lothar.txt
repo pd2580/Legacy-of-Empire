@@ -1077,5 +1077,7 @@ lotharingia.14 = {
 			months = long_modifier_time
 			is_decaying = yes
 		}
+		add_primary_culture = cu:south_german
+		add_primary_culture = cu:rhenish
 	}
 }

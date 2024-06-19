@@ -19459,14 +19459,30 @@ SGF = {
 	
 	pattern = "pattern_solid.tga"
 	color1 = "black"
-	color2 = "yellow"
-	color3 = "red"
+	color2 = "white"
+	color3 = "blue_light"
 
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = color2
 		color2 = color3
+	}	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.63 0.63 } position = { 0.5 0.5 } }
 	}		
+	textured_emblem = {
+		texture = "te_coa_bav.dds"
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.56 } }
+	}	
+	colored_emblem = {
+		texture = "ce_crown_ducal.dds"
+		color1 = "yellow_light"
+		color2 = "green"
+		color3 = "green"
+		instance = { scale = { 0.36 0.36 } position = { 0.5 0.3 } }
+	}
 }
 SGF_republic = {	
 	pattern = "pattern_solid.tga"

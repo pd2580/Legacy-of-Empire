@@ -101,6 +101,9 @@ le_bohem.3 = {
 				trigger_event = le_bavaria.3
 			}
 		}
+		ai_chance = {
+			base = 100
+		}
 	}
 }
 

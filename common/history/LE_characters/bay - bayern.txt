@@ -10,6 +10,10 @@ CHARACTERS = {
 			ideology = ideology_royalist
 			traits = {
 				romantic
+				reserved
+				psychological_affliction
+				alcoholic
+				sickly
 			}
 			on_created = {
 				set_variable = is_married
