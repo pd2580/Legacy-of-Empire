@@ -6158,24 +6158,47 @@ BBA = { # Bavaria Bohemia
 	}
 }
 
-WEI = { # Imperial Church of Italia
+WER = { #Wei
 	flag_definition = {
-		coa = WEI
-		subject_canton = WEI
+		coa = WER
+		subject_canton = WER
 		priority = 1		
 	}	
 }
-SHU = { # Imperial Church of Italia
+SHU = { #Shu
 	flag_definition = {
 		coa = SHU
 		subject_canton = SHU
 		priority = 1		
 	}	
 }
-KWO = { # Imperial Church of Italia
+KWO = { #WU
 	flag_definition = {
 		coa = KWO
 		subject_canton = KWO
+		priority = 1		
+	}	
+}
+NCL = { # Nanjing clique
+	flag_definition = {
+		coa = NCL
+		subject_canton = NCL
+		priority = 1		
+	}	
+}
+
+TAC = {  #Taizhou clique
+	flag_definition = {
+		coa = TAC
+		subject_canton = TAC
+		priority = 1		
+	}	
+}
+
+GUC = { #Wei
+	flag_definition = {
+		coa = GUC
+		subject_canton = GUC
 		priority = 1		
 	}	
 }

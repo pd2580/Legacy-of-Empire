@@ -228,14 +228,6 @@ PLC = {
 	ai_will_do = { always = yes }
 }
 
-CHI = {
-	use_culture_states = yes
-
-	required_states_fraction = 0.6
-	
-	ai_will_do = { always = yes }
-}
-
 ETH = {
 	use_culture_states = yes
 
@@ -720,6 +712,46 @@ RHN = {
 	}
 }
 
+CHI = {
+	states = {
+		STATE_BEIJING
+		STATE_SHENGJING
+		STATE_ZHILI
+		STATE_SHANDONG
+		STATE_JIANGSU
+		STATE_NORTHERN_ANHUI
+		STATE_HENAN
+		STATE_SHANXI
+		STATE_XIAN
+		STATE_NINGXIA
+		STATE_GANSU
+		STATE_YUNNAN
+		STATE_CHONGQING
+		STATE_GUIZHOU
+		STATE_SICHUAN
+		STATE_TONKIN
+		STATE_GUANGXI
+		STATE_GUANGDONG
+		STATE_SHAOZHOU
+		STATE_FUJIAN
+		STATE_ZHEJIANG
+		STATE_SUZHOU
+		STATE_NANJING
+		STATE_SOUTHERN_ANHUI
+		STATE_JIANGXI
+		STATE_EASTERN_HUBEI
+		STATE_WESTERN_HUBEI
+		STATE_HUNAN
+	}
+	required_states_fraction = 0.85
+	
+	ai_will_do = { always = yes }
+	
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}
+
 WER = {
 	states = {
 		STATE_BEIJING
@@ -734,13 +766,12 @@ WER = {
 		STATE_NINGXIA
 		STATE_GANSU
 	}
-	required_states_fraction = 0.75
+	required_states_fraction = 0.7
 	
 	ai_will_do = { always = yes }
 	
 	possible = {
 		has_technology_researched = nationalism
-		country_has_primary_culture = cu:han
 	}
 }
 
@@ -757,7 +788,6 @@ SHU = {
 	
 	possible = {
 		has_technology_researched = nationalism
-		country_has_primary_culture = cu:han
 	}
 }
 
@@ -783,7 +813,6 @@ KWO = {
 	
 	possible = {
 		has_technology_researched = nationalism
-		country_has_primary_culture = cu:han
 	}
 }
 

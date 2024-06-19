@@ -191,7 +191,7 @@ STATES = {
 	}
 	s:STATE_SUZHOU = {
 		create_state = {
-			country = c:CHI
+			country = c:NCL
 			owned_provinces = { x61F061 x6E575B x86FF7E xD0D0C0 x301000 xB01101 xE9E92E }
 		}
 		create_state = {
@@ -1399,7 +1399,7 @@ STATES = {
 	}
 	s:STATE_TOGO = {
 		create_state = {
-			country = c:DEN
+			country = c:VEN
 			owned_provinces = { x802111 }
 			state_type = unincorporated
 
@@ -3536,7 +3536,7 @@ STATES = {
 			owned_provinces = { x020CFE xB0B0A0 x595BB6 x1070E0 x2BD769 x2F9F98 xA85E24 xB13330 xC2EA2C xF0F78C xC9BBA0 x81D108 x2906F0 x2D91EF x1FD921 xC0E31F xCF7060 x02F3AF }
 		}
 		create_state = {
-			country = c:BIC
+			country = c:VEN
 			owned_provinces = { xB316F6 x11F060 x9A018D xE85BF0 xD5DB0B x6305C9 xF691D2 x67520F xB030A0 }
 		}
 		
@@ -3825,7 +3825,7 @@ STATES = {
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
 		create_state = {
-			country = c:MAD
+			country = c:VEN
 			owned_provinces = { xC6697B x3CE339 x19F69A x5D2D79 x132895 xC910DF x6DAE72 xA58AC5 xBFA51F x637E10 x47F3A1 xDF5AED xED95E1 xB57D66 xE8FA9B x676257 x7A489E x33BDA3 x714D08 xB5FA86 x069C0D x4DC413 x071AEC x2D9669 x097464 x1BB5E5 xDBFAC1 xE6F19B xF18FED xDCB2F8 x15A1AC xB7598B x034485 x9D8997 xE480E0 xDB3D79 x52ED6A xBCB8C0 x425701 x1B65BD x1FAF90 x6D48C1 x2B3FCB x9F5F4C x471161 x10A7DF xE655F6 xEA95C4 x5F8C33 x40C0E0 xFC9FEC xADD893 xF2317F x794F7A xB9259E x44FC6E x9C2288 xF81480 x94059D xB0B64A x5897EC x606CE0 }
 		}
 		
@@ -3833,7 +3833,7 @@ STATES = {
 	}
 	s:STATE_NORTH_MADAGASCAR = {
 		create_state = {
-			country = c:MAD
+			country = c:VEN
 			owned_provinces = { x6A1582 x35CC6B x0F6E52 xC9BB37 x88A889 xDF60B0 x0B558A x4A0895 xF7C90E xA99E28 x392CDC xD4E1D7 xB1EDB4 xBB70FE xC3F681 x069F1A x3732E1 x3450FE x3619E0 xB27647 xBEC58A xA0D0B6 xBD43D8 x7D2FD8 xF7F009 x215769 x9C3835 xDB635D x50A090 x724867 x2625B9 x285C26 xF41FD5 x7F2785 x2240CA xEFBDB7 x11F67B xB92804 x054C46 xE0C530 x678DC5 xA11116 x84B32B xC2E62D x8E25F6 xF9D98C xA67461 x50BAA2 xC3722C xC89FD5 x3465B6 x25C5DC x6B56F5 xFFB457 x8CF7D2 x00D7F5 x6CC56F xD3049A xC67F91 x1032DF }
 		}
 		
@@ -5581,17 +5581,15 @@ STATES = {
 		
 		add_homeland = cu:han
 		add_homeland = cu:yi
-		add_homeland = cu:zhuang
 	}	
 	s:STATE_GUIZHOU = {
 		create_state = {
-			country = c:GUI
+			country = c:GUC
 			owned_provinces = { xE19EFE xB1309B xBE7B7A xFA9280  x97C139 x2145E4 x9F6A1B xEBF671 x88C50C x0398DE xDAD8AE x4C694B x8B77B9 x909000 xF38277 x14F092 x581D64 xEE0374 x12DE54 xC80075 x91CCD7 x6B9BF6 x096C00 x7BC0E9 x4D64C0 x70CB39 x9DDD67 x269610 xAEBCB8 x2DB649 x735753 x392877 x109000 xC3B047 xC7612E xAA4079 x24BC36 x3DD0C5 xCABB49 xF1F862 xE0F060 xFCC7AF x957B54 xF4DC23 x3254BE x4526DC x053F4B x785430 xA61477 x8EF2F9 x21B519 }
 		}
 		
 		add_homeland = cu:han
 		add_homeland = cu:yi
-		add_homeland = cu:zhuang
 	}
 	s:STATE_SHAOZHOU = {
 		create_state = {
@@ -5601,7 +5599,6 @@ STATES = {
 		
 		add_homeland = cu:yue
 		add_homeland = cu:han
-		add_homeland = cu:hakka
 	}
 	s:STATE_ALXA = {
 		create_state = {
@@ -5631,7 +5628,6 @@ STATES = {
 		
 		add_homeland = cu:yue
 		add_homeland = cu:han
-		add_homeland = cu:zhuang
 	}
 	s:STATE_BEIJING = {
 		create_state = {
@@ -5754,7 +5750,6 @@ STATES = {
 		add_homeland = cu:yue
 		add_homeland = cu:min
 		add_homeland = cu:han
-		add_homeland = cu:miao
 	}
 	s:STATE_FUJIAN = {
 		create_state = {
@@ -5764,12 +5759,15 @@ STATES = {
 		
 		add_homeland = cu:han
 		add_homeland = cu:min
-		add_homeland = cu:hakka
 	}
 	s:STATE_ZHEJIANG = {
 		create_state = {
-			country = c:CHI
-			owned_provinces = { x477C0E x6CDE24 x2238D3 x217027 x6F9BC4 x301080 x88E7E8 xD493DE x38108E xB01080 x8B7CC2 xAD0288 xC7DEC3 x3F8010 x41AD59 xB09000 x9C0372 x5ABF0A x309080 x241F94 x6F9804 x309000 xDD34F4 x7E7930 x5BE9C6 }
+			country = c:TAC
+			owned_provinces = { x477C0E x6CDE24 x2238D3 x217027 x6F9BC4 x301080 x88E7E8 xD493DE x38108E xB01080 x8B7CC2 xAD0288 xC7DEC3 x3F8010 x41AD59 xB09000 x9C0372 x5ABF0A x309080 x241F94 x6F9804 x309000 xDD34F4 x7E7930 }
+		}
+		create_state = {
+			country = c:NCL
+			owned_provinces = { x7E7930 x5BE9C6 }
 		}
 		create_state = {
 			country = c:POR
@@ -5781,7 +5779,7 @@ STATES = {
 	}
 	s:STATE_NANJING = {
 		create_state = {
-			country = c:AHU
+			country = c:NCL
 			owned_provinces = { x515790 x8111D0 xF14A5E xADEC31 x11A5D0 xE07161 x0A91BF }
 		}
 		
@@ -5825,7 +5823,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:han	
-		add_homeland = cu:hakka
 	}
 	s:STATE_SOUTHERN_ANHUI = {
 		create_state = {
@@ -5875,7 +5872,6 @@ STATES = {
 		
 		add_homeland = cu:han
 		add_homeland = cu:min
-		add_homeland = cu:polynesian
 	}
 	s:STATE_SOUTHERN_FINLAND = {
 		create_state = {

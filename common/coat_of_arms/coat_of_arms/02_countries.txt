@@ -15158,6 +15158,11 @@ BBA_republic = {
 	}	
 }
 
+GUC = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+
 WER = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -15167,6 +15172,14 @@ SHU = {
 	color1 = "yellow"
 }
 KWO = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+NCL = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+TAC = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 }
