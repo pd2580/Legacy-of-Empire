@@ -4140,8 +4140,9 @@ burgundian={
 		1 = caucasian
 	}
 }
-burgundian={
-	color= rgb{ 130 21 65 }
+
+aquitain={
+	color= rgb{ 68 129 196 }
 	religion = catholic
 	traits = { francophone european_heritage }
 	
