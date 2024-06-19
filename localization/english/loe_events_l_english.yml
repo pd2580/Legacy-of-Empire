@@ -242,25 +242,32 @@
  le_bavaria.2.f:0 "Today, the furneral of king Ludwig has taken place in Munich; even if he was disliked by the nobility, a death is always a tragedy, and thus the king was given all the homages a king deserves.\nThe coronation ceremony of Maximilian von Bayern will be held in the Cathedral of Munchen on december 6th, and until that moment the prince will be helped by a regent.\nThe path in front of Maximilian is an arduous one, and the prince will need to show great resilience face his burdensome future."
  le_bavaria.2.a:0 "The king is dead, long live the king!"
 
- le_bavaria.1.t:0
- le_bavaria.1.d:0
- le_bavaria.1.f:0
- le_bavaria.1.a:0
+ le_bavaria.3.t:0 "Aristocratic Uprising"
+ le_bavaria.3.d:0 "The dukes of Württemberg and Baden have revolted, and many bavarian nobles are joining their side."
+ le_bavaria.3.f:0 ""They aim to gain independence my liege, their troops are already marching towards Munich!\nWhat are your orders, my King?""
+ le_bavaria.3.a:0 ""We shall meet them on the battlefield""
 
- le_bavaria.1.t:0
- le_bavaria.1.d:0
- le_bavaria.1.f:0
- le_bavaria.1.a:0
+ le_bavaria.4.t:0 "The Fate of the Rioters"
+ le_bavaria.4.d:0 "All the nobles that have revolted have been arrested."
+ le_bavaria.4.f:0 "The nobles are now being detained in the royal palace, and the military is waiting for you to tell them what will be the consequences for their act of treason."
+ le_bavaria.4.a:0 "We will give them a fair trial."
+ le_bavaria.4.b:0 "Kill them all!"
 
- le_bavaria.1.t:0
- le_bavaria.1.d:0
- le_bavaria.1.f:0
- le_bavaria.1.a:0
+ le_bavaria.5.t:0 "A King's Dilemma"
+ le_bavaria.5.d:0 "The rise of nationalism in all the land inhabited by german people is causing massive political movements."
+ le_bavaria.5.f:0 ""My Liege, your subjects are asking you to become the King of all Germans, how shall we respond them?"\n"King of all Germans you say? Sounds more of a burden than anything else, and those thuringians and rhenish people have never helped us, so I don't see why I should become king of such people,\nIf my lands are to expand, it will be my choice.""
+ le_bavaria.5.a:0 "If I am king of a german people, it's the south german people."
+ le_bavaria.5.b:0 "Maybe "King of all Germans" doesn't sound that bad."
 
- le_bavaria.1.t:0
- le_bavaria.1.d:0
- le_bavaria.1.f:0
- le_bavaria.1.a:0
+ le_bavaria.6.t:0 "The Birth of the South German Federation"
+ le_bavaria.6.d:0 "All the south german people have been gathered\nunder one nation"
+ le_bavaria.6.f:0 "For the first time in history, a country made by, with and for the south german people has been created.\nAn age of prosperity is beginning for this people, an may it never ends."
+ le_bavaria.6.a:0 "Long Live the South German Federation!"
+
+ le_bavaria.7.t:0 "The Brunswick's Agreement"
+ le_bavaria.7.d:0 "The bavarian government has managed to reach an agreement with the nobility of all Germany."
+ le_bavaria.7.f:0 "Many decribed this agreement as a visible miracle, and indeed it is.\nThe negotiations lasted 3 weeks, and as the time passed, the hope for a unified germany dwindled, but the bavarian government was greatly determined to reach an agreement, and so they did.\nHuge concessions were given to the nobility of Lotharingia, Rhineland and Austria, concessions that will create many problems to the german govenment in the years to come, but at last Germany was made."
+ le_bavaria.7.a:0 "Long Live the German Confederation"
 
  le_bohem.1.t:0 "The Shadow of a Great Empire"
  le_bohem.1.d:0 "In 1712, after the death of King Petr II Vratislav z Mitrovic, the Kingdom of the Danube was split between the first son, Petr III, who inherited most of the kigdom, ad Michal, the secod one, who inherited the Kingdom of Bavaria."
@@ -303,11 +310,6 @@
  le_bohem.8.d:0 "After more than 9 centuries, Great Moravia has been refounded."
  le_bohem.8.f:0 "Czech, Slovak and sorb people have all accepted to unite under one name and one flag, and thus Great Moravia has been established.\nIt has now started a new age of prosperity for all moravian people, and may it never fall again."
  le_bohem.8.a:0 "Long live Great Moravia!"
-
- le_bohem.1.t:0
- le_bohem.1.d:0
- le_bohem.1.f:0
- le_bohem.1.a:0
 
  lombard.1.t:0 "A Failed Confederation"
  lombard.1.d:0 "In January 1809 north italy was invaded by the Archduchy of Austria, whose aim was to conquer the region of south Tyrol, Istria, Venetia and Lombardy."

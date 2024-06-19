@@ -4366,7 +4366,7 @@
 				building="building_government_administration"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -4438,9 +4438,9 @@
 		region_state:BAY={
 			create_building={
 				building="building_government_administration"
-				level=1
+				level=3
 				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
 				building="building_textile_mills"
