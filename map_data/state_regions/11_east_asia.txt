@@ -581,6 +581,7 @@ STATE_WESTERN_HUBEI = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_logging = 9
+        bg_coal_mining = 10
     }
 }
 

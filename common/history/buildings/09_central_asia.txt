@@ -322,7 +322,7 @@
 				activate_production_methods={ "pm_no_organization"  }
 			}
 		}
-		region_state:CHI={
+		region_state:XIN={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -368,7 +368,7 @@
 		}
 	}
 	s:STATE_JETISY = {
-		region_state:CHI = {
+		region_state:XIN = {
 		}
 	}
 	s:STATE_AKMOLINSK={

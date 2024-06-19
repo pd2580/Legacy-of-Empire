@@ -15158,6 +15158,19 @@ BBA_republic = {
 	}	
 }
 
+WER = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+SHU = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+KWO = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+			
 ICI = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -15249,7 +15262,7 @@ PRU = {
 	}
 	textured_emblem  = {
 		texture = "te_eagle_prussia_monogram_crown.dds"
-		instance = { scale = { 0.66 0.66 } position = { 0.44 0.48 } }	
+		instance = { scale = { 0.66 0.66 } position = { 0.41 0.48 } }	
 	}	
 }
 
