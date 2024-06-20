@@ -2449,7 +2449,7 @@ CHI = {
 	
 	country_type = unrecognized
 	
-	tier = empire
+	tier = hegemony
 	
 	cultures = { han yue min yi } 
 	capital = STATE_BEIJING
