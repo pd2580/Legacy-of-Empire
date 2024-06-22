@@ -527,7 +527,7 @@ STATES = {
 	}
 	s:STATE_DISTRICT_OF_COLUMBIA = {
 		create_state = {
-			country = c:IRO
+			country = c:CHE
 			owned_provinces = { x700080 x44578c }
 		}	
 		
@@ -535,7 +535,7 @@ STATES = {
 	}
 	s:STATE_WEST_VIRGINIA = {
 		create_state = {
-			country = c:IRO
+			country = c:CHE
 			owned_provinces = { x579843 x845FC0 xCB120B xB865A2 x82CE19 x0F5821 x366DF2 x999738 x38925B x06D57E x30C000 x7416CB xB04000 x2EA16C x364F38 x43DB99 x7755AD x08D472 xAD371C }
 		}		
 		
