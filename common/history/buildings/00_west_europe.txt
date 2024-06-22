@@ -924,11 +924,26 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
+			create_building = {
+				building = "building_textile_mills"
+				level = 3
+				reserves = 1
+			}
+			create_building = {
+				building = "building_glassworks"
+				level = 2
+				reserves = 1
+			}
+			create_building = {
+				building = "building_furniture_manufacturies"
+				level = 1
+				reserves = 1
+			}
 			create_building={
 				building="building_government_administration"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_vertical_filing_cabinets" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={ # birmingham gun quarter
 				building="building_arms_industry"
@@ -1401,7 +1416,7 @@
 				building="building_government_administration"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_vertical_filing_cabinets" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -1455,7 +1470,7 @@
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=2
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
@@ -1467,7 +1482,7 @@
 			}
 			create_building={
 				building="building_port"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
