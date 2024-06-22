@@ -2660,7 +2660,7 @@ CAN = {
 CHE = {
 	color = { 105  145  40 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 
@@ -2874,7 +2874,7 @@ QUE = {
 HBC = {
 	color = { 99 91 69 }
 	
-	country_type = colonial
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -3288,7 +3288,7 @@ IBE = {
 ORG = {
 	color = { 138  80 126 }
 	
-	country_type = colonial
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -3859,7 +3859,7 @@ CSC = { # Cascadia
 IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
 	color = { 87 182 80 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -3871,7 +3871,7 @@ IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
 CTF = { # the Council of Three Fires, Niswa-mishkodewinan
 	color = { 220 147 37 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	

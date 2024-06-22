@@ -470,7 +470,7 @@
 		}
 	}
 	s:STATE_WEST_VIRGINIA = {
-		region_state:IRO = {
+		region_state:CHE = {
 			create_pop = {
 				culture = iroquoian
 				size = 1160916
@@ -478,7 +478,7 @@
 		}
 	}
 	s:STATE_MARYLAND = {
-		region_state:IRO = {
+		region_state:AMS = {
 			create_pop = {
 				culture = iroquoian
 				size = 251997
@@ -487,7 +487,7 @@
 	}
 
 	s:STATE_DELAWARE = {
-		region_state:IRO = {
+		region_state:AMS = {
 			create_pop = {
 				culture = iroquoian
 				size = 177000
@@ -496,7 +496,7 @@
 	}
 
 	s:STATE_PENNSYLVANIA = {
-		region_state:IRO = {
+		region_state:AMS = {
 			create_pop = {
 				culture = iroquoian
 				size = 2250496
@@ -504,7 +504,7 @@
 		}
 	}
 	s:STATE_NEW_JERSEY = {
-		region_state:USA = {
+		region_state:AMS = {
 			create_pop = {
 				culture = yankee
 				size = 303200
@@ -533,7 +533,7 @@
 		}
 	}
 	s:STATE_RHODE_ISLAND = {
-		region_state:USA = {
+		region_state:AMS = {
 			create_pop = {
 				culture = yankee
 				size = 104820
@@ -541,7 +541,7 @@
 		}
 	}
 	s:STATE_CONNECTICUT = {
-		region_state:USA = {
+		region_state:AMS = {
 			create_pop = {
 				culture = yankee
 				size = 199228
@@ -549,7 +549,7 @@
 		}
 	}
 	s:STATE_MASSACHUSETTS = {
-		region_state:USA = {
+		region_state:AMS = {
 			create_pop = {
 				culture = yankee
 				size = 754484
@@ -570,7 +570,7 @@
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE = {
-		region_state:IRO = {
+		region_state:AMS = {
 			create_pop = {
 				culture = iroquoian
 				size = 323300
@@ -578,7 +578,7 @@
 		}
 	}
 	s:STATE_VERMONT = {
-		region_state:IRO = {
+		region_state:AMS = {
 			create_pop = {
 				culture = iroquoian
 				size = 282848
@@ -586,7 +586,7 @@
 		}
 	}
 	s:STATE_MAINE = {
-		region_state:IRO = {
+		region_state:AMS = {
 			create_pop = {
 				culture = iroquoian
 				size = 411228
