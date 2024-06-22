@@ -110,10 +110,10 @@
 		}
 	}
 	s:STATE_SAMARA={
-		region_state:RUS={
+		region_state:POC={
 			create_building={
 				building="building_arms_industry"
-				level=5
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" }
 			}
@@ -125,7 +125,7 @@
 			}
 			create_building={
 				building="building_rye_farm"
-				level=4
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -138,16 +138,16 @@
 		}
 	}
 	s:STATE_KAZAN={
-		region_state:RUS={
+		region_state:KAR={
 			create_building={
 				building="building_government_administration"
-				level=5
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
 				building="building_arms_industry"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" }
 			}
@@ -165,7 +165,7 @@
 			}
 			create_building={
 				building="building_rye_farm"
-				level=2
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -204,15 +204,9 @@
 		}
 	}
 	s:STATE_URALSK={
-		region_state:RUS={
+		region_state:POC={
 		}
 		region_state:KZH={
-			create_building={
-				building="building_barracks"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
 		}
 		region_state:OZH={
 		}
@@ -364,7 +358,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:RUS={
+		region_state:PMA={
 		}
 	}
 	s:STATE_JETISY = {
@@ -388,7 +382,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:RUS={
+		region_state:PMA={
 		}
 	}
 	s:STATE_PASHTUNISTAN={
