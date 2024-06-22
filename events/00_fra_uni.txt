@@ -438,3 +438,50 @@ fra_uni.7 = {
 		}
 	}
 }
+
+fra_uni.8 = {
+	type = country_event
+	placement = root
+
+	title = fra_uni.8.t
+	desc = fra_uni.8.d
+	flavor = fra_uni.8.f
+
+	event_image = {
+		video = "unspecific_world_fair"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = fra_uni.8.a
+		default_option = yes
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_trade_unions
+					is_interest_group_type = ig_rural_folk
+				}
+			}
+			leader = {
+				set_ideology =  ideology:ideology_republican_leader
+			}
+			
+		}
+	}
+}

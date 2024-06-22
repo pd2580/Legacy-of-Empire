@@ -60,7 +60,7 @@ je_francia_cent_bgy_gov = {
 	}
 
 	on_complete = {
-		
+		trigger_event = fra_uni.8
 	}
 
 	should_be_pinned_by_default = yes
