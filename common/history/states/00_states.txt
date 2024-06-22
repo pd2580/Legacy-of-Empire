@@ -255,6 +255,9 @@ STATES = {
 		
 		add_homeland = cu:nez_perce
 		add_homeland = cu:salish
+		add_claim = c:YUA
+		add_claim = c:KOR
+		add_claim = c:JAP
 	}
 	s:STATE_OREGON = {
 		create_state = {
@@ -265,6 +268,9 @@ STATES = {
 		
 		add_homeland = cu:salish
 		add_homeland = cu:nez_perce
+		add_claim = c:YUA
+		add_claim = c:KOR
+		add_claim = c:JAP
 	}
 	s:STATE_IDAHO = {
 		create_state = {
@@ -303,7 +309,6 @@ STATES = {
 		}
 		add_homeland = cu:siouan
 		add_homeland = cu:paiute
-		add_claim = c:USA
 	}
 	s:STATE_MONTANA = {
 		create_state = {
@@ -320,7 +325,6 @@ STATES = {
 		
 		add_homeland = cu:dakota
 		add_homeland = cu:siouan
-		add_claim = c:USA
 	}
 	s:STATE_NORTH_DAKOTA = {
 		create_state = {
@@ -332,7 +336,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:dakota	
-		add_claim = c:USA
 	}
 	s:STATE_SOUTH_DAKOTA = {
 		create_state = {
@@ -345,7 +348,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:dakota	
-		add_claim = c:USA
 	}
 	s:STATE_NEBRASKA = {
 		create_state = {
@@ -358,7 +360,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:dakota	
-		add_claim = c:USA
 	}
 	s:STATE_KANSAS = {
 		create_state = {
@@ -421,7 +422,6 @@ STATES = {
 	
 		add_homeland = cu:dakota
 		add_homeland = cu:algonquian
-		add_claim = c:USA
 	}
 	s:STATE_WISCONSIN = {
 		create_state = {
@@ -657,6 +657,9 @@ STATES = {
 		
 		add_homeland = cu:athabaskan
 		add_homeland = cu:salish
+		add_claim = c:YUA
+		add_claim = c:KOR
+		add_claim = c:JAP
 	}
 	s:STATE_ALBERTA = {
 		create_state = {

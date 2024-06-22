@@ -139,7 +139,6 @@
 		set_relations = { country = c:NET value = 30 }
 	}
 	c:NAH = {
-		set_relations = { country = c:USA value = -50 }
 	}
 	c:MOL = { 
 		set_relations = { country = c:TUR value = -30 }
