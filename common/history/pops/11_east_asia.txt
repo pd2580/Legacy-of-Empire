@@ -994,14 +994,14 @@
 		}
 	}
 	s:STATE_SAKHALIN = {
-		region_state:SKH = {
+		region_state:KOR = {
 			create_pop = {
 				culture = ainu
 				size = 24004
 			}
 			create_pop = {
-				culture = siberian
-				size = 16000
+				culture = korean
+				size = 12430
 			}
 		}
 	}

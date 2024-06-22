@@ -36,7 +36,7 @@
 		region_state:SMO = {
 			create_pop = {
 				culture = russian
-				size = 2682734
+				size = 4682734
 			}
 		}
 	}
@@ -378,23 +378,10 @@
 		}
 	}
 	s:STATE_PERM = {
-		region_state:RUS = {
+		region_state:DPR = {
 			create_pop = {
 				culture = russian
-				size = 1903944
-			}
-			create_pop = {
-				culture = ugrian
-				size = 6000
-			}
-			create_pop = {
-				culture = tatar
-				size = 16000
-			}
-			create_pop = {
-				culture = ugrian
-				religion = orthodox
-				size = 20000
+				size = 2903944
 			}
 		}
 	}

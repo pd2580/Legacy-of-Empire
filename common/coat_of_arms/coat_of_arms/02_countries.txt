@@ -15158,6 +15158,21 @@ BBA_republic = {
 	}	
 }
 
+DPR = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+
+KAR = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+
+POC = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+
 GUC = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
