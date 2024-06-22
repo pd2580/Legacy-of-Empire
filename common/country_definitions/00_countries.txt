@@ -3299,7 +3299,7 @@ ORG = {
 COM = {
 	color = { 96 57 19 }
 
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = principality
 	
@@ -3310,7 +3310,7 @@ COM = {
 SEQ = {
 	color = { 86 120 117 }
 
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = principality
 	
@@ -3332,7 +3332,7 @@ DKT = {
 LKT = {
 	color = { 198 114 168 }
 
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = principality
 	
@@ -3500,14 +3500,14 @@ MLT = { # Malta
 	capital = STATE_MALTA
 }
 
-PRM = { # Perm
+PMA = { # Perm
 	color = { 236 159 90 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 
-	cultures = { ugrian }
+	cultures = { ugrian russian }
 	
 	capital = STATE_PERM
 }
@@ -3539,11 +3539,11 @@ TRC = { # Turkmenia
 SIB = { # Siberia
 	color = { 139 138 160 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = kingdom
 	cultures = { yakut siberian inuit }
-	capital = STATE_TOMSK
+	capital = STATE_OKHOTSK
 }
 
 YAK = { # Yakutia
@@ -3897,7 +3897,7 @@ UTE = { # Ute
 	
 	cultures = { paiute }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -3909,7 +3909,7 @@ PWN = { # Pawnee
 	
 	cultures = { caddoan }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -4115,7 +4115,7 @@ GUC = {
 	
 	country_type = unrecognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { han yi }
 	capital = STATE_GUIZHOU
@@ -4141,6 +4141,73 @@ SHU = {
 
 	cultures = { han yi }
 	capital = STATE_SICHUAN
+}
+
+SAO = {
+	color = { 188 126 189 }
+	
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { salish }
+	capital = STATE_PERM
+}
+
+ATH = {
+	color = { 37 63 105 }
+	
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { athabaskan }
+	capital = STATE_PERM
+}
+
+CRU = {
+	color = { 82 227 96 }
+	
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { cree }
+	capital = STATE_ONTARIO
+}
+
+SIO = {
+	color = { 71 74 34 }
+	
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { siouan }
+	capital = STATE_SASKATCHEWAN
+}
+
+DPR = {
+	color = { 252 186 3 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+
+	cultures = { russian }
+	capital = STATE_PERM
+}
+
+
+KAR = {
+	color = { 164 168 118 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+
+	cultures = { russian }
+	capital = STATE_KAZAN
 }
 
 KWO = {
@@ -4613,6 +4680,17 @@ KZH = {
 	
 	cultures = { kazak }
 	capital = STATE_URALSK
+}
+
+POC = {
+	color = { 212 211 148 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { russian }
+	capital = STATE_SAMARA
 }
 
 UZH = {

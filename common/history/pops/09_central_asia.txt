@@ -162,15 +162,10 @@
 		}
 	}
 	s:STATE_SAMARA = {
-		region_state:RUS = {
+		region_state:POC = {
 			create_pop = {
 				culture = russian
-				size = 1977196
-			}
-			create_pop = {
-				culture = tatar
-				religion = orthodox
-				size = 50000
+				size = 2977196
 			}
 			create_pop = {
 				culture = tatar
@@ -198,14 +193,10 @@
 		}
 	}
 	s:STATE_KAZAN = {
-		region_state:TOM = {
+		region_state:KAR = {
 			create_pop = {
 				culture = russian
-				size = 3000000
-			}
-			create_pop = {
-				culture = irish
-				size = 500000
+				size = 4943950
 			}
 		}
 	}
@@ -242,14 +233,14 @@
 		}
 	}
 	s:STATE_URALSK = {
-		region_state:RUS = {
+		region_state:POC = {
 			create_pop = {
 				culture = kazak
 				size = 42000
 			}
 			create_pop = {
 				culture = russian
-				size = 7996
+				size = 23996
 			}
 		}
 
@@ -528,7 +519,7 @@
 				size = 1200
 			}
 		}
-		region_state:RUS = {
+		region_state:PMA = {
 			create_pop = {
 				culture = russian
 				size = 2500
@@ -575,7 +566,7 @@
 				size = 38000
 			}
 		}
-		region_state:RUS = {
+		region_state:PMA = {
 			create_pop = {
 				culture = kazak
 				size = 14500

@@ -16,15 +16,31 @@ je_lom_ita = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	group = je_group_historical_content
 	complete = {
-		owns_entire_state_region = STATE_PIEDMONT
-		owns_entire_state_region = STATE_LOMBARDY
-		owns_entire_state_region = STATE_VENETIA
-		owns_entire_state_region = STATE_ISTRIA
-		owns_entire_state_region = STATE_EMILIA
-		owns_entire_state_region = STATE_ROMAGNA
-		owns_entire_state_region = STATE_TUSCANY
+		OR = {
+			AND = {
+				owns_entire_state_region = STATE_PIEDMONT
+				owns_entire_state_region = STATE_LOMBARDY
+				owns_entire_state_region = STATE_VENETIA
+				owns_entire_state_region = STATE_ISTRIA
+				owns_entire_state_region = STATE_EMILIA
+				owns_entire_state_region = STATE_ROMAGNA
+				owns_entire_state_region = STATE_TUSCANY
+			}
+			c:VEN = {
+				is_subject_of = ROOT
+				relations:ROOT > relations_threshold:cordial
+			}
+		}
 	}
 	on_complete = {
+		if = {
+			limit = {
+				c:VEN = {
+					is_subject_of = ROOT
+				}
+			}
+			annex = c:RHI
+		}
 		trigger_event = {
 			id = lombard.3
 		}

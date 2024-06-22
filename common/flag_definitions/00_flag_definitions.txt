@@ -6158,6 +6158,30 @@ BBA = { # Bavaria Bohemia
 	}
 }
 
+DPR = { # Duchy of Perm
+	flag_definition = {
+		coa = DPR
+		subject_canton = DPR
+		priority = 1		
+	}	
+}
+
+KAR = { # Kazan Rus
+	flag_definition = {
+		coa = KAR
+		subject_canton = KAR
+		priority = 1		
+	}	
+}
+
+POC = { # Po Cossacks
+	flag_definition = {
+		coa = POC
+		subject_canton = POC
+		priority = 1		
+	}	
+}
+
 WER = { #Wei
 	flag_definition = {
 		coa = WER
