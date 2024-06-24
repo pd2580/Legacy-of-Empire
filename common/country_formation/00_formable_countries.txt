@@ -749,6 +749,7 @@ CHI = {
 	
 	possible = {
 		has_technology_researched = pan-nationalism
+		country_rank >= rank_value:great_power
 	}
 }
 
@@ -766,6 +767,7 @@ WER = {
 		STATE_NINGXIA
 		STATE_GANSU
 	}
+
 	required_states_fraction = 0.7
 	
 	ai_will_do = { always = yes }
@@ -782,6 +784,8 @@ SHU = {
 		STATE_GUIZHOU
 		STATE_SICHUAN
 	}
+
+
 	required_states_fraction = 1
 	
 	ai_will_do = { always = yes }
@@ -807,6 +811,7 @@ KWO = {
 		STATE_WESTERN_HUBEI
 		STATE_HUNAN
 	}
+
 	required_states_fraction = 0.6
 	
 	ai_will_do = { always = yes }
@@ -824,6 +829,7 @@ SHQ = {
 		STATE_SKOPIA
 		STATE_MACEDONIA
 	}
+
 
 	required_states_fraction = 0.6
 	

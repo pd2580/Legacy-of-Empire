@@ -1,7 +1,7 @@
 ﻿revive_the_roman_empire = {
 	is_shown = {
 		exists = c:PAP
-		this = c:PAP
+		c:PAP ?= THIS
 	}
 	possible = {
 		owns_entire_state_region = STATE_LAZIO
@@ -49,12 +49,15 @@
 		add_primary_culture = cu:bulgarian
 		add_primary_culture = cu:croat
 	}
+	ai_chance = {
+		base = 100
+	}
 }
 
 revive_the_carolingian_empire = {
 	is_shown = {
 		exists = c:THU
-		this = c:THU
+		c:THU ?= THIS
 	}
 	possible = {
 		has_law = law_type:law_monarchy
@@ -116,12 +119,15 @@ revive_the_carolingian_empire = {
 		add_primary_culture = cu:south_german
 		add_primary_culture = cu:french
 	}
+	ai_chance = {
+		base = 100
+	}
 }
 
 LE_venice = {
 	is_shown = {
 		exists = c:VEN
-		this = c:VEN
+		c:VEN ?= THIS
 	}
 	when_taken = {
 		every_state = {
@@ -132,60 +138,158 @@ LE_venice = {
 			}
 		}
 	}
-}
-
-samerica_migration_button = {
-	name = southamerica_migration_button
-	desc = southamerica_migration_button_desc
-
-	visible = { always = yes }
-
-	possible = {
-		# Note that this closely reflects triggers in the event. Do not change one without changing both
-		custom_tooltip = {
-			text = migration_button_cooldown_tt
-			NOT = { has_variable = ya_migration_cooldown }
-		}
-		average_sol >= 10
-		any_country = {
-			custom_tooltip = {
-				text = is_in_europe_tt
-				country_is_in_east_asia = yes
-			}
-			custom_tooltip = {
-				text = average_sol_below_root_tt
-				average_sol <= root.average_sol
-			}
-		}
-		OR = {
-			has_law = law_type:law_racial_segregation
-			has_law = law_type:law_cultural_exclusion
-			has_law = law_type:law_multicultural
-		}
-		NOR = {
-			has_law = law_type:law_closed_borders
-			has_law = law_type:law_isolationism
-		}
-	}
-
-	effect = {
-		set_variable = {
-			name = ya_migration_cooldown
-			months = short_modifier_time
-		}
-		custom_tooltip = {
-			text = mass_migration_button_tt
-		}
-		trigger_event = { id = sa_migration.1 popup = yes }
-		show_as_tooltip = {
-			add_modifier = {
-				name = sa_migration_cost
-				months = short_modifier_time
-			}
-		}
-	}
-
 	ai_chance = {
-		base = 1
+		base = 0
+	}
+}
+RUI_six_decision = {
+	is_shown = {
+		exist = c:RUI
+		c:RUI ?= THIS
+		NOT = { 
+			has_variable = irk_rep 
+		}
+	}
+	
+	when_taken = {
+		add_journal_entry = {
+			type = je_irk_rep
+		}
+		set_variable = {
+			name = irk_rep
+			value = 0
+		}
+		add_modifier = {
+			name = modifier_rui_eight
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+RUI_five_decision = {
+	is_shown = {
+		exist = c:RUI
+		c:RUI ?= THIS
+		NOT = { 
+			has_variable = tomsk_rep 
+		}
+	}
+	
+	when_taken = {
+		add_journal_entry = {
+			type = je_tomsk_rep
+		}
+		set_variable = {
+			name = tomsk_rep
+			value = 0
+		}
+		add_modifier = {
+			name = modifier_rui_seven
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+RUI_four_decision = {
+	is_shown = {
+		exist = c:RUI
+		c:RUI ?= THIS
+		NOT = { 
+			has_variable = tob_rep 
+		}
+	}
+	
+	when_taken = {
+		add_journal_entry = {
+			type = je_tobolsk_rep
+		}
+		set_variable = {
+			name = tob_rep
+			value = 0
+		}
+		add_modifier = {
+			name = modifier_rui_six
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+RUI_one_decision = {
+	is_shown = {
+		exist = c:RUI
+		c:RUI ?= THIS
+		NOT = { 
+			has_variable = ural_rep 
+		}
+	}
+	
+	when_taken = {
+		add_journal_entry = {
+			type = je_ural_rep
+		}
+		set_variable = {
+			name = ural_rep
+			value = 0
+		}
+		add_modifier = {
+			name = modifier_rui_three
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+RUI_two_decision = {
+	is_shown = {
+		exist = c:RUI
+		c:RUI ?= THIS
+		NOT = { 
+			has_variable = mil_esp
+		}
+	}
+	
+	when_taken = {
+		add_journal_entry = {
+			type = je_mis_mil
+		}
+		set_variable = {
+			name = mil_esp
+			value = 0
+		}
+		add_modifier = {
+			name = modifier_rui_four
+		}
+		
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+RUI_three_decision = {
+	is_shown = {
+		exist = c:RUI
+		c:RUI ?= THIS
+		NOT = { 
+			has_variable = ind_esp
+		}
+	}
+	
+	when_taken = {
+		add_journal_entry = {
+			type = je_mis_ind
+		}
+		set_variable = {
+			name = ind_esp
+			value = 0
+		}
+		add_modifier = {
+			name = modifier_rui_five
+		}
+	}
+	ai_chance = {
+		base = 100
 	}
 }

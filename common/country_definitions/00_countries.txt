@@ -4077,6 +4077,28 @@ BBA = {
 	capital = STATE_BOHEMIA
 }
 
+RUI = {
+	color = { 47 91 18 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { russian }
+	capital = STATE_KAZAN
+}
+
+RUK = {
+	color = { 47 91 18 }
+
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { russian }
+	capital = STATE_KAZAN
+}
+
 ICI = {
 	color = { 164 168 118 }
 	
@@ -4192,7 +4214,7 @@ DPR = {
 	
 	country_type = recognized
 
-	tier = grand_principality
+	tier = principality
 
 	cultures = { russian }
 	capital = STATE_PERM
@@ -4204,7 +4226,7 @@ KAR = {
 	
 	country_type = recognized
 
-	tier = grand_principality
+	tier = principality
 
 	cultures = { russian }
 	capital = STATE_KAZAN

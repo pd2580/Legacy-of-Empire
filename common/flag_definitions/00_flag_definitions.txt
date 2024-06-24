@@ -6174,7 +6174,7 @@ KAR = { # Kazan Rus
 	}	
 }
 
-POC = { # Po Cossacks
+POC = { # volga Cossacks
 	flag_definition = {
 		coa = POC
 		subject_canton = POC
@@ -6224,6 +6224,50 @@ GUC = { #Wei
 		coa = GUC
 		subject_canton = GUC
 		priority = 1		
+	}	
+}
+
+RUI = { # russia loe
+	flag_definition = {
+		coa = RUI
+		subject_canton = RUI
+		priority = 1		
+	}	
+	flag_definition = {
+		coa = RUI_monarchy
+		subject_canton = ICI_republic
+		priority = 1500
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = RUI_soviet_union
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = RUI_dictatorship
+		priority = 1500
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = RUI_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = RUI_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
 	}	
 }
 

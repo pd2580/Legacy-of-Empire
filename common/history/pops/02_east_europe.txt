@@ -6,29 +6,8 @@
 				size = 858808
 			}
 			create_pop = {
-				culture = estonian
-				size = 4000
-			}
-			create_pop = {
-				culture = north_german
-				size = 32000
-			}
-			create_pop = {
 				culture = finnish
-				size = 88000
-			}
-			create_pop = {
-				culture = latvian
-				size = 12000
-			}
-			create_pop = {
-				culture = ugrian
-				religion = orthodox
-				size = 8004
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 5600
+				size = 988000
 			}
 		}
 	}
@@ -167,17 +146,11 @@
 		region_state:FIN = {
 			create_pop = {
 				culture = russian
-				size = 102996
-			}
-			create_pop = {
-				culture = ugrian
-				religion = animist
-				size = 1000
+				size = 402996
 			}
 			create_pop = {
 				culture = finnish
-				religion = orthodox
-				size = 57200
+				size = 957200
 			}
 		}
 	}
@@ -258,13 +231,8 @@
 				size = 802804
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 2000
-			}
-			create_pop = {
-				culture = ugrian
-				religion = orthodox
-				size = 20000
+				culture = finnish
+				size = 1276847
 			}
 		}
 	}
@@ -360,20 +328,8 @@
 				size = 356600
 			}
 			create_pop = {
-				culture = greek
-				size = 4000
-			}
-			create_pop = {
 				culture = russian
-				size = 136004
-			}
-			create_pop = {
-				culture = tatar
-				size = 16204
-			}
-			create_pop = {
-				culture = mongol
-				size = 19996
+				size = 2136004
 			}
 		}
 	}

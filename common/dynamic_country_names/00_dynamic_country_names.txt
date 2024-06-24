@@ -870,7 +870,8 @@ COM = {
 			scope:actor = {
 				NOT = {
 					is_country_type = decentralized
-				}				# if Comanche is recognized, then they get a more formal name
+				}
+				# if Comanche is recognized, then they get a more formal name
 			}
 		}
 	}
@@ -1096,7 +1097,8 @@ HRO = {
 			scope:actor = {
 				NOT = {
 					is_country_type = decentralized
-				}				# if Herero is recognized, then they get a more formal name
+				}
+				# if Herero is recognized, then they get a more formal name
 			}
 		}
 	}
@@ -1153,6 +1155,36 @@ ITA = {
 			scope:actor = {
 				has_law = law_type:law_theocracy
 				was_formed_from = PAP
+			}
+		}
+	}
+}
+
+RUI = {
+	dynamic_country_name = {
+		name = dyn_rui
+		adjective = RUI_ADJ
+		is_main_tag_only = yes
+		priority = 10
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+}
+
+RUI = {
+	dynamic_country_name = {
+		name = dyn_rui_com
+		adjective = RUI_ADJ
+		is_main_tag_only = yes
+		priority = 10
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_council_republic
 			}
 		}
 	}
@@ -1808,7 +1840,8 @@ TSW = {
 			scope:actor = {
 				NOT = {
 					is_country_type = decentralized
-				}				# if Tswana is recognized, then they get a more formal name
+				}
+				# if Tswana is recognized, then they get a more formal name
 			}
 			coa_def_british_ensign_trigger = no
 		}
@@ -2023,7 +2056,8 @@ LKT = {
 			exists = scope:actor
 			NOT = {
 				exists = c:DKT
-			}			# Lakota will be considered the united Seven Council Fires if Dakota are not independent
+			}
+			# Lakota will be considered the united Seven Council Fires if Dakota are not independent
 		}
 	}
 }

@@ -1,0 +1,418 @@
+namespace = loe_rusf
+loe_rusf.1 = {
+	# to wind
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.1.t
+	desc = loe_rusf.1.d
+	flavor = loe_rusf.1.f
+	duration = 2
+	event_image = {
+		video = "europenorthamerica_russian_serfs"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	trigger = {
+	}
+	option = {
+		name = loe_rusf.1.a
+		default_option = yes
+		add_journal_entry = {
+			type = je_rusf_main
+		}
+		add_radicals = {
+			value = 0.25
+			strata = middle
+		}
+		add_radicals = {
+			value = 0.15
+			strata = poor
+		}
+	}
+}
+
+loe_rusf.2 = {
+	#FEDERATIVE FOUND	
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.2.t
+	desc = loe_rusf.2.d
+	flavor = loe_rusf.2.f
+	duration = 1
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	trigger = {
+	}
+	immediate = {
+		trigger_event = {
+			id = loe_rusf.5
+			days = 25
+		}
+	}
+	option = {
+		name = loe_rusf.2.a
+		add_loyalists = {
+			value = very_large_radicals
+			strata = middle
+		}
+		add_loyalists = {
+			value = large_radicals
+			strata = poor
+		}
+		hidden_effect = {
+			s:STATE_TARTARIA = {
+				add_claim = c:RUI
+			}
+			s:STATE_MOSCOW = {
+				add_claim = c:RUI
+			}
+			s:STATE_GALICH = {
+				add_claim = c:RUI
+			}
+			s:STATE_TVER = {
+				add_claim = c:RUI
+			}
+			s:STATE_ARKHANGELSK = {
+				add_claim = c:RUI
+			}
+			s:STATE_NENETSIA = {
+				add_claim = c:RUI
+			}
+			s:STATE_URAL = {
+				add_claim = c:RUI
+			}
+			s:STATE_OB = {
+				add_claim = c:RUI
+			}
+			s:STATE_TOBOLSK = {
+				add_claim = c:RUI
+			}
+			s:STATE_UPPER_YENISEYSK = {
+				add_claim = c:RUI
+			}
+			s:STATE_TOMSK = {
+				add_claim = c:RUI
+			}
+			s:STATE_IRKUTSK = {
+				add_claim = c:RUI
+			}
+		}
+	}
+}
+
+loe_rusf.3 = {
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.3.t
+	desc = loe_rusf.3.d
+	flavor = loe_rusf.3.f
+	duration = 1
+	event_image = {
+		video = "europenorthamerica_political_extremism"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	immediate = {
+		trigger_event = {
+			id = loe_rusf.4
+			days = 5
+		}
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_wealth_voting
+		change_tag = RUK
+		random_interest_group = {
+				limit
+				{
+					is_interest_group_type = ig_landowners
+					exist = leader
+				}
+				leader = {
+					set_ideology = ideology:ideology_republican
+				}
+			}
+			random_interest_group = {
+				limit
+				{
+					is_interest_group_type = ig_rural_folk
+					exist = leader
+				}
+				leader = {
+					set_ideology = ideology:ideology_republican
+				}
+			}
+			random_interest_group = {
+				limit
+				{
+					is_interest_group_type = ig_devout
+					exist = leader
+				}
+				leader = {
+					set_ideology = ideology:ideology_republican
+				}
+			}
+	}
+	option = {
+		name = loe_rusf.3.a
+		add_radicals = {
+			value = very_large_radicals
+			strata = rich
+		}
+		add_loyalists = {
+			value = 0.25
+			culture = cu:russian
+		}
+		s:STATE_PERM = {
+			add_claim = c:RUK
+		}
+		s:STATE_SAMARA = {
+			add_claim = c:RUK
+		}
+		s:STATE_URALSK = {
+			add_claim = c:RUK
+		}
+		add_journal_entry = {
+			type = je_rusf_two
+		}
+	}
+}
+
+loe_rusf.4 = {
+	# after revolt
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.4.t
+	desc = loe_rusf.4.d
+	flavor = loe_rusf.4.f
+	duration = 1
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	trigger = {
+	}
+	immediate = {
+		ruler = {
+			save_scope_as = ruler_scope
+		}
+	}
+	option = {
+		name = loe_rusf.4.a
+		default_option = yes
+		add_modifier = {
+			name = modifier_rui_two
+			months = normal_modifier_time
+			is_decaying = yes
+		}
+		add_radicals = {
+			value = medium_radicals
+			pop_type = aristocrats
+		}
+		add_journal_entry = {
+			type = je_bav_nat
+		}
+	}
+	option = {
+		name = loe_rusf.4.b
+		add_modifier = {
+			name = modifier_rui_one
+			months = normal_modifier_time
+			is_decaying = yes
+		}
+		add_radicals = {
+			value = very_large_radicals
+			pop_type = aristocrats
+		}
+		scope:ruler_scope = {
+			add_trait = cruel
+		}
+		add_journal_entry = {
+			type = je_bav_nat
+		}
+	}
+}
+
+loe_rusf.5 = { #vs cossacks
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.5.t
+	desc = loe_rusf.5.d
+	flavor = loe_rusf.5.f
+	duration = 1
+	event_image = {
+		video = "europenorthamerica_before_the_battle"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+	trigger = {
+	}
+	option = {
+		name = loe_rusf.5.a
+		default_option = yes
+		create_diplomatic_play = {
+			target_country = c:DON
+			war = yes
+			type = dp_annex_subject
+			add_war_goal = {
+				holder = c:DON
+				type = regime_change
+				target_country = c:RUI
+			}
+		}
+		hidden_effect = {
+			change_infamy = -100
+		}
+	}
+}
+
+loe_rusf.6 = {
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.6.t
+	desc = loe_rusf.6.d
+	flavor = loe_rusf.6.f
+	duration = 1
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	option = {
+		name = loe_rusf.6.a
+		add_loyalists = {
+			value = 0.1
+			culture = cu:russian
+		}
+		hidden_effect = {
+			random_state = {
+				limit = {
+					state_region = s:STATE_URAL
+				}
+				set_state_owner = ROOT
+			}
+		}
+	}
+}
+loe_rusf.7 = {
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.7.t
+	desc = loe_rusf.7.d
+	flavor = loe_rusf.7.f
+	duration = 1
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	option = {
+		name = loe_rusf.7.a
+		add_loyalists = {
+			value = 0.1
+			culture = cu:russian
+		}
+		hidden_effect = {
+			random_state = {
+				limit = {
+					state_region = s:STATE_TOBOLSK
+				}
+				set_state_owner = ROOT
+			}
+			random_state = {
+				limit = {
+					state_region = s:STATE_OB
+				}
+				set_state_owner = ROOT
+			}
+		}
+	}
+}
+loe_rusf.8 = {
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.8.t
+	desc = loe_rusf.8.d
+	flavor = loe_rusf.8.f
+	duration = 1
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	option = {
+		name = loe_rusf.8.a
+		add_loyalists = {
+			value = 0.1
+			culture = cu:russian
+		}
+		hidden_effect = {
+			random_state = {
+				limit = {
+					state_region = s:STATE_TOMSK
+				}
+				set_state_owner = ROOT
+			}
+			random_state = {
+				limit = {
+					state_region = s:STATE_UPPER_YENISEYSK
+				}
+				set_state_owner = ROOT
+			}
+		}
+	}
+}
+loe_rusf.9 = {
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.9.t
+	desc = loe_rusf.9.d
+	flavor = loe_rusf.9.f
+	duration = 1
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	option = {
+		name = loe_rusf.9.a
+		add_loyalists = {
+			value = 0.1
+			culture = cu:russian
+		}
+		hidden_effect = {
+			random_state = {
+				limit = {
+					state_region = s:STATE_IRKUTSK
+				}
+				set_state_owner = ROOT
+			}
+		}
+	}
+}
+loe_rusf.10 = {
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.10.t
+	desc = loe_rusf.10.d
+	flavor = loe_rusf.10.f
+	duration = 1
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	option = {
+		name = loe_rusf.10.a
+		add_technology_researched = general_staff
+		add_technology_researched = percussion_cap
+		add_technology_researched = field_works
+	}
+}

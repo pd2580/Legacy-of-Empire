@@ -201,3 +201,12 @@ je_ger_conf:0 "The German Confederation"
 je_ger_conf_reason:0 "We can form Germany either through diplomacy or war.\nIf Thuringia and Rhineland become our subject and we keep good relations with them, we will be able to annex their lands peacefully, otherwise it will be war."
 
 je_phoe_main:0 "A Critical Situation"
+
+je_rusf_main:0 "Political Turmoil"
+je_rusf_main_reason:0 ""
+
+je_rusf_two:0 "Towards Russia"
+je_rusf_two_reason:0 ""
+
+je_mis_ind:0 "Send a industrial espionage mission in north Italy"
+je_mis_ind
