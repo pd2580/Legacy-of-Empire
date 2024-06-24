@@ -23,10 +23,9 @@ law_ethnostate = {
 	}
 	
 	modifier = {
-		state_birth_rate_mult = 0.1
+		country_authority_add = 200
 		state_radicals_from_sol_change_accepted_culture_mult = -0.2
-		state_loyalists_from_sol_change_accepted_culture_mult = 0.2	
-				
+		state_loyalists_from_sol_change_accepted_culture_mult = 0.2			
 	}
 	
 	possible_political_movements = {
@@ -42,11 +41,7 @@ law_ethnostate = {
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-                scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}
@@ -89,11 +84,7 @@ law_national_supremacy = {
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-                scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}
@@ -151,11 +142,7 @@ law_racial_segregation = {
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-                scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}
@@ -200,7 +187,16 @@ law_cultural_exclusion = {
 			if = {
 				limit = { 
 					culture_accepted = no
-					owner = { NOT = { has_law = law_type:law_multicultural } }
+					owner = { 
+						OR = { 
+							has_law = law_type:law_ethnostate
+							is_enacting_law = law_type:law_ethnostate
+							has_law = law_type:law_national_supremacy
+							is_enacting_law = law_type:law_national_supremacy
+							has_law = law_type:law_racial_segregation
+							is_enacting_law = law_type:law_racial_segregation
+						} 
+					}
 				}
 				add = 0.5				
 				
@@ -218,11 +214,7 @@ law_cultural_exclusion = {
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-                scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}
@@ -280,11 +272,7 @@ law_multicultural = {
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-                scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}

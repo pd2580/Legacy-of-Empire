@@ -56,8 +56,8 @@
 
 		if = {
 			limit = { 
-				exists = c:BGY
-				c:BGY = this
+				exists = c:FRA
+				c:FRA = this
 				ruler = {
 					has_variable = legitimist_leader
 				}
@@ -234,7 +234,7 @@ ai_strategy_resource_expansion = {
 		
 		if = {
 			limit = {
-				has_law = law_type:law_council_republic	
+				has_radical_leftist_government = yes
 				NOT = {
 					ig:ig_rural_folk ?= {
 						is_powerful = yes
@@ -357,8 +357,8 @@ ai_strategy_industrial_expansion = {
 
 		if = {
 			limit = { 
-				exists = c:BGY
-				c:BGY = this
+				exists = c:FRA
+				c:FRA = this
 				ruler = {
 					OR = {
 						has_variable = orleanist_leader
@@ -371,7 +371,7 @@ ai_strategy_industrial_expansion = {
 
 		if = {
 			limit = {
-				has_law = law_type:law_council_republic	
+				has_radical_leftist_government = yes
 				NOT = {
 					ig:ig_rural_folk ?= {
 						is_powerful = yes
