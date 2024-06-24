@@ -6,9 +6,10 @@
 	
 	modifier = {
 		unit_morale_loss_mult = 0.1
+		unit_experience_gain_mult = -0.25
 		state_conscription_rate_add = 0.04
-		interest_group_ig_landowners_pol_str_mult = 0.25
-		country_military_goods_cost_mult = -0.25
+		country_aristocrats_pol_str_mult = 0.25
+		country_military_goods_cost_mult = -0.1
 		state_building_barracks_max_level_add = 25
 		state_building_conscription_center_max_level_add = 25
 	}
@@ -61,11 +62,7 @@
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-                scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}
@@ -138,11 +135,7 @@ law_professional_army = {
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-                scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}
@@ -160,6 +153,7 @@ law_national_militia = {
 		unit_morale_loss_mult = -0.05
 		state_conscription_rate_add = 0.05
 		interest_group_ig_armed_forces_pol_str_mult = -0.25
+		country_leverage_resistance_mult = 0.5
 		state_building_barracks_max_level_add = 5
 		state_building_conscription_center_max_level_add = 100
 	}
@@ -210,11 +204,7 @@ law_national_militia = {
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-                scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}
@@ -264,11 +254,7 @@ law_mass_conscription = {
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-                scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}
