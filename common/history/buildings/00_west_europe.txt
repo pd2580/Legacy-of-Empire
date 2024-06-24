@@ -1,11 +1,11 @@
 ﻿BUILDINGS={
 	s:STATE_SVEALAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=4
 					}
 				}
@@ -16,7 +16,7 @@
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -27,7 +27,7 @@
 				building="building_university"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -39,7 +39,7 @@
 				add_ownership={
 					building={
 						type="building_textile_mills"
-						country="c:SWE"
+						country="c:SCA"
 						levels=3
 						region="STATE_SVEALAND"
 					}
@@ -52,7 +52,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SWE"
+						country="c:SCA"
 						levels=5
 						region="STATE_SVEALAND"
 					}
@@ -65,7 +65,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SWE"
+						country="c:SCA"
 						levels=2
 						region="STATE_SVEALAND"
 					}
@@ -78,7 +78,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:SWE"
+						country="c:SCA"
 						levels=2
 						region="STATE_SVEALAND"
 					}
@@ -90,7 +90,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -102,13 +102,13 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:SWE"
+						country="c:SCA"
 						levels=4
 						region="STATE_SVEALAND"
 					}
 					building={
 						type="building_logging_camp"
-						country="c:SWE"
+						country="c:SCA"
 						levels=2
 						region="STATE_SVEALAND"
 					}
@@ -119,12 +119,12 @@
 		}
 	}
 	s:STATE_GOTALAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -136,12 +136,12 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:SWE"
+						country="c:SCA"
 						levels=2
 						region="STATE_SVEALAND"
 					}
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -153,7 +153,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:SWE"
+						country="c:SCA"
 						levels=2
 						region="STATE_GOTALAND"
 					}
@@ -166,7 +166,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:SWE"
+						country="c:SCA"
 						levels=3
 						region="STATE_GOTALAND"
 					}
@@ -179,13 +179,13 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:SWE"
+						country="c:SCA"
 						levels=4
 						region="STATE_GOTALAND"
 					}
 					building={
 						type="building_logging_camp"
-						country="c:SWE"
+						country="c:SCA"
 						levels=2
 						region="STATE_GOTALAND"
 					}
@@ -198,7 +198,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SWE"
+						country="c:SCA"
 						levels=3
 						region="STATE_GOTALAND"
 					}
@@ -211,7 +211,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SWE"
+						country="c:SCA"
 						levels=2
 						region="STATE_GOTALAND"
 					}
@@ -223,7 +223,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -233,12 +233,12 @@
 		}
 	}
 	s:STATE_SCANIA={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -250,7 +250,7 @@
 				add_ownership={
 					building={
 						type="building_shipyards"
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 						region="STATE_SCANIA"
 					}
@@ -262,7 +262,7 @@
 				building="building_military_shipyards"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -274,7 +274,7 @@
 				add_ownership={
 					building={
 						type="building_tooling_workshops"
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 						region="STATE_SCANIA"
 					}
@@ -286,7 +286,7 @@
 				building="building_university"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -297,7 +297,7 @@
 				building="building_arms_industry"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -309,7 +309,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SWE"
+						country="c:SCA"
 						levels=4
 						region="STATE_SCANIA"
 					}
@@ -322,7 +322,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SWE"
+						country="c:SCA"
 						levels=4
 						region="STATE_SCANIA"
 					}
@@ -335,7 +335,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:SWE"
+						country="c:SCA"
 						levels=4
 						region="STATE_SCANIA"
 					}
@@ -347,7 +347,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -357,13 +357,13 @@
 		}
 	}
 	s:STATE_NORRLAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:SWE"
+						country="c:SCA"
 						levels=3
 						region="STATE_NORRLAND"
 					}
@@ -376,7 +376,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:SWE"
+						country="c:SCA"
 						levels=2
 						region="STATE_NORRLAND"
 					}
@@ -387,12 +387,12 @@
 		}
 	}
 	s:STATE_GOTLAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SWE"
+						country="c:SCA"
 						levels=1
 					}
 				}
@@ -1798,7 +1798,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing"  }
+				activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_SCAeteners" "pm_manual_dough_processing"  }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -2135,7 +2135,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing"  }
+				activate_production_methods={ "pm_SCAeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing"  }
 			}
 			create_building={
 				building="building_glassworks"
@@ -2391,7 +2391,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing"  }
+				activate_production_methods={ "pm_SCAeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing"  }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -3776,7 +3776,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing"  }
+				activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_SCAeteners" "pm_manual_dough_processing"  }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3987,7 +3987,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing"  }
+				activate_production_methods={ "pm_SCAeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing"  }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -4222,7 +4222,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing"  }
+				activate_production_methods={ "pm_SCAeteners" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing"  }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -4692,7 +4692,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing"  }
+				activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_SCAeteners" "pm_manual_dough_processing"  }
 			}
 			create_building={
 				building="building_arms_industry"
