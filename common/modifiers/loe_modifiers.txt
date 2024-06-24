@@ -312,3 +312,47 @@ modifier_bav_five = {
 	state_conscription_rate_mult = -0.1
 	state_radicals_from_discrimination_mult = 0.2
 }
+
+modifier_rui_one = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -10
+	interest_group_pol_str_mult = -0.50
+	interest_group_pop_attraction_mult = -0.3
+}
+modifier_rui_two = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -2
+	interest_group_pol_str_mult = -0.10
+	interest_group_pop_attraction_mult = -0.1
+}
+modifier_rui_three = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_expenses_add = 5000
+	country_bureaucracy_mult = -0.05
+	goods_input_small_arms_add = 50
+}
+modifier_rui_six = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_expenses_add = 6000
+	goods_input_small_arms_add = 60
+}
+modifier_rui_seven = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_expenses_add = 5000
+	country_bureaucracy_mult = -0.05
+	goods_input_small_arms_add = 80
+}
+modifier_rui_eight = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_expenses_add = 2000
+	country_bureaucracy_mult = -0.05
+	goods_input_small_arms_add = 40
+}
+modifier_rui_four = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coin_negative.dds
+	country_expenses_add = 8000
+}
+modifier_rui_five = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_expenses_add = 8000
+}

@@ -5,7 +5,7 @@ COUNTRIES = {
         set_ruling_interest_groups = {
         	ig_landowners
         }
-		activate_law = law_type:law_theocracy
+		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_traditionalism

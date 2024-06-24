@@ -19,33 +19,6 @@ SLA = {
 	}
 }
 
-UUU = {
-	states = {
-		STATE_MOSCOW
-		STATE_TARTARIA
-		STATE_LUHANSK
-		STATE_KURSK
-		STATE_BRYANSK
-		STATE_KAZAN
-	}
-	
-	is_major_formation = yes
-	
-	unification_play = dp_unify_uu
-	leadership_play = dp_leadership_uu
-
-	required_states_fraction = 1
-
-	ai_will_do = { has_technology_researched = nationalism }
-
-	possible = {
-		has_modifier = universalis_union_unification
-		OR = {
-			country_has_primary_culture = cu:russian
-		}
-	}
-}
-
 SCA = {
 	use_culture_states = yes
 	

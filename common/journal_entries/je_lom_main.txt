@@ -39,7 +39,7 @@ je_lom_ita = {
 					is_subject_of = ROOT
 				}
 			}
-			annex = c:RHI
+			annex = c:VEN
 		}
 		trigger_event = {
 			id = lombard.3

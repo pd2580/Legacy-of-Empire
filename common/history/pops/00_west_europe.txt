@@ -3,7 +3,7 @@
 		region_state:SCA = {
 			create_pop = {
 				culture = swedish
-				size = 1781208
+				size = 4781208
 			}
 			create_pop = {
 				culture = finnish
@@ -19,7 +19,7 @@
 		region_state:SCA = {
 			create_pop = {
 				culture = swedish
-				size = 1276358
+				size = 2276358
 			}
 			create_pop = {
 				culture = finnish
@@ -35,12 +35,9 @@
 		region_state:SCA = {
 			create_pop = {
 				culture = swedish
-				size = 512860
+				size = 912860
 			}
-			create_pop = {
-				culture = ashkenazi
-				size = 200
-			}
+
 		}
 	}
 	s:STATE_NORRLAND = {
@@ -51,7 +48,7 @@
 			}
 			create_pop = {
 				culture = finnish
-				size = 520000
+				size = 1520000
 			}
 			create_pop = {
 				culture = sami
@@ -95,7 +92,7 @@
 		region_state:SCA = {
 			create_pop = {
 				culture = norwegian
-				size = 546800
+				size = 1946800
 			}
 		}
 	}
@@ -111,7 +108,7 @@
 			}
 			create_pop = {
 				culture = finnish
-				size = 12400
+				size = 121400
 			}
 		}
 	}
@@ -119,11 +116,11 @@
 		region_state:SCA = {
 			create_pop = {
 				culture = norwegian
-				size = 345800
+				size = 645800
 			}
 			create_pop = {
-				culture = finnish
-				size = 7000
+				culture = swedish
+				size = 687000
 			}
 		}
 	}
@@ -165,7 +162,7 @@
 			}
 			create_pop = {
 				culture = finnish
-				size = 690000
+				size = 2690000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -181,7 +178,7 @@
 		region_state:FIN = {
 			create_pop = {
 				culture = finnish
-				size = 177000
+				size = 1177000
 			}
 			create_pop = {
 				culture = finnish
@@ -214,7 +211,7 @@
 		region_state:FIN = {
 			create_pop = {
 				culture = finnish
-				size = 560000
+				size = 1960000
 			}
 			create_pop = {
 				culture = swedish
