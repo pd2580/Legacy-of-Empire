@@ -5,7 +5,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:"
+						country="c:SCA"
 						levels=1
 					}
 				}

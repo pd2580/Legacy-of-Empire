@@ -290,6 +290,7 @@
 			}
 			create_pop = {
 				culture = cherokee
+				religion = animist
 				size = 70136
 			}
 		}

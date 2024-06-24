@@ -11577,7 +11577,7 @@ japanese={
 
 manchu={
 	color= rgb{ 233 207 84 }
-	religion = mahayana
+	religion = confucian
 	traits = { sinosphere north_asian_heritage }
 	male_common_first_names={
 		Changlin
@@ -11653,7 +11653,7 @@ manchu={
 
 han={
 	color= rgb{ 190 80 48 }
-	religion = mahayana
+	religion = confucian
 	traits = { sinosphere han_chinese east_asian_heritage }
 	obsessions = {
 		opium
@@ -11734,7 +11734,7 @@ han={
 
 korean={
 	color= hsv{ 0.17 0.41 0.34 }
-	religion = mahayana
+	religion = confucian
 	traits = { korean_language east_asian_heritage }
 	male_common_first_names={
 		Bak Bong-haek
@@ -11865,7 +11865,7 @@ ainu={
 
 hakka={
 	color= hsv{ 0.1 0.43 0.34 }
-	religion = mahayana
+	religion = confucian
 	traits = { han_chinese east_asian_heritage }
 	male_common_first_names={
 		Chen
@@ -11998,7 +11998,7 @@ miao={
 
 min={
 	color= hsv{ 0.71 0.54 0.78 }
-	religion = mahayana
+	religion = confucian
 	traits = { han_chinese east_asian_heritage }
 	male_common_first_names={
 		Bing
@@ -12194,7 +12194,7 @@ yi={
 
 yue={
 	color= hsv{ 0.80 0.36 0.39 }
-	religion = mahayana
+	religion = confucian
 	traits = { han_chinese east_asian_heritage}
 	male_common_first_names={
 		Chen
