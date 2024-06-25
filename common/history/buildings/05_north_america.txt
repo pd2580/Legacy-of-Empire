@@ -14,7 +14,7 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_WEST_INDIA = {
+	s:STATE_NEW_YORK = {
 		region_state:CLB = {
 			create_building={
 				building="building_government_administration"
@@ -571,7 +571,7 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_NEW_HOLLAND = {
+	s:STATE_MARYLAND = {
 		region_state:CLB = {
 			create_building={
 				building="building_government_administration"
@@ -619,7 +619,7 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_HOGE_VELUWE = {
+	s:STATE_PENNSYLVANIA = {
 		region_state:CLB = {
 			create_building={
 				building="building_paper_mills"
@@ -814,7 +814,7 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_ORANJE = {
+	s:STATE_MASSACHUSETTS = {
 		region_state:CLB = {
 			create_building={
 				building="building_government_administration"
@@ -939,7 +939,7 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_MAIBEEK = {
+	s:STATE_MAINE = {
 		region_state:CLB = {
 			create_building={
 				building="building_furniture_manufacturies"

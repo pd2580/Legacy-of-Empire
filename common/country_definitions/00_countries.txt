@@ -949,7 +949,7 @@ CLB = {
 	tier = kingdom
 	
 	cultures = { dutch_colonial }	
-	capital = STATE_WEST_INDIA
+	capital = STATE_NEW_YORK
 }
 
 CAT = {
@@ -2819,7 +2819,7 @@ NEN = {
 	tier = grand_principality
 	
 	cultures = { yankee }
-	capital = STATE_ORANJE
+	capital = STATE_MASSACHUSETTS
 }
 
 NEW = {
