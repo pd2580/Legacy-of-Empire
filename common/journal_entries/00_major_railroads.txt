@@ -88,7 +88,7 @@ je_trans_continental_railway = {
 	is_shown_when_inactive = {
 		is_player = yes
 		NOT = { has_global_variable = trans_continental_done }
-		owns_entire_state_region = STATE_NEW_YORK
+		owns_entire_state_region = STATE_WEST_INDIA
 		any_scope_state = {
 			state_region = s:STATE_NEBRASKA
 		}

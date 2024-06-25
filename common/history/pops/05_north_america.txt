@@ -1,11 +1,6 @@
 ﻿POPS = {
 	s:STATE_DISTRICT_OF_COLUMBIA = {
-		region_state:IRO = { 
-			create_pop = {
-				culture = iroquoian
-				size = 57544
-			}	
-		}
+
 	}
 	s:STATE_LOUISIANA = {
 		region_state:MSC = {
@@ -15,11 +10,11 @@
 			}
 		}
 	}
-	s:STATE_NEW_YORK = {
-		region_state:IRO = {
+	s:STATE_WEST_INDIA = {
+		region_state:CLB = {
 			create_pop = {
-				culture = iroquoian
-				size = 2135000
+				culture = cu:dutch_colonial
+				size = 3135000
 			}
 		}
 	}
@@ -36,11 +31,21 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = athabaskan
-				size = 19780
+				size = 5780
 			}
 			create_pop = {
 				culture = korean
 				size = 192
+			}
+			create_pop = {
+				culture = inuit
+				size = 968
+			}
+		}
+		region_state:ATH = {
+			create_pop = {
+				culture = athabaskan
+				size = 19780
 			}
 			create_pop = {
 				culture = inuit
@@ -312,12 +317,6 @@
 		}
 	}
 	s:STATE_MINNESOTA = {
-		region_state:USA = {
-			create_pop = {
-				culture = algonquian
-				size = 16000
-			}
-		}
 		region_state:LKT = {
 			create_pop = {
 				culture = dakota
@@ -326,79 +325,34 @@
 		}
 	}
 	s:STATE_WISCONSIN = {
-		region_state:USA = {
+		region_state:CTF = {
 			create_pop = {
 				culture = algonquian
-				size = 8000
-			}
-			create_pop = {
-				culture = yankee
-				size = 28004
+				size = 58000
 			}
 		}
 	}
 	s:STATE_INDIANA = {
-		region_state:USA = {
+		region_state:CTF = {
 			create_pop = {
-				culture = yankee
+				culture = algonquian
 				size = 631504
-			}
-			create_pop = {
-				culture = irish
-				size = 4004
-			}
-			create_pop = {
-				culture = north_german
-				size = 20000
-			}
-			create_pop = {
-				culture = afro_american
-				size = 8000
 			}
 		}
 	}
 	s:STATE_MICHIGAN = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 123996
-			}
+		region_state:CTF = {
 			create_pop = {
 				culture = algonquian
-				size = 12000
-			}
-			create_pop = {
-				culture = siouan
-				size = 4000
-			}
-			create_pop = {
-				culture = irish
-				size = 8000
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 4004
+				size = 123996
 			}
 		}
 	}
 	s:STATE_OHIO = {
-		region_state:USA = {
+		region_state:CTF = {
 			create_pop = {
-				culture = yankee
+				culture = algonquian
 				size = 1092200
-			}
-			create_pop = {
-				culture = afro_american
-				size = 16008
-			}
-			create_pop = {
-				culture = north_german
-				size = 128000
-			}
-			create_pop = {
-				culture = irish
-				size = 108004
 			}
 		}
 	}
@@ -479,118 +433,55 @@
 		}
 	}
 	s:STATE_MARYLAND = {
-		region_state:AMS = {
-			create_pop = {
-				culture = iroquoian
-				size = 251997
-			}
-		}
-	}
 
+	}
 	s:STATE_DELAWARE = {
-		region_state:AMS = {
-			create_pop = {
-				culture = iroquoian
-				size = 177000
-			}
-		}
 	}
-
 	s:STATE_PENNSYLVANIA = {
-		region_state:AMS = {
-			create_pop = {
-				culture = iroquoian
-				size = 2250496
-			}
-		}
 	}
 	s:STATE_NEW_JERSEY = {
-		region_state:AMS = {
+	}
+	s:STATE_HOGE_VELUWE = {
+		region_state:CLB = {
 			create_pop = {
-				culture = yankee
-				size = 303200
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 27996
-			}
-			create_pop = {
-				culture = afro_american
-				size = 15996
+				culture = cu:dutch_colonial 
+				size = 3303200
 			}
 		}
 	}
 	s:STATE_ILLINOIS = {
-		region_state:USA = {
+		region_state:CTF = {
 			create_pop = {
-				culture = yankee
+				culture = algonquian
 				size = 452400
-			}
-			create_pop = {
-				culture = afro_american
-				size = 4000
 			}
 		}
 	}
 	s:STATE_RHODE_ISLAND = {
-		region_state:AMS = {
-			create_pop = {
-				culture = yankee
-				size = 104820
-			}
-		}
 	}
 	s:STATE_CONNECTICUT = {
-		region_state:AMS = {
-			create_pop = {
-				culture = yankee
-				size = 199228
-			}
-		}
 	}
 	s:STATE_MASSACHUSETTS = {
-		region_state:AMS = {
+	}
+	s:STATE_ORANJE = {
+		region_state:CLB = {
 			create_pop = {
-				culture = yankee
-				size = 754484
-			}
-			create_pop = {
-				culture = afro_american
-				size = 11996
-			}
-			create_pop = {
-				culture = irish
-				size = 52400
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 28400
+				culture = dutch_colonial
+				size = 3323300
 			}
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE = {
-		region_state:AMS = {
-			create_pop = {
-				culture = iroquoian
-				size = 323300
-			}
-		}
 	}
 	s:STATE_VERMONT = {
-		region_state:AMS = {
-			create_pop = {
-				culture = iroquoian
-				size = 282848
-			}
-		}
 	}
 	s:STATE_MAINE = {
-		region_state:AMS = {
+	}
+	s:STATE_MAIBEEK = {
+		region_state:CLB = {
 			create_pop = {
-				culture = iroquoian
-				size = 411228
+				culture = dutch_colonial
+				size = 1111228
 			}
 		}
 	}
@@ -778,7 +669,7 @@
 		}
 	}
 	s:STATE_NORTHWEST_TERRITORIES = {
-		region_state:ATH = {
+		region_state:ATB = {
 			create_pop = {
 				culture = athabaskan
 				size = 16000
@@ -1270,6 +1161,12 @@
 			create_pop = {
 				culture = japanese
 				size = 111344
+			}
+		}
+		region_state:HOK = {
+			create_pop = {
+				culture = hokan
+				size = 8264
 			}
 		}
 	}

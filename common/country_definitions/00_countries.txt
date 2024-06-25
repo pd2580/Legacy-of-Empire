@@ -948,8 +948,8 @@ CLB = {
 
 	tier = kingdom
 	
-	cultures = { colombian }	
-	capital = STATE_NEW_YORK
+	cultures = { dutch_colonial }	
+	capital = STATE_WEST_INDIA
 }
 
 CAT = {
@@ -4168,11 +4168,11 @@ SHU = {
 SAO = {
 	color = { 188 126 189 }
 	
-	country_type = decentralized
+	country_type = unrecognized
 
 	tier = principality
 
-	cultures = { salish }
+	cultures = { salish athabaskan }
 	capital = STATE_PERM
 }
 
