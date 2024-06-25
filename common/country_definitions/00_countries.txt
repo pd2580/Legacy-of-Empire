@@ -948,8 +948,8 @@ CLB = {
 
 	tier = kingdom
 	
-	cultures = { colombian }	
-	capital = STATE_NEW_YORK
+	cultures = { dutch_colonial }	
+	capital = STATE_WEST_INDIA
 }
 
 CAT = {
@@ -2784,7 +2784,7 @@ MEX = {
 	tier = kingdom
 	
 	cultures = { mexican }
-	capital = STATE_MEXICO
+	capital = STATE_RIO_GRANDE
 	is_named_from_capital = yes
 }
 
@@ -2819,7 +2819,7 @@ NEN = {
 	tier = grand_principality
 	
 	cultures = { yankee }
-	capital = STATE_MASSACHUSETTS
+	capital = STATE_ORANJE
 }
 
 NEW = {
@@ -4168,22 +4168,11 @@ SHU = {
 SAO = {
 	color = { 188 126 189 }
 	
-	country_type = decentralized
+	country_type = unrecognized
 
 	tier = principality
 
-	cultures = { salish }
-	capital = STATE_PERM
-}
-
-ATH = {
-	color = { 37 63 105 }
-	
-	country_type = decentralized
-
-	tier = principality
-
-	cultures = { athabaskan }
+	cultures = { salish athabaskan }
 	capital = STATE_PERM
 }
 

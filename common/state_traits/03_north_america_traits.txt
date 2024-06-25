@@ -17,7 +17,7 @@ state_trait_northern_canadian_terrain = {
 	}
 }
 
-state_trait_new_england_whaling = {
+state_trait_new_holland_whaling = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_whales.dds"
 	
 	modifier = {
@@ -60,7 +60,7 @@ state_trait_niagara_falls = {
 	}
 }
 
-state_trait_new_york_harbor = {
+state_trait_new_amsterdam_harbor = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {

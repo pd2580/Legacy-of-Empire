@@ -98,7 +98,7 @@ cultural_community_creation_weight = {
 					has_state_trait = state_trait_natural_harbors
 					has_state_trait = state_trait_good_soils
 					has_state_trait = state_trait_london_docklands
-					has_state_trait = state_trait_new_york_harbor
+					has_state_trait = state_trait_new_amsterdam_harbor
 					has_state_trait = state_trait_halifax_harbor
 					has_state_trait = state_trait_newark_harbor
 				}
