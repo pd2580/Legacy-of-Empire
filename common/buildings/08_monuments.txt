@@ -250,7 +250,7 @@ building_statue_of_liberty = {
 	required_construction = construction_cost_monument
 	
 	possible = {
-		state_region = s:STATE_WEST_INDIA
+		state_region = s:STATE_NEW_YORK
 	}
 	
 	ai_value = 10000
@@ -346,7 +346,7 @@ building_white_house = {
 	}
 	
 	possible = {
-		state_region = s:STATE_HOGE_VELUWE
+		state_region = s:STATE_PENNSYLVANIA
 	}
 	
 	required_construction = construction_cost_monument

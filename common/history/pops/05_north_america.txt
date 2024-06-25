@@ -9,7 +9,7 @@
 			}
 		}
 	}
-	s:STATE_WEST_INDIA = {
+	s:STATE_NEW_YORK = {
 		region_state:CLB = {
 			create_pop = {
 				culture = dutch_colonial
@@ -436,7 +436,7 @@
 			}
 		}
 	}
-	s:STATE_NEW_HOLLAND = {
+	s:STATE_MARYLAND = {
 		region_state:CLB = {
 			create_pop = {
 				culture = dutch_colonial
@@ -444,7 +444,7 @@
 			}
 		}
 	}
-	s:STATE_HOGE_VELUWE = {
+	s:STATE_PENNSYLVANIA = {
 		region_state:CLB = {
 			create_pop = {
 				culture = dutch_colonial
@@ -460,7 +460,7 @@
 			}
 		}
 	}
-	s:STATE_ORANJE = {
+	s:STATE_MASSACHUSETTS = {
 		region_state:CLB = {
 			create_pop = {
 				culture = dutch_colonial
@@ -468,7 +468,7 @@
 			}
 		}
 	}
-	s:STATE_MAIBEEK = {
+	s:STATE_MAINE = {
 		region_state:CLB = {
 			create_pop = {
 				culture = dutch_colonial
