@@ -2784,7 +2784,7 @@ MEX = {
 	tier = kingdom
 	
 	cultures = { mexican }
-	capital = STATE_MEXICO
+	capital = STATE_RIO_GRANDE
 	is_named_from_capital = yes
 }
 
@@ -2819,7 +2819,7 @@ NEN = {
 	tier = grand_principality
 	
 	cultures = { yankee }
-	capital = STATE_MASSACHUSETTS
+	capital = STATE_ORANJE
 }
 
 NEW = {
@@ -4173,17 +4173,6 @@ SAO = {
 	tier = principality
 
 	cultures = { salish athabaskan }
-	capital = STATE_PERM
-}
-
-ATH = {
-	color = { 37 63 105 }
-	
-	country_type = decentralized
-
-	tier = principality
-
-	cultures = { athabaskan }
 	capital = STATE_PERM
 }
 

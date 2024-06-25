@@ -1795,6 +1795,20 @@ BUILDINGS={
 			}
 		}
 	}
+	s:STATE_PARANA = {
+		region_state:UPA = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:UPA"
+						levels=9
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+		}
 	s:STATE_SANTA_CATARINA = {
 		region_state:UPA = {
 			create_building={

@@ -1,6 +1,5 @@
 ﻿POPS = {
 	s:STATE_DISTRICT_OF_COLUMBIA = {
-
 	}
 	s:STATE_LOUISIANA = {
 		region_state:MSC = {
@@ -13,7 +12,7 @@
 	s:STATE_WEST_INDIA = {
 		region_state:CLB = {
 			create_pop = {
-				culture = cu:dutch_colonial
+				culture = dutch_colonial
 				size = 3135000
 			}
 		}
@@ -22,7 +21,7 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
-				size = 1823597
+				size = 823597
 				religion = animist
 			}
 		}
@@ -42,10 +41,14 @@
 				size = 968
 			}
 		}
-		region_state:ATH = {
+		region_state:SAO = {
 			create_pop = {
 				culture = athabaskan
 				size = 19780
+			}
+			create_pop = {
+				culture = salish
+				size = 6780
 			}
 			create_pop = {
 				culture = inuit
@@ -61,15 +64,15 @@
 			}
 			create_pop = {
 				culture = salish
-				size = 35627
+				size = 1635627
 			}
 		}
 	}
 	s:STATE_OREGON = {
-		region_state:SAO = {		
+		region_state:SAO = {
 			create_pop = {
 				culture = salish
-				size = 24060
+				size = 2524060
 			}
 			create_pop = {
 				culture = paiute
@@ -85,7 +88,7 @@
 			}
 			create_pop = {
 				culture = salish
-				size = 44560
+				size = 1144560
 			}
 		}
 	}
@@ -266,7 +269,7 @@
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves # there was even a slave revolt at Webbers Falls in 1842
+				pop_type = slaves				# there was even a slave revolt at Webbers Falls in 1842
 				culture = afro_american
 				size = 1200
 			}
@@ -394,7 +397,7 @@
 				religion = animist
 			}
 			create_pop = {
-				culture = muskogean # Creeks tallied in the "Parsons and Albert Roll" after the 1832 Treaty of Cusseta
+				culture = muskogean				# Creeks tallied in the "Parsons and Albert Roll" after the 1832 Treaty of Cusseta
 				size = 322240
 			}
 		}
@@ -427,25 +430,25 @@
 	s:STATE_WEST_VIRGINIA = {
 		region_state:CHE = {
 			create_pop = {
-				culture = iroquoian
-				size = 1160916
+				culture = cherokee
+				size = 460916
+				religion = animist
 			}
 		}
 	}
-	s:STATE_MARYLAND = {
-
-	}
-	s:STATE_DELAWARE = {
-	}
-	s:STATE_PENNSYLVANIA = {
-	}
-	s:STATE_NEW_JERSEY = {
+	s:STATE_NEW_HOLLAND = {
+		region_state:CLB = {
+			create_pop = {
+				culture = dutch_colonial
+				size = 1603200
+			}
+		}
 	}
 	s:STATE_HOGE_VELUWE = {
 		region_state:CLB = {
 			create_pop = {
-				culture = cu:dutch_colonial 
-				size = 3303200
+				culture = dutch_colonial
+				size = 2303200
 			}
 		}
 	}
@@ -457,25 +460,13 @@
 			}
 		}
 	}
-	s:STATE_RHODE_ISLAND = {
-	}
-	s:STATE_CONNECTICUT = {
-	}
-	s:STATE_MASSACHUSETTS = {
-	}
 	s:STATE_ORANJE = {
 		region_state:CLB = {
 			create_pop = {
 				culture = dutch_colonial
-				size = 3323300
+				size = 2603300
 			}
 		}
-	}
-	s:STATE_NEW_HAMPSHIRE = {
-	}
-	s:STATE_VERMONT = {
-	}
-	s:STATE_MAINE = {
 	}
 	s:STATE_MAIBEEK = {
 		region_state:CLB = {
@@ -490,7 +481,13 @@
 			create_pop = {
 				culture = cherokee
 				religion = animist
-				size = 2492500
+				size = 1592500
+			}
+		}
+		region_state:EIR = {
+			create_pop = {
+				culture = irish
+				size = 80567
 			}
 		}
 	}
@@ -629,14 +626,14 @@
 			create_pop = {
 				culture = korean
 				size = 20
-			}		
+			}
 			create_pop = {
 				culture = salish
-				size = 27396
+				size = 927396
 			}
 			create_pop = {
 				culture = athabaskan
-				size = 55200
+				size = 155200
 			}
 		}
 	}
@@ -645,26 +642,30 @@
 			create_pop = {
 				culture = siouan
 				size = 54648
-			}		
+			}
 			create_pop = {
 				culture = cree
 				size = 22648
-			}	
+			}
+		}
 	}
-}
 	s:STATE_MANITOBA = {
 		region_state:CRU = {
 			create_pop = {
 				culture = cree
 				size = 34848
-			}		
+			}
+		}
 	}
-}
 	s:STATE_YUKON_TERRITORY = {
-		region_state:ATH = {
+		region_state:SAO = {
 			create_pop = {
 				culture = athabaskan
 				size = 12000
+			}
+			create_pop = {
+				culture = salish
+				size = 219780
 			}
 		}
 	}
@@ -701,47 +702,14 @@
 		}
 	}
 	s:STATE_TEXAS = {
-		region_state:TEX = {
-			create_pop = {
-				culture = dixie
-				size = 42224
-			}
-			create_pop = {
-				culture = siouan
-				size = 1996
-			}
-			create_pop = {
-				culture = caddoan
-				size = 4000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 6040
-			}
-			create_pop = {
-				culture = mexican
-				size = 2004
-			}
-		}
-		region_state:NAH = {
-			create_pop = {
-				culture = oodham
-				size = 12000
-			}
-			create_pop = {
-				culture = mexican
-				size = 3000
-			}
-		}
 		region_state:COM = {
 			create_pop = {
 				culture = comanche
-				size = 18000
+				size = 145600
 			}
 			create_pop = {
 				culture = apache
-				size = 4000
+				size = 12000
 			}
 		}
 	}
@@ -749,29 +717,15 @@
 		region_state:NVJ = {
 			create_pop = {
 				culture = paiute
-				size = 28000
+				size = 228000
 			}
 		}
 	}
 	s:STATE_ARIZONA = {
-		region_state:NAH = {
-			create_pop = {
-				culture = oodham
-				size = 4000
-			}
-			create_pop = {
-				culture = mexican
-				size = 1004
-			}
-			create_pop = {
-				culture = pueblo
-				size = 3000
-			}
-		}
 		region_state:NVJ = {
 			create_pop = {
 				culture = navajo
-				size = 24000
+				size = 224000
 			}
 			create_pop = {
 				culture = paiute
@@ -790,36 +744,14 @@
 		}
 	}
 	s:STATE_NEW_MEXICO = {
-		region_state:NAH = {
-			create_pop = {
-				culture = mexican
-				size = 27796
-			}
-			create_pop = {
-				culture = pueblo
-				size = 18000
-			}
-		}
-		region_state:NVJ = {
-			create_pop = {
-				culture = navajo
-				size = 6000
-			}
-			create_pop = {
-				culture = paiute
-				size = 2000
-			}
-		}
 		region_state:COM = {
 			create_pop = {
-				culture = siouan
-				size = 3000
+				culture = comanche
+				size = 56000
 			}
-		}
-		region_state:APC = {
 			create_pop = {
-				culture = apache
-				size = 11000
+				culture = mexican
+				size = 5600
 			}
 		}
 	}
@@ -827,7 +759,7 @@
 		region_state:HOK = {
 			create_pop = {
 				culture = hokan
-				size = 52000
+				size = 652700
 			}
 		}
 		region_state:JAP = {
@@ -871,26 +803,23 @@
 	# 97864 in 1830, 127586 in 1840
 	# working total of 112724
 	s:STATE_SONORA = {
-		region_state:NAH = {
+		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 69087
+				size = 469087
 			}
 			create_pop = {
-				culture = oodham
+				culture = hokan
 				size = 43637
 			}
 		}
 	}
-	s:STATE_CHIHUAHUA = { # total population: 132189 (1830), 147600 (1840)
-		region_state:NAH = {
+	s:STATE_CHIHUAHUA = {
+		# total population: 132189 (1830), 147600 (1840)
+		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 139895
-			}
-			create_pop = {
-				culture = oodham
-				size = 8000
+				size = 1539895
 			}
 			create_pop = {
 				culture = apache
@@ -898,64 +827,47 @@
 			}
 		}
 	}
-	s:STATE_RIO_GRANDE = { # Coahuila, Nuevo Leon and Tamaulipas. est. pop 182352 in 1830, 266647 in 1840
-		region_state:NAH = {
+	s:STATE_RIO_GRANDE = {
+		# Coahuila, Nuevo Leon and Tamaulipas. est. pop 182352 in 1830, 266647 in 1840
+		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 121499
-			}
-			create_pop = {
-				culture = oodham
-				size = 27000
-			}
-			create_pop = {
-				culture = oodham
-				religion = catholic
-				size = 70004
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 6000
+				size = 1921499
 			}
 		}
 	}
-	s:STATE_VERACRUZ = { # 242658 in 1830, 259463 in 1840
+	s:STATE_VERACRUZ = {
+		# 242658 in 1830, 259463 in 1840
 		region_state:NAH = {
 			create_pop = {
-				culture = mexican
+				culture = zapotec
 				size = 251061
-			}		
-		}
-	}
-	s:STATE_DURANGO = { # est. total of 156999. 153810 in 1830, 160187 in 1840
-		region_state:NAH = {
-			create_pop = {
-				culture = mexican
-				size = 136199
 			}
 			create_pop = {
-				culture = oodham
-				size = 20000
+				culture = nahua
+				size = 351061
 			}
 			create_pop = {
-				culture = afro_caribeno
-				size = 800
+				culture = mixtec
+				size = 11161
 			}
 		}
 	}
-	s:STATE_SINALOA = { # est. total of 134941. 122285 in 1830, 147596 in 1840
-		region_state:NAH = {
+	s:STATE_DURANGO = {
+		# est. total of 156999. 153810 in 1830, 160187 in 1840
+		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 113841
+				size = 936199
 			}
+		}
+	}
+	s:STATE_SINALOA = {
+		# est. total of 134941. 122285 in 1830, 147596 in 1840
+		region_state:MEX = {
 			create_pop = {
-				culture = oodham
-				size = 20000
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 1100
+				culture = mexican
+				size = 813841
 			}
 		}
 	}
@@ -966,11 +878,11 @@
 	s:STATE_BAJIO = {
 		region_state:NAH = {
 			create_pop = {
-				culture = mexican
+				culture = nahua
 				size = 594909
 			}
 			create_pop = {
-				culture = nahua
+				culture = mixtec
 				size = 266461
 			}
 			create_pop = {
@@ -978,7 +890,7 @@
 				size = 85162
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = zapotec
 				size = 3801
 			}
 		}
@@ -987,19 +899,11 @@
 	# Campeche:			64053 in 1830, 72707 in 1840, so averaging out to 68380
 	# Tabasco:			58518 in 1830, 63919 in 1840, so averaging out to 61219
 	# working total number of 548936
-	s:STATE_YUCATAN = { 
-		region_state:NAH = {
-			create_pop = {
-				culture = mexican
-				size = 226764
-			}
+	s:STATE_YUCATAN = {
+		region_state:MAY = {
 			create_pop = {
 				culture = mayan
-				size = 388804
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 1400
+				size = 688804
 			}
 		}
 	}
@@ -1010,64 +914,55 @@
 	s:STATE_MEXICO = {
 		region_state:NAH = {
 			create_pop = {
-				culture = mexican
-				size = 763486
+				culture = nahua
+				size = 1763486
 			}
 			create_pop = {
 				culture = mixtec
-				religion = catholic
 				size = 39996
 			}
 			create_pop = {
-				culture = nahua
+				culture = tarascan
 				size = 689604
 			}
 			create_pop = {
 				culture = zapotec
 				size = 264004
 			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 54000
-			}
 		}
 	}
-
 	# total of 231319. This number was revealed to me in a dream.
 	# jk. Couldn't find estimates for Guerrero in 1830 or 1840, but they could be found for 1870 onwards, so some math trickery was done. Neighboring Oaxaca's estimated 1835 population is 74.7% of its 1870 population, and 50.61% of its 1900 population, so those percentages were applied to Guerrero's 1870 and 1900 population figures, and the two results were averaged together into the above.
-	s:STATE_GUERRERO = { 
+	s:STATE_GUERRERO = {
 		region_state:NAH = {
 			create_pop = {
-				culture = mexican
+				culture = nahua
 				size = 114874
 			}
 			create_pop = {
 				culture = zapotec
-				size = 13183
+				size = 113183
 			}
 			create_pop = {
 				culture = tarascan
 				size = 60846
 			}
 			create_pop = {
-				culture = nahua
-				size = 27381
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 15036
+				culture = mixtec
+				size = 127381
 			}
 		}
 	}
-	s:STATE_OAXACA = { # approx 479674. 457504 in 1830, 501844 in 1840.
+	s:STATE_OAXACA = {
+		# approx 479674. 457504 in 1830, 501844 in 1840.
 		region_state:NAH = {
 			create_pop = {
-				culture = mexican
+				culture = mixtec
 				size = 143903
 			}
 			create_pop = {
 				culture = zapotec
-				size = 40532
+				size = 240532
 			}
 			create_pop = {
 				culture = tarascan
@@ -1075,11 +970,7 @@
 			}
 			create_pop = {
 				culture = nahua
-				size = 84182
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 23984
+				size = 284182
 			}
 		}
 	}
@@ -1091,16 +982,15 @@
 	s:STATE_JALISCO = {
 		region_state:NAH = {
 			create_pop = {
-				culture = mexican
+				culture = nahua
 				size = 1011710
 			}
 			create_pop = {
-				culture = oodham
-				religion = catholic
+				culture = mixtec
 				size = 152078
 			}
 			create_pop = {
-				culture = oodham
+				culture = zapotec
 				size = 26373
 			}
 		}
@@ -1111,7 +1001,7 @@
 	s:STATE_ZACATECAS = {
 		region_state:NAH = {
 			create_pop = {
-				culture = mexican
+				culture = mixtec
 				size = 137347
 			}
 			create_pop = {
@@ -1123,28 +1013,14 @@
 	# 121424 in 1830, 138595 in 1840
 	# working total of 130010
 	s:STATE_CHIAPAS = {
-		region_state:NAH = {
+		region_state:MAY = {
 			create_pop = {
-				culture = mexican
+				culture = nahua
 				size = 57846
 			}
 			create_pop = {
 				culture = mayan
-				size = 72164
-			}
-		}
-		region_state:UCA = {
-			create_pop = {
-				culture = mexican
-				size = 5562
-			}
-			create_pop = {
-				culture = central_american
-				size = 1854
-			}
-			create_pop = {
-				culture = mayan
-				size = 9251
+				size = 372164
 			}
 		}
 	}
@@ -1155,7 +1031,7 @@
 				size = 8264
 			}
 			create_pop = {
-				culture = oodham
+				culture = hokan
 				size = 13382
 			}
 			create_pop = {

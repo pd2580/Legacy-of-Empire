@@ -1,30 +1,4 @@
 BUILDINGS={
-	s:STATE_DISTRICT_OF_COLUMBIA = {
-		region_state:USA = {
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}
-			create_building={
-				building="building_white_house"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={  }
-			}
-		}
-	}
 	s:STATE_LOUISIANA = {
 		region_state:MSC = {
 			create_building={
@@ -40,25 +14,25 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_NEW_YORK = {
+	s:STATE_WEST_INDIA = {
 		region_state:CLB = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=1
+						levels=6
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
@@ -69,7 +43,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -91,7 +65,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -113,7 +87,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -135,29 +109,18 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
 			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					country={
-						country="c:CLB"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
-			}
-			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=1
+						levels=12
 					}
 				}
 				reserves=1
@@ -168,29 +131,18 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_privately_owned_plantation" }
 			}
 			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					country={
-						country="c:CLB"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_merchant_guilds_building_fishing_wharf" "pm_unrefrigerated" "pm_fishing_trawlers" }
-			}
-			create_building={
 				building="building_port"
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -247,7 +199,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_WYOMING = {
-		region_state:USA = {
+		region_state:CLB = {
 		}
 		region_state:LKT = {
 		}
@@ -255,7 +207,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_MONTANA = {
-		region_state:USA = {
+		region_state:CLB = {
 		}
 		region_state:ABS = {
 		}
@@ -263,7 +215,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_NORTH_DAKOTA = {
-		region_state:USA = {
+		region_state:CLB = {
 		}
 		region_state:LKT = {
 		}
@@ -271,17 +223,17 @@ BUILDINGS={
 	s:STATE_SOUTH_DAKOTA = {
 		region_state:LKT = {
 		}
-		region_state:USA = {
+		region_state:CLB = {
 		}
 	}
 	s:STATE_NEBRASKA = {
-		region_state:USA = {
+		region_state:CLB = {
 		}
 		region_state:LKT = {
 		}
 	}
 	s:STATE_KANSAS = {
-		region_state:USA = {
+		region_state:CLB = {
 		}
 	}
 	s:STATE_OKLAHOMA = {
@@ -312,16 +264,16 @@ BUILDINGS={
 		}
 	}
 	s:STATE_WISCONSIN = {
-		region_state:USA = {
+		region_state:CLB = {
 		}
 	}
 	s:STATE_INDIANA = {
-		region_state:USA = {
+		region_state:CLB = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -332,7 +284,7 @@ BUILDINGS={
 				building="building_chemical_plants"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -343,7 +295,7 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -354,7 +306,7 @@ BUILDINGS={
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -364,12 +316,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_MICHIGAN = {
-		region_state:USA = {
+		region_state:CLB = {
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -380,7 +332,7 @@ BUILDINGS={
 				building="building_sulfur_mine"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -391,7 +343,7 @@ BUILDINGS={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -401,12 +353,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_OHIO = {
-		region_state:USA = {
+		region_state:CLB = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -417,7 +369,7 @@ BUILDINGS={
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -428,7 +380,7 @@ BUILDINGS={
 				building="building_glassworks"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -439,7 +391,7 @@ BUILDINGS={
 				building="building_furniture_manufacturies"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -450,7 +402,7 @@ BUILDINGS={
 				building="building_chemical_plants"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -461,7 +413,7 @@ BUILDINGS={
 				building="building_coal_mine"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -472,7 +424,7 @@ BUILDINGS={
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -483,7 +435,7 @@ BUILDINGS={
 				building="building_vineyard_plantation"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -494,7 +446,7 @@ BUILDINGS={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -594,12 +546,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_WEST_VIRGINIA = {
-		region_state:USA = {
+		region_state:CLB = {
 			create_building={
 				building="building_coal_mine"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -610,7 +562,7 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -619,13 +571,13 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_MARYLAND = {
-		region_state:USA = {
+	s:STATE_NEW_HOLLAND = {
+		region_state:CLB = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -636,8 +588,8 @@ BUILDINGS={
 				building="building_glassworks"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=2
 					}
 				}
 				reserves=1
@@ -647,8 +599,8 @@ BUILDINGS={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=3
 					}
 				}
 				reserves=1
@@ -658,81 +610,55 @@ BUILDINGS={
 				building="building_tobacco_plantation"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
+		}
+	}
+	s:STATE_HOGE_VELUWE = {
+		region_state:CLB = {
 			create_building={
-				building="building_port"
+				building="building_paper_mills"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=3
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_basic_port" }
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
 			}
-		}
-	}
-	s:STATE_DELAWARE = {
-		region_state:USA = {
+			create_building={
+				building="building_maize_farm"
+				add_ownership={
+					country={
+						country="c:CLB"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=4
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-		}
-	}
-	s:STATE_PENNSYLVANIA = {
-		region_state:USA = {
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_steel_mills"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -743,7 +669,7 @@ BUILDINGS={
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -754,8 +680,8 @@ BUILDINGS={
 				building="building_textile_mills"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=3
 					}
 				}
 				reserves=1
@@ -765,7 +691,7 @@ BUILDINGS={
 				building="building_furniture_manufacturies"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -776,7 +702,7 @@ BUILDINGS={
 				building="building_munition_plants"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -787,8 +713,8 @@ BUILDINGS={
 				building="building_glassworks"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=2
 					}
 				}
 				reserves=1
@@ -798,41 +724,19 @@ BUILDINGS={
 				building="building_coal_mine"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=6
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_coal_mine" }
 			}
 			create_building={
-				building="building_maize_farm"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_soil_enriching_farming" "pm_tools_disabled" }
-			}
-			create_building={
-				building="building_tooling_workshops"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
-			}
-			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=5
 					}
 				}
 				reserves=1
@@ -842,7 +746,7 @@ BUILDINGS={
 				building="building_vineyard_plantation"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -853,8 +757,8 @@ BUILDINGS={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=5
 					}
 				}
 				reserves=1
@@ -864,8 +768,8 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=2
 					}
 				}
 				reserves=1
@@ -875,7 +779,7 @@ BUILDINGS={
 				building="building_explosives_factory"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -884,72 +788,13 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_NEW_JERSEY = {
-		region_state:USA = {
-			create_building={
-				building="building_paper_mills"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" "pm_privately_owned_building_paper_mills" }
-			}
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
-			}
-			create_building={
-				building="building_maize_farm"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
-			}
-		}
-	}
 	s:STATE_ILLINOIS = {
-		region_state:USA = {
+		region_state:CLB = {
 			create_building={
 				building="building_lead_mine"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -960,7 +805,7 @@ BUILDINGS={
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -969,61 +814,24 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_RHODE_ISLAND = {
-		region_state:USA = {
+	s:STATE_ORANJE = {
+		region_state:CLB = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=5
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}
-			create_building={
-				building="building_glassworks"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_leaded_glass" "pm_privately_owned_building_glassworks" "pm_manual_glassblowing" "pm_ceramics" }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
-			}
-		}
-	}
-	s:STATE_CONNECTICUT = {
-		region_state:USA = {
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -1031,59 +839,11 @@ BUILDINGS={
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
 			}
 			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-		}
-	}
-	s:STATE_MASSACHUSETTS = {
-		region_state:USA = {
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}
-			create_building={
-				building="building_construction_sector"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}
-			create_building={
-				building="building_university"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_scholastic_education" }
-			}
-			create_building={
 				building="building_textile_mills"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=3
 					}
 				}
 				reserves=1
@@ -1093,7 +853,7 @@ BUILDINGS={
 				building="building_glassworks"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -1101,21 +861,10 @@ BUILDINGS={
 				activate_production_methods={ "pm_leaded_glass" "pm_ceramics" "pm_manual_glassblowing" "pm_privately_owned_building_glassworks" }
 			}
 			create_building={
-				building="building_shipyards"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding" "pm_merchant_guilds_building_shipyards" }
-			}
-			create_building={
 				building="building_military_shipyards"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -1126,8 +875,8 @@ BUILDINGS={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=4
 					}
 				}
 				reserves=1
@@ -1137,7 +886,7 @@ BUILDINGS={
 				building="building_whaling_station"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -1148,8 +897,8 @@ BUILDINGS={
 				building="building_wheat_farm"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=20
 					}
 				}
 				reserves=1
@@ -1159,8 +908,8 @@ BUILDINGS={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=2
 					}
 				}
 				reserves=1
@@ -1170,45 +919,19 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
-		}
-	}
-	s:STATE_NEW_HAMPSHIRE = {
-		region_state:USA = {
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
-			}
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=6
 					}
 				}
 				reserves=1
@@ -1216,62 +939,14 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_VERMONT = {
-		region_state:USA = {
-			create_building={
-				building="building_food_industry"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" "pm_merchant_guilds_building_food_industry" }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_open_air_stockyards" }
-			}
-		}
-	}
-	s:STATE_MAINE = {
-		region_state:USA = {
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}
+	s:STATE_MAIBEEK = {
+		region_state:CLB = {
 			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=2
 					}
 				}
 				reserves=1
@@ -1281,8 +956,8 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=3
 					}
 				}
 				reserves=1
@@ -1292,7 +967,7 @@ BUILDINGS={
 				building="building_shipyards"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:CLB"
 						levels=1
 					}
 				}
@@ -1303,38 +978,27 @@ BUILDINGS={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:USA"
-						levels=1
+						country="c:CLB"
+						levels=5
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
+		}
+	}
+	s:STATE_NORTH_CAROLINA = {
+		region_state:EIR = {
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:EIR"
 						levels=1
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}
-		}
-	}
-	s:STATE_NORTH_CAROLINA = {
-		region_state:CHE = {
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:CHE"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={  }
 			}
 		}
 	}
@@ -1629,11 +1293,11 @@ BUILDINGS={
 		}
 	}
 	s:STATE_YUKON_TERRITORY = {
-		region_state:ATH = {
+		region_state:SAO = {
 		}
 	}
 	s:STATE_NORTHWEST_TERRITORIES = {
-		region_state:ATH = {
+		region_state:ATB = {
 		}
 	}
 	s:STATE_NUNAVUT = {
@@ -1656,7 +1320,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_TEXAS = {
-		region_state:TEX = {
+		region_state:COM = {
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
@@ -1769,7 +1433,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:YUA"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -1910,17 +1574,17 @@ BUILDINGS={
 		}
 	}
 	s:STATE_SONORA = {
-		region_state:NAH = {
+		region_state:MEX = {
 		}
 	}
 	s:STATE_CHIHUAHUA = {
-		region_state:NAH = {
+		region_state:MEX = {
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:NAH"
-						levels=1
+						country="c:MEX"
+						levels=9
 					}
 				}
 				reserves=1
@@ -1929,13 +1593,13 @@ BUILDINGS={
 		}
 	}
 	s:STATE_RIO_GRANDE = {
-		region_state:NAH = {
+		region_state:MEX = {
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:NAH"
-						levels=1
+						country="c:MEX"
+						levels=10
 					}
 				}
 				reserves=1
@@ -1946,7 +1610,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:NAH"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -1957,7 +1621,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:NAH"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
@@ -1966,13 +1630,13 @@ BUILDINGS={
 		}
 	}
 	s:STATE_DURANGO = {
-		region_state:NAH = {
+		region_state:MEX = {
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:NAH"
-						levels=1
+						country="c:MEX"
+						levels=10
 					}
 				}
 				reserves=1
@@ -1981,13 +1645,13 @@ BUILDINGS={
 		}
 	}
 	s:STATE_SINALOA = {
-		region_state:NAH = {
+		region_state:MEX = {
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:NAH"
-						levels=1
+						country="c:MEX"
+						levels=8
 					}
 				}
 				reserves=1
@@ -1996,13 +1660,13 @@ BUILDINGS={
 		}
 	}
 	s:STATE_YUCATAN = {
-		region_state:NAH = {
+		region_state:MAY = {
 			create_building={
 				building="building_banana_plantation"
 				add_ownership={
 					country={
-						country="c:NAH"
-						levels=1
+						country="c:MAY"
+						levels=5
 					}
 				}
 				reserves=1
@@ -2012,8 +1676,8 @@ BUILDINGS={
 				building="building_sugar_plantation"
 				add_ownership={
 					country={
-						country="c:NAH"
-						levels=1
+						country="c:MAY"
+						levels=5
 					}
 				}
 				reserves=1
@@ -2023,7 +1687,7 @@ BUILDINGS={
 				building="building_chichen_itza"
 				add_ownership={
 					country={
-						country="c:NAH"
+						country="c:MAY"
 						levels=1
 					}
 				}
@@ -2545,7 +2209,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_CHIAPAS = {
-		region_state:NAH = {
+		region_state:MAY = {
 			create_building={
 				building="building_dye_plantation"
 				add_ownership={

@@ -896,8 +896,7 @@ POPS = {
 				size = 10393
 			}
 			create_pop = {
-				culture = afro_brazilian
-				pop_type = slaves
+				culture = ashkenazi
 				size = 6139
 			}
 			create_pop = {
@@ -932,6 +931,22 @@ POPS = {
 				culture = afro_brazilian
 				pop_type = slaves
 				size = 13012
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 13159
+			}
+		}
+	}
+	s:STATE_PARANA = {
+		region_state:UPA = {
+			create_pop = {
+				culture = argente
+				size = 400000
+			}
+			create_pop = {
+				culture = sulista
+				size = 35582
 			}
 			create_pop = {
 				culture = afro_brazilian

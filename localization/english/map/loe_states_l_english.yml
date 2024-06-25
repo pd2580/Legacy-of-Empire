@@ -4,4 +4,5 @@
  STATE_MAIBEEK:0 "Maibeek"
  STATE_ORANJE:0 "Oranje"
  STATE_HOGE_VELUWE:0 "Hoge-Veluwe"
- 
+ STATE_WEST_INDIA:0 "Dutch West India"
+ STATE_NEW_HOLLAND:0 "New Holland"
