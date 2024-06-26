@@ -144,7 +144,7 @@ je_canada_pacific_railway = {
 				state_region = s:STATE_QUEBEC
 			}
 			any_scope_state = {
-				state_region = s:STATE_KOREAN_COLUMBIA
+				state_region = s:STATE_BRITISH_COLUMBIA
 			}
 			any_scope_state = {
 				state_region = s:STATE_ONTARIO
@@ -167,7 +167,7 @@ je_canada_pacific_railway = {
 			state_region = s:STATE_QUEBEC
 		}
 		any_scope_state = {
-			state_region = s:STATE_KOREAN_COLUMBIA
+			state_region = s:STATE_BRITISH_COLUMBIA
 		}
 		any_scope_state = {
 			state_region = s:STATE_ONTARIO
@@ -189,7 +189,7 @@ je_canada_pacific_railway = {
 			has_building = building_railway
 		}
 		any_scope_state = {
-			state_region = s:STATE_KOREAN_COLUMBIA
+			state_region = s:STATE_BRITISH_COLUMBIA
 			has_building = building_railway
 		}
 		any_scope_state = {
