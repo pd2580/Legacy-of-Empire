@@ -172,7 +172,7 @@ le_bohem.5 = {
 	flavor = le_bohem.5.f
 	duration = 1
 	event_image = {
-		video = "unspecific_politicians_arguing"
+		video = "votp_monarch_holding_court"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_military.dds"

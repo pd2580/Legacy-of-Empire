@@ -40,7 +40,7 @@ loe_rusf.2 = {
 	flavor = loe_rusf.2.f
 	duration = 1
 	event_image = {
-		video = "unspecific_signed_contract"
+		video = "votp_agitator_speaking"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
@@ -188,7 +188,7 @@ loe_rusf.4 = {
 	flavor = loe_rusf.4.f
 	duration = 1
 	event_image = {
-		video = "unspecific_ruler_speaking_to_people"
+		video = "votp_hostile_court"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
@@ -243,7 +243,7 @@ loe_rusf.5 = { #vs cossacks
 	flavor = loe_rusf.5.f
 	duration = 1
 	event_image = {
-		video = "europenorthamerica_before_the_battle"
+		video = "ep1_cossacks"
 	}
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_fire.dds"
@@ -404,7 +404,7 @@ loe_rusf.10 = {
 	flavor = loe_rusf.10.f
 	duration = 1
 	event_image = {
-		video = "unspecific_signed_contract"
+		video = "votp_agitators_sneaking"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_map.dds"

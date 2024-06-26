@@ -108,7 +108,7 @@ le_bavaria.4 = {
 	flavor = le_bavaria.4.f
 	duration = 1
 	event_image = {
-		video = "unspecific_ruler_speaking_to_people"
+		video = "votp_hostile_court"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
