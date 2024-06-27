@@ -30,8 +30,17 @@
 			war = yes
 
 			type = dp_make_protectorate
+		}
+	}
+	c:TUR = {
+		create_diplomatic_play = {
+			name = reclaim_kurd
 
+			target_state = s:STATE_DIYARBAKIR.region_state:KUR
 
+			war = yes
+
+			type = dp_annex_war
 		}
 	}
 }
