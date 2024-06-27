@@ -32,10 +32,6 @@
 	s:STATE_KUBAN = {
 		region_state:DON = {
 			create_pop = {
-				culture = circassian
-				size = 328804
-			}
-			create_pop = {
 				culture = north_caucasian
 				size = 218804
 			}
@@ -45,23 +41,11 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 108808
+				size = 1898808
 			}
 			create_pop = {
 				culture = ukrainian
 				size = 212204
-			}
-			create_pop = {
-				culture = mongol
-				size = 4000
-			}
-			create_pop = {
-				culture = circassian
-				size = 531000
-			}
-			create_pop = {
-				culture = north_caucasian
-				size = 32140
 			}
 		}
 	}

@@ -4636,19 +4636,6 @@ UOM = {
 	capital = STATE_MICHIGAN
 	is_named_from_capital = yes
 }
-
-# Circassia
-CIR = {
-	color = { 75 96 55 }
-	
-	country_type = unrecognized
-
-	tier = principality
-	
-	cultures = { circassian }
-	capital = STATE_KUBAN
-}
-
 # Caucasian Imamate / Chechnya
 CHC = {
 	color = { 35 52 48 }

@@ -6335,7 +6335,6 @@ STATES = {
 		
 		add_homeland = cu:russian
 		add_homeland = cu:ukrainian
-		add_homeland = cu:circassian
 		add_homeland = cu:north_caucasian
 		add_claim = c:RUI
 	}
