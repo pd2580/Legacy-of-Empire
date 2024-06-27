@@ -12,7 +12,7 @@
 #		}
 #		if = {
 #			limit = {
-has_dlc_feature = power_bloc_features
+# has_dlc_feature = power_bloc_features
 #			}
 #			power_bloc = {
 #				add_principle = principle_police_coordination_1
@@ -23,7 +23,7 @@ has_dlc_feature = power_bloc_features
 POWER_BLOCS = {
 	c:AMS = {
 		create_power_bloc = {
-			name = Amsterdam
+			name = DUTCH_EMPIRE
 			map_color = {
 				147
 				130
@@ -35,9 +35,32 @@ POWER_BLOCS = {
 			# subjects are automatically part of the bloc
 		}
 	}
+	c:BGY = {
+		create_power_bloc = {
+			name = EAST_FRANKIA
+			map_color = {
+				74 0 25
+			}
+			founding_date = 1724.01.01
+			identity = identity_trade_league
+			principle = principle_internal_trade_1
+		}
+	}
+	c:AQU = {
+		create_power_bloc = {
+			name = WEST_FRANKIA
+			map_color = {
+				18 81 255
+			}
+			founding_date = 1782.01.01
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			member = c:BRI
+		}
+	}
 	c:IST = {
 		create_power_bloc = {
-			name =  HELLENIC LEAGUE
+			name =  HELLENIC_LEAGUE
 			map_color = { 42 103 161 }
 			founding_date = 1834.01.01
 			identity = identity_trade_league

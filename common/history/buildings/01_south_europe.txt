@@ -1,4 +1,4 @@
-BUILDINGS={
+﻿BUILDINGS={
 	s:STATE_LOMBARDY = {
 		region_state:LLO = {
 			create_building={
@@ -2011,7 +2011,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_NAVARRA = {
-		region_state:AQR = {
+		region_state:CAS = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={

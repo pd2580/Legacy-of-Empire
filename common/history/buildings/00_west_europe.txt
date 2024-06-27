@@ -1,4 +1,4 @@
-BUILDINGS={
+﻿BUILDINGS={
 	s:STATE_SVEALAND = {
 		region_state:SCA = {
 			create_building={
@@ -409,7 +409,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_ZEALAND = {
-		region_state:THU = {
+		region_state:DMK = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -2812,11 +2812,11 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=15
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_no_organization" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -3040,7 +3040,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -3051,7 +3051,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -3062,7 +3062,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -3073,7 +3073,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -3084,7 +3084,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -3095,18 +3095,18 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={  }
 			}
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
@@ -3117,7 +3117,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=12
 					}
 				}
 				reserves=1
@@ -3128,7 +3128,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -3139,7 +3139,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -3273,6 +3273,17 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:OCC"
+						levels=7
+					}
+				}
+				reserves=1
+				activate_production_methods={  }
 			}
 			create_building={
 				building="building_coal_mine"
@@ -3419,18 +3430,18 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
 			}
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
@@ -3441,7 +3452,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4048,6 +4059,17 @@ BUILDINGS={
 	s:STATE_BURGUNDY = {
 		region_state:BGY = {
 			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:BGY"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
 					country={
@@ -4118,11 +4140,11 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=8
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -4177,7 +4199,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -4210,7 +4232,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=9
 					}
 				}
 				reserves=1
@@ -4221,7 +4243,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=18
 					}
 				}
 				reserves=1
@@ -4295,11 +4317,22 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+			}
+			create_building={
+				building="building_vineyard_plantation"
+				add_ownership={
+					country={
+						country="c:BGY"
+						levels=6
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_steel_mills"
@@ -4317,7 +4350,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=7
 					}
 				}
 				reserves=1
@@ -4350,7 +4383,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4383,7 +4416,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4394,7 +4427,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
@@ -4414,7 +4447,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_AQUITAINE = {
-		region_state:AQR = {
+		region_state:AQU = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -4666,7 +4699,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=9
 					}
 				}
 				reserves=1
@@ -4677,7 +4710,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1

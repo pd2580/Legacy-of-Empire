@@ -73,7 +73,7 @@
 		}
 	}
 	s:STATE_ZEALAND = {
-		region_state:THU = {
+		region_state:DMK = {
 			create_pop = {
 				culture = danish
 				size = 797996
@@ -918,7 +918,7 @@
 		}
 	}
 	s:STATE_AQUITAINE = {
-		region_state:AQR = {
+		region_state:AQU = {
 			create_pop = {
 				culture = aquitain
 				size = 2463916
