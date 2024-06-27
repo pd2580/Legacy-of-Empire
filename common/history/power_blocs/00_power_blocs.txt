@@ -35,4 +35,20 @@ POWER_BLOCS = {
 			# subjects are automatically part of the bloc
 		}
 	}
+	c:IST = {
+		create_power_bloc = {
+			name =  HELLENIC LEAGUE
+			map_color = { 42 103 161 }
+			founding_date = 1834.01.01
+			identity = identity_trade_league
+			principle = principle_external_trade_1
+			member = c:EPI 
+			member = c:AEG
+			member = c:PEL
+			member = c:HEL
+			member = c:TEO
+			member = c:CRE
+			member = c:CYP
+		}
+	}
 }
