@@ -427,30 +427,35 @@
 		}
 	}
 	s:STATE_EASTERN_THRACE = {
-		region_state:TUR = {
+		region_state:IST = {
 			create_pop = {
 				culture = turkish
-				size = 832996
+				size = 262996
 			}
 			create_pop = {
 				culture = greek
-				size = 281992
+				religion = sunni
+				size = 481992
+			}
+			create_pop = {
+				culture = greek
+				size = 191992
 			}
 			create_pop = {
 				culture = north_roman
-				size = 7996
+				size = 17996
 			}
 			create_pop = {
 				culture = venetian
-				size = 3499
+				size = 13499
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 80004
+				size = 18004
 			}
 			create_pop = {
 				culture = armenian
-				size = 67996
+				size = 98996
 			}
 			create_pop = {
 				culture = sephardic
@@ -465,6 +470,34 @@
 				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 16000
+			}
+		}
+		region_state:MAE = {
+			create_pop = {
+				culture = turkish
+				size = 64833
+			}
+			create_pop = {
+				culture = greek
+				size = 91299
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 29004
+			}
+			create_pop = {
+				culture = armenian
+				size = 9996
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 6000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 3000
 			}
 		}
 	}
@@ -588,18 +621,18 @@
 		}
 	}
 	s:STATE_NORTHERN_THRACE = {
-		region_state:HEL = {
+		region_state:MAE = {
 			create_pop = {
 				culture = turkish
 				size = 273408
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 497600
+				size = 197600
 			}
 			create_pop = {
 				culture = greek
-				size = 40004
+				size = 440004
 			}
 			create_pop = {
 				culture = bulgarian
@@ -678,6 +711,11 @@
 			create_pop = {
 				culture = croat
 				size = 563592
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				size = 20004
 			}
 			create_pop = {
 				culture = hungarian
@@ -809,11 +847,15 @@
 		}
 		region_state:SR1 = {
 			create_pop = {
-				culture = bulgarian
+				culture = serb
 				size = 650000
 			}
 		}
 		region_state:DAN = {
+			create_pop = {
+				culture = serb
+				size = 500000
+			}
 			create_pop = {
 				culture = bulgarian
 				size = 750000
@@ -821,7 +863,7 @@
 		}
 	}
 	s:STATE_CRETE = {
-		region_state:EGY = {
+		region_state:CRE = {
 			create_pop = {
 				culture = turkish
 				size = 59992
@@ -833,7 +875,7 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS = {
-		region_state:HEL = {
+		region_state:AEG = {
 			create_pop = {
 				culture = greek
 				size = 80404
@@ -841,7 +883,7 @@
 		}
 	}
 	s:STATE_EAST_AEGEAN_ISLANDS = {
-		region_state:TUR = {
+		region_state:AEG = {
 			create_pop = {
 				culture = turkish
 				size = 8992
@@ -860,7 +902,17 @@
 		region_state:HEL = {
 			create_pop = {
 				culture = greek
-				size = 637592
+				size = 437592
+			}
+			create_pop = {
+				culture = turkish
+				size = 91640
+			}
+		}
+		region_state:EPI = {
+			create_pop = {
+				culture = greek
+				size = 28929
 			}
 		}
 	}
@@ -868,29 +920,31 @@
 		region_state:HEL = {
 			create_pop = {
 				culture = turkish
-				size = 76208
-			}
-			create_pop = {
-				culture = albanian
-				size = 12000
+				size = 196208
 			}
 			create_pop = {
 				culture = greek
-				size = 935900
+				size = 535900
 			}
-			create_pop = {
-				culture = sephardic
-				size = 3796
-			}
+		}
+		region_state:EPI= {
 			create_pop = {
 				culture = albanian
-				religion = orthodox
-				size = 104000
+				size = 376208
+			}
+			create_pop = {
+				culture = greek
+				religion = sunni
+				size = 235900
+			}
+			create_pop = {
+				culture = greek
+				size = 212954
 			}
 		}
 	}
 	s:STATE_SKOPIA = {
-		region_state:HEL = {
+		region_state:MAE = {
 			create_pop = {
 				culture = turkish
 				size = 157296
@@ -901,11 +955,11 @@
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 384000
+				size = 4000
 			}
 			create_pop = {
 				culture = greek
-				size = 92000
+				size = 492000
 			}
 			create_pop = {
 				culture = albanian
@@ -914,14 +968,14 @@
 		}
 	}
 	s:STATE_MACEDONIA = {
-		region_state:HEL = {
+		region_state:MAE = {
 			create_pop = {
 				culture = turkish
 				size = 84000
 			}
 			create_pop = {
 				culture = greek
-				size = 276000
+				size = 476000
 			}
 			create_pop = {
 				culture = bulgarian
@@ -944,14 +998,14 @@
 		}
 	}
 	s:STATE_WESTERN_THRACE = {
-		region_state:HEL = {
+		region_state:MAE = {
 			create_pop = {
 				culture = turkish
-				size = 274808
+				size = 174808
 			}
 			create_pop = {
 				culture = greek
-				size = 376000
+				size = 576000
 			}
 			create_pop = {
 				culture = bulgarian
@@ -970,14 +1024,14 @@
 		}
 	}
 	s:STATE_IONIAN_ISLANDS = {
-		region_state:HEL = {
+		region_state:EPI = {
 			create_pop = {
 				culture = greek
 				size = 186404
 			}
 			create_pop = {
-				culture = british
-				size = 16
+				culture = south_roman
+				size = 1600
 			}
 			create_pop = {
 				culture = sephardic
@@ -986,10 +1040,10 @@
 		}
 	}
 	s:STATE_PELOPONNESE = {
-		region_state:HEL = {
+		region_state:PEL = {
 			create_pop = {
 				culture = greek
-				size = 221996
+				size = 421996
 			}
 		}
 	}
