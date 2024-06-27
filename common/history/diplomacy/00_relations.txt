@@ -50,6 +50,9 @@
 	c:BUR ?= { 
 		set_relations = { country = c:GBR value = -30 }
 	}
+	c:KOR ?= {
+		set_relations = { country = c:YUA value = 100 }
+	}
 	c:CHI ?= {
 		set_relations = { country = c:TIB value = 30 }
 		set_relations = { country = c:LAN value = 30 }

@@ -206,7 +206,29 @@ je_rusf_main:0 "Political Turmoil"
 je_rusf_main_reason:0 ""
 
 je_rusf_two:0 "Towards Russia"
-je_rusf_two_reason:0 ""
+je_rusf_two_reason:0 "This is but the start of a great revolution in all of Russia;\nIn order to unite the Russian People, we must first get rid of the old feudal system that still infest the russian lands, and replace it with a new republican system."
+je_backward_c:0 "A Backward Country"
+je_backward_c_reason:0 "Great investments and reforms will be needed to bring our nation on par with the other european powers."
 
-je_mis_ind:0 "Send a industrial espionage mission in north Italy"
-je_mis_ind
+je_mis_ind:0 "Industrial Espionage Mission"
+je_mis_ind_reason:0 "The spies have been sent, it will take about 12 months for them to complete their mission and return."
+je_mis_ind_goal:0 "The spies have completed their mission."
+je_mis_mil:0 "Military Espionage Mission"
+je_mis_mil_reason:0 "The spies have been sent, the estimated time for the mission is 13 months, plus the time necessary for them to return to our country."
+je_mis_mil_goal:0 "The spies have found the military projects and have managed to bring them back."
+
+je_ural_rep:0 "Supporting Republican Movements in Ural"
+je_ural_rep_reason:0 "If we directly attack the lords in the east we might risk having them unite to fight us, but if we were to ignite a revolution in every single region, those lords wouldn't be able to do anything to counter us."
+je_ural_rep_goal:0 "The revolution is ready"
+
+je_tobolsk_rep:0 "Supporting Republican Movements in Tobolsk"
+je_tobolsk_rep_reason:0 "If we directly attack the lords in the east we might risk having them unite to fight us, but if we were to ignite a revolution in every single region, those lords wouldn't be able to do anything to counter us."
+je_tobolsk_rep_goal:0 "The revolution is ready"
+
+je_tomsk_rep:0 "Supporting Republican Movements in Tomsk"
+je_tomsk_rep_reason:0 "If we directly attack the lords in the east we might risk having them unite to fight us, but if we were to ignite a revolution in every single region, those lords wouldn't be able to do anything to counter us."
+je_tomsk_rep_goal:0 "The revolution is ready"
+
+je_irk_rep:0 "Supporting Republican Movements in Irkutsk"
+je_irk_rep_reason:0 "If we directly attack the lords in the east we might risk having them unite to fight us, but if we were to ignite a revolution in every single region, those lords wouldn't be able to do anything to counter us."
+je_irk_rep_goal:0 "The revolution is ready"

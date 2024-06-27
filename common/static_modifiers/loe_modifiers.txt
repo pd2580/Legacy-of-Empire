@@ -249,6 +249,8 @@ modifier_yua_base = {
 		icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 		state_migration_pull_add = 20
 		state_migration_pull_mult = 0.25
+		state_migration_quota_mult = 5
+		country_mass_migration_attraction_mult = 2
 		state_colony_growth_speed_mult = 2
 }
 modifier_yua_base_two = {
@@ -327,32 +329,43 @@ modifier_rui_two = {
 }
 modifier_rui_three = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
-	country_expenses_add = 5000
+	country_expenses_add = 3000
 	country_bureaucracy_mult = -0.05
-	goods_input_small_arms_add = 50
+	goods_input_small_arms_add = 1
 }
 modifier_rui_six = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
-	country_expenses_add = 6000
-	goods_input_small_arms_add = 60
+	country_expenses_add = 4000
+	goods_input_small_arms_add = 2
 }
 modifier_rui_seven = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
-	country_expenses_add = 5000
+	country_expenses_add = 4000
 	country_bureaucracy_mult = -0.05
-	goods_input_small_arms_add = 80
+	goods_input_small_arms_add = 2
 }
 modifier_rui_eight = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 	country_expenses_add = 2000
 	country_bureaucracy_mult = -0.05
-	goods_input_small_arms_add = 40
+	goods_input_small_arms_add = 1
 }
 modifier_rui_four = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_coin_negative.dds
-	country_expenses_add = 8000
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 5500
 }
 modifier_rui_five = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-	country_expenses_add = 8000
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 5770
+}
+modifier_rui_nine = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	country_bureaucracy_mult = -0.1
+	country_authority_mult = -0.15
+	state_tax_capacity_mult = -0.1
+	state_conscription_rate_mult = -0.1
+}
+modifier_rui_ten = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_add = 150
 }

@@ -14,5 +14,8 @@ COUNTRIES = {
 		activate_law = law_type:law_professional_army
 
 		add_taxed_goods = g:grain
+		add_modifier = {
+			name = modifier_rui_nine
+		}
 	}
 }
