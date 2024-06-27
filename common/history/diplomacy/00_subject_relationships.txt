@@ -57,6 +57,12 @@
 			type = puppet
 		}
 	}
+	c:KOR ?= {
+		create_diplomatic_pact = {
+			country = c:YUA
+			type = protectorate
+		}
+	}
 	c:AMS ?= {
 		create_diplomatic_pact = {
 			country = c:DMK

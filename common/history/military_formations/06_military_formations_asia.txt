@@ -18,6 +18,25 @@
 			}
 		}
 	}
+	c:KOR = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_manchuria
+			name = "Sichuan Green Standard Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SEOUL
+				count = 40
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_PYONGYANG
+				count = 40
+			}
+		}
+	}
 
 	c:JAV = {
 		create_military_formation = {

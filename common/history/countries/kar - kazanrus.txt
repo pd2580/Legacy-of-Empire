@@ -12,8 +12,17 @@ COUNTRIES = {
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_religious_schools
 
 		add_taxed_goods = g:grain
+
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 1
+		}	
+		add_modifier = {
+			name = modifier_rui_nine
+		}
 
 		trigger_event = {
 			id = loe_rusf.1

@@ -11,7 +11,7 @@ loe_rusf.1 = {
 		video = "europenorthamerica_russian_serfs"
 	}
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 	trigger = {
 	}
 	option = {
@@ -43,7 +43,7 @@ loe_rusf.2 = {
 		video = "votp_agitator_speaking"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	trigger = {
 	}
 	immediate = {
@@ -176,6 +176,9 @@ loe_rusf.3 = {
 		add_journal_entry = {
 			type = je_rusf_two
 		}
+		add_journal_entry = {
+			type = je_backward_c
+		}
 	}
 }
 
@@ -191,7 +194,7 @@ loe_rusf.4 = {
 		video = "votp_hostile_court"
 	}
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	trigger = {
 	}
 	immediate = {
@@ -202,35 +205,45 @@ loe_rusf.4 = {
 	option = {
 		name = loe_rusf.4.a
 		default_option = yes
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_devout
+					is_interest_group_type = ig_landowners
+				}
+			}
 		add_modifier = {
 			name = modifier_rui_two
 			months = normal_modifier_time
 			is_decaying = yes
 		}
+	}
 		add_radicals = {
 			value = medium_radicals
 			pop_type = aristocrats
 		}
-		add_journal_entry = {
-			type = je_bav_nat
-		}
 	}
 	option = {
 		name = loe_rusf.4.b
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_devout
+					is_interest_group_type = ig_landowners
+				}
+			}
 		add_modifier = {
 			name = modifier_rui_one
 			months = normal_modifier_time
 			is_decaying = yes
 		}
+	}
 		add_radicals = {
 			value = very_large_radicals
 			pop_type = aristocrats
 		}
 		scope:ruler_scope = {
 			add_trait = cruel
-		}
-		add_journal_entry = {
-			type = je_bav_nat
 		}
 	}
 }
@@ -274,7 +287,7 @@ loe_rusf.6 = {
 	title = loe_rusf.6.t
 	desc = loe_rusf.6.d
 	flavor = loe_rusf.6.f
-	duration = 1
+	duration = 2
 	event_image = {
 		video = "unspecific_signed_contract"
 	}
@@ -303,7 +316,7 @@ loe_rusf.7 = {
 	title = loe_rusf.7.t
 	desc = loe_rusf.7.d
 	flavor = loe_rusf.7.f
-	duration = 1
+	duration = 0.1
 	event_image = {
 		video = "unspecific_signed_contract"
 	}
@@ -373,7 +386,7 @@ loe_rusf.9 = {
 	title = loe_rusf.9.t
 	desc = loe_rusf.9.d
 	flavor = loe_rusf.9.f
-	duration = 1
+	duration = 2
 	event_image = {
 		video = "unspecific_signed_contract"
 	}
@@ -402,7 +415,7 @@ loe_rusf.10 = {
 	title = loe_rusf.10.t
 	desc = loe_rusf.10.d
 	flavor = loe_rusf.10.f
-	duration = 1
+	duration = 2
 	event_image = {
 		video = "votp_agitators_sneaking"
 	}
@@ -411,8 +424,53 @@ loe_rusf.10 = {
 
 	option = {
 		name = loe_rusf.10.a
+		add_technology_researched = napoleonic_warfare
 		add_technology_researched = general_staff
 		add_technology_researched = percussion_cap
-		add_technology_researched = field_works
+	}
+}
+loe_rusf.11 = {
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.11.t
+	desc = loe_rusf.11.d
+	flavor = loe_rusf.11.f
+	duration = 2
+	event_image = {
+		video = "votp_agitators_sneaking"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	option = {
+		name = loe_rusf.11.a
+		add_technology_researched = lathe
+		add_technology_researched = atmospheric_engine
+		add_technology_researched = mechanical_tools
+		add_technology_researched = railways
+	}
+}
+loe_rusf.12 = {
+	type = country_event
+	placement = ROOT
+	title = loe_rusf.12.t
+	desc = loe_rusf.12.d
+	flavor = loe_rusf.12.f
+	duration = 3
+	event_image = {
+		video = "ep1_power_blocs"
+	}
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	option = {
+		name = loe_rusf.12.a
+		add_modifier = {
+			name = modifier_rui_ten
+		}
+		add_loyalists = {
+			value = 0.3
+			culture = cu:russian
+		}
 	}
 }

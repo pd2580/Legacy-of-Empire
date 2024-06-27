@@ -25,42 +25,14 @@ POWER_BLOCS = {
 		create_power_bloc = {
 			name = Amsterdam
 			map_color = {
-				147 130 110
-			}
-			founding_date = 1834.01.01
-			identity = identity_trade_league
-			principle = principle_internal_trade_1
-			# subjects are automatically part of the bloc
-		}
-		if = {
-			limit = {
-				has_dlc_feature = power_bloc_features
-			}
-			power_bloc = {
-				add_principle = principle_police_coordination_1
-			}
-		}
-	}
-	c:ENG = {
-		create_power_bloc = {
-			name = British
-			map_color = {
 				147
 				130
 				110
 			}
 			founding_date = 1834.01.01
-			identity = identity_trade_league
-			principle = principle_internal_trade_1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
 			# subjects are automatically part of the bloc
-		}
-		if = {
-			limit = {
-				has_dlc_feature = power_bloc_features
-			}
-			power_bloc = {
-				add_principle = principle_police_coordination_1
-			}
 		}
 	}
 }
