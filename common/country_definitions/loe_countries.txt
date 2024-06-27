@@ -908,7 +908,7 @@ FIN = {
 	tier = grand_principality
 	
 	cultures = { finnish }
-	capital = STATE_SOUTHERN_FINLAND
+	capital = STATE_UUSIMAA
 }
 
 NOR = {
@@ -1794,18 +1794,6 @@ ABU = {
 	capital = STATE_ABU_DHABI
 	is_named_from_capital = yes
 }
-
-AFG = {
-	color = { 92  148  152 }
-	
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { pashtun tajik }
-	capital = STATE_EASTERN_AFGHANISTAN
-}
-
 ARM = {
 	color = { 128 63 128 }
 	

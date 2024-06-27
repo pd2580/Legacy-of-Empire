@@ -117,6 +117,23 @@
 			}
 		}
 	}
+	s:STATE_KOLYMA = { #DONE
+		region_state:SIB = {
+			create_pop = {
+				culture = yakut
+				size = 21490
+			}
+			create_pop = {
+				culture = yakut
+				religion = animist
+				size = 15411
+			}
+			create_pop = {
+				culture = siberian
+				size = 3280
+			}
+		}
+	}
 	s:STATE_KAMCHATKA = {
 		region_state:KOR = {
 			create_pop = {
@@ -137,16 +154,11 @@
 				size = 43008
 			}
 			create_pop = {
-				culture = yakut
-				religion = orthodox
-				size = 20196
-			}
-			create_pop = {
 				culture = siberian
 				size = 9400
 			}
 			create_pop = {
-				culture = russian
+				culture = korean
 				size = 12400
 			}
 		}
