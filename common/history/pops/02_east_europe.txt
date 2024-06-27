@@ -6,6 +6,14 @@
 				size = 858808
 			}
 			create_pop = {
+				culture = estonian
+				size = 4000
+			}
+			create_pop = {
+				culture = north_german
+				size = 32000
+			}
+			create_pop = {
 				culture = finnish
 				size = 988000
 			}
@@ -207,6 +215,33 @@
 				size = 9000
 			}
 		}
+		region_state:TEO = {
+			create_pop = {
+				culture = tatar
+				size = 18400
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 11996
+			}
+			create_pop = {
+				culture = greek
+				size = 98996
+			}
+			create_pop = {
+				culture = turkish
+				size = 3996
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 2000
+			}
+			create_pop = {
+				culture = south_roman
+				religion = orthodox
+				size = 39000
+			}
+		}
 	}
 	s:STATE_LUHANSK = {
 		region_state:SAL = {
@@ -326,6 +361,10 @@
 			create_pop = {
 				culture = ukrainian
 				size = 356600
+			}
+			create_pop = {
+				culture = greek
+				size = 4000
 			}
 			create_pop = {
 				culture = russian
@@ -461,6 +500,11 @@
 				culture = north_german
 				religion = catholic
 				size = 228400
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				size = 60000
 			}
 		}
 		region_state:THU = {
@@ -760,6 +804,10 @@
 				size = 160000
 			}
 			create_pop = {
+				culture = slovak
+				size = 40000
+			}
+			create_pop = {
 				culture = serb
 				size = 284196
 			}
@@ -874,6 +922,10 @@
 			create_pop = {
 				culture = romanian
 				size = 60000
+			}
+			create_pop = {
+				culture = south_german
+				size = 40080
 			}
 		}
 	}

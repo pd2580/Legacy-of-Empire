@@ -6,13 +6,22 @@
 				size = 271100
 			}
 			create_pop = {
+				culture = sephardic
+				size = 5200
+			}
+			create_pop = {
+				culture = north_caucasian
+				religion = orthodox
+				size = 72200
+			}
+			create_pop = {
 				culture = azerbaijani
 				religion = sunni
 				size = 32000
 			}
 			create_pop = {
 				culture = russian
-				size = 645500
+				size = 45500
 			}
 			create_pop = {
 				culture = north_caucasian
@@ -23,16 +32,32 @@
 	s:STATE_KUBAN = {
 		region_state:DON = {
 			create_pop = {
+				culture = circassian
+				size = 328804
+			}
+			create_pop = {
 				culture = north_caucasian
 				size = 218804
 			}
 			create_pop = {
+				culture = greek
+				size = 4000
+			}
+			create_pop = {
 				culture = russian
-				size = 1608808
+				size = 108808
 			}
 			create_pop = {
 				culture = ukrainian
 				size = 212204
+			}
+			create_pop = {
+				culture = mongol
+				size = 4000
+			}
+			create_pop = {
+				culture = circassian
+				size = 531000
 			}
 			create_pop = {
 				culture = north_caucasian
@@ -41,18 +66,19 @@
 		}
 	}
 	s:STATE_ARMENIA = {
-		region_state:DON = {
+		region_state:ARM = {
 			create_pop = {
 				culture = armenian
-				size = 180996
-			}
-			create_pop = {
-				culture = russian
-				size = 9588
+				size = 280996
 			}
 			create_pop = {
 				culture = azerbaijani
-				size = 20100
+				religion = sunni
+				size = 5000
+			}
+			create_pop = {
+				culture = azerbaijani
+				size = 2100
 			}
 			create_pop = {
 				culture = kurdish
@@ -63,9 +89,74 @@
 				size = 4000
 			}
 		}
+		region_state:PER = {
+			create_pop = {
+				culture = armenian
+				size = 30996
+			}
+			create_pop = {
+				culture = azerbaijani
+				religion = sunni
+				size = 56000
+			}
+			create_pop = {
+				culture = azerbaijani
+				size = 20100
+			}
+			create_pop = {
+				culture = kurdish
+				size = 8004
+			}
+		}
 	}
 	s:STATE_AZERBAIJAN = {
 		region_state:DON = {
+			create_pop = {
+				culture = azerbaijani
+				size = 22100
+			}
+			create_pop = {
+				culture = sephardic
+				size = 1004
+			}
+			create_pop = {
+				culture = azerbaijani
+				religion = sunni
+				size = 29604
+			}
+			create_pop = {
+				culture = armenian
+				size = 5000
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 97600
+			}
+		}
+		region_state:ARM = {
+			create_pop = {
+				culture = azerbaijani
+				size = 12100
+			}
+			create_pop = {
+				culture = sephardic
+				size = 1004
+			}
+			create_pop = {
+				culture = azerbaijani
+				religion = sunni
+				size = 19604
+			}
+			create_pop = {
+				culture = armenian
+				size = 75000
+			}
+			create_pop = {
+				culture = georgian
+				size = 4000
+			}
+		}
+		region_state:PER = {
 			create_pop = {
 				culture = azerbaijani
 				size = 172100
@@ -81,23 +172,23 @@
 			}
 			create_pop = {
 				culture = armenian
-				size = 55000
+				size = 25000
 			}
 			create_pop = {
 				culture = north_caucasian
-				size = 27600
+				size = 7600
 			}
 			create_pop = {
-				culture = russian
-				size = 396
+				culture = georgian
+				size = 14000
 			}
 		}
 	}
 	s:STATE_GREATER_CAUCASUS = {
-		region_state:DON = {
+		region_state:GEO = {
 			create_pop = {
 				culture = georgian
-				size = 491996
+				size = 991996
 			}
 			create_pop = {
 				culture = sephardic
@@ -120,10 +211,6 @@
 				culture = azerbaijani
 				religion = sunni
 				size = 16004
-			}
-			create_pop = {
-				culture = russian
-				size = 1604
 			}
 		}
 	}

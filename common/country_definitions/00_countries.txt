@@ -263,6 +263,7 @@ IST = {
 
 	cultures = {
 		turkish
+		greek
 	}
 	religion = sunni
 	capital = STATE_EASTERN_THRACE
@@ -273,12 +274,12 @@ MAE = {
 
 	country_type = recognized
 
-	tier = city_state
+	tier = kingdom
 
 	cultures = {
 		greek
 	}
-	religion = sunni
+	religion = orthodox
 	capital = STATE_MACEDONIA
 }
 
@@ -287,13 +288,25 @@ PEL = {
 
 	country_type = recognized
 
-	tier = city_state
+	tier = principality
 
 	cultures = {
 		greek
 	}
-	religion = sunni
+	religion = orthodox
 	capital = STATE_PELOPONNESE
+}
+
+TEO = { #theodoro
+	color = { 99 8 110 }
+
+	country_type = recognized
+	tier = city_state
+	cultures = {
+		greek
+	}
+	religion = orthodox
+	capital = STATE_CRIMEA
 }
 
 AEG = {
@@ -306,8 +319,8 @@ AEG = {
 	cultures = {
 		greek
 	}
-	religion = sunni
-	capital = STATE_WEST_AEGEAN_ISLANDS
+	religion = orthodox
+	capital = STATE_AYDIN
 }
 
 SYN = {
@@ -318,7 +331,8 @@ SYN = {
 	tier = principality
 
 	cultures = {
-		turkish
+		phoenician
+		bedouin
 	}
 	religion = sunni
 	capital = STATE_SYRIA
@@ -390,15 +404,16 @@ SHQ = { ## Shqipëri
 	capital = STATE_ALBANIA
 }
 
-THA = { ## Thrace
+EPI = { ## Epirus
 	color = { 120 16 16 }
 	
 	country_type = recognized
 
 	tier = principality
 	
-	cultures = { turkish }
-	capital = STATE_EASTERN_THRACE
+	religion = sunni
+	cultures = { greek albanian }
+	capital = STATE_THESSALIA
 }
 
 INC = { ## Incan Empire
@@ -1657,7 +1672,8 @@ CYP = {
 
 	tier = principality
 	
-	cultures = { greek }
+	cultures = { phoenician }
+	religion = orthodox
 	capital = STATE_CYPRUS
 	is_named_from_capital = yes
 }
@@ -1741,7 +1757,7 @@ TUR = {
 	tier = empire
 	
 	cultures = { turkish }
-	capital = STATE_EASTERN_THRACE
+	capital = STATE_ANKARA
 }
 
 WAL = {
@@ -3138,7 +3154,7 @@ SAL = {
 
 	tier = grand_principality
 	
-	cultures = { peruvian russian }
+	cultures = { russian }
 	capital = STATE_TARTARIA
 }
 
@@ -4738,7 +4754,7 @@ CAU = {
 }
 
 LLO = {
-	color = { 4 59 2 }
+	color = { 90 160 100 }
 	
 	country_type = recognized
 
