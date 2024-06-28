@@ -4252,12 +4252,12 @@
 		}
 	}
 	s:STATE_FRANCHE_COMTE = {
-		region_state:HEV = {
+		region_state:CMT = {
 			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
 					country={
-						country="c:HEV"
+						country="c:CMT"
 						levels=1
 					}
 				}
@@ -4268,7 +4268,7 @@
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:HEV"
+						country="c:CMT"
 						levels=1
 					}
 				}
@@ -4279,7 +4279,7 @@
 				building="building_iron_mine"
 				add_ownership={
 					country={
-						country="c:HEV"
+						country="c:CMT"
 						levels=1
 					}
 				}
@@ -4290,7 +4290,7 @@
 				building="building_wheat_farm"
 				add_ownership={
 					country={
-						country="c:HEV"
+						country="c:CMT"
 						levels=1
 					}
 				}
@@ -4301,7 +4301,7 @@
 				building="building_vineyard_plantation"
 				add_ownership={
 					country={
-						country="c:HEV"
+						country="c:CMT"
 						levels=1
 					}
 				}
@@ -4736,7 +4736,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=15
 					}
 				}
 				reserves=1
@@ -4747,7 +4747,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4791,7 +4791,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4835,7 +4835,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -4846,7 +4846,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4857,18 +4857,18 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_merchant_guilds_building_food_industry" "pm_manual_dough_processing" "pm_disabled_distillery" }
+				activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_merchant_guilds_building_food_industry" "pm_manual_dough_processing" "pm_pot_stills" }
 			}
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=18
 					}
 				}
 				reserves=1
@@ -4879,7 +4879,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=8
 					}
 				}
 				reserves=1
@@ -4901,29 +4901,18 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
 			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:AMS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4934,7 +4923,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=6
 					}
 				}
 				reserves=1
@@ -4956,7 +4945,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5309,11 +5298,11 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=6
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_no_organization" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
 				building="building_steel_mills"
@@ -5386,7 +5375,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=6
 					}
 				}
 				reserves=1
@@ -5441,7 +5430,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -5456,7 +5445,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=8
 					}
 				}
 				reserves=1
@@ -5467,7 +5456,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5511,7 +5500,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -5533,7 +5522,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -5544,7 +5533,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5555,7 +5544,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -5577,7 +5566,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=6
 					}
 				}
 				reserves=1
@@ -5588,7 +5577,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5599,7 +5588,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1

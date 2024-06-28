@@ -111,7 +111,7 @@
 		}
 	}
 	s:STATE_SAVOY = {
-		region_state:HEV = {
+		region_state:SAV = {
 			create_pop = {
 				culture = burgundian
 				size = 92032

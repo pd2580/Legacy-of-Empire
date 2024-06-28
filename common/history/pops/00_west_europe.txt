@@ -876,7 +876,7 @@
 		}
 	}
 	s:STATE_FRANCHE_COMTE = {
-		region_state:HEV = {
+		region_state:CMT = {
 			create_pop = {
 				culture = burgundian
 				size = 770731

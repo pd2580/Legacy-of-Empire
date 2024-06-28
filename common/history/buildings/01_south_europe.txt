@@ -887,12 +887,12 @@
 		}
 	}
 	s:STATE_SAVOY = {
-		region_state:HEV = {
+		region_state:SAV = {
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					country={
-						country="c:HEV"
+						country="c:SAV"
 						levels=1
 					}
 				}
@@ -903,7 +903,7 @@
 				building="building_vineyard_plantation"
 				add_ownership={
 					country={
-						country="c:HEV"
+						country="c:SAV"
 						levels=1
 					}
 				}
@@ -914,7 +914,7 @@
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:HEV"
+						country="c:SAV"
 						levels=1
 					}
 				}
@@ -925,7 +925,7 @@
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:HEV"
+						country="c:SAV"
 						levels=1
 					}
 				}
@@ -936,7 +936,7 @@
 				building="building_arms_industry"
 				add_ownership={
 					country={
-						country="c:HEV"
+						country="c:SAV"
 						levels=1
 					}
 				}

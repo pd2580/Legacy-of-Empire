@@ -8,6 +8,29 @@
 	cultures = { russian }
 	capital = STATE_MOSCOW
 }
+
+SAV = { ## Savoy
+	color = { 131 145 214 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_italian francoprovencal }
+	capital = STATE_SAVOY
+}
+
+CMT = { ## Comte
+	color = { 113 222 180 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_italian francoprovencal }
+	capital = STATE_FRANCHE_COMTE
+}
+
 GRO = {
 	color = { 147 130 110 }
 	

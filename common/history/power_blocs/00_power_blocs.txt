@@ -44,6 +44,8 @@ POWER_BLOCS = {
 			founding_date = 1724.01.01
 			identity = identity_trade_league
 			principle = principle_internal_trade_1
+			member = c:SAV
+			member = c:CMT
 		}
 	}
 	c:AQU = {

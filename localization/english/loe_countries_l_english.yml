@@ -1,6 +1,8 @@
 ﻿l_english:
  HRE:0 "Carolingian Empire"
  HRE_ADJ:0 "Frankish"
+ CMT:0 "Comte"
+ CMT_ADJ:0 "Comte"
  AMS:0 "Amsterdam"
  AMS_ADJ:0 "Dutch"
  GRO:0 "German Confederation"
