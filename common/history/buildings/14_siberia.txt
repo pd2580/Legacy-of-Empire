@@ -65,7 +65,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_OKHOTSK = {
-		region_state:SIB = {
+		region_state:KOR = {
 		}
 	}
 	s:STATE_YAKUTSK = {
@@ -77,7 +77,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_IRKUTSK = {
-		region_state:PMA = {
+		region_state:SIB = {
 		}
 	}
 }

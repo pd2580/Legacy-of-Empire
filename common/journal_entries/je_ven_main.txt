@@ -145,7 +145,7 @@ je_venice_black = {
 		OR = {
 			owns_treaty_port_in = STATE_ROSTOV
 			owns_treaty_port_in = STATE_KUBAN
-			owns_treaty_port_in = STATE_LUHANSK
+			owns_treaty_port_in = STATE_TAURIDA
 		}
 		OR = {
 			owns_entire_state_region = STATE_EASTERN_THRACE

@@ -83,6 +83,23 @@ STATE_AZERBAIJAN = {
     }
 }
 
+STATE_ELIZAVETPOL = {
+    #done
+    id = 833
+    subsistence_building = "building_subsistence_pastures"
+    provinces = { "x0E70E4" "x2F7A57" "x404F5B" "x747318" "x809040" "x8090BF" "x80D041" "x9195D4" "xB7DDE5" "xDFB2B0" "xEE1A87" }
+    city = "x80D041"
+    farm = "xEE1A87"
+    mine = "xDFB2B0"
+    wood = "x2F7A57"
+    arable_land = 35
+    arable_resources = { "bg_livestock_ranches" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_iron_mining = 10
+        bg_logging = 12
+    }
+}
+
 STATE_GREATER_CAUCASUS = {
     id = 437
     subsistence_building = "building_subsistence_farms"
@@ -115,7 +132,7 @@ STATE_SAMARA = {
     farm = "xE9B9FB"
     mine = "x51CA06"
     wood = "x1C1FB7"
-    arable_land = 95
+    arable_land = 155
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 30
@@ -139,7 +156,7 @@ STATE_TARTARIA = {
     farm = "x108711"
     mine = "xB9D801"
     wood = "x85FB7E"
-    arable_land = 90
+    arable_land = 130
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 16
@@ -160,7 +177,7 @@ STATE_ASTRAKHAN = {
     farm = "xD559DF"
     mine = "xD4CB58"
     wood = "x176C7A"
-    arable_land = 45
+    arable_land = 85
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_tobacco_plantations" }
     capped_resources = {
         bg_logging = 6

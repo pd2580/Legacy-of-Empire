@@ -1640,12 +1640,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_KARS = {
-		region_state:TUR = {
+		region_state:GEO = {
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:TUR"
+						country="c:GEO"
 						levels=1
 					}
 				}
@@ -1656,7 +1656,7 @@ BUILDINGS={
 				building="building_tea_plantation"
 				add_ownership={
 					country={
-						country="c:TUR"
+						country="c:GEO"
 						levels=1
 					}
 				}
@@ -1667,7 +1667,7 @@ BUILDINGS={
 				building="building_wheat_farm"
 				add_ownership={
 					country={
-						country="c:TUR"
+						country="c:GEO"
 						levels=1
 					}
 				}
@@ -1675,7 +1675,7 @@ BUILDINGS={
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
-		region_state:RUS = {
+		region_state:ARM = {
 		}
 	}
 	s:STATE_ANKARA = {

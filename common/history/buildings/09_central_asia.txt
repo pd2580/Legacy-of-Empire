@@ -7,7 +7,7 @@
 					building={
 						type="building_manor_house"
 						country="c:DON"
-						levels=1
+						levels=6
 						region="STATE_DAGESTAN"
 					}
 				}
@@ -20,7 +20,7 @@
 					building={
 						type="building_manor_house"
 						country="c:DON"
-						levels=1
+						levels=3
 						region="STATE_DAGESTAN"
 					}
 				}
@@ -41,34 +41,6 @@
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
 		}
-		region_state:CHC={
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:CHC"
-						levels=1
-						region="STATE_DAGESTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:CHC"
-						levels=1
-						region="STATE_DAGESTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
-			}
-		}
 	}
 	s:STATE_KUBAN={
 		region_state:DON={
@@ -78,7 +50,7 @@
 					building={
 						type="building_manor_house"
 						country="c:DON"
-						levels=1
+						levels=19
 						region="STATE_KUBAN"
 					}
 				}
@@ -104,35 +76,7 @@
 					building={
 						type="building_manor_house"
 						country="c:DON"
-						levels=1
-						region="STATE_KUBAN"
-		}
-				}
-				reserves=1
-				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-		}
-		region_state:CIR={
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:CIR"
-						levels=2
-						region="STATE_KUBAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_no_secondary" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:CIR"
-						levels=1
+						levels=4
 						region="STATE_KUBAN"
 					}
 				}
@@ -143,7 +87,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:CIR"
+						country="c:DON"
 						levels=1
 					}
 				}
@@ -153,13 +97,13 @@
 		}
 	}
 	s:STATE_ARMENIA={
-		region_state:DON={
+		region_state:ARM={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:DON"
+						country="c:ARM"
 						levels=2
 						region="STATE_ARMENIA"
 					}
@@ -198,6 +142,34 @@
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
 		}
+		region_state:PER = {
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:PER"
+						levels=9
+						region="STATE_AZERBAIJAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:PER"
+						levels=5
+						region="STATE_AZERBAIJAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
+			}
+		}
 	}
 	s:STATE_GREATER_CAUCASUS={
 		region_state:DON={
@@ -217,12 +189,12 @@
 		}
 	}
 	s:STATE_SAMARA={
-		region_state:PAC={
+		region_state:POC={
 			create_building={
 				building="building_arms_industry"
 				add_ownership={
 					country={
-						country="c:PAC"
+						country="c:POC"
 						levels=1
 					}
 				}
@@ -234,9 +206,9 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:PAC"
+						country="c:POC"
 						levels=2
-						region="STATE_INGRIA"
+						region="STATE_SAMARA"
 					}
 				}
 				reserves=1
@@ -247,9 +219,9 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:PAC"
-						levels=6
-						region="STATE_INGRIA"
+						country="c:POC"
+						levels=18
+						region="STATE_SAMARA"
 					}
 				}
 				reserves=1
@@ -260,7 +232,7 @@
 				add_ownership={
 					building={
 						type="building_iron_mine"
-						country="c:PAC"
+						country="c:POC"
 						levels=2
 						region="STATE_SAMARA"
 					}
@@ -273,15 +245,15 @@
 		}
 	}
 	s:STATE_TARTARIA={
-		region_state:DON={
+		region_state:SAL={
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:DON"
+						country="c:SAL"
 						levels=8
-						region="STATE_INGRIA"
+						region="STATE_TARTARIA"
 					}
 				}
 				reserves=1
@@ -292,9 +264,9 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:DON"
+						country="c:SAL"
 						levels=5
-						region="STATE_INGRIA"
+						region="STATE_TARTARIA"
 					}
 				}
 				reserves=1
@@ -310,7 +282,7 @@
 					building={
 						type="building_manor_house"
 						country="c:DON"
-						levels=1
+						levels=5
 						region="STATE_INGRIA"
 					}
 				}
@@ -476,7 +448,7 @@
 					building={
 						type="building_manor_house"
 						country="c:XIN"
-						levels=1
+						levels=2
 						region="STATE_KIRGHIZIA"
 					}
 				}
@@ -485,36 +457,7 @@
 			}
 		}
 	}
-	s:STATE_JETISY={
-		region_state:XIN={
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:XIN"
-						levels=1
-						region="STATE_JETISY"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:XIN"
-						levels=1
-						region="STATE_JETISY"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
-			}
-		}
-	}
+
 	s:STATE_TURKMENIA={
 		region_state:KHI={
 			create_building={

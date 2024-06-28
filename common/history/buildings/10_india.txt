@@ -1096,20 +1096,116 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_RAJPUTANA = {
-		region_state:PAN = {
+	s:STATE_RAJPUTANA={
+		region_state:BIK={
 			create_building={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:PAN"
-						levels=1
+						country="c:BIK"
+						levels=10
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
+		region_state:JAS={
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:JAS"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+		}
+		region_state:MEW={
+			create_building={
+				building="building_opium_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:MEW"
+						levels=4
+						region="STATE_RAJPUTANA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:MEW"
+						levels=15
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+		}
+		region_state:JOD={
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:JOD"
+						levels=15
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+		}
+		region_state:JAI={
+			create_building={
+				building="building_textile_mills"
+				add_ownership={
+					building={
+						type="building_textile_mills"
+						country="c:JAI"
+						levels=1
+						region="STATE_RAJPUTANA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_craftsman_sewing" }
+			}
+			create_building={
+				building="building_opium_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:JAI"
+						levels=2
+						region="STATE_RAJPUTANA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:JAI"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+			create_building={
+				building="building_taj_mahal"
+				level=1
+			}
+		}
+	}
 		region_state:MAR = {
 			create_building={
 				building="building_textile_mills"

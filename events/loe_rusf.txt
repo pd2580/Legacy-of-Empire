@@ -72,13 +72,31 @@ loe_rusf.2 = {
 			s:STATE_GALICH = {
 				add_claim = c:RUI
 			}
-			s:STATE_TVER = {
-				add_claim = c:RUI
-			}
 			s:STATE_ARKHANGELSK = {
 				add_claim = c:RUI
 			}
 			s:STATE_NENETSIA = {
+				add_claim = c:RUI
+			}
+			s:STATE_TAMBOV = {
+				add_claim = c:RUI
+			}
+			s:STATE_RYAZAN = {
+				add_claim = c:RUI
+			}
+			s:STATE_YAROSLAV = {
+				add_claim = c:RUI
+			}
+			s:STATE_TVER = {
+				add_claim = c:RUI
+			}
+			s:STATE_NOVGOROD = {
+				add_claim = c:RUI
+			}
+			s:STATE_INGRIA = {
+				add_claim = c:RUI
+			}
+			s:STATE_SURGUT = {
 				add_claim = c:RUI
 			}
 			s:STATE_URAL = {
@@ -96,7 +114,7 @@ loe_rusf.2 = {
 			s:STATE_TOMSK = {
 				add_claim = c:RUI
 			}
-			s:STATE_IRKUTSK = {
+			s:STATE_KRASNOYARSK = {
 				add_claim = c:RUI
 			}
 		}
@@ -165,6 +183,12 @@ loe_rusf.3 = {
 			culture = cu:russian
 		}
 		s:STATE_PERM = {
+			add_claim = c:RUK
+		}
+		s:STATE_UFA = {
+			add_claim = c:RUK
+		}
+		s:STATE_VYATKA = {
 			add_claim = c:RUK
 		}
 		s:STATE_SAMARA = {
@@ -373,6 +397,12 @@ loe_rusf.8 = {
 			}
 			random_state = {
 				limit = {
+					state_region = s:STATE_SURGUT
+				}
+				set_state_owner = ROOT
+			}
+			random_state = {
+				limit = {
 					state_region = s:STATE_UPPER_YENISEYSK
 				}
 				set_state_owner = ROOT
@@ -402,7 +432,7 @@ loe_rusf.9 = {
 		hidden_effect = {
 			random_state = {
 				limit = {
-					state_region = s:STATE_IRKUTSK
+					state_region = s:STATE_KRASNOYARSK
 				}
 				set_state_owner = ROOT
 			}

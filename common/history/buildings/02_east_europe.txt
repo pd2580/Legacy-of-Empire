@@ -195,88 +195,14 @@ BUILDINGS={
 			}
 		}
 	}
-	s:STATE_CRIMEA = {
-		region_state:RUS = {
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-		}
-	}
-	s:STATE_LUHANSK = {
-		region_state:EST = {
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					country={
-						country="c:EST"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={
-					country={
-						country="c:EST"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_vineyard_plantation"
-				add_ownership={
-					country={
-						country="c:EST"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					country={
-						country="c:EST"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
-			}
-		}
-	}
 	s:STATE_KURSK = {
-		region_state:EST = {
+		region_state:SAL = {
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
 					country={
-						country="c:EST"
-						levels=1
+						country="c:SAL"
+						levels=7
 					}
 				}
 				reserves=1
@@ -286,8 +212,8 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:EST"
-						levels=1
+						country="c:SAL"
+						levels=5
 					}
 				}
 				reserves=1
@@ -410,80 +336,6 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled" "pm_privately_owned" }
-			}
-		}
-	}
-	s:STATE_ROSTOV = {
-		region_state:DON = {
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					country={
-						country="c:DON"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					country={
-						country="c:DON"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
-			}
-			create_building={
-				building="building_shipyards"
-				add_ownership={
-					country={
-						country="c:DON"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding" "pm_merchant_guilds_building_shipyards" }
-			}
-			create_building={
-				building="building_military_shipyards"
-				add_ownership={
-					country={
-						country="c:DON"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_merchant_guilds_building_military_shipyards" "pm_military_shipbuilding_wooden" }
-			}
-		}
-	}
-	s:STATE_PERM = {
-		region_state:DPR = {
-			create_building={
-				building="building_iron_mine"
-				add_ownership={
-					country={
-						country="c:DPR"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					country={
-						country="c:DPR"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
 		}
 	}

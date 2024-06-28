@@ -639,4 +639,43 @@
 			save_scope_as = yuan_army
 		}
 	}
+	c:FIN = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_finland
+			name = "Royal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_OSTROBOTHNIA
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_OULU
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_OULU
+				count = 10
+			}
+			save_scope_as = 1st_finnish_army
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_finland
+			name = "1st Finnish Fleet"
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_OSTROBOTHNIA
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_OULU
+				count = 15
+			}
+			save_scope_as = 1st_finnish_fleet
+		}
+	}
 }
