@@ -54,7 +54,7 @@
 	c:FIN ?= {
 		create_diplomatic_pact = {
 			country = c:SAM
-			type = puppet
+			type = dominion
 		}
 	}
 	c:KOR ?= {

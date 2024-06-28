@@ -1,4 +1,4 @@
-BUILDINGS={
+﻿BUILDINGS={
 	s:STATE_SVEALAND = {
 		region_state:SCA = {
 			create_building={
@@ -409,12 +409,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_ZEALAND = {
-		region_state:THU = {
+		region_state:DMK = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:THU"
+						country="c:DMK"
 						levels=1
 					}
 				}
@@ -425,7 +425,7 @@ BUILDINGS={
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:THU"
+						country="c:DMK"
 						levels=1
 					}
 				}
@@ -436,7 +436,7 @@ BUILDINGS={
 				building="building_shipyards"
 				add_ownership={
 					country={
-						country="c:THU"
+						country="c:DMK"
 						levels=1
 					}
 				}
@@ -447,7 +447,7 @@ BUILDINGS={
 				building="building_military_shipyards"
 				add_ownership={
 					country={
-						country="c:THU"
+						country="c:DMK"
 						levels=1
 					}
 				}
@@ -458,7 +458,7 @@ BUILDINGS={
 				building="building_textile_mills"
 				add_ownership={
 					country={
-						country="c:THU"
+						country="c:DMK"
 						levels=1
 					}
 				}
@@ -469,8 +469,8 @@ BUILDINGS={
 				building="building_rye_farm"
 				add_ownership={
 					country={
-						country="c:THU"
-						levels=1
+						country="c:DMK"
+						levels=5
 					}
 				}
 				reserves=1
@@ -480,8 +480,8 @@ BUILDINGS={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:THU"
-						levels=1
+						country="c:DMK"
+						levels=2
 					}
 				}
 				reserves=1
@@ -491,8 +491,8 @@ BUILDINGS={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:THU"
-						levels=1
+						country="c:DMK"
+						levels=2
 					}
 				}
 				reserves=1
@@ -502,7 +502,7 @@ BUILDINGS={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:THU"
+						country="c:DMK"
 						levels=1
 					}
 				}
@@ -513,7 +513,7 @@ BUILDINGS={
 				building="building_arms_industry"
 				add_ownership={
 					country={
-						country="c:THU"
+						country="c:DMK"
 						levels=1
 					}
 				}
@@ -524,8 +524,8 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:THU"
-						levels=1
+						country="c:DMK"
+						levels=3
 					}
 				}
 				reserves=1
@@ -535,8 +535,8 @@ BUILDINGS={
 				building="building_tooling_workshops"
 				add_ownership={
 					country={
-						country="c:THU"
-						levels=1
+						country="c:DMK"
+						levels=2
 					}
 				}
 				reserves=1

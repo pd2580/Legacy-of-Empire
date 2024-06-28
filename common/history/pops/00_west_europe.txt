@@ -69,7 +69,7 @@
 		}
 	}
 	s:STATE_ZEALAND = {
-		region_state:THU = {
+		region_state:DMK = {
 			create_pop = {
 				culture = danish
 				size = 797996
