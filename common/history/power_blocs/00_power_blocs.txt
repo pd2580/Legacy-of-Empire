@@ -37,7 +37,7 @@ POWER_BLOCS = {
 	}
 	c:IST = {
 		create_power_bloc = {
-			name =  HELLENIC LEAGUE
+			name =  HELLENIC_LEAGUE
 			map_color = { 42 103 161 }
 			founding_date = 1834.01.01
 			identity = identity_trade_league
