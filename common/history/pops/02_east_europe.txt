@@ -1,29 +1,9 @@
 ﻿POPS = {
-	s:STATE_INGRIA = {
-		region_state:FIN = {
-			create_pop = {
-				culture = russian
-				size = 858808
-			}
-			create_pop = {
-				culture = estonian
-				size = 4000
-			}
-			create_pop = {
-				culture = north_german
-				size = 32000
-			}
-			create_pop = {
-				culture = finnish
-				size = 988000
-			}
-		}
-	}
 	s:STATE_MOSCOW = {
 		region_state:SMO = {
 			create_pop = {
 				culture = russian
-				size = 4682734
+				size = 3182734
 			}
 		}
 	}
@@ -109,6 +89,22 @@
 			}
 		}
 	}
+	s:STATE_ORYOL = {
+		region_state:SMO = {
+			create_pop = {
+				culture = russian
+				size = 3327590
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 23410
+			}
+			create_pop = {
+				culture = polish
+				size = 5122
+			}
+		}
+	}
 	s:STATE_SMOLENSK = {
 		region_state:SMO = {
 			create_pop = {
@@ -120,8 +116,7 @@
 				size = 1996
 			}
 			create_pop = {
-				culture = ugrian
-				religion = orthodox
+				culture = polish
 				size = 84000
 			}
 		}
@@ -150,40 +145,14 @@
 			}
 		}
 	}
-	s:STATE_EAST_KARELIA = {
-		region_state:FIN = {
+	s:STATE_TVER = {
+		region_state:SMO = {
 			create_pop = {
 				culture = russian
-				size = 402996
+				size = 1339596
 			}
 			create_pop = {
 				culture = finnish
-				size = 957200
-			}
-		}
-	}
-	s:STATE_ARKHANGELSK = {
-		region_state:FIN = {
-			create_pop = {
-				culture = russian
-				size = 144388
-			}
-			create_pop = {
-				culture = ugrian
-				religion = orthodox
-				size = 15996
-			}
-		}
-	}
-	s:STATE_TVER = {
-		region_state:FIN = {
-			create_pop = {
-				culture = russian
-				size = 2339596
-			}
-			create_pop = {
-				culture = ugrian
-				religion = orthodox
 				size = 59996
 			}
 		}
@@ -259,18 +228,6 @@
 			}
 		}
 	}
-	s:STATE_NOVGOROD = {
-		region_state:FIN = {
-			create_pop = {
-				culture = russian
-				size = 802804
-			}
-			create_pop = {
-				culture = finnish
-				size = 1276847
-			}
-		}
-	}
 	s:STATE_CHERSON = {
 		region_state:PLE = {
 			create_pop = {
@@ -312,19 +269,6 @@
 			create_pop = {
 				culture = bulgarian
 				size = 12000
-			}
-		}
-	}
-	s:STATE_GALICH = {
-		region_state:FIN = {
-			create_pop = {
-				culture = russian
-				size = 1071996
-			}
-			create_pop = {
-				culture = ugrian
-				religion = orthodox
-				size = 23996
 			}
 		}
 	}

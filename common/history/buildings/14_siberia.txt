@@ -45,10 +45,6 @@ BUILDINGS={
 		region_state:PMA = {
 		}
 	}
-	s:STATE_NENETSIA = {
-		region_state:FIN = {
-		}
-	}
 	s:STATE_CHUKOTKA = {
 		region_state:SIB = {
 		}

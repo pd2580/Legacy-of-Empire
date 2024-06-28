@@ -88,18 +88,6 @@
 			}
 		}
 	}
-	s:STATE_NENETSIA = {
-		region_state:FIN = {
-			create_pop = {
-				culture = russian
-				size = 20204
-			}
-			create_pop = {
-				culture = ugrian
-				size = 16000
-			}
-		}
-	}
 
 	s:STATE_CHUKOTKA = {
 		region_state:SIB = {
