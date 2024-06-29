@@ -678,6 +678,24 @@
 			save_scope_as = 1st_finnish_fleet
 		}
 	}
+	c:NOV = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_russia
+			name = "Royal Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NOVGOROD
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_NOVGOROD
+				count = 10
+			}
+			save_scope_as = 1st_NOVGOROD_army
+		}
+	}
 	c:DPR = {
 		create_military_formation = {
 			type = army

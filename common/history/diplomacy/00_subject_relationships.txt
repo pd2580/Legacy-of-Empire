@@ -56,6 +56,10 @@
 			country = c:SAM
 			type = dominion
 		}
+		create_diplomatic_pact = {
+			country = c:NOV
+			type = personal_union
+		}
 	}
 	c:KOR ?= {
 		create_diplomatic_pact = {

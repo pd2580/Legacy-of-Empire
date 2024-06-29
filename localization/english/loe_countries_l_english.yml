@@ -181,3 +181,6 @@
  dyn_rui:0 "Kingdom of Russia"
  RUK:0 "Russian Republic of Kazan"
  RUK_ADJ:0 "Russian"
+ dyn_fin_mon:0 "Kingdom of Finland"
+ NOV:0 "Novgorod"
+ NOV_ADJ:0 "Novgorod"

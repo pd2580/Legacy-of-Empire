@@ -3,7 +3,7 @@
 		region_state:SCA = {
 			create_pop = {
 				culture = swedish
-				size = 4781208
+				size = 3281208
 			}
 			create_pop = {
 				culture = finnish

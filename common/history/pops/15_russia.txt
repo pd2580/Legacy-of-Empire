@@ -287,19 +287,19 @@
 	}
 
 	s:STATE_NENETSIA = { #DONE
-		region_state:FIN = {
+		region_state:NOV = {
 			create_pop = {
 				culture = russian
 				size = 17170
 			}
 			create_pop = {
 				culture = finnish
-				size = 13904
+				size = 3904
 			}
 		}
 	}
 	s:STATE_ARKHANGELSK = { #DONE
-		region_state:FIN = {
+		region_state:NOV = {
 			create_pop = {
 				culture = russian
 				size = 538520
@@ -311,14 +311,14 @@
 		}
 	}
 	s:STATE_GALICH = { #DONE
-		region_state:FIN = {
+		region_state:NOV = {
 			create_pop = {
 				culture = russian
 				size = 982176
 			}
 			create_pop = {
 				culture = finnish
-				size = 34328
+				size = 4328
 			}
 		}
 	}
@@ -724,7 +724,7 @@
 		}
 	}
 	s:STATE_NOVGOROD = {
-		region_state:FIN = {
+		region_state:NOV = {
 			create_pop = {
 				culture = finnish
 				size = 432715

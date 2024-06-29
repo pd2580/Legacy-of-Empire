@@ -515,17 +515,6 @@
 	s:STATE_WEST_KARELIA={
 		region_state:FIN={
 			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:FIN"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
-			}
-			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
@@ -747,7 +736,7 @@
 				add_ownership={
 					country={
 						country="c:FIN"
-						levels=6
+						levels=1
 					}
 				}
 				reserves=1
@@ -1245,13 +1234,13 @@
 		}
 	}
 	s:STATE_ARKHANGELSK={
-		region_state:FIN={
+		region_state:NOV={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:FIN"
+						country="c:NOV"
 						levels=3
 						region="STATE_ARKHANGELSK"
 					}
@@ -1264,7 +1253,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:FIN"
+						country="c:NOV"
 						levels=6
 						region="STATE_ARKHANGELSK"
 					}
@@ -1276,7 +1265,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:NOV"
 						levels=1
 					}
 				}
@@ -1286,7 +1275,7 @@
 		}
 	}
 	s:STATE_NOVGOROD = {
-		region_state:FIN = {
+		region_state:NOV = {
 			create_building={
 				building="building_paper_mills"
 				add_ownership={
@@ -1298,12 +1287,22 @@
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
 			}
-
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:NOV"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			}
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:FIN"
+						country="c:NOV"
 						levels=2
 					}
 				}
@@ -1521,13 +1520,13 @@
 		}
 	}
 	s:STATE_GALICH={
-		region_state:FIN={
+		region_state:NOV={
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:FIN"
+						country="c:NOV"
 						levels=3
 						region="STATE_GALICH"
 					}
@@ -1540,7 +1539,7 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:FIN"
+						country="c:NOV"
 						levels=2
 						region="STATE_GALICH"
 					}
@@ -2610,7 +2609,7 @@
 		}
 	}
 	s:STATE_NENETSIA={
-		region_state:FIN={
+		region_state:NOV={
 		}
 	}
 }
