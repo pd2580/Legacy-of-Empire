@@ -10716,7 +10716,7 @@ ICI = { # Imperial Church of Italia
 	}	
 }
 
-AEF = { # Anointed Kingdom of West Frankia
+AEF = { # Anointed Kingdom of east Frankia
 	flag_definition = {
 		coa = AEF
 		subject_canton = AEF

@@ -931,7 +931,7 @@ FIN = {
 	tier = grand_principality
 	
 	cultures = { finnish }
-	capital = STATE_SOUTHERN_FINLAND
+	capital = STATE_UUSIMAA
 }
 
 NOR = {
@@ -1524,7 +1524,7 @@ EST = {
 	tier = principality
 	
 	cultures = { dixie russian }
-	capital = STATE_ESTONIA
+	capital = STATE_MAZOVIA
 	is_named_from_capital = yes
 }
 
@@ -1547,7 +1547,6 @@ LIT = {
 	tier = principality
 	
 	cultures = { lithuanian }	
-	capital = STATE_LITHUANIA
 	is_named_from_capital = yes
 }
 
@@ -1559,7 +1558,7 @@ LAT = {
 	tier = principality
 	
 	cultures = { latvian }	
-	capital = STATE_LATVIA
+	capital = STATE_MAZOVIA
 	is_named_from_capital = yes
 }
 
@@ -1817,18 +1816,6 @@ ABU = {
 	capital = STATE_ABU_DHABI
 	is_named_from_capital = yes
 }
-
-AFG = {
-	color = { 92  148  152 }
-	
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { pashtun tajik }
-	capital = STATE_EASTERN_AFGHANISTAN
-}
-
 ARM = {
 	color = { 128 63 128 }
 	
@@ -3156,7 +3143,7 @@ UBD = {
 	tier = kingdom
 	
 	cultures = { latvian estonian lithuanian }
-	capital = STATE_LATVIA
+	capital = STATE_MAZOVIA
 }
 
 BYE = {
@@ -3549,18 +3536,6 @@ PMA = { # Perm
 	cultures = { ugrian russian }
 	
 	capital = STATE_PERM
-}
-
-HZJ = { # Hazarajat
-	color = { 236 159 90 }
-	
-	country_type = unrecognized
-	
-	tier = principality
-
-	cultures = { hazara }
-
-	capital = STATE_WESTERN_AFGHANISTAN
 }
 
 TRC = { # Turkmenia
@@ -4659,19 +4634,6 @@ UOM = {
 	capital = STATE_MICHIGAN
 	is_named_from_capital = yes
 }
-
-# Circassia
-CIR = {
-	color = { 75 96 55 }
-	
-	country_type = unrecognized
-
-	tier = principality
-	
-	cultures = { circassian }
-	capital = STATE_KUBAN
-}
-
 # Caucasian Imamate / Chechnya
 CHC = {
 	color = { 35 52 48 }

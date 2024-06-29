@@ -150,31 +150,6 @@ gov_technate_parliamentary = {
 	}
 }
 
-gov_circassian_federation = {
-	transfer_of_power = hereditary
-	
-	male_ruler = "RULER_TITLE_THAMADE"
-	female_ruler = "RULER_TITLE_THAMADE" 
-
-	male_heir = "RULER_TITLE_HEIR_APPARENT"
-	female_heir = "RULER_TITLE_HEIR_APPARENT"
-	
-	possible = {
-		is_country_type = unrecognized
-		has_law = law_type:law_parliamentary_republic
-		country_has_voting_franchise = no
-		exists = c:CIR
-		c:CIR = ROOT
-	}
-
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-	on_post_government_type_change = {
-		post_change_to_hereditary = yes
-	}
-}
-
 gov_parliamentary_dictatorship = {
 	transfer_of_power = dictatorial
 
