@@ -4798,7 +4798,7 @@ burgundian={
 	traits = { francophone european_heritage }
 	
 	obsessions = {
-		wine
+		wine luxury_clothes luxury_furniture
 	}
 	
 	male_common_first_names={
