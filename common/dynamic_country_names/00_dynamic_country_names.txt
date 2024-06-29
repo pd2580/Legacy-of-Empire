@@ -951,21 +951,13 @@ RSM = {
 }
 
 FIN = {
-	# Finland
 	dynamic_country_name = {
-		name = dyn_c_grand_duchy_of_finland
+		name = dyn_fin_mon
 		adjective = FIN_ADJ
 		is_main_tag_only = yes
-		priority = 0
+		priority = 5
 		trigger = {
-			exists = c:RUS
-			c:RUS = {
-				has_diplomatic_pact = {
-					who = c:FIN
-					type = personal_union
-					is_initiator = yes
-				}
-			}
+			coa_def_monarchy_flag_trigger = yes
 		}
 	}
 }

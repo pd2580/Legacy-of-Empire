@@ -7652,6 +7652,27 @@ FRA_fascist = {
 	}	
 }
 
+NOV = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "bluet"
+		color2 = "white"
+	}
+}
+NOV_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "blue"
+		color2 = "white"
+	}
+}
+
 FIN = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -7661,6 +7682,33 @@ FIN = {
 		texture = "ce_cross_finland.dds"
 		color1 = color2
 		color2 = color2
+	}
+}
+FIN_monarch = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "blue"
+
+	colored_emblem = {
+		texture = "ce_cross_finland.dds"
+		color1 = color2
+		color2 = color2
+	}
+	textured_emblem = {
+		texture = "ce_coa_fin_m.dds"
+		instance = { scale = { 0.4 0.4 } position = { 0.33 0.54 } }
+	}
+	colored_emblem = {
+		texture = "ce_crown_tudor.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.3 0.25 } position = { 0.33 0.24 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian.dds"
+		color1 = "yellow_light"
+		instance = { scale = { 0.54 0.56 } position = { 0.33 0.52 } }
 	}
 }
 FIN_subject = {

@@ -173,6 +173,16 @@ austria_hungary = {
 	}
 }
 
+communist_finland = {
+	color = "communist_austria_red"
+
+	possible = {
+		exists = c:FIN
+		THIS = c:FIN
+		has_law = law_type:law_council_republic
+	}
+}
+
 communist_austria = {
 	color = "communist_austria_red"
 

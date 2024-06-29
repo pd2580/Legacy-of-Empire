@@ -3023,6 +3023,16 @@ FER = { # Far Eastern Republic
 	}		
 }
 
+NOV = {
+	flag_definition = {
+		coa = NOV
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = NOV_subject		
+		subject_canton = NOV
+		priority = 1
+	}
+}
+
 FIN = { # Finland
 	flag_definition = {
 		coa = FIN
@@ -3046,6 +3056,14 @@ FIN = { # Finland
 		priority = 10
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = FIN_monarch
+		subject_canton = FIN_monarch
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
 		}
 	}	
 }
