@@ -97,7 +97,7 @@
  je_church_ita_reason:0 "Recent history has taught us that even if the Pope is the highest religious authority of the catholic world, we are far from safe.\nIt's time to expand our borders to make sure the papal authority will never be questioned again."
 
  je_sax_main:0 "The Future of our Kingdom"
- je_sax_main_reason:0 "Following the Carolingian Empire's downfall, our kingdom has been greatly diminished.\nNow a mere shadow of its legendary glory, the long-complacent government falls behind the changing currents of the industrial world.\nCan theocratic rule, having weathered more than a thousand years of storms, withstand the tide? Or will our a thousand years old kingdom fall, like so many others, into the frothing sea?"
+ je_sax_main_reason:0 "Following the Carolingian Empire's downfall, our kingdom has been greatly diminished.\nNow a mere shadow of its legendary glory, the long-complacent government falls behind the changing currents of the industrial world.\nCan theocratic rule, having weathered more than a thousand years of storms, withstand the tide? Or will our 1500 years old kingdom fall, like so many others, into the frothing sea?"
 
  je_gods_chosen_people:0 "God's Chosen People"
  je_gods_chosen_people_reason:0 "Now that the government and the clergy have understood the true meaning of our Mission, it's time to lay the first stone."
@@ -198,7 +198,7 @@ je_bav_nat_reason:0 "Nationalism is on the rise in all german lands;\nthose move
 je_sgf:0 "The South German Federation"
 je_sgf_reason:0 "South german people can be found in Bohemia, Hungary, Slovenia and north Italy; the south german people has never been a united people, therefore gathering all of it under one nation can be quite an arduous task.\nMany wars will be needed, so we have to prepare our nation first."
 je_ger_conf:0 "The German Confederation"
-je_ger_conf_reason:0 "We can form Germany either through diplomacy or war.\nIf East Frankia and Rhineland become our subject and we keep good relations with them, we will be able to annex their lands peacefully, otherwise it will be war."
+je_ger_conf_reason:0 "We can form Germany either through diplomacy or war.\nIf Thuringia and Rhineland become our subject and we keep good relations with them, we will be able to annex their lands peacefully, otherwise it will be war."
 
 je_phoe_main:0 "A Critical Situation"
 
@@ -229,6 +229,6 @@ je_tomsk_rep:0 "Supporting Republican Movements in Tomsk"
 je_tomsk_rep_reason:0 "If we directly attack the lords in the east we might risk having them unite to fight us, but if we were to ignite a revolution in every single region, those lords wouldn't be able to do anything to counter us."
 je_tomsk_rep_goal:0 "The revolution is ready"
 
-je_irk_rep:0 "Supporting Republican Movements in Krasnoyarsk"
+je_irk_rep:0 "Supporting Republican Movements in Irkutsk"
 je_irk_rep_reason:0 "If we directly attack the lords in the east we might risk having them unite to fight us, but if we were to ignite a revolution in every single region, those lords wouldn't be able to do anything to counter us."
 je_irk_rep_goal:0 "The revolution is ready"

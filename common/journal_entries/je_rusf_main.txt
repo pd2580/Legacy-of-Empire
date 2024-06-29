@@ -26,8 +26,7 @@ je_rusf_two = {
 			AND = {
 				owns_entire_state_region = STATE_PERM
 				owns_entire_state_region = STATE_SAMARA
-				owns_entire_state_region = STATE_UFA
-				owns_entire_state_region = STATE_VYATKA
+				owns_entire_state_region = STATE_URALSK
 			}
 			c:DPR = {
 				is_subject_of = ROOT

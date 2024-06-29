@@ -6,6 +6,11 @@
 				size = 412588
 			}
 			create_pop = {
+				culture = kirgiz
+				religion = animist
+				size = 15996
+			}
+			create_pop = {
 				culture = mongol
 				size = 68000
 			}
@@ -540,6 +545,10 @@
 				size = 540608
 			}
 			create_pop = {
+				culture = yakut
+				size = 12000
+			}
+			create_pop = {
 				culture = kazak
 				size = 48000
 			}
@@ -554,6 +563,10 @@
 			create_pop = {
 				culture = han # nanfaren
 				size = 15996
+			}
+			create_pop = {
+				culture = yakut
+				size = 8000
 			}
 		}
 	}

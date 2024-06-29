@@ -60,6 +60,16 @@
 			state_region = s:STATE_TRANS_BAIKAL
 			has_building = building_railway
 		}
+		OR = {
+			any_scope_state = {
+				state_region = s:STATE_OKHOTSK
+				has_building = building_railway
+			}
+			any_scope_state = {
+				state_region = s:STATE_OUTER_MANCHURIA
+				has_building = building_railway
+			}
+		}
 	}
 
 	on_complete = {

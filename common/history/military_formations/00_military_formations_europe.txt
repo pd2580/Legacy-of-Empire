@@ -270,7 +270,7 @@
 			hq_region = sr:region_france
 			name = "1st Burgundian Army"
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BURGUNDY
 				count = 50
 			}
@@ -335,7 +335,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_north_germany
-			name = "East Frankish Army"
+			name = "1st Saxon Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SAXONY
@@ -602,29 +602,29 @@
 			}
 			save_scope_as = carthage_navy
 		}
-	create_military_formation = {
-		type = army
-		hq_region = sr:region_indonesia
-		name = "2nd Carthaginian Army"
-		combat_unit = {
-			type = unit_type:combat_unit_type_line_infantry
-			state_region = s:STATE_MALAYA
-			count = 5
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indonesia
+			name = "2nd Carthaginian Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MALAYA
+				count = 5
+			}
+			save_scope_as = 2nd_carthage_army
 		}
-		save_scope_as = 2nd_carthage_army
-	}
-	create_military_formation = {
-		type = army
-		hq_region = sr:region_south_china
-		name = "3rd Carthaginian Army"
-		combat_unit = {
-			type = unit_type:combat_unit_type_line_infantry
-			state_region = s:STATE_SUZHOU
-			count = 5
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = "3rd Carthaginian Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SUZHOU
+				count = 5
+			}
+			save_scope_as = 2nd_carthage_army
 		}
-		save_scope_as = 2nd_carthage_army
 	}
-}
 	c:YUA = {
 		## Yuan pei
 		create_military_formation = {
@@ -639,180 +639,38 @@
 			save_scope_as = yuan_army
 		}
 	}
-	c:FIN = {
+	c:IST = {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_finland
-			name = "Royal Army"
+			hq_region = sr:region_anatolia
+			name = "Istanbul Guard"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_OSTROBOTHNIA
-				count = 30
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_UUSIMAA
+				state_region = s:STATE_EASTERN_THRACE
 				count = 15
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_UUSIMAA
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HUDAVENDIGAR
 				count = 10
 			}
-			save_scope_as = 1st_finnish_army
+			save_scope_as = istanbul_army
 		}
 		create_military_formation = {
 			type = fleet
-			hq_region = sr:region_finland
-			name = "1st Finnish Fleet"
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_OSTROBOTHNIA
-				count = 10
-			}
+			hq_region = sr:region_anatolia
+			name = "Black Sea Fleet"
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_UUSIMAA
-				count = 15
-			}
-			save_scope_as = 1st_finnish_fleet
-		}
-	}
-	c:DPR = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_urals
-			name = "Ducal Garrison"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_PERM
-				count = 15
-			}
-			save_scope_as = perm_army
-		}
-	}
-	c:POC = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_urals
-			name = "Volga Cossacks"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SAMARA
+				state_region = s:STATE_EASTERN_THRACE
 				count = 10
 			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_URALSK
-				count = 10
-			}
-			save_scope_as = volga_army
-		}
-	}
-	c:KAR = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_urals
-			name = "Royal Army"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_KAZAN
-				count = 15
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_NIZHNY_NOVGOROD
-				count = 15
-			}
-			save_scope_as = kazan_army
-		}
-	}
-	c:DON = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_caucasus
-			name = "Don Cossacks"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ROSTOV
-				count = 20
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_KALMYKIA
-				count = 20
-			}
-			save_scope_as = don_army
-		}
-	}
-	c:SMO = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_russia
-			name = "Smolensk Army"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MOSCOW
-				count = 22
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_SMOLENSK
-				count = 22
-			}
-			save_scope_as = smolensk_army
-		}
-	}
-	c:SAL = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_russia
-			name = "Saratov Army"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_TAMBOV
-				count = 21
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_KURSK
-				count = 21
-			}
-			save_scope_as = saratov_army
-		}
-	}
-	c:UBD = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_baltic_states
-			name = "Baltic Army"
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_COURLAND
-				count = 30
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_KAUNAS
-				count = 30
-			}
-			save_scope_as = livonian_army
-		}
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_baltic_states
-			name = "1st Baltic Fleet"
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_COURLAND
-				count = 10
+				state_region = s:STATE_HUDAVENDIGAR
+				count = 5
 			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_KAUNAS
-				count = 10
-			}
-			save_scope_as = 1st_livonian_fleet
+			save_scope_as = istanbul_navy
 		}
 	}
 }

@@ -1,6 +1,6 @@
 COUNTRIES = {
 	c:SAL = {
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_traditional = yes
 
 		# Laws
@@ -21,5 +21,10 @@ COUNTRIES = {
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_national_guard
 		activate_law = law_type:law_serfdom
+
+		add_modifier = {
+			name = universalis_union_unification
+		}
+
 	}
 }

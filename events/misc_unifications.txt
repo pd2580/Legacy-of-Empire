@@ -679,7 +679,7 @@ formation.10 = {
 		name = formation.10.a
 		trigger = {
 			owns_entire_state_region = STATE_OSTROBOTHNIA
-			owns_entire_state_region = STATE_UUSIMAA
+			owns_entire_state_region = STATE_SOUTHERN_FINLAND
 		}
 		default_option = yes
 		add_modifier = {
