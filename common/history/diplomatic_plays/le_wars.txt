@@ -1,13 +1,37 @@
 ﻿DIPLOMATIC_PLAYS = {
-	c:TUR = {
+	c:AQU = {
 		create_diplomatic_play = {
-			name = reclaim_kurd
+			name = capital_reclaim
+		
+			target_state = s:STATE_AQUITAINE.region_state:AQR
 
-			target_state = s:STATE_DIYARBAKIR.region_state:KUR
+			war = yes
+			
+			type = dp_return_state
+
+			add_war_goal = {
+				holder = c:AQR
+				type = conquer_state
+				target_state = s:STATE_CATALONIA.region_state:AQU
+			}
+			add_war_goal = {
+				holder = c:AQR
+				type = conquer_state
+				target_state = s:STATE_LANGUEDOC.region_state:AQU
+			}
+		}	
+	}
+	c:BGY = {
+		create_diplomatic_play = {
+			name = expand_occ
+
+			target_state = s:STATE_RHONE.region_state:OCC
 
 			war = yes
 
-			type = dp_annex_war
+			type = dp_make_protectorate
+
+
 		}
 	}
 }

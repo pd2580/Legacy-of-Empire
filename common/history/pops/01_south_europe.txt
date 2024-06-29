@@ -111,7 +111,7 @@
 		}
 	}
 	s:STATE_SAVOY = {
-		region_state:SAV = {
+		region_state:HEV = {
 			create_pop = {
 				culture = burgundian
 				size = 92032
@@ -255,7 +255,7 @@
 		}
 	}
 	s:STATE_NAVARRA = {
-		region_state:CAS = {
+		region_state:AQR = {
 			create_pop = {
 				culture = spanish
 				size = 579200
