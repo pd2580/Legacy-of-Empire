@@ -60,5 +60,11 @@ COUNTRIES = {
 		add_modifier = {
 			name = modifier_yua_base_two
 		}
+		add_modifier = {
+			name = diplomatic_plays_blocked
+		}
+		trigger_event = {
+			id = loe_yua.1
+		}
 	}
 }

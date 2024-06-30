@@ -20,11 +20,7 @@
 		region_state:LLO = {
 			create_pop = {
 				culture = north_roman
-				size = 2367188
-			}
-			create_pop = {
-				culture = burgundian
-				size = 93996
+				size = 2967188
 			}
 			create_pop = {
 				culture = north_roman
@@ -165,7 +161,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = south_roman
-				size = 2433868
+				size = 2933868
 			}
 			create_pop = {
 				culture = south_roman
@@ -212,7 +208,7 @@
 		region_state:CAS = {
 			create_pop = {
 				culture = spanish
-				size = 168400
+				size = 2168400
 			}
 		}
 	}
@@ -274,11 +270,11 @@
 		region_state:CAS = {
 			create_pop = {
 				culture = spanish
-				size = 401200
+				size = 901200
 			}
 			create_pop = {
 				culture = basque
-				size = 100008
+				size = 500008
 			}
 			create_pop = {
 				culture = catalan
@@ -290,11 +286,15 @@
 		region_state:AQU = {
 			create_pop = {
 				culture = occitan
-				size = 2204308
+				size = 904308
+			}
+			create_pop = {
+				culture = catalan
+				size = 1316804
 			}
 			create_pop = {
 				culture = spanish
-				size = 616804
+				size = 316804
 			}
 		}
 	}
@@ -342,7 +342,7 @@
 		region_state:CAS = {
 			create_pop = {
 				culture = spanish
-				size = 579992
+				size = 1579992
 			}
 		}
 	}
@@ -370,7 +370,7 @@
 		region_state:POR = {
 			create_pop = {
 				culture = portuguese
-				size = 860796
+				size = 2860796
 			}
 		}
 	}
@@ -378,7 +378,7 @@
 		region_state:POR = {
 			create_pop = {
 				culture = portuguese
-				size = 372508
+				size = 1372508
 			}
 		}
 	}

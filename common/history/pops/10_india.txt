@@ -940,7 +940,7 @@
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:POR = {
+		region_state:CAS = {
 			create_pop = {
 				culture = marathi
 				religion = catholic
@@ -951,7 +951,7 @@
 				size = 75852
 			}
 			create_pop = {
-				culture = portuguese
+				culture = spanish
 				size = 5681
 			}
 		}

@@ -70,11 +70,11 @@
 	c:AMS ?= {
 		create_diplomatic_pact = {
 			country = c:DMK
-			type = puppet
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:HAM
-			type = puppet
+			type = personal_union
 		}
 		create_diplomatic_pact = {
 			country = c:CTC

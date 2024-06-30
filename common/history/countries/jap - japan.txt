@@ -28,7 +28,7 @@
 		activate_law = law_type:law_land_based_taxation		
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_closed_borders	
-		activate_law = law_type:law_frontier_colonization	
+		activate_law = law_type:law_colonial_resettlement	
 
 		set_institution_investment_level = {
 			institution = institution_police
@@ -47,6 +47,12 @@
 		ig:ig_landowners = {
 			set_interest_group_name = ig_shogunate
 			add_ruling_interest_group = yes
+		}
+
+		add_modifier = {
+			name = modifier_jap_loe
+			months = 60
+			is_decaying = yes
 		}
 
 		add_journal_entry = { type = je_terakoya }

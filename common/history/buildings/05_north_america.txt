@@ -2,15 +2,28 @@ BUILDINGS={
 	s:STATE_DISTRICT_OF_COLUMBIA={
 		region_state:CLB={
 			create_building={
-				building="building_government_administration"
+				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
+						type="building_manor_house"
 						country="c:CLB"
-						levels=6
+						levels=3
+						region="STATE_DISTRICT_OF_COLUMBIA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_secular_bureaucrats" "pm_professional_bureaucrats" "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={  "pm_no_secondary" "pm_tools_disabled" "pm_soil_enriching_farming" }
+			}
+			create_building={
+				building="building_textile_mills"
+				add_ownership={
+					country={
+						country="c:CLB"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
 			}
 			create_building={
 				building="building_white_house"
@@ -53,7 +66,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=6
+						levels=7
 					}
 				}
 				reserves=1
@@ -654,17 +667,6 @@ BUILDINGS={
 	s:STATE_DELAWARE={
 		region_state:CLB={
 			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:CLB"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
-			}
-			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
@@ -699,7 +701,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=3
+						levels=4
 					}
 				}
 				reserves=1
@@ -721,7 +723,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=4
+						levels=6
 					}
 				}
 				reserves=1
@@ -961,17 +963,6 @@ BUILDINGS={
 	s:STATE_RHODE_ISLAND={
 		region_state:CLB={
 			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:CLB"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
-			}
-			create_building={
 				building="building_glassworks"
 				add_ownership={
 					building={
@@ -1165,17 +1156,6 @@ BUILDINGS={
 	}
 	s:STATE_NEW_HAMPSHIRE={
 		region_state:CLB={
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:CLB"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
-			}
 			create_building={
 				building="building_logging_camp"
 				add_ownership={

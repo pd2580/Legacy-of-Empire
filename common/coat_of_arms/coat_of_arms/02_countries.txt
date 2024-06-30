@@ -2101,12 +2101,13 @@ BAV_communist = {
 
 DMK = {
 	pattern = "pattern_solid.tga"
-	color1 = "black"
+	color1 = "red"
+	color2 = "white"
 
 	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "yellow"
-		color2 = "red"
+		texture = "ce_cross_denmark.dds"
+		color1 = color2
+		color2 = color2
 	}
 }
 BEL_republic = {
