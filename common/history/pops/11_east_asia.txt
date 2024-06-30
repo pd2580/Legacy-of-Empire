@@ -1006,7 +1006,7 @@
 			}
 			create_pop = {
 				culture = japanese
-				size = 9862
+				size = 89862
 			}
 		}
 	}

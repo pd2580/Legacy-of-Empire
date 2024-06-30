@@ -19,14 +19,14 @@
 		}
 	}
 	s:STATE_OMAN = {
-		region_state:OMA = {
+		region_state:CAS = {
 			create_pop = {
 				culture = bedouin
 				religion = shiite
 				size = 158000
 			}
 			create_pop = {
-				culture = swahili
+				culture = spanish
 				size = 8400
 			}
 			create_pop = {
@@ -34,25 +34,9 @@
 				size = 9200
 			}
 			create_pop = {
-				culture = bedouin
-				religion = sunni
-				size = 38000
-			}
-			create_pop = {
-				culture = persian
-				religion = shiite
-				size = 4000
-			}
-			create_pop = {
 				culture = sephardic
 				religion = jewish
 				size = 400
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = sudanese
-				religion = animist
-				size = 7000
 			}
 			create_pop = {
 				pop_type = slaves

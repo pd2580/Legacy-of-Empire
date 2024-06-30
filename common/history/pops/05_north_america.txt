@@ -718,11 +718,16 @@
 			create_pop = {
 				culture = japanese
 				religion = atheist
-				size = 33387
+				size = 3387
 			}
 			create_pop = {
 				culture = japanese
-				size = 85387
+				size = 25387
+			}
+			create_pop = {
+				culture = korean
+				religion = atheist
+				size = 43056
 			}
 		}
 	}
