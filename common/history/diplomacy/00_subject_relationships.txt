@@ -13,12 +13,6 @@
 			type = dominion
 		}
 	}
-	c:BGY ?= {
-		create_diplomatic_pact = {
-			country = c:OCC
-			type = dominion
-		}
-	}
 	c:BOR ?= {
 		create_diplomatic_pact = {
 			country = c:BAU
@@ -60,7 +54,11 @@
 	c:FIN ?= {
 		create_diplomatic_pact = {
 			country = c:SAM
-			type = puppet
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:NOV
+			type = personal_union
 		}
 	}
 	c:KOR ?= {

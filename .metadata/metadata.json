@@ -1,8 +1,8 @@
 {
   "name" : "Legacy of Empires",
   "id" : "Legacy of Empires",
-  "version" : "0.0.8",
-  "supported_game_version" : "1.7.*",
+  "version" : "0.0.5",
+  "supported_game_version" : "1.7.1",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

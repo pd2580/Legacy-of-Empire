@@ -53,10 +53,7 @@
 canada_unite_gbr = {
 	is_shown = {
 		any_subject_or_below = {
-			OR = {
-				country_has_primary_culture = cu:anglo_canadian
-				country_has_primary_culture = cu:franco_canadian
-			}
+				country_has_primary_culture = cu:paiute
 			is_ai = yes
 			count >= 2
 		}

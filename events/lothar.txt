@@ -28,8 +28,10 @@ lotharingia.1 = {
 	}
 	option = {
 		name = lotharingia.1.a
-		scope:devout_leader = {
-			set_ideology = ideology:ideology_theocrat
+		hidden_effect = {
+			scope:devout_leader = {
+				set_ideology = ideology:ideology_theocrat
+			}
 		}
 	}
 	after = {
@@ -990,6 +992,7 @@ lotharingia.12 = {
 		}
 	}
 }
+
 lotharingia.13 = {
 	# NGF
 	type = country_event
@@ -1027,6 +1030,7 @@ lotharingia.13 = {
 		}
 	}
 }
+
 lotharingia.14 = {
 	# German Confederation
 	type = country_event

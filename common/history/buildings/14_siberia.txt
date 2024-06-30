@@ -45,10 +45,6 @@ BUILDINGS={
 		region_state:PMA = {
 		}
 	}
-	s:STATE_NENETSIA = {
-		region_state:FIN = {
-		}
-	}
 	s:STATE_CHUKOTKA = {
 		region_state:SIB = {
 		}
@@ -69,18 +65,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_OKHOTSK = {
-		region_state:SIB = {
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SIB"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
+		region_state:KOR = {
 		}
 	}
 	s:STATE_YAKUTSK = {
@@ -92,7 +77,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_IRKUTSK = {
-		region_state:PMA = {
+		region_state:SIB = {
 		}
 	}
 }

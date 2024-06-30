@@ -153,28 +153,28 @@
 
  lotharingia.1.t:0 "God's Kingdom"
  lotharingia.1.d:0 "A Kingom that will never fall"
- lotharingia.1.f:0 "Thuringia is the oldest kingdom still alive in Europe;\nFounded in 340 CE by those who were called "Germani" by the romans, its longevity has caused some members of the clergy and the ruling class to start thinking that the people of Thuringia is God's Chosen People, destined to live in a kingdom that will never fall."
- lotharingia.1.a:0 "May Thuringia prosper for a thousand years more!"
+ lotharingia.1.f:0 "East Frankia is the oldest kingdom of Europe;\nIt was one of the three kingdoms that formed Charlemagne's empire, and the only one that has lasted to this day.\nIts longevity has caused some members of the clergy and the ruling class to start thinking that the people of East Frankia is God's Chosen People, destined to live in a kingdom that will never fall."
+ lotharingia.1.a:0 "May East Frankia prosper for a thousand years more!"
 
  lotharingia.2.t:0 "The Rise of Nationalism"
- lotharingia.2.d:0 "Ferocious political discussions are carried out in intellectual circles, cafès and literary salons all across Thuringia"
- lotharingia.2.f:0 "The rise of nationalism in all german lands has caused chaos in Thuringia;\nMany people advocate for unification with other german states, others support the idea of Lotharingia being "the country of God's Chosen People", some other people ask for a liberal change to free from the chains of the corrupted theocratic government, while others dream about an idea that has never died in Thuringia, restoring the Carolingian Empire"
+ lotharingia.2.d:0 "Ferocious political discussions are carried out in intellectual circles, cafès and literary salons all across East Frankia"
+ lotharingia.2.f:0 "The rise of nationalism in all german lands has caused chaos in East Frankia;\nMany people advocate for unification with other german states, others support the idea of East Frankia being "the country of God's Chosen People", some other people ask for a liberal change to free from the chains of the corrupted theocratic government, while others dream about an idea that has never died in East Frankia, restoring the Carolingian Empire"
  lotharingia.2.a:0 "We are God's Chosen People!"
  lotharingia.2.b:0 "Down with the Theocracy, all hail the king of the north germans!"
  lotharingia.2.c:0 "Maybe we are destined to a much grander feat..."
 
  lotharingia.3.t:0 "A nation wanted by God"
- lotharingia.3.d:0 "The government has finally decided to back the idea of a nation made only for the thuringian people."
- lotharingia.3.f:0 "The longevity of our reign has convinced the ruling class that the existence of Thuringia is not a coincidence, but an act of the will of God, and thus it's our mission to make our nation fit for God's Chosen People."
+ lotharingia.3.d:0 "The government has finally decided to back the idea of a nation made only for the East Frankish people."
+ lotharingia.3.f:0 "The longevity of our reign has convinced the ruling class that the existence of East Frankia is not a coincidence, but an act of the will of God, and thus it's our mission to make our nation fit for God's Chosen People."
  lotharingia.3.a:0 "By God, with God and for God"
 
  lotharingia.4.t:0 "A Kingdom for the North German People"
  lotharingia.4.d:0 "People have lost their trust in the current government, and a faction under the lead of [SCOPE.sCharacter('landowners_leader').GetFullName] is gaining more and more popularity."
- lotharingia.4.f:0 ""It is now the time to end our misery, and become a kingdom that will be respected in all of Europe! It is the time to found the kingdom of the north germans, Prussia!""
+ lotharingia.4.f:0 ""It is now the time to end our misery, and become a kingdom that will be respected in all of Europe! It is the time to found a kingdom for the north germans, and its name will be Prussia!""
  lotharingia.4.a:0 "To Prussia!"
 
  lotharingia.5.t:0 "Charlemagne's Heir"
- lotharingia.5.d:0 "Centuries of humiliations for our country have left the people of Thuringia disillusioned and angry against the current government"
+ lotharingia.5.d:0 "Centuries of humiliations for our country have left the people of East Frankia disillusioned and angry against the current government"
  lotharingia.5.f:0 "The Theocracy has managed to keep our country alive for more than a millennia, but what is the point of surviving that long it that means being constantly humiliated by our neighbors?\nMany dream of a distant glorious past, and the growing discontent is making [SCOPE.sCharacter('armed_forces_leader').GetFullName], a man who proclaims to be the descendant of Charlemagne, increasingly popular."
  lotharingia.5.a:0 "What the future holds for us?"
 
@@ -189,8 +189,8 @@
  lotharingia.7.a:0 "Eternal Glory to God!"
 
  lotharingia.8.t:0 "Charlemagne's Successor"
- lotharingia.8.d:0 "A column of Thuringian soldiers parades through the streets of Frankfurt for the first time in centuries"
- lotharingia.8.f:0 "After centuries of humiliations, Thuringia is finally back in the place she deverves.\nPeople in the streets of the capital chant the name of the man who made all of this possible, but in this moment of glory [SCOPE.sCharacter('armed_forces_leader').GetFullName] refuses to be crowned as the Emperor of Thuringia, as he make a proclamation:\n"This is but a small feat for our glorious nation, and thus I cannot accept the title of emperor as of now; my coronation will happen in Rome, as per my ancestor, Charlemagne!""
+ lotharingia.8.d:0 "A column of East Frankish soldiers parades through the streets of Frankfurt for the first time in centuries"
+ lotharingia.8.f:0 "After centuries of humiliations, East Frankia is finally back in the place she deverves.\nPeople in the streets of the capital chant the name of the man who made all of this possible, but in this moment of glory [SCOPE.sCharacter('armed_forces_leader').GetFullName] refuses to be crowned as the Emperor of East Frankia, as he make a proclamation:\n"This is but a small feat for our glorious nation, and thus I cannot accept the title of emperor as of now; my coronation will happen in Rome, as per my ancestor, Charlemagne!""
  lotharingia.8.a:0 "Long live [SCOPE.sCharacter('armed_forces_leader').GetFullName]"
 
  lotharingia.9.t:0 "The Coronation of The Emperor"
@@ -200,7 +200,7 @@
 
  fall_theocracy.1.t:0 "The Fall of The Theocracy"
  fall_theocracy.1.d:0 "The centuries-long theocratic government has fallen "
- fall_theocracy.1.f:0 "The people of Thuringia has not deemed the Theocracy to be able to guarantee the future of the nation, and thus the government had to be overthrown.\nA change was needed, and a change was made, but will this be enough for the nation to survive?
+ fall_theocracy.1.f:0 "The people of East Frankia has not deemed the Theocracy to be able to guarantee the future of the nation, and thus the government had to be overthrown.\nA change was needed, and a change was made, but will this be enough for the nation to survive?
  fall_theocracy.1.a:0 "Difficult times are ahead of us"
 
  lotharingia.10.t:0 "The Birth of The Kingdom of Prussia"
@@ -255,7 +255,7 @@
 
  le_bavaria.5.t:0 "A King's Dilemma"
  le_bavaria.5.d:0 "The rise of nationalism in all the land inhabited by german people is causing massive political movements."
- le_bavaria.5.f:0 ""My Liege, your subjects are asking you to become the King of all Germans, how shall we respond them?"\n"King of all Germans you say? Sounds more of a burden than anything else, and those thuringians and rhenish people have never helped us, so I don't see why I should become king of such people,\nIf my lands are to expand, it will be my choice.""
+ le_bavaria.5.f:0 ""My Liege, your subjects are asking you to become the King of all Germans, how shall we respond them?"\n"King of all Germans you say? Sounds more of a burden than anything else, and those East Frankish and rhenish people have never helped us, so I don't see why I should become king of such people,\nIf my lands are to expand, it will be my choice.""
  le_bavaria.5.a:0 "If I am king of a german people, it's the south german people."
  le_bavaria.5.b:0 "Maybe "King of all Germans" doesn't sound that bad."
 
@@ -266,7 +266,7 @@
 
  le_bavaria.7.t:0 "The Brunswick's Agreement"
  le_bavaria.7.d:0 "The bavarian government has managed to reach an agreement with the nobility of all Germany."
- le_bavaria.7.f:0 "Many decribed this agreement as a visible miracle, and indeed it is.\nThe negotiations lasted 3 weeks, and as the time passed, the hope for a unified germany dwindled, but the bavarian government was greatly determined to reach an agreement, and so they did.\nHuge concessions were given to the nobility of Lotharingia, Rhineland and Austria, concessions that will create many problems to the german govenment in the years to come, but at last Germany was made."
+ le_bavaria.7.f:0 "Many decribed this agreement as a visible miracle, and indeed it is.\nThe negotiations lasted 3 weeks, and as the time passed, the hope for a unified germany dwindled, but the bavarian government was greatly determined to reach an agreement, and so they did.\nHuge concessions were given to the nobility of East Frankia, Rhineland and Austria, concessions that will create many problems to the german govenment in the years to come, but at last Germany was made."
  le_bavaria.7.a:0 "Long Live the German Confederation"
 
  le_bohem.1.t:0 "The Shadow of a Great Empire"
@@ -352,7 +352,7 @@ Ferretti:0 "Gordiano"
 Armellini:0 "Micone"
 pm_cannery_fish:0 "Canned Fish"
 loe_rhi.1.t:0 "An Unfortunate Country"
-loe_rhi.1.d:0 "The Rhineland, formerly the Confederation of the Rhine, was born in the 18th century as a buffer state between France and Thuringia"
+loe_rhi.1.d:0 "The Rhineland, formerly the Confederation of the Rhine, was born in the 18th century as a buffer state between France and East Frankia"
 loe_rhi.1.f:0 "After the collapse of the French Kingdom, the confederation was occupied by burgundian forces first, and then by Austria; The confederation will become independent only in 1819, and to this day the nation is still struggling to gain international recognition.\nThe unfortunate conditions that created this country greatly influence the view that the other nations have of us, and to transform our country into a recognized power, we have to show our real strenght."
 loe_rhi.1.a:0 "A buffer state, or maybe something more?"
 
@@ -372,7 +372,7 @@ loe_rusf.1.a:0 "What the future holds?"
 
 loe_rusf.2.t:0 "The Birth of the Federative Union of Russian Republics"
 loe_rusf.2.d:0 "This is a day that will remain engraved in history!"
-loe_rusf.2.f:0 "Today the Russian Republics of Kazan, Perm, Samara and Uralsk have unified into a federation; russian politicians cry, because after centuries of humiliations the russian people are allowed to stand for themselves and, more importantly, to finally have hope for the future."
+loe_rusf.2.f:0 "Today the Russian Republics of Kazan, Perm and Samara have unified into a federation; russian politicians cry, because after centuries of humiliations the russian people are allowed to stand for themselves and, more importantly, to finally have hope for the future."
 loe_rusf.2.a:0 "Long Live the Russian Federation!"
 
 loe_rusf.3.t:0 "The Republican Revolt"
@@ -402,13 +402,13 @@ loe_rusf.7.f:0 "Today delegates from the Federation and the Russian Republic of 
 loe_rusf.7.a:0 "Welcome Brothers!"
 
 loe_rusf.8.t:0 "The Revolution Spreads to Tomsk!"
-loe_rusf.8.d:0 "The Russian Republic of Tomsk and Upper Yeniseysk is born"
-loe_rusf.8.f:0 "Today delegates from the Federation and the Russian Republic of Tomsk and Upper Yeniseysk have met in Barnaul to discuss the entry of the newly born republic into the Federation;\nThis is but a formality, and people are already celebrating for this great event."
+loe_rusf.8.d:0 "The Russian Republic of Tomsk and Surgut is born"
+loe_rusf.8.f:0 "Today delegates from the Federation and the Russian Republic of Tomsk and Surgut have met in Barnaul to discuss the entry of the newly born republic into the Federation;\nThis is but a formality, and people are already celebrating for this great event."
 loe_rusf.8.a:0 "Welcome Brothers!"
 
-loe_rusf.9.t:0 "The Revolution Spreads to Irkutsk!"
-loe_rusf.9.d:0 "The Russian Republic of Irkutsk is born"
-loe_rusf.9.f:0 "Today delegates from the Federation and the Russian Republic of Irkutsk have met in Bratsk to discuss the entry of the newly born republic into the Federation;\nThis is but a formality, and people are already celebrating for this great event."
+loe_rusf.9.t:0 "The Revolution Spreads to Krasnoyarsk!"
+loe_rusf.9.d:0 "The Russian Republic of Krasnoyarsk is born"
+loe_rusf.9.f:0 "Today delegates from the Federation and the Russian Republic of Krasnoyarsk have met in Minusinsk to discuss the entry of the newly born republic into the Federation;\nThis is but a formality, and people are already celebrating for this great event."
 loe_rusf.9.a:0 "Welcome Brothers!"
 
 loe_rusf.10.t:0 "The Return of the Spies"
