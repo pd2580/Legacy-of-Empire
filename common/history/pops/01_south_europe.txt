@@ -255,7 +255,7 @@
 		}
 	}
 	s:STATE_NAVARRA = {
-		region_state:AQR = {
+		region_state:CAS = {
 			create_pop = {
 				culture = spanish
 				size = 579200

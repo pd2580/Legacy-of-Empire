@@ -845,7 +845,7 @@
 		}
 	}
 	s:STATE_AQUITAINE = {
-		region_state:AQR = {
+		region_state:AQU = {
 			create_pop = {
 				culture = aquitain
 				size = 2463916
