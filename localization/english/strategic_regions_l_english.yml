@@ -11,7 +11,7 @@
  region_south_germany:0 "South Germany"
  region_rhine:0 "Rhine"
  region_danubia:0 "Danubia"
- region_baltic: "Scandinavia"
+ region_baltic:0 "Scandinavia"
  region_poland:0 "Poland"
  region_balkans:0 "Balkans"
  region_russia:0 "Russia"

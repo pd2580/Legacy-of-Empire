@@ -1,5 +1,5 @@
 ﻿l_english:
  ai_strategy_unify_the_isles:0 "Unify The Isles"
- ai_strategy_unify_the_isles_desc:0 "[COUNTRY.GetName] wants to unite The Isles under their banner."
+ ai_strategy_unify_the_isles_desc:0 "[COUNTRY.GetName] aims to unite The Isles under their banner."
  ai_strategy_unify_china:0 "Unify China"
- ai_strategy_unify_china_desc:0 "[COUNTRY.GetName] wants to unite the Chinese warlords under their banner."
+ ai_strategy_unify_china_desc:0 "[COUNTRY.GetName] aims to unite the Chinese states under their banner."
