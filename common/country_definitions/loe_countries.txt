@@ -1558,7 +1558,7 @@ PLE = {
 	tier = kingdom
 	
 	cultures = { polish }
-	capital = STATE_MAZOVIA
+	capital = STATE_GREATER_POLAND
 }
 
 GAL = {
