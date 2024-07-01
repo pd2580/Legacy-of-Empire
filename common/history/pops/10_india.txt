@@ -384,22 +384,13 @@
 	s:STATE_KASHMIR = {
 		region_state:PAN = {
 			create_pop = {
-				culture = kashmiri
-				size = 1328002
-			}
-			create_pop = {
 				culture = panjabi
-				size = 37727
+				size = 187727
 			}
 			create_pop = {
 				culture = tibetan
 				religion = mahayana
 				size = 445369
-			}
-			create_pop = {
-				culture = kashmiri
-				religion = hindu
-				size = 249384
 			}
 			create_pop = {
 				culture = pashtun
@@ -596,6 +587,46 @@
 		}
 	}
 	s:STATE_RAJPUTANA = {
+		region_state:BIK = {
+			create_pop = {
+				culture = rajput
+				size = 1001004
+			}
+			create_pop = {
+				culture = avadhi
+				size = 31000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = rajput
+				size = 31000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 1000
+			}
+		}
+		region_state:JAS = {
+			create_pop = {
+				culture = rajput
+				size = 387096
+			}
+			create_pop = {
+				culture = avadhi
+				size = 29000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = rajput
+				size = 20900
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 3000
+			}
+		}
 		region_state:MEW = {
 			create_pop = {
 				culture = rajput
@@ -606,13 +637,13 @@
 				size = 16042
 			}
 			create_pop = {
-				culture = rajput
 				pop_type = slaves
+				culture = rajput
 				size = 50050
 			}
 			create_pop = {
-				culture = avadhi
 				pop_type = slaves
+				culture = avadhi
 				size = 2100
 			}
 		}
@@ -626,13 +657,13 @@
 				size = 80665
 			}
 			create_pop = {
-				culture = rajput
 				pop_type = slaves
+				culture = rajput
 				size = 50000
 			}
 			create_pop = {
-				culture = avadhi
 				pop_type = slaves
+				culture = avadhi
 				size = 4000
 			}
 		}
@@ -650,34 +681,14 @@
 				size = 48
 			}
 			create_pop = {
-				culture = rajput
 				pop_type = slaves
+				culture = rajput
 				size = 22000
 			}
 			create_pop = {
-				culture = avadhi
 				pop_type = slaves
+				culture = avadhi
 				size = 30010
-			}
-		}
-		region_state:MAR = {
-			create_pop = {
-				culture = rajput
-				size = 1388100
-			}
-			create_pop = {
-				culture = avadhi
-				size = 60000
-			}
-			create_pop = {
-				culture = rajput
-				pop_type = slaves
-				size = 51900
-			}
-			create_pop = {
-				culture = avadhi
-				pop_type = slaves
-				size = 4000
 			}
 		}
 	}
@@ -929,7 +940,7 @@
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:POR = {
+		region_state:CAS = {
 			create_pop = {
 				culture = marathi
 				religion = catholic
@@ -940,7 +951,7 @@
 				size = 75852
 			}
 			create_pop = {
-				culture = portuguese
+				culture = spanish
 				size = 5681
 			}
 		}

@@ -93,7 +93,8 @@
 	}
 	c:FIN ?= {
 		set_relations = { country = c:SWE value = 20 }
-		set_relations = { country = c:RUS value = -30 }
+		set_relations = { country = c:NOV value = 20 }
+		set_relations = { country = c:SAM value = 20 }
 	}
 	c:FRA ?= {
 		set_relations = { country = c:PLY value = 30 }

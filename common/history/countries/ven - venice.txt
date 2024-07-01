@@ -19,6 +19,7 @@
 		activate_law = law_type:law_laissez_faire
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_wealth_voting
 		
 		set_tax_level = medium
 		

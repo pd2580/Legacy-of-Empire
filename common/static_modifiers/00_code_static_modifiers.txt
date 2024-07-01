@@ -554,14 +554,26 @@ infamy_reputable = {}
 
 infamy_infamous = {
 	country_radicals_from_conquest_mult = 0.25
+	state_tax_waste_add = 0.05
+	state_radicals_from_discrimination_mult = 0.1
+	state_conscription_rate_mult = -0.05
 }
 
 infamy_notorious = {
 	country_radicals_from_conquest_mult = 0.5
+	state_tax_waste_add = 0.1
+	country_bureaucracy_mult = -0.1
+	state_radicals_from_discrimination_mult = 0.15
+	state_conscription_rate_mult = -0.15
+	
 }
 
 infamy_pariah = {
 	country_radicals_from_conquest_mult = 1.0
+	state_tax_waste_add = 0.15
+	country_bureaucracy_mult = -0.2
+	state_radicals_from_discrimination_mult = 0.25
+	state_conscription_rate_mult = -0.25
 }
 
 # Scales with devastation level
