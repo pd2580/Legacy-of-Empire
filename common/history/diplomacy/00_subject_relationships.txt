@@ -66,6 +66,10 @@
 			country = c:YUA
 			type = protectorate
 		}
+		create_diplomatic_pact = {
+			country = c:MCH
+			type = dominion
+		}
 	}
 	c:AMS ?= {
 		create_diplomatic_pact = {

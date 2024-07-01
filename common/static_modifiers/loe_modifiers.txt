@@ -377,3 +377,7 @@ modifier_jap_loe = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_colony_growth_speed_mult = -0.9
 }
+modifier_yua_one = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_expenses_add = 2000
+}

@@ -426,7 +426,9 @@ loe_rusf.12.d:0 "A New Great Power Has Risen"
 loe_rusf.12.f:0 "After centuries of humiliations, our great country is finally where she deserves to be, among the strongest nations of the world.\nA new age of prosperity has started, long live Russia!"
 loe_rusf.12.a:0 "Long Live Russia!"
 
-
+depeffo:0 "Salish still exists"
+je_ye_button_one:0 "Send a team of diplomats"
+je_ye_button_one_desc:0 "To send a small team of diplomats to Salish to give the bribes, we first need to be on good terms with them, or we won't even be allowed to enter their territories."
 RUI_three_decision:0 "Send a Industrial Espionage Mission in North Italy"
 RUI_three_decision_desc:0 "In order to modernize our country, some alternative ways can be used; The estimated cost for the mission is 300000 Złoty, and it will take around 12 months to be completed.\nThe success of the mission is not guaranteed."
 RUI_two_decision:0 "Send Spies in Amsterdam to Steal Military Projects"

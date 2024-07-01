@@ -1,0 +1,135 @@
+je_buy_salas = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	group = je_group_historical_content
+	is_shown_when_inactive = {
+		exist = c:YUA
+		c:YUA ?= THIS
+	}
+	scripted_button = je_ye_button_one
+	possible = {
+		owns_entire_state_region = STATE_NEVADA
+		exist = c:SAO
+		c:SAO = {
+			is_ai = yes
+		}
+		custom_tooltip = {
+			text = depeffo
+		}
+	}
+	complete = {
+		owns_entire_state_region = STATE_IDAHO
+		owns_entire_state_region = STATE_WASHINGTON
+		owns_entire_state_region = STATE_OREGON
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+je_yue_dict = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_historical_content
+
+	immediate = {
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_armed_forces
+				exist = leader
+			}
+			leader = {
+				save_scope_as = armed_forces_leader
+			}
+		}
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_landowners
+				exist = leader
+			}
+			leader = {
+				save_scope_as = landowners_leader
+			}
+		}
+		random_interest_group = {
+			limit
+			{
+				is_interest_group_type = ig_petty_bourgeoisie
+				exist = leader
+			}
+			leader = {
+				save_scope_as = petty_leader
+			}
+		}
+	}
+
+	complete = {
+		has_law = law_type:law_monarchy
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = papal_to_rome.6
+		}
+		remove_modifier = modifier_yua_base_two
+		remove_modifier = diplomatic_plays_blocked
+	}
+	fail = {
+		scope:armed_forces_leader = {
+			NOT = {
+				has_ideology = ideology:ideology_authoritarian
+			}
+		}
+		scope:landowners_leader = {
+			NOT = {
+				has_ideology = ideology:ideology_authoritarian
+			}
+		}
+		scope:petty_leader = {
+			NOT = {
+				has_ideology = ideology:ideology_authoritarian
+			}
+		}
+	}
+	on_fail = {
+		trigger_event = {
+			id = papal_to_rome.7
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_yue_laws = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	group = je_group_historical_content
+	complete = {
+		has_law = law_type:law_monarchy
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = papal_to_rome.6
+		}
+		remove_modifier = diplomatic_plays_blocked
+	}
+	fail = {
+		random_interest_group = {
+			NOT = {
+				leader = {
+					has_ideology = ideology:ideology_authoritarian
+				}
+			}
+		}
+	}
+	on_fail = {
+		trigger_event = {
+			id = papal_to_rome.7
+		}
+	}
+	should_be_pinned_by_default = yes
+}

@@ -66,5 +66,8 @@ COUNTRIES = {
 		trigger_event = {
 			id = loe_yua.1
 		}
+		add_journal_entry = {
+			type = je_yue_laws
+		}
 	}
 }

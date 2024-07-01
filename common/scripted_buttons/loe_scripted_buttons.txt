@@ -1,0 +1,42 @@
+je_ye_button_one = {
+	name = "je_ye_button_one"
+	desc = "je_ye_button_one_desc"
+
+	visible = { always = yes }
+
+	ai_chance = {
+		base = 100
+	}
+
+	possible = {
+		c:SAO = {
+			relations:root >= relations_threshold:amicable
+		}
+
+	}
+
+	effect = {
+		random_state = {
+			limit = {
+				state_region = s:STATE_OREGON
+			}
+			set_state_owner = ROOT
+		}
+		random_state = {
+			limit = {
+				state_region = s:STATE_IDAHO
+			}
+			set_state_owner = ROOT
+		}
+		random_state = {
+			limit = {
+				state_region = s:STATE_WASHINGTON
+			}
+			set_state_owner = ROOT
+		}
+		add_modifier = {
+			name = modifier_yua_one
+			months = 60
+		}
+	}
+}

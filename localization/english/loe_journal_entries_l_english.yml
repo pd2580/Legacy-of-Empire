@@ -232,3 +232,6 @@ je_tomsk_rep_goal:0 "The revolution is ready"
 je_irk_rep:0 "Supporting Republican Movements in Krasnoyarsk"
 je_irk_rep_reason:0 "If we directly attack the lords in the east we might risk having them unite to fight us, but if we were to ignite a revolution in every single region, those lords wouldn't be able to do anything to counter us."
 je_irk_rep_goal:0 "The revolution is ready"
+
+je_buy_salas:0 "Oregon, Washington and Idaho's Purchase"
+je_buy_salas_reason:0 "If we want to expand our nation, but we don't want to conquer land through war, another way exists;\nIf we pay enough money, we might be able to bribe the indian chiefs in Oregon, Washington and Idaho and put their land under our "jurisdiction"."
