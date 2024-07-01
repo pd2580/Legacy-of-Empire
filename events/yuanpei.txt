@@ -1,0 +1,2 @@
+namespace = loe_yua
+loe_yua.1

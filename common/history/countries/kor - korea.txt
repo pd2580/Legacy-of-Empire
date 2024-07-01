@@ -30,6 +30,7 @@
 		activate_law = law_type:law_private_schools
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_colonial_exploitation
 
 		set_institution_investment_level = {
 			institution = institution_schools

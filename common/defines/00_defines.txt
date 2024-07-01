@@ -647,10 +647,10 @@ NDiplomacy = {
 	MIN_INFAMY = 0							# Infamy can't be lower than this
 	MAX_INFAMY = 1000						# Infamy can't be higher than this
 	START_INFAMY = 0						# This is the default amount of infamy countries start with
-	INFAMY_THRESHOLD_INFAMOUS = 25			# Above this, countries are considered infamous and get related penalties
-	INFAMY_THRESHOLD_NOTORIOUS = 50			# Above this, countries are considered notorious and get related penalties
+	INFAMY_THRESHOLD_INFAMOUS = 45			# Above this, countries are considered infamous and get related penalties
+	INFAMY_THRESHOLD_NOTORIOUS = 70			# Above this, countries are considered notorious and get related penalties
 	INFAMY_THRESHOLD_PARIAH = 100			# Above this, countries are considered pariah and get related penalties
-	BASE_YEARLY_INFAMY_DECAY_RATE = 5.0 	# Decay rate of infamy per year
+	BASE_YEARLY_INFAMY_DECAY_RATE = 6.0 	# Decay rate of infamy per year
 
 	# Tension is used instead of relations by colonizable countries
 	MIN_TENSION = 0

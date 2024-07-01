@@ -468,13 +468,13 @@
 				size = 24000
 			}
 		}
-		region_state:SAH = {
+		region_state:TUA = {
 			create_pop = {
 				culture = berber
 				size = 3109
 			}
 			create_pop = {
-				culture = bedouin
+				culture = tuareg
 				size = 4612
 			}
 			create_pop = {
@@ -829,6 +829,12 @@
 				pop_type = slaves
 				culture = bedouin
 				size = 5000
+			}
+		}
+		region_state:OUA = {
+			create_pop = {
+				culture = bidan
+				size = 20000
 			}
 		}
 	}
