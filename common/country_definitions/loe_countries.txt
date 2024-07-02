@@ -2660,6 +2660,17 @@ YUA = {
 	capital = STATE_CALIFORNIA
 }
 
+YUU = {
+	color = { 5 25 59 }
+	
+	tier = kingdom
+
+	religion = atheist
+	
+	cultures = { han min yue manchu }
+	capital = STATE_CALIFORNIA
+}
+
 CAN = {
 	color = { 94  117  55 }
 	

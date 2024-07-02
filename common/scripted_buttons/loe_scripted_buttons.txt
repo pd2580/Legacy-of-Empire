@@ -1,20 +1,17 @@
 je_ye_button_one = {
 	name = "je_ye_button_one"
 	desc = "je_ye_button_one_desc"
-
-	visible = { always = yes }
-
+	visible = {
+		always = yes
+	}
 	ai_chance = {
 		base = 100
 	}
-
 	possible = {
 		c:SAO = {
 			relations:root >= relations_threshold:amicable
 		}
-
 	}
-
 	effect = {
 		random_state = {
 			limit = {
@@ -37,6 +34,145 @@ je_ye_button_one = {
 		add_modifier = {
 			name = modifier_yua_one
 			months = 60
+		}
+		hidden_effect = {
+			s:STATE_OREGON = {
+				add_homeland = cu:han
+				add_homeland = cu:yue
+				add_homeland = cu:min
+				add_homeland = cu:manchu
+			}
+			s:STATE_IDAHO = {
+				add_homeland = cu:han
+				add_homeland = cu:yue
+				add_homeland = cu:min
+				add_homeland = cu:manchu
+			}
+			s:STATE_WASHINGTON = {
+				add_homeland = cu:han
+				add_homeland = cu:yue
+				add_homeland = cu:min
+				add_homeland = cu:manchu
+			}
+		}
+	}
+}
+
+je_ye_button_col = {
+	name = "je_ye_button_col"
+	desc = "je_ye_button_col_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		custom_tooltip = {
+			text = yua_col_disc_text
+			has_variable = yua_col_disc
+		}
+		NOT = {
+			has_modifier = modifier_yua_col
+		}
+	}
+	effect = {
+		activate_law = law_type:law_frontier_colonization
+		hidden_effect = {
+			add_modifier = {
+				name = modifier_yua_col
+			}
+			s:STATE_NEVADA = {
+				add_claim = c:YUA
+			}
+			s:STATE_UTAH = {
+				add_claim = c:YUA
+			}
+		}
+	}
+}
+
+je_ye_button_migr = {
+	name = "je_ye_button_migr"
+	desc = "je_ye_button_migr_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		custom_tooltip = {
+			text = yua_exp_text
+			has_variable = exp_yua
+		}
+		NOT = {
+			has_modifier = modifier_yua_col_two
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_yua_col_two
+			months = 36
+			is_decaying = yes
+		}
+		trigger_event = {
+			id = loe_yua.2
+		}
+	}
+}
+
+je_ye_button_int = {
+	name = "je_ye_button_int"
+	desc = "je_ye_button_int_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		custom_tooltip = {
+			text = yua_col_disc_text
+			has_variable = yua_int_disc
+		}
+		NOT = {
+			has_modifier = modifier_yua_int
+		}
+	}
+	effect = {
+		hidden_effect = {
+			add_journal_entry = {
+				type = je_yue_ass
+			}
+		}
+		add_modifier = {
+			name = modifier_yua_int
+		}
+	}
+}
+
+je_ye_button_mos = {
+	name = "je_ye_button_mos"
+	desc = "je_ye_button_mos_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		custom_tooltip = {
+			text = yua_col_disc_text
+			has_variable = yua_mos_disc
+		}
+		NOT = {
+			has_modifier = modifier_yua_mos
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_yua_mos
 		}
 	}
 }

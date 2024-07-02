@@ -212,6 +212,15 @@ communist_china = {
 	}
 }
 
+communist_yuu = {
+	color = "red_dark"
+	possible = {
+		exists = c:YUU
+		THIS = c:YUU
+		has_law = law_type:law_council_republic
+	}
+}
+
 republican_china = {
 	color = "azure"
 

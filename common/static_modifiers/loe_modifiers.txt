@@ -245,19 +245,10 @@ modifier_bgy_negative = {
 	interest_group_approval_add = -2
 	interest_group_pol_str_mult = -0.1
 }
-modifier_yua_base = {
-		icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-		state_migration_pull_add = 20
-		state_migration_pull_mult = 0.25
-		state_migration_quota_mult = 5
-		country_mass_migration_attraction_mult = 2
-		state_colony_growth_speed_mult = 2
-}
 modifier_yua_base_two = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
 	state_migration_pull_add = 20
 	state_migration_pull_mult = 0.1
-	state_migration_quota_mult = 1
 }
 diplomatic_plays_blocked = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
@@ -380,4 +371,39 @@ modifier_jap_loe = {
 modifier_yua_one = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	country_expenses_add = 2000
+}
+modifier_yua_col = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_colony_growth_speed_mult = 7.5
+}
+modifier_yua_exp = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_migration_pull_add = 20
+	state_migration_pull_mult = 0.25
+	state_migration_quota_mult = 1
+	goods_input_paper_add = 10
+}
+modifier_yua_mos = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	country_bureaucracy_mult = -0.05
+	state_accepted_birth_rate_mult = 0.05
+	country_tax_income_add = 3500
+	state_radicals_from_sol_change_mult = 0.25
+	state_turmoil_effects_mult = 0.15
+}
+modifier_yua_col_two = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_prestige_mult = -0.2
+	country_mass_migration_attraction_mult = 5
+	state_migration_quota_mult = 5
+	state_radicals_from_sol_change_mult = 0.3
+}
+modifier_yua_int = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_conversion_mult = 9
+	state_radicals_from_discrimination_mult = 0.3
+}
+modifier_yua_three = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 500
 }
