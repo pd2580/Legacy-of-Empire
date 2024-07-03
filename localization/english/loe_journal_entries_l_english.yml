@@ -269,3 +269,8 @@ je_kor_manc_reason:0 "The kingdom of Manchuria is a dominion of Korea, but ever 
 kor_manc:0 "The king of Manchuria has recognized Korea as his overlord"
 je_kor_rac:0 "The Royal Police Force"
 je_kor_rac_reason:0 "Establishing a police force under the direct command of the heir would grant him enormous power.\nEven if it cannot be considered a proper army, this new force would be able to suppress any revolt, other than being a visible demonstration of the influence and power that the heir holds over all the major towns."
+je_kor_age:0 "The Coronation Ceremony"
+je_kor_age_reason:0 "While it would be the norm to wait for the heir to be sixteen years old before holding the coronation ceremony, the exceptional circumstances we find ourselves in allow us to force the law and hold an early ceremony right after the heir's 14th birthday."
+kor_cor:0 "The heir has been crowned (the decision to arrange the ceremony will be available one year before the heir's 14th birthday)"
+je_kor_rail:0 "Solve the Infrastructure Problem"
+je_kor_rail_reason:0 "The quick industrialization of our country has brought us great wealth, but also many infrastructural problems.\nOur roads are not able to satisfy anymore the growing demand of our industrial sector for a better and faster transportation system, and therefore it is a necessity that we make investments for the construction of a nationwide railway system."

@@ -5221,6 +5221,13 @@ KOR = { # Korea
 			coa_def_communist_flag_trigger = yes
 		}
 	}	
+	flag_definition = {
+		coa = KOR_dictatorship
+		priority = 1500
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}	
 }
 
 KTI = { # Kutai

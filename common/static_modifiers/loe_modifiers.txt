@@ -422,7 +422,22 @@ modifier_kor_three = {
 	country_expenses_add = 3500
 }
 modifier_kor_four = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_portrait_positive.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	character_health_add = 0.2
-		character_popularity_add = 100
+	character_popularity_add = 100
+}
+modifier_kor_five = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	interest_group_approval_add = 10
+	interest_group_pol_str_mult = 1
+	interest_group_pop_attraction_mult = 0.1
+}
+modifier_kor_six = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	country_prestige_add = 20
+	state_infrastructure_from_population_max_add = 5
+}
+modifier_kor_seven = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_manufacturing_throughput_add = 0.1
 }

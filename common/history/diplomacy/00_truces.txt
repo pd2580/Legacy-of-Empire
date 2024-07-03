@@ -44,14 +44,6 @@ DIPLOMACY = {
 DIPLOMACY = {
 	c:KOR= {
 		create_bidirectional_truce = {
-			country = c:ZHI
-			months = 60
-		}
-	}	
-}
-DIPLOMACY = {
-	c:KOR= {
-		create_bidirectional_truce = {
 			country = c:MCH
 			months = 17
 		}

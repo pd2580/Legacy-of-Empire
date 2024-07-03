@@ -405,9 +405,12 @@ KOR_decision_two = {
 	is_shown = {
 		exist = c:KOR
 		c:KOR ?= THIS
-		game_date >= 1836.9.8
+		game_date >= 1840.9.8
 		NOT = {
 			has_variable = loe_kor_deccor
+		}
+		NOT = {
+			has_variable = loe_kor_coup
 		}
 	}
 	when_taken = {

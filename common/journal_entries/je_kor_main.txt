@@ -2,6 +2,7 @@ je_kor_main = {
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 
 	group = je_group_historical_content
+	timeout = 3000
 
 	complete = {
 		scope:journal_entry = {
@@ -12,6 +13,13 @@ je_kor_main = {
 	on_complete = {
 		trigger_event = {
 			id = loe_kor.7
+		}
+		remove_modifier = diplomatic_plays_blocked
+	}
+
+	on_timeout = {
+		trigger_event = {
+			id = loe_kor.8
 		}
 		remove_modifier = diplomatic_plays_blocked
 	}
@@ -58,6 +66,12 @@ je_kor_autoc = {
 			}
 		}
 	}
+	fail = {
+		custom_tooltip = {
+			text = loe_kor_mil
+			has_variable = loe_kor_coup
+		}
+	}
 	transferable = yes
 
 	weight = 10000
@@ -95,6 +109,14 @@ je_kor_rac = {
 				months = 60
 		}
 	}
+
+	fail = {
+		custom_tooltip = {
+			text = loe_kor_mil
+			has_variable = loe_kor_coup
+		}
+	}
+
 	transferable = yes
 
 	weight = 10000
@@ -120,6 +142,14 @@ je_kor_manc = {
 			add = 1
 		}
 	}
+
+	fail = {
+		custom_tooltip = {
+			text = loe_kor_mil
+			has_variable = loe_kor_coup
+		}
+	}
+
 	transferable = yes
 
 	weight = 10000
@@ -145,6 +175,14 @@ je_kor_age = {
 			add = 1
 		}
 	}
+
+	fail = {
+		custom_tooltip = {
+			text = loe_kor_mil
+			has_variable = loe_kor_coup
+		}
+	}
+
 	transferable = yes
 
 	weight = 10000
@@ -175,3 +213,45 @@ je_kor_navy = {
 	weight = 10000
 	should_be_pinned_by_default = yes
 }
+
+je_kor_rail = {
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+	group = je_group_historical_content
+	is_shown_when_inactive = {
+		exist = c:KOR
+		c:KOR ?= THIS
+	}
+	possible = {
+		has_technology_researched = railways
+	}
+	complete = {
+		any_scope_state = {
+			state_region = s:STATE_SEOUL
+			has_building = building_railway
+		}
+		any_scope_state = {
+			state_region = s:STATE_BUSAN
+			has_building = building_railway
+		}
+		any_scope_state = {
+			state_region = s:STATE_YANGHO
+			has_building = building_railway
+		}
+		any_scope_state = {
+			state_region = s:STATE_SARIWON
+			has_building = building_railway
+		}
+		any_scope_state = {
+			state_region = s:STATE_PYONGYANG
+			has_building = building_railway
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = loe_kor.9
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
