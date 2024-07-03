@@ -53,7 +53,7 @@ DIPLOMACY = {
 	c:KOR= {
 		create_bidirectional_truce = {
 			country = c:MCH
-			months = 12
+			months = 17
 		}
 	}	
 }

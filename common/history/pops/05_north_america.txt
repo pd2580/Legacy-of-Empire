@@ -78,7 +78,7 @@
 		region_state:SAO = {
 			create_pop = {
 				culture = salish
-				size = 2524060
+				size = 1524060
 			}
 			create_pop = {
 				culture = paiute
@@ -94,7 +94,7 @@
 			}
 			create_pop = {
 				culture = salish
-				size = 1144560
+				size = 1344560
 			}
 		}
 	}
@@ -555,7 +555,7 @@
 			}
 			create_pop = {
 				culture = salish
-				size = 927396
+				size = 1427396
 			}
 			create_pop = {
 				culture = athabaskan
@@ -591,7 +591,7 @@
 			}
 			create_pop = {
 				culture = salish
-				size = 219780
+				size = 419780
 			}
 		}
 	}

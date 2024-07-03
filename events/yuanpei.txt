@@ -23,19 +23,15 @@ loe_yua.1 = {
 			}
 			trigger_event = {
 				id = loe_yua.4
-				days = 80
+				days = 100
 			}
 			trigger_event = {
 				id = loe_yua.5
-				days = 160
+				days = 300
 			}
 			trigger_event = {
 				id = loe_yua.6
-				days = 400
-			}
-			trigger_event = {
-				id = loe_yua.7
-				days = 2700
+				days = 500
 			}
 		}
 	}

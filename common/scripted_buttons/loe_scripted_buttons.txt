@@ -37,18 +37,25 @@ je_ye_button_one = {
 		}
 		hidden_effect = {
 			s:STATE_OREGON = {
+				remove_homeland = cu:salish
+				remove_homeland = cu:nez_perce
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
 				add_homeland = cu:manchu
 			}
 			s:STATE_IDAHO = {
+				remove_homeland = cu:salish
+				remove_homeland = cu:nez_perce
+				remove_homeland = cu:paiute
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
 				add_homeland = cu:manchu
 			}
 			s:STATE_WASHINGTON = {
+				remove_homeland = cu:salish
+				remove_homeland = cu:nez_perce
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min

@@ -104,7 +104,7 @@ modifier_loth_four = {
 }
 modifier_loth_five = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	state_accepted_birth_rate_mult = 0.1
+	state_accepted_birth_rate_mult = 0.05
 }
 modifier_charles = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
@@ -259,7 +259,7 @@ modifier_mor_one = {
 }
 modifier_mor_two = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	state_accepted_birth_rate_mult = 0.2
+	state_accepted_birth_rate_mult = 0.10
 }
 modifier_dan_one = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
@@ -406,4 +406,23 @@ modifier_yua_int = {
 modifier_yua_three = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_expenses_add = 500
+}
+modifier_kor_one = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	state_turmoil_effects_mult = -0.2
+	state_mortality_turmoil_mult = 0.01
+	state_pop_pol_str_mult = -0.1
+}
+modifier_kor_two = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 2000
+}
+modifier_kor_three = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 3500
+}
+modifier_kor_four = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_portrait_positive.dds
+	character_health_add = 0.2
+		character_popularity_add = 100
 }

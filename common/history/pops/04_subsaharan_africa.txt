@@ -2778,6 +2778,16 @@
 				size = 95508
 			}
 		}
+		region_state:QAR = {
+			create_pop = {
+				culture = khoisan
+				size = 18692
+			}
+			create_pop = {
+				culture = cu:phoenician
+				size = 392
+			}
+		}
 	}
 	s:STATE_NORTHERN_CAPE = {
 		region_state:SAF = {

@@ -2719,12 +2719,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_SAKHALIN = {
-		region_state:KOR = {
+		region_state:JAP = {
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:KOR"
+						country="c:JAP"
 						levels=1
 					}
 				}
@@ -3731,6 +3731,17 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_military_shipyards"
+				add_ownership={
+					country={
+						country="c:KOR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_military_shipbuilding_wooden"  }
 			}
 			create_building={
 				building="building_logging_camp"

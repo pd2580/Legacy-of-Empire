@@ -1,0 +1,17 @@
+﻿DIPLOMACY = {
+	c:AMS ?= {
+		create_diplomatic_pact = {
+			country = c:KOR
+			type = guarantee_independence
+		}
+		create_diplomatic_pact = {
+			country = c:HAM
+			type = guarantee_independence
+		}
+		create_diplomatic_pact = {
+			country = c:DMK
+			type = guarantee_independence
+		}		
+	}
+		
+}

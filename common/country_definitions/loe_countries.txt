@@ -2395,7 +2395,7 @@ ACE = {
 BAL = {
 	color = { 201  97  74 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	

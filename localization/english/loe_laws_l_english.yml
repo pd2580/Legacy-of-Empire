@@ -1,3 +1,5 @@
 ﻿l_english:
  law_high_monarchy:0 "High Monarchy"
  law_high_monarchy_desc:0 "A form of governance where an aristocratic dynasty represents the country's national identity with overwhelming authority and control of their people."
+ ideology_nationalist:0 "Nationalist"
+ ideology_nationalist_desc:0 "This group believes that the nation shouldn't concern of ethnicities other than the primary ones"

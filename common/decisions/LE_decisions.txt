@@ -338,7 +338,7 @@ YUA_decision_three = {
 		remove_modifier = modifier_yua_int
 	}
 	ai_chance = {
-		base = 100
+		base = 0
 	}
 }
 
@@ -358,6 +358,71 @@ YUA_decision_four = {
 					id = loe_yua.10
 					days = 60
 				}
+			}
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+KOR_decision_one = {
+	is_shown = {
+		exist = c:KOR
+		c:KOR ?= THIS
+		NOT = {
+			has_variable = loe_kor_aband
+		}
+	}
+	when_taken = {
+		add_modifier = {
+			name = modifier_kor_two
+			months = 12
+		}
+		set_variable = {
+			name = loe_kor_aband
+			value = 0
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_kor.3
+				days = 365
+			}
+			c:AMS = {
+				trigger_event = {
+					id = loe_kor.4
+					days = 90
+				}
+			}
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+KOR_decision_two = {
+	is_shown = {
+		exist = c:KOR
+		c:KOR ?= THIS
+		game_date >= 1836.9.8
+		NOT = {
+			has_variable = loe_kor_deccor
+		}
+	}
+	when_taken = {
+		add_modifier = {
+			name = modifier_kor_three
+			months = 12
+		}
+		set_variable = {
+			name = loe_kor_deccor
+			value = 0
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_kor.6
+				days = 365
 			}
 		}
 	}

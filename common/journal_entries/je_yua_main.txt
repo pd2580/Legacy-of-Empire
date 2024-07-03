@@ -81,30 +81,38 @@ je_yue_laws = {
 		}
 		hidden_effect = {
 			s:STATE_NEVADA = {
+				remove_homeland = cu:paiute
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
 				add_homeland = cu:manchu
 			}
 			s:STATE_UTAH = {
+				remove_homeland = cu:paiute
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
 				add_homeland = cu:manchu
 			}
 			s:STATE_COLORADO = {
+				remove_homeland = cu:paiute
+				remove_homeland = cu:siouan
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
 				add_homeland = cu:manchu
 			}
 			s:STATE_WYOMING = {
+				remove_homeland = cu:paiute
+				remove_homeland = cu:siouan
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
 				add_homeland = cu:manchu
 			}
 			s:STATE_MONTANA = {
+				remove_homeland = cu:dakota
+				remove_homeland = cu:siouan
 				add_homeland = cu:han
 				add_homeland = cu:yue
 				add_homeland = cu:min
@@ -165,5 +173,33 @@ je_yua_kor = {
 		make_independent = yes
 		remove_variable = yua_prot
 	}
+	should_be_pinned_by_default = yes
+}
+
+je_auth_for = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	group = je_group_historical_content
+	is_shown_when_inactive = {
+		exist = c:YUA
+		c:YUA ?= THIS
+	}
+	possible = {
+		custom_tooltip = {
+			text = auth_for_one
+			game_date >= 1843.2.12
+		}
+	}
+	complete = {
+		custom_tooltip = {
+			text = auth_for_two
+			game_date >= 1843.2.24
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = loe_yua.7
+		}
+	}
+	weight = 100
 	should_be_pinned_by_default = yes
 }

@@ -25,7 +25,8 @@ law_ethnostate = {
 	modifier = {
 		country_authority_add = 200
 		state_radicals_from_sol_change_accepted_culture_mult = -0.2
-		state_loyalists_from_sol_change_accepted_culture_mult = 0.2			
+		state_loyalists_from_sol_change_accepted_culture_mult = 0.2	
+		state_accepted_birth_rate_mult = 0.1		
 	}
 	
 	possible_political_movements = {
