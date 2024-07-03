@@ -5221,6 +5221,13 @@ KOR = { # Korea
 			coa_def_communist_flag_trigger = yes
 		}
 	}	
+	flag_definition = {
+		coa = KOR_dictatorship
+		priority = 1500
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}	
 }
 
 KTI = { # Kutai
@@ -10365,6 +10372,24 @@ ITF = { # Italian Federation
 		}
 	}	
 }
+
+YUU = {
+flag_definition = {
+	coa = YUU
+	subject_canton = YUU
+	allow_overlord_canton = yes		
+	coa_with_overlord_canton = YUA_subject		
+	priority = 1
+}
+flag_definition = {
+	coa = YUU_communist
+	priority = 1500
+	trigger = { 
+		coa_def_communist_flag_trigger = yes
+	}
+}
+}
+
 YUA = { # Yuan pei
 	flag_definition = {
 		coa = YUA

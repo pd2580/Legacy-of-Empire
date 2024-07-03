@@ -749,6 +749,7 @@ CHI = {
 	possible = {
 		has_technology_researched = pan-nationalism
 		country_rank >= rank_value:great_power
+		has_law = law_type:law_cultural_exclusion
 	}
 }
 
@@ -773,6 +774,7 @@ WER = {
 	
 	possible = {
 		has_technology_researched = nationalism
+		has_law = law_type:law_racial_segregation
 	}
 }
 
@@ -791,6 +793,7 @@ SHU = {
 	
 	possible = {
 		has_technology_researched = nationalism
+		has_law = law_type:law_racial_segregation
 	}
 }
 
@@ -817,6 +820,7 @@ KWO = {
 	
 	possible = {
 		has_technology_researched = nationalism
+		has_law = law_type:law_racial_segregation
 	}
 }
 

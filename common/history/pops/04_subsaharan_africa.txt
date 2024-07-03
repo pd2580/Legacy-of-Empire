@@ -160,7 +160,7 @@
 				size = 127996
 			}
 		}
-		region_state:GBR = {
+		region_state:QAR = {
 			create_pop = {
 				culture = mande
 				size = 91540
@@ -749,10 +749,10 @@
 		}
 	}
 	s:STATE_GHANA = {
-		region_state:GBR = {
+		region_state:VEN = {
 			create_pop = {
 				culture = akan
-				size = 40204
+				size = 90204
 			}
 			create_pop = {
 				culture = mossi
@@ -761,16 +761,6 @@
 			create_pop = {
 				culture = ewe
 				size = 6984
-			}
-		}
-		region_state:AMS = {
-			create_pop = {
-				culture = akan
-				size = 45572
-			}
-			create_pop = {
-				culture = mossi
-				size = 4220
 			}
 		}
 		region_state:ASH = {
@@ -956,7 +946,7 @@
 		}
 	}
 	s:STATE_ZANZIBAR = {
-		region_state:OMA = {
+		region_state:CAS = {
 			create_pop = {
 				culture = swahili
 				size = 382800
@@ -976,13 +966,8 @@
 				size = 84000
 			}
 			create_pop = {
-				culture = bedouin
+				culture = spanish
 				size = 4004
-			}
-			create_pop = {
-				culture = bedouin
-				religion = sunni
-				size = 4000
 			}
 			create_pop = {
 				culture = sukuma
@@ -1037,13 +1022,8 @@
 		}
 		region_state:MSI = {
 			create_pop = {
-				culture = maasai
-				size = 29900
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = maasai
-				size = 2000
+				culture = lacustrine_bantu
+				size = 45673
 			}
 		}
 		region_state:KRG = {
@@ -1104,10 +1084,6 @@
 				size = 20000
 			}
 			create_pop = {
-				culture = maasai
-				size = 16004
-			}
-			create_pop = {
 				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 30000
@@ -1116,15 +1092,10 @@
 	}
 	s:STATE_RIFT_VALLEY = {
 		region_state:MSI = {
-			create_pop = {
-				culture = maasai
-				size = 49000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = maasai
-				size = 3000
-			}
+		}
+		create_pop = {
+			culture = luo
+			size = 102404
 		}
 		region_state:LUO = {
 			create_pop = {
@@ -2805,6 +2776,16 @@
 			create_pop = {
 				culture = boer
 				size = 95508
+			}
+		}
+		region_state:QAR = {
+			create_pop = {
+				culture = khoisan
+				size = 18692
+			}
+			create_pop = {
+				culture = cu:phoenician
+				size = 392
 			}
 		}
 	}
