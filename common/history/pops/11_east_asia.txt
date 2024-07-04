@@ -92,7 +92,7 @@
 		region_state:MGL = {
 			create_pop = {
 				culture = mongol
-				size = 476392
+				size = 1476392
 			}
 			create_pop = {
 				culture = manchu
@@ -108,7 +108,7 @@
 		region_state:MGL = {
 			create_pop = {
 				culture = mongol
-				size = 536940
+				size = 1536940
 			}
 			create_pop = {
 				culture = manchu
@@ -247,24 +247,11 @@
 		region_state:MGL = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 4233588
-			}
-			create_pop = {
-				culture = manchu
-				size = 4408
+				size = 1233588
 			}
 			create_pop = {
 				culture = mongol
 				size = 1735900
-			}
-			create_pop = {
-				culture = han # nanfaren
-				religion = sunni
-				size = 401660
-			}
-			create_pop = {
-				culture = kazak
-				size = 48000
 			}
 		}
 	}
@@ -537,7 +524,7 @@
 		region_state:MGL = {
 			create_pop = {
 				culture = mongol
-				size = 540608
+				size = 1540608
 			}
 			create_pop = {
 				culture = kazak
@@ -549,7 +536,7 @@
 		region_state:MGL = {
 			create_pop = {
 				culture = mongol
-				size = 751104
+				size = 1751104
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -625,20 +612,16 @@
 		region_state:YUN = {
 			create_pop = {
 				culture = vietnamese
-				size = 1841220
-			}
-			create_pop = {
-				culture = miao
-				size = 96004
-			}
-			create_pop = {
-				culture = vietnamese
-				religion = catholic
-				size = 228000
+				size = 1241220
 			}
 			create_pop = {
 				culture = yue
-				size = 28000
+				size = 1201220
+			}
+			create_pop = {
+				culture = vietnamese
+				religion = 	confucian
+				size = 228000
 			}
 			create_pop = {
 				culture = min
@@ -660,10 +643,6 @@
 			create_pop = {
 				culture = yue
 				size = 31996
-			}
-			create_pop = {
-				culture = miao
-				size = 87900
 			}
 			create_pop = {
 				culture = vietnamese
@@ -725,10 +704,6 @@
 				size = 240024
 			}
 			create_pop = {
-				culture = miao
-				size = 24832
-			}
-			create_pop = {
 				culture = khmu
 				size = 69000
 			}
@@ -760,10 +735,6 @@
 				culture = lao
 				pop_type = slaves
 				size = 21000
-			}
-			create_pop = {
-				culture = miao
-				size = 35744
 			}
 		}
 	}

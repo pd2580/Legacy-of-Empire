@@ -64,15 +64,15 @@
 	c:KOR ?= {
 		create_diplomatic_pact = {
 			country = c:YUA
-			type = protectorate
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:MCH
-			type = dominion
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:KOC
-			type = puppet
+			type = vassal
 		}
 	}
 	c:AMS ?= {
