@@ -393,8 +393,8 @@ ai_strategy_default = {
 		if = { #Taiping should never surrender against China.
 			limit = {
 				c:TPG ?= THIS
-				exists = c:CHI
-				is_diplomatic_play_enemy_of = c:CHI
+				exists = c:CHU
+				is_diplomatic_play_enemy_of = c:CHU
 			}
 			add = 1000
 		}
@@ -1347,7 +1347,7 @@ ai_strategy_default = {
 		if = { #Carving up China
 			limit = {
 				country_rank >= rank_value:great_power
-				exists = c:CHI
+				exists = c:CHU
 				OR = {
 					sr:region_north_china = {
 						any_scope_state = {
@@ -2250,7 +2250,7 @@ ai_strategy_default = {
 		if = { #Carving up China
 			limit = {
 				country_rank >= rank_value:great_power
-				exists = c:CHI
+				exists = c:CHU
 				any_country = {
 					NOT = { THIS = ROOT }
 					country_is_in_europe = yes
@@ -2264,7 +2264,7 @@ ai_strategy_default = {
 					}
 				}
 				scope:target_country = {
-					c:CHI ?= this
+					c:CHU ?= this
 				}
 			}
 			add = 15

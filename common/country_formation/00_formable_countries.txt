@@ -711,7 +711,7 @@ RHN = {
 	}
 }
 
-CHI = {
+CHU = {
 	states = {
 		STATE_BEIJING
 		STATE_SHENGJING

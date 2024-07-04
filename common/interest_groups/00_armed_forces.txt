@@ -27,7 +27,7 @@
 			if = {
 				limit = {
 					owner = {
-						c:CHI ?= this
+						c:CHU ?= this
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_newly_created_army

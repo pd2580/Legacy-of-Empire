@@ -206,8 +206,8 @@ soviet_red = {
 communist_china = {
 	color = "communist_china_red"
 	possible = {
-		exists = c:CHI
-		THIS = c:CHI
+		exists = c:CHU
+		THIS = c:CHU
 		has_law = law_type:law_council_republic
 	}
 }
@@ -221,25 +221,12 @@ communist_yuu = {
 	}
 }
 
-republican_china = {
-	color = "azure"
-
-	possible = {
-		exists = c:CHI
-		THIS = c:CHI
-		OR = {
-			has_law = law_type:law_parliamentary_republic
-			has_law = law_type:law_presidential_republic
-		}
-	}
-}
-
 han_imperial_china = {
 	color = "red_china"
 
 	possible = {
-		exists = c:CHI
-		THIS = c:CHI
+		exists = c:CHU
+		THIS = c:CHU
 		NOT = { country_has_primary_culture = cu:manchu }
 		has_law = law_type:law_monarchy
 	}

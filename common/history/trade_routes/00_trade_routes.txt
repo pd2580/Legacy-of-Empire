@@ -1,65 +1,4 @@
-﻿TRADE_ROUTES = {
-	# Britain
-	c:GBR ?= {
-		create_trade_route = {
-			goods = opium
-			level = 30
-			direction = export
-			target = c:CHI.market
-		}	
-		create_trade_route = {
-			goods = silk
-			level = 28
-			direction = import
-			target = c:CHI.market
-		}	
-		create_trade_route = {
-			goods = tea
-			level = 22
-			direction = import
-			target = c:CHI.market
-		}						
-		create_trade_route = {
-			goods = coffee
-			level = 10
-			direction = import
-			target = c:BRZ.market
-		}		
-	}	
-
-	# Sikh Empire
-	c:PAN ?= {
-		create_trade_route = {
-			goods = iron
-			level = 4
-			direction = import
-			target = c:CHI.market
-		}				
-	}
-	
-	
-	# Sulu
-	c:SUL ?= {
-		create_trade_route = {
-			goods = clippers
-			level = 1
-			direction = import
-			target = c:CHI.market
-		}
-		create_trade_route = {
-			goods = tobacco
-			level = 1
-			direction = export
-			target = c:CHI.market
-		}
-		create_trade_route = {
-			goods = grain
-			level = 2
-			direction = import
-			target = c:CHI.market
-		}			
-	}	
-	
+﻿TRADE_ROUTES = {	
 	# Khiva
 	c:KHI ?= {
 		create_trade_route = {
@@ -1214,111 +1153,6 @@
 			target = c:GBR.market
 		}		
 	}
-
-	# Russia
-	c:RUS ?= {	
-		create_trade_route = {
-			goods = hardwood
-			level = 18
-			direction = export
-			target = c:GBR.market
-		}		
-		create_trade_route = {
-			goods = manowars
-			level = 3
-			direction = import
-			target = c:DEN.market
-		}	
-		create_trade_route = {
-			goods = dye
-			level = 5
-			direction = import
-			target = c:GBR.market
-		}		
-		create_trade_route = {
-			goods = tea
-			level = 4
-			direction = import
-			target = c:CHI.market
-		}		
-		create_trade_route = {
-			goods = porcelain
-			level = 7
-			direction = import
-			target = c:CHI.market
-		}		
-		create_trade_route = {
-			goods = luxury_clothes
-			level = 4
-			direction = import
-			target = c:GBR.market
-		}	
-		create_trade_route = {
-			goods = luxury_furniture
-			level = 8
-			direction = import
-			target = c:FRA.market
-		}
-		create_trade_route = {
-			goods = sugar
-			level = 7
-			direction = import
-			target = c:CHI.market
-		}		
-		create_trade_route = {
-			goods = sugar
-			level = 7
-			direction = import
-			target = c:NET.market
-		}
-		create_trade_route = {
-			goods = tools
-			level = 11
-			direction = import
-			target = c:GBR.market
-		}	
-		create_trade_route = {
-			goods = liquor
-			level = 7
-			direction = export
-			target = c:FRA.market
-		}
-		create_trade_route = {
-			goods = iron
-			level = 4
-			direction = export
-			target = c:USA.market
-		}	
-		create_trade_route = {
-			goods = fabric
-			level = 14
-			direction = import
-			target = c:CHI.market
-		}
-		create_trade_route = {
-			goods = silk
-			level = 6
-			direction = import
-			target = c:CHI.market
-		}
-	}
-
-	# Qing
-	c:CHI ?= {
-		create_trade_route = {
-			goods = clippers
-			level = 1
-			direction = export
-			target = c:RUS.market
-		}
-		create_trade_route = {
-			goods = manowars
-			level = 1
-			direction = export
-			target = c:GBR.market
-		}
-	}
-
 	# Portugal
 	c:POR ?= {		
 		create_trade_route = {
@@ -1352,12 +1186,6 @@
 			target = c:GBR.market
 		}
 		create_trade_route = {
-			goods = tools
-			level = 1
-			direction = import
-			target = c:CHI.market
-		}
-		create_trade_route = {
 			goods = luxury_clothes
 			level = 6
 			direction = import
@@ -1374,13 +1202,7 @@
 			level = 6
 			direction = import
 			target = c:GBR.market
-		}			
-		create_trade_route = {
-			goods = porcelain
-			level = 4
-			direction = import
-			target = c:CHI.market
-		}	
+		}				
 		create_trade_route = {
 			goods = liquor
 			level = 12
@@ -1456,13 +1278,7 @@
 			level = 3
 			direction = import
 			target = c:GBR.market
-		}		
-		create_trade_route = {
-			goods = porcelain
-			level = 3
-			direction = import
-			target = c:CHI.market
-		}		
+		}			
 		create_trade_route = {
 			goods = luxury_furniture
 			level = 3
@@ -1831,35 +1647,13 @@
 			level = 10
 			direction = import
 			target = c:RUS.market
-		}	
-		create_trade_route = {
-			goods = porcelain
-			level = 2
-			direction = import
-			target = c:CHI.market
-		}
-		create_trade_route = {
-			goods = silk
-			level = 5
-			direction = import
-			target = c:CHI.market
-		}			
+		}				
 		create_trade_route = {
 			goods = iron
 			level = 4
 			direction = import
 			target = c:SWE.market
 		}			
-	}
-
-	# Burma
-	c:BUR ?= {
-		create_trade_route = {
-			goods = luxury_clothes
-			level = 1
-			direction = import
-			target = c:CHI.market
-		}
 	}
 
 	# Aceh

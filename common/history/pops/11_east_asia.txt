@@ -297,7 +297,7 @@
 		}
 	}
 	s:STATE_CHONGQING = {
-		region_state:GUI = {
+		region_state:CHO = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 14546404
@@ -678,7 +678,7 @@
 		}
 	}
 	s:STATE_MEKONG = {
-		region_state:CAM = {
+		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
 				size = 1152396

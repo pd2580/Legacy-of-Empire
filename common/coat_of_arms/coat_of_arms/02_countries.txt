@@ -4664,7 +4664,7 @@ CHE_subject = {
     }
 }
 
-CHI = {
+CHU = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "yellow"
@@ -4689,7 +4689,7 @@ CHI = {
 		instance = { scale = { 0.12 0.12 } position = { 0.5 0.525 } }		
 	}		
 }
-CHI_absolute_monarchy = {
+CHU_absolute_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 	color2 = "blue"
@@ -4731,38 +4731,37 @@ CHI_absolute_monarchy = {
 		instance = { scale = { 0.4 0.4 } position = { 0.39 0.81 } }			
 	}	
 }
-CHI_republic = {
+CHU_republic = {
 	# Chinese republic 1912
 	
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-	
 	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 1.0 0.2 } position = { 0.5 0.3 } }			
-	}	
-	colored_emblem = {
-		texture = "ce_solid.dds"
+		texture = "ce_canton.dds"
 		color1 = "blue"
-		color2 = "blue"
-		instance = { scale = { 1.0 0.2 } position = { 0.5 0.5 } }			
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }			
 	}	
+
 	colored_emblem = {
-		texture = "ce_solid.dds"
+		texture = "ce_sun.dds"
 		color1 = "white"
 		color2 = "white"
-		instance = { scale = { 1.0 0.2 } position = { 0.5 0.7 } }			
+		instance = { scale = { 0.4 0.4 } position = { 0.25 0.25 } }			
 	}		
 	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "black"
-		color2 = "black"
-		instance = { scale = { 1.0 0.2 } position = { 0.5 0.9 } }			
+		texture = "ce_frame_circle.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { scale = { 0.25 0.25 } position = { 0.25 0.25 } }		
+	}	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.22 0.22 } position = { 0.25 0.25 } }		
 	}		
 }
-CHI_dictatorship = {
+CHU_dictatorship = {
 	# Kuomintang flag war flag 1930
 	
 	pattern = "pattern_border_of_4.dds"
@@ -4789,7 +4788,7 @@ CHI_dictatorship = {
 		instance = { scale = { 0.38 0.38 } position = { 0.5 0.5 } }		
 	}	
 }
-CHI_theocracy = {
+CHU_theocracy = {
 	# Simple variant of the imperial dragon flag with a border
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -4857,7 +4856,7 @@ CHI_theocracy = {
 		instance = { scale = { 1.12 1.0 } position = { 0.47 0.48 } rotation = -7.5 }			
 	}	
 }
-CHI_subject = {
+CHU_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "yellow"
@@ -4882,7 +4881,7 @@ CHI_subject = {
 		instance = { scale = { 0.08 0.08 } position = { 0.75 0.52 } }		
 	}		
 }
-CHI_communist = {
+CHU_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "yellow"
@@ -11729,6 +11728,18 @@ KOR_joseon = {
 	}	
 }
 
+KOC = {
+	pattern = "pattern_solid.tga"
+	color1 = "golden"
+
+	colored_emblem = {
+		texture = "ce_star_08_eureka.dds"
+		color1 = "white"
+		color2 = "blue"
+        instance = { position = { 0.5 0.5 } scale = { 0.6 0.6 } }		
+	}
+}
+
 KOR = { 
 	# 1882 flag adopted at end of isolationist era
 	
@@ -11756,16 +11767,10 @@ KOR_subject = {
 	color3 = "red"
 
 	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = color2
-		color2 = color2
-		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_korea_taegeuk.dds"
-		color1 = "red_light"
-		color2 = "azure"
-        instance = { position = { 0.75 0.5 } scale = { 0.65 0.65 } }		
+		texture = "ce_star_08_eureka.dds"
+		color1 = "golden"
+		color2 = "white"
+        instance = { position = { 0.75 0.5 } scale = { 0.6 0.6 } }		
 	}
 }
 KOR_subject_CHI = {
@@ -15300,30 +15305,158 @@ POC = {
 	}
 }
 
+CHO = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = "golden"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
+	}
+}
+
 GUC = {
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_stripes_02_bottom_lithuania.dds"
+		color1 = "green"
+		color2 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_04.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.35 } }
+	}
 }
 
 WER = {
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_border_sikkim.dds"
+		color1 = "yellow"
+		color2 = "white"
+		color3 = "blue"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_dragon_china.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		color3 = "blue"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
 }
 SHU = {
-	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	pattern = "pattern_border_outlined_thin.dds"
+	color1 = "blue"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_golden_fishes.dds"
+		color1 = "yellow_light"
+		color2 = "white"
+		color3 = "red"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
 }
 KWO = {
-	pattern = "pattern_solid.tga"
+	pattern = "pattern_rhombus.dds"
 	color1 = "yellow"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "green"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_dragon_china_circle.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		color3 = "blue"
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle_outline.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
 }
 NCL = {
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_cross_wheel.dds"
+		color1 = "golden"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+	
 }
 TAC = {
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	color1 = "golden"
+	colored_emblem = {
+		texture = "ce_border_decor_india.dds"
+		color1 = "green"
+		color2 = "blue"
+		color3 = "black"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_coa_saf_wildebeests.dds"
+		color1 = "green"
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+YUE = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_border_sikkim.dds"
+		color1 = "yellow"
+		color2 = "white"
+		color3 = "red"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_snow_lion.dds"
+		color1 = "yellow"
+		color2 = "blue_light"
+		color3 = "red"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+AHU = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_border_sikkim.dds"
+		color1 = "yellow"
+		color2 = "white"
+		color3 = "red"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SHN = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "blue"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
 }
 	
 RUK = {

@@ -173,7 +173,7 @@
 		# Scholar Officials
 		else_if = {
 			limit = {
-				c:CHI ?= this
+				c:CHU ?= this
 			}
 			ig:ig_landowners = { 
 				set_interest_group_name = ig_scholar_officials

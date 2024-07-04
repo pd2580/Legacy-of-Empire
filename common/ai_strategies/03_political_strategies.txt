@@ -814,8 +814,8 @@ ai_strategy_maintain_mandate_of_heaven = {
 	}	
 	
 	possible = {
-		exists = c:CHI
-		this = c:CHI
+		exists = c:CHU
+		this = c:CHU
 		is_country_type = unrecognized
 		has_law = law_type:law_monarchy
 	}

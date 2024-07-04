@@ -1,0 +1,20 @@
+je_chi_wu = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	group = je_group_historical_content
+	is_shown_when_inactive = {
+		exist = c:KWO
+		c:KWO ?= THIS
+	}
+	scripted_button = je_ye_button_one
+	possible = {
+		has_technology_researched = standing_army
+	}
+	complete = {
+		custom_tooltip = {
+			text = chi_uni_tex
+			exists = c:CHU
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}

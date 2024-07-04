@@ -70,6 +70,10 @@
 			country = c:MCH
 			type = dominion
 		}
+		create_diplomatic_pact = {
+			country = c:KOC
+			type = puppet
+		}
 	}
 	c:AMS ?= {
 		create_diplomatic_pact = {
@@ -123,36 +127,6 @@
 		create_diplomatic_pact = {
 			country = c:NOR
 			type = personal_union
-		}
-	}
-	c:DEN ?= {
-		create_diplomatic_pact = {
-			country = c:HOL
-			type = personal_union
-		}
-		create_diplomatic_pact = {
-			country = c:SCH
-			type = personal_union
-		}
-	}
-	c:CHI ?= {
-		create_diplomatic_pact = {
-			country = c:TIB
-			type = vassal
-		}
-		create_diplomatic_pact = {
-			country = c:KOR
-			type = tributary
-		}
-		create_diplomatic_pact = {
-			country = c:LAN
-			type = tributary
-		}			
-	}
-	c:AUS ?= {
-		create_diplomatic_pact = {
-			country = c:KRA
-			type = puppet
 		}
 	}
 	c:POR ?= {

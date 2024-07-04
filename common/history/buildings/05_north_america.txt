@@ -211,7 +211,7 @@ BUILDINGS={
 		}
 	}
 	s:STATE_ALASKA = {
-		region_state:KOR = {
+		region_state:KOC = {
 			create_building={
 				building="building_port"
 				add_ownership={

@@ -1907,38 +1907,40 @@ CHE = { # Cherokee
 	}
 }
 
-CHI = { # China
+CHU = { # China
 	flag_definition = {
-		coa = CHI_han_empire
-		coa_with_overlord_canton = CHI_han_empire
+		coa = CHU
+		coa_with_overlord_canton = CHU
 		priority = 5
 		trigger = { 
 			scope:actor ?= {
-				NOT = { country_has_primary_culture = cu:manchu }
 				has_law = law_type:law_monarchy
 			}
 		}
 	}
 	flag_definition = {
-		coa = CHI
-		subject_canton = CHI
-		coa_with_overlord_canton = CHI_subject
+		coa = CHU
+		subject_canton = CHU
+		coa_with_overlord_canton = CHU_subject
 		allow_overlord_canton = yes		
 		priority = 1
 	}
 	flag_definition = {
-		coa = CHI_absolute_monarchy
-		subject_canton = CHI_absolute_monarchy
-		coa_with_overlord_canton = CHI_subject
+		coa = CHU_absolute_monarchy
+		subject_canton = CHU_absolute_monarchy
+		coa_with_overlord_canton = CHU_subject
 		allow_overlord_canton = yes				
 		priority = 20
 		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
+			scope:actor ?= {
+			has_law = law_type:law_monarchy
+			has_law = law_type:law_autocracy
+			}
 		}
 	}	
 	flag_definition = {
-		coa = CHI_republic
-		subject_canton = CHI_republic
+		coa = CHU_republic
+		subject_canton = CHU_republic
 		allow_overlord_canton = yes
 		priority = 10
 		trigger = { 
@@ -1946,24 +1948,24 @@ CHI = { # China
 		}
 	}	
 	flag_definition = {
-		coa = CHI_dictatorship
-		subject_canton = CHI_dictatorship
+		coa = CHU_dictatorship
+		subject_canton = CHU_dictatorship
 		priority = 20
 		trigger = {
 			coa_def_dictatorship_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
-		coa = CHI_theocracy
-		subject_canton = CHI_theocracy
-		subject_canton = CHI_absolute_monarchy
+		coa = CHU_theocracy
+		subject_canton = CHU_theocracy
+		subject_canton = CHU_absolute_monarchy
 		priority = 20
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
-		coa = CHI_communist
+		coa = CHU_communist
 		priority = 1500
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
@@ -5185,6 +5187,16 @@ KOK = { # Kokand
 			coa_def_british_ensign_trigger = yes
 		}
 	}	
+}
+
+KOC = {
+	flag_definition = {
+		coa = KOC
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = KOR_subject		
+		subject_canton = KOR
+		priority = 1
+	}
 }
 
 KOR = { # Korea
@@ -10683,6 +10695,15 @@ TAC = {  #Taizhou clique
 		priority = 1		
 	}	
 }
+
+CHO = { #Wei
+	flag_definition = {
+		coa = CHO
+		subject_canton = CHO
+		priority = 1		
+	}	
+}
+
 
 GUC = { #Wei
 	flag_definition = {

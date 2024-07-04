@@ -2643,7 +2643,7 @@ on_law_enactment_pass = {
 		}
 		if = {
 			limit = {
-				c:CHI = {
+				c:CHU = {
 					has_modifier = opium_ban_authority
 					is_enacting_law = law_type:law_free_trade
 				}

@@ -274,3 +274,5 @@ je_kor_age_reason:0 "While it would be the norm to wait for the heir to be sixte
 kor_cor:0 "The heir has been crowned (the decision to arrange the ceremony will be available one year before the heir's 14th birthday)"
 je_kor_rail:0 "Solve the Infrastructure Problem"
 je_kor_rail_reason:0 "The quick industrialization of our country has brought us great wealth, but also many infrastructural problems.\nOur roads are not able to satisfy anymore the growing demand of our industrial sector for a better and faster transportation system, and therefore it is a necessity that we make investments for the construction of a nationwide railway system."
+je_pb_maint:0 "The Cost of Influence"
+je_pb_maint_reason:0 "Exerting ones influence has never been an inexpensive affair, and the cost of management of a power block is particularly high.\nThe management of a power block will be a heavy burden on the bureacratic system of our country, and therefore we have to consider if we actually want to mantain such an expensive business."
