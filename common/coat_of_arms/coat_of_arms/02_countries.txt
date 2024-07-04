@@ -11816,6 +11816,29 @@ KOR_communist = {
 		instance = { position = { 0.33 0.5 } scale = { 0.45 0.45 } }
 	}
 }
+KOR_dictatorship = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "golden"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+        instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+	colored_emblem = {
+		texture = "ce_star_08_eureka.dds"
+		color1 = "golden"
+		color2 = "white"
+        instance = { position = { 0.5 0.5 } scale = { 0.6 0.6 } }		
+	}
+	colored_emblem = {
+		texture = "ce_korea_kwae.dds"
+		color1 = "golden"
+		color2 = "golden"
+        instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }		
+	}
+}
 
 KRA = {
 	pattern = "pattern_solid.tga"
@@ -21645,6 +21668,40 @@ TRS = {
 		color1 = "red"
 		color2 = "yellow"
 	}
+}
+
+YUU = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_stripe_bottom_raised.dds"
+		color1 = "blue"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
+	}
+	colored_emblem = {
+		texture = "ce_snow_lion.dds"
+		color1 = "white"
+		color2 = "blue"
+		color3 = "red"
+		instance = { scale = { 0.9 0.9 } position = { 0.3 0.35 } }	
+	}
+}
+YUU_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+colored_emblem = {
+	texture = "ce_stripe_bottom_raised.dds"
+	color1 = "yellow"
+	instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
+}
+colored_emblem = {
+	texture = "ce_hammer_sickle_star_wreath.dds"
+	color1 = "yellow"
+	color2 = "blue"
+	instance = { scale = { 0.3 0.3 } position = { 0.15 0.15 } }	
+}
 }
 
 YUA = { # Yuan Pei

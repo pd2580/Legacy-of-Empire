@@ -89,7 +89,7 @@ law_interventionism = {
 		country_private_construction_allocation_mult = 0.5
 		building_nationalization_investment_return_add = 0.5
 		country_government_dividends_reinvestment_add = 0.5
-		country_government_dividends_efficiency_add = 0.25
+		country_government_dividends_efficiency_add = 0.55
 	}
 	
 	possible_political_movements = {
@@ -156,7 +156,7 @@ law_agrarianism = {
 		country_private_construction_allocation_mult = 0.5
 		building_nationalization_investment_return_add = 0.5
 		country_government_dividends_reinvestment_add = 0.5
-		country_government_dividends_efficiency_add = 0.3
+		country_government_dividends_efficiency_add = 0.6
 		
 		country_disable_nationalization_without_compensation_bool = yes
 	}
@@ -534,7 +534,7 @@ law_command_economy = {
 		country_bureaucrats_pol_str_mult = 0.25
 		building_nationalization_cost_mult = -0.5
 		building_nationalization_radicals_mult = -0.75
-		country_government_dividends_efficiency_add = 0.4
+		country_government_dividends_efficiency_add = 0.5
 		
 		country_leverage_resistance_mult = 0.25
 

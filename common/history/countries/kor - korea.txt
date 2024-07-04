@@ -44,5 +44,11 @@
 		ig:ig_landowners = { 
 			add_ruling_interest_group = yes
 		}
+		add_modifier = {
+			name = diplomatic_plays_blocked
+		}
+		trigger_event = {
+			id = loe_kor.1
+		}
 	}
 }

@@ -112,7 +112,7 @@ BUILDINGS={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:QAR"
 						levels=1
 					}
 				}
@@ -639,30 +639,28 @@ BUILDINGS={
 		}
 	}
 	s:STATE_GHANA = {
-		region_state:GBR = {
+		region_state:VEN = {
 			create_building={
-				building="building_port"
+				building="building_coffee_plantation"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:VEN"
 						levels=1
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_anchorage" }
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
-		}
-		region_state:AMS = {
 			create_building={
-				building="building_port"
+				building="building_cotton_plantation"
 				add_ownership={
 					country={
-						country="c:AMS"
+						country="c:VEN"
 						levels=1
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_anchorage" }
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 		}
 		region_state:ASH = {
@@ -801,12 +799,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_ZANZIBAR = {
-		region_state:OMA = {
+		region_state:CAS = {
 			create_building={
 				building="building_coffee_plantation"
 				add_ownership={
 					country={
-						country="c:OMA"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -817,7 +815,7 @@ BUILDINGS={
 				building="building_cotton_plantation"
 				add_ownership={
 					country={
-						country="c:OMA"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -828,7 +826,7 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:OMA"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -839,7 +837,7 @@ BUILDINGS={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:OMA"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -850,7 +848,7 @@ BUILDINGS={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:OMA"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -861,7 +859,7 @@ BUILDINGS={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:OMA"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2335,6 +2333,19 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:SAF"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
+		create_state:QAR = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:QAR"
 						levels=1
 					}
 				}

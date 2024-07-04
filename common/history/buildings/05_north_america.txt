@@ -1728,6 +1728,23 @@ BUILDINGS={
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:YUA"
+						levels=2
+						region="STATE_CALIFORNIA"
+					}
+					country={
+						country="c:YUA"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled"  }
+			}
+			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					country={
@@ -1743,7 +1760,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:YUA"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -1787,7 +1804,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:YUA"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -1809,7 +1826,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:YUA"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -1820,7 +1837,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:YUA"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -1831,7 +1848,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:YUA"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1

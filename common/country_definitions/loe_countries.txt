@@ -2395,7 +2395,7 @@ ACE = {
 BAL = {
 	color = { 201  97  74 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -2653,6 +2653,17 @@ YUA = {
 	color = { 195 207 54 }
 	
 	tier = city_state
+
+	religion = atheist
+	
+	cultures = { han min yue manchu }
+	capital = STATE_CALIFORNIA
+}
+
+YUU = {
+	color = { 5 25 59 }
+	
+	tier = kingdom
 
 	religion = atheist
 	

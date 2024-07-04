@@ -2719,12 +2719,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_SAKHALIN = {
-		region_state:KOR = {
+		region_state:JAP = {
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:KOR"
+						country="c:JAP"
 						levels=1
 					}
 				}
@@ -3607,35 +3607,76 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:KOR"
+						levels=4
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_vertical_filing_cabinets" }
+			}
+			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=2
+						region="STATE_SEOUL"
+					}
+					country={
+						country="c:KOR"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_artillery_foundries"
+				add_ownership={
+					country={
+						country="c:KOR"
 						levels=3
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=4
+						region="STATE_SEOUL"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_munition_plants"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=5
+						region="STATE_SEOUL"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_percussion_caps" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
 					country={
 						country="c:KOR"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
-			}
-			create_building={
-				building="building_glassworks"
-				add_ownership={
-					building={
-						type="building_glassworks"
-						country="c:KOR"
-						levels=3
-						region="STATE_SEOUL"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_forest_glass"  "pm_manual_glassblowing" "pm_ceramics" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -3656,7 +3697,7 @@ BUILDINGS={
 					building={
 						type="building_manor_house"
 						country="c:KOR"
-						levels=3
+						levels=9
 						region="STATE_SEOUL"
 					}
 				}
@@ -3676,17 +3717,6 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:KOR"
-						levels=10
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
 		}
 	}
 	s:STATE_BUSAN={
@@ -3696,14 +3726,14 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:KOR"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
-				building="building_shipyards"
+				building="building_military_shipyards"
 				add_ownership={
 					country={
 						country="c:KOR"
@@ -3711,20 +3741,50 @@ BUILDINGS={
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
+				activate_production_methods={ "pm_military_shipbuilding_wooden"  }
 			}
 			create_building={
-				building="building_glassworks"
+				building="building_logging_camp"
 				add_ownership={
 					building={
-						type="building_glassworks"
+						type="building_financial_district"
 						country="c:KOR"
-						levels=1
-						region="STATE_BUSAN"
+						levels=4
+						region="STATE_SEOUL"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_forest_glass" "pm_ceramics" "pm_manual_glassblowing"  }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_shipyards"
+				add_ownership={
+					country={
+						country="c:KOR"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_shipbuilding"  }
+			}
+			create_building={
+				building="building_furniture_manufacturies"
+				add_ownership={
+					building={
+						type="building_furniture_manufacturies"
+						country="c:KOR"
+						levels=2
+						region="STATE_SEOUL"
+					}
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=2
+						region="STATE_SEOUL"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_lathe" "pm_luxury_furniture" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -3745,7 +3805,7 @@ BUILDINGS={
 					building={
 						type="building_manor_house"
 						country="c:KOR"
-						levels=1
+						levels=26
 						region="STATE_BUSAN"
 					}
 				}
@@ -3764,17 +3824,6 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:KOR"
-						levels=3
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
 				building="building_port"
@@ -3796,24 +3845,69 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:KOR"
-						levels=2
+						levels=7
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
-				building="building_glassworks"
+				building="building_logging_camp"
 				add_ownership={
 					building={
-						type="building_glassworks"
+						type="building_financial_district"
 						country="c:KOR"
-						levels=1
+						levels=4
+						region="STATE_SEOUL"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=2
+						region="STATE_PYONGYANG"
+					}
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=3
+						region="STATE_SARIWON"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=7
 						region="STATE_YANGHO"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_forest_glass" "pm_ceramics" "pm_manual_glassblowing"  }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_steel_mills"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=2
+						region="STATE_YANGHO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_blister_steel_process" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -3821,7 +3915,7 @@ BUILDINGS={
 					building={
 						type="building_fishing_wharf"
 						country="c:KOR"
-						levels=2
+						levels=3
 						region="STATE_YANGHO"
 					}
 				}
@@ -3834,7 +3928,7 @@ BUILDINGS={
 					building={
 						type="building_manor_house"
 						country="c:KOR"
-						levels=1
+						levels=2
 						region="STATE_YANGHO"
 					}
 				}
@@ -3847,7 +3941,7 @@ BUILDINGS={
 					building={
 						type="building_manor_house"
 						country="c:KOR"
-						levels=1
+						levels=2
 						region="STATE_YANGHO"
 					}
 				}
@@ -3855,15 +3949,30 @@ BUILDINGS={
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_barracks"
+				building="building_chemical_plants"
 				add_ownership={
-					country={
+					building={
+						type="building_financial_district"
 						country="c:KOR"
-						levels=2
+						levels=4
+						region="STATE_YANGHO"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_no_organization" }
+				activate_production_methods={ "pm_artificial_fertilizers"  }
+			}
+			create_building={
+				building="building_explosives_factory"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=2
+						region="STATE_YANGHO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_leblanc_process"  }
 			}
 		}
 	}
@@ -3878,7 +3987,57 @@ BUILDINGS={
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=2
+						region="STATE_SARIWON"
+					}
+					country={
+						country="c:KOR"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:KOR"
+						levels=7
+						region="STATE_SARIWON"
+					}
+				}
+				reserves=1
+				activa
+				te_production_methods={ "default_building_silk_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_textile_mills"
+				add_ownership={
+					building={
+						type="building_textile_mills"
+						country="c:KOR"
+						levels=4
+						region="STATE_SARIWON"
+					}
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=6
+						region="STATE_SARIWON"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms"  }
 			}
 			create_building={
 				building="building_rice_farm"
@@ -3886,7 +4045,7 @@ BUILDINGS={
 					building={
 						type="building_manor_house"
 						country="c:KOR"
-						levels=1
+						levels=13
 						region="STATE_SARIWON"
 					}
 				}
@@ -3899,7 +4058,7 @@ BUILDINGS={
 					building={
 						type="building_manor_house"
 						country="c:KOR"
-						levels=1
+						levels=4
 						region="STATE_SARIWON"
 					}
 				}
@@ -3919,17 +4078,6 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:KOR"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
 		}
 	}
 	s:STATE_PYONGYANG={
@@ -3943,7 +4091,52 @@ BUILDINGS={
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=4
+						region="STATE_SEOUL"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=4
+						region="STATE_PYONGYANG"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_tooling_workshops"
+						country="c:KOR"
+						levels=4
+						region="STATE_PYONGYANG"
+					}
+					building={
+						type="building_financial_district"
+						country="c:KOR"
+						levels=1
+						region="STATE_PYONGYANG"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steel" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_glassworks"
@@ -3964,7 +4157,7 @@ BUILDINGS={
 					building={
 						type="building_iron_mine"
 						country="c:KOR"
-						levels=1
+						levels=9
 						region="STATE_PYONGYANG"
 					}
 				}
@@ -3977,7 +4170,7 @@ BUILDINGS={
 					building={
 						type="building_manor_house"
 						country="c:KOR"
-						levels=2
+						levels=3
 						region="STATE_PYONGYANG"
 					}
 				}
@@ -3990,23 +4183,12 @@ BUILDINGS={
 					building={
 						type="building_manor_house"
 						country="c:KOR"
-						levels=2
+						levels=8
 						region="STATE_PYONGYANG"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:KOR"
-						levels=10
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}

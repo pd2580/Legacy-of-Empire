@@ -1,0 +1,18 @@
+je_qartaj_cape = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+	fail = {
+		NOT = {
+		owns_treaty_port_in = STATE_CAPE_COLONY
+		}
+	}
+	on_fail = {
+		remove_modifier = modifier_ven_two
+	}
+	transferable = yes
+
+	weight = 5000
+	should_be_pinned_by_default = yes
+}

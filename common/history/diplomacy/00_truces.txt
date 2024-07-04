@@ -27,9 +27,25 @@ DIPLOMACY = {
 
 DIPLOMACY = {
 	c:KOR= {
-		create_bidirectional_truce = {
+		create_unidirectional_truce = {
 			country = c:YUA
-			months = 242
+			months = 76
+		}
+	}	
+}
+DIPLOMACY = {
+	c:KOR= {
+		create_bidirectional_truce = {
+			country = c:SAO
+			months = 90
+		}
+	}	
+}
+DIPLOMACY = {
+	c:KOR= {
+		create_bidirectional_truce = {
+			country = c:MCH
+			months = 17
 		}
 	}	
 }

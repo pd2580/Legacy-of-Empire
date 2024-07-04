@@ -74,7 +74,7 @@ war_exhaustion = {
 				enemy_occupation < 0.25
 			}
 			add = {
-				add = 0.5
+				add = 1.0
 				desc = "WAR_EXHAUSTION_FROM_ENEMY_OCCUPATION_MODERATE"
 			}
 		}
@@ -83,7 +83,7 @@ war_exhaustion = {
 				enemy_occupation < 0.5
 			}
 			add = {
-				add = 1.0
+				add = 2.0
 				desc = "WAR_EXHAUSTION_FROM_ENEMY_OCCUPATION_SUBSTANTIAL"
 			}
 		}
@@ -92,7 +92,7 @@ war_exhaustion = {
 				enemy_occupation < 0.75
 			}
 			add = {
-				add = 2.0
+				add = 3.0
 				desc = "WAR_EXHAUSTION_FROM_ENEMY_OCCUPATION_HIGH"
 			}
 		}
@@ -101,7 +101,7 @@ war_exhaustion = {
 				enemy_occupation < 0.9
 			}
 			add = {
-				add = 3.0
+				add = 10.0
 				desc = "WAR_EXHAUSTION_FROM_ENEMY_OCCUPATION_EXTREME"
 			}
 		}
@@ -110,7 +110,7 @@ war_exhaustion = {
 				enemy_occupation <= 1.0
 			}
 			add = {
-				add = 10.0
+				add = 200.0
 				desc = "WAR_EXHAUSTION_FROM_ENEMY_OCCUPATION_TOTAL"
 			}
 		}

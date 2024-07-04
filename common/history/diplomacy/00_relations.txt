@@ -51,7 +51,10 @@
 		set_relations = { country = c:GBR value = -30 }
 	}
 	c:KOR ?= {
-		set_relations = { country = c:YUA value = 100 }
+		set_relations = { country = c:YUA value = -25 }
+		set_relations = { country = c:MCH value = -35 }
+		set_relations = { country = c:JAP value = -15 }
+		set_relations = { country = c:SAO value = -50 }
 	}
 	c:CHI ?= {
 		set_relations = { country = c:TIB value = 30 }
