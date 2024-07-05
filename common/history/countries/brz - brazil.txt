@@ -14,7 +14,7 @@
 		activate_law = law_type:law_slave_trade 
 		# the 1824 constitution granted the vote to all Brazilian citizens, excluding those who did not have an annual net income of 200000 reais
 		activate_law = law_type:law_wealth_voting
-		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_per_capita_based_taxation

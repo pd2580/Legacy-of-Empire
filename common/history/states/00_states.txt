@@ -5510,6 +5510,10 @@ STATES = {
 		}
 		
 		add_homeland = cu:tibetan
+		add_claim = c:SIH
+		add_claim = c:CHO
+		add_claim = c:YUN
+		add_claim = c:GUC
 	}
 	s:STATE_NGARI = {
 		create_state = {
@@ -5937,8 +5941,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:han
-		add_claim = c:YUE	
-		add_claim = c:GNG
 	}
 	s:STATE_HUNAN = {
 		create_state = {

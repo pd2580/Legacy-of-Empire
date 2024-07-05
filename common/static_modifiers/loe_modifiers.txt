@@ -448,5 +448,10 @@ pb_lead = {
 	state_tax_capacity_mult = -0.1
 	state_construction_mult = -0.1
 	country_prestige_add = 100
-
+}
+modifier_chu_claim = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_prestige_add = -25
+	country_bureaucracy_mult = -0.05
+	country_expenses_add = 1000
 }
