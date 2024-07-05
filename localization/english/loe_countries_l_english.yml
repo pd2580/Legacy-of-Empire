@@ -184,3 +184,5 @@
  dyn_fin_mon:0 "Kingdom of Finland"
  NOV:0 "Novgorod"
  NOV_ADJ:0 "Novgorodian"
+ dyn_c_osman_caliphate:0 "Osman Caliphate"
+ dyn_c_osman_caliphate_adj:0 "Osman"

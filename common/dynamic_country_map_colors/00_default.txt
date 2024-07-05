@@ -124,6 +124,17 @@ turkish_republic = {
 		}
 	}
 }
+osman_caliphate = {
+	color = { 0 64 0 }
+
+	possible = {
+		exists = c:TUR
+		THIS = c:TUR
+		OR = {
+			has_law = law_type:law_theocracy
+		}
+	}
+}
 
 purple_naples = {
 	color = "naples_purple"
