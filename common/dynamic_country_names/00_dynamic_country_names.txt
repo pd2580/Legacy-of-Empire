@@ -807,37 +807,33 @@ CHC = {
 	}
 }
 
-CHI = {
+CHU = {
 	# China
 	dynamic_country_name = {
-		name = dyn_c_great_qing
-		adjective = dyn_c_great_qing_adj
+		name = dyn_c_great_comm
+		adjective = dyn_c_great_comm_adj
 		is_main_tag_only = yes
 		priority = 0
 		trigger = {
-			coa_def_monarchy_flag_trigger = yes
 			scope:actor ?= {
-				country_has_primary_culture = cu:manchu
+				has_law = law_type:law_council_republic
 			}
 		}
 	}
 	dynamic_country_name = {
-		name = dyn_c_empire_of_china
-		adjective = dyn_c_empire_of_china_adj
+		name = dyn_c_empire_chi
+		adjective = dyn_c_empire_chi_adj
 		is_main_tag_only = yes
 		priority = 0
 		trigger = {
 			scope:actor ?= {
-				NOT = {
-					country_has_primary_culture = cu:manchu
-				}
 				has_law = law_type:law_monarchy
 			}
 		}
 	}
 	dynamic_country_name = {
-		name = dyn_c_peoples_republic_of_china
-		adjective = CHI_ADJ
+		name = dyn_c_peoples_republic_of_chi
+		adjective = CHU_ADJ
 		is_main_tag_only = yes
 		priority = 0
 		trigger = {
@@ -887,7 +883,8 @@ COM = {
 			scope:actor ?= {
 				NOT = {
 					is_country_type = decentralized
-				}				# if Comanche is recognized, then they get a more formal name
+				}
+				# if Comanche is recognized, then they get a more formal name
 			}
 		}
 	}
@@ -1166,7 +1163,8 @@ HRO = {
 			scope:actor ?= {
 				NOT = {
 					is_country_type = decentralized
-				}				# if Herero is recognized, then they get a more formal name
+				}
+				# if Herero is recognized, then they get a more formal name
 			}
 		}
 	}
@@ -1292,6 +1290,22 @@ KTI = {
 				owns_entire_state_region = STATE_WEST_BORNEO
 				owns_entire_state_region = STATE_EAST_BORNEO
 				owns_entire_state_region = STATE_NORTH_BORNEO
+			}
+		}
+	}
+}
+
+KOC = {
+	dynamic_country_name = {
+		name = colonial_admin_kor
+		adjective = KOR_ADJ
+		use_overlord_prefix = yes
+		priority = 100
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				c:KOC ?= this
+				is_subject = yes
 			}
 		}
 	}
@@ -1932,7 +1946,8 @@ TSW = {
 			scope:actor ?= {
 				NOT = {
 					is_country_type = decentralized
-				}				# if Tswana is recognized, then they get a more formal name
+				}
+				# if Tswana is recognized, then they get a more formal name
 			}
 			coa_def_british_ensign_trigger = no
 		}
@@ -2147,7 +2162,8 @@ LKT = {
 			exists = scope:actor
 			NOT = {
 				exists = c:DKT
-			}			# Lakota will be considered the united Seven Council Fires if Dakota are not independent
+			}
+			# Lakota will be considered the united Seven Council Fires if Dakota are not independent
 		}
 	}
 }

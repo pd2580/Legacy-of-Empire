@@ -2458,7 +2458,7 @@ CAM = {
 	capital = STATE_CAMBODIA
 }
 
-CHI = {
+CHU = {
 	color = { 252 185 61 }
 	
 	country_type = unrecognized
@@ -2492,10 +2492,21 @@ JAV = {
 	is_named_from_capital = yes
 }
 
+KOC = {
+	color = { 204 200 190  }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { korean }
+	capital = STATE_KAMCHATKA
+}
+
 KOR = {
 	color = { 157  144  97 }
 	
-	country_type = recognized
+	country_type = unrecognized
 	
 	tier = kingdom
 	
@@ -2652,6 +2663,8 @@ CAL = {
 YUA = {
 	color = { 195 207 54 }
 	
+	country_type = unrecognized
+
 	tier = city_state
 
 	religion = atheist
@@ -4145,6 +4158,17 @@ TAC = {
 	capital = STATE_ZHEJIANG
 }
 
+CHO = {
+	color = { 20 82 16}
+	
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { han }
+	capital = STATE_CHONGQING
+}
+
 GUC = {
 	color = { 105 141 191 }
 	
@@ -4157,7 +4181,7 @@ GUC = {
 }
 
 WER = {
-	color = { 164 168 118 }
+	color = { 41 21 158 }
 	
 	country_type = unrecognized
 
@@ -4168,7 +4192,7 @@ WER = {
 }
 
 SHU = {
-	color = { 164 168 118 }
+	color = { 13 99 9 }
 	
 	country_type = unrecognized
 
@@ -4235,7 +4259,7 @@ KAR = {
 }
 
 KWO = {
-	color = { 164 168 118 }
+	color = { 143 14 16 }
 	
 	country_type = unrecognized
 
@@ -4384,14 +4408,6 @@ SHN = { #Shanxi
 	capital = STATE_SHANXI
 }
 
-GUI = { #Guizhou
-	color = { 37 102 37 }
-	country_type = unrecognized
-	tier = principality
-	cultures = { han}
-	capital = STATE_GUIZHOU
-}
-
 GNG = { #Guangxi
 	color = { 133 56 8 }
 	country_type = unrecognized
@@ -4404,7 +4420,7 @@ SIH = { #Sichuan
 	color = { 42 189 68 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { han }
+	cultures = { han yi }
 	capital = STATE_SICHUAN
 }
 
@@ -4690,7 +4706,7 @@ KZH = {
 	tier = principality
 	
 	cultures = { kazak }
-	capital = STATE_URALSK
+	capital = STATE_AKTOBE
 }
 
 POC = {

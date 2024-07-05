@@ -154,27 +154,27 @@
 			hq_region = sr:region_south_china
 			name = "Hunan Army"
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_WESTERN_HUBEI
-				count = 15
+				count = 25
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_HUNAN
-				count = 10
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
+				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_EASTERN_HUBEI
-				count = 5
+				count = 25
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_HUNAN
+				count = 25
 			}
 		}
 	}
-	c:GUI = {
+	c:CHO = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_south_china
-			name = "Guizhou Army"
+			name = "Chongqing Army"
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CHONGQING

@@ -2486,8 +2486,6 @@
 		}
 	}
 	s:STATE_AMUR={
-		region_state:CHI={
-		}
 	}
 	s:STATE_CHELYABINSK={
 		region_state:OZH={

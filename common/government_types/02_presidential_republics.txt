@@ -599,6 +599,13 @@ gov_colonial_administration = {
 				is_subject_type = subject_type_dominion
 			}
 			AND = {
+				exists = c:KOC
+				is_subject = yes
+				is_subject_type = subject_type_puppet
+				is_country_type = colonial
+				top_overlord = { NOT = { is_country_type = colonial } }
+			}
+			AND = {
 				exists = c:SPA
 				is_subject_of = c:SPA
 				is_subject_type = subject_type_puppet

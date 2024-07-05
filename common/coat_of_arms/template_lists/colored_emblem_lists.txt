@@ -403,8 +403,8 @@ colored_emblem_texture_lists = {
 		special_selection = {
 			trigger = { 
 				OR = {
-					country_definition_has_culture = cu:anglo_canadian 
-					country_definition_has_culture = cu:franco_canadian 
+					country_definition_has_culture = cu:swedish_colonial
+					country_definition_has_culture = cu:swedish_colonial 
 				}
 			}
 			1000 = "ce_maple_leafs.dds"
@@ -413,7 +413,7 @@ colored_emblem_texture_lists = {
 
 		special_selection = {
 			trigger = { 
-				country_definition_has_culture = cu:franco_canadian 
+				country_definition_has_culture = cu:swedish_colonial 
 			}
 			10 = "ce_fleur_quebec.dds"
 		}
