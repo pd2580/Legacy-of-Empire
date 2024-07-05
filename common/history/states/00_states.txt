@@ -5131,13 +5131,9 @@ STATES = {
 	s:STATE_ELIZAVETPOL = {
 		create_state = {
 			country = c:ARM
-			owned_provinces = { "x2F7A57" "x80D041" "x9195D4" "xDFB2B0" }
+			owned_provinces = { "x2F7A57" "x80D041" "x9195D4" "xDFB2B0" "x0E70E4" "x404F5B" x747318 "x8090BF" "xB7DDE5" "xEE1A87" "x809040"}
 			state_type = incorporated
 		}
-		create_state = {
-			country = c:PER
-			owned_provinces = { "x0E70E4" "x404F5B" x747318 "x8090BF" "xB7DDE5" "xEE1A87" "x809040" }
-			state_type = incorporated
 		
 		add_homeland = cu:armenian
 		add_homeland = cu:azerbaijani

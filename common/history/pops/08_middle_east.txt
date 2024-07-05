@@ -1013,7 +1013,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 1428494
+				size = 928494
 			}
 			create_pop = {
 				culture = sephardic
@@ -1021,7 +1021,7 @@
 			}
 			create_pop = {
 				culture = armenian
-				size = 182277
+				size = 112277
 			}
 			create_pop = {
 				culture = greek
@@ -1090,11 +1090,11 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 1298129
+				size = 1098129
 			}
 			create_pop = {
 				culture = armenian
-				size = 117368
+				size = 87368
 			}
 			create_pop = {
 				culture = greek
@@ -1310,7 +1310,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 30012
+				size = 90012
 			}
 			create_pop = {
 				culture = armenian
@@ -1356,6 +1356,11 @@
 				religion = sunni
 				size = 50320
 			}
+			create_pop = { # Laz
+				culture = south_roman
+				religion = orthodox
+				size = 150320
+			}
 			create_pop = {
 				pop_type = slaves
 				culture = north_caucasian
@@ -1371,6 +1376,7 @@
 				culture = georgian
 				size = 4341
 			}
+
 		}
 	}
 	s:STATE_ERZURUM = {
@@ -1475,7 +1481,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 1206365
+				size = 2206365
 			}
 			create_pop = {
 				culture = kurdish
@@ -1487,7 +1493,7 @@
 			}
 			create_pop = {
 				culture = armenian
-				size = 653262
+				size = 453262
 			}
 			create_pop = {
 				culture = armenian

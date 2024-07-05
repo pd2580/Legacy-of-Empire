@@ -47,24 +47,24 @@
 		region_state:ARM = {
 			create_pop = {
 				culture = armenian
-				size = 135345
+				size = 1135345
 			}
 			create_pop = {
 				culture = azerbaijani
 				religion = sunni
-				size = 75112
+				size = 5112
 			}
 			create_pop = {
 				culture = azerbaijani
-				size = 21000
+				size = 1000
 			}
 			create_pop = {
 				culture = kurdish
-				size = 14894
+				size = 24894
 			}
 			create_pop = {
 				culture = assyrian
-				size = 891
+				size = 11891
 			}
 		}
 		region_state:PER = {
@@ -115,6 +115,35 @@
 			create_pop = {
 				culture = persian
 				size = 44865
+			}
+		}
+	}
+	s:STATE_ELIZAVETPOL = {
+		region_state:ARM = {
+			create_pop = {
+				culture = azerbaijani
+				size = 11245
+			}
+			create_pop = {
+				culture = sephardic
+				size = 2866
+			}
+			create_pop = {
+				culture = azerbaijani
+				religion = sunni
+				size = 9604
+			}
+			create_pop = {
+				culture = armenian
+				size = 918294
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 1014
+			}
+			create_pop = {
+				culture = persian
+				size = 4865
 			}
 		}
 	}
