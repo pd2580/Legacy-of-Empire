@@ -2958,7 +2958,7 @@
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=9
 					}
 				}
 				reserves=1
@@ -2969,7 +2969,7 @@
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -2980,7 +2980,7 @@
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4008,6 +4008,17 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_percussion_caps" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:BGY"
+						levels=20
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 		}
 	}

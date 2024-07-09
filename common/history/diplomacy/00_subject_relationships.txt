@@ -13,6 +13,12 @@
 			type = dominion
 		}
 	}
+	c:BGY ?= {
+		create_diplomatic_pact = {
+			country = c:OCC
+			type = dominion
+		}
+	}
 	c:BOR ?= {
 		create_diplomatic_pact = {
 			country = c:BAU

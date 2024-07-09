@@ -1,4 +1,4 @@
-BUILDINGS={
+﻿BUILDINGS={
 	s:STATE_LOMBARDY = {
 		region_state:LLO = {
 			create_building={
@@ -2011,12 +2011,12 @@ BUILDINGS={
 		}
 	}
 	s:STATE_NAVARRA = {
-		region_state:AQR = {
+		region_state:CAS = {
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2027,7 +2027,7 @@ BUILDINGS={
 				building="building_food_industry"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2038,7 +2038,7 @@ BUILDINGS={
 				building="building_paper_mills"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2049,7 +2049,7 @@ BUILDINGS={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2060,7 +2060,7 @@ BUILDINGS={
 				building="building_coal_mine"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2071,7 +2071,7 @@ BUILDINGS={
 				building="building_railway"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2082,7 +2082,7 @@ BUILDINGS={
 				building="building_shipyards"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2093,7 +2093,7 @@ BUILDINGS={
 				building="building_munition_plants"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2104,7 +2104,7 @@ BUILDINGS={
 				building="building_munition_plants"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2115,7 +2115,7 @@ BUILDINGS={
 				building="building_furniture_manufacturies"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2126,7 +2126,7 @@ BUILDINGS={
 				building="building_textile_mills"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2137,7 +2137,7 @@ BUILDINGS={
 				building="building_tooling_workshops"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2148,7 +2148,7 @@ BUILDINGS={
 				building="building_iron_mine"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2159,7 +2159,7 @@ BUILDINGS={
 				building="building_wheat_farm"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2170,7 +2170,7 @@ BUILDINGS={
 				building="building_vineyard_plantation"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2181,7 +2181,7 @@ BUILDINGS={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2192,7 +2192,7 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
@@ -2203,7 +2203,7 @@ BUILDINGS={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:AQR"
+						country="c:CAS"
 						levels=1
 					}
 				}
