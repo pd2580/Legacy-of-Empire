@@ -27,6 +27,14 @@
  HUB_NAME_STATE_ALAND_city:0 "Bomarsund"
  HUB_NAME_STATE_ALAND_port:0 "Mariehamn"
  HUB_NAME_STATE_ALAND_farm:0 "Strandgård"
+ HUB_NAME_STATE_AKTOBE_city:0 "Aktobe"
+ HUB_NAME_STATE_AKTOBE_mine:0 "Kobda"
+ HUB_NAME_STATE_AKTOBE_farm:0 "Temir"
+ HUB_NAME_STATE_AKTOBE_wood:0 "Irgiz"
+ HUB_NAME_STATE_SYRDARYA_city:0 "Perovsky"
+ HUB_NAME_STATE_SYRDARYA_mine:0 "Shymkent"
+ HUB_NAME_STATE_SYRDARYA_farm:0 "Turkistan"
+ HUB_NAME_STATE_SYRDARYA_wood:0 "Novokazalinsk"
 
   
   # Norway

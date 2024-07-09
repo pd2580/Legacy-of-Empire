@@ -26,7 +26,7 @@ je_venice_main = {
 	}
 
 	goal_add_value = {
-		add = 6
+		add = 7
 	}
 
 	progressbar = yes
@@ -101,6 +101,10 @@ je_venice_greece = {
 				}
 				exists = c:PEL
 				c:PEL = {
+					is_subject_of = ROOT
+				}
+				exists = c:EPI
+				c:EPI = {
 					is_subject_of = ROOT
 				}
 			}

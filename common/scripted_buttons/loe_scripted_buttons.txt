@@ -183,3 +183,580 @@ je_ye_button_mos = {
 		}
 	}
 }
+
+je_chi_button_hubei = {
+	name = "je_chi_claim_hubei_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = hubei_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_WESTERN_HUBEI
+			}
+			NOT = {
+				owns_entire_state_region = STATE_EASTERN_HUBEI
+			}
+			NOT = {
+				owns_entire_state_region = STATE_HUNAN
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = hubei_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.1
+				days = 1825
+			}
+		}
+	}
+}
+je_chi_button_wu = {
+	name = "je_chi_claim_wu_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = wu_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_NANJING
+			}
+			NOT = {
+				owns_entire_state_region = STATE_SUZHOU
+			}
+			NOT = {
+				owns_entire_state_region = STATE_ZHEJIANG
+			}
+			NOT = {
+				owns_entire_state_region = STATE_TONKIN
+			}
+			NOT = {
+				owns_entire_state_region = STATE_GUANGDONG
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = wu_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.2
+				days = 1825
+			}
+		}
+	}
+}
+je_chi_button_wei = {
+	name = "je_chi_claim_wei_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = wei_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_JIANGSU
+			}
+			NOT = {
+				owns_entire_state_region = STATE_SHENGJING
+			}
+			NOT = {
+				owns_entire_state_region = STATE_XIAN
+			}
+			NOT = {
+				owns_entire_state_region = STATE_NINGXIA
+			}
+			NOT = {
+				owns_entire_state_region = STATE_GANSU
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = wei_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.3
+				days = 1825
+			}
+		}
+	}
+}
+
+je_chi_button_beij = {
+	name = "je_chi_claim_beij_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = beij_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_BEIJING
+			}
+			NOT = {
+				owns_entire_state_region = STATE_SHENGJING
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = beij_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.6
+				days = 1825
+			}
+		}
+	}
+}
+
+je_chi_button_sc = {
+	name = "je_chi_claim_sc_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = sc_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_GUANGDONG
+			}
+			NOT = {
+				owns_entire_state_region = STATE_TONKIN
+			}
+			NOT = {
+				owns_entire_state_region = STATE_GUANGXI
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = sc_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.7
+				days = 1825
+			}
+		}
+	}
+}
+
+je_chi_button_ss = {
+	name = "je_chi_claim_ss_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = ss_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_YUNNAN
+			}
+			NOT = {
+				owns_entire_state_region = STATE_GUIZHOU
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = ss_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.4
+				days = 1825
+			}
+		}
+	}
+}
+
+je_chi_button_ns = {
+	name = "je_chi_claim_ns_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = ns_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_SICHUAN
+			}
+			NOT = {
+				owns_entire_state_region = STATE_CHONGQING
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = ns_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.5
+				days = 1825
+			}
+		}
+	}
+}
+
+je_chi_button_ncp = {
+	name = "je_chi_claim_ncp_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = ncp_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_JIANGSU
+			}
+			NOT = {
+				owns_entire_state_region = STATE_SHANDONG
+			}
+			NOT = {
+				owns_entire_state_region = STATE_ZHILI
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = ncp_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.8
+				days = 1825
+			}
+		}
+	}
+}
+
+je_chi_button_scp = {
+	name = "je_chi_claim_scp_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = scp_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_NORTHERN_ANHUI
+			}
+			NOT = {
+				owns_entire_state_region = STATE_HENAN
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = scp_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.9
+				days = 1825
+			}
+		}
+	}
+}
+
+je_chi_button_plat = {
+	name = "je_chi_claim_plat_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = plat_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_XIAN
+			}
+			NOT = {
+				owns_entire_state_region = STATE_NINGXIA
+			}
+			NOT = {
+				owns_entire_state_region = STATE_GANSU
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = plat_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.10
+				days = 1825
+			}
+		}
+	}
+}
+
+je_chi_button_shsr = {
+	name = "je_chi_claim_shsr_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = shsr_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_NANJING
+			}
+			NOT = {
+				owns_entire_state_region = STATE_SOUTHERN_ANHUI
+			}
+			NOT = {
+				owns_entire_state_region = STATE_SUZHOU
+			}
+			NOT = {
+				owns_entire_state_region = STATE_ZHEJIANG
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = shsr_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.11
+				days = 1825
+			}
+		}
+	}
+}
+
+je_chi_button_shir = {
+	name = "je_chi_claim_shir_b"
+	desc = "je_chi_claim_hubei_b_desc"
+	visible = {
+		always = yes
+	}
+	ai_chance = {
+		base = 100
+	}
+	possible = {
+		NOT = {
+			has_modifier = modifier_chu_claim
+		}
+		custom_tooltip = {
+			text = sc_claimed_t
+			NOT = {
+				has_variable = shir_claimed
+			}
+		}
+		OR = {
+			NOT = {
+				owns_entire_state_region = STATE_FUJIAN
+			}
+			NOT = {
+				owns_entire_state_region = STATE_SHAOZHOU
+			}
+			NOT = {
+				owns_entire_state_region = STATE_JIANGXI
+			}
+		}
+	}
+	effect = {
+		add_modifier = {
+			name = modifier_chu_claim
+			months = 60
+		}
+		set_variable = {
+			name = shir_claimed
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = loe_chi_cl.12
+				days = 1825
+			}
+		}
+	}
+}

@@ -77,7 +77,7 @@
 		}
 	}
 	s:STATE_KAMCHATKA = {
-		region_state:KOR = {
+		region_state:KOC = {
 			create_pop = {
 				culture = siberian
 				size = 5600
@@ -89,7 +89,7 @@
 		}
 	}
 	s:STATE_OKHOTSK = {
-		region_state:KOR = {
+		region_state:KOC = {
 			create_pop = {
 				culture = siberian
 				size = 49400

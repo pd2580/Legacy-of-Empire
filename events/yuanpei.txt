@@ -318,7 +318,7 @@ loe_yua.10 = {
 		hidden_effect = {
 			create_diplomatic_pact = {
 				country = c:YUA
-				type = protectorate
+				type = tributary
 			}
 		}
 			create_unidirectional_truce = {
@@ -336,6 +336,10 @@ loe_yua.10 = {
 			custom_tooltip = {
 				text = yue_inde
 			}
+		}
+		create_unidirectional_truce = {
+			country = c:YUA
+			months = 60
 		}
 	}
 }

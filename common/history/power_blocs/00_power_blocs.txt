@@ -12,7 +12,7 @@
 #		}
 #		if = {
 #			limit = {
-has_dlc_feature = power_bloc_features
+# has_dlc_feature = power_bloc_features
 #			}
 #			power_bloc = {
 #				add_principle = principle_police_coordination_1
