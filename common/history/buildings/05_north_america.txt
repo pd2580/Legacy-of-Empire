@@ -811,7 +811,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:CLB"
-						levels=5
+						levels=8
 					}
 				}
 				reserves=1

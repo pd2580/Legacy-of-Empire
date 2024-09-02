@@ -1044,16 +1044,6 @@ STATES = {
 		
 		add_homeland = cu:spanish
 	}
-	s:STATE_NAVARRA = {
-		create_state = {
-			country = c:CAS
-			owned_provinces = { x48868C x702080 x10E0C0 xABE0B3 xAC1425 x9EC9B8 xCB3245 }
-		}
-		
-		add_claim = c:CAS
-		add_homeland = cu:spanish
-		add_homeland = cu:basque
-	}
 	s:STATE_CATALONIA = {
 		create_state = {
 			country = c:AQU

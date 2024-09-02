@@ -2673,11 +2673,22 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
+				building="building_textile_mills"
+				add_ownership={
+					country={
+						country="c:BGY"
+						levels=4
+					}
+				}
+				reserves=1
+				activate_production_methods={  }
+			}
+			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
 					country={
 						country="c:BGY"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -3139,6 +3150,17 @@
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" }
 			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					country={
+						country="c:OCC"
+						levels=6
+					}
+				}
+				reserves=1
+				activate_production_methods={  }
+			}
 		}
 	}
 	s:STATE_FRENCH_LOW_COUNTRIES = {
@@ -3148,7 +3170,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -3159,7 +3181,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -3170,7 +3192,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -3181,7 +3203,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -3203,7 +3225,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -3214,7 +3236,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -3236,7 +3258,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -3247,7 +3269,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=11
 					}
 				}
 				reserves=1
@@ -3258,7 +3280,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4568,18 +4590,29 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=20
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
+				building="building_motor_industry"
+				add_ownership={
+					country={
+						country="c:AMS"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={  }
+			}
+			create_building={
 				building="building_railway"
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=7
 					}
 				}
 				reserves=1
@@ -4590,7 +4623,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=7
 					}
 				}
 				reserves=1
@@ -4601,7 +4634,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4612,7 +4645,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4623,7 +4656,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4634,7 +4667,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
@@ -4645,7 +4678,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -4656,7 +4689,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4667,7 +4700,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4678,18 +4711,18 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=9
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_dye_workshops"  "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
 			}
 			create_building={
 				building="building_food_industry"
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -4700,7 +4733,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=8
 					}
 				}
 				reserves=1
@@ -4711,7 +4744,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
@@ -4722,7 +4755,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=7
 					}
 				}
 				reserves=1
@@ -4733,29 +4766,18 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
 			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:AMS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4766,7 +4788,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4777,7 +4799,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -4788,7 +4810,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=7
 					}
 				}
 				reserves=1
@@ -4803,7 +4825,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
@@ -4814,7 +4836,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -4825,7 +4847,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=6
 					}
 				}
 				reserves=1
@@ -4836,7 +4858,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=7
 					}
 				}
 				reserves=1
@@ -4847,7 +4869,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4858,22 +4880,11 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:AMS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
 			}
 			create_building={
 				building="building_port"
@@ -4891,7 +4902,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=7
 					}
 				}
 				reserves=1
@@ -4902,7 +4913,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4913,7 +4924,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4928,7 +4939,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4939,7 +4950,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4950,7 +4961,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -4961,7 +4972,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4972,7 +4983,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -4983,7 +4994,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -4994,7 +5005,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=6
 					}
 				}
 				reserves=1
@@ -5005,7 +5016,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -5016,7 +5027,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=7
 					}
 				}
 				reserves=1
@@ -5027,7 +5038,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5038,29 +5049,18 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:AMS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
 				building="building_coal_mine"
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=8
 					}
 				}
 				reserves=1
@@ -5071,7 +5071,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5086,7 +5086,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -5097,7 +5097,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -5108,7 +5108,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=6
 					}
 				}
 				reserves=1
@@ -5119,7 +5119,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -5130,7 +5130,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -5141,7 +5141,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=6
 					}
 				}
 				reserves=1
@@ -5152,7 +5152,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5163,7 +5163,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -5174,7 +5174,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5185,7 +5185,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
@@ -5196,7 +5196,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=7
 					}
 				}
 				reserves=1
@@ -5207,7 +5207,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -5218,7 +5218,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=9
 					}
 				}
 				reserves=1
@@ -5229,7 +5229,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -5240,7 +5240,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -5251,29 +5251,18 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:AMS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
 				building="building_lead_mine"
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -5288,18 +5277,29 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
+				building="building_motor_industry"
+				add_ownership={
+					country={
+						country="c:AMS"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={  }
+			}
+			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -5310,7 +5310,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5321,7 +5321,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5332,7 +5332,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -5343,7 +5343,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=8
 					}
 				}
 				reserves=1
@@ -5354,7 +5354,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -5365,7 +5365,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=7
 					}
 				}
 				reserves=1
@@ -5376,7 +5376,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -5387,18 +5387,18 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=6
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
+				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_increased_hardwood" }
 			}
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5409,7 +5409,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=6
 					}
 				}
 				reserves=1
@@ -5420,7 +5420,7 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -5431,22 +5431,11 @@
 				add_ownership={
 					country={
 						country="c:AMS"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:AMS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
 			}
 			create_building={
 				building="building_port"
@@ -5456,7 +5445,7 @@
 						levels=1
 					}
 				}
-				reserves=1
+				reserves=2
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
@@ -7183,7 +7172,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=10
 					}
 				}
 				reserves=1
@@ -7194,7 +7183,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -7205,7 +7194,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -7216,7 +7205,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -7227,7 +7216,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -7238,7 +7227,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -7249,7 +7238,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=11
 					}
 				}
 				reserves=1
@@ -7260,7 +7249,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -7271,7 +7260,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -7282,7 +7271,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -7293,7 +7282,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -7304,7 +7293,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
@@ -7315,7 +7304,7 @@
 				add_ownership={
 					country={
 						country="c:HAM"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
